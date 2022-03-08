@@ -1,18 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-export const Title = (props) => {
-    const {title, subTitle} = props;
-    return(
-        <>
-            <SFlex>
-                <STitle>{title}</STitle>
-                <SSubTitle>{subTitle}</SSubTitle>
-            </SFlex>
-        </>
-    )
-}
-
 const SFlex = styled.div`
     display: flex;
     flex-direction: column;
@@ -29,6 +17,7 @@ const STitle = styled.h2`
     letter-spacing: 0.2em;
     margin-bottom: 10px;
     color: #d7d0ca;
+    mix-blend-mode: difference;
     font-family: 'Source Sans Pro', sans-serif;
 
     @media screen and (max-width: 520px) {
@@ -41,6 +30,7 @@ const SSubTitle = styled.p`
     font-size: 1.4rem;
     margin-bottom: 30px;
     color: #d7d0ca;
+    mix-blend-mode: difference;
 
     @media screen and (max-width: 520px) {
         font-size: 1.2rem;
@@ -56,9 +46,22 @@ const SSubTitle = styled.p`
         margin-right: 10px;
         margin-bottom: 6px;
         background-color: #d7d0ca;
+        mix-blend-mode: difference;
 
         @media screen and (max-width: 520px) {
             width: 60px;
         }
     }
 `
+
+export const Title = (props) => {
+    const {title, subTitle} = props;
+    return(
+        <>
+            <SFlex>
+                <STitle>{title}</STitle>
+                <SSubTitle>{subTitle}</SSubTitle>
+            </SFlex>
+        </>
+    )
+}

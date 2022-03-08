@@ -1,15 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-export const SkillsCont = (props) => {
-    const {icon, title} = props;
-    return(
-        <SSkill>
-            {icon}
-            <SSkillTitle>{title}</SSkillTitle>
-        </SSkill>
-    )
-}
 const SSkill = styled.div`
     display: flex;
     align-items: center;
@@ -35,3 +26,13 @@ const SSkillTitle = styled.p`
         font-size: 1.4rem;
     }
 `
+
+export const SkillsCont = (props) => {
+    const {icon, title} = props;
+    return(
+        <SSkill>
+            {icon}
+            <SSkillTitle>{title}</SSkillTitle>
+        </SSkill>
+    )
+}

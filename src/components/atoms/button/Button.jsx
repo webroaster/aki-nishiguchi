@@ -1,13 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-export const Button = (props) => {
-    const {url, children} = props;
-    return(
-        <SFvButton href={url}>{children}</SFvButton>
-    )
-}
-
 const SFvButton = styled.a`
     margin-top: 40px;
     border-radius: 12px;
@@ -37,3 +30,10 @@ const SFvButton = styled.a`
         color: #212529;
     }
 `
+
+export const Button = (props) => {
+    const {url, children} = props;
+    return(
+        <SFvButton href={url}>{children}</SFvButton>
+    )
+}

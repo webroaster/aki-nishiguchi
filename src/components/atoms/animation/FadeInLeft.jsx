@@ -3,6 +3,13 @@ import styled from "styled-components";
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
+const SWrap = styled.div`
+    width: 48%;
+    @media screen and (max-width: 520px) {
+        width: 100%;
+    }
+`
+
 export const FadeInLeft = (props) => {
     const {children} = props;
 
@@ -31,9 +38,3 @@ export const FadeInLeft = (props) => {
         </SWrap>
     )
 }
-const SWrap = styled.div`
-    width: 48%;
-    @media screen and (max-width: 520px) {
-        width: 100%;
-    }
-`

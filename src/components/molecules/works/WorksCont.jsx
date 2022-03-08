@@ -1,18 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-export const WorksCont = (props) => {
-    const {worksImg, title, text, url} = props;
-    return(
-        <SCont href={url} target="_blank" rel="noopener noreferrer">
-            {worksImg}
-            <div>
-                <h3>{title}</h3>
-                {text}
-            </div>
-        </SCont>
-    )
-}
 const SCont = styled.a`
 display: block;
 position: relative;
@@ -97,3 +85,16 @@ transition: 0.2s ease-in-out;
     }
 }
 `
+
+export const WorksCont = (props) => {
+    const {worksImg, title, text, url} = props;
+    return(
+        <SCont href={url} target="_blank" rel="noopener noreferrer">
+            {worksImg}
+            <div>
+                <h3>{title}</h3>
+                {text}
+            </div>
+        </SCont>
+    )
+}

@@ -1,19 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-export const ServiceCont = (props) => {
-    const {title, text, icon} = props;
-    return(
-        <SServiceCont>
-            <SIcon>
-                {icon}
-            </SIcon>
-            <STitle>{title}</STitle>
-            <SLine></SLine>
-            {text}
-        </SServiceCont>
-    )
-}
 const SServiceCont = styled.div`
     display: flex;
     flex-direction: column;
@@ -54,3 +41,17 @@ const SLine = styled.span`
     width: 30px;
     transition: 0.2s ease-in-out;
 `
+
+export const ServiceCont = (props) => {
+    const {title, text, icon} = props;
+    return(
+        <SServiceCont>
+            <SIcon>
+                {icon}
+            </SIcon>
+            <STitle>{title}</STitle>
+            <SLine></SLine>
+            {text}
+        </SServiceCont>
+    )
+}

@@ -1,13 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-export const SecondaryTitle = (props) => {
-    const {title} = props;
-    return(
-        <STitle>{title}</STitle>
-    )
-}
-
 const STitle = styled.h2`
     position: relative;
     font-size: 2.2rem;
@@ -31,3 +24,10 @@ const STitle = styled.h2`
         border-radius: 5px;
     }
 `
+
+export const SecondaryTitle = (props) => {
+    const {title} = props;
+    return(
+        <STitle>{title}</STitle>
+    )
+}

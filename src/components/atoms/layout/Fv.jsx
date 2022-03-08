@@ -3,30 +3,6 @@ import styled from "styled-components";
 
 import { Button } from '../button/Button';
 
-export const Fv = () => {
-    return(
-        <SFv>
-            <style>
-                {`
-                    @keyframes FadeIn {
-                        0% {
-                            opacity: 0;
-                        }
-                        100% {
-                            opacity: 100;
-                        }
-                    }
-                `}
-            </style>
-            <SFvLogo>
-                <SFvTitle>AKI NISHIGUCHI</SFvTitle>
-                <SFvSubTitle>Web Engineer</SFvSubTitle>
-                <Button url={"/#service"}>サービス内容はこちら</Button>
-            </SFvLogo>
-        </SFv>
-    )
-}
-
 const SFv = styled.div`
     position: relative;
     height: 700px;
@@ -94,3 +70,27 @@ const SFvButton = styled(Button)`
     animation-fill-mode:forwards;
     animation-delay: 1s;
 `
+
+export const Fv = () => {
+    return(
+        <SFv>
+            <style>
+                {`
+                    @keyframes FadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 100;
+                        }
+                    }
+                `}
+            </style>
+            <SFvLogo>
+                <SFvTitle>AKI NISHIGUCHI</SFvTitle>
+                <SFvSubTitle>Web Engineer</SFvSubTitle>
+                <Button url={"/#service"}>サービス内容はこちら</Button>
+            </SFvLogo>
+        </SFv>
+    )
+}

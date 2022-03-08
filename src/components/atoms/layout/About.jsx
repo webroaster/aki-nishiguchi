@@ -3,22 +3,6 @@ import styled from "styled-components";
 import { ProfileText } from '../../organisms/about/ProfileText';
 import { FadeUp } from '../animation/FadeUp';
 
-export const About = () => {
-    return(
-        <SSection>
-            <SContainer id="about">
-                <SFlex>
-                    <FadeUp>
-                        <SProfileImage>
-                            <img src="/static/68e54e20cfb66ea5cf478e338183404b/profile.jpg" alt="自己紹介写真" />
-                        </SProfileImage>
-                    </FadeUp>
-                    <ProfileText />
-                </SFlex>
-            </SContainer>
-        </SSection>
-    )
-}
 const SSection = styled.section`
     background-color: #fff;
 `
@@ -51,3 +35,20 @@ const SProfileImage = styled.div`
         height: 100%;
     }
 `
+
+export const About = () => {
+    return(
+        <SSection>
+            <SContainer id="about">
+                <SFlex>
+                    <FadeUp>
+                        <SProfileImage>
+                            <img src="/static/68e54e20cfb66ea5cf478e338183404b/profile.jpg" alt="自己紹介写真" />
+                        </SProfileImage>
+                    </FadeUp>
+                    <ProfileText />
+                </SFlex>
+            </SContainer>
+        </SSection>
+    )
+}

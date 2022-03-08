@@ -3,25 +3,6 @@ import styled from "styled-components";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 
-export const Text = () => {
-    return(
-        <>
-            <SSnsWrap>
-                <SName>西口　諒</SName>
-                <a href="https://twitter.com/web_roaster" target="_blank" rel="noopener noreferrer">
-                    <SSfontAwesomeIcon icon={faTwitterSquare} />
-                </a>
-            </SSnsWrap>
-            <SText>
-                <span>「責任感」</span> <span>「コミュニケーション」</span><br />
-                が私のモットーであり、これを特に大切にクライアント様のお手伝いをさせていただきます。<br />
-                <br />
-                福岡県を拠点にWeb制作と、コーヒー豆屋さんとして活動しております。
-            </SText>
-        </>
-    )
-}
-
 const SSnsWrap = styled.div`
     display: flex;
     align-items: center;
@@ -48,3 +29,22 @@ const SText = styled.p`
         background: linear-gradient(transparent 70%,#E5BB09 70%);
     }
 `
+
+export const Text = () => {
+    return(
+        <>
+            <SSnsWrap>
+                <SName>西口　諒</SName>
+                <a href="https://twitter.com/web_roaster" target="_blank" rel="noopener noreferrer">
+                    <SSfontAwesomeIcon icon={faTwitterSquare} />
+                </a>
+            </SSnsWrap>
+            <SText>
+                <span>「責任感」</span> <span>「コミュニケーション」</span><br />
+                が私のモットーであり、これを特に大切にクライアント様のお手伝いをさせていただきます。<br />
+                <br />
+                福岡県を拠点にWeb制作と、コーヒー豆屋さんとして活動しております。
+            </SText>
+        </>
+    )
+}

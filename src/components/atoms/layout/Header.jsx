@@ -2,39 +2,6 @@ import React from 'react';
 import styled from "styled-components";
 import { Hamburger } from '../../molecules/header/Hamburger';
 
-export const Header = () => {
-    return(
-        <SHeader id="header">
-            <div className="container">
-                <h1>Aki Nishiguchi - Portfolio site</h1>
-                <nav className="pc">
-                    <ul>
-                        <li>
-                            <a href="/#about">ABOUT</a>
-                        </li>
-                        <li>
-                            <a href="/#service">SERVICE</a>
-                        </li>
-                        <li>
-                            <a href="/#skills">SKILLS</a>
-                        </li>
-                        <li>
-                            <a href="/#works">WORKS</a>
-                        </li>
-                        <li>
-                            <a href="/#fee">FEE</a>
-                        </li>
-                        <li>
-                            <a href="/#contact">CONTACT</a>
-                        </li>
-                    </ul>
-                </nav>
-                <Hamburger />
-            </div>
-        </SHeader>
-    )
-}
-
 const SHeader = styled.header`
     width: 100vw;
     position: fixed;
@@ -100,3 +67,36 @@ const SHeader = styled.header`
         }
     }
 `;
+
+export const Header = () => {
+    return(
+        <SHeader id="header">
+            <div className="container">
+                <h1>Aki Nishiguchi - Portfolio site</h1>
+                <nav className="pc">
+                    <ul>
+                        <li>
+                            <a href="/#about">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="/#service">SERVICE</a>
+                        </li>
+                        <li>
+                            <a href="/#skills">SKILLS</a>
+                        </li>
+                        <li>
+                            <a href="/#works">WORKS</a>
+                        </li>
+                        <li>
+                            <a href="/#fee">FEE</a>
+                        </li>
+                        <li>
+                            <a href="/#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+                <Hamburger />
+            </div>
+        </SHeader>
+    )
+}

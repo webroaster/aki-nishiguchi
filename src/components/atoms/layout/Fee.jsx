@@ -3,57 +3,6 @@ import styled from "styled-components";
 import { Title } from '../title/Title';
 import { SecondaryTitle } from "../title/SecondaryTitle";
 
-export const Fee = () => {
-    return(
-        <SSection id="fee">
-            <SContainer>
-                <Title title={"Fee"} subTitle={"料金について"} />
-                <SecondaryTitle title={"WordPress制作"} />
-                <STable>
-                    <tbody>
-                        <tr>
-                            <td>WordPress制作｜トップページ+下層3ページ</td>
-                            <td>100,000円～</td>
-                        </tr>
-                        <tr>
-                            <td>WordPress制作｜ブログ機能あり</td>
-                            <td>130,000円～</td>
-                        </tr>
-                        <tr>
-                            <td>WordPress｜ トップページ</td>
-                            <td>70,000円～</td>
-                        </tr>
-                    </tbody>
-                </STable>
-                <SecondaryTitle title={"マークアップ系（デザイン業務なし）"} />
-                <STable>
-                    <tbody>
-                        <tr>
-                            <td>HTMLコーディング｜ トップページ</td>
-                            <td>25,000円～</td>
-                        </tr>
-                        <tr>
-                            <td>コーディング｜ 下層ページ （１ページあたり）</td>
-                            <td>8,000円～</td>
-                        </tr>
-                        <tr>
-                            <td>LPコーディング</td>
-                            <td>30,000円～</td>
-                        </tr>
-                    </tbody>
-                </STable>
-                <SText>
-                    ※料金は実装内容によって異なるため、あくまでも目安になります。<br />
-                    詳細な金額についてはご相談したいと考えております。
-                </SText>
-                <SText>
-                    ※コーディングは基本的にレスポンシブコーディングを想定しております。<br />
-                    （スマートフォンやタブレットの画面サイズに対応されたコーディングの事です。）
-                </SText>
-            </SContainer>
-        </SSection>
-    )
-}
 const SSection = styled.section`
     position: relative;
     background-color: #f3f4f4;
@@ -112,3 +61,55 @@ const SText = styled.p`
         font-size: 1.2rem;
     }
 `
+
+export const Fee = () => {
+    return(
+        <SSection id="fee">
+            <SContainer>
+                <Title title={"Fee"} subTitle={"料金について"} />
+                <SecondaryTitle title={"WordPress制作"} />
+                <STable>
+                    <tbody>
+                        <tr>
+                            <td>WordPress制作｜トップページ+下層3ページ</td>
+                            <td>100,000円～</td>
+                        </tr>
+                        <tr>
+                            <td>WordPress制作｜ブログ機能あり</td>
+                            <td>130,000円～</td>
+                        </tr>
+                        <tr>
+                            <td>WordPress｜ トップページ</td>
+                            <td>70,000円～</td>
+                        </tr>
+                    </tbody>
+                </STable>
+                <SecondaryTitle title={"マークアップ系（デザイン業務なし）"} />
+                <STable>
+                    <tbody>
+                        <tr>
+                            <td>HTMLコーディング｜ トップページ</td>
+                            <td>25,000円～</td>
+                        </tr>
+                        <tr>
+                            <td>コーディング｜ 下層ページ （１ページあたり）</td>
+                            <td>8,000円～</td>
+                        </tr>
+                        <tr>
+                            <td>LPコーディング</td>
+                            <td>30,000円～</td>
+                        </tr>
+                    </tbody>
+                </STable>
+                <SText>
+                    ※料金は実装内容によって異なるため、あくまでも目安になります。<br />
+                    詳細な金額についてはご相談したいと考えております。
+                </SText>
+                <SText>
+                    ※コーディングは基本的にレスポンシブコーディングを想定しております。<br />
+                    （スマートフォンやタブレットの画面サイズに対応されたコーディングの事です。）
+                </SText>
+            </SContainer>
+        </SSection>
+    )
+}

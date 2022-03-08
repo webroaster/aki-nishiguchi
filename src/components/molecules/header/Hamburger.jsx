@@ -1,45 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-export const Hamburger = () => {
-    const onClickHamburgerBtb = () => {
-        const header = document.getElementById('header');
-        const headerBtn = document.getElementById('hamburgerBtn');
-        const hamburgerItem = document.getElementById('headerItem');
-        header.classList.toggle('active');
-        headerBtn.classList.toggle('active');
-        hamburgerItem.classList.toggle('active');
-    }
-    return(
-        <>
-            <SHamburgerBtn id="hamburgerBtn" onClick={onClickHamburgerBtb}>
-                <span></span><span></span><span></span>
-            </SHamburgerBtn>
-            <SHamburgerNav id="headerItem">
-                <ul>
-                    <li>
-                        <a href="/#about" onClick={onClickHamburgerBtb}>ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="/#service" onClick={onClickHamburgerBtb}>SERVICE</a>
-                    </li>
-                    <li>
-                        <a href="/#skills" onClick={onClickHamburgerBtb}>SKILLS</a>
-                    </li>
-                    <li>
-                        <a href="/#works" onClick={onClickHamburgerBtb}>WORKS</a>
-                    </li>
-                    <li>
-                        <a href="/#fee" onClick={onClickHamburgerBtb}>FEE</a>
-                    </li>
-                    <li>
-                        <a href="/#contact" onClick={onClickHamburgerBtb}>CONTACT</a>
-                    </li>
-                </ul>
-            </SHamburgerNav>
-        </>
-    )
-}
 const SHamburgerBtn = styled.button`
     display: none;
     position: relative;
@@ -134,3 +95,43 @@ const SHamburgerNav = styled.nav`
         }
     }
 `
+
+export const Hamburger = () => {
+    const onClickHamburgerBtb = () => {
+        const header = document.getElementById('header');
+        const headerBtn = document.getElementById('hamburgerBtn');
+        const hamburgerItem = document.getElementById('headerItem');
+        header.classList.toggle('active');
+        headerBtn.classList.toggle('active');
+        hamburgerItem.classList.toggle('active');
+    }
+    return(
+        <>
+            <SHamburgerBtn id="hamburgerBtn" onClick={onClickHamburgerBtb}>
+                <span></span><span></span><span></span>
+            </SHamburgerBtn>
+            <SHamburgerNav id="headerItem">
+                <ul>
+                    <li>
+                        <a href="/#about" onClick={onClickHamburgerBtb}>ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="/#service" onClick={onClickHamburgerBtb}>SERVICE</a>
+                    </li>
+                    <li>
+                        <a href="/#skills" onClick={onClickHamburgerBtb}>SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="/#works" onClick={onClickHamburgerBtb}>WORKS</a>
+                    </li>
+                    <li>
+                        <a href="/#fee" onClick={onClickHamburgerBtb}>FEE</a>
+                    </li>
+                    <li>
+                        <a href="/#contact" onClick={onClickHamburgerBtb}>CONTACT</a>
+                    </li>
+                </ul>
+            </SHamburgerNav>
+        </>
+    )
+}

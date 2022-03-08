@@ -1,14 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-export const Footer = () => {
-    return(
-        <SFooter>
-            <small>2020 Aki Nishiguchi</small>
-        </SFooter>
-    )
-}
-
 const SFooter = styled.footer`
     width: 100%;
     background-color: #282F35;
@@ -20,3 +12,11 @@ const SFooter = styled.footer`
         font-size: 80%;
     }
 `;
+
+export const Footer = () => {
+    return(
+        <SFooter>
+            <small>2020 Aki Nishiguchi</small>
+        </SFooter>
+    )
+}

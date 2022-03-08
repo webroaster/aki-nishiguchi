@@ -5,23 +5,6 @@ import { faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 
 import { Title } from '../title/Title';
 
-export const Contact = () => {
-    return(
-        <SSection id="contact">
-            <SContainer>
-                <Title title={"Contact"} subTitle={"お気軽にお問合せください"} />
-                <SText>
-                    お問い合わせは現在TwitterのDMからのみ受け付けております。<br />
-                    当サイトからの問い合わせと言う事と、お問合せ内容を記載の上送信お願い申し上げます。
-                </SText>
-                <SFlex href="https://twitter.com/web_roaster" target="_blank" rel="noopener noreferrer">
-                    <SSfontAwesomeIcon icon={faTwitterSquare} />
-                    <span>Click</span>
-                </SFlex>
-            </SContainer>
-        </SSection>
-    )
-}
 const SSection = styled.section`
     position: relative;
     background: #fff;
@@ -67,3 +50,21 @@ const SFlex = styled.a`
         margin-left: 30px;
     }
 `
+
+export const Contact = () => {
+    return(
+        <SSection id="contact">
+            <SContainer>
+                <Title title={"Contact"} subTitle={"お気軽にお問合せください"} />
+                <SText>
+                    お問い合わせは現在TwitterのDMからのみ受け付けております。<br />
+                    当サイトからの問い合わせと言う事と、お問合せ内容を記載の上送信お願い申し上げます。
+                </SText>
+                <SFlex href="https://twitter.com/web_roaster" target="_blank" rel="noopener noreferrer">
+                    <SSfontAwesomeIcon icon={faTwitterSquare} />
+                    <span>Click</span>
+                </SFlex>
+            </SContainer>
+        </SSection>
+    )
+}
