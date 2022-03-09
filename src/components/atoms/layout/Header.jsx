@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Hamburger } from '../../molecules/header/Hamburger';
 
 const SHeader = styled.header`
@@ -76,22 +77,22 @@ export const Header = () => {
                 <nav className="pc">
                     <ul>
                         <li>
-                            <a href="/#about">ABOUT</a>
+                            <AnchorLink href="#about">ABOUT</AnchorLink>
                         </li>
                         <li>
-                            <a href="/#service">SERVICE</a>
+                            <AnchorLink href="#service">SERVICE</AnchorLink>
                         </li>
                         <li>
-                            <a href="/#skills">SKILLS</a>
+                            <AnchorLink href="#skills">SKILLS</AnchorLink>
                         </li>
                         <li>
-                            <a href="/#works">WORKS</a>
+                            <AnchorLink href="#works">WORKS</AnchorLink>
                         </li>
                         <li>
-                            <a href="/#fee">FEE</a>
+                            <AnchorLink href="#fee">FEE</AnchorLink>
                         </li>
                         <li>
-                            <a href="/#contact">CONTACT</a>
+                            <AnchorLink href="#contact">CONTACT</AnchorLink>
                         </li>
                     </ul>
                 </nav>
