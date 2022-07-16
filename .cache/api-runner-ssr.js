@@ -1,6 +1,10 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/Users/akinishiguchi/aki-nishiguchi/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      plugin: require('/Users/akinishiguchi/Downloads/aki-nishiguchi/node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js'),
+      options: {"plugins":[]},
+    },{
+      name: 'partytown',
+      plugin: require('/Users/akinishiguchi/Downloads/aki-nishiguchi/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 /* global plugins */

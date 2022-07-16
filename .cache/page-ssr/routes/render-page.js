@@ -1,6 +1,340 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/gatsby-script/dist/gatsby-script.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/gatsby-script/dist/gatsby-script.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Script": () => (/* binding */ Script),
+/* harmony export */   "ScriptStrategy": () => (/* binding */ ScriptStrategy),
+/* harmony export */   "scriptCache": () => (/* binding */ scriptCache),
+/* harmony export */   "scriptCallbackCache": () => (/* binding */ scriptCallbackCache)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _partytown_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./partytown-context */ "./node_modules/gatsby-script/dist/partytown-context.js");
+/* harmony import */ var _request_idle_callback_shim__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./request-idle-callback-shim */ "./node_modules/gatsby-script/dist/request-idle-callback-shim.js");
+
+
+
+
+let ScriptStrategy; // eslint-disable-next-line @typescript-eslint/naming-convention
+
+(function (ScriptStrategy) {
+  ScriptStrategy["postHydrate"] = "post-hydrate";
+  ScriptStrategy["idle"] = "idle";
+  ScriptStrategy["offMainThread"] = "off-main-thread";
+})(ScriptStrategy || (ScriptStrategy = {}));
+
+const handledProps = new Set([`src`, `strategy`, `dangerouslySetInnerHTML`, `children`, `onLoad`, `onError`]);
+const scriptCache = new Set();
+const scriptCallbackCache = new Map();
+function Script(props) {
+  const {
+    id,
+    src,
+    strategy = ScriptStrategy.postHydrate
+  } = props || {};
+  const {
+    collectScript
+  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(_partytown_context__WEBPACK_IMPORTED_MODULE_2__.PartytownContext);
+  (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(() => {
+    let details;
+
+    switch (strategy) {
+      case ScriptStrategy.postHydrate:
+        details = injectScript(props);
+        break;
+
+      case ScriptStrategy.idle:
+        (0,_request_idle_callback_shim__WEBPACK_IMPORTED_MODULE_3__.requestIdleCallback)(() => {
+          details = injectScript(props);
+        });
+        break;
+
+      case ScriptStrategy.offMainThread:
+        if (collectScript) {
+          const attributes = resolveAttributes(props);
+          collectScript(attributes);
+        }
+
+        break;
+    }
+
+    return () => {
+      const {
+        script,
+        loadCallback,
+        errorCallback
+      } = details || {};
+
+      if (loadCallback) {
+        script === null || script === void 0 ? void 0 : script.removeEventListener(`load`, loadCallback);
+      }
+
+      if (errorCallback) {
+        script === null || script === void 0 ? void 0 : script.removeEventListener(`error`, errorCallback);
+      }
+
+      script === null || script === void 0 ? void 0 : script.remove();
+    };
+  }, []);
+
+  if (strategy === ScriptStrategy.offMainThread) {
+    const inlineScript = resolveInlineScript(props);
+    const attributes = resolveAttributes(props);
+
+    if (typeof window === `undefined`) {
+      if (collectScript) {
+        collectScript(attributes);
+      } else {
+        console.warn(`Unable to collect off-main-thread script '${id || src || `no-id-or-src`}' for configuration with Partytown.\nGatsby script components must be used either as a child of your page, in wrapPageElement, or wrapRootElement.\nSee https://gatsby.dev/gatsby-script for more information.`);
+      }
+    }
+
+    if (inlineScript) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("script", _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
+        type: "text/partytown",
+        "data-strategy": strategy,
+        crossOrigin: "anonymous"
+      }, attributes, {
+        dangerouslySetInnerHTML: {
+          __html: resolveInlineScript(props)
+        }
+      }));
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("script", _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
+      type: "text/partytown",
+      src: proxyPartytownUrl(src),
+      "data-strategy": strategy,
+      crossOrigin: "anonymous"
+    }, attributes));
+  }
+
+  return null;
+}
+
+function injectScript(props) {
+  const {
+    id,
+    src,
+    strategy = ScriptStrategy.postHydrate,
+    onLoad,
+    onError
+  } = props || {};
+  const scriptKey = id || src;
+  const callbackNames = [`load`, `error`];
+  const currentCallbacks = {
+    load: onLoad,
+    error: onError
+  };
+
+  if (scriptKey) {
+    /**
+     * If a duplicate script is already loaded/errored, we replay load/error callbacks with the original event.
+     * If it's not yet loaded/errored, keep track of callbacks so we can call load/error callbacks for each when the event occurs.
+     */
+    for (const name of callbackNames) {
+      if (currentCallbacks !== null && currentCallbacks !== void 0 && currentCallbacks[name]) {
+        var _cachedCallbacks$name;
+
+        const cachedCallbacks = scriptCallbackCache.get(scriptKey) || {};
+        const {
+          callbacks = []
+        } = (cachedCallbacks === null || cachedCallbacks === void 0 ? void 0 : cachedCallbacks[name]) || {};
+        callbacks.push(currentCallbacks === null || currentCallbacks === void 0 ? void 0 : currentCallbacks[name]);
+
+        if (cachedCallbacks !== null && cachedCallbacks !== void 0 && (_cachedCallbacks$name = cachedCallbacks[name]) !== null && _cachedCallbacks$name !== void 0 && _cachedCallbacks$name.event) {
+          var _currentCallbacks$nam, _cachedCallbacks$name2;
+
+          currentCallbacks === null || currentCallbacks === void 0 ? void 0 : (_currentCallbacks$nam = currentCallbacks[name]) === null || _currentCallbacks$nam === void 0 ? void 0 : _currentCallbacks$nam.call(currentCallbacks, cachedCallbacks === null || cachedCallbacks === void 0 ? void 0 : (_cachedCallbacks$name2 = cachedCallbacks[name]) === null || _cachedCallbacks$name2 === void 0 ? void 0 : _cachedCallbacks$name2.event);
+        } else {
+          scriptCallbackCache.set(scriptKey, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({}, cachedCallbacks, {
+            [name]: {
+              callbacks
+            }
+          }));
+        }
+      }
+    } // Avoid injecting duplicate scripts into the DOM
+
+
+    if (scriptCache.has(scriptKey)) {
+      return null;
+    }
+  }
+
+  const inlineScript = resolveInlineScript(props);
+  const attributes = resolveAttributes(props);
+  const script = document.createElement(`script`);
+
+  if (id) {
+    script.id = id;
+  }
+
+  script.dataset.strategy = strategy;
+
+  for (const [key, value] of Object.entries(attributes)) {
+    script.setAttribute(key, value);
+  }
+
+  if (inlineScript) {
+    script.textContent = inlineScript;
+  }
+
+  if (src) {
+    script.src = src;
+  }
+
+  const wrappedCallbacks = {};
+
+  if (scriptKey) {
+    // Add listeners on injected scripts so events are cached for use in de-duplicated script callbacks
+    for (const name of callbackNames) {
+      const wrappedEventCallback = event => onEventCallback(event, scriptKey, name);
+
+      script.addEventListener(name, wrappedEventCallback);
+      wrappedCallbacks[`${name}Callback`] = wrappedEventCallback;
+    }
+
+    scriptCache.add(scriptKey);
+  }
+
+  document.body.appendChild(script);
+  return {
+    script,
+    loadCallback: wrappedCallbacks.loadCallback,
+    errorCallback: wrappedCallbacks.errorCallback
+  };
+}
+
+function resolveInlineScript(props) {
+  const {
+    dangerouslySetInnerHTML,
+    children = ``
+  } = props || {};
+  const {
+    __html: dangerousHTML = ``
+  } = dangerouslySetInnerHTML || {};
+  return dangerousHTML || children;
+}
+
+function resolveAttributes(props) {
+  const attributes = {};
+
+  for (const [key, value] of Object.entries(props)) {
+    if (handledProps.has(key)) {
+      continue;
+    }
+
+    attributes[key] = value;
+  }
+
+  return attributes;
+}
+
+function proxyPartytownUrl(url) {
+  if (!url) {
+    return undefined;
+  }
+
+  return `/__third-party-proxy?url=${encodeURIComponent(url)}`;
+}
+
+function onEventCallback(event, scriptKey, eventName) {
+  const cachedCallbacks = scriptCallbackCache.get(scriptKey) || {};
+
+  for (const callback of (cachedCallbacks === null || cachedCallbacks === void 0 ? void 0 : (_cachedCallbacks$even = cachedCallbacks[eventName]) === null || _cachedCallbacks$even === void 0 ? void 0 : _cachedCallbacks$even.callbacks) || []) {
+    var _cachedCallbacks$even;
+
+    callback(event);
+  }
+
+  scriptCallbackCache.set(scriptKey, {
+    [eventName]: {
+      event
+    }
+  });
+}
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-script/dist/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/gatsby-script/dist/index.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PartytownContext": () => (/* reexport safe */ _partytown_context__WEBPACK_IMPORTED_MODULE_1__.PartytownContext),
+/* harmony export */   "Script": () => (/* reexport safe */ _gatsby_script__WEBPACK_IMPORTED_MODULE_0__.Script),
+/* harmony export */   "ScriptStrategy": () => (/* reexport safe */ _gatsby_script__WEBPACK_IMPORTED_MODULE_0__.ScriptStrategy),
+/* harmony export */   "scriptCache": () => (/* reexport safe */ _gatsby_script__WEBPACK_IMPORTED_MODULE_0__.scriptCache),
+/* harmony export */   "scriptCallbackCache": () => (/* reexport safe */ _gatsby_script__WEBPACK_IMPORTED_MODULE_0__.scriptCallbackCache)
+/* harmony export */ });
+/* harmony import */ var _gatsby_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./gatsby-script */ "./node_modules/gatsby-script/dist/gatsby-script.js");
+/* harmony import */ var _partytown_context__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partytown-context */ "./node_modules/gatsby-script/dist/partytown-context.js");
+
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-script/dist/partytown-context.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/gatsby-script/dist/partytown-context.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PartytownContext": () => (/* binding */ PartytownContext)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+const PartytownContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)({});
+
+
+/***/ }),
+
+/***/ "./node_modules/gatsby-script/dist/request-idle-callback-shim.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/gatsby-script/dist/request-idle-callback-shim.js ***!
+  \***********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "requestIdleCallback": () => (/* binding */ requestIdleCallback)
+/* harmony export */ });
+// https://developer.chrome.com/blog/using-requestidlecallback/#checking-for-requestidlecallback
+// https://github.com/vercel/next.js/blob/canary/packages/next/client/request-idle-callback.ts
+const requestIdleCallback = typeof self !== `undefined` && self.requestIdleCallback && self.requestIdleCallback.bind(window) || function (cb) {
+  const start = Date.now();
+  return setTimeout(function () {
+    cb({
+      didTimeout: false,
+      timeRemaining: function () {
+        return Math.max(0, 50 - (Date.now() - start));
+      }
+    });
+  }, 1);
+};
+
+/***/ }),
+
 /***/ "./node_modules/gatsby/dist/internal-plugins/bundle-optimisations/polyfills/object-assign.js":
 /*!***************************************************************************************************!*\
   !*** ./node_modules/gatsby/dist/internal-plugins/bundle-optimisations/polyfills/object-assign.js ***!
@@ -12,6 +346,66 @@
 
 module.exports = Object.assign;
 //# sourceMappingURL=object-assign.js.map
+
+/***/ }),
+
+/***/ "./node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+exports.__esModule = true;
+exports.wrapRootElement = exports.onRenderBody = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
+
+var _react2 = __webpack_require__(/*! @builder.io/partytown/react */ "./node_modules/@builder.io/partytown/react/index.cjs");
+
+var _gatsbyScript = __webpack_require__(/*! gatsby-script */ "./node_modules/gatsby-script/dist/index.js");
+
+const collectedScripts = new Map();
+
+const wrapRootElement = ({
+  element,
+  pathname
+}) => /*#__PURE__*/_react.default.createElement(_gatsbyScript.PartytownContext.Provider, {
+  value: {
+    collectScript: newScript => {
+      const currentCollectedScripts = collectedScripts.get(pathname) || [];
+      currentCollectedScripts.push(newScript);
+      collectedScripts.set(pathname, currentCollectedScripts);
+    }
+  }
+}, element);
+
+exports.wrapRootElement = wrapRootElement;
+
+const onRenderBody = ({
+  pathname,
+  setHeadComponents
+}) => {
+  const collectedScriptsOnPage = collectedScripts.get(pathname);
+
+  if (!(collectedScriptsOnPage !== null && collectedScriptsOnPage !== void 0 && collectedScriptsOnPage.length)) {
+    return;
+  }
+
+  const collectedForwards = collectedScriptsOnPage === null || collectedScriptsOnPage === void 0 ? void 0 : collectedScriptsOnPage.flatMap(script => (script === null || script === void 0 ? void 0 : script.forward) || []);
+  setHeadComponents([/*#__PURE__*/_react.default.createElement(_react2.Partytown, {
+    key: "partytown",
+    forward: collectedForwards
+  })]);
+  collectedScripts.delete(pathname);
+};
+
+exports.onRenderBody = onRenderBody;
+//# sourceMappingURL=gatsby-ssr.js.map
 
 /***/ }),
 
@@ -43,6 +437,12 @@ __webpack_require__.r(__webpack_exports__);
 var plugins = [{
   name: 'gatsby-plugin-react-helmet',
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js */ "./node_modules/gatsby-plugin-react-helmet/gatsby-ssr.js"),
+  options: {
+    "plugins": []
+  }
+}, {
+  name: 'partytown',
+  plugin: __webpack_require__(/*! ./node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js */ "./node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js"),
   options: {
     "plugins": []
   }
@@ -3952,7 +4352,7 @@ module.exports = checkPropTypes;
 
 
 
-var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/prop-types/node_modules/react-is/index.js");
 var assign = __webpack_require__(/*! object-assign */ "./node_modules/gatsby/dist/internal-plugins/bundle-optimisations/polyfills/object-assign.js");
 
 var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
@@ -4571,7 +4971,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
  */
 
 if (true) {
-  var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+  var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/prop-types/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
@@ -4612,6 +5012,214 @@ module.exports = ReactPropTypesSecret;
 /***/ ((module) => {
 
 module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+// nor polyfill, then a plain number is used for performance.
+var hasSymbol = typeof Symbol === 'function' && Symbol.for;
+var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
+var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
+var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
+var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
+var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
+var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
+var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+// (unstable) APIs that have been removed. Can we remove the symbols?
+
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
+var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
+var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
+var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
+var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
+var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
+var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
+var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for('react.block') : 0xead9;
+var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
+var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
+var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
+
+function isValidElementType(type) {
+  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+}
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
+          case REACT_CONCURRENT_MODE_TYPE:
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+            return type;
+
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_LAZY_TYPE:
+              case REACT_MEMO_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+
+              default:
+                return $$typeof;
+            }
+
+        }
+
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+} // AsyncMode is deprecated along with isAsyncMode
+
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
+var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
+    }
+  }
+
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+}
+function isConcurrentMode(object) {
+  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+
+exports.AsyncMode = AsyncMode;
+exports.ConcurrentMode = ConcurrentMode;
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+exports.isValidElementType = isValidElementType;
+exports.typeOf = typeOf;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/node_modules/react-is/index.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/prop-types/node_modules/react-is/index.js ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js");
+}
 
 
 /***/ }),
@@ -4769,8 +5377,8 @@ module.exports = function isEqual(a, b) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "Helmet": () => (/* binding */ HelmetExport)
+/* harmony export */   "Helmet": () => (/* binding */ HelmetExport),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
@@ -5701,214 +6309,6 @@ HelmetExport.renderStatic = HelmetExport.rewind;
 
 /***/ }),
 
-/***/ "./node_modules/react-is/cjs/react-is.development.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-/** @license React v16.13.1
- * react-is.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-
-
-
-if (true) {
-  (function() {
-'use strict';
-
-// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
-// nor polyfill, then a plain number is used for performance.
-var hasSymbol = typeof Symbol === 'function' && Symbol.for;
-var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
-var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
-var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
-var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
-var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
-var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
-var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
-// (unstable) APIs that have been removed. Can we remove the symbols?
-
-var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
-var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
-var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
-var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
-var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
-var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
-var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
-var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for('react.block') : 0xead9;
-var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
-var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
-var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
-
-function isValidElementType(type) {
-  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
-  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
-}
-
-function typeOf(object) {
-  if (typeof object === 'object' && object !== null) {
-    var $$typeof = object.$$typeof;
-
-    switch ($$typeof) {
-      case REACT_ELEMENT_TYPE:
-        var type = object.type;
-
-        switch (type) {
-          case REACT_ASYNC_MODE_TYPE:
-          case REACT_CONCURRENT_MODE_TYPE:
-          case REACT_FRAGMENT_TYPE:
-          case REACT_PROFILER_TYPE:
-          case REACT_STRICT_MODE_TYPE:
-          case REACT_SUSPENSE_TYPE:
-            return type;
-
-          default:
-            var $$typeofType = type && type.$$typeof;
-
-            switch ($$typeofType) {
-              case REACT_CONTEXT_TYPE:
-              case REACT_FORWARD_REF_TYPE:
-              case REACT_LAZY_TYPE:
-              case REACT_MEMO_TYPE:
-              case REACT_PROVIDER_TYPE:
-                return $$typeofType;
-
-              default:
-                return $$typeof;
-            }
-
-        }
-
-      case REACT_PORTAL_TYPE:
-        return $$typeof;
-    }
-  }
-
-  return undefined;
-} // AsyncMode is deprecated along with isAsyncMode
-
-var AsyncMode = REACT_ASYNC_MODE_TYPE;
-var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
-var ContextConsumer = REACT_CONTEXT_TYPE;
-var ContextProvider = REACT_PROVIDER_TYPE;
-var Element = REACT_ELEMENT_TYPE;
-var ForwardRef = REACT_FORWARD_REF_TYPE;
-var Fragment = REACT_FRAGMENT_TYPE;
-var Lazy = REACT_LAZY_TYPE;
-var Memo = REACT_MEMO_TYPE;
-var Portal = REACT_PORTAL_TYPE;
-var Profiler = REACT_PROFILER_TYPE;
-var StrictMode = REACT_STRICT_MODE_TYPE;
-var Suspense = REACT_SUSPENSE_TYPE;
-var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
-
-function isAsyncMode(object) {
-  {
-    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
-
-      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
-    }
-  }
-
-  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
-}
-function isConcurrentMode(object) {
-  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
-}
-function isContextConsumer(object) {
-  return typeOf(object) === REACT_CONTEXT_TYPE;
-}
-function isContextProvider(object) {
-  return typeOf(object) === REACT_PROVIDER_TYPE;
-}
-function isElement(object) {
-  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-}
-function isForwardRef(object) {
-  return typeOf(object) === REACT_FORWARD_REF_TYPE;
-}
-function isFragment(object) {
-  return typeOf(object) === REACT_FRAGMENT_TYPE;
-}
-function isLazy(object) {
-  return typeOf(object) === REACT_LAZY_TYPE;
-}
-function isMemo(object) {
-  return typeOf(object) === REACT_MEMO_TYPE;
-}
-function isPortal(object) {
-  return typeOf(object) === REACT_PORTAL_TYPE;
-}
-function isProfiler(object) {
-  return typeOf(object) === REACT_PROFILER_TYPE;
-}
-function isStrictMode(object) {
-  return typeOf(object) === REACT_STRICT_MODE_TYPE;
-}
-function isSuspense(object) {
-  return typeOf(object) === REACT_SUSPENSE_TYPE;
-}
-
-exports.AsyncMode = AsyncMode;
-exports.ConcurrentMode = ConcurrentMode;
-exports.ContextConsumer = ContextConsumer;
-exports.ContextProvider = ContextProvider;
-exports.Element = Element;
-exports.ForwardRef = ForwardRef;
-exports.Fragment = Fragment;
-exports.Lazy = Lazy;
-exports.Memo = Memo;
-exports.Portal = Portal;
-exports.Profiler = Profiler;
-exports.StrictMode = StrictMode;
-exports.Suspense = Suspense;
-exports.isAsyncMode = isAsyncMode;
-exports.isConcurrentMode = isConcurrentMode;
-exports.isContextConsumer = isContextConsumer;
-exports.isContextProvider = isContextProvider;
-exports.isElement = isElement;
-exports.isForwardRef = isForwardRef;
-exports.isFragment = isFragment;
-exports.isLazy = isLazy;
-exports.isMemo = isMemo;
-exports.isPortal = isPortal;
-exports.isProfiler = isProfiler;
-exports.isStrictMode = isStrictMode;
-exports.isSuspense = isSuspense;
-exports.isValidElementType = isValidElementType;
-exports.typeOf = typeOf;
-  })();
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/react-is/index.js":
-/*!****************************************!*\
-  !*** ./node_modules/react-is/index.js ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
-}
-
-
-/***/ }),
-
 /***/ "./node_modules/react-side-effect/lib/index.js":
 /*!*****************************************************!*\
   !*** ./node_modules/react-side-effect/lib/index.js ***!
@@ -5982,7 +6382,9 @@ function withSideEffect(reducePropsToState, handleStateChangeOnClient, mapStateO
       }
     }
 
-    var SideEffect = /*#__PURE__*/function (_PureComponent) {
+    var SideEffect =
+    /*#__PURE__*/
+    function (_PureComponent) {
       _inheritsLoose(SideEffect, _PureComponent);
 
       function SideEffect() {
@@ -6024,7 +6426,7 @@ function withSideEffect(reducePropsToState, handleStateChangeOnClient, mapStateO
       };
 
       _proto.render = function render() {
-        return /*#__PURE__*/React__default.createElement(WrappedComponent, this.props);
+        return React__default.createElement(WrappedComponent, this.props);
       };
 
       return SideEffect;
@@ -6044,24 +6446,24 @@ module.exports = withSideEffect;
 /***/ }),
 
 /***/ "react-dom/server":
-/*!***************************************************************************************!*\
-  !*** external "/Users/akinishiguchi/aki-nishiguchi/node_modules/react-dom/server.js" ***!
-  \***************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** external "/Users/akinishiguchi/Downloads/aki-nishiguchi/node_modules/react-dom/server.js" ***!
+  \*************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/akinishiguchi/aki-nishiguchi/node_modules/react-dom/server.js");
+module.exports = require("/Users/akinishiguchi/Downloads/aki-nishiguchi/node_modules/react-dom/server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!**********************************************************************************!*\
-  !*** external "/Users/akinishiguchi/aki-nishiguchi/node_modules/react/index.js" ***!
-  \**********************************************************************************/
+/*!********************************************************************************************!*\
+  !*** external "/Users/akinishiguchi/Downloads/aki-nishiguchi/node_modules/react/index.js" ***!
+  \********************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/akinishiguchi/aki-nishiguchi/node_modules/react/index.js");
+module.exports = require("/Users/akinishiguchi/Downloads/aki-nishiguchi/node_modules/react/index.js");
 
 /***/ }),
 
@@ -6073,6 +6475,169 @@ module.exports = require("/Users/akinishiguchi/aki-nishiguchi/node_modules/react
 
 "use strict";
 module.exports = require("stream");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/extends.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/extends.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+function _extends() {
+  module.exports = _extends = Object.assign ? Object.assign.bind() : function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
+  return _extends.apply(this, arguments);
+}
+
+module.exports = _extends, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ "./node_modules/@builder.io/partytown/integration/index.cjs":
+/*!******************************************************************!*\
+  !*** ./node_modules/@builder.io/partytown/integration/index.cjs ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+
+const PartytownSnippet = "/* Partytown 0.5.4 - MIT builder.io */\n!function(t,e,n,i,r,o,a,d,s,c,p,l){function u(){l||(l=1,\"/\"==(a=(o.lib||\"/~partytown/\")+(o.debug?\"debug/\":\"\"))[0]&&(s=e.querySelectorAll('script[type=\"text/partytown\"]'),i!=t?i.dispatchEvent(new CustomEvent(\"pt1\",{detail:t})):(d=setTimeout(w,1e4),e.addEventListener(\"pt0\",f),r?h(1):n.serviceWorker?n.serviceWorker.register(a+(o.swPath||\"partytown-sw.js\"),{scope:a}).then((function(t){t.active?h():t.installing&&t.installing.addEventListener(\"statechange\",(function(t){\"activated\"==t.target.state&&h()}))}),console.error):w())))}function h(t){c=e.createElement(t?\"script\":\"iframe\"),t||(c.setAttribute(\"style\",\"display:block;width:0;height:0;border:0;visibility:hidden\"),c.setAttribute(\"aria-hidden\",!0)),c.src=a+\"partytown-\"+(t?\"atomics.js?v=0.5.4\":\"sandbox-sw.html?\"+Date.now()),e.body.appendChild(c)}function w(t,n){for(f(),t=0;t<s.length;t++)(n=e.createElement(\"script\")).innerHTML=s[t].innerHTML,e.head.appendChild(n);c&&c.parentNode.removeChild(c)}function f(){clearTimeout(d)}o=t.partytown||{},i==t&&(o.forward||[]).map((function(e){p=t,e.split(\".\").map((function(e,n,i){p=p[i[n]]=n+1<i.length?\"push\"==i[n+1]?[]:p[i[n]]||{}:function(){(t._ptf=t._ptf||[]).push(i,arguments)}}))})),\"complete\"==e.readyState?u():(t.addEventListener(\"DOMContentLoaded\",u),t.addEventListener(\"load\",u))}(window,document,navigator,top,window.crossOriginIsolated);";
+
+const createSnippet = (config, snippetCode) => {
+    const { forward = [], ...filteredConfig } = config || {};
+    const configStr = JSON.stringify(filteredConfig, (k, v) => {
+        if (typeof v === 'function') {
+            v = String(v);
+            if (v.startsWith(k + '(')) {
+                v = 'function ' + v;
+            }
+        }
+        return v;
+    });
+    return [
+        `!(function(w,p,f,c){`,
+        Object.keys(filteredConfig).length > 0
+            ? `c=w[p]=Object.assign(w[p]||{},${configStr});`
+            : `c=w[p]=w[p]||{};`,
+        `c[f]=(c[f]||[])`,
+        forward.length > 0 ? `.concat(${JSON.stringify(forward)})` : ``,
+        `})(window,'partytown','forward');`,
+        snippetCode,
+    ].join('');
+};
+
+/**
+ * The `type` attribute for Partytown scripts, which does two things:
+ *
+ * 1. Prevents the `<script>` from executing on the main thread.
+ * 2. Is used as a selector so the Partytown library can find all scripts to execute in a web worker.
+ *
+ * @public
+ */
+const SCRIPT_TYPE = `text/partytown`;
+
+/**
+ * Function that returns the Partytown snippet as a string, which can be
+ * used as the innerHTML of the inlined Partytown script in the head.
+ *
+ * @public
+ */
+const partytownSnippet = (config) => createSnippet(config, PartytownSnippet);
+
+exports.SCRIPT_TYPE = SCRIPT_TYPE;
+exports.partytownSnippet = partytownSnippet;
+
+
+/***/ }),
+
+/***/ "./node_modules/@builder.io/partytown/react/index.cjs":
+/*!************************************************************!*\
+  !*** ./node_modules/@builder.io/partytown/react/index.cjs ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+
+var React = __webpack_require__(/*! react */ "react");
+var index_cjs = __webpack_require__(/*! ../integration/index.cjs */ "./node_modules/@builder.io/partytown/integration/index.cjs");
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
+
+/**
+ * The React `<Partytown/>` component should be placed within the `<head>`
+ * of the document. This component should work for SSR/SSG only HTML
+ * (static HTML without javascript), clientside javascript only
+ * (entire React app is build with clientside javascript),
+ * and both SSR/SSG HTML that's then hydrated by the client.
+ *
+ * @public
+ */
+const Partytown = (props = {}) => {
+    // purposely not using useState() or useEffect() so this component
+    // can also work as a React Server Component
+    // this check is only be done on the client, and skipped over on the server
+    if (typeof document !== 'undefined' && !document._partytown) {
+        if (!document.querySelector('script[data-partytown]')) {
+            // the append script to document code should only run on the client
+            // and only if the SSR'd script doesn't already exist within the document.
+            // If the SSR'd script isn't found in the document, then this
+            // must be a clientside only render. Append the partytown script
+            // to the <head>.
+            const scriptElm = document.createElement('script');
+            scriptElm.dataset.partytown = '';
+            scriptElm.innerHTML = index_cjs.partytownSnippet(props);
+            document.head.appendChild(scriptElm);
+        }
+        // should only append this script once per document, and is not dynamic
+        document._partytown = true;
+    }
+    // `dangerouslySetInnerHTML` only works for scripts rendered as HTML from SSR.
+    // The added code will set the [type="data-pt-script"] attribute to the SSR rendered
+    // <script>. If this code renders as SSR HTML, then on the client it'll execute
+    // and add the attribute which will tell the Client JS of the component to NOT
+    // add the same script to the <head>.
+    const innerHTML = index_cjs.partytownSnippet(props) + 'document.currentScript.dataset.partytown="";';
+    return React__default["default"].createElement("script", { suppressHydrationWarning: true, dangerouslySetInnerHTML: { __html: innerHTML } });
+};
+
+exports.Partytown = Partytown;
+
 
 /***/ })
 
@@ -6096,7 +6661,7 @@ module.exports = require("stream");
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Flag the module as loaded
 /******/ 		module.loaded = true;

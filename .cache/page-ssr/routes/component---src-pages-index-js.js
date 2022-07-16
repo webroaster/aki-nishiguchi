@@ -2,10 +2,10 @@ exports.id = "component---src-pages-index-js";
 exports.ids = ["component---src-pages-index-js"];
 exports.modules = {
 
-/***/ "./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.esm.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.esm.js ***!
-  \***********************************************************************/
+/***/ "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js ***!
+  \*******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -13,12 +13,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _emotion_memoize__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/memoize */ "./node_modules/@emotion/memoize/dist/memoize.esm.js");
+/* harmony import */ var _emotion_memoize__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/memoize */ "./node_modules/@emotion/memoize/dist/emotion-memoize.esm.js");
 
 
-var reactPropsRegex = /^((children|dangerouslySetInnerHTML|key|ref|autoFocus|defaultValue|defaultChecked|innerHTML|suppressContentEditableWarning|suppressHydrationWarning|valueLink|accept|acceptCharset|accessKey|action|allow|allowUserMedia|allowPaymentRequest|allowFullScreen|allowTransparency|alt|async|autoComplete|autoPlay|capture|cellPadding|cellSpacing|challenge|charSet|checked|cite|classID|className|cols|colSpan|content|contentEditable|contextMenu|controls|controlsList|coords|crossOrigin|data|dateTime|decoding|default|defer|dir|disabled|disablePictureInPicture|download|draggable|encType|form|formAction|formEncType|formMethod|formNoValidate|formTarget|frameBorder|headers|height|hidden|high|href|hrefLang|htmlFor|httpEquiv|id|inputMode|integrity|is|keyParams|keyType|kind|label|lang|list|loading|loop|low|marginHeight|marginWidth|max|maxLength|media|mediaGroup|method|min|minLength|multiple|muted|name|nonce|noValidate|open|optimum|pattern|placeholder|playsInline|poster|preload|profile|radioGroup|readOnly|referrerPolicy|rel|required|reversed|role|rows|rowSpan|sandbox|scope|scoped|scrolling|seamless|selected|shape|size|sizes|slot|span|spellCheck|src|srcDoc|srcLang|srcSet|start|step|style|summary|tabIndex|target|title|type|useMap|value|width|wmode|wrap|about|datatype|inlist|prefix|property|resource|typeof|vocab|autoCapitalize|autoCorrect|autoSave|color|inert|itemProp|itemScope|itemType|itemID|itemRef|on|results|security|unselectable|accentHeight|accumulate|additive|alignmentBaseline|allowReorder|alphabetic|amplitude|arabicForm|ascent|attributeName|attributeType|autoReverse|azimuth|baseFrequency|baselineShift|baseProfile|bbox|begin|bias|by|calcMode|capHeight|clip|clipPathUnits|clipPath|clipRule|colorInterpolation|colorInterpolationFilters|colorProfile|colorRendering|contentScriptType|contentStyleType|cursor|cx|cy|d|decelerate|descent|diffuseConstant|direction|display|divisor|dominantBaseline|dur|dx|dy|edgeMode|elevation|enableBackground|end|exponent|externalResourcesRequired|fill|fillOpacity|fillRule|filter|filterRes|filterUnits|floodColor|floodOpacity|focusable|fontFamily|fontSize|fontSizeAdjust|fontStretch|fontStyle|fontVariant|fontWeight|format|from|fr|fx|fy|g1|g2|glyphName|glyphOrientationHorizontal|glyphOrientationVertical|glyphRef|gradientTransform|gradientUnits|hanging|horizAdvX|horizOriginX|ideographic|imageRendering|in|in2|intercept|k|k1|k2|k3|k4|kernelMatrix|kernelUnitLength|kerning|keyPoints|keySplines|keyTimes|lengthAdjust|letterSpacing|lightingColor|limitingConeAngle|local|markerEnd|markerMid|markerStart|markerHeight|markerUnits|markerWidth|mask|maskContentUnits|maskUnits|mathematical|mode|numOctaves|offset|opacity|operator|order|orient|orientation|origin|overflow|overlinePosition|overlineThickness|panose1|paintOrder|pathLength|patternContentUnits|patternTransform|patternUnits|pointerEvents|points|pointsAtX|pointsAtY|pointsAtZ|preserveAlpha|preserveAspectRatio|primitiveUnits|r|radius|refX|refY|renderingIntent|repeatCount|repeatDur|requiredExtensions|requiredFeatures|restart|result|rotate|rx|ry|scale|seed|shapeRendering|slope|spacing|specularConstant|specularExponent|speed|spreadMethod|startOffset|stdDeviation|stemh|stemv|stitchTiles|stopColor|stopOpacity|strikethroughPosition|strikethroughThickness|string|stroke|strokeDasharray|strokeDashoffset|strokeLinecap|strokeLinejoin|strokeMiterlimit|strokeOpacity|strokeWidth|surfaceScale|systemLanguage|tableValues|targetX|targetY|textAnchor|textDecoration|textRendering|textLength|to|transform|u1|u2|underlinePosition|underlineThickness|unicode|unicodeBidi|unicodeRange|unitsPerEm|vAlphabetic|vHanging|vIdeographic|vMathematical|values|vectorEffect|version|vertAdvY|vertOriginX|vertOriginY|viewBox|viewTarget|visibility|widths|wordSpacing|writingMode|x|xHeight|x1|x2|xChannelSelector|xlinkActuate|xlinkArcrole|xlinkHref|xlinkRole|xlinkShow|xlinkTitle|xlinkType|xmlBase|xmlns|xmlnsXlink|xmlLang|xmlSpace|y|y1|y2|yChannelSelector|z|zoomAndPan|for|class|autofocus)|(([Dd][Aa][Tt][Aa]|[Aa][Rr][Ii][Aa]|x)-.*))$/; // https://esbench.com/bench/5bfee68a4cd7e6009ef61d23
+var reactPropsRegex = /^((children|dangerouslySetInnerHTML|key|ref|autoFocus|defaultValue|defaultChecked|innerHTML|suppressContentEditableWarning|suppressHydrationWarning|valueLink|abbr|accept|acceptCharset|accessKey|action|allow|allowUserMedia|allowPaymentRequest|allowFullScreen|allowTransparency|alt|async|autoComplete|autoPlay|capture|cellPadding|cellSpacing|challenge|charSet|checked|cite|classID|className|cols|colSpan|content|contentEditable|contextMenu|controls|controlsList|coords|crossOrigin|data|dateTime|decoding|default|defer|dir|disabled|disablePictureInPicture|download|draggable|encType|enterKeyHint|form|formAction|formEncType|formMethod|formNoValidate|formTarget|frameBorder|headers|height|hidden|high|href|hrefLang|htmlFor|httpEquiv|id|inputMode|integrity|is|keyParams|keyType|kind|label|lang|list|loading|loop|low|marginHeight|marginWidth|max|maxLength|media|mediaGroup|method|min|minLength|multiple|muted|name|nonce|noValidate|open|optimum|pattern|placeholder|playsInline|poster|preload|profile|radioGroup|readOnly|referrerPolicy|rel|required|reversed|role|rows|rowSpan|sandbox|scope|scoped|scrolling|seamless|selected|shape|size|sizes|slot|span|spellCheck|src|srcDoc|srcLang|srcSet|start|step|style|summary|tabIndex|target|title|translate|type|useMap|value|width|wmode|wrap|about|datatype|inlist|prefix|property|resource|typeof|vocab|autoCapitalize|autoCorrect|autoSave|color|incremental|fallback|inert|itemProp|itemScope|itemType|itemID|itemRef|on|option|results|security|unselectable|accentHeight|accumulate|additive|alignmentBaseline|allowReorder|alphabetic|amplitude|arabicForm|ascent|attributeName|attributeType|autoReverse|azimuth|baseFrequency|baselineShift|baseProfile|bbox|begin|bias|by|calcMode|capHeight|clip|clipPathUnits|clipPath|clipRule|colorInterpolation|colorInterpolationFilters|colorProfile|colorRendering|contentScriptType|contentStyleType|cursor|cx|cy|d|decelerate|descent|diffuseConstant|direction|display|divisor|dominantBaseline|dur|dx|dy|edgeMode|elevation|enableBackground|end|exponent|externalResourcesRequired|fill|fillOpacity|fillRule|filter|filterRes|filterUnits|floodColor|floodOpacity|focusable|fontFamily|fontSize|fontSizeAdjust|fontStretch|fontStyle|fontVariant|fontWeight|format|from|fr|fx|fy|g1|g2|glyphName|glyphOrientationHorizontal|glyphOrientationVertical|glyphRef|gradientTransform|gradientUnits|hanging|horizAdvX|horizOriginX|ideographic|imageRendering|in|in2|intercept|k|k1|k2|k3|k4|kernelMatrix|kernelUnitLength|kerning|keyPoints|keySplines|keyTimes|lengthAdjust|letterSpacing|lightingColor|limitingConeAngle|local|markerEnd|markerMid|markerStart|markerHeight|markerUnits|markerWidth|mask|maskContentUnits|maskUnits|mathematical|mode|numOctaves|offset|opacity|operator|order|orient|orientation|origin|overflow|overlinePosition|overlineThickness|panose1|paintOrder|pathLength|patternContentUnits|patternTransform|patternUnits|pointerEvents|points|pointsAtX|pointsAtY|pointsAtZ|preserveAlpha|preserveAspectRatio|primitiveUnits|r|radius|refX|refY|renderingIntent|repeatCount|repeatDur|requiredExtensions|requiredFeatures|restart|result|rotate|rx|ry|scale|seed|shapeRendering|slope|spacing|specularConstant|specularExponent|speed|spreadMethod|startOffset|stdDeviation|stemh|stemv|stitchTiles|stopColor|stopOpacity|strikethroughPosition|strikethroughThickness|string|stroke|strokeDasharray|strokeDashoffset|strokeLinecap|strokeLinejoin|strokeMiterlimit|strokeOpacity|strokeWidth|surfaceScale|systemLanguage|tableValues|targetX|targetY|textAnchor|textDecoration|textRendering|textLength|to|transform|u1|u2|underlinePosition|underlineThickness|unicode|unicodeBidi|unicodeRange|unitsPerEm|vAlphabetic|vHanging|vIdeographic|vMathematical|values|vectorEffect|version|vertAdvY|vertOriginX|vertOriginY|viewBox|viewTarget|visibility|widths|wordSpacing|writingMode|x|xHeight|x1|x2|xChannelSelector|xlinkActuate|xlinkArcrole|xlinkHref|xlinkRole|xlinkShow|xlinkTitle|xlinkType|xmlBase|xmlns|xmlnsXlink|xmlLang|xmlSpace|y|y1|y2|yChannelSelector|z|zoomAndPan|for|class|autofocus)|(([Dd][Aa][Tt][Aa]|[Aa][Rr][Ii][Aa]|x)-.*))$/; // https://esbench.com/bench/5bfee68a4cd7e6009ef61d23
 
-var index = (0,_emotion_memoize__WEBPACK_IMPORTED_MODULE_0__["default"])(function (prop) {
+var isPropValid = /* #__PURE__ */(0,_emotion_memoize__WEBPACK_IMPORTED_MODULE_0__["default"])(function (prop) {
   return reactPropsRegex.test(prop) || prop.charCodeAt(0) === 111
   /* o */
   && prop.charCodeAt(1) === 110
@@ -28,15 +28,15 @@ var index = (0,_emotion_memoize__WEBPACK_IMPORTED_MODULE_0__["default"])(functio
 /* Z+1 */
 );
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (index);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (isPropValid);
 
 
 /***/ }),
 
-/***/ "./node_modules/@emotion/memoize/dist/memoize.esm.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/@emotion/memoize/dist/memoize.esm.js ***!
-  \***********************************************************/
+/***/ "./node_modules/@emotion/memoize/dist/emotion-memoize.esm.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@emotion/memoize/dist/emotion-memoize.esm.js ***!
+  \*******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 function memoize(fn) {
-  var cache = {};
+  var cache = Object.create(null);
   return function (arg) {
     if (cache[arg] === undefined) cache[arg] = fn(arg);
     return cache[arg];
@@ -761,18 +761,18 @@ var unitlessKeys = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "noAuto": () => (/* binding */ noAuto$1),
+/* harmony export */   "api": () => (/* binding */ api),
 /* harmony export */   "config": () => (/* binding */ config$1),
-/* harmony export */   "library": () => (/* binding */ library$1),
+/* harmony export */   "counter": () => (/* binding */ counter),
 /* harmony export */   "dom": () => (/* binding */ dom$1),
-/* harmony export */   "parse": () => (/* binding */ parse$1),
 /* harmony export */   "findIconDefinition": () => (/* binding */ findIconDefinition$1),
-/* harmony export */   "toHtml": () => (/* binding */ toHtml$1),
 /* harmony export */   "icon": () => (/* binding */ icon),
 /* harmony export */   "layer": () => (/* binding */ layer),
+/* harmony export */   "library": () => (/* binding */ library$1),
+/* harmony export */   "noAuto": () => (/* binding */ noAuto$1),
+/* harmony export */   "parse": () => (/* binding */ parse$1),
 /* harmony export */   "text": () => (/* binding */ text),
-/* harmony export */   "counter": () => (/* binding */ counter),
-/* harmony export */   "api": () => (/* binding */ api)
+/* harmony export */   "toHtml": () => (/* binding */ toHtml$1)
 /* harmony export */ });
 /*!
  * Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com
@@ -3744,10 +3744,7 @@ var counter = api.counter;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "fab": () => (/* binding */ _iconsCache),
-/* harmony export */   "prefix": () => (/* binding */ prefix),
 /* harmony export */   "fa42Group": () => (/* binding */ fa42Group),
-/* harmony export */   "faInnosoft": () => (/* binding */ faInnosoft),
 /* harmony export */   "fa500px": () => (/* binding */ fa500px),
 /* harmony export */   "faAccessibleIcon": () => (/* binding */ faAccessibleIcon),
 /* harmony export */   "faAccusoft": () => (/* binding */ faAccusoft),
@@ -3899,6 +3896,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faFlipboard": () => (/* binding */ faFlipboard),
 /* harmony export */   "faFly": () => (/* binding */ faFly),
 /* harmony export */   "faFontAwesome": () => (/* binding */ faFontAwesome),
+/* harmony export */   "faFontAwesomeAlt": () => (/* binding */ faFontAwesomeAlt),
 /* harmony export */   "faFontAwesomeFlag": () => (/* binding */ faFontAwesomeFlag),
 /* harmony export */   "faFontAwesomeLogoFull": () => (/* binding */ faFontAwesomeLogoFull),
 /* harmony export */   "faFonticons": () => (/* binding */ faFonticons),
@@ -3959,6 +3957,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faHubspot": () => (/* binding */ faHubspot),
 /* harmony export */   "faIdeal": () => (/* binding */ faIdeal),
 /* harmony export */   "faImdb": () => (/* binding */ faImdb),
+/* harmony export */   "faInnosoft": () => (/* binding */ faInnosoft),
 /* harmony export */   "faInstagram": () => (/* binding */ faInstagram),
 /* harmony export */   "faInstagramSquare": () => (/* binding */ faInstagramSquare),
 /* harmony export */   "faInstalod": () => (/* binding */ faInstalod),
@@ -4019,6 +4018,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faMonero": () => (/* binding */ faMonero),
 /* harmony export */   "faNapster": () => (/* binding */ faNapster),
 /* harmony export */   "faNeos": () => (/* binding */ faNeos),
+/* harmony export */   "faNfcDirectional": () => (/* binding */ faNfcDirectional),
+/* harmony export */   "faNfcSymbol": () => (/* binding */ faNfcSymbol),
 /* harmony export */   "faNimblr": () => (/* binding */ faNimblr),
 /* harmony export */   "faNode": () => (/* binding */ faNode),
 /* harmony export */   "faNodeJs": () => (/* binding */ faNodeJs),
@@ -4087,6 +4088,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faSalesforce": () => (/* binding */ faSalesforce),
 /* harmony export */   "faSass": () => (/* binding */ faSass),
 /* harmony export */   "faSchlix": () => (/* binding */ faSchlix),
+/* harmony export */   "faScreenpal": () => (/* binding */ faScreenpal),
 /* harmony export */   "faScribd": () => (/* binding */ faScribd),
 /* harmony export */   "faSearchengin": () => (/* binding */ faSearchengin),
 /* harmony export */   "faSellcast": () => (/* binding */ faSellcast),
@@ -4115,7 +4117,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faSpotify": () => (/* binding */ faSpotify),
 /* harmony export */   "faSquareFontAwesome": () => (/* binding */ faSquareFontAwesome),
 /* harmony export */   "faSquareFontAwesomeStroke": () => (/* binding */ faSquareFontAwesomeStroke),
-/* harmony export */   "faFontAwesomeAlt": () => (/* binding */ faFontAwesomeAlt),
 /* harmony export */   "faSquarespace": () => (/* binding */ faSquarespace),
 /* harmony export */   "faStackExchange": () => (/* binding */ faStackExchange),
 /* harmony export */   "faStackOverflow": () => (/* binding */ faStackOverflow),
@@ -4189,7 +4190,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faWikipediaW": () => (/* binding */ faWikipediaW),
 /* harmony export */   "faWindows": () => (/* binding */ faWindows),
 /* harmony export */   "faWirsindhandwerk": () => (/* binding */ faWirsindhandwerk),
-/* harmony export */   "faWsh": () => (/* binding */ faWsh),
 /* harmony export */   "faWix": () => (/* binding */ faWix),
 /* harmony export */   "faWizardsOfTheCoast": () => (/* binding */ faWizardsOfTheCoast),
 /* harmony export */   "faWodu": () => (/* binding */ faWodu),
@@ -4200,6 +4200,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faWpexplorer": () => (/* binding */ faWpexplorer),
 /* harmony export */   "faWpforms": () => (/* binding */ faWpforms),
 /* harmony export */   "faWpressr": () => (/* binding */ faWpressr),
+/* harmony export */   "faWsh": () => (/* binding */ faWsh),
 /* harmony export */   "faXbox": () => (/* binding */ faXbox),
 /* harmony export */   "faXing": () => (/* binding */ faXing),
 /* harmony export */   "faXingSquare": () => (/* binding */ faXingSquare),
@@ -4213,10 +4214,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faYoast": () => (/* binding */ faYoast),
 /* harmony export */   "faYoutube": () => (/* binding */ faYoutube),
 /* harmony export */   "faYoutubeSquare": () => (/* binding */ faYoutubeSquare),
-/* harmony export */   "faZhihu": () => (/* binding */ faZhihu)
+/* harmony export */   "faZhihu": () => (/* binding */ faZhihu),
+/* harmony export */   "fab": () => (/* binding */ _iconsCache),
+/* harmony export */   "prefix": () => (/* binding */ prefix)
 /* harmony export */ });
 /*!
- * Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -4850,7 +4853,7 @@ var faEdgeLegacy = {
 var faElementor = {
   prefix: 'fab',
   iconName: 'elementor',
-  icon: [448, 512, [], "f430", "M425.6 32H22.4C10 32 0 42 0 54.4v403.2C0 470 10 480 22.4 480h403.2c12.4 0 22.4-10 22.4-22.4V54.4C448 42 438 32 425.6 32M164.3 355.5h-39.8v-199h39.8v199zm159.3 0H204.1v-39.8h119.5v39.8zm0-79.6H204.1v-39.8h119.5v39.8zm0-79.7H204.1v-39.8h119.5v39.8z"]
+  icon: [512, 512, [], "f430", "M.361 256C.361 397 114 511 255 511C397 511 511 397 511 256C511 116 397 2.05 255 2.05C114 2.05 .361 116 .361 256zM192 150V363H149V150H192zM234 150H362V193H234V150zM362 235V278H234V235H362zM234 320H362V363H234V320z"]
 };
 var faEllo = {
   prefix: 'fab',
@@ -5570,6 +5573,16 @@ var faNeos = {
   iconName: 'neos',
   icon: [512, 512, [], "f612", "M415.4 512h-95.11L212.1 357.5v91.1L125.7 512H28V29.82L68.47 0h108.1l123.7 176.1V63.45L386.7 0h97.69v461.5zM38.77 35.27V496l72-52.88V194l215.5 307.6h84.79l52.35-38.17h-78.27L69 13zm82.54 466.6l80-58.78v-101l-79.76-114.4v220.9L49 501.9h72.34zM80.63 10.77l310.6 442.6h82.37V10.77h-79.75v317.6L170.9 10.77zM311 191.6l72 102.8V15.93l-72 53v122.7z"]
 };
+var faNfcDirectional = {
+  prefix: 'fab',
+  iconName: 'nfc-directional',
+  icon: [512, 512, [], "e530", "M211.8 488.6C213.4 491.1 213.9 494.2 213.2 497.1C212.6 500 210.8 502.6 208.3 504.2C205.7 505.8 202.7 506.3 199.7 505.7C138.3 491.8 84.1 455.8 47.53 404.5C10.97 353.2-5.395 290.3 1.57 227.7C8.536 165 38.34 107.2 85.29 65.21C132.2 23.2 193-.0131 256 0C257.5 0 258.1 .2931 260.3 .8627C261.7 1.432 262.1 2.267 264 3.319C265.1 4.371 265.9 5.619 266.5 6.993C267 8.367 267.3 9.839 267.3 11.32V112.3L291.8 86.39C292.8 85.31 294 84.44 295.4 83.84C296.7 83.23 298.2 82.9 299.7 82.86C301.2 82.81 302.6 83.06 304 83.59C305.4 84.12 306.7 84.92 307.8 85.94C308.8 86.96 309.7 88.18 310.3 89.54C310.9 90.89 311.3 92.35 311.3 93.84C311.3 95.32 311.1 96.8 310.6 98.18C310 99.57 309.2 100.8 308.2 101.9L264.2 148.5C263.1 149.6 261.9 150.5 260.5 151.1C259 151.7 257.5 152 255.1 152C254.5 152 252.9 151.7 251.5 151.1C250.1 150.5 248.8 149.6 247.8 148.5L203.7 101.9C201.7 99.74 200.6 96.83 200.7 93.84C200.7 90.84 202 87.1 204.2 85.94C206.4 83.88 209.3 82.77 212.3 82.86C215.3 82.94 218.1 84.21 220.2 86.39L244.7 112.4V22.89C188.3 25.64 134.9 48.73 94.23 87.87C53.58 127 28.49 179.6 23.61 235.8C18.73 292 34.38 348.1 67.68 393.7C100.1 439.2 149.7 471.2 204.7 483.6C207.6 484.3 210.2 486.1 211.8 488.6L211.8 488.6zM171.4 126.1C170.6 127.4 169.5 128.5 168.3 129.3C147.8 143.2 131.1 161.9 119.5 183.8C107.9 205.7 101.8 230.1 101.8 254.9C101.8 279.7 107.9 304.1 119.5 325.1C131.1 347.9 147.8 366.6 168.3 380.5C170.8 382.2 172.5 384.8 173 387.8C173.6 390.7 172.1 393.8 171.3 396.2C169.6 398.7 166.1 400.4 164 400.1C161.1 401.5 158 400.9 155.6 399.2C132 383.2 112.8 361.7 99.46 336.5C86.15 311.4 79.19 283.4 79.19 254.9C79.19 226.5 86.15 198.4 99.46 173.3C112.8 148.1 132 126.6 155.6 110.6C156.8 109.8 158.2 109.2 159.6 108.8C161.1 108.5 162.6 108.5 164.1 108.8C165.5 109 166.9 109.6 168.2 110.4C169.5 111.2 170.5 112.3 171.4 113.5C172.2 114.7 172.8 116.1 173.1 117.6C173.4 119.1 173.4 120.6 173.1 122C172.8 123.5 172.3 124.9 171.4 126.1H171.4zM340.9 383.5C341.7 382.3 342.8 381.2 343.1 380.4V380.3C364.4 366.3 381.1 347.6 392.7 325.7C404.2 303.9 410.2 279.5 410.2 254.8C410.2 230.1 404.2 205.7 392.7 183.8C381.1 161.1 364.4 143.3 343.1 129.3C342.8 128.5 341.7 127.4 340.9 126.2C340.1 124.9 339.5 123.5 339.3 122.1C338.1 120.6 339 119.1 339.3 117.7C339.6 116.2 340.2 114.8 341 113.6C341.9 112.4 342.1 111.3 344.2 110.5C345.4 109.7 346.8 109.2 348.3 108.9C349.8 108.6 351.2 108.6 352.7 108.9C354.2 109.2 355.5 109.8 356.8 110.7C380.2 126.7 399.5 148.2 412.7 173.3C426 198.4 432.1 226.4 432.1 254.8C432.1 283.3 426 311.3 412.7 336.4C399.5 361.5 380.2 383 356.8 399C355.5 399.9 354.2 400.5 352.7 400.8C351.2 401.1 349.8 401.1 348.3 400.8C346.8 400.5 345.4 399.1 344.2 399.2C342.1 398.4 341.9 397.3 341 396.1C340.2 394.9 339.6 393.5 339.3 392C339 390.6 338.1 389.1 339.3 387.6C339.5 386.2 340.1 384.8 340.9 383.5V383.5zM312.3 6.307C368.5 19.04 418.7 50.28 455 95.01C485.4 132.6 504.6 178 510.3 226C515.9 274 507.9 322.7 487.1 366.3C466.2 409.9 433.5 446.8 392.6 472.6C351.7 498.3 304.4 512 256 512C254.5 512 253.1 511.7 251.7 511.1C250.3 510.6 249.1 509.7 248 508.7C246.1 507.6 246.1 506.4 245.6 505C245 503.6 244.7 502.2 244.7 500.7V401.5L220.2 427.5C218.1 429.7 215.3 430.1 212.3 431.1C209.3 431.2 206.4 430 204.2 427.1C202 425.9 200.7 423.1 200.7 420.1C200.6 417.1 201.7 414.2 203.7 412L247.8 365.4C249.1 363.2 252.9 362 255.1 362C259.1 362 262 363.2 264.2 365.4L308.2 412C310.3 414.2 311.4 417.1 311.3 420.1C311.2 423.1 309.9 425.9 307.8 427.1C305.6 430 302.7 431.2 299.7 431.1C296.7 430.1 293.8 429.7 291.8 427.5L267.3 401.6V489.1C323.7 486.3 377.1 463.3 417.8 424.1C458.5 384.1 483.6 332.4 488.5 276.2C493.3 219.1 477.7 163.9 444.4 118.3C411.1 72.75 362.4 40.79 307.4 28.36C305.9 28.03 304.6 27.42 303.3 26.57C302.1 25.71 301.1 24.63 300.3 23.37C299.5 22.12 298.1 20.72 298.7 19.26C298.5 17.8 298.5 16.3 298.8 14.85C299.2 13.41 299.8 12.04 300.6 10.82C301.5 9.61 302.6 8.577 303.8 7.784C305.1 6.99 306.5 6.451 307.9 6.198C309.4 5.945 310.9 5.982 312.3 6.307L312.3 6.307zM353.1 256.1C353.1 287.5 335.6 317.2 303.8 339.6C301.7 341.1 299 341.9 296.4 341.6C293.7 341.4 291.2 340.3 289.4 338.4L219.3 268.6C217.1 266.5 215.1 263.6 215.9 260.6C215.9 257.6 217.1 254.7 219.2 252.6C221.4 250.5 224.2 249.3 227.2 249.3C230.2 249.3 233.1 250.5 235.2 252.6L298.3 315.4C319.1 298.3 330.5 277.5 330.5 256.1C330.5 232.2 316.4 209.1 290.8 191C288.3 189.3 286.7 186.7 286.2 183.7C285.7 180.8 286.3 177.7 288.1 175.3C289.8 172.8 292.4 171.2 295.4 170.7C298.3 170.2 301.4 170.8 303.8 172.6C335.6 195 353.1 224.7 353.1 256.1V256.1zM216.7 341.5C213.7 342 210.7 341.3 208.2 339.6C176.5 317.2 158.1 287.5 158.1 256.1C158.1 224.7 176.5 195 208.2 172.6C210.4 171 213.1 170.3 215.7 170.5C218.4 170.8 220.8 171.9 222.7 173.8L292.8 243.6C294.9 245.7 296.1 248.6 296.1 251.6C296.1 254.6 294.1 257.4 292.8 259.6C290.7 261.7 287.8 262.9 284.9 262.9C281.9 262.9 278.1 261.7 276.9 259.6L213.8 196.7C192.9 214 181.6 234.7 181.6 256.1C181.6 279.1 195.7 303.1 221.3 321.1C223.7 322.9 225.4 325.5 225.9 328.5C226.4 331.4 225.7 334.4 224 336.9C222.3 339.3 219.6 341 216.7 341.5L216.7 341.5z"]
+};
+var faNfcSymbol = {
+  prefix: 'fab',
+  iconName: 'nfc-symbol',
+  icon: [576, 512, [], "e531", "M392.9 32.43C400.6 31.1 408.6 32.89 414.1 37.41C498.2 96.14 544 173.7 544 255.1C544 338.2 498.2 415.9 414.1 474.6C409.3 478.6 402.4 480.5 395.5 479.9C388.5 479.3 382 476.3 377.1 471.4L193.7 288.7C188.1 283.2 185 275.7 184.1 267.8C184.1 260 188.1 252.5 193.6 246.9C199.2 241.4 206.7 238.2 214.5 238.2C222.4 238.2 229.9 241.3 235.4 246.8L400.5 411.2C455.1 366.5 484.8 312 484.8 255.1C484.8 193.5 447.9 132.9 380.9 85.76C374.5 81.24 370.1 74.35 368.8 66.62C367.4 58.89 369.2 50.94 373.8 44.53C378.3 38.12 385.2 33.77 392.9 32.43V32.43zM186.9 479.6C179.2 480.9 171.3 479.1 164.8 474.6C81.67 415.9 35.84 338.2 35.84 255.1C35.84 173.7 81.67 96.14 164.8 37.41C170.5 33.4 177.4 31.53 184.4 32.12C191.3 32.71 197.8 35.72 202.7 40.63L386.1 223.3C391.7 228.8 394.8 236.3 394.8 244.2C394.9 251.1 391.8 259.5 386.2 265.1C380.7 270.6 373.2 273.8 365.3 273.8C357.5 273.8 349.1 270.7 344.4 265.2L179.3 100.7C124.7 145.9 95.03 199.9 95.03 255.1C95.03 318.5 131.9 379.1 198.1 426.2C205.4 430.8 209.7 437.6 211.1 445.4C212.4 453.1 210.6 461.1 206.1 467.5C201.6 473.9 194.7 478.2 186.9 479.6V479.6z"]
+};
 var faNimblr = {
   prefix: 'fab',
   iconName: 'nimblr',
@@ -5909,6 +5922,11 @@ var faSchlix = {
   prefix: 'fab',
   iconName: 'schlix',
   icon: [448, 512, [], "f3ea", "M350.5 157.7l-54.2-46.1 73.4-39 78.3 44.2-97.5 40.9zM192 122.1l45.7-28.2 34.7 34.6-55.4 29-25-35.4zm-65.1 6.6l31.9-22.1L176 135l-36.7 22.5-12.4-28.8zm-23.3 88.2l-8.8-34.8 29.6-18.3 13.1 35.3-33.9 17.8zm-21.2-83.7l23.9-18.1 8.9 24-26.7 18.3-6.1-24.2zM59 206.5l-3.6-28.4 22.3-15.5 6.1 28.7L59 206.5zm-30.6 16.6l20.8-12.8 3.3 33.4-22.9 12-1.2-32.6zM1.4 268l19.2-10.2 .4 38.2-21 8.8L1.4 268zm59.1 59.3l-28.3 8.3-1.6-46.8 25.1-10.7 4.8 49.2zM99 263.2l-31.1 13-5.2-40.8L90.1 221l8.9 42.2zM123.2 377l-41.6 5.9-8.1-63.5 35.2-10.8 14.5 68.4zm28.5-139.9l21.2 57.1-46.2 13.6-13.7-54.1 38.7-16.6zm85.7 230.5l-70.9-3.3-24.3-95.8 55.2-8.6 40 107.7zm-84.9-279.7l42.2-22.4 28 45.9-50.8 21.3-19.4-44.8zm41 94.9l61.3-18.7 52.8 86.6-79.8 11.3-34.3-79.2zm51.4-85.6l67.3-28.8 65.5 65.4-88.6 26.2-44.2-62.8z"]
+};
+var faScreenpal = {
+  prefix: 'fab',
+  iconName: 'screenpal',
+  icon: [512, 512, [], "e570", "M233.5 22.49C233.5 10.07 243.6 0 256 0C268.4 0 278.5 10.07 278.5 22.49C278.5 34.91 268.4 44.98 256 44.98C243.6 44.98 233.5 34.91 233.5 22.49zM313.4 259C313.4 290.7 287.7 316.4 256 316.4C224.3 316.4 198.6 290.7 198.6 259C198.6 227.3 224.3 201.6 256 201.6C287.7 201.6 313.4 227.3 313.4 259zM337.2 350C359.5 330.1 373.7 302.7 377.1 273H496.6C493.1 334.4 466.2 392.2 421.4 434.4C376.7 476.6 317.5 500.2 256 500.2C194.5 500.2 135.3 476.6 90.56 434.4C45.83 392.2 18.94 334.4 15.39 273H135.1C138.5 302.7 152.7 330.1 175 350C197.3 369.9 226.2 380.9 256.1 380.9C285.1 380.9 314.8 369.9 337.2 350zM73.14 140.3C73.54 152.7 63.81 163.1 51.39 163.5C38.97 163.9 28.59 154.2 28.18 141.8C27.78 129.3 37.52 118.9 49.94 118.5C62.35 118.1 72.74 127.9 73.14 140.3zM438.9 141C438.9 128.6 448.9 118.5 461.4 118.5C473.8 118.5 483.8 128.6 483.8 141C483.8 153.5 473.8 163.5 461.4 163.5C448.9 163.5 438.9 153.5 438.9 141zM317.9 95.27C300.6 109.1 278.7 118.1 256 118.1C233.3 118.1 211.4 109.1 194.1 95.27C176.8 80.55 165.3 60.18 161.7 37.78C176.8 31.37 192.5 26.52 208.6 23.31C208.6 35.88 213.6 47.93 222.5 56.82C231.4 65.7 243.4 70.7 256 70.7C268.6 70.7 280.6 65.7 289.5 56.82C298.4 47.93 303.4 35.88 303.4 23.31C319.5 26.52 335.2 31.37 350.3 37.78C346.7 60.18 335.2 80.55 317.9 95.27H317.9zM82.78 231C61.42 238.6 38.06 238.4 16.86 230.4C18.82 214.1 22.46 198.1 27.71 182.5C33.1 185.6 39.05 187.6 45.22 188.5C51.39 189.3 57.67 188.9 63.68 187.3C69.69 185.6 75.33 182.9 80.27 179.1C85.21 175.3 89.36 170.6 92.47 165.2C95.58 159.8 97.61 153.8 98.42 147.7C99.23 141.5 98.83 135.2 97.22 129.2C95.61 123.2 92.83 117.6 89.04 112.6C85.25 107.7 80.53 103.5 75.14 100.4C85.96 88.11 98.01 76.94 111.1 67.07C128.7 81.42 140.6 101.6 144.7 123.9C148.8 146.2 144.8 169.3 133.5 188.9C122.1 208.5 104.1 223.4 82.78 231V231zM429.2 231.1C407.9 223.5 389.9 208.5 378.5 188.9C367.2 169.3 363.3 146.2 367.4 123.9C371.5 101.7 383.4 81.54 400.9 67.19C414 77.04 426.1 88.21 436.9 100.5C426.2 106.9 418.5 117.2 415.4 129.3C412.2 141.3 413.1 154.1 420.2 164.9C426.4 175.7 436.6 183.6 448.6 186.9C460.6 190.2 473.5 188.6 484.3 182.6C489.6 198.1 493.2 214.2 495.2 230.4C473.1 238.5 450.6 238.7 429.2 231.1L429.2 231.1z"]
 };
 var faScribd = {
   prefix: 'fab',
@@ -6799,6 +6817,8 @@ var _iconsCache = {
   faMonero: faMonero,
   faNapster: faNapster,
   faNeos: faNeos,
+  faNfcDirectional: faNfcDirectional,
+  faNfcSymbol: faNfcSymbol,
   faNimblr: faNimblr,
   faNode: faNode,
   faNodeJs: faNodeJs,
@@ -6867,6 +6887,7 @@ var _iconsCache = {
   faSalesforce: faSalesforce,
   faSass: faSass,
   faSchlix: faSchlix,
+  faScreenpal: faScreenpal,
   faScribd: faScribd,
   faSearchengin: faSearchengin,
   faSellcast: faSellcast,
@@ -7010,8 +7031,6 @@ var _iconsCache = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "fas": () => (/* binding */ _iconsCache),
-/* harmony export */   "prefix": () => (/* binding */ prefix),
 /* harmony export */   "fa0": () => (/* binding */ fa0),
 /* harmony export */   "fa1": () => (/* binding */ fa1),
 /* harmony export */   "fa2": () => (/* binding */ fa2),
@@ -7023,318 +7042,349 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "fa8": () => (/* binding */ fa8),
 /* harmony export */   "fa9": () => (/* binding */ fa9),
 /* harmony export */   "faA": () => (/* binding */ faA),
+/* harmony export */   "faAd": () => (/* binding */ faAd),
+/* harmony export */   "faAdd": () => (/* binding */ faAdd),
 /* harmony export */   "faAddressBook": () => (/* binding */ faAddressBook),
-/* harmony export */   "faContactBook": () => (/* binding */ faContactBook),
 /* harmony export */   "faAddressCard": () => (/* binding */ faAddressCard),
-/* harmony export */   "faContactCard": () => (/* binding */ faContactCard),
-/* harmony export */   "faVcard": () => (/* binding */ faVcard),
+/* harmony export */   "faAdjust": () => (/* binding */ faAdjust),
+/* harmony export */   "faAirFreshener": () => (/* binding */ faAirFreshener),
 /* harmony export */   "faAlignCenter": () => (/* binding */ faAlignCenter),
 /* harmony export */   "faAlignJustify": () => (/* binding */ faAlignJustify),
 /* harmony export */   "faAlignLeft": () => (/* binding */ faAlignLeft),
 /* harmony export */   "faAlignRight": () => (/* binding */ faAlignRight),
+/* harmony export */   "faAllergies": () => (/* binding */ faAllergies),
+/* harmony export */   "faAmbulance": () => (/* binding */ faAmbulance),
+/* harmony export */   "faAmericanSignLanguageInterpreting": () => (/* binding */ faAmericanSignLanguageInterpreting),
 /* harmony export */   "faAnchor": () => (/* binding */ faAnchor),
+/* harmony export */   "faAnchorCircleCheck": () => (/* binding */ faAnchorCircleCheck),
+/* harmony export */   "faAnchorCircleExclamation": () => (/* binding */ faAnchorCircleExclamation),
+/* harmony export */   "faAnchorCircleXmark": () => (/* binding */ faAnchorCircleXmark),
+/* harmony export */   "faAnchorLock": () => (/* binding */ faAnchorLock),
+/* harmony export */   "faAngleDoubleDown": () => (/* binding */ faAngleDoubleDown),
+/* harmony export */   "faAngleDoubleLeft": () => (/* binding */ faAngleDoubleLeft),
+/* harmony export */   "faAngleDoubleRight": () => (/* binding */ faAngleDoubleRight),
+/* harmony export */   "faAngleDoubleUp": () => (/* binding */ faAngleDoubleUp),
 /* harmony export */   "faAngleDown": () => (/* binding */ faAngleDown),
 /* harmony export */   "faAngleLeft": () => (/* binding */ faAngleLeft),
 /* harmony export */   "faAngleRight": () => (/* binding */ faAngleRight),
 /* harmony export */   "faAngleUp": () => (/* binding */ faAngleUp),
 /* harmony export */   "faAnglesDown": () => (/* binding */ faAnglesDown),
-/* harmony export */   "faAngleDoubleDown": () => (/* binding */ faAngleDoubleDown),
 /* harmony export */   "faAnglesLeft": () => (/* binding */ faAnglesLeft),
-/* harmony export */   "faAngleDoubleLeft": () => (/* binding */ faAngleDoubleLeft),
 /* harmony export */   "faAnglesRight": () => (/* binding */ faAnglesRight),
-/* harmony export */   "faAngleDoubleRight": () => (/* binding */ faAngleDoubleRight),
 /* harmony export */   "faAnglesUp": () => (/* binding */ faAnglesUp),
-/* harmony export */   "faAngleDoubleUp": () => (/* binding */ faAngleDoubleUp),
+/* harmony export */   "faAngry": () => (/* binding */ faAngry),
 /* harmony export */   "faAnkh": () => (/* binding */ faAnkh),
-/* harmony export */   "faAppleWhole": () => (/* binding */ faAppleWhole),
 /* harmony export */   "faAppleAlt": () => (/* binding */ faAppleAlt),
+/* harmony export */   "faAppleWhole": () => (/* binding */ faAppleWhole),
+/* harmony export */   "faArchive": () => (/* binding */ faArchive),
 /* harmony export */   "faArchway": () => (/* binding */ faArchway),
+/* harmony export */   "faAreaChart": () => (/* binding */ faAreaChart),
+/* harmony export */   "faArrowAltCircleDown": () => (/* binding */ faArrowAltCircleDown),
+/* harmony export */   "faArrowAltCircleLeft": () => (/* binding */ faArrowAltCircleLeft),
+/* harmony export */   "faArrowAltCircleRight": () => (/* binding */ faArrowAltCircleRight),
+/* harmony export */   "faArrowAltCircleUp": () => (/* binding */ faArrowAltCircleUp),
+/* harmony export */   "faArrowCircleDown": () => (/* binding */ faArrowCircleDown),
+/* harmony export */   "faArrowCircleLeft": () => (/* binding */ faArrowCircleLeft),
+/* harmony export */   "faArrowCircleRight": () => (/* binding */ faArrowCircleRight),
+/* harmony export */   "faArrowCircleUp": () => (/* binding */ faArrowCircleUp),
 /* harmony export */   "faArrowDown": () => (/* binding */ faArrowDown),
 /* harmony export */   "faArrowDown19": () => (/* binding */ faArrowDown19),
-/* harmony export */   "faSortNumericAsc": () => (/* binding */ faSortNumericAsc),
-/* harmony export */   "faSortNumericDown": () => (/* binding */ faSortNumericDown),
 /* harmony export */   "faArrowDown91": () => (/* binding */ faArrowDown91),
-/* harmony export */   "faSortNumericDesc": () => (/* binding */ faSortNumericDesc),
-/* harmony export */   "faSortNumericDownAlt": () => (/* binding */ faSortNumericDownAlt),
 /* harmony export */   "faArrowDownAZ": () => (/* binding */ faArrowDownAZ),
-/* harmony export */   "faSortAlphaAsc": () => (/* binding */ faSortAlphaAsc),
-/* harmony export */   "faSortAlphaDown": () => (/* binding */ faSortAlphaDown),
 /* harmony export */   "faArrowDownLong": () => (/* binding */ faArrowDownLong),
-/* harmony export */   "faLongArrowDown": () => (/* binding */ faLongArrowDown),
 /* harmony export */   "faArrowDownShortWide": () => (/* binding */ faArrowDownShortWide),
-/* harmony export */   "faSortAmountDesc": () => (/* binding */ faSortAmountDesc),
-/* harmony export */   "faSortAmountDownAlt": () => (/* binding */ faSortAmountDownAlt),
+/* harmony export */   "faArrowDownUpAcrossLine": () => (/* binding */ faArrowDownUpAcrossLine),
+/* harmony export */   "faArrowDownUpLock": () => (/* binding */ faArrowDownUpLock),
 /* harmony export */   "faArrowDownWideShort": () => (/* binding */ faArrowDownWideShort),
-/* harmony export */   "faSortAmountAsc": () => (/* binding */ faSortAmountAsc),
-/* harmony export */   "faSortAmountDown": () => (/* binding */ faSortAmountDown),
 /* harmony export */   "faArrowDownZA": () => (/* binding */ faArrowDownZA),
-/* harmony export */   "faSortAlphaDesc": () => (/* binding */ faSortAlphaDesc),
-/* harmony export */   "faSortAlphaDownAlt": () => (/* binding */ faSortAlphaDownAlt),
 /* harmony export */   "faArrowLeft": () => (/* binding */ faArrowLeft),
 /* harmony export */   "faArrowLeftLong": () => (/* binding */ faArrowLeftLong),
-/* harmony export */   "faLongArrowLeft": () => (/* binding */ faLongArrowLeft),
+/* harmony export */   "faArrowLeftRotate": () => (/* binding */ faArrowLeftRotate),
 /* harmony export */   "faArrowPointer": () => (/* binding */ faArrowPointer),
-/* harmony export */   "faMousePointer": () => (/* binding */ faMousePointer),
 /* harmony export */   "faArrowRight": () => (/* binding */ faArrowRight),
 /* harmony export */   "faArrowRightArrowLeft": () => (/* binding */ faArrowRightArrowLeft),
-/* harmony export */   "faExchange": () => (/* binding */ faExchange),
 /* harmony export */   "faArrowRightFromBracket": () => (/* binding */ faArrowRightFromBracket),
-/* harmony export */   "faSignOut": () => (/* binding */ faSignOut),
+/* harmony export */   "faArrowRightFromFile": () => (/* binding */ faArrowRightFromFile),
 /* harmony export */   "faArrowRightLong": () => (/* binding */ faArrowRightLong),
-/* harmony export */   "faLongArrowRight": () => (/* binding */ faLongArrowRight),
+/* harmony export */   "faArrowRightRotate": () => (/* binding */ faArrowRightRotate),
 /* harmony export */   "faArrowRightToBracket": () => (/* binding */ faArrowRightToBracket),
-/* harmony export */   "faSignIn": () => (/* binding */ faSignIn),
-/* harmony export */   "faArrowRotateLeft": () => (/* binding */ faArrowRotateLeft),
-/* harmony export */   "faArrowLeftRotate": () => (/* binding */ faArrowLeftRotate),
+/* harmony export */   "faArrowRightToCity": () => (/* binding */ faArrowRightToCity),
+/* harmony export */   "faArrowRightToFile": () => (/* binding */ faArrowRightToFile),
 /* harmony export */   "faArrowRotateBack": () => (/* binding */ faArrowRotateBack),
 /* harmony export */   "faArrowRotateBackward": () => (/* binding */ faArrowRotateBackward),
-/* harmony export */   "faUndo": () => (/* binding */ faUndo),
-/* harmony export */   "faArrowRotateRight": () => (/* binding */ faArrowRotateRight),
-/* harmony export */   "faArrowRightRotate": () => (/* binding */ faArrowRightRotate),
 /* harmony export */   "faArrowRotateForward": () => (/* binding */ faArrowRotateForward),
-/* harmony export */   "faRedo": () => (/* binding */ faRedo),
+/* harmony export */   "faArrowRotateLeft": () => (/* binding */ faArrowRotateLeft),
+/* harmony export */   "faArrowRotateRight": () => (/* binding */ faArrowRotateRight),
 /* harmony export */   "faArrowTrendDown": () => (/* binding */ faArrowTrendDown),
 /* harmony export */   "faArrowTrendUp": () => (/* binding */ faArrowTrendUp),
 /* harmony export */   "faArrowTurnDown": () => (/* binding */ faArrowTurnDown),
-/* harmony export */   "faLevelDown": () => (/* binding */ faLevelDown),
+/* harmony export */   "faArrowTurnRight": () => (/* binding */ faArrowTurnRight),
 /* harmony export */   "faArrowTurnUp": () => (/* binding */ faArrowTurnUp),
-/* harmony export */   "faLevelUp": () => (/* binding */ faLevelUp),
 /* harmony export */   "faArrowUp": () => (/* binding */ faArrowUp),
 /* harmony export */   "faArrowUp19": () => (/* binding */ faArrowUp19),
-/* harmony export */   "faSortNumericUp": () => (/* binding */ faSortNumericUp),
 /* harmony export */   "faArrowUp91": () => (/* binding */ faArrowUp91),
-/* harmony export */   "faSortNumericUpAlt": () => (/* binding */ faSortNumericUpAlt),
 /* harmony export */   "faArrowUpAZ": () => (/* binding */ faArrowUpAZ),
-/* harmony export */   "faSortAlphaUp": () => (/* binding */ faSortAlphaUp),
 /* harmony export */   "faArrowUpFromBracket": () => (/* binding */ faArrowUpFromBracket),
+/* harmony export */   "faArrowUpFromGroundWater": () => (/* binding */ faArrowUpFromGroundWater),
+/* harmony export */   "faArrowUpFromWaterPump": () => (/* binding */ faArrowUpFromWaterPump),
 /* harmony export */   "faArrowUpLong": () => (/* binding */ faArrowUpLong),
-/* harmony export */   "faLongArrowUp": () => (/* binding */ faLongArrowUp),
+/* harmony export */   "faArrowUpRightDots": () => (/* binding */ faArrowUpRightDots),
 /* harmony export */   "faArrowUpRightFromSquare": () => (/* binding */ faArrowUpRightFromSquare),
-/* harmony export */   "faExternalLink": () => (/* binding */ faExternalLink),
 /* harmony export */   "faArrowUpShortWide": () => (/* binding */ faArrowUpShortWide),
-/* harmony export */   "faSortAmountUpAlt": () => (/* binding */ faSortAmountUpAlt),
 /* harmony export */   "faArrowUpWideShort": () => (/* binding */ faArrowUpWideShort),
-/* harmony export */   "faSortAmountUp": () => (/* binding */ faSortAmountUp),
 /* harmony export */   "faArrowUpZA": () => (/* binding */ faArrowUpZA),
-/* harmony export */   "faSortAlphaUpAlt": () => (/* binding */ faSortAlphaUpAlt),
-/* harmony export */   "faArrowsLeftRight": () => (/* binding */ faArrowsLeftRight),
-/* harmony export */   "faArrowsH": () => (/* binding */ faArrowsH),
-/* harmony export */   "faArrowsRotate": () => (/* binding */ faArrowsRotate),
-/* harmony export */   "faRefresh": () => (/* binding */ faRefresh),
-/* harmony export */   "faSync": () => (/* binding */ faSync),
-/* harmony export */   "faArrowsUpDown": () => (/* binding */ faArrowsUpDown),
-/* harmony export */   "faArrowsV": () => (/* binding */ faArrowsV),
-/* harmony export */   "faArrowsUpDownLeftRight": () => (/* binding */ faArrowsUpDownLeftRight),
 /* harmony export */   "faArrows": () => (/* binding */ faArrows),
+/* harmony export */   "faArrowsAlt": () => (/* binding */ faArrowsAlt),
+/* harmony export */   "faArrowsAltH": () => (/* binding */ faArrowsAltH),
+/* harmony export */   "faArrowsAltV": () => (/* binding */ faArrowsAltV),
+/* harmony export */   "faArrowsDownToLine": () => (/* binding */ faArrowsDownToLine),
+/* harmony export */   "faArrowsDownToPeople": () => (/* binding */ faArrowsDownToPeople),
+/* harmony export */   "faArrowsH": () => (/* binding */ faArrowsH),
+/* harmony export */   "faArrowsLeftRight": () => (/* binding */ faArrowsLeftRight),
+/* harmony export */   "faArrowsLeftRightToLine": () => (/* binding */ faArrowsLeftRightToLine),
+/* harmony export */   "faArrowsRotate": () => (/* binding */ faArrowsRotate),
+/* harmony export */   "faArrowsSpin": () => (/* binding */ faArrowsSpin),
+/* harmony export */   "faArrowsSplitUpAndLeft": () => (/* binding */ faArrowsSplitUpAndLeft),
+/* harmony export */   "faArrowsToCircle": () => (/* binding */ faArrowsToCircle),
+/* harmony export */   "faArrowsToDot": () => (/* binding */ faArrowsToDot),
+/* harmony export */   "faArrowsToEye": () => (/* binding */ faArrowsToEye),
+/* harmony export */   "faArrowsTurnRight": () => (/* binding */ faArrowsTurnRight),
+/* harmony export */   "faArrowsTurnToDots": () => (/* binding */ faArrowsTurnToDots),
+/* harmony export */   "faArrowsUpDown": () => (/* binding */ faArrowsUpDown),
+/* harmony export */   "faArrowsUpDownLeftRight": () => (/* binding */ faArrowsUpDownLeftRight),
+/* harmony export */   "faArrowsUpToLine": () => (/* binding */ faArrowsUpToLine),
+/* harmony export */   "faArrowsV": () => (/* binding */ faArrowsV),
+/* harmony export */   "faAslInterpreting": () => (/* binding */ faAslInterpreting),
+/* harmony export */   "faAssistiveListeningSystems": () => (/* binding */ faAssistiveListeningSystems),
 /* harmony export */   "faAsterisk": () => (/* binding */ faAsterisk),
 /* harmony export */   "faAt": () => (/* binding */ faAt),
+/* harmony export */   "faAtlas": () => (/* binding */ faAtlas),
 /* harmony export */   "faAtom": () => (/* binding */ faAtom),
 /* harmony export */   "faAudioDescription": () => (/* binding */ faAudioDescription),
 /* harmony export */   "faAustralSign": () => (/* binding */ faAustralSign),
+/* harmony export */   "faAutomobile": () => (/* binding */ faAutomobile),
 /* harmony export */   "faAward": () => (/* binding */ faAward),
 /* harmony export */   "faB": () => (/* binding */ faB),
 /* harmony export */   "faBaby": () => (/* binding */ faBaby),
 /* harmony export */   "faBabyCarriage": () => (/* binding */ faBabyCarriage),
-/* harmony export */   "faCarriageBaby": () => (/* binding */ faCarriageBaby),
+/* harmony export */   "faBackspace": () => (/* binding */ faBackspace),
 /* harmony export */   "faBackward": () => (/* binding */ faBackward),
 /* harmony export */   "faBackwardFast": () => (/* binding */ faBackwardFast),
-/* harmony export */   "faFastBackward": () => (/* binding */ faFastBackward),
 /* harmony export */   "faBackwardStep": () => (/* binding */ faBackwardStep),
-/* harmony export */   "faStepBackward": () => (/* binding */ faStepBackward),
 /* harmony export */   "faBacon": () => (/* binding */ faBacon),
 /* harmony export */   "faBacteria": () => (/* binding */ faBacteria),
 /* harmony export */   "faBacterium": () => (/* binding */ faBacterium),
 /* harmony export */   "faBagShopping": () => (/* binding */ faBagShopping),
-/* harmony export */   "faShoppingBag": () => (/* binding */ faShoppingBag),
 /* harmony export */   "faBahai": () => (/* binding */ faBahai),
 /* harmony export */   "faBahtSign": () => (/* binding */ faBahtSign),
+/* harmony export */   "faBalanceScale": () => (/* binding */ faBalanceScale),
+/* harmony export */   "faBalanceScaleLeft": () => (/* binding */ faBalanceScaleLeft),
+/* harmony export */   "faBalanceScaleRight": () => (/* binding */ faBalanceScaleRight),
 /* harmony export */   "faBan": () => (/* binding */ faBan),
-/* harmony export */   "faCancel": () => (/* binding */ faCancel),
 /* harmony export */   "faBanSmoking": () => (/* binding */ faBanSmoking),
-/* harmony export */   "faSmokingBan": () => (/* binding */ faSmokingBan),
-/* harmony export */   "faBandage": () => (/* binding */ faBandage),
 /* harmony export */   "faBandAid": () => (/* binding */ faBandAid),
+/* harmony export */   "faBandage": () => (/* binding */ faBandage),
+/* harmony export */   "faBank": () => (/* binding */ faBank),
+/* harmony export */   "faBarChart": () => (/* binding */ faBarChart),
 /* harmony export */   "faBarcode": () => (/* binding */ faBarcode),
 /* harmony export */   "faBars": () => (/* binding */ faBars),
-/* harmony export */   "faNavicon": () => (/* binding */ faNavicon),
 /* harmony export */   "faBarsProgress": () => (/* binding */ faBarsProgress),
-/* harmony export */   "faTasksAlt": () => (/* binding */ faTasksAlt),
 /* harmony export */   "faBarsStaggered": () => (/* binding */ faBarsStaggered),
-/* harmony export */   "faReorder": () => (/* binding */ faReorder),
-/* harmony export */   "faStream": () => (/* binding */ faStream),
 /* harmony export */   "faBaseball": () => (/* binding */ faBaseball),
 /* harmony export */   "faBaseballBall": () => (/* binding */ faBaseballBall),
 /* harmony export */   "faBaseballBatBall": () => (/* binding */ faBaseballBatBall),
 /* harmony export */   "faBasketShopping": () => (/* binding */ faBasketShopping),
-/* harmony export */   "faShoppingBasket": () => (/* binding */ faShoppingBasket),
 /* harmony export */   "faBasketball": () => (/* binding */ faBasketball),
 /* harmony export */   "faBasketballBall": () => (/* binding */ faBasketballBall),
 /* harmony export */   "faBath": () => (/* binding */ faBath),
 /* harmony export */   "faBathtub": () => (/* binding */ faBathtub),
-/* harmony export */   "faBatteryEmpty": () => (/* binding */ faBatteryEmpty),
-/* harmony export */   "faBattery0": () => (/* binding */ faBattery0),
-/* harmony export */   "faBatteryFull": () => (/* binding */ faBatteryFull),
 /* harmony export */   "faBattery": () => (/* binding */ faBattery),
-/* harmony export */   "faBattery5": () => (/* binding */ faBattery5),
-/* harmony export */   "faBatteryHalf": () => (/* binding */ faBatteryHalf),
-/* harmony export */   "faBattery3": () => (/* binding */ faBattery3),
-/* harmony export */   "faBatteryQuarter": () => (/* binding */ faBatteryQuarter),
+/* harmony export */   "faBattery0": () => (/* binding */ faBattery0),
 /* harmony export */   "faBattery2": () => (/* binding */ faBattery2),
-/* harmony export */   "faBatteryThreeQuarters": () => (/* binding */ faBatteryThreeQuarters),
+/* harmony export */   "faBattery3": () => (/* binding */ faBattery3),
 /* harmony export */   "faBattery4": () => (/* binding */ faBattery4),
+/* harmony export */   "faBattery5": () => (/* binding */ faBattery5),
+/* harmony export */   "faBatteryCar": () => (/* binding */ faBatteryCar),
+/* harmony export */   "faBatteryEmpty": () => (/* binding */ faBatteryEmpty),
+/* harmony export */   "faBatteryFull": () => (/* binding */ faBatteryFull),
+/* harmony export */   "faBatteryHalf": () => (/* binding */ faBatteryHalf),
+/* harmony export */   "faBatteryQuarter": () => (/* binding */ faBatteryQuarter),
+/* harmony export */   "faBatteryThreeQuarters": () => (/* binding */ faBatteryThreeQuarters),
 /* harmony export */   "faBed": () => (/* binding */ faBed),
 /* harmony export */   "faBedPulse": () => (/* binding */ faBedPulse),
-/* harmony export */   "faProcedures": () => (/* binding */ faProcedures),
-/* harmony export */   "faBeerMugEmpty": () => (/* binding */ faBeerMugEmpty),
 /* harmony export */   "faBeer": () => (/* binding */ faBeer),
+/* harmony export */   "faBeerMugEmpty": () => (/* binding */ faBeerMugEmpty),
 /* harmony export */   "faBell": () => (/* binding */ faBell),
 /* harmony export */   "faBellConcierge": () => (/* binding */ faBellConcierge),
-/* harmony export */   "faConciergeBell": () => (/* binding */ faConciergeBell),
 /* harmony export */   "faBellSlash": () => (/* binding */ faBellSlash),
 /* harmony export */   "faBezierCurve": () => (/* binding */ faBezierCurve),
+/* harmony export */   "faBible": () => (/* binding */ faBible),
 /* harmony export */   "faBicycle": () => (/* binding */ faBicycle),
+/* harmony export */   "faBiking": () => (/* binding */ faBiking),
 /* harmony export */   "faBinoculars": () => (/* binding */ faBinoculars),
 /* harmony export */   "faBiohazard": () => (/* binding */ faBiohazard),
+/* harmony export */   "faBirthdayCake": () => (/* binding */ faBirthdayCake),
 /* harmony export */   "faBitcoinSign": () => (/* binding */ faBitcoinSign),
+/* harmony export */   "faBlackboard": () => (/* binding */ faBlackboard),
 /* harmony export */   "faBlender": () => (/* binding */ faBlender),
 /* harmony export */   "faBlenderPhone": () => (/* binding */ faBlenderPhone),
+/* harmony export */   "faBlind": () => (/* binding */ faBlind),
 /* harmony export */   "faBlog": () => (/* binding */ faBlog),
 /* harmony export */   "faBold": () => (/* binding */ faBold),
 /* harmony export */   "faBolt": () => (/* binding */ faBolt),
-/* harmony export */   "faZap": () => (/* binding */ faZap),
 /* harmony export */   "faBoltLightning": () => (/* binding */ faBoltLightning),
 /* harmony export */   "faBomb": () => (/* binding */ faBomb),
 /* harmony export */   "faBone": () => (/* binding */ faBone),
 /* harmony export */   "faBong": () => (/* binding */ faBong),
 /* harmony export */   "faBook": () => (/* binding */ faBook),
 /* harmony export */   "faBookAtlas": () => (/* binding */ faBookAtlas),
-/* harmony export */   "faAtlas": () => (/* binding */ faAtlas),
 /* harmony export */   "faBookBible": () => (/* binding */ faBookBible),
-/* harmony export */   "faBible": () => (/* binding */ faBible),
+/* harmony export */   "faBookBookmark": () => (/* binding */ faBookBookmark),
+/* harmony export */   "faBookDead": () => (/* binding */ faBookDead),
 /* harmony export */   "faBookJournalWhills": () => (/* binding */ faBookJournalWhills),
-/* harmony export */   "faJournalWhills": () => (/* binding */ faJournalWhills),
 /* harmony export */   "faBookMedical": () => (/* binding */ faBookMedical),
 /* harmony export */   "faBookOpen": () => (/* binding */ faBookOpen),
 /* harmony export */   "faBookOpenReader": () => (/* binding */ faBookOpenReader),
-/* harmony export */   "faBookReader": () => (/* binding */ faBookReader),
 /* harmony export */   "faBookQuran": () => (/* binding */ faBookQuran),
-/* harmony export */   "faQuran": () => (/* binding */ faQuran),
+/* harmony export */   "faBookReader": () => (/* binding */ faBookReader),
 /* harmony export */   "faBookSkull": () => (/* binding */ faBookSkull),
-/* harmony export */   "faBookDead": () => (/* binding */ faBookDead),
 /* harmony export */   "faBookmark": () => (/* binding */ faBookmark),
 /* harmony export */   "faBorderAll": () => (/* binding */ faBorderAll),
 /* harmony export */   "faBorderNone": () => (/* binding */ faBorderNone),
-/* harmony export */   "faBorderTopLeft": () => (/* binding */ faBorderTopLeft),
 /* harmony export */   "faBorderStyle": () => (/* binding */ faBorderStyle),
+/* harmony export */   "faBorderTopLeft": () => (/* binding */ faBorderTopLeft),
+/* harmony export */   "faBoreHole": () => (/* binding */ faBoreHole),
+/* harmony export */   "faBottleDroplet": () => (/* binding */ faBottleDroplet),
+/* harmony export */   "faBottleWater": () => (/* binding */ faBottleWater),
+/* harmony export */   "faBowlFood": () => (/* binding */ faBowlFood),
+/* harmony export */   "faBowlRice": () => (/* binding */ faBowlRice),
 /* harmony export */   "faBowlingBall": () => (/* binding */ faBowlingBall),
 /* harmony export */   "faBox": () => (/* binding */ faBox),
 /* harmony export */   "faBoxArchive": () => (/* binding */ faBoxArchive),
-/* harmony export */   "faArchive": () => (/* binding */ faArchive),
 /* harmony export */   "faBoxOpen": () => (/* binding */ faBoxOpen),
 /* harmony export */   "faBoxTissue": () => (/* binding */ faBoxTissue),
-/* harmony export */   "faBoxesStacked": () => (/* binding */ faBoxesStacked),
 /* harmony export */   "faBoxes": () => (/* binding */ faBoxes),
 /* harmony export */   "faBoxesAlt": () => (/* binding */ faBoxesAlt),
+/* harmony export */   "faBoxesPacking": () => (/* binding */ faBoxesPacking),
+/* harmony export */   "faBoxesStacked": () => (/* binding */ faBoxesStacked),
 /* harmony export */   "faBraille": () => (/* binding */ faBraille),
 /* harmony export */   "faBrain": () => (/* binding */ faBrain),
 /* harmony export */   "faBrazilianRealSign": () => (/* binding */ faBrazilianRealSign),
 /* harmony export */   "faBreadSlice": () => (/* binding */ faBreadSlice),
+/* harmony export */   "faBridge": () => (/* binding */ faBridge),
+/* harmony export */   "faBridgeCircleCheck": () => (/* binding */ faBridgeCircleCheck),
+/* harmony export */   "faBridgeCircleExclamation": () => (/* binding */ faBridgeCircleExclamation),
+/* harmony export */   "faBridgeCircleXmark": () => (/* binding */ faBridgeCircleXmark),
+/* harmony export */   "faBridgeLock": () => (/* binding */ faBridgeLock),
+/* harmony export */   "faBridgeWater": () => (/* binding */ faBridgeWater),
 /* harmony export */   "faBriefcase": () => (/* binding */ faBriefcase),
+/* harmony export */   "faBriefcaseClock": () => (/* binding */ faBriefcaseClock),
 /* harmony export */   "faBriefcaseMedical": () => (/* binding */ faBriefcaseMedical),
+/* harmony export */   "faBroadcastTower": () => (/* binding */ faBroadcastTower),
 /* harmony export */   "faBroom": () => (/* binding */ faBroom),
 /* harmony export */   "faBroomBall": () => (/* binding */ faBroomBall),
-/* harmony export */   "faQuidditch": () => (/* binding */ faQuidditch),
-/* harmony export */   "faQuidditchBroomBall": () => (/* binding */ faQuidditchBroomBall),
 /* harmony export */   "faBrush": () => (/* binding */ faBrush),
+/* harmony export */   "faBucket": () => (/* binding */ faBucket),
 /* harmony export */   "faBug": () => (/* binding */ faBug),
 /* harmony export */   "faBugSlash": () => (/* binding */ faBugSlash),
+/* harmony export */   "faBugs": () => (/* binding */ faBugs),
 /* harmony export */   "faBuilding": () => (/* binding */ faBuilding),
+/* harmony export */   "faBuildingCircleArrowRight": () => (/* binding */ faBuildingCircleArrowRight),
+/* harmony export */   "faBuildingCircleCheck": () => (/* binding */ faBuildingCircleCheck),
+/* harmony export */   "faBuildingCircleExclamation": () => (/* binding */ faBuildingCircleExclamation),
+/* harmony export */   "faBuildingCircleXmark": () => (/* binding */ faBuildingCircleXmark),
 /* harmony export */   "faBuildingColumns": () => (/* binding */ faBuildingColumns),
-/* harmony export */   "faBank": () => (/* binding */ faBank),
-/* harmony export */   "faInstitution": () => (/* binding */ faInstitution),
-/* harmony export */   "faMuseum": () => (/* binding */ faMuseum),
-/* harmony export */   "faUniversity": () => (/* binding */ faUniversity),
+/* harmony export */   "faBuildingFlag": () => (/* binding */ faBuildingFlag),
+/* harmony export */   "faBuildingLock": () => (/* binding */ faBuildingLock),
+/* harmony export */   "faBuildingNgo": () => (/* binding */ faBuildingNgo),
+/* harmony export */   "faBuildingShield": () => (/* binding */ faBuildingShield),
+/* harmony export */   "faBuildingUn": () => (/* binding */ faBuildingUn),
+/* harmony export */   "faBuildingUser": () => (/* binding */ faBuildingUser),
+/* harmony export */   "faBuildingWheat": () => (/* binding */ faBuildingWheat),
 /* harmony export */   "faBullhorn": () => (/* binding */ faBullhorn),
 /* harmony export */   "faBullseye": () => (/* binding */ faBullseye),
 /* harmony export */   "faBurger": () => (/* binding */ faBurger),
-/* harmony export */   "faHamburger": () => (/* binding */ faHamburger),
+/* harmony export */   "faBurn": () => (/* binding */ faBurn),
+/* harmony export */   "faBurst": () => (/* binding */ faBurst),
 /* harmony export */   "faBus": () => (/* binding */ faBus),
-/* harmony export */   "faBusSimple": () => (/* binding */ faBusSimple),
 /* harmony export */   "faBusAlt": () => (/* binding */ faBusAlt),
+/* harmony export */   "faBusSimple": () => (/* binding */ faBusSimple),
 /* harmony export */   "faBusinessTime": () => (/* binding */ faBusinessTime),
-/* harmony export */   "faBriefcaseClock": () => (/* binding */ faBriefcaseClock),
 /* harmony export */   "faC": () => (/* binding */ faC),
-/* harmony export */   "faCakeCandles": () => (/* binding */ faCakeCandles),
-/* harmony export */   "faBirthdayCake": () => (/* binding */ faBirthdayCake),
+/* harmony export */   "faCab": () => (/* binding */ faCab),
 /* harmony export */   "faCake": () => (/* binding */ faCake),
+/* harmony export */   "faCakeCandles": () => (/* binding */ faCakeCandles),
 /* harmony export */   "faCalculator": () => (/* binding */ faCalculator),
 /* harmony export */   "faCalendar": () => (/* binding */ faCalendar),
+/* harmony export */   "faCalendarAlt": () => (/* binding */ faCalendarAlt),
 /* harmony export */   "faCalendarCheck": () => (/* binding */ faCalendarCheck),
 /* harmony export */   "faCalendarDay": () => (/* binding */ faCalendarDay),
 /* harmony export */   "faCalendarDays": () => (/* binding */ faCalendarDays),
-/* harmony export */   "faCalendarAlt": () => (/* binding */ faCalendarAlt),
 /* harmony export */   "faCalendarMinus": () => (/* binding */ faCalendarMinus),
 /* harmony export */   "faCalendarPlus": () => (/* binding */ faCalendarPlus),
+/* harmony export */   "faCalendarTimes": () => (/* binding */ faCalendarTimes),
 /* harmony export */   "faCalendarWeek": () => (/* binding */ faCalendarWeek),
 /* harmony export */   "faCalendarXmark": () => (/* binding */ faCalendarXmark),
-/* harmony export */   "faCalendarTimes": () => (/* binding */ faCalendarTimes),
 /* harmony export */   "faCamera": () => (/* binding */ faCamera),
 /* harmony export */   "faCameraAlt": () => (/* binding */ faCameraAlt),
 /* harmony export */   "faCameraRetro": () => (/* binding */ faCameraRetro),
 /* harmony export */   "faCameraRotate": () => (/* binding */ faCameraRotate),
 /* harmony export */   "faCampground": () => (/* binding */ faCampground),
+/* harmony export */   "faCancel": () => (/* binding */ faCancel),
 /* harmony export */   "faCandyCane": () => (/* binding */ faCandyCane),
 /* harmony export */   "faCannabis": () => (/* binding */ faCannabis),
 /* harmony export */   "faCapsules": () => (/* binding */ faCapsules),
 /* harmony export */   "faCar": () => (/* binding */ faCar),
-/* harmony export */   "faAutomobile": () => (/* binding */ faAutomobile),
-/* harmony export */   "faCarBattery": () => (/* binding */ faCarBattery),
-/* harmony export */   "faBatteryCar": () => (/* binding */ faBatteryCar),
-/* harmony export */   "faCarCrash": () => (/* binding */ faCarCrash),
-/* harmony export */   "faCarRear": () => (/* binding */ faCarRear),
 /* harmony export */   "faCarAlt": () => (/* binding */ faCarAlt),
+/* harmony export */   "faCarBattery": () => (/* binding */ faCarBattery),
+/* harmony export */   "faCarBurst": () => (/* binding */ faCarBurst),
+/* harmony export */   "faCarCrash": () => (/* binding */ faCarCrash),
+/* harmony export */   "faCarOn": () => (/* binding */ faCarOn),
+/* harmony export */   "faCarRear": () => (/* binding */ faCarRear),
 /* harmony export */   "faCarSide": () => (/* binding */ faCarSide),
+/* harmony export */   "faCarTunnel": () => (/* binding */ faCarTunnel),
 /* harmony export */   "faCaravan": () => (/* binding */ faCaravan),
 /* harmony export */   "faCaretDown": () => (/* binding */ faCaretDown),
 /* harmony export */   "faCaretLeft": () => (/* binding */ faCaretLeft),
 /* harmony export */   "faCaretRight": () => (/* binding */ faCaretRight),
+/* harmony export */   "faCaretSquareDown": () => (/* binding */ faCaretSquareDown),
+/* harmony export */   "faCaretSquareLeft": () => (/* binding */ faCaretSquareLeft),
+/* harmony export */   "faCaretSquareRight": () => (/* binding */ faCaretSquareRight),
+/* harmony export */   "faCaretSquareUp": () => (/* binding */ faCaretSquareUp),
 /* harmony export */   "faCaretUp": () => (/* binding */ faCaretUp),
+/* harmony export */   "faCarriageBaby": () => (/* binding */ faCarriageBaby),
 /* harmony export */   "faCarrot": () => (/* binding */ faCarrot),
 /* harmony export */   "faCartArrowDown": () => (/* binding */ faCartArrowDown),
 /* harmony export */   "faCartFlatbed": () => (/* binding */ faCartFlatbed),
-/* harmony export */   "faDollyFlatbed": () => (/* binding */ faDollyFlatbed),
 /* harmony export */   "faCartFlatbedSuitcase": () => (/* binding */ faCartFlatbedSuitcase),
-/* harmony export */   "faLuggageCart": () => (/* binding */ faLuggageCart),
 /* harmony export */   "faCartPlus": () => (/* binding */ faCartPlus),
 /* harmony export */   "faCartShopping": () => (/* binding */ faCartShopping),
-/* harmony export */   "faShoppingCart": () => (/* binding */ faShoppingCart),
 /* harmony export */   "faCashRegister": () => (/* binding */ faCashRegister),
 /* harmony export */   "faCat": () => (/* binding */ faCat),
 /* harmony export */   "faCediSign": () => (/* binding */ faCediSign),
 /* harmony export */   "faCentSign": () => (/* binding */ faCentSign),
 /* harmony export */   "faCertificate": () => (/* binding */ faCertificate),
+/* harmony export */   "faChain": () => (/* binding */ faChain),
+/* harmony export */   "faChainBroken": () => (/* binding */ faChainBroken),
+/* harmony export */   "faChainSlash": () => (/* binding */ faChainSlash),
 /* harmony export */   "faChair": () => (/* binding */ faChair),
 /* harmony export */   "faChalkboard": () => (/* binding */ faChalkboard),
-/* harmony export */   "faBlackboard": () => (/* binding */ faBlackboard),
-/* harmony export */   "faChalkboardUser": () => (/* binding */ faChalkboardUser),
 /* harmony export */   "faChalkboardTeacher": () => (/* binding */ faChalkboardTeacher),
+/* harmony export */   "faChalkboardUser": () => (/* binding */ faChalkboardUser),
 /* harmony export */   "faChampagneGlasses": () => (/* binding */ faChampagneGlasses),
-/* harmony export */   "faGlassCheers": () => (/* binding */ faGlassCheers),
 /* harmony export */   "faChargingStation": () => (/* binding */ faChargingStation),
 /* harmony export */   "faChartArea": () => (/* binding */ faChartArea),
-/* harmony export */   "faAreaChart": () => (/* binding */ faAreaChart),
 /* harmony export */   "faChartBar": () => (/* binding */ faChartBar),
-/* harmony export */   "faBarChart": () => (/* binding */ faBarChart),
 /* harmony export */   "faChartColumn": () => (/* binding */ faChartColumn),
 /* harmony export */   "faChartGantt": () => (/* binding */ faChartGantt),
 /* harmony export */   "faChartLine": () => (/* binding */ faChartLine),
-/* harmony export */   "faLineChart": () => (/* binding */ faLineChart),
 /* harmony export */   "faChartPie": () => (/* binding */ faChartPie),
-/* harmony export */   "faPieChart": () => (/* binding */ faPieChart),
+/* harmony export */   "faChartSimple": () => (/* binding */ faChartSimple),
 /* harmony export */   "faCheck": () => (/* binding */ faCheck),
+/* harmony export */   "faCheckCircle": () => (/* binding */ faCheckCircle),
 /* harmony export */   "faCheckDouble": () => (/* binding */ faCheckDouble),
+/* harmony export */   "faCheckSquare": () => (/* binding */ faCheckSquare),
 /* harmony export */   "faCheckToSlot": () => (/* binding */ faCheckToSlot),
-/* harmony export */   "faVoteYea": () => (/* binding */ faVoteYea),
 /* harmony export */   "faCheese": () => (/* binding */ faCheese),
 /* harmony export */   "faChess": () => (/* binding */ faChess),
 /* harmony export */   "faChessBishop": () => (/* binding */ faChessBishop),
@@ -7344,97 +7394,84 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faChessPawn": () => (/* binding */ faChessPawn),
 /* harmony export */   "faChessQueen": () => (/* binding */ faChessQueen),
 /* harmony export */   "faChessRook": () => (/* binding */ faChessRook),
+/* harmony export */   "faChevronCircleDown": () => (/* binding */ faChevronCircleDown),
+/* harmony export */   "faChevronCircleLeft": () => (/* binding */ faChevronCircleLeft),
+/* harmony export */   "faChevronCircleRight": () => (/* binding */ faChevronCircleRight),
+/* harmony export */   "faChevronCircleUp": () => (/* binding */ faChevronCircleUp),
 /* harmony export */   "faChevronDown": () => (/* binding */ faChevronDown),
 /* harmony export */   "faChevronLeft": () => (/* binding */ faChevronLeft),
 /* harmony export */   "faChevronRight": () => (/* binding */ faChevronRight),
 /* harmony export */   "faChevronUp": () => (/* binding */ faChevronUp),
 /* harmony export */   "faChild": () => (/* binding */ faChild),
+/* harmony export */   "faChildDress": () => (/* binding */ faChildDress),
+/* harmony export */   "faChildReaching": () => (/* binding */ faChildReaching),
+/* harmony export */   "faChildRifle": () => (/* binding */ faChildRifle),
+/* harmony export */   "faChildren": () => (/* binding */ faChildren),
 /* harmony export */   "faChurch": () => (/* binding */ faChurch),
 /* harmony export */   "faCircle": () => (/* binding */ faCircle),
 /* harmony export */   "faCircleArrowDown": () => (/* binding */ faCircleArrowDown),
-/* harmony export */   "faArrowCircleDown": () => (/* binding */ faArrowCircleDown),
 /* harmony export */   "faCircleArrowLeft": () => (/* binding */ faCircleArrowLeft),
-/* harmony export */   "faArrowCircleLeft": () => (/* binding */ faArrowCircleLeft),
 /* harmony export */   "faCircleArrowRight": () => (/* binding */ faCircleArrowRight),
-/* harmony export */   "faArrowCircleRight": () => (/* binding */ faArrowCircleRight),
 /* harmony export */   "faCircleArrowUp": () => (/* binding */ faCircleArrowUp),
-/* harmony export */   "faArrowCircleUp": () => (/* binding */ faArrowCircleUp),
 /* harmony export */   "faCircleCheck": () => (/* binding */ faCircleCheck),
-/* harmony export */   "faCheckCircle": () => (/* binding */ faCheckCircle),
 /* harmony export */   "faCircleChevronDown": () => (/* binding */ faCircleChevronDown),
-/* harmony export */   "faChevronCircleDown": () => (/* binding */ faChevronCircleDown),
 /* harmony export */   "faCircleChevronLeft": () => (/* binding */ faCircleChevronLeft),
-/* harmony export */   "faChevronCircleLeft": () => (/* binding */ faChevronCircleLeft),
 /* harmony export */   "faCircleChevronRight": () => (/* binding */ faCircleChevronRight),
-/* harmony export */   "faChevronCircleRight": () => (/* binding */ faChevronCircleRight),
 /* harmony export */   "faCircleChevronUp": () => (/* binding */ faCircleChevronUp),
-/* harmony export */   "faChevronCircleUp": () => (/* binding */ faChevronCircleUp),
 /* harmony export */   "faCircleDollarToSlot": () => (/* binding */ faCircleDollarToSlot),
-/* harmony export */   "faDonate": () => (/* binding */ faDonate),
 /* harmony export */   "faCircleDot": () => (/* binding */ faCircleDot),
-/* harmony export */   "faDotCircle": () => (/* binding */ faDotCircle),
 /* harmony export */   "faCircleDown": () => (/* binding */ faCircleDown),
-/* harmony export */   "faArrowAltCircleDown": () => (/* binding */ faArrowAltCircleDown),
 /* harmony export */   "faCircleExclamation": () => (/* binding */ faCircleExclamation),
-/* harmony export */   "faExclamationCircle": () => (/* binding */ faExclamationCircle),
 /* harmony export */   "faCircleH": () => (/* binding */ faCircleH),
-/* harmony export */   "faHospitalSymbol": () => (/* binding */ faHospitalSymbol),
 /* harmony export */   "faCircleHalfStroke": () => (/* binding */ faCircleHalfStroke),
-/* harmony export */   "faAdjust": () => (/* binding */ faAdjust),
 /* harmony export */   "faCircleInfo": () => (/* binding */ faCircleInfo),
-/* harmony export */   "faInfoCircle": () => (/* binding */ faInfoCircle),
 /* harmony export */   "faCircleLeft": () => (/* binding */ faCircleLeft),
-/* harmony export */   "faArrowAltCircleLeft": () => (/* binding */ faArrowAltCircleLeft),
 /* harmony export */   "faCircleMinus": () => (/* binding */ faCircleMinus),
-/* harmony export */   "faMinusCircle": () => (/* binding */ faMinusCircle),
+/* harmony export */   "faCircleNodes": () => (/* binding */ faCircleNodes),
 /* harmony export */   "faCircleNotch": () => (/* binding */ faCircleNotch),
 /* harmony export */   "faCirclePause": () => (/* binding */ faCirclePause),
-/* harmony export */   "faPauseCircle": () => (/* binding */ faPauseCircle),
 /* harmony export */   "faCirclePlay": () => (/* binding */ faCirclePlay),
-/* harmony export */   "faPlayCircle": () => (/* binding */ faPlayCircle),
 /* harmony export */   "faCirclePlus": () => (/* binding */ faCirclePlus),
-/* harmony export */   "faPlusCircle": () => (/* binding */ faPlusCircle),
 /* harmony export */   "faCircleQuestion": () => (/* binding */ faCircleQuestion),
-/* harmony export */   "faQuestionCircle": () => (/* binding */ faQuestionCircle),
 /* harmony export */   "faCircleRadiation": () => (/* binding */ faCircleRadiation),
-/* harmony export */   "faRadiationAlt": () => (/* binding */ faRadiationAlt),
 /* harmony export */   "faCircleRight": () => (/* binding */ faCircleRight),
-/* harmony export */   "faArrowAltCircleRight": () => (/* binding */ faArrowAltCircleRight),
 /* harmony export */   "faCircleStop": () => (/* binding */ faCircleStop),
-/* harmony export */   "faStopCircle": () => (/* binding */ faStopCircle),
 /* harmony export */   "faCircleUp": () => (/* binding */ faCircleUp),
-/* harmony export */   "faArrowAltCircleUp": () => (/* binding */ faArrowAltCircleUp),
 /* harmony export */   "faCircleUser": () => (/* binding */ faCircleUser),
-/* harmony export */   "faUserCircle": () => (/* binding */ faUserCircle),
 /* harmony export */   "faCircleXmark": () => (/* binding */ faCircleXmark),
-/* harmony export */   "faTimesCircle": () => (/* binding */ faTimesCircle),
-/* harmony export */   "faXmarkCircle": () => (/* binding */ faXmarkCircle),
 /* harmony export */   "faCity": () => (/* binding */ faCity),
 /* harmony export */   "faClapperboard": () => (/* binding */ faClapperboard),
+/* harmony export */   "faClinicMedical": () => (/* binding */ faClinicMedical),
 /* harmony export */   "faClipboard": () => (/* binding */ faClipboard),
 /* harmony export */   "faClipboardCheck": () => (/* binding */ faClipboardCheck),
 /* harmony export */   "faClipboardList": () => (/* binding */ faClipboardList),
+/* harmony export */   "faClipboardQuestion": () => (/* binding */ faClipboardQuestion),
+/* harmony export */   "faClipboardUser": () => (/* binding */ faClipboardUser),
 /* harmony export */   "faClock": () => (/* binding */ faClock),
 /* harmony export */   "faClockFour": () => (/* binding */ faClockFour),
 /* harmony export */   "faClockRotateLeft": () => (/* binding */ faClockRotateLeft),
-/* harmony export */   "faHistory": () => (/* binding */ faHistory),
 /* harmony export */   "faClone": () => (/* binding */ faClone),
+/* harmony export */   "faClose": () => (/* binding */ faClose),
 /* harmony export */   "faClosedCaptioning": () => (/* binding */ faClosedCaptioning),
 /* harmony export */   "faCloud": () => (/* binding */ faCloud),
 /* harmony export */   "faCloudArrowDown": () => (/* binding */ faCloudArrowDown),
+/* harmony export */   "faCloudArrowUp": () => (/* binding */ faCloudArrowUp),
+/* harmony export */   "faCloudBolt": () => (/* binding */ faCloudBolt),
 /* harmony export */   "faCloudDownload": () => (/* binding */ faCloudDownload),
 /* harmony export */   "faCloudDownloadAlt": () => (/* binding */ faCloudDownloadAlt),
-/* harmony export */   "faCloudArrowUp": () => (/* binding */ faCloudArrowUp),
-/* harmony export */   "faCloudUpload": () => (/* binding */ faCloudUpload),
-/* harmony export */   "faCloudUploadAlt": () => (/* binding */ faCloudUploadAlt),
 /* harmony export */   "faCloudMeatball": () => (/* binding */ faCloudMeatball),
 /* harmony export */   "faCloudMoon": () => (/* binding */ faCloudMoon),
 /* harmony export */   "faCloudMoonRain": () => (/* binding */ faCloudMoonRain),
 /* harmony export */   "faCloudRain": () => (/* binding */ faCloudRain),
 /* harmony export */   "faCloudShowersHeavy": () => (/* binding */ faCloudShowersHeavy),
+/* harmony export */   "faCloudShowersWater": () => (/* binding */ faCloudShowersWater),
 /* harmony export */   "faCloudSun": () => (/* binding */ faCloudSun),
 /* harmony export */   "faCloudSunRain": () => (/* binding */ faCloudSunRain),
+/* harmony export */   "faCloudUpload": () => (/* binding */ faCloudUpload),
+/* harmony export */   "faCloudUploadAlt": () => (/* binding */ faCloudUploadAlt),
 /* harmony export */   "faClover": () => (/* binding */ faClover),
+/* harmony export */   "faCny": () => (/* binding */ faCny),
+/* harmony export */   "faCocktail": () => (/* binding */ faCocktail),
 /* harmony export */   "faCode": () => (/* binding */ faCode),
 /* harmony export */   "faCodeBranch": () => (/* binding */ faCodeBranch),
 /* harmony export */   "faCodeCommit": () => (/* binding */ faCodeCommit),
@@ -7442,35 +7479,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faCodeFork": () => (/* binding */ faCodeFork),
 /* harmony export */   "faCodeMerge": () => (/* binding */ faCodeMerge),
 /* harmony export */   "faCodePullRequest": () => (/* binding */ faCodePullRequest),
+/* harmony export */   "faCoffee": () => (/* binding */ faCoffee),
+/* harmony export */   "faCog": () => (/* binding */ faCog),
+/* harmony export */   "faCogs": () => (/* binding */ faCogs),
 /* harmony export */   "faCoins": () => (/* binding */ faCoins),
 /* harmony export */   "faColonSign": () => (/* binding */ faColonSign),
+/* harmony export */   "faColumns": () => (/* binding */ faColumns),
 /* harmony export */   "faComment": () => (/* binding */ faComment),
+/* harmony export */   "faCommentAlt": () => (/* binding */ faCommentAlt),
 /* harmony export */   "faCommentDollar": () => (/* binding */ faCommentDollar),
 /* harmony export */   "faCommentDots": () => (/* binding */ faCommentDots),
-/* harmony export */   "faCommenting": () => (/* binding */ faCommenting),
 /* harmony export */   "faCommentMedical": () => (/* binding */ faCommentMedical),
 /* harmony export */   "faCommentSlash": () => (/* binding */ faCommentSlash),
 /* harmony export */   "faCommentSms": () => (/* binding */ faCommentSms),
-/* harmony export */   "faSms": () => (/* binding */ faSms),
+/* harmony export */   "faCommenting": () => (/* binding */ faCommenting),
 /* harmony export */   "faComments": () => (/* binding */ faComments),
 /* harmony export */   "faCommentsDollar": () => (/* binding */ faCommentsDollar),
 /* harmony export */   "faCompactDisc": () => (/* binding */ faCompactDisc),
 /* harmony export */   "faCompass": () => (/* binding */ faCompass),
 /* harmony export */   "faCompassDrafting": () => (/* binding */ faCompassDrafting),
-/* harmony export */   "faDraftingCompass": () => (/* binding */ faDraftingCompass),
 /* harmony export */   "faCompress": () => (/* binding */ faCompress),
+/* harmony export */   "faCompressAlt": () => (/* binding */ faCompressAlt),
+/* harmony export */   "faCompressArrowsAlt": () => (/* binding */ faCompressArrowsAlt),
+/* harmony export */   "faComputer": () => (/* binding */ faComputer),
 /* harmony export */   "faComputerMouse": () => (/* binding */ faComputerMouse),
-/* harmony export */   "faMouse": () => (/* binding */ faMouse),
+/* harmony export */   "faConciergeBell": () => (/* binding */ faConciergeBell),
+/* harmony export */   "faContactBook": () => (/* binding */ faContactBook),
+/* harmony export */   "faContactCard": () => (/* binding */ faContactCard),
 /* harmony export */   "faCookie": () => (/* binding */ faCookie),
 /* harmony export */   "faCookieBite": () => (/* binding */ faCookieBite),
 /* harmony export */   "faCopy": () => (/* binding */ faCopy),
 /* harmony export */   "faCopyright": () => (/* binding */ faCopyright),
 /* harmony export */   "faCouch": () => (/* binding */ faCouch),
+/* harmony export */   "faCow": () => (/* binding */ faCow),
 /* harmony export */   "faCreditCard": () => (/* binding */ faCreditCard),
 /* harmony export */   "faCreditCardAlt": () => (/* binding */ faCreditCardAlt),
 /* harmony export */   "faCrop": () => (/* binding */ faCrop),
-/* harmony export */   "faCropSimple": () => (/* binding */ faCropSimple),
 /* harmony export */   "faCropAlt": () => (/* binding */ faCropAlt),
+/* harmony export */   "faCropSimple": () => (/* binding */ faCropSimple),
 /* harmony export */   "faCross": () => (/* binding */ faCross),
 /* harmony export */   "faCrosshairs": () => (/* binding */ faCrosshairs),
 /* harmony export */   "faCrow": () => (/* binding */ faCrow),
@@ -7479,22 +7525,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faCruzeiroSign": () => (/* binding */ faCruzeiroSign),
 /* harmony export */   "faCube": () => (/* binding */ faCube),
 /* harmony export */   "faCubes": () => (/* binding */ faCubes),
+/* harmony export */   "faCubesStacked": () => (/* binding */ faCubesStacked),
+/* harmony export */   "faCut": () => (/* binding */ faCut),
+/* harmony export */   "faCutlery": () => (/* binding */ faCutlery),
 /* harmony export */   "faD": () => (/* binding */ faD),
+/* harmony export */   "faDashboard": () => (/* binding */ faDashboard),
 /* harmony export */   "faDatabase": () => (/* binding */ faDatabase),
+/* harmony export */   "faDeaf": () => (/* binding */ faDeaf),
+/* harmony export */   "faDeafness": () => (/* binding */ faDeafness),
+/* harmony export */   "faDedent": () => (/* binding */ faDedent),
 /* harmony export */   "faDeleteLeft": () => (/* binding */ faDeleteLeft),
-/* harmony export */   "faBackspace": () => (/* binding */ faBackspace),
 /* harmony export */   "faDemocrat": () => (/* binding */ faDemocrat),
 /* harmony export */   "faDesktop": () => (/* binding */ faDesktop),
 /* harmony export */   "faDesktopAlt": () => (/* binding */ faDesktopAlt),
 /* harmony export */   "faDharmachakra": () => (/* binding */ faDharmachakra),
+/* harmony export */   "faDiagnoses": () => (/* binding */ faDiagnoses),
 /* harmony export */   "faDiagramNext": () => (/* binding */ faDiagramNext),
 /* harmony export */   "faDiagramPredecessor": () => (/* binding */ faDiagramPredecessor),
 /* harmony export */   "faDiagramProject": () => (/* binding */ faDiagramProject),
-/* harmony export */   "faProjectDiagram": () => (/* binding */ faProjectDiagram),
 /* harmony export */   "faDiagramSuccessor": () => (/* binding */ faDiagramSuccessor),
 /* harmony export */   "faDiamond": () => (/* binding */ faDiamond),
 /* harmony export */   "faDiamondTurnRight": () => (/* binding */ faDiamondTurnRight),
-/* harmony export */   "faDirections": () => (/* binding */ faDirections),
 /* harmony export */   "faDice": () => (/* binding */ faDice),
 /* harmony export */   "faDiceD20": () => (/* binding */ faDiceD20),
 /* harmony export */   "faDiceD6": () => (/* binding */ faDiceD6),
@@ -7504,30 +7555,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faDiceSix": () => (/* binding */ faDiceSix),
 /* harmony export */   "faDiceThree": () => (/* binding */ faDiceThree),
 /* harmony export */   "faDiceTwo": () => (/* binding */ faDiceTwo),
+/* harmony export */   "faDigging": () => (/* binding */ faDigging),
+/* harmony export */   "faDigitalTachograph": () => (/* binding */ faDigitalTachograph),
+/* harmony export */   "faDirections": () => (/* binding */ faDirections),
 /* harmony export */   "faDisease": () => (/* binding */ faDisease),
+/* harmony export */   "faDisplay": () => (/* binding */ faDisplay),
 /* harmony export */   "faDivide": () => (/* binding */ faDivide),
+/* harmony export */   "faDizzy": () => (/* binding */ faDizzy),
 /* harmony export */   "faDna": () => (/* binding */ faDna),
 /* harmony export */   "faDog": () => (/* binding */ faDog),
-/* harmony export */   "faDollarSign": () => (/* binding */ faDollarSign),
 /* harmony export */   "faDollar": () => (/* binding */ faDollar),
-/* harmony export */   "faUsd": () => (/* binding */ faUsd),
+/* harmony export */   "faDollarSign": () => (/* binding */ faDollarSign),
 /* harmony export */   "faDolly": () => (/* binding */ faDolly),
 /* harmony export */   "faDollyBox": () => (/* binding */ faDollyBox),
+/* harmony export */   "faDollyFlatbed": () => (/* binding */ faDollyFlatbed),
+/* harmony export */   "faDonate": () => (/* binding */ faDonate),
 /* harmony export */   "faDongSign": () => (/* binding */ faDongSign),
 /* harmony export */   "faDoorClosed": () => (/* binding */ faDoorClosed),
 /* harmony export */   "faDoorOpen": () => (/* binding */ faDoorOpen),
+/* harmony export */   "faDotCircle": () => (/* binding */ faDotCircle),
 /* harmony export */   "faDove": () => (/* binding */ faDove),
 /* harmony export */   "faDownLeftAndUpRightToCenter": () => (/* binding */ faDownLeftAndUpRightToCenter),
-/* harmony export */   "faCompressAlt": () => (/* binding */ faCompressAlt),
 /* harmony export */   "faDownLong": () => (/* binding */ faDownLong),
-/* harmony export */   "faLongArrowAltDown": () => (/* binding */ faLongArrowAltDown),
 /* harmony export */   "faDownload": () => (/* binding */ faDownload),
+/* harmony export */   "faDraftingCompass": () => (/* binding */ faDraftingCompass),
 /* harmony export */   "faDragon": () => (/* binding */ faDragon),
 /* harmony export */   "faDrawPolygon": () => (/* binding */ faDrawPolygon),
+/* harmony export */   "faDriversLicense": () => (/* binding */ faDriversLicense),
 /* harmony export */   "faDroplet": () => (/* binding */ faDroplet),
-/* harmony export */   "faTint": () => (/* binding */ faTint),
 /* harmony export */   "faDropletSlash": () => (/* binding */ faDropletSlash),
-/* harmony export */   "faTintSlash": () => (/* binding */ faTintSlash),
 /* harmony export */   "faDrum": () => (/* binding */ faDrum),
 /* harmony export */   "faDrumSteelpan": () => (/* binding */ faDrumSteelpan),
 /* harmony export */   "faDrumstickBite": () => (/* binding */ faDrumstickBite),
@@ -7537,183 +7593,170 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faDungeon": () => (/* binding */ faDungeon),
 /* harmony export */   "faE": () => (/* binding */ faE),
 /* harmony export */   "faEarDeaf": () => (/* binding */ faEarDeaf),
-/* harmony export */   "faDeaf": () => (/* binding */ faDeaf),
-/* harmony export */   "faDeafness": () => (/* binding */ faDeafness),
-/* harmony export */   "faHardOfHearing": () => (/* binding */ faHardOfHearing),
 /* harmony export */   "faEarListen": () => (/* binding */ faEarListen),
-/* harmony export */   "faAssistiveListeningSystems": () => (/* binding */ faAssistiveListeningSystems),
-/* harmony export */   "faEarthAfrica": () => (/* binding */ faEarthAfrica),
-/* harmony export */   "faGlobeAfrica": () => (/* binding */ faGlobeAfrica),
-/* harmony export */   "faEarthAmericas": () => (/* binding */ faEarthAmericas),
 /* harmony export */   "faEarth": () => (/* binding */ faEarth),
+/* harmony export */   "faEarthAfrica": () => (/* binding */ faEarthAfrica),
 /* harmony export */   "faEarthAmerica": () => (/* binding */ faEarthAmerica),
-/* harmony export */   "faGlobeAmericas": () => (/* binding */ faGlobeAmericas),
+/* harmony export */   "faEarthAmericas": () => (/* binding */ faEarthAmericas),
 /* harmony export */   "faEarthAsia": () => (/* binding */ faEarthAsia),
-/* harmony export */   "faGlobeAsia": () => (/* binding */ faGlobeAsia),
 /* harmony export */   "faEarthEurope": () => (/* binding */ faEarthEurope),
-/* harmony export */   "faGlobeEurope": () => (/* binding */ faGlobeEurope),
 /* harmony export */   "faEarthOceania": () => (/* binding */ faEarthOceania),
-/* harmony export */   "faGlobeOceania": () => (/* binding */ faGlobeOceania),
+/* harmony export */   "faEdit": () => (/* binding */ faEdit),
 /* harmony export */   "faEgg": () => (/* binding */ faEgg),
 /* harmony export */   "faEject": () => (/* binding */ faEject),
 /* harmony export */   "faElevator": () => (/* binding */ faElevator),
 /* harmony export */   "faEllipsis": () => (/* binding */ faEllipsis),
 /* harmony export */   "faEllipsisH": () => (/* binding */ faEllipsisH),
-/* harmony export */   "faEllipsisVertical": () => (/* binding */ faEllipsisVertical),
 /* harmony export */   "faEllipsisV": () => (/* binding */ faEllipsisV),
+/* harmony export */   "faEllipsisVertical": () => (/* binding */ faEllipsisVertical),
 /* harmony export */   "faEnvelope": () => (/* binding */ faEnvelope),
+/* harmony export */   "faEnvelopeCircleCheck": () => (/* binding */ faEnvelopeCircleCheck),
 /* harmony export */   "faEnvelopeOpen": () => (/* binding */ faEnvelopeOpen),
 /* harmony export */   "faEnvelopeOpenText": () => (/* binding */ faEnvelopeOpenText),
+/* harmony export */   "faEnvelopeSquare": () => (/* binding */ faEnvelopeSquare),
 /* harmony export */   "faEnvelopesBulk": () => (/* binding */ faEnvelopesBulk),
-/* harmony export */   "faMailBulk": () => (/* binding */ faMailBulk),
 /* harmony export */   "faEquals": () => (/* binding */ faEquals),
 /* harmony export */   "faEraser": () => (/* binding */ faEraser),
 /* harmony export */   "faEthernet": () => (/* binding */ faEthernet),
-/* harmony export */   "faEuroSign": () => (/* binding */ faEuroSign),
 /* harmony export */   "faEur": () => (/* binding */ faEur),
 /* harmony export */   "faEuro": () => (/* binding */ faEuro),
+/* harmony export */   "faEuroSign": () => (/* binding */ faEuroSign),
+/* harmony export */   "faExchange": () => (/* binding */ faExchange),
+/* harmony export */   "faExchangeAlt": () => (/* binding */ faExchangeAlt),
 /* harmony export */   "faExclamation": () => (/* binding */ faExclamation),
+/* harmony export */   "faExclamationCircle": () => (/* binding */ faExclamationCircle),
+/* harmony export */   "faExclamationTriangle": () => (/* binding */ faExclamationTriangle),
 /* harmony export */   "faExpand": () => (/* binding */ faExpand),
+/* harmony export */   "faExpandAlt": () => (/* binding */ faExpandAlt),
+/* harmony export */   "faExpandArrowsAlt": () => (/* binding */ faExpandArrowsAlt),
+/* harmony export */   "faExplosion": () => (/* binding */ faExplosion),
+/* harmony export */   "faExternalLink": () => (/* binding */ faExternalLink),
+/* harmony export */   "faExternalLinkAlt": () => (/* binding */ faExternalLinkAlt),
+/* harmony export */   "faExternalLinkSquare": () => (/* binding */ faExternalLinkSquare),
+/* harmony export */   "faExternalLinkSquareAlt": () => (/* binding */ faExternalLinkSquareAlt),
 /* harmony export */   "faEye": () => (/* binding */ faEye),
 /* harmony export */   "faEyeDropper": () => (/* binding */ faEyeDropper),
 /* harmony export */   "faEyeDropperEmpty": () => (/* binding */ faEyeDropperEmpty),
-/* harmony export */   "faEyedropper": () => (/* binding */ faEyedropper),
 /* harmony export */   "faEyeLowVision": () => (/* binding */ faEyeLowVision),
-/* harmony export */   "faLowVision": () => (/* binding */ faLowVision),
 /* harmony export */   "faEyeSlash": () => (/* binding */ faEyeSlash),
+/* harmony export */   "faEyedropper": () => (/* binding */ faEyedropper),
 /* harmony export */   "faF": () => (/* binding */ faF),
 /* harmony export */   "faFaceAngry": () => (/* binding */ faFaceAngry),
-/* harmony export */   "faAngry": () => (/* binding */ faAngry),
 /* harmony export */   "faFaceDizzy": () => (/* binding */ faFaceDizzy),
-/* harmony export */   "faDizzy": () => (/* binding */ faDizzy),
 /* harmony export */   "faFaceFlushed": () => (/* binding */ faFaceFlushed),
-/* harmony export */   "faFlushed": () => (/* binding */ faFlushed),
 /* harmony export */   "faFaceFrown": () => (/* binding */ faFaceFrown),
-/* harmony export */   "faFrown": () => (/* binding */ faFrown),
 /* harmony export */   "faFaceFrownOpen": () => (/* binding */ faFaceFrownOpen),
-/* harmony export */   "faFrownOpen": () => (/* binding */ faFrownOpen),
 /* harmony export */   "faFaceGrimace": () => (/* binding */ faFaceGrimace),
-/* harmony export */   "faGrimace": () => (/* binding */ faGrimace),
 /* harmony export */   "faFaceGrin": () => (/* binding */ faFaceGrin),
-/* harmony export */   "faGrin": () => (/* binding */ faGrin),
 /* harmony export */   "faFaceGrinBeam": () => (/* binding */ faFaceGrinBeam),
-/* harmony export */   "faGrinBeam": () => (/* binding */ faGrinBeam),
 /* harmony export */   "faFaceGrinBeamSweat": () => (/* binding */ faFaceGrinBeamSweat),
-/* harmony export */   "faGrinBeamSweat": () => (/* binding */ faGrinBeamSweat),
 /* harmony export */   "faFaceGrinHearts": () => (/* binding */ faFaceGrinHearts),
-/* harmony export */   "faGrinHearts": () => (/* binding */ faGrinHearts),
 /* harmony export */   "faFaceGrinSquint": () => (/* binding */ faFaceGrinSquint),
-/* harmony export */   "faGrinSquint": () => (/* binding */ faGrinSquint),
 /* harmony export */   "faFaceGrinSquintTears": () => (/* binding */ faFaceGrinSquintTears),
-/* harmony export */   "faGrinSquintTears": () => (/* binding */ faGrinSquintTears),
 /* harmony export */   "faFaceGrinStars": () => (/* binding */ faFaceGrinStars),
-/* harmony export */   "faGrinStars": () => (/* binding */ faGrinStars),
 /* harmony export */   "faFaceGrinTears": () => (/* binding */ faFaceGrinTears),
-/* harmony export */   "faGrinTears": () => (/* binding */ faGrinTears),
 /* harmony export */   "faFaceGrinTongue": () => (/* binding */ faFaceGrinTongue),
-/* harmony export */   "faGrinTongue": () => (/* binding */ faGrinTongue),
 /* harmony export */   "faFaceGrinTongueSquint": () => (/* binding */ faFaceGrinTongueSquint),
-/* harmony export */   "faGrinTongueSquint": () => (/* binding */ faGrinTongueSquint),
 /* harmony export */   "faFaceGrinTongueWink": () => (/* binding */ faFaceGrinTongueWink),
-/* harmony export */   "faGrinTongueWink": () => (/* binding */ faGrinTongueWink),
 /* harmony export */   "faFaceGrinWide": () => (/* binding */ faFaceGrinWide),
-/* harmony export */   "faGrinAlt": () => (/* binding */ faGrinAlt),
 /* harmony export */   "faFaceGrinWink": () => (/* binding */ faFaceGrinWink),
-/* harmony export */   "faGrinWink": () => (/* binding */ faGrinWink),
 /* harmony export */   "faFaceKiss": () => (/* binding */ faFaceKiss),
-/* harmony export */   "faKiss": () => (/* binding */ faKiss),
 /* harmony export */   "faFaceKissBeam": () => (/* binding */ faFaceKissBeam),
-/* harmony export */   "faKissBeam": () => (/* binding */ faKissBeam),
 /* harmony export */   "faFaceKissWinkHeart": () => (/* binding */ faFaceKissWinkHeart),
-/* harmony export */   "faKissWinkHeart": () => (/* binding */ faKissWinkHeart),
 /* harmony export */   "faFaceLaugh": () => (/* binding */ faFaceLaugh),
-/* harmony export */   "faLaugh": () => (/* binding */ faLaugh),
 /* harmony export */   "faFaceLaughBeam": () => (/* binding */ faFaceLaughBeam),
-/* harmony export */   "faLaughBeam": () => (/* binding */ faLaughBeam),
 /* harmony export */   "faFaceLaughSquint": () => (/* binding */ faFaceLaughSquint),
-/* harmony export */   "faLaughSquint": () => (/* binding */ faLaughSquint),
 /* harmony export */   "faFaceLaughWink": () => (/* binding */ faFaceLaughWink),
-/* harmony export */   "faLaughWink": () => (/* binding */ faLaughWink),
 /* harmony export */   "faFaceMeh": () => (/* binding */ faFaceMeh),
-/* harmony export */   "faMeh": () => (/* binding */ faMeh),
 /* harmony export */   "faFaceMehBlank": () => (/* binding */ faFaceMehBlank),
-/* harmony export */   "faMehBlank": () => (/* binding */ faMehBlank),
 /* harmony export */   "faFaceRollingEyes": () => (/* binding */ faFaceRollingEyes),
-/* harmony export */   "faMehRollingEyes": () => (/* binding */ faMehRollingEyes),
 /* harmony export */   "faFaceSadCry": () => (/* binding */ faFaceSadCry),
-/* harmony export */   "faSadCry": () => (/* binding */ faSadCry),
 /* harmony export */   "faFaceSadTear": () => (/* binding */ faFaceSadTear),
-/* harmony export */   "faSadTear": () => (/* binding */ faSadTear),
 /* harmony export */   "faFaceSmile": () => (/* binding */ faFaceSmile),
-/* harmony export */   "faSmile": () => (/* binding */ faSmile),
 /* harmony export */   "faFaceSmileBeam": () => (/* binding */ faFaceSmileBeam),
-/* harmony export */   "faSmileBeam": () => (/* binding */ faSmileBeam),
 /* harmony export */   "faFaceSmileWink": () => (/* binding */ faFaceSmileWink),
-/* harmony export */   "faSmileWink": () => (/* binding */ faSmileWink),
 /* harmony export */   "faFaceSurprise": () => (/* binding */ faFaceSurprise),
-/* harmony export */   "faSurprise": () => (/* binding */ faSurprise),
 /* harmony export */   "faFaceTired": () => (/* binding */ faFaceTired),
-/* harmony export */   "faTired": () => (/* binding */ faTired),
 /* harmony export */   "faFan": () => (/* binding */ faFan),
+/* harmony export */   "faFastBackward": () => (/* binding */ faFastBackward),
+/* harmony export */   "faFastForward": () => (/* binding */ faFastForward),
 /* harmony export */   "faFaucet": () => (/* binding */ faFaucet),
+/* harmony export */   "faFaucetDrip": () => (/* binding */ faFaucetDrip),
 /* harmony export */   "faFax": () => (/* binding */ faFax),
 /* harmony export */   "faFeather": () => (/* binding */ faFeather),
-/* harmony export */   "faFeatherPointed": () => (/* binding */ faFeatherPointed),
 /* harmony export */   "faFeatherAlt": () => (/* binding */ faFeatherAlt),
+/* harmony export */   "faFeatherPointed": () => (/* binding */ faFeatherPointed),
+/* harmony export */   "faFeed": () => (/* binding */ faFeed),
+/* harmony export */   "faFemale": () => (/* binding */ faFemale),
+/* harmony export */   "faFerry": () => (/* binding */ faFerry),
+/* harmony export */   "faFighterJet": () => (/* binding */ faFighterJet),
 /* harmony export */   "faFile": () => (/* binding */ faFile),
+/* harmony export */   "faFileAlt": () => (/* binding */ faFileAlt),
+/* harmony export */   "faFileArchive": () => (/* binding */ faFileArchive),
 /* harmony export */   "faFileArrowDown": () => (/* binding */ faFileArrowDown),
-/* harmony export */   "faFileDownload": () => (/* binding */ faFileDownload),
 /* harmony export */   "faFileArrowUp": () => (/* binding */ faFileArrowUp),
-/* harmony export */   "faFileUpload": () => (/* binding */ faFileUpload),
 /* harmony export */   "faFileAudio": () => (/* binding */ faFileAudio),
+/* harmony export */   "faFileCircleCheck": () => (/* binding */ faFileCircleCheck),
+/* harmony export */   "faFileCircleExclamation": () => (/* binding */ faFileCircleExclamation),
+/* harmony export */   "faFileCircleMinus": () => (/* binding */ faFileCircleMinus),
+/* harmony export */   "faFileCirclePlus": () => (/* binding */ faFileCirclePlus),
+/* harmony export */   "faFileCircleQuestion": () => (/* binding */ faFileCircleQuestion),
+/* harmony export */   "faFileCircleXmark": () => (/* binding */ faFileCircleXmark),
+/* harmony export */   "faFileClipboard": () => (/* binding */ faFileClipboard),
 /* harmony export */   "faFileCode": () => (/* binding */ faFileCode),
 /* harmony export */   "faFileContract": () => (/* binding */ faFileContract),
 /* harmony export */   "faFileCsv": () => (/* binding */ faFileCsv),
+/* harmony export */   "faFileDownload": () => (/* binding */ faFileDownload),
+/* harmony export */   "faFileEdit": () => (/* binding */ faFileEdit),
 /* harmony export */   "faFileExcel": () => (/* binding */ faFileExcel),
 /* harmony export */   "faFileExport": () => (/* binding */ faFileExport),
-/* harmony export */   "faArrowRightFromFile": () => (/* binding */ faArrowRightFromFile),
 /* harmony export */   "faFileImage": () => (/* binding */ faFileImage),
 /* harmony export */   "faFileImport": () => (/* binding */ faFileImport),
-/* harmony export */   "faArrowRightToFile": () => (/* binding */ faArrowRightToFile),
 /* harmony export */   "faFileInvoice": () => (/* binding */ faFileInvoice),
 /* harmony export */   "faFileInvoiceDollar": () => (/* binding */ faFileInvoiceDollar),
 /* harmony export */   "faFileLines": () => (/* binding */ faFileLines),
-/* harmony export */   "faFileAlt": () => (/* binding */ faFileAlt),
-/* harmony export */   "faFileText": () => (/* binding */ faFileText),
 /* harmony export */   "faFileMedical": () => (/* binding */ faFileMedical),
+/* harmony export */   "faFileMedicalAlt": () => (/* binding */ faFileMedicalAlt),
 /* harmony export */   "faFilePdf": () => (/* binding */ faFilePdf),
+/* harmony export */   "faFilePen": () => (/* binding */ faFilePen),
 /* harmony export */   "faFilePowerpoint": () => (/* binding */ faFilePowerpoint),
 /* harmony export */   "faFilePrescription": () => (/* binding */ faFilePrescription),
+/* harmony export */   "faFileShield": () => (/* binding */ faFileShield),
 /* harmony export */   "faFileSignature": () => (/* binding */ faFileSignature),
+/* harmony export */   "faFileText": () => (/* binding */ faFileText),
+/* harmony export */   "faFileUpload": () => (/* binding */ faFileUpload),
 /* harmony export */   "faFileVideo": () => (/* binding */ faFileVideo),
 /* harmony export */   "faFileWaveform": () => (/* binding */ faFileWaveform),
-/* harmony export */   "faFileMedicalAlt": () => (/* binding */ faFileMedicalAlt),
 /* harmony export */   "faFileWord": () => (/* binding */ faFileWord),
 /* harmony export */   "faFileZipper": () => (/* binding */ faFileZipper),
-/* harmony export */   "faFileArchive": () => (/* binding */ faFileArchive),
 /* harmony export */   "faFill": () => (/* binding */ faFill),
 /* harmony export */   "faFillDrip": () => (/* binding */ faFillDrip),
 /* harmony export */   "faFilm": () => (/* binding */ faFilm),
 /* harmony export */   "faFilter": () => (/* binding */ faFilter),
 /* harmony export */   "faFilterCircleDollar": () => (/* binding */ faFilterCircleDollar),
-/* harmony export */   "faFunnelDollar": () => (/* binding */ faFunnelDollar),
 /* harmony export */   "faFilterCircleXmark": () => (/* binding */ faFilterCircleXmark),
 /* harmony export */   "faFingerprint": () => (/* binding */ faFingerprint),
 /* harmony export */   "faFire": () => (/* binding */ faFire),
+/* harmony export */   "faFireAlt": () => (/* binding */ faFireAlt),
+/* harmony export */   "faFireBurner": () => (/* binding */ faFireBurner),
 /* harmony export */   "faFireExtinguisher": () => (/* binding */ faFireExtinguisher),
 /* harmony export */   "faFireFlameCurved": () => (/* binding */ faFireFlameCurved),
-/* harmony export */   "faFireAlt": () => (/* binding */ faFireAlt),
 /* harmony export */   "faFireFlameSimple": () => (/* binding */ faFireFlameSimple),
-/* harmony export */   "faBurn": () => (/* binding */ faBurn),
+/* harmony export */   "faFirstAid": () => (/* binding */ faFirstAid),
 /* harmony export */   "faFish": () => (/* binding */ faFish),
+/* harmony export */   "faFishFins": () => (/* binding */ faFishFins),
+/* harmony export */   "faFistRaised": () => (/* binding */ faFistRaised),
 /* harmony export */   "faFlag": () => (/* binding */ faFlag),
 /* harmony export */   "faFlagCheckered": () => (/* binding */ faFlagCheckered),
 /* harmony export */   "faFlagUsa": () => (/* binding */ faFlagUsa),
 /* harmony export */   "faFlask": () => (/* binding */ faFlask),
+/* harmony export */   "faFlaskVial": () => (/* binding */ faFlaskVial),
 /* harmony export */   "faFloppyDisk": () => (/* binding */ faFloppyDisk),
-/* harmony export */   "faSave": () => (/* binding */ faSave),
 /* harmony export */   "faFlorinSign": () => (/* binding */ faFlorinSign),
+/* harmony export */   "faFlushed": () => (/* binding */ faFlushed),
 /* harmony export */   "faFolder": () => (/* binding */ faFolder),
+/* harmony export */   "faFolderBlank": () => (/* binding */ faFolderBlank),
+/* harmony export */   "faFolderClosed": () => (/* binding */ faFolderClosed),
 /* harmony export */   "faFolderMinus": () => (/* binding */ faFolderMinus),
 /* harmony export */   "faFolderOpen": () => (/* binding */ faFolderOpen),
 /* harmony export */   "faFolderPlus": () => (/* binding */ faFolderPlus),
@@ -7726,367 +7769,468 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faFootballBall": () => (/* binding */ faFootballBall),
 /* harmony export */   "faForward": () => (/* binding */ faForward),
 /* harmony export */   "faForwardFast": () => (/* binding */ faForwardFast),
-/* harmony export */   "faFastForward": () => (/* binding */ faFastForward),
 /* harmony export */   "faForwardStep": () => (/* binding */ faForwardStep),
-/* harmony export */   "faStepForward": () => (/* binding */ faStepForward),
 /* harmony export */   "faFrancSign": () => (/* binding */ faFrancSign),
 /* harmony export */   "faFrog": () => (/* binding */ faFrog),
+/* harmony export */   "faFrown": () => (/* binding */ faFrown),
+/* harmony export */   "faFrownOpen": () => (/* binding */ faFrownOpen),
+/* harmony export */   "faFunnelDollar": () => (/* binding */ faFunnelDollar),
 /* harmony export */   "faFutbol": () => (/* binding */ faFutbol),
 /* harmony export */   "faFutbolBall": () => (/* binding */ faFutbolBall),
-/* harmony export */   "faSoccerBall": () => (/* binding */ faSoccerBall),
 /* harmony export */   "faG": () => (/* binding */ faG),
 /* harmony export */   "faGamepad": () => (/* binding */ faGamepad),
 /* harmony export */   "faGasPump": () => (/* binding */ faGasPump),
 /* harmony export */   "faGauge": () => (/* binding */ faGauge),
-/* harmony export */   "faDashboard": () => (/* binding */ faDashboard),
-/* harmony export */   "faGaugeMed": () => (/* binding */ faGaugeMed),
-/* harmony export */   "faTachometerAltAverage": () => (/* binding */ faTachometerAltAverage),
 /* harmony export */   "faGaugeHigh": () => (/* binding */ faGaugeHigh),
-/* harmony export */   "faTachometerAlt": () => (/* binding */ faTachometerAlt),
-/* harmony export */   "faTachometerAltFast": () => (/* binding */ faTachometerAltFast),
+/* harmony export */   "faGaugeMed": () => (/* binding */ faGaugeMed),
 /* harmony export */   "faGaugeSimple": () => (/* binding */ faGaugeSimple),
-/* harmony export */   "faGaugeSimpleMed": () => (/* binding */ faGaugeSimpleMed),
-/* harmony export */   "faTachometerAverage": () => (/* binding */ faTachometerAverage),
 /* harmony export */   "faGaugeSimpleHigh": () => (/* binding */ faGaugeSimpleHigh),
-/* harmony export */   "faTachometer": () => (/* binding */ faTachometer),
-/* harmony export */   "faTachometerFast": () => (/* binding */ faTachometerFast),
+/* harmony export */   "faGaugeSimpleMed": () => (/* binding */ faGaugeSimpleMed),
 /* harmony export */   "faGavel": () => (/* binding */ faGavel),
-/* harmony export */   "faLegal": () => (/* binding */ faLegal),
+/* harmony export */   "faGbp": () => (/* binding */ faGbp),
 /* harmony export */   "faGear": () => (/* binding */ faGear),
-/* harmony export */   "faCog": () => (/* binding */ faCog),
 /* harmony export */   "faGears": () => (/* binding */ faGears),
-/* harmony export */   "faCogs": () => (/* binding */ faCogs),
 /* harmony export */   "faGem": () => (/* binding */ faGem),
 /* harmony export */   "faGenderless": () => (/* binding */ faGenderless),
 /* harmony export */   "faGhost": () => (/* binding */ faGhost),
 /* harmony export */   "faGift": () => (/* binding */ faGift),
 /* harmony export */   "faGifts": () => (/* binding */ faGifts),
+/* harmony export */   "faGlassCheers": () => (/* binding */ faGlassCheers),
+/* harmony export */   "faGlassMartini": () => (/* binding */ faGlassMartini),
+/* harmony export */   "faGlassMartiniAlt": () => (/* binding */ faGlassMartiniAlt),
+/* harmony export */   "faGlassWater": () => (/* binding */ faGlassWater),
+/* harmony export */   "faGlassWaterDroplet": () => (/* binding */ faGlassWaterDroplet),
+/* harmony export */   "faGlassWhiskey": () => (/* binding */ faGlassWhiskey),
 /* harmony export */   "faGlasses": () => (/* binding */ faGlasses),
 /* harmony export */   "faGlobe": () => (/* binding */ faGlobe),
-/* harmony export */   "faGolfBallTee": () => (/* binding */ faGolfBallTee),
+/* harmony export */   "faGlobeAfrica": () => (/* binding */ faGlobeAfrica),
+/* harmony export */   "faGlobeAmericas": () => (/* binding */ faGlobeAmericas),
+/* harmony export */   "faGlobeAsia": () => (/* binding */ faGlobeAsia),
+/* harmony export */   "faGlobeEurope": () => (/* binding */ faGlobeEurope),
+/* harmony export */   "faGlobeOceania": () => (/* binding */ faGlobeOceania),
 /* harmony export */   "faGolfBall": () => (/* binding */ faGolfBall),
+/* harmony export */   "faGolfBallTee": () => (/* binding */ faGolfBallTee),
 /* harmony export */   "faGopuram": () => (/* binding */ faGopuram),
 /* harmony export */   "faGraduationCap": () => (/* binding */ faGraduationCap),
-/* harmony export */   "faMortarBoard": () => (/* binding */ faMortarBoard),
 /* harmony export */   "faGreaterThan": () => (/* binding */ faGreaterThan),
 /* harmony export */   "faGreaterThanEqual": () => (/* binding */ faGreaterThanEqual),
+/* harmony export */   "faGrimace": () => (/* binding */ faGrimace),
+/* harmony export */   "faGrin": () => (/* binding */ faGrin),
+/* harmony export */   "faGrinAlt": () => (/* binding */ faGrinAlt),
+/* harmony export */   "faGrinBeam": () => (/* binding */ faGrinBeam),
+/* harmony export */   "faGrinBeamSweat": () => (/* binding */ faGrinBeamSweat),
+/* harmony export */   "faGrinHearts": () => (/* binding */ faGrinHearts),
+/* harmony export */   "faGrinSquint": () => (/* binding */ faGrinSquint),
+/* harmony export */   "faGrinSquintTears": () => (/* binding */ faGrinSquintTears),
+/* harmony export */   "faGrinStars": () => (/* binding */ faGrinStars),
+/* harmony export */   "faGrinTears": () => (/* binding */ faGrinTears),
+/* harmony export */   "faGrinTongue": () => (/* binding */ faGrinTongue),
+/* harmony export */   "faGrinTongueSquint": () => (/* binding */ faGrinTongueSquint),
+/* harmony export */   "faGrinTongueWink": () => (/* binding */ faGrinTongueWink),
+/* harmony export */   "faGrinWink": () => (/* binding */ faGrinWink),
 /* harmony export */   "faGrip": () => (/* binding */ faGrip),
 /* harmony export */   "faGripHorizontal": () => (/* binding */ faGripHorizontal),
 /* harmony export */   "faGripLines": () => (/* binding */ faGripLines),
 /* harmony export */   "faGripLinesVertical": () => (/* binding */ faGripLinesVertical),
 /* harmony export */   "faGripVertical": () => (/* binding */ faGripVertical),
+/* harmony export */   "faGroupArrowsRotate": () => (/* binding */ faGroupArrowsRotate),
 /* harmony export */   "faGuaraniSign": () => (/* binding */ faGuaraniSign),
 /* harmony export */   "faGuitar": () => (/* binding */ faGuitar),
 /* harmony export */   "faGun": () => (/* binding */ faGun),
 /* harmony export */   "faH": () => (/* binding */ faH),
+/* harmony export */   "faHSquare": () => (/* binding */ faHSquare),
+/* harmony export */   "faHamburger": () => (/* binding */ faHamburger),
 /* harmony export */   "faHammer": () => (/* binding */ faHammer),
 /* harmony export */   "faHamsa": () => (/* binding */ faHamsa),
 /* harmony export */   "faHand": () => (/* binding */ faHand),
-/* harmony export */   "faHandPaper": () => (/* binding */ faHandPaper),
 /* harmony export */   "faHandBackFist": () => (/* binding */ faHandBackFist),
-/* harmony export */   "faHandRock": () => (/* binding */ faHandRock),
 /* harmony export */   "faHandDots": () => (/* binding */ faHandDots),
-/* harmony export */   "faAllergies": () => (/* binding */ faAllergies),
 /* harmony export */   "faHandFist": () => (/* binding */ faHandFist),
-/* harmony export */   "faFistRaised": () => (/* binding */ faFistRaised),
 /* harmony export */   "faHandHolding": () => (/* binding */ faHandHolding),
 /* harmony export */   "faHandHoldingDollar": () => (/* binding */ faHandHoldingDollar),
-/* harmony export */   "faHandHoldingUsd": () => (/* binding */ faHandHoldingUsd),
 /* harmony export */   "faHandHoldingDroplet": () => (/* binding */ faHandHoldingDroplet),
-/* harmony export */   "faHandHoldingWater": () => (/* binding */ faHandHoldingWater),
+/* harmony export */   "faHandHoldingHand": () => (/* binding */ faHandHoldingHand),
 /* harmony export */   "faHandHoldingHeart": () => (/* binding */ faHandHoldingHeart),
 /* harmony export */   "faHandHoldingMedical": () => (/* binding */ faHandHoldingMedical),
+/* harmony export */   "faHandHoldingUsd": () => (/* binding */ faHandHoldingUsd),
+/* harmony export */   "faHandHoldingWater": () => (/* binding */ faHandHoldingWater),
 /* harmony export */   "faHandLizard": () => (/* binding */ faHandLizard),
 /* harmony export */   "faHandMiddleFinger": () => (/* binding */ faHandMiddleFinger),
+/* harmony export */   "faHandPaper": () => (/* binding */ faHandPaper),
 /* harmony export */   "faHandPeace": () => (/* binding */ faHandPeace),
 /* harmony export */   "faHandPointDown": () => (/* binding */ faHandPointDown),
 /* harmony export */   "faHandPointLeft": () => (/* binding */ faHandPointLeft),
 /* harmony export */   "faHandPointRight": () => (/* binding */ faHandPointRight),
 /* harmony export */   "faHandPointUp": () => (/* binding */ faHandPointUp),
 /* harmony export */   "faHandPointer": () => (/* binding */ faHandPointer),
+/* harmony export */   "faHandRock": () => (/* binding */ faHandRock),
 /* harmony export */   "faHandScissors": () => (/* binding */ faHandScissors),
 /* harmony export */   "faHandSparkles": () => (/* binding */ faHandSparkles),
 /* harmony export */   "faHandSpock": () => (/* binding */ faHandSpock),
+/* harmony export */   "faHandcuffs": () => (/* binding */ faHandcuffs),
 /* harmony export */   "faHands": () => (/* binding */ faHands),
-/* harmony export */   "faSignLanguage": () => (/* binding */ faSignLanguage),
-/* harmony export */   "faSigning": () => (/* binding */ faSigning),
-/* harmony export */   "faHandsAslInterpreting": () => (/* binding */ faHandsAslInterpreting),
-/* harmony export */   "faAmericanSignLanguageInterpreting": () => (/* binding */ faAmericanSignLanguageInterpreting),
-/* harmony export */   "faAslInterpreting": () => (/* binding */ faAslInterpreting),
 /* harmony export */   "faHandsAmericanSignLanguageInterpreting": () => (/* binding */ faHandsAmericanSignLanguageInterpreting),
+/* harmony export */   "faHandsAslInterpreting": () => (/* binding */ faHandsAslInterpreting),
+/* harmony export */   "faHandsBound": () => (/* binding */ faHandsBound),
 /* harmony export */   "faHandsBubbles": () => (/* binding */ faHandsBubbles),
-/* harmony export */   "faHandsWash": () => (/* binding */ faHandsWash),
 /* harmony export */   "faHandsClapping": () => (/* binding */ faHandsClapping),
-/* harmony export */   "faHandsHolding": () => (/* binding */ faHandsHolding),
-/* harmony export */   "faHandsPraying": () => (/* binding */ faHandsPraying),
-/* harmony export */   "faPrayingHands": () => (/* binding */ faPrayingHands),
-/* harmony export */   "faHandshake": () => (/* binding */ faHandshake),
-/* harmony export */   "faHandshakeAngle": () => (/* binding */ faHandshakeAngle),
 /* harmony export */   "faHandsHelping": () => (/* binding */ faHandsHelping),
-/* harmony export */   "faHandshakeSimpleSlash": () => (/* binding */ faHandshakeSimpleSlash),
+/* harmony export */   "faHandsHolding": () => (/* binding */ faHandsHolding),
+/* harmony export */   "faHandsHoldingChild": () => (/* binding */ faHandsHoldingChild),
+/* harmony export */   "faHandsHoldingCircle": () => (/* binding */ faHandsHoldingCircle),
+/* harmony export */   "faHandsPraying": () => (/* binding */ faHandsPraying),
+/* harmony export */   "faHandsWash": () => (/* binding */ faHandsWash),
+/* harmony export */   "faHandshake": () => (/* binding */ faHandshake),
+/* harmony export */   "faHandshakeAlt": () => (/* binding */ faHandshakeAlt),
 /* harmony export */   "faHandshakeAltSlash": () => (/* binding */ faHandshakeAltSlash),
+/* harmony export */   "faHandshakeAngle": () => (/* binding */ faHandshakeAngle),
+/* harmony export */   "faHandshakeSimple": () => (/* binding */ faHandshakeSimple),
+/* harmony export */   "faHandshakeSimpleSlash": () => (/* binding */ faHandshakeSimpleSlash),
 /* harmony export */   "faHandshakeSlash": () => (/* binding */ faHandshakeSlash),
 /* harmony export */   "faHanukiah": () => (/* binding */ faHanukiah),
 /* harmony export */   "faHardDrive": () => (/* binding */ faHardDrive),
-/* harmony export */   "faHdd": () => (/* binding */ faHdd),
+/* harmony export */   "faHardHat": () => (/* binding */ faHardHat),
+/* harmony export */   "faHardOfHearing": () => (/* binding */ faHardOfHearing),
 /* harmony export */   "faHashtag": () => (/* binding */ faHashtag),
 /* harmony export */   "faHatCowboy": () => (/* binding */ faHatCowboy),
 /* harmony export */   "faHatCowboySide": () => (/* binding */ faHatCowboySide),
+/* harmony export */   "faHatHard": () => (/* binding */ faHatHard),
 /* harmony export */   "faHatWizard": () => (/* binding */ faHatWizard),
+/* harmony export */   "faHdd": () => (/* binding */ faHdd),
 /* harmony export */   "faHeadSideCough": () => (/* binding */ faHeadSideCough),
 /* harmony export */   "faHeadSideCoughSlash": () => (/* binding */ faHeadSideCoughSlash),
 /* harmony export */   "faHeadSideMask": () => (/* binding */ faHeadSideMask),
 /* harmony export */   "faHeadSideVirus": () => (/* binding */ faHeadSideVirus),
-/* harmony export */   "faHeading": () => (/* binding */ faHeading),
 /* harmony export */   "faHeader": () => (/* binding */ faHeader),
+/* harmony export */   "faHeading": () => (/* binding */ faHeading),
 /* harmony export */   "faHeadphones": () => (/* binding */ faHeadphones),
-/* harmony export */   "faHeadphonesSimple": () => (/* binding */ faHeadphonesSimple),
 /* harmony export */   "faHeadphonesAlt": () => (/* binding */ faHeadphonesAlt),
+/* harmony export */   "faHeadphonesSimple": () => (/* binding */ faHeadphonesSimple),
 /* harmony export */   "faHeadset": () => (/* binding */ faHeadset),
 /* harmony export */   "faHeart": () => (/* binding */ faHeart),
-/* harmony export */   "faHeartCrack": () => (/* binding */ faHeartCrack),
 /* harmony export */   "faHeartBroken": () => (/* binding */ faHeartBroken),
+/* harmony export */   "faHeartCircleBolt": () => (/* binding */ faHeartCircleBolt),
+/* harmony export */   "faHeartCircleCheck": () => (/* binding */ faHeartCircleCheck),
+/* harmony export */   "faHeartCircleExclamation": () => (/* binding */ faHeartCircleExclamation),
+/* harmony export */   "faHeartCircleMinus": () => (/* binding */ faHeartCircleMinus),
+/* harmony export */   "faHeartCirclePlus": () => (/* binding */ faHeartCirclePlus),
+/* harmony export */   "faHeartCircleXmark": () => (/* binding */ faHeartCircleXmark),
+/* harmony export */   "faHeartCrack": () => (/* binding */ faHeartCrack),
+/* harmony export */   "faHeartMusicCameraBolt": () => (/* binding */ faHeartMusicCameraBolt),
 /* harmony export */   "faHeartPulse": () => (/* binding */ faHeartPulse),
 /* harmony export */   "faHeartbeat": () => (/* binding */ faHeartbeat),
 /* harmony export */   "faHelicopter": () => (/* binding */ faHelicopter),
+/* harmony export */   "faHelicopterSymbol": () => (/* binding */ faHelicopterSymbol),
 /* harmony export */   "faHelmetSafety": () => (/* binding */ faHelmetSafety),
-/* harmony export */   "faHardHat": () => (/* binding */ faHardHat),
-/* harmony export */   "faHatHard": () => (/* binding */ faHatHard),
+/* harmony export */   "faHelmetUn": () => (/* binding */ faHelmetUn),
 /* harmony export */   "faHighlighter": () => (/* binding */ faHighlighter),
+/* harmony export */   "faHiking": () => (/* binding */ faHiking),
+/* harmony export */   "faHillAvalanche": () => (/* binding */ faHillAvalanche),
+/* harmony export */   "faHillRockslide": () => (/* binding */ faHillRockslide),
 /* harmony export */   "faHippo": () => (/* binding */ faHippo),
+/* harmony export */   "faHistory": () => (/* binding */ faHistory),
 /* harmony export */   "faHockeyPuck": () => (/* binding */ faHockeyPuck),
 /* harmony export */   "faHollyBerry": () => (/* binding */ faHollyBerry),
+/* harmony export */   "faHome": () => (/* binding */ faHome),
+/* harmony export */   "faHomeAlt": () => (/* binding */ faHomeAlt),
+/* harmony export */   "faHomeLg": () => (/* binding */ faHomeLg),
+/* harmony export */   "faHomeLgAlt": () => (/* binding */ faHomeLgAlt),
+/* harmony export */   "faHomeUser": () => (/* binding */ faHomeUser),
 /* harmony export */   "faHorse": () => (/* binding */ faHorse),
 /* harmony export */   "faHorseHead": () => (/* binding */ faHorseHead),
 /* harmony export */   "faHospital": () => (/* binding */ faHospital),
 /* harmony export */   "faHospitalAlt": () => (/* binding */ faHospitalAlt),
-/* harmony export */   "faHospitalWide": () => (/* binding */ faHospitalWide),
+/* harmony export */   "faHospitalSymbol": () => (/* binding */ faHospitalSymbol),
 /* harmony export */   "faHospitalUser": () => (/* binding */ faHospitalUser),
-/* harmony export */   "faHotTubPerson": () => (/* binding */ faHotTubPerson),
+/* harmony export */   "faHospitalWide": () => (/* binding */ faHospitalWide),
 /* harmony export */   "faHotTub": () => (/* binding */ faHotTub),
+/* harmony export */   "faHotTubPerson": () => (/* binding */ faHotTubPerson),
 /* harmony export */   "faHotdog": () => (/* binding */ faHotdog),
 /* harmony export */   "faHotel": () => (/* binding */ faHotel),
 /* harmony export */   "faHourglass": () => (/* binding */ faHourglass),
+/* harmony export */   "faHourglass1": () => (/* binding */ faHourglass1),
 /* harmony export */   "faHourglass2": () => (/* binding */ faHourglass2),
-/* harmony export */   "faHourglassHalf": () => (/* binding */ faHourglassHalf),
+/* harmony export */   "faHourglass3": () => (/* binding */ faHourglass3),
 /* harmony export */   "faHourglassEmpty": () => (/* binding */ faHourglassEmpty),
 /* harmony export */   "faHourglassEnd": () => (/* binding */ faHourglassEnd),
-/* harmony export */   "faHourglass3": () => (/* binding */ faHourglass3),
+/* harmony export */   "faHourglassHalf": () => (/* binding */ faHourglassHalf),
 /* harmony export */   "faHourglassStart": () => (/* binding */ faHourglassStart),
-/* harmony export */   "faHourglass1": () => (/* binding */ faHourglass1),
 /* harmony export */   "faHouse": () => (/* binding */ faHouse),
-/* harmony export */   "faHome": () => (/* binding */ faHome),
-/* harmony export */   "faHomeAlt": () => (/* binding */ faHomeAlt),
-/* harmony export */   "faHomeLgAlt": () => (/* binding */ faHomeLgAlt),
 /* harmony export */   "faHouseChimney": () => (/* binding */ faHouseChimney),
-/* harmony export */   "faHomeLg": () => (/* binding */ faHomeLg),
 /* harmony export */   "faHouseChimneyCrack": () => (/* binding */ faHouseChimneyCrack),
-/* harmony export */   "faHouseDamage": () => (/* binding */ faHouseDamage),
 /* harmony export */   "faHouseChimneyMedical": () => (/* binding */ faHouseChimneyMedical),
-/* harmony export */   "faClinicMedical": () => (/* binding */ faClinicMedical),
 /* harmony export */   "faHouseChimneyUser": () => (/* binding */ faHouseChimneyUser),
 /* harmony export */   "faHouseChimneyWindow": () => (/* binding */ faHouseChimneyWindow),
+/* harmony export */   "faHouseCircleCheck": () => (/* binding */ faHouseCircleCheck),
+/* harmony export */   "faHouseCircleExclamation": () => (/* binding */ faHouseCircleExclamation),
+/* harmony export */   "faHouseCircleXmark": () => (/* binding */ faHouseCircleXmark),
 /* harmony export */   "faHouseCrack": () => (/* binding */ faHouseCrack),
+/* harmony export */   "faHouseDamage": () => (/* binding */ faHouseDamage),
+/* harmony export */   "faHouseFire": () => (/* binding */ faHouseFire),
+/* harmony export */   "faHouseFlag": () => (/* binding */ faHouseFlag),
+/* harmony export */   "faHouseFloodWater": () => (/* binding */ faHouseFloodWater),
+/* harmony export */   "faHouseFloodWaterCircleArrowRight": () => (/* binding */ faHouseFloodWaterCircleArrowRight),
 /* harmony export */   "faHouseLaptop": () => (/* binding */ faHouseLaptop),
-/* harmony export */   "faLaptopHouse": () => (/* binding */ faLaptopHouse),
+/* harmony export */   "faHouseLock": () => (/* binding */ faHouseLock),
 /* harmony export */   "faHouseMedical": () => (/* binding */ faHouseMedical),
+/* harmony export */   "faHouseMedicalCircleCheck": () => (/* binding */ faHouseMedicalCircleCheck),
+/* harmony export */   "faHouseMedicalCircleExclamation": () => (/* binding */ faHouseMedicalCircleExclamation),
+/* harmony export */   "faHouseMedicalCircleXmark": () => (/* binding */ faHouseMedicalCircleXmark),
+/* harmony export */   "faHouseMedicalFlag": () => (/* binding */ faHouseMedicalFlag),
+/* harmony export */   "faHouseSignal": () => (/* binding */ faHouseSignal),
+/* harmony export */   "faHouseTsunami": () => (/* binding */ faHouseTsunami),
 /* harmony export */   "faHouseUser": () => (/* binding */ faHouseUser),
-/* harmony export */   "faHomeUser": () => (/* binding */ faHomeUser),
-/* harmony export */   "faHryvniaSign": () => (/* binding */ faHryvniaSign),
 /* harmony export */   "faHryvnia": () => (/* binding */ faHryvnia),
+/* harmony export */   "faHryvniaSign": () => (/* binding */ faHryvniaSign),
+/* harmony export */   "faHurricane": () => (/* binding */ faHurricane),
 /* harmony export */   "faI": () => (/* binding */ faI),
 /* harmony export */   "faICursor": () => (/* binding */ faICursor),
 /* harmony export */   "faIceCream": () => (/* binding */ faIceCream),
 /* harmony export */   "faIcicles": () => (/* binding */ faIcicles),
 /* harmony export */   "faIcons": () => (/* binding */ faIcons),
-/* harmony export */   "faHeartMusicCameraBolt": () => (/* binding */ faHeartMusicCameraBolt),
 /* harmony export */   "faIdBadge": () => (/* binding */ faIdBadge),
 /* harmony export */   "faIdCard": () => (/* binding */ faIdCard),
-/* harmony export */   "faDriversLicense": () => (/* binding */ faDriversLicense),
-/* harmony export */   "faIdCardClip": () => (/* binding */ faIdCardClip),
 /* harmony export */   "faIdCardAlt": () => (/* binding */ faIdCardAlt),
+/* harmony export */   "faIdCardClip": () => (/* binding */ faIdCardClip),
 /* harmony export */   "faIgloo": () => (/* binding */ faIgloo),
+/* harmony export */   "faIls": () => (/* binding */ faIls),
 /* harmony export */   "faImage": () => (/* binding */ faImage),
 /* harmony export */   "faImagePortrait": () => (/* binding */ faImagePortrait),
-/* harmony export */   "faPortrait": () => (/* binding */ faPortrait),
 /* harmony export */   "faImages": () => (/* binding */ faImages),
 /* harmony export */   "faInbox": () => (/* binding */ faInbox),
 /* harmony export */   "faIndent": () => (/* binding */ faIndent),
-/* harmony export */   "faIndianRupeeSign": () => (/* binding */ faIndianRupeeSign),
 /* harmony export */   "faIndianRupee": () => (/* binding */ faIndianRupee),
-/* harmony export */   "faInr": () => (/* binding */ faInr),
+/* harmony export */   "faIndianRupeeSign": () => (/* binding */ faIndianRupeeSign),
 /* harmony export */   "faIndustry": () => (/* binding */ faIndustry),
 /* harmony export */   "faInfinity": () => (/* binding */ faInfinity),
 /* harmony export */   "faInfo": () => (/* binding */ faInfo),
+/* harmony export */   "faInfoCircle": () => (/* binding */ faInfoCircle),
+/* harmony export */   "faInr": () => (/* binding */ faInr),
+/* harmony export */   "faInstitution": () => (/* binding */ faInstitution),
 /* harmony export */   "faItalic": () => (/* binding */ faItalic),
 /* harmony export */   "faJ": () => (/* binding */ faJ),
+/* harmony export */   "faJar": () => (/* binding */ faJar),
+/* harmony export */   "faJarWheat": () => (/* binding */ faJarWheat),
 /* harmony export */   "faJedi": () => (/* binding */ faJedi),
 /* harmony export */   "faJetFighter": () => (/* binding */ faJetFighter),
-/* harmony export */   "faFighterJet": () => (/* binding */ faFighterJet),
+/* harmony export */   "faJetFighterUp": () => (/* binding */ faJetFighterUp),
 /* harmony export */   "faJoint": () => (/* binding */ faJoint),
+/* harmony export */   "faJournalWhills": () => (/* binding */ faJournalWhills),
+/* harmony export */   "faJpy": () => (/* binding */ faJpy),
+/* harmony export */   "faJugDetergent": () => (/* binding */ faJugDetergent),
 /* harmony export */   "faK": () => (/* binding */ faK),
 /* harmony export */   "faKaaba": () => (/* binding */ faKaaba),
 /* harmony export */   "faKey": () => (/* binding */ faKey),
 /* harmony export */   "faKeyboard": () => (/* binding */ faKeyboard),
 /* harmony export */   "faKhanda": () => (/* binding */ faKhanda),
 /* harmony export */   "faKipSign": () => (/* binding */ faKipSign),
+/* harmony export */   "faKiss": () => (/* binding */ faKiss),
+/* harmony export */   "faKissBeam": () => (/* binding */ faKissBeam),
+/* harmony export */   "faKissWinkHeart": () => (/* binding */ faKissWinkHeart),
 /* harmony export */   "faKitMedical": () => (/* binding */ faKitMedical),
-/* harmony export */   "faFirstAid": () => (/* binding */ faFirstAid),
+/* harmony export */   "faKitchenSet": () => (/* binding */ faKitchenSet),
 /* harmony export */   "faKiwiBird": () => (/* binding */ faKiwiBird),
+/* harmony export */   "faKrw": () => (/* binding */ faKrw),
 /* harmony export */   "faL": () => (/* binding */ faL),
+/* harmony export */   "faLadderWater": () => (/* binding */ faLadderWater),
+/* harmony export */   "faLandMineOn": () => (/* binding */ faLandMineOn),
 /* harmony export */   "faLandmark": () => (/* binding */ faLandmark),
+/* harmony export */   "faLandmarkAlt": () => (/* binding */ faLandmarkAlt),
+/* harmony export */   "faLandmarkDome": () => (/* binding */ faLandmarkDome),
+/* harmony export */   "faLandmarkFlag": () => (/* binding */ faLandmarkFlag),
 /* harmony export */   "faLanguage": () => (/* binding */ faLanguage),
 /* harmony export */   "faLaptop": () => (/* binding */ faLaptop),
 /* harmony export */   "faLaptopCode": () => (/* binding */ faLaptopCode),
+/* harmony export */   "faLaptopFile": () => (/* binding */ faLaptopFile),
+/* harmony export */   "faLaptopHouse": () => (/* binding */ faLaptopHouse),
 /* harmony export */   "faLaptopMedical": () => (/* binding */ faLaptopMedical),
 /* harmony export */   "faLariSign": () => (/* binding */ faLariSign),
+/* harmony export */   "faLaugh": () => (/* binding */ faLaugh),
+/* harmony export */   "faLaughBeam": () => (/* binding */ faLaughBeam),
+/* harmony export */   "faLaughSquint": () => (/* binding */ faLaughSquint),
+/* harmony export */   "faLaughWink": () => (/* binding */ faLaughWink),
 /* harmony export */   "faLayerGroup": () => (/* binding */ faLayerGroup),
 /* harmony export */   "faLeaf": () => (/* binding */ faLeaf),
 /* harmony export */   "faLeftLong": () => (/* binding */ faLeftLong),
-/* harmony export */   "faLongArrowAltLeft": () => (/* binding */ faLongArrowAltLeft),
 /* harmony export */   "faLeftRight": () => (/* binding */ faLeftRight),
-/* harmony export */   "faArrowsAltH": () => (/* binding */ faArrowsAltH),
+/* harmony export */   "faLegal": () => (/* binding */ faLegal),
 /* harmony export */   "faLemon": () => (/* binding */ faLemon),
 /* harmony export */   "faLessThan": () => (/* binding */ faLessThan),
 /* harmony export */   "faLessThanEqual": () => (/* binding */ faLessThanEqual),
+/* harmony export */   "faLevelDown": () => (/* binding */ faLevelDown),
+/* harmony export */   "faLevelDownAlt": () => (/* binding */ faLevelDownAlt),
+/* harmony export */   "faLevelUp": () => (/* binding */ faLevelUp),
+/* harmony export */   "faLevelUpAlt": () => (/* binding */ faLevelUpAlt),
 /* harmony export */   "faLifeRing": () => (/* binding */ faLifeRing),
 /* harmony export */   "faLightbulb": () => (/* binding */ faLightbulb),
+/* harmony export */   "faLineChart": () => (/* binding */ faLineChart),
+/* harmony export */   "faLinesLeaning": () => (/* binding */ faLinesLeaning),
 /* harmony export */   "faLink": () => (/* binding */ faLink),
-/* harmony export */   "faChain": () => (/* binding */ faChain),
 /* harmony export */   "faLinkSlash": () => (/* binding */ faLinkSlash),
-/* harmony export */   "faChainBroken": () => (/* binding */ faChainBroken),
-/* harmony export */   "faChainSlash": () => (/* binding */ faChainSlash),
-/* harmony export */   "faUnlink": () => (/* binding */ faUnlink),
 /* harmony export */   "faLiraSign": () => (/* binding */ faLiraSign),
 /* harmony export */   "faList": () => (/* binding */ faList),
-/* harmony export */   "faListSquares": () => (/* binding */ faListSquares),
-/* harmony export */   "faListCheck": () => (/* binding */ faListCheck),
-/* harmony export */   "faTasks": () => (/* binding */ faTasks),
-/* harmony export */   "faListOl": () => (/* binding */ faListOl),
 /* harmony export */   "faList12": () => (/* binding */ faList12),
-/* harmony export */   "faListNumeric": () => (/* binding */ faListNumeric),
-/* harmony export */   "faListUl": () => (/* binding */ faListUl),
+/* harmony export */   "faListAlt": () => (/* binding */ faListAlt),
+/* harmony export */   "faListCheck": () => (/* binding */ faListCheck),
 /* harmony export */   "faListDots": () => (/* binding */ faListDots),
+/* harmony export */   "faListNumeric": () => (/* binding */ faListNumeric),
+/* harmony export */   "faListOl": () => (/* binding */ faListOl),
+/* harmony export */   "faListSquares": () => (/* binding */ faListSquares),
+/* harmony export */   "faListUl": () => (/* binding */ faListUl),
 /* harmony export */   "faLitecoinSign": () => (/* binding */ faLitecoinSign),
+/* harmony export */   "faLocation": () => (/* binding */ faLocation),
 /* harmony export */   "faLocationArrow": () => (/* binding */ faLocationArrow),
 /* harmony export */   "faLocationCrosshairs": () => (/* binding */ faLocationCrosshairs),
-/* harmony export */   "faLocation": () => (/* binding */ faLocation),
 /* harmony export */   "faLocationDot": () => (/* binding */ faLocationDot),
-/* harmony export */   "faMapMarkerAlt": () => (/* binding */ faMapMarkerAlt),
 /* harmony export */   "faLocationPin": () => (/* binding */ faLocationPin),
-/* harmony export */   "faMapMarker": () => (/* binding */ faMapMarker),
+/* harmony export */   "faLocationPinLock": () => (/* binding */ faLocationPinLock),
 /* harmony export */   "faLock": () => (/* binding */ faLock),
 /* harmony export */   "faLockOpen": () => (/* binding */ faLockOpen),
+/* harmony export */   "faLocust": () => (/* binding */ faLocust),
+/* harmony export */   "faLongArrowAltDown": () => (/* binding */ faLongArrowAltDown),
+/* harmony export */   "faLongArrowAltLeft": () => (/* binding */ faLongArrowAltLeft),
+/* harmony export */   "faLongArrowAltRight": () => (/* binding */ faLongArrowAltRight),
+/* harmony export */   "faLongArrowAltUp": () => (/* binding */ faLongArrowAltUp),
+/* harmony export */   "faLongArrowDown": () => (/* binding */ faLongArrowDown),
+/* harmony export */   "faLongArrowLeft": () => (/* binding */ faLongArrowLeft),
+/* harmony export */   "faLongArrowRight": () => (/* binding */ faLongArrowRight),
+/* harmony export */   "faLongArrowUp": () => (/* binding */ faLongArrowUp),
+/* harmony export */   "faLowVision": () => (/* binding */ faLowVision),
+/* harmony export */   "faLuggageCart": () => (/* binding */ faLuggageCart),
 /* harmony export */   "faLungs": () => (/* binding */ faLungs),
 /* harmony export */   "faLungsVirus": () => (/* binding */ faLungsVirus),
 /* harmony export */   "faM": () => (/* binding */ faM),
+/* harmony export */   "faMagic": () => (/* binding */ faMagic),
+/* harmony export */   "faMagicWandSparkles": () => (/* binding */ faMagicWandSparkles),
 /* harmony export */   "faMagnet": () => (/* binding */ faMagnet),
 /* harmony export */   "faMagnifyingGlass": () => (/* binding */ faMagnifyingGlass),
-/* harmony export */   "faSearch": () => (/* binding */ faSearch),
+/* harmony export */   "faMagnifyingGlassArrowRight": () => (/* binding */ faMagnifyingGlassArrowRight),
+/* harmony export */   "faMagnifyingGlassChart": () => (/* binding */ faMagnifyingGlassChart),
 /* harmony export */   "faMagnifyingGlassDollar": () => (/* binding */ faMagnifyingGlassDollar),
-/* harmony export */   "faSearchDollar": () => (/* binding */ faSearchDollar),
 /* harmony export */   "faMagnifyingGlassLocation": () => (/* binding */ faMagnifyingGlassLocation),
-/* harmony export */   "faSearchLocation": () => (/* binding */ faSearchLocation),
 /* harmony export */   "faMagnifyingGlassMinus": () => (/* binding */ faMagnifyingGlassMinus),
-/* harmony export */   "faSearchMinus": () => (/* binding */ faSearchMinus),
 /* harmony export */   "faMagnifyingGlassPlus": () => (/* binding */ faMagnifyingGlassPlus),
-/* harmony export */   "faSearchPlus": () => (/* binding */ faSearchPlus),
+/* harmony export */   "faMailBulk": () => (/* binding */ faMailBulk),
+/* harmony export */   "faMailForward": () => (/* binding */ faMailForward),
+/* harmony export */   "faMailReply": () => (/* binding */ faMailReply),
+/* harmony export */   "faMailReplyAll": () => (/* binding */ faMailReplyAll),
+/* harmony export */   "faMale": () => (/* binding */ faMale),
 /* harmony export */   "faManatSign": () => (/* binding */ faManatSign),
 /* harmony export */   "faMap": () => (/* binding */ faMap),
 /* harmony export */   "faMapLocation": () => (/* binding */ faMapLocation),
-/* harmony export */   "faMapMarked": () => (/* binding */ faMapMarked),
 /* harmony export */   "faMapLocationDot": () => (/* binding */ faMapLocationDot),
+/* harmony export */   "faMapMarked": () => (/* binding */ faMapMarked),
 /* harmony export */   "faMapMarkedAlt": () => (/* binding */ faMapMarkedAlt),
+/* harmony export */   "faMapMarker": () => (/* binding */ faMapMarker),
+/* harmony export */   "faMapMarkerAlt": () => (/* binding */ faMapMarkerAlt),
 /* harmony export */   "faMapPin": () => (/* binding */ faMapPin),
+/* harmony export */   "faMapSigns": () => (/* binding */ faMapSigns),
 /* harmony export */   "faMarker": () => (/* binding */ faMarker),
 /* harmony export */   "faMars": () => (/* binding */ faMars),
 /* harmony export */   "faMarsAndVenus": () => (/* binding */ faMarsAndVenus),
+/* harmony export */   "faMarsAndVenusBurst": () => (/* binding */ faMarsAndVenusBurst),
 /* harmony export */   "faMarsDouble": () => (/* binding */ faMarsDouble),
 /* harmony export */   "faMarsStroke": () => (/* binding */ faMarsStroke),
-/* harmony export */   "faMarsStrokeRight": () => (/* binding */ faMarsStrokeRight),
 /* harmony export */   "faMarsStrokeH": () => (/* binding */ faMarsStrokeH),
+/* harmony export */   "faMarsStrokeRight": () => (/* binding */ faMarsStrokeRight),
 /* harmony export */   "faMarsStrokeUp": () => (/* binding */ faMarsStrokeUp),
 /* harmony export */   "faMarsStrokeV": () => (/* binding */ faMarsStrokeV),
 /* harmony export */   "faMartiniGlass": () => (/* binding */ faMartiniGlass),
-/* harmony export */   "faGlassMartiniAlt": () => (/* binding */ faGlassMartiniAlt),
 /* harmony export */   "faMartiniGlassCitrus": () => (/* binding */ faMartiniGlassCitrus),
-/* harmony export */   "faCocktail": () => (/* binding */ faCocktail),
 /* harmony export */   "faMartiniGlassEmpty": () => (/* binding */ faMartiniGlassEmpty),
-/* harmony export */   "faGlassMartini": () => (/* binding */ faGlassMartini),
 /* harmony export */   "faMask": () => (/* binding */ faMask),
 /* harmony export */   "faMaskFace": () => (/* binding */ faMaskFace),
+/* harmony export */   "faMaskVentilator": () => (/* binding */ faMaskVentilator),
 /* harmony export */   "faMasksTheater": () => (/* binding */ faMasksTheater),
-/* harmony export */   "faTheaterMasks": () => (/* binding */ faTheaterMasks),
+/* harmony export */   "faMattressPillow": () => (/* binding */ faMattressPillow),
 /* harmony export */   "faMaximize": () => (/* binding */ faMaximize),
-/* harmony export */   "faExpandArrowsAlt": () => (/* binding */ faExpandArrowsAlt),
 /* harmony export */   "faMedal": () => (/* binding */ faMedal),
+/* harmony export */   "faMedkit": () => (/* binding */ faMedkit),
+/* harmony export */   "faMeh": () => (/* binding */ faMeh),
+/* harmony export */   "faMehBlank": () => (/* binding */ faMehBlank),
+/* harmony export */   "faMehRollingEyes": () => (/* binding */ faMehRollingEyes),
 /* harmony export */   "faMemory": () => (/* binding */ faMemory),
 /* harmony export */   "faMenorah": () => (/* binding */ faMenorah),
 /* harmony export */   "faMercury": () => (/* binding */ faMercury),
 /* harmony export */   "faMessage": () => (/* binding */ faMessage),
-/* harmony export */   "faCommentAlt": () => (/* binding */ faCommentAlt),
 /* harmony export */   "faMeteor": () => (/* binding */ faMeteor),
 /* harmony export */   "faMicrochip": () => (/* binding */ faMicrochip),
 /* harmony export */   "faMicrophone": () => (/* binding */ faMicrophone),
-/* harmony export */   "faMicrophoneLines": () => (/* binding */ faMicrophoneLines),
 /* harmony export */   "faMicrophoneAlt": () => (/* binding */ faMicrophoneAlt),
-/* harmony export */   "faMicrophoneLinesSlash": () => (/* binding */ faMicrophoneLinesSlash),
 /* harmony export */   "faMicrophoneAltSlash": () => (/* binding */ faMicrophoneAltSlash),
+/* harmony export */   "faMicrophoneLines": () => (/* binding */ faMicrophoneLines),
+/* harmony export */   "faMicrophoneLinesSlash": () => (/* binding */ faMicrophoneLinesSlash),
 /* harmony export */   "faMicrophoneSlash": () => (/* binding */ faMicrophoneSlash),
 /* harmony export */   "faMicroscope": () => (/* binding */ faMicroscope),
 /* harmony export */   "faMillSign": () => (/* binding */ faMillSign),
 /* harmony export */   "faMinimize": () => (/* binding */ faMinimize),
-/* harmony export */   "faCompressArrowsAlt": () => (/* binding */ faCompressArrowsAlt),
 /* harmony export */   "faMinus": () => (/* binding */ faMinus),
-/* harmony export */   "faSubtract": () => (/* binding */ faSubtract),
+/* harmony export */   "faMinusCircle": () => (/* binding */ faMinusCircle),
+/* harmony export */   "faMinusSquare": () => (/* binding */ faMinusSquare),
 /* harmony export */   "faMitten": () => (/* binding */ faMitten),
 /* harmony export */   "faMobile": () => (/* binding */ faMobile),
-/* harmony export */   "faMobileAndroid": () => (/* binding */ faMobileAndroid),
-/* harmony export */   "faMobilePhone": () => (/* binding */ faMobilePhone),
-/* harmony export */   "faMobileButton": () => (/* binding */ faMobileButton),
-/* harmony export */   "faMobileScreenButton": () => (/* binding */ faMobileScreenButton),
 /* harmony export */   "faMobileAlt": () => (/* binding */ faMobileAlt),
+/* harmony export */   "faMobileAndroid": () => (/* binding */ faMobileAndroid),
+/* harmony export */   "faMobileAndroidAlt": () => (/* binding */ faMobileAndroidAlt),
+/* harmony export */   "faMobileButton": () => (/* binding */ faMobileButton),
+/* harmony export */   "faMobilePhone": () => (/* binding */ faMobilePhone),
+/* harmony export */   "faMobileRetro": () => (/* binding */ faMobileRetro),
+/* harmony export */   "faMobileScreen": () => (/* binding */ faMobileScreen),
+/* harmony export */   "faMobileScreenButton": () => (/* binding */ faMobileScreenButton),
 /* harmony export */   "faMoneyBill": () => (/* binding */ faMoneyBill),
 /* harmony export */   "faMoneyBill1": () => (/* binding */ faMoneyBill1),
-/* harmony export */   "faMoneyBillAlt": () => (/* binding */ faMoneyBillAlt),
 /* harmony export */   "faMoneyBill1Wave": () => (/* binding */ faMoneyBill1Wave),
-/* harmony export */   "faMoneyBillWaveAlt": () => (/* binding */ faMoneyBillWaveAlt),
+/* harmony export */   "faMoneyBillAlt": () => (/* binding */ faMoneyBillAlt),
+/* harmony export */   "faMoneyBillTransfer": () => (/* binding */ faMoneyBillTransfer),
+/* harmony export */   "faMoneyBillTrendUp": () => (/* binding */ faMoneyBillTrendUp),
 /* harmony export */   "faMoneyBillWave": () => (/* binding */ faMoneyBillWave),
+/* harmony export */   "faMoneyBillWaveAlt": () => (/* binding */ faMoneyBillWaveAlt),
+/* harmony export */   "faMoneyBillWheat": () => (/* binding */ faMoneyBillWheat),
+/* harmony export */   "faMoneyBills": () => (/* binding */ faMoneyBills),
 /* harmony export */   "faMoneyCheck": () => (/* binding */ faMoneyCheck),
-/* harmony export */   "faMoneyCheckDollar": () => (/* binding */ faMoneyCheckDollar),
 /* harmony export */   "faMoneyCheckAlt": () => (/* binding */ faMoneyCheckAlt),
+/* harmony export */   "faMoneyCheckDollar": () => (/* binding */ faMoneyCheckDollar),
 /* harmony export */   "faMonument": () => (/* binding */ faMonument),
 /* harmony export */   "faMoon": () => (/* binding */ faMoon),
+/* harmony export */   "faMortarBoard": () => (/* binding */ faMortarBoard),
 /* harmony export */   "faMortarPestle": () => (/* binding */ faMortarPestle),
 /* harmony export */   "faMosque": () => (/* binding */ faMosque),
+/* harmony export */   "faMosquito": () => (/* binding */ faMosquito),
+/* harmony export */   "faMosquitoNet": () => (/* binding */ faMosquitoNet),
 /* harmony export */   "faMotorcycle": () => (/* binding */ faMotorcycle),
+/* harmony export */   "faMound": () => (/* binding */ faMound),
 /* harmony export */   "faMountain": () => (/* binding */ faMountain),
+/* harmony export */   "faMountainCity": () => (/* binding */ faMountainCity),
+/* harmony export */   "faMountainSun": () => (/* binding */ faMountainSun),
+/* harmony export */   "faMouse": () => (/* binding */ faMouse),
+/* harmony export */   "faMousePointer": () => (/* binding */ faMousePointer),
 /* harmony export */   "faMugHot": () => (/* binding */ faMugHot),
 /* harmony export */   "faMugSaucer": () => (/* binding */ faMugSaucer),
-/* harmony export */   "faCoffee": () => (/* binding */ faCoffee),
+/* harmony export */   "faMultiply": () => (/* binding */ faMultiply),
+/* harmony export */   "faMuseum": () => (/* binding */ faMuseum),
 /* harmony export */   "faMusic": () => (/* binding */ faMusic),
 /* harmony export */   "faN": () => (/* binding */ faN),
 /* harmony export */   "faNairaSign": () => (/* binding */ faNairaSign),
+/* harmony export */   "faNavicon": () => (/* binding */ faNavicon),
 /* harmony export */   "faNetworkWired": () => (/* binding */ faNetworkWired),
 /* harmony export */   "faNeuter": () => (/* binding */ faNeuter),
 /* harmony export */   "faNewspaper": () => (/* binding */ faNewspaper),
 /* harmony export */   "faNotEqual": () => (/* binding */ faNotEqual),
 /* harmony export */   "faNoteSticky": () => (/* binding */ faNoteSticky),
-/* harmony export */   "faStickyNote": () => (/* binding */ faStickyNote),
 /* harmony export */   "faNotesMedical": () => (/* binding */ faNotesMedical),
 /* harmony export */   "faO": () => (/* binding */ faO),
 /* harmony export */   "faObjectGroup": () => (/* binding */ faObjectGroup),
 /* harmony export */   "faObjectUngroup": () => (/* binding */ faObjectUngroup),
 /* harmony export */   "faOilCan": () => (/* binding */ faOilCan),
+/* harmony export */   "faOilWell": () => (/* binding */ faOilWell),
 /* harmony export */   "faOm": () => (/* binding */ faOm),
 /* harmony export */   "faOtter": () => (/* binding */ faOtter),
 /* harmony export */   "faOutdent": () => (/* binding */ faOutdent),
-/* harmony export */   "faDedent": () => (/* binding */ faDedent),
 /* harmony export */   "faP": () => (/* binding */ faP),
 /* harmony export */   "faPager": () => (/* binding */ faPager),
+/* harmony export */   "faPaintBrush": () => (/* binding */ faPaintBrush),
 /* harmony export */   "faPaintRoller": () => (/* binding */ faPaintRoller),
 /* harmony export */   "faPaintbrush": () => (/* binding */ faPaintbrush),
-/* harmony export */   "faPaintBrush": () => (/* binding */ faPaintBrush),
 /* harmony export */   "faPalette": () => (/* binding */ faPalette),
 /* harmony export */   "faPallet": () => (/* binding */ faPallet),
 /* harmony export */   "faPanorama": () => (/* binding */ faPanorama),
@@ -8094,519 +8238,661 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faPaperclip": () => (/* binding */ faPaperclip),
 /* harmony export */   "faParachuteBox": () => (/* binding */ faParachuteBox),
 /* harmony export */   "faParagraph": () => (/* binding */ faParagraph),
+/* harmony export */   "faParking": () => (/* binding */ faParking),
 /* harmony export */   "faPassport": () => (/* binding */ faPassport),
+/* harmony export */   "faPastafarianism": () => (/* binding */ faPastafarianism),
 /* harmony export */   "faPaste": () => (/* binding */ faPaste),
-/* harmony export */   "faFileClipboard": () => (/* binding */ faFileClipboard),
 /* harmony export */   "faPause": () => (/* binding */ faPause),
+/* harmony export */   "faPauseCircle": () => (/* binding */ faPauseCircle),
 /* harmony export */   "faPaw": () => (/* binding */ faPaw),
 /* harmony export */   "faPeace": () => (/* binding */ faPeace),
 /* harmony export */   "faPen": () => (/* binding */ faPen),
-/* harmony export */   "faPenClip": () => (/* binding */ faPenClip),
 /* harmony export */   "faPenAlt": () => (/* binding */ faPenAlt),
+/* harmony export */   "faPenClip": () => (/* binding */ faPenClip),
 /* harmony export */   "faPenFancy": () => (/* binding */ faPenFancy),
 /* harmony export */   "faPenNib": () => (/* binding */ faPenNib),
 /* harmony export */   "faPenRuler": () => (/* binding */ faPenRuler),
-/* harmony export */   "faPencilRuler": () => (/* binding */ faPencilRuler),
+/* harmony export */   "faPenSquare": () => (/* binding */ faPenSquare),
 /* harmony export */   "faPenToSquare": () => (/* binding */ faPenToSquare),
-/* harmony export */   "faEdit": () => (/* binding */ faEdit),
 /* harmony export */   "faPencil": () => (/* binding */ faPencil),
 /* harmony export */   "faPencilAlt": () => (/* binding */ faPencilAlt),
-/* harmony export */   "faPeopleArrowsLeftRight": () => (/* binding */ faPeopleArrowsLeftRight),
+/* harmony export */   "faPencilRuler": () => (/* binding */ faPencilRuler),
+/* harmony export */   "faPencilSquare": () => (/* binding */ faPencilSquare),
 /* harmony export */   "faPeopleArrows": () => (/* binding */ faPeopleArrows),
-/* harmony export */   "faPeopleCarryBox": () => (/* binding */ faPeopleCarryBox),
+/* harmony export */   "faPeopleArrowsLeftRight": () => (/* binding */ faPeopleArrowsLeftRight),
 /* harmony export */   "faPeopleCarry": () => (/* binding */ faPeopleCarry),
+/* harmony export */   "faPeopleCarryBox": () => (/* binding */ faPeopleCarryBox),
+/* harmony export */   "faPeopleGroup": () => (/* binding */ faPeopleGroup),
+/* harmony export */   "faPeopleLine": () => (/* binding */ faPeopleLine),
+/* harmony export */   "faPeoplePulling": () => (/* binding */ faPeoplePulling),
+/* harmony export */   "faPeopleRobbery": () => (/* binding */ faPeopleRobbery),
+/* harmony export */   "faPeopleRoof": () => (/* binding */ faPeopleRoof),
 /* harmony export */   "faPepperHot": () => (/* binding */ faPepperHot),
 /* harmony export */   "faPercent": () => (/* binding */ faPercent),
 /* harmony export */   "faPercentage": () => (/* binding */ faPercentage),
 /* harmony export */   "faPerson": () => (/* binding */ faPerson),
-/* harmony export */   "faMale": () => (/* binding */ faMale),
+/* harmony export */   "faPersonArrowDownToLine": () => (/* binding */ faPersonArrowDownToLine),
+/* harmony export */   "faPersonArrowUpFromLine": () => (/* binding */ faPersonArrowUpFromLine),
 /* harmony export */   "faPersonBiking": () => (/* binding */ faPersonBiking),
-/* harmony export */   "faBiking": () => (/* binding */ faBiking),
 /* harmony export */   "faPersonBooth": () => (/* binding */ faPersonBooth),
+/* harmony export */   "faPersonBreastfeeding": () => (/* binding */ faPersonBreastfeeding),
+/* harmony export */   "faPersonBurst": () => (/* binding */ faPersonBurst),
+/* harmony export */   "faPersonCane": () => (/* binding */ faPersonCane),
+/* harmony export */   "faPersonChalkboard": () => (/* binding */ faPersonChalkboard),
+/* harmony export */   "faPersonCircleCheck": () => (/* binding */ faPersonCircleCheck),
+/* harmony export */   "faPersonCircleExclamation": () => (/* binding */ faPersonCircleExclamation),
+/* harmony export */   "faPersonCircleMinus": () => (/* binding */ faPersonCircleMinus),
+/* harmony export */   "faPersonCirclePlus": () => (/* binding */ faPersonCirclePlus),
+/* harmony export */   "faPersonCircleQuestion": () => (/* binding */ faPersonCircleQuestion),
+/* harmony export */   "faPersonCircleXmark": () => (/* binding */ faPersonCircleXmark),
+/* harmony export */   "faPersonDigging": () => (/* binding */ faPersonDigging),
 /* harmony export */   "faPersonDotsFromLine": () => (/* binding */ faPersonDotsFromLine),
-/* harmony export */   "faDiagnoses": () => (/* binding */ faDiagnoses),
 /* harmony export */   "faPersonDress": () => (/* binding */ faPersonDress),
-/* harmony export */   "faFemale": () => (/* binding */ faFemale),
+/* harmony export */   "faPersonDressBurst": () => (/* binding */ faPersonDressBurst),
+/* harmony export */   "faPersonDrowning": () => (/* binding */ faPersonDrowning),
+/* harmony export */   "faPersonFalling": () => (/* binding */ faPersonFalling),
+/* harmony export */   "faPersonFallingBurst": () => (/* binding */ faPersonFallingBurst),
+/* harmony export */   "faPersonHalfDress": () => (/* binding */ faPersonHalfDress),
+/* harmony export */   "faPersonHarassing": () => (/* binding */ faPersonHarassing),
 /* harmony export */   "faPersonHiking": () => (/* binding */ faPersonHiking),
-/* harmony export */   "faHiking": () => (/* binding */ faHiking),
+/* harmony export */   "faPersonMilitaryPointing": () => (/* binding */ faPersonMilitaryPointing),
+/* harmony export */   "faPersonMilitaryRifle": () => (/* binding */ faPersonMilitaryRifle),
+/* harmony export */   "faPersonMilitaryToPerson": () => (/* binding */ faPersonMilitaryToPerson),
 /* harmony export */   "faPersonPraying": () => (/* binding */ faPersonPraying),
-/* harmony export */   "faPray": () => (/* binding */ faPray),
+/* harmony export */   "faPersonPregnant": () => (/* binding */ faPersonPregnant),
+/* harmony export */   "faPersonRays": () => (/* binding */ faPersonRays),
+/* harmony export */   "faPersonRifle": () => (/* binding */ faPersonRifle),
 /* harmony export */   "faPersonRunning": () => (/* binding */ faPersonRunning),
-/* harmony export */   "faRunning": () => (/* binding */ faRunning),
+/* harmony export */   "faPersonShelter": () => (/* binding */ faPersonShelter),
 /* harmony export */   "faPersonSkating": () => (/* binding */ faPersonSkating),
-/* harmony export */   "faSkating": () => (/* binding */ faSkating),
 /* harmony export */   "faPersonSkiing": () => (/* binding */ faPersonSkiing),
-/* harmony export */   "faSkiing": () => (/* binding */ faSkiing),
 /* harmony export */   "faPersonSkiingNordic": () => (/* binding */ faPersonSkiingNordic),
-/* harmony export */   "faSkiingNordic": () => (/* binding */ faSkiingNordic),
 /* harmony export */   "faPersonSnowboarding": () => (/* binding */ faPersonSnowboarding),
-/* harmony export */   "faSnowboarding": () => (/* binding */ faSnowboarding),
 /* harmony export */   "faPersonSwimming": () => (/* binding */ faPersonSwimming),
-/* harmony export */   "faSwimmer": () => (/* binding */ faSwimmer),
+/* harmony export */   "faPersonThroughWindow": () => (/* binding */ faPersonThroughWindow),
 /* harmony export */   "faPersonWalking": () => (/* binding */ faPersonWalking),
-/* harmony export */   "faWalking": () => (/* binding */ faWalking),
+/* harmony export */   "faPersonWalkingArrowLoopLeft": () => (/* binding */ faPersonWalkingArrowLoopLeft),
+/* harmony export */   "faPersonWalkingArrowRight": () => (/* binding */ faPersonWalkingArrowRight),
+/* harmony export */   "faPersonWalkingDashedLineArrowRight": () => (/* binding */ faPersonWalkingDashedLineArrowRight),
+/* harmony export */   "faPersonWalkingLuggage": () => (/* binding */ faPersonWalkingLuggage),
 /* harmony export */   "faPersonWalkingWithCane": () => (/* binding */ faPersonWalkingWithCane),
-/* harmony export */   "faBlind": () => (/* binding */ faBlind),
 /* harmony export */   "faPesetaSign": () => (/* binding */ faPesetaSign),
 /* harmony export */   "faPesoSign": () => (/* binding */ faPesoSign),
 /* harmony export */   "faPhone": () => (/* binding */ faPhone),
-/* harmony export */   "faPhoneFlip": () => (/* binding */ faPhoneFlip),
 /* harmony export */   "faPhoneAlt": () => (/* binding */ faPhoneAlt),
+/* harmony export */   "faPhoneFlip": () => (/* binding */ faPhoneFlip),
 /* harmony export */   "faPhoneSlash": () => (/* binding */ faPhoneSlash),
+/* harmony export */   "faPhoneSquare": () => (/* binding */ faPhoneSquare),
+/* harmony export */   "faPhoneSquareAlt": () => (/* binding */ faPhoneSquareAlt),
 /* harmony export */   "faPhoneVolume": () => (/* binding */ faPhoneVolume),
-/* harmony export */   "faVolumeControlPhone": () => (/* binding */ faVolumeControlPhone),
 /* harmony export */   "faPhotoFilm": () => (/* binding */ faPhotoFilm),
 /* harmony export */   "faPhotoVideo": () => (/* binding */ faPhotoVideo),
+/* harmony export */   "faPieChart": () => (/* binding */ faPieChart),
 /* harmony export */   "faPiggyBank": () => (/* binding */ faPiggyBank),
 /* harmony export */   "faPills": () => (/* binding */ faPills),
+/* harmony export */   "faPingPongPaddleBall": () => (/* binding */ faPingPongPaddleBall),
 /* harmony export */   "faPizzaSlice": () => (/* binding */ faPizzaSlice),
 /* harmony export */   "faPlaceOfWorship": () => (/* binding */ faPlaceOfWorship),
 /* harmony export */   "faPlane": () => (/* binding */ faPlane),
 /* harmony export */   "faPlaneArrival": () => (/* binding */ faPlaneArrival),
+/* harmony export */   "faPlaneCircleCheck": () => (/* binding */ faPlaneCircleCheck),
+/* harmony export */   "faPlaneCircleExclamation": () => (/* binding */ faPlaneCircleExclamation),
+/* harmony export */   "faPlaneCircleXmark": () => (/* binding */ faPlaneCircleXmark),
 /* harmony export */   "faPlaneDeparture": () => (/* binding */ faPlaneDeparture),
+/* harmony export */   "faPlaneLock": () => (/* binding */ faPlaneLock),
 /* harmony export */   "faPlaneSlash": () => (/* binding */ faPlaneSlash),
+/* harmony export */   "faPlaneUp": () => (/* binding */ faPlaneUp),
+/* harmony export */   "faPlantWilt": () => (/* binding */ faPlantWilt),
+/* harmony export */   "faPlateWheat": () => (/* binding */ faPlateWheat),
 /* harmony export */   "faPlay": () => (/* binding */ faPlay),
+/* harmony export */   "faPlayCircle": () => (/* binding */ faPlayCircle),
 /* harmony export */   "faPlug": () => (/* binding */ faPlug),
+/* harmony export */   "faPlugCircleBolt": () => (/* binding */ faPlugCircleBolt),
+/* harmony export */   "faPlugCircleCheck": () => (/* binding */ faPlugCircleCheck),
+/* harmony export */   "faPlugCircleExclamation": () => (/* binding */ faPlugCircleExclamation),
+/* harmony export */   "faPlugCircleMinus": () => (/* binding */ faPlugCircleMinus),
+/* harmony export */   "faPlugCirclePlus": () => (/* binding */ faPlugCirclePlus),
+/* harmony export */   "faPlugCircleXmark": () => (/* binding */ faPlugCircleXmark),
 /* harmony export */   "faPlus": () => (/* binding */ faPlus),
-/* harmony export */   "faAdd": () => (/* binding */ faAdd),
+/* harmony export */   "faPlusCircle": () => (/* binding */ faPlusCircle),
 /* harmony export */   "faPlusMinus": () => (/* binding */ faPlusMinus),
+/* harmony export */   "faPlusSquare": () => (/* binding */ faPlusSquare),
 /* harmony export */   "faPodcast": () => (/* binding */ faPodcast),
+/* harmony export */   "faPoll": () => (/* binding */ faPoll),
+/* harmony export */   "faPollH": () => (/* binding */ faPollH),
 /* harmony export */   "faPoo": () => (/* binding */ faPoo),
-/* harmony export */   "faPooStorm": () => (/* binding */ faPooStorm),
 /* harmony export */   "faPooBolt": () => (/* binding */ faPooBolt),
+/* harmony export */   "faPooStorm": () => (/* binding */ faPooStorm),
 /* harmony export */   "faPoop": () => (/* binding */ faPoop),
+/* harmony export */   "faPortrait": () => (/* binding */ faPortrait),
+/* harmony export */   "faPoundSign": () => (/* binding */ faPoundSign),
 /* harmony export */   "faPowerOff": () => (/* binding */ faPowerOff),
+/* harmony export */   "faPray": () => (/* binding */ faPray),
+/* harmony export */   "faPrayingHands": () => (/* binding */ faPrayingHands),
 /* harmony export */   "faPrescription": () => (/* binding */ faPrescription),
 /* harmony export */   "faPrescriptionBottle": () => (/* binding */ faPrescriptionBottle),
-/* harmony export */   "faPrescriptionBottleMedical": () => (/* binding */ faPrescriptionBottleMedical),
 /* harmony export */   "faPrescriptionBottleAlt": () => (/* binding */ faPrescriptionBottleAlt),
+/* harmony export */   "faPrescriptionBottleMedical": () => (/* binding */ faPrescriptionBottleMedical),
 /* harmony export */   "faPrint": () => (/* binding */ faPrint),
+/* harmony export */   "faProcedures": () => (/* binding */ faProcedures),
+/* harmony export */   "faProjectDiagram": () => (/* binding */ faProjectDiagram),
 /* harmony export */   "faPumpMedical": () => (/* binding */ faPumpMedical),
 /* harmony export */   "faPumpSoap": () => (/* binding */ faPumpSoap),
 /* harmony export */   "faPuzzlePiece": () => (/* binding */ faPuzzlePiece),
 /* harmony export */   "faQ": () => (/* binding */ faQ),
 /* harmony export */   "faQrcode": () => (/* binding */ faQrcode),
 /* harmony export */   "faQuestion": () => (/* binding */ faQuestion),
+/* harmony export */   "faQuestionCircle": () => (/* binding */ faQuestionCircle),
+/* harmony export */   "faQuidditch": () => (/* binding */ faQuidditch),
+/* harmony export */   "faQuidditchBroomBall": () => (/* binding */ faQuidditchBroomBall),
 /* harmony export */   "faQuoteLeft": () => (/* binding */ faQuoteLeft),
 /* harmony export */   "faQuoteLeftAlt": () => (/* binding */ faQuoteLeftAlt),
 /* harmony export */   "faQuoteRight": () => (/* binding */ faQuoteRight),
 /* harmony export */   "faQuoteRightAlt": () => (/* binding */ faQuoteRightAlt),
+/* harmony export */   "faQuran": () => (/* binding */ faQuran),
 /* harmony export */   "faR": () => (/* binding */ faR),
 /* harmony export */   "faRadiation": () => (/* binding */ faRadiation),
+/* harmony export */   "faRadiationAlt": () => (/* binding */ faRadiationAlt),
+/* harmony export */   "faRadio": () => (/* binding */ faRadio),
 /* harmony export */   "faRainbow": () => (/* binding */ faRainbow),
+/* harmony export */   "faRandom": () => (/* binding */ faRandom),
+/* harmony export */   "faRankingStar": () => (/* binding */ faRankingStar),
 /* harmony export */   "faReceipt": () => (/* binding */ faReceipt),
 /* harmony export */   "faRecordVinyl": () => (/* binding */ faRecordVinyl),
 /* harmony export */   "faRectangleAd": () => (/* binding */ faRectangleAd),
-/* harmony export */   "faAd": () => (/* binding */ faAd),
 /* harmony export */   "faRectangleList": () => (/* binding */ faRectangleList),
-/* harmony export */   "faListAlt": () => (/* binding */ faListAlt),
-/* harmony export */   "faRectangleXmark": () => (/* binding */ faRectangleXmark),
 /* harmony export */   "faRectangleTimes": () => (/* binding */ faRectangleTimes),
-/* harmony export */   "faTimesRectangle": () => (/* binding */ faTimesRectangle),
-/* harmony export */   "faWindowClose": () => (/* binding */ faWindowClose),
+/* harmony export */   "faRectangleXmark": () => (/* binding */ faRectangleXmark),
 /* harmony export */   "faRecycle": () => (/* binding */ faRecycle),
+/* harmony export */   "faRedo": () => (/* binding */ faRedo),
+/* harmony export */   "faRedoAlt": () => (/* binding */ faRedoAlt),
+/* harmony export */   "faRefresh": () => (/* binding */ faRefresh),
 /* harmony export */   "faRegistered": () => (/* binding */ faRegistered),
+/* harmony export */   "faRemove": () => (/* binding */ faRemove),
+/* harmony export */   "faRemoveFormat": () => (/* binding */ faRemoveFormat),
+/* harmony export */   "faReorder": () => (/* binding */ faReorder),
 /* harmony export */   "faRepeat": () => (/* binding */ faRepeat),
 /* harmony export */   "faReply": () => (/* binding */ faReply),
-/* harmony export */   "faMailReply": () => (/* binding */ faMailReply),
 /* harmony export */   "faReplyAll": () => (/* binding */ faReplyAll),
-/* harmony export */   "faMailReplyAll": () => (/* binding */ faMailReplyAll),
 /* harmony export */   "faRepublican": () => (/* binding */ faRepublican),
 /* harmony export */   "faRestroom": () => (/* binding */ faRestroom),
 /* harmony export */   "faRetweet": () => (/* binding */ faRetweet),
 /* harmony export */   "faRibbon": () => (/* binding */ faRibbon),
 /* harmony export */   "faRightFromBracket": () => (/* binding */ faRightFromBracket),
-/* harmony export */   "faSignOutAlt": () => (/* binding */ faSignOutAlt),
 /* harmony export */   "faRightLeft": () => (/* binding */ faRightLeft),
-/* harmony export */   "faExchangeAlt": () => (/* binding */ faExchangeAlt),
 /* harmony export */   "faRightLong": () => (/* binding */ faRightLong),
-/* harmony export */   "faLongArrowAltRight": () => (/* binding */ faLongArrowAltRight),
 /* harmony export */   "faRightToBracket": () => (/* binding */ faRightToBracket),
-/* harmony export */   "faSignInAlt": () => (/* binding */ faSignInAlt),
 /* harmony export */   "faRing": () => (/* binding */ faRing),
+/* harmony export */   "faRmb": () => (/* binding */ faRmb),
 /* harmony export */   "faRoad": () => (/* binding */ faRoad),
+/* harmony export */   "faRoadBarrier": () => (/* binding */ faRoadBarrier),
+/* harmony export */   "faRoadBridge": () => (/* binding */ faRoadBridge),
+/* harmony export */   "faRoadCircleCheck": () => (/* binding */ faRoadCircleCheck),
+/* harmony export */   "faRoadCircleExclamation": () => (/* binding */ faRoadCircleExclamation),
+/* harmony export */   "faRoadCircleXmark": () => (/* binding */ faRoadCircleXmark),
+/* harmony export */   "faRoadLock": () => (/* binding */ faRoadLock),
+/* harmony export */   "faRoadSpikes": () => (/* binding */ faRoadSpikes),
 /* harmony export */   "faRobot": () => (/* binding */ faRobot),
 /* harmony export */   "faRocket": () => (/* binding */ faRocket),
+/* harmony export */   "faRodAsclepius": () => (/* binding */ faRodAsclepius),
+/* harmony export */   "faRodSnake": () => (/* binding */ faRodSnake),
 /* harmony export */   "faRotate": () => (/* binding */ faRotate),
-/* harmony export */   "faSyncAlt": () => (/* binding */ faSyncAlt),
-/* harmony export */   "faRotateLeft": () => (/* binding */ faRotateLeft),
 /* harmony export */   "faRotateBack": () => (/* binding */ faRotateBack),
 /* harmony export */   "faRotateBackward": () => (/* binding */ faRotateBackward),
-/* harmony export */   "faUndoAlt": () => (/* binding */ faUndoAlt),
-/* harmony export */   "faRotateRight": () => (/* binding */ faRotateRight),
-/* harmony export */   "faRedoAlt": () => (/* binding */ faRedoAlt),
 /* harmony export */   "faRotateForward": () => (/* binding */ faRotateForward),
+/* harmony export */   "faRotateLeft": () => (/* binding */ faRotateLeft),
+/* harmony export */   "faRotateRight": () => (/* binding */ faRotateRight),
+/* harmony export */   "faRouble": () => (/* binding */ faRouble),
 /* harmony export */   "faRoute": () => (/* binding */ faRoute),
 /* harmony export */   "faRss": () => (/* binding */ faRss),
-/* harmony export */   "faFeed": () => (/* binding */ faFeed),
-/* harmony export */   "faRubleSign": () => (/* binding */ faRubleSign),
-/* harmony export */   "faRouble": () => (/* binding */ faRouble),
+/* harmony export */   "faRssSquare": () => (/* binding */ faRssSquare),
 /* harmony export */   "faRub": () => (/* binding */ faRub),
 /* harmony export */   "faRuble": () => (/* binding */ faRuble),
+/* harmony export */   "faRubleSign": () => (/* binding */ faRubleSign),
+/* harmony export */   "faRug": () => (/* binding */ faRug),
 /* harmony export */   "faRuler": () => (/* binding */ faRuler),
 /* harmony export */   "faRulerCombined": () => (/* binding */ faRulerCombined),
 /* harmony export */   "faRulerHorizontal": () => (/* binding */ faRulerHorizontal),
 /* harmony export */   "faRulerVertical": () => (/* binding */ faRulerVertical),
-/* harmony export */   "faRupeeSign": () => (/* binding */ faRupeeSign),
+/* harmony export */   "faRunning": () => (/* binding */ faRunning),
 /* harmony export */   "faRupee": () => (/* binding */ faRupee),
+/* harmony export */   "faRupeeSign": () => (/* binding */ faRupeeSign),
 /* harmony export */   "faRupiahSign": () => (/* binding */ faRupiahSign),
 /* harmony export */   "faS": () => (/* binding */ faS),
+/* harmony export */   "faSackDollar": () => (/* binding */ faSackDollar),
+/* harmony export */   "faSackXmark": () => (/* binding */ faSackXmark),
+/* harmony export */   "faSadCry": () => (/* binding */ faSadCry),
+/* harmony export */   "faSadTear": () => (/* binding */ faSadTear),
 /* harmony export */   "faSailboat": () => (/* binding */ faSailboat),
 /* harmony export */   "faSatellite": () => (/* binding */ faSatellite),
 /* harmony export */   "faSatelliteDish": () => (/* binding */ faSatelliteDish),
+/* harmony export */   "faSave": () => (/* binding */ faSave),
 /* harmony export */   "faScaleBalanced": () => (/* binding */ faScaleBalanced),
-/* harmony export */   "faBalanceScale": () => (/* binding */ faBalanceScale),
 /* harmony export */   "faScaleUnbalanced": () => (/* binding */ faScaleUnbalanced),
-/* harmony export */   "faBalanceScaleLeft": () => (/* binding */ faBalanceScaleLeft),
 /* harmony export */   "faScaleUnbalancedFlip": () => (/* binding */ faScaleUnbalancedFlip),
-/* harmony export */   "faBalanceScaleRight": () => (/* binding */ faBalanceScaleRight),
 /* harmony export */   "faSchool": () => (/* binding */ faSchool),
+/* harmony export */   "faSchoolCircleCheck": () => (/* binding */ faSchoolCircleCheck),
+/* harmony export */   "faSchoolCircleExclamation": () => (/* binding */ faSchoolCircleExclamation),
+/* harmony export */   "faSchoolCircleXmark": () => (/* binding */ faSchoolCircleXmark),
+/* harmony export */   "faSchoolFlag": () => (/* binding */ faSchoolFlag),
+/* harmony export */   "faSchoolLock": () => (/* binding */ faSchoolLock),
 /* harmony export */   "faScissors": () => (/* binding */ faScissors),
-/* harmony export */   "faCut": () => (/* binding */ faCut),
 /* harmony export */   "faScrewdriver": () => (/* binding */ faScrewdriver),
 /* harmony export */   "faScrewdriverWrench": () => (/* binding */ faScrewdriverWrench),
-/* harmony export */   "faTools": () => (/* binding */ faTools),
 /* harmony export */   "faScroll": () => (/* binding */ faScroll),
 /* harmony export */   "faScrollTorah": () => (/* binding */ faScrollTorah),
-/* harmony export */   "faTorah": () => (/* binding */ faTorah),
 /* harmony export */   "faSdCard": () => (/* binding */ faSdCard),
+/* harmony export */   "faSearch": () => (/* binding */ faSearch),
+/* harmony export */   "faSearchDollar": () => (/* binding */ faSearchDollar),
+/* harmony export */   "faSearchLocation": () => (/* binding */ faSearchLocation),
+/* harmony export */   "faSearchMinus": () => (/* binding */ faSearchMinus),
+/* harmony export */   "faSearchPlus": () => (/* binding */ faSearchPlus),
 /* harmony export */   "faSection": () => (/* binding */ faSection),
 /* harmony export */   "faSeedling": () => (/* binding */ faSeedling),
-/* harmony export */   "faSprout": () => (/* binding */ faSprout),
 /* harmony export */   "faServer": () => (/* binding */ faServer),
 /* harmony export */   "faShapes": () => (/* binding */ faShapes),
-/* harmony export */   "faTriangleCircleSquare": () => (/* binding */ faTriangleCircleSquare),
 /* harmony export */   "faShare": () => (/* binding */ faShare),
-/* harmony export */   "faArrowTurnRight": () => (/* binding */ faArrowTurnRight),
-/* harmony export */   "faMailForward": () => (/* binding */ faMailForward),
-/* harmony export */   "faShareFromSquare": () => (/* binding */ faShareFromSquare),
-/* harmony export */   "faShareSquare": () => (/* binding */ faShareSquare),
-/* harmony export */   "faShareNodes": () => (/* binding */ faShareNodes),
 /* harmony export */   "faShareAlt": () => (/* binding */ faShareAlt),
-/* harmony export */   "faShekelSign": () => (/* binding */ faShekelSign),
-/* harmony export */   "faIls": () => (/* binding */ faIls),
+/* harmony export */   "faShareAltSquare": () => (/* binding */ faShareAltSquare),
+/* harmony export */   "faShareFromSquare": () => (/* binding */ faShareFromSquare),
+/* harmony export */   "faShareNodes": () => (/* binding */ faShareNodes),
+/* harmony export */   "faShareSquare": () => (/* binding */ faShareSquare),
+/* harmony export */   "faSheetPlastic": () => (/* binding */ faSheetPlastic),
 /* harmony export */   "faShekel": () => (/* binding */ faShekel),
+/* harmony export */   "faShekelSign": () => (/* binding */ faShekelSign),
 /* harmony export */   "faSheqel": () => (/* binding */ faSheqel),
 /* harmony export */   "faSheqelSign": () => (/* binding */ faSheqelSign),
 /* harmony export */   "faShield": () => (/* binding */ faShield),
-/* harmony export */   "faShieldBlank": () => (/* binding */ faShieldBlank),
 /* harmony export */   "faShieldAlt": () => (/* binding */ faShieldAlt),
+/* harmony export */   "faShieldBlank": () => (/* binding */ faShieldBlank),
+/* harmony export */   "faShieldCat": () => (/* binding */ faShieldCat),
+/* harmony export */   "faShieldDog": () => (/* binding */ faShieldDog),
+/* harmony export */   "faShieldHalved": () => (/* binding */ faShieldHalved),
+/* harmony export */   "faShieldHeart": () => (/* binding */ faShieldHeart),
 /* harmony export */   "faShieldVirus": () => (/* binding */ faShieldVirus),
 /* harmony export */   "faShip": () => (/* binding */ faShip),
+/* harmony export */   "faShippingFast": () => (/* binding */ faShippingFast),
 /* harmony export */   "faShirt": () => (/* binding */ faShirt),
-/* harmony export */   "faTShirt": () => (/* binding */ faTShirt),
-/* harmony export */   "faTshirt": () => (/* binding */ faTshirt),
 /* harmony export */   "faShoePrints": () => (/* binding */ faShoePrints),
 /* harmony export */   "faShop": () => (/* binding */ faShop),
-/* harmony export */   "faStoreAlt": () => (/* binding */ faStoreAlt),
+/* harmony export */   "faShopLock": () => (/* binding */ faShopLock),
 /* harmony export */   "faShopSlash": () => (/* binding */ faShopSlash),
-/* harmony export */   "faStoreAltSlash": () => (/* binding */ faStoreAltSlash),
+/* harmony export */   "faShoppingBag": () => (/* binding */ faShoppingBag),
+/* harmony export */   "faShoppingBasket": () => (/* binding */ faShoppingBasket),
+/* harmony export */   "faShoppingCart": () => (/* binding */ faShoppingCart),
 /* harmony export */   "faShower": () => (/* binding */ faShower),
 /* harmony export */   "faShrimp": () => (/* binding */ faShrimp),
 /* harmony export */   "faShuffle": () => (/* binding */ faShuffle),
-/* harmony export */   "faRandom": () => (/* binding */ faRandom),
 /* harmony export */   "faShuttleSpace": () => (/* binding */ faShuttleSpace),
-/* harmony export */   "faSpaceShuttle": () => (/* binding */ faSpaceShuttle),
-/* harmony export */   "faSignHanging": () => (/* binding */ faSignHanging),
+/* harmony export */   "faShuttleVan": () => (/* binding */ faShuttleVan),
 /* harmony export */   "faSign": () => (/* binding */ faSign),
+/* harmony export */   "faSignHanging": () => (/* binding */ faSignHanging),
+/* harmony export */   "faSignIn": () => (/* binding */ faSignIn),
+/* harmony export */   "faSignInAlt": () => (/* binding */ faSignInAlt),
+/* harmony export */   "faSignLanguage": () => (/* binding */ faSignLanguage),
+/* harmony export */   "faSignOut": () => (/* binding */ faSignOut),
+/* harmony export */   "faSignOutAlt": () => (/* binding */ faSignOutAlt),
 /* harmony export */   "faSignal": () => (/* binding */ faSignal),
 /* harmony export */   "faSignal5": () => (/* binding */ faSignal5),
 /* harmony export */   "faSignalPerfect": () => (/* binding */ faSignalPerfect),
 /* harmony export */   "faSignature": () => (/* binding */ faSignature),
+/* harmony export */   "faSigning": () => (/* binding */ faSigning),
 /* harmony export */   "faSignsPost": () => (/* binding */ faSignsPost),
-/* harmony export */   "faMapSigns": () => (/* binding */ faMapSigns),
 /* harmony export */   "faSimCard": () => (/* binding */ faSimCard),
 /* harmony export */   "faSink": () => (/* binding */ faSink),
 /* harmony export */   "faSitemap": () => (/* binding */ faSitemap),
+/* harmony export */   "faSkating": () => (/* binding */ faSkating),
+/* harmony export */   "faSkiing": () => (/* binding */ faSkiing),
+/* harmony export */   "faSkiingNordic": () => (/* binding */ faSkiingNordic),
 /* harmony export */   "faSkull": () => (/* binding */ faSkull),
 /* harmony export */   "faSkullCrossbones": () => (/* binding */ faSkullCrossbones),
 /* harmony export */   "faSlash": () => (/* binding */ faSlash),
 /* harmony export */   "faSleigh": () => (/* binding */ faSleigh),
 /* harmony export */   "faSliders": () => (/* binding */ faSliders),
 /* harmony export */   "faSlidersH": () => (/* binding */ faSlidersH),
+/* harmony export */   "faSmile": () => (/* binding */ faSmile),
+/* harmony export */   "faSmileBeam": () => (/* binding */ faSmileBeam),
+/* harmony export */   "faSmileWink": () => (/* binding */ faSmileWink),
 /* harmony export */   "faSmog": () => (/* binding */ faSmog),
 /* harmony export */   "faSmoking": () => (/* binding */ faSmoking),
+/* harmony export */   "faSmokingBan": () => (/* binding */ faSmokingBan),
+/* harmony export */   "faSms": () => (/* binding */ faSms),
+/* harmony export */   "faSnowboarding": () => (/* binding */ faSnowboarding),
 /* harmony export */   "faSnowflake": () => (/* binding */ faSnowflake),
 /* harmony export */   "faSnowman": () => (/* binding */ faSnowman),
 /* harmony export */   "faSnowplow": () => (/* binding */ faSnowplow),
 /* harmony export */   "faSoap": () => (/* binding */ faSoap),
+/* harmony export */   "faSoccerBall": () => (/* binding */ faSoccerBall),
 /* harmony export */   "faSocks": () => (/* binding */ faSocks),
 /* harmony export */   "faSolarPanel": () => (/* binding */ faSolarPanel),
 /* harmony export */   "faSort": () => (/* binding */ faSort),
-/* harmony export */   "faUnsorted": () => (/* binding */ faUnsorted),
-/* harmony export */   "faSortDown": () => (/* binding */ faSortDown),
-/* harmony export */   "faSortDesc": () => (/* binding */ faSortDesc),
-/* harmony export */   "faSortUp": () => (/* binding */ faSortUp),
+/* harmony export */   "faSortAlphaAsc": () => (/* binding */ faSortAlphaAsc),
+/* harmony export */   "faSortAlphaDesc": () => (/* binding */ faSortAlphaDesc),
+/* harmony export */   "faSortAlphaDown": () => (/* binding */ faSortAlphaDown),
+/* harmony export */   "faSortAlphaDownAlt": () => (/* binding */ faSortAlphaDownAlt),
+/* harmony export */   "faSortAlphaUp": () => (/* binding */ faSortAlphaUp),
+/* harmony export */   "faSortAlphaUpAlt": () => (/* binding */ faSortAlphaUpAlt),
+/* harmony export */   "faSortAmountAsc": () => (/* binding */ faSortAmountAsc),
+/* harmony export */   "faSortAmountDesc": () => (/* binding */ faSortAmountDesc),
+/* harmony export */   "faSortAmountDown": () => (/* binding */ faSortAmountDown),
+/* harmony export */   "faSortAmountDownAlt": () => (/* binding */ faSortAmountDownAlt),
+/* harmony export */   "faSortAmountUp": () => (/* binding */ faSortAmountUp),
+/* harmony export */   "faSortAmountUpAlt": () => (/* binding */ faSortAmountUpAlt),
 /* harmony export */   "faSortAsc": () => (/* binding */ faSortAsc),
+/* harmony export */   "faSortDesc": () => (/* binding */ faSortDesc),
+/* harmony export */   "faSortDown": () => (/* binding */ faSortDown),
+/* harmony export */   "faSortNumericAsc": () => (/* binding */ faSortNumericAsc),
+/* harmony export */   "faSortNumericDesc": () => (/* binding */ faSortNumericDesc),
+/* harmony export */   "faSortNumericDown": () => (/* binding */ faSortNumericDown),
+/* harmony export */   "faSortNumericDownAlt": () => (/* binding */ faSortNumericDownAlt),
+/* harmony export */   "faSortNumericUp": () => (/* binding */ faSortNumericUp),
+/* harmony export */   "faSortNumericUpAlt": () => (/* binding */ faSortNumericUpAlt),
+/* harmony export */   "faSortUp": () => (/* binding */ faSortUp),
 /* harmony export */   "faSpa": () => (/* binding */ faSpa),
+/* harmony export */   "faSpaceShuttle": () => (/* binding */ faSpaceShuttle),
 /* harmony export */   "faSpaghettiMonsterFlying": () => (/* binding */ faSpaghettiMonsterFlying),
-/* harmony export */   "faPastafarianism": () => (/* binding */ faPastafarianism),
 /* harmony export */   "faSpellCheck": () => (/* binding */ faSpellCheck),
 /* harmony export */   "faSpider": () => (/* binding */ faSpider),
 /* harmony export */   "faSpinner": () => (/* binding */ faSpinner),
 /* harmony export */   "faSplotch": () => (/* binding */ faSplotch),
 /* harmony export */   "faSpoon": () => (/* binding */ faSpoon),
-/* harmony export */   "faUtensilSpoon": () => (/* binding */ faUtensilSpoon),
 /* harmony export */   "faSprayCan": () => (/* binding */ faSprayCan),
 /* harmony export */   "faSprayCanSparkles": () => (/* binding */ faSprayCanSparkles),
-/* harmony export */   "faAirFreshener": () => (/* binding */ faAirFreshener),
+/* harmony export */   "faSprout": () => (/* binding */ faSprout),
 /* harmony export */   "faSquare": () => (/* binding */ faSquare),
 /* harmony export */   "faSquareArrowUpRight": () => (/* binding */ faSquareArrowUpRight),
-/* harmony export */   "faExternalLinkSquare": () => (/* binding */ faExternalLinkSquare),
 /* harmony export */   "faSquareCaretDown": () => (/* binding */ faSquareCaretDown),
-/* harmony export */   "faCaretSquareDown": () => (/* binding */ faCaretSquareDown),
 /* harmony export */   "faSquareCaretLeft": () => (/* binding */ faSquareCaretLeft),
-/* harmony export */   "faCaretSquareLeft": () => (/* binding */ faCaretSquareLeft),
 /* harmony export */   "faSquareCaretRight": () => (/* binding */ faSquareCaretRight),
-/* harmony export */   "faCaretSquareRight": () => (/* binding */ faCaretSquareRight),
 /* harmony export */   "faSquareCaretUp": () => (/* binding */ faSquareCaretUp),
-/* harmony export */   "faCaretSquareUp": () => (/* binding */ faCaretSquareUp),
 /* harmony export */   "faSquareCheck": () => (/* binding */ faSquareCheck),
-/* harmony export */   "faCheckSquare": () => (/* binding */ faCheckSquare),
 /* harmony export */   "faSquareEnvelope": () => (/* binding */ faSquareEnvelope),
-/* harmony export */   "faEnvelopeSquare": () => (/* binding */ faEnvelopeSquare),
 /* harmony export */   "faSquareFull": () => (/* binding */ faSquareFull),
 /* harmony export */   "faSquareH": () => (/* binding */ faSquareH),
-/* harmony export */   "faHSquare": () => (/* binding */ faHSquare),
 /* harmony export */   "faSquareMinus": () => (/* binding */ faSquareMinus),
-/* harmony export */   "faMinusSquare": () => (/* binding */ faMinusSquare),
+/* harmony export */   "faSquareNfi": () => (/* binding */ faSquareNfi),
 /* harmony export */   "faSquareParking": () => (/* binding */ faSquareParking),
-/* harmony export */   "faParking": () => (/* binding */ faParking),
 /* harmony export */   "faSquarePen": () => (/* binding */ faSquarePen),
-/* harmony export */   "faPenSquare": () => (/* binding */ faPenSquare),
-/* harmony export */   "faPencilSquare": () => (/* binding */ faPencilSquare),
+/* harmony export */   "faSquarePersonConfined": () => (/* binding */ faSquarePersonConfined),
 /* harmony export */   "faSquarePhone": () => (/* binding */ faSquarePhone),
-/* harmony export */   "faPhoneSquare": () => (/* binding */ faPhoneSquare),
 /* harmony export */   "faSquarePhoneFlip": () => (/* binding */ faSquarePhoneFlip),
-/* harmony export */   "faPhoneSquareAlt": () => (/* binding */ faPhoneSquareAlt),
 /* harmony export */   "faSquarePlus": () => (/* binding */ faSquarePlus),
-/* harmony export */   "faPlusSquare": () => (/* binding */ faPlusSquare),
 /* harmony export */   "faSquarePollHorizontal": () => (/* binding */ faSquarePollHorizontal),
-/* harmony export */   "faPollH": () => (/* binding */ faPollH),
 /* harmony export */   "faSquarePollVertical": () => (/* binding */ faSquarePollVertical),
-/* harmony export */   "faPoll": () => (/* binding */ faPoll),
-/* harmony export */   "faSquareRootVariable": () => (/* binding */ faSquareRootVariable),
 /* harmony export */   "faSquareRootAlt": () => (/* binding */ faSquareRootAlt),
+/* harmony export */   "faSquareRootVariable": () => (/* binding */ faSquareRootVariable),
 /* harmony export */   "faSquareRss": () => (/* binding */ faSquareRss),
-/* harmony export */   "faRssSquare": () => (/* binding */ faRssSquare),
 /* harmony export */   "faSquareShareNodes": () => (/* binding */ faSquareShareNodes),
-/* harmony export */   "faShareAltSquare": () => (/* binding */ faShareAltSquare),
 /* harmony export */   "faSquareUpRight": () => (/* binding */ faSquareUpRight),
-/* harmony export */   "faExternalLinkSquareAlt": () => (/* binding */ faExternalLinkSquareAlt),
+/* harmony export */   "faSquareVirus": () => (/* binding */ faSquareVirus),
 /* harmony export */   "faSquareXmark": () => (/* binding */ faSquareXmark),
-/* harmony export */   "faTimesSquare": () => (/* binding */ faTimesSquare),
-/* harmony export */   "faXmarkSquare": () => (/* binding */ faXmarkSquare),
+/* harmony export */   "faStaffAesculapius": () => (/* binding */ faStaffAesculapius),
+/* harmony export */   "faStaffSnake": () => (/* binding */ faStaffSnake),
 /* harmony export */   "faStairs": () => (/* binding */ faStairs),
 /* harmony export */   "faStamp": () => (/* binding */ faStamp),
 /* harmony export */   "faStar": () => (/* binding */ faStar),
 /* harmony export */   "faStarAndCrescent": () => (/* binding */ faStarAndCrescent),
 /* harmony export */   "faStarHalf": () => (/* binding */ faStarHalf),
-/* harmony export */   "faStarHalfStroke": () => (/* binding */ faStarHalfStroke),
 /* harmony export */   "faStarHalfAlt": () => (/* binding */ faStarHalfAlt),
+/* harmony export */   "faStarHalfStroke": () => (/* binding */ faStarHalfStroke),
 /* harmony export */   "faStarOfDavid": () => (/* binding */ faStarOfDavid),
 /* harmony export */   "faStarOfLife": () => (/* binding */ faStarOfLife),
+/* harmony export */   "faStepBackward": () => (/* binding */ faStepBackward),
+/* harmony export */   "faStepForward": () => (/* binding */ faStepForward),
 /* harmony export */   "faSterlingSign": () => (/* binding */ faSterlingSign),
-/* harmony export */   "faGbp": () => (/* binding */ faGbp),
-/* harmony export */   "faPoundSign": () => (/* binding */ faPoundSign),
 /* harmony export */   "faStethoscope": () => (/* binding */ faStethoscope),
+/* harmony export */   "faStickyNote": () => (/* binding */ faStickyNote),
 /* harmony export */   "faStop": () => (/* binding */ faStop),
+/* harmony export */   "faStopCircle": () => (/* binding */ faStopCircle),
 /* harmony export */   "faStopwatch": () => (/* binding */ faStopwatch),
 /* harmony export */   "faStopwatch20": () => (/* binding */ faStopwatch20),
 /* harmony export */   "faStore": () => (/* binding */ faStore),
+/* harmony export */   "faStoreAlt": () => (/* binding */ faStoreAlt),
+/* harmony export */   "faStoreAltSlash": () => (/* binding */ faStoreAltSlash),
 /* harmony export */   "faStoreSlash": () => (/* binding */ faStoreSlash),
+/* harmony export */   "faStream": () => (/* binding */ faStream),
 /* harmony export */   "faStreetView": () => (/* binding */ faStreetView),
 /* harmony export */   "faStrikethrough": () => (/* binding */ faStrikethrough),
 /* harmony export */   "faStroopwafel": () => (/* binding */ faStroopwafel),
 /* harmony export */   "faSubscript": () => (/* binding */ faSubscript),
+/* harmony export */   "faSubtract": () => (/* binding */ faSubtract),
+/* harmony export */   "faSubway": () => (/* binding */ faSubway),
 /* harmony export */   "faSuitcase": () => (/* binding */ faSuitcase),
 /* harmony export */   "faSuitcaseMedical": () => (/* binding */ faSuitcaseMedical),
-/* harmony export */   "faMedkit": () => (/* binding */ faMedkit),
 /* harmony export */   "faSuitcaseRolling": () => (/* binding */ faSuitcaseRolling),
 /* harmony export */   "faSun": () => (/* binding */ faSun),
+/* harmony export */   "faSunPlantWilt": () => (/* binding */ faSunPlantWilt),
 /* harmony export */   "faSuperscript": () => (/* binding */ faSuperscript),
+/* harmony export */   "faSurprise": () => (/* binding */ faSurprise),
 /* harmony export */   "faSwatchbook": () => (/* binding */ faSwatchbook),
+/* harmony export */   "faSwimmer": () => (/* binding */ faSwimmer),
+/* harmony export */   "faSwimmingPool": () => (/* binding */ faSwimmingPool),
 /* harmony export */   "faSynagogue": () => (/* binding */ faSynagogue),
+/* harmony export */   "faSync": () => (/* binding */ faSync),
+/* harmony export */   "faSyncAlt": () => (/* binding */ faSyncAlt),
 /* harmony export */   "faSyringe": () => (/* binding */ faSyringe),
 /* harmony export */   "faT": () => (/* binding */ faT),
+/* harmony export */   "faTShirt": () => (/* binding */ faTShirt),
 /* harmony export */   "faTable": () => (/* binding */ faTable),
 /* harmony export */   "faTableCells": () => (/* binding */ faTableCells),
-/* harmony export */   "faTh": () => (/* binding */ faTh),
 /* harmony export */   "faTableCellsLarge": () => (/* binding */ faTableCellsLarge),
-/* harmony export */   "faThLarge": () => (/* binding */ faThLarge),
 /* harmony export */   "faTableColumns": () => (/* binding */ faTableColumns),
-/* harmony export */   "faColumns": () => (/* binding */ faColumns),
 /* harmony export */   "faTableList": () => (/* binding */ faTableList),
-/* harmony export */   "faThList": () => (/* binding */ faThList),
-/* harmony export */   "faTableTennisPaddleBall": () => (/* binding */ faTableTennisPaddleBall),
-/* harmony export */   "faPingPongPaddleBall": () => (/* binding */ faPingPongPaddleBall),
 /* harmony export */   "faTableTennis": () => (/* binding */ faTableTennis),
+/* harmony export */   "faTableTennisPaddleBall": () => (/* binding */ faTableTennisPaddleBall),
 /* harmony export */   "faTablet": () => (/* binding */ faTablet),
+/* harmony export */   "faTabletAlt": () => (/* binding */ faTabletAlt),
 /* harmony export */   "faTabletAndroid": () => (/* binding */ faTabletAndroid),
 /* harmony export */   "faTabletButton": () => (/* binding */ faTabletButton),
 /* harmony export */   "faTabletScreenButton": () => (/* binding */ faTabletScreenButton),
-/* harmony export */   "faTabletAlt": () => (/* binding */ faTabletAlt),
 /* harmony export */   "faTablets": () => (/* binding */ faTablets),
 /* harmony export */   "faTachographDigital": () => (/* binding */ faTachographDigital),
-/* harmony export */   "faDigitalTachograph": () => (/* binding */ faDigitalTachograph),
+/* harmony export */   "faTachometer": () => (/* binding */ faTachometer),
+/* harmony export */   "faTachometerAlt": () => (/* binding */ faTachometerAlt),
+/* harmony export */   "faTachometerAltAverage": () => (/* binding */ faTachometerAltAverage),
+/* harmony export */   "faTachometerAltFast": () => (/* binding */ faTachometerAltFast),
+/* harmony export */   "faTachometerAverage": () => (/* binding */ faTachometerAverage),
+/* harmony export */   "faTachometerFast": () => (/* binding */ faTachometerFast),
 /* harmony export */   "faTag": () => (/* binding */ faTag),
 /* harmony export */   "faTags": () => (/* binding */ faTags),
 /* harmony export */   "faTape": () => (/* binding */ faTape),
+/* harmony export */   "faTarp": () => (/* binding */ faTarp),
+/* harmony export */   "faTarpDroplet": () => (/* binding */ faTarpDroplet),
+/* harmony export */   "faTasks": () => (/* binding */ faTasks),
+/* harmony export */   "faTasksAlt": () => (/* binding */ faTasksAlt),
 /* harmony export */   "faTaxi": () => (/* binding */ faTaxi),
-/* harmony export */   "faCab": () => (/* binding */ faCab),
 /* harmony export */   "faTeeth": () => (/* binding */ faTeeth),
 /* harmony export */   "faTeethOpen": () => (/* binding */ faTeethOpen),
-/* harmony export */   "faTemperatureEmpty": () => (/* binding */ faTemperatureEmpty),
+/* harmony export */   "faTeletype": () => (/* binding */ faTeletype),
+/* harmony export */   "faTelevision": () => (/* binding */ faTelevision),
 /* harmony export */   "faTemperature0": () => (/* binding */ faTemperature0),
-/* harmony export */   "faThermometer0": () => (/* binding */ faThermometer0),
-/* harmony export */   "faThermometerEmpty": () => (/* binding */ faThermometerEmpty),
-/* harmony export */   "faTemperatureFull": () => (/* binding */ faTemperatureFull),
-/* harmony export */   "faTemperature4": () => (/* binding */ faTemperature4),
-/* harmony export */   "faThermometer4": () => (/* binding */ faThermometer4),
-/* harmony export */   "faThermometerFull": () => (/* binding */ faThermometerFull),
-/* harmony export */   "faTemperatureHalf": () => (/* binding */ faTemperatureHalf),
+/* harmony export */   "faTemperature1": () => (/* binding */ faTemperature1),
 /* harmony export */   "faTemperature2": () => (/* binding */ faTemperature2),
-/* harmony export */   "faThermometer2": () => (/* binding */ faThermometer2),
-/* harmony export */   "faThermometerHalf": () => (/* binding */ faThermometerHalf),
+/* harmony export */   "faTemperature3": () => (/* binding */ faTemperature3),
+/* harmony export */   "faTemperature4": () => (/* binding */ faTemperature4),
+/* harmony export */   "faTemperatureArrowDown": () => (/* binding */ faTemperatureArrowDown),
+/* harmony export */   "faTemperatureArrowUp": () => (/* binding */ faTemperatureArrowUp),
+/* harmony export */   "faTemperatureDown": () => (/* binding */ faTemperatureDown),
+/* harmony export */   "faTemperatureEmpty": () => (/* binding */ faTemperatureEmpty),
+/* harmony export */   "faTemperatureFull": () => (/* binding */ faTemperatureFull),
+/* harmony export */   "faTemperatureHalf": () => (/* binding */ faTemperatureHalf),
 /* harmony export */   "faTemperatureHigh": () => (/* binding */ faTemperatureHigh),
 /* harmony export */   "faTemperatureLow": () => (/* binding */ faTemperatureLow),
 /* harmony export */   "faTemperatureQuarter": () => (/* binding */ faTemperatureQuarter),
-/* harmony export */   "faTemperature1": () => (/* binding */ faTemperature1),
-/* harmony export */   "faThermometer1": () => (/* binding */ faThermometer1),
-/* harmony export */   "faThermometerQuarter": () => (/* binding */ faThermometerQuarter),
 /* harmony export */   "faTemperatureThreeQuarters": () => (/* binding */ faTemperatureThreeQuarters),
-/* harmony export */   "faTemperature3": () => (/* binding */ faTemperature3),
-/* harmony export */   "faThermometer3": () => (/* binding */ faThermometer3),
-/* harmony export */   "faThermometerThreeQuarters": () => (/* binding */ faThermometerThreeQuarters),
-/* harmony export */   "faTengeSign": () => (/* binding */ faTengeSign),
+/* harmony export */   "faTemperatureUp": () => (/* binding */ faTemperatureUp),
 /* harmony export */   "faTenge": () => (/* binding */ faTenge),
+/* harmony export */   "faTengeSign": () => (/* binding */ faTengeSign),
+/* harmony export */   "faTent": () => (/* binding */ faTent),
+/* harmony export */   "faTentArrowDownToLine": () => (/* binding */ faTentArrowDownToLine),
+/* harmony export */   "faTentArrowLeftRight": () => (/* binding */ faTentArrowLeftRight),
+/* harmony export */   "faTentArrowTurnLeft": () => (/* binding */ faTentArrowTurnLeft),
+/* harmony export */   "faTentArrowsDown": () => (/* binding */ faTentArrowsDown),
+/* harmony export */   "faTents": () => (/* binding */ faTents),
 /* harmony export */   "faTerminal": () => (/* binding */ faTerminal),
 /* harmony export */   "faTextHeight": () => (/* binding */ faTextHeight),
 /* harmony export */   "faTextSlash": () => (/* binding */ faTextSlash),
-/* harmony export */   "faRemoveFormat": () => (/* binding */ faRemoveFormat),
 /* harmony export */   "faTextWidth": () => (/* binding */ faTextWidth),
+/* harmony export */   "faTh": () => (/* binding */ faTh),
+/* harmony export */   "faThLarge": () => (/* binding */ faThLarge),
+/* harmony export */   "faThList": () => (/* binding */ faThList),
+/* harmony export */   "faTheaterMasks": () => (/* binding */ faTheaterMasks),
 /* harmony export */   "faThermometer": () => (/* binding */ faThermometer),
+/* harmony export */   "faThermometer0": () => (/* binding */ faThermometer0),
+/* harmony export */   "faThermometer1": () => (/* binding */ faThermometer1),
+/* harmony export */   "faThermometer2": () => (/* binding */ faThermometer2),
+/* harmony export */   "faThermometer3": () => (/* binding */ faThermometer3),
+/* harmony export */   "faThermometer4": () => (/* binding */ faThermometer4),
+/* harmony export */   "faThermometerEmpty": () => (/* binding */ faThermometerEmpty),
+/* harmony export */   "faThermometerFull": () => (/* binding */ faThermometerFull),
+/* harmony export */   "faThermometerHalf": () => (/* binding */ faThermometerHalf),
+/* harmony export */   "faThermometerQuarter": () => (/* binding */ faThermometerQuarter),
+/* harmony export */   "faThermometerThreeQuarters": () => (/* binding */ faThermometerThreeQuarters),
+/* harmony export */   "faThumbTack": () => (/* binding */ faThumbTack),
 /* harmony export */   "faThumbsDown": () => (/* binding */ faThumbsDown),
 /* harmony export */   "faThumbsUp": () => (/* binding */ faThumbsUp),
 /* harmony export */   "faThumbtack": () => (/* binding */ faThumbtack),
-/* harmony export */   "faThumbTack": () => (/* binding */ faThumbTack),
+/* harmony export */   "faThunderstorm": () => (/* binding */ faThunderstorm),
 /* harmony export */   "faTicket": () => (/* binding */ faTicket),
-/* harmony export */   "faTicketSimple": () => (/* binding */ faTicketSimple),
 /* harmony export */   "faTicketAlt": () => (/* binding */ faTicketAlt),
+/* harmony export */   "faTicketSimple": () => (/* binding */ faTicketSimple),
 /* harmony export */   "faTimeline": () => (/* binding */ faTimeline),
+/* harmony export */   "faTimes": () => (/* binding */ faTimes),
+/* harmony export */   "faTimesCircle": () => (/* binding */ faTimesCircle),
+/* harmony export */   "faTimesRectangle": () => (/* binding */ faTimesRectangle),
+/* harmony export */   "faTimesSquare": () => (/* binding */ faTimesSquare),
+/* harmony export */   "faTint": () => (/* binding */ faTint),
+/* harmony export */   "faTintSlash": () => (/* binding */ faTintSlash),
+/* harmony export */   "faTired": () => (/* binding */ faTired),
 /* harmony export */   "faToggleOff": () => (/* binding */ faToggleOff),
 /* harmony export */   "faToggleOn": () => (/* binding */ faToggleOn),
 /* harmony export */   "faToilet": () => (/* binding */ faToilet),
 /* harmony export */   "faToiletPaper": () => (/* binding */ faToiletPaper),
 /* harmony export */   "faToiletPaperSlash": () => (/* binding */ faToiletPaperSlash),
+/* harmony export */   "faToiletPortable": () => (/* binding */ faToiletPortable),
+/* harmony export */   "faToiletsPortable": () => (/* binding */ faToiletsPortable),
 /* harmony export */   "faToolbox": () => (/* binding */ faToolbox),
+/* harmony export */   "faTools": () => (/* binding */ faTools),
 /* harmony export */   "faTooth": () => (/* binding */ faTooth),
+/* harmony export */   "faTorah": () => (/* binding */ faTorah),
 /* harmony export */   "faToriiGate": () => (/* binding */ faToriiGate),
+/* harmony export */   "faTornado": () => (/* binding */ faTornado),
 /* harmony export */   "faTowerBroadcast": () => (/* binding */ faTowerBroadcast),
-/* harmony export */   "faBroadcastTower": () => (/* binding */ faBroadcastTower),
+/* harmony export */   "faTowerCell": () => (/* binding */ faTowerCell),
+/* harmony export */   "faTowerObservation": () => (/* binding */ faTowerObservation),
 /* harmony export */   "faTractor": () => (/* binding */ faTractor),
 /* harmony export */   "faTrademark": () => (/* binding */ faTrademark),
 /* harmony export */   "faTrafficLight": () => (/* binding */ faTrafficLight),
 /* harmony export */   "faTrailer": () => (/* binding */ faTrailer),
 /* harmony export */   "faTrain": () => (/* binding */ faTrain),
 /* harmony export */   "faTrainSubway": () => (/* binding */ faTrainSubway),
-/* harmony export */   "faSubway": () => (/* binding */ faSubway),
 /* harmony export */   "faTrainTram": () => (/* binding */ faTrainTram),
 /* harmony export */   "faTram": () => (/* binding */ faTram),
 /* harmony export */   "faTransgender": () => (/* binding */ faTransgender),
 /* harmony export */   "faTransgenderAlt": () => (/* binding */ faTransgenderAlt),
 /* harmony export */   "faTrash": () => (/* binding */ faTrash),
-/* harmony export */   "faTrashArrowUp": () => (/* binding */ faTrashArrowUp),
-/* harmony export */   "faTrashRestore": () => (/* binding */ faTrashRestore),
-/* harmony export */   "faTrashCan": () => (/* binding */ faTrashCan),
 /* harmony export */   "faTrashAlt": () => (/* binding */ faTrashAlt),
+/* harmony export */   "faTrashArrowUp": () => (/* binding */ faTrashArrowUp),
+/* harmony export */   "faTrashCan": () => (/* binding */ faTrashCan),
 /* harmony export */   "faTrashCanArrowUp": () => (/* binding */ faTrashCanArrowUp),
+/* harmony export */   "faTrashRestore": () => (/* binding */ faTrashRestore),
 /* harmony export */   "faTrashRestoreAlt": () => (/* binding */ faTrashRestoreAlt),
 /* harmony export */   "faTree": () => (/* binding */ faTree),
+/* harmony export */   "faTreeCity": () => (/* binding */ faTreeCity),
+/* harmony export */   "faTriangleCircleSquare": () => (/* binding */ faTriangleCircleSquare),
 /* harmony export */   "faTriangleExclamation": () => (/* binding */ faTriangleExclamation),
-/* harmony export */   "faExclamationTriangle": () => (/* binding */ faExclamationTriangle),
-/* harmony export */   "faWarning": () => (/* binding */ faWarning),
 /* harmony export */   "faTrophy": () => (/* binding */ faTrophy),
+/* harmony export */   "faTrowel": () => (/* binding */ faTrowel),
+/* harmony export */   "faTrowelBricks": () => (/* binding */ faTrowelBricks),
 /* harmony export */   "faTruck": () => (/* binding */ faTruck),
+/* harmony export */   "faTruckArrowRight": () => (/* binding */ faTruckArrowRight),
+/* harmony export */   "faTruckDroplet": () => (/* binding */ faTruckDroplet),
 /* harmony export */   "faTruckFast": () => (/* binding */ faTruckFast),
-/* harmony export */   "faShippingFast": () => (/* binding */ faShippingFast),
+/* harmony export */   "faTruckField": () => (/* binding */ faTruckField),
+/* harmony export */   "faTruckFieldUn": () => (/* binding */ faTruckFieldUn),
+/* harmony export */   "faTruckFront": () => (/* binding */ faTruckFront),
+/* harmony export */   "faTruckLoading": () => (/* binding */ faTruckLoading),
 /* harmony export */   "faTruckMedical": () => (/* binding */ faTruckMedical),
-/* harmony export */   "faAmbulance": () => (/* binding */ faAmbulance),
 /* harmony export */   "faTruckMonster": () => (/* binding */ faTruckMonster),
 /* harmony export */   "faTruckMoving": () => (/* binding */ faTruckMoving),
 /* harmony export */   "faTruckPickup": () => (/* binding */ faTruckPickup),
+/* harmony export */   "faTruckPlane": () => (/* binding */ faTruckPlane),
 /* harmony export */   "faTruckRampBox": () => (/* binding */ faTruckRampBox),
-/* harmony export */   "faTruckLoading": () => (/* binding */ faTruckLoading),
-/* harmony export */   "faTty": () => (/* binding */ faTty),
-/* harmony export */   "faTeletype": () => (/* binding */ faTeletype),
-/* harmony export */   "faTurkishLiraSign": () => (/* binding */ faTurkishLiraSign),
 /* harmony export */   "faTry": () => (/* binding */ faTry),
+/* harmony export */   "faTshirt": () => (/* binding */ faTshirt),
+/* harmony export */   "faTty": () => (/* binding */ faTty),
 /* harmony export */   "faTurkishLira": () => (/* binding */ faTurkishLira),
+/* harmony export */   "faTurkishLiraSign": () => (/* binding */ faTurkishLiraSign),
 /* harmony export */   "faTurnDown": () => (/* binding */ faTurnDown),
-/* harmony export */   "faLevelDownAlt": () => (/* binding */ faLevelDownAlt),
 /* harmony export */   "faTurnUp": () => (/* binding */ faTurnUp),
-/* harmony export */   "faLevelUpAlt": () => (/* binding */ faLevelUpAlt),
 /* harmony export */   "faTv": () => (/* binding */ faTv),
-/* harmony export */   "faTelevision": () => (/* binding */ faTelevision),
 /* harmony export */   "faTvAlt": () => (/* binding */ faTvAlt),
 /* harmony export */   "faU": () => (/* binding */ faU),
 /* harmony export */   "faUmbrella": () => (/* binding */ faUmbrella),
 /* harmony export */   "faUmbrellaBeach": () => (/* binding */ faUmbrellaBeach),
 /* harmony export */   "faUnderline": () => (/* binding */ faUnderline),
+/* harmony export */   "faUndo": () => (/* binding */ faUndo),
+/* harmony export */   "faUndoAlt": () => (/* binding */ faUndoAlt),
 /* harmony export */   "faUniversalAccess": () => (/* binding */ faUniversalAccess),
+/* harmony export */   "faUniversity": () => (/* binding */ faUniversity),
+/* harmony export */   "faUnlink": () => (/* binding */ faUnlink),
 /* harmony export */   "faUnlock": () => (/* binding */ faUnlock),
-/* harmony export */   "faUnlockKeyhole": () => (/* binding */ faUnlockKeyhole),
 /* harmony export */   "faUnlockAlt": () => (/* binding */ faUnlockAlt),
+/* harmony export */   "faUnlockKeyhole": () => (/* binding */ faUnlockKeyhole),
+/* harmony export */   "faUnsorted": () => (/* binding */ faUnsorted),
 /* harmony export */   "faUpDown": () => (/* binding */ faUpDown),
-/* harmony export */   "faArrowsAltV": () => (/* binding */ faArrowsAltV),
 /* harmony export */   "faUpDownLeftRight": () => (/* binding */ faUpDownLeftRight),
-/* harmony export */   "faArrowsAlt": () => (/* binding */ faArrowsAlt),
 /* harmony export */   "faUpLong": () => (/* binding */ faUpLong),
-/* harmony export */   "faLongArrowAltUp": () => (/* binding */ faLongArrowAltUp),
 /* harmony export */   "faUpRightAndDownLeftFromCenter": () => (/* binding */ faUpRightAndDownLeftFromCenter),
-/* harmony export */   "faExpandAlt": () => (/* binding */ faExpandAlt),
 /* harmony export */   "faUpRightFromSquare": () => (/* binding */ faUpRightFromSquare),
-/* harmony export */   "faExternalLinkAlt": () => (/* binding */ faExternalLinkAlt),
 /* harmony export */   "faUpload": () => (/* binding */ faUpload),
+/* harmony export */   "faUsd": () => (/* binding */ faUsd),
 /* harmony export */   "faUser": () => (/* binding */ faUser),
+/* harmony export */   "faUserAlt": () => (/* binding */ faUserAlt),
+/* harmony export */   "faUserAltSlash": () => (/* binding */ faUserAltSlash),
 /* harmony export */   "faUserAstronaut": () => (/* binding */ faUserAstronaut),
 /* harmony export */   "faUserCheck": () => (/* binding */ faUserCheck),
+/* harmony export */   "faUserCircle": () => (/* binding */ faUserCircle),
 /* harmony export */   "faUserClock": () => (/* binding */ faUserClock),
-/* harmony export */   "faUserDoctor": () => (/* binding */ faUserDoctor),
-/* harmony export */   "faUserMd": () => (/* binding */ faUserMd),
-/* harmony export */   "faUserGear": () => (/* binding */ faUserGear),
 /* harmony export */   "faUserCog": () => (/* binding */ faUserCog),
+/* harmony export */   "faUserDoctor": () => (/* binding */ faUserDoctor),
+/* harmony export */   "faUserEdit": () => (/* binding */ faUserEdit),
+/* harmony export */   "faUserFriends": () => (/* binding */ faUserFriends),
+/* harmony export */   "faUserGear": () => (/* binding */ faUserGear),
 /* harmony export */   "faUserGraduate": () => (/* binding */ faUserGraduate),
 /* harmony export */   "faUserGroup": () => (/* binding */ faUserGroup),
-/* harmony export */   "faUserFriends": () => (/* binding */ faUserFriends),
 /* harmony export */   "faUserInjured": () => (/* binding */ faUserInjured),
 /* harmony export */   "faUserLarge": () => (/* binding */ faUserLarge),
-/* harmony export */   "faUserAlt": () => (/* binding */ faUserAlt),
 /* harmony export */   "faUserLargeSlash": () => (/* binding */ faUserLargeSlash),
-/* harmony export */   "faUserAltSlash": () => (/* binding */ faUserAltSlash),
 /* harmony export */   "faUserLock": () => (/* binding */ faUserLock),
+/* harmony export */   "faUserMd": () => (/* binding */ faUserMd),
 /* harmony export */   "faUserMinus": () => (/* binding */ faUserMinus),
 /* harmony export */   "faUserNinja": () => (/* binding */ faUserNinja),
 /* harmony export */   "faUserNurse": () => (/* binding */ faUserNurse),
 /* harmony export */   "faUserPen": () => (/* binding */ faUserPen),
-/* harmony export */   "faUserEdit": () => (/* binding */ faUserEdit),
 /* harmony export */   "faUserPlus": () => (/* binding */ faUserPlus),
 /* harmony export */   "faUserSecret": () => (/* binding */ faUserSecret),
 /* harmony export */   "faUserShield": () => (/* binding */ faUserShield),
 /* harmony export */   "faUserSlash": () => (/* binding */ faUserSlash),
 /* harmony export */   "faUserTag": () => (/* binding */ faUserTag),
 /* harmony export */   "faUserTie": () => (/* binding */ faUserTie),
-/* harmony export */   "faUserXmark": () => (/* binding */ faUserXmark),
 /* harmony export */   "faUserTimes": () => (/* binding */ faUserTimes),
+/* harmony export */   "faUserXmark": () => (/* binding */ faUserXmark),
 /* harmony export */   "faUsers": () => (/* binding */ faUsers),
-/* harmony export */   "faUsersGear": () => (/* binding */ faUsersGear),
+/* harmony export */   "faUsersBetweenLines": () => (/* binding */ faUsersBetweenLines),
 /* harmony export */   "faUsersCog": () => (/* binding */ faUsersCog),
+/* harmony export */   "faUsersGear": () => (/* binding */ faUsersGear),
+/* harmony export */   "faUsersLine": () => (/* binding */ faUsersLine),
+/* harmony export */   "faUsersRays": () => (/* binding */ faUsersRays),
+/* harmony export */   "faUsersRectangle": () => (/* binding */ faUsersRectangle),
 /* harmony export */   "faUsersSlash": () => (/* binding */ faUsersSlash),
+/* harmony export */   "faUsersViewfinder": () => (/* binding */ faUsersViewfinder),
+/* harmony export */   "faUtensilSpoon": () => (/* binding */ faUtensilSpoon),
 /* harmony export */   "faUtensils": () => (/* binding */ faUtensils),
-/* harmony export */   "faCutlery": () => (/* binding */ faCutlery),
 /* harmony export */   "faV": () => (/* binding */ faV),
 /* harmony export */   "faVanShuttle": () => (/* binding */ faVanShuttle),
-/* harmony export */   "faShuttleVan": () => (/* binding */ faShuttleVan),
 /* harmony export */   "faVault": () => (/* binding */ faVault),
+/* harmony export */   "faVcard": () => (/* binding */ faVcard),
 /* harmony export */   "faVectorSquare": () => (/* binding */ faVectorSquare),
 /* harmony export */   "faVenus": () => (/* binding */ faVenus),
 /* harmony export */   "faVenusDouble": () => (/* binding */ faVenusDouble),
@@ -8614,6 +8900,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faVest": () => (/* binding */ faVest),
 /* harmony export */   "faVestPatches": () => (/* binding */ faVestPatches),
 /* harmony export */   "faVial": () => (/* binding */ faVial),
+/* harmony export */   "faVialCircleCheck": () => (/* binding */ faVialCircleCheck),
+/* harmony export */   "faVialVirus": () => (/* binding */ faVialVirus),
 /* harmony export */   "faVials": () => (/* binding */ faVials),
 /* harmony export */   "faVideo": () => (/* binding */ faVideo),
 /* harmony export */   "faVideoCamera": () => (/* binding */ faVideoCamera),
@@ -8625,69 +8913,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "faVirusSlash": () => (/* binding */ faVirusSlash),
 /* harmony export */   "faViruses": () => (/* binding */ faViruses),
 /* harmony export */   "faVoicemail": () => (/* binding */ faVoicemail),
+/* harmony export */   "faVolcano": () => (/* binding */ faVolcano),
 /* harmony export */   "faVolleyball": () => (/* binding */ faVolleyball),
 /* harmony export */   "faVolleyballBall": () => (/* binding */ faVolleyballBall),
-/* harmony export */   "faVolumeHigh": () => (/* binding */ faVolumeHigh),
-/* harmony export */   "faVolumeUp": () => (/* binding */ faVolumeUp),
-/* harmony export */   "faVolumeLow": () => (/* binding */ faVolumeLow),
+/* harmony export */   "faVolumeControlPhone": () => (/* binding */ faVolumeControlPhone),
 /* harmony export */   "faVolumeDown": () => (/* binding */ faVolumeDown),
-/* harmony export */   "faVolumeOff": () => (/* binding */ faVolumeOff),
-/* harmony export */   "faVolumeXmark": () => (/* binding */ faVolumeXmark),
+/* harmony export */   "faVolumeHigh": () => (/* binding */ faVolumeHigh),
+/* harmony export */   "faVolumeLow": () => (/* binding */ faVolumeLow),
 /* harmony export */   "faVolumeMute": () => (/* binding */ faVolumeMute),
+/* harmony export */   "faVolumeOff": () => (/* binding */ faVolumeOff),
 /* harmony export */   "faVolumeTimes": () => (/* binding */ faVolumeTimes),
+/* harmony export */   "faVolumeUp": () => (/* binding */ faVolumeUp),
+/* harmony export */   "faVolumeXmark": () => (/* binding */ faVolumeXmark),
+/* harmony export */   "faVoteYea": () => (/* binding */ faVoteYea),
 /* harmony export */   "faVrCardboard": () => (/* binding */ faVrCardboard),
 /* harmony export */   "faW": () => (/* binding */ faW),
+/* harmony export */   "faWalkieTalkie": () => (/* binding */ faWalkieTalkie),
+/* harmony export */   "faWalking": () => (/* binding */ faWalking),
 /* harmony export */   "faWallet": () => (/* binding */ faWallet),
 /* harmony export */   "faWandMagic": () => (/* binding */ faWandMagic),
-/* harmony export */   "faMagic": () => (/* binding */ faMagic),
 /* harmony export */   "faWandMagicSparkles": () => (/* binding */ faWandMagicSparkles),
-/* harmony export */   "faMagicWandSparkles": () => (/* binding */ faMagicWandSparkles),
 /* harmony export */   "faWandSparkles": () => (/* binding */ faWandSparkles),
 /* harmony export */   "faWarehouse": () => (/* binding */ faWarehouse),
+/* harmony export */   "faWarning": () => (/* binding */ faWarning),
 /* harmony export */   "faWater": () => (/* binding */ faWater),
 /* harmony export */   "faWaterLadder": () => (/* binding */ faWaterLadder),
-/* harmony export */   "faLadderWater": () => (/* binding */ faLadderWater),
-/* harmony export */   "faSwimmingPool": () => (/* binding */ faSwimmingPool),
 /* harmony export */   "faWaveSquare": () => (/* binding */ faWaveSquare),
+/* harmony export */   "faWeight": () => (/* binding */ faWeight),
 /* harmony export */   "faWeightHanging": () => (/* binding */ faWeightHanging),
 /* harmony export */   "faWeightScale": () => (/* binding */ faWeightScale),
-/* harmony export */   "faWeight": () => (/* binding */ faWeight),
+/* harmony export */   "faWheatAlt": () => (/* binding */ faWheatAlt),
+/* harmony export */   "faWheatAwn": () => (/* binding */ faWheatAwn),
+/* harmony export */   "faWheatAwnCircleExclamation": () => (/* binding */ faWheatAwnCircleExclamation),
 /* harmony export */   "faWheelchair": () => (/* binding */ faWheelchair),
+/* harmony export */   "faWheelchairAlt": () => (/* binding */ faWheelchairAlt),
+/* harmony export */   "faWheelchairMove": () => (/* binding */ faWheelchairMove),
 /* harmony export */   "faWhiskeyGlass": () => (/* binding */ faWhiskeyGlass),
-/* harmony export */   "faGlassWhiskey": () => (/* binding */ faGlassWhiskey),
 /* harmony export */   "faWifi": () => (/* binding */ faWifi),
 /* harmony export */   "faWifi3": () => (/* binding */ faWifi3),
 /* harmony export */   "faWifiStrong": () => (/* binding */ faWifiStrong),
 /* harmony export */   "faWind": () => (/* binding */ faWind),
+/* harmony export */   "faWindowClose": () => (/* binding */ faWindowClose),
 /* harmony export */   "faWindowMaximize": () => (/* binding */ faWindowMaximize),
 /* harmony export */   "faWindowMinimize": () => (/* binding */ faWindowMinimize),
 /* harmony export */   "faWindowRestore": () => (/* binding */ faWindowRestore),
 /* harmony export */   "faWineBottle": () => (/* binding */ faWineBottle),
 /* harmony export */   "faWineGlass": () => (/* binding */ faWineGlass),
-/* harmony export */   "faWineGlassEmpty": () => (/* binding */ faWineGlassEmpty),
 /* harmony export */   "faWineGlassAlt": () => (/* binding */ faWineGlassAlt),
-/* harmony export */   "faWonSign": () => (/* binding */ faWonSign),
-/* harmony export */   "faKrw": () => (/* binding */ faKrw),
+/* harmony export */   "faWineGlassEmpty": () => (/* binding */ faWineGlassEmpty),
 /* harmony export */   "faWon": () => (/* binding */ faWon),
+/* harmony export */   "faWonSign": () => (/* binding */ faWonSign),
+/* harmony export */   "faWorm": () => (/* binding */ faWorm),
 /* harmony export */   "faWrench": () => (/* binding */ faWrench),
 /* harmony export */   "faX": () => (/* binding */ faX),
 /* harmony export */   "faXRay": () => (/* binding */ faXRay),
 /* harmony export */   "faXmark": () => (/* binding */ faXmark),
-/* harmony export */   "faClose": () => (/* binding */ faClose),
-/* harmony export */   "faMultiply": () => (/* binding */ faMultiply),
-/* harmony export */   "faRemove": () => (/* binding */ faRemove),
-/* harmony export */   "faTimes": () => (/* binding */ faTimes),
+/* harmony export */   "faXmarkCircle": () => (/* binding */ faXmarkCircle),
+/* harmony export */   "faXmarkSquare": () => (/* binding */ faXmarkSquare),
+/* harmony export */   "faXmarksLines": () => (/* binding */ faXmarksLines),
 /* harmony export */   "faY": () => (/* binding */ faY),
-/* harmony export */   "faYenSign": () => (/* binding */ faYenSign),
-/* harmony export */   "faCny": () => (/* binding */ faCny),
-/* harmony export */   "faJpy": () => (/* binding */ faJpy),
-/* harmony export */   "faRmb": () => (/* binding */ faRmb),
 /* harmony export */   "faYen": () => (/* binding */ faYen),
+/* harmony export */   "faYenSign": () => (/* binding */ faYenSign),
 /* harmony export */   "faYinYang": () => (/* binding */ faYinYang),
-/* harmony export */   "faZ": () => (/* binding */ faZ)
+/* harmony export */   "faZ": () => (/* binding */ faZ),
+/* harmony export */   "faZap": () => (/* binding */ faZap),
+/* harmony export */   "fas": () => (/* binding */ _iconsCache),
+/* harmony export */   "prefix": () => (/* binding */ prefix)
 /* harmony export */ });
 /*!
- * Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
  */
@@ -8784,6 +9078,26 @@ var faAnchor = {
   prefix: 'fas',
   iconName: 'anchor',
   icon: [576, 512, [9875], "f13d", "M352 176C369.7 176 384 190.3 384 208C384 225.7 369.7 240 352 240H320V448H368C421 448 464 405 464 352V345.9L456.1 352.1C447.6 362.3 432.4 362.3 423 352.1C413.7 343.6 413.7 328.4 423 319L479 263C488.4 253.7 503.6 253.7 512.1 263L568.1 319C578.3 328.4 578.3 343.6 568.1 352.1C559.6 362.3 544.4 362.3 535 352.1L528 345.9V352C528 440.4 456.4 512 368 512H208C119.6 512 48 440.4 48 352V345.9L40.97 352.1C31.6 362.3 16.4 362.3 7.029 352.1C-2.343 343.6-2.343 328.4 7.029 319L63.03 263C72.4 253.7 87.6 253.7 96.97 263L152.1 319C162.3 328.4 162.3 343.6 152.1 352.1C143.6 362.3 128.4 362.3 119 352.1L112 345.9V352C112 405 154.1 448 208 448H256V240H224C206.3 240 192 225.7 192 208C192 190.3 206.3 176 224 176H234.9C209 158.8 192 129.4 192 96C192 42.98 234.1 0 288 0C341 0 384 42.98 384 96C384 129.4 366.1 158.8 341.1 176H352zM288 128C305.7 128 320 113.7 320 96C320 78.33 305.7 64 288 64C270.3 64 256 78.33 256 96C256 113.7 270.3 128 288 128z"]
+};
+var faAnchorCircleCheck = {
+  prefix: 'fas',
+  iconName: 'anchor-circle-check',
+  icon: [640, 512, [], "e4aa", "M352 176C369.7 176 384 190.3 384 208C384 225.7 369.7 240 352 240H319.1V448H339.2C351.8 472.7 370 493.1 392.2 510.2C384.3 511.4 376.2 512 368 512H208C119.6 512 48 440.4 48 352V345.9L40.97 352.1C31.6 362.3 16.4 362.3 7.029 352.1C-2.343 343.6-2.343 328.4 7.029 319L63.03 263C72.4 253.7 87.6 253.7 96.97 263L152.1 319C162.3 328.4 162.3 343.6 152.1 352.1C143.6 362.3 128.4 362.3 119 352.1L112 345.9V352C112 405 154.1 448 208 448H256V240H224C206.3 240 192 225.7 192 208C192 190.3 206.3 176 224 176H234.9C209 158.8 192 129.4 192 96C192 42.98 234.1 0 288 0C341 0 384 42.98 384 96C384 129.4 366.1 158.8 341.1 176H352zM287.1 128C305.7 128 319.1 113.7 319.1 96C319.1 78.33 305.7 64 287.1 64C270.3 64 255.1 78.33 255.1 96C255.1 113.7 270.3 128 287.1 128zM640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368zM540.7 324.7L480 385.4L451.3 356.7C445.1 350.4 434.9 350.4 428.7 356.7C422.4 362.9 422.4 373.1 428.7 379.3L468.7 419.3C474.9 425.6 485.1 425.6 491.3 419.3L563.3 347.3C569.6 341.1 569.6 330.9 563.3 324.7C557.1 318.4 546.9 318.4 540.7 324.7H540.7z"]
+};
+var faAnchorCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'anchor-circle-exclamation',
+  icon: [640, 512, [], "e4ab", "M352 176C369.7 176 384 190.3 384 208C384 225.7 369.7 240 352 240H319.1V448H339.2C351.8 472.7 370 493.1 392.2 510.2C384.3 511.4 376.2 512 368 512H208C119.6 512 48 440.4 48 352V345.9L40.97 352.1C31.6 362.3 16.4 362.3 7.029 352.1C-2.343 343.6-2.343 328.4 7.029 319L63.03 263C72.4 253.7 87.6 253.7 96.97 263L152.1 319C162.3 328.4 162.3 343.6 152.1 352.1C143.6 362.3 128.4 362.3 119 352.1L112 345.9V352C112 405 154.1 448 208 448H256V240H224C206.3 240 192 225.7 192 208C192 190.3 206.3 176 224 176H234.9C209 158.8 192 129.4 192 96C192 42.98 234.1 0 288 0C341 0 384 42.98 384 96C384 129.4 366.1 158.8 341.1 176H352zM287.1 128C305.7 128 319.1 113.7 319.1 96C319.1 78.33 305.7 64 287.1 64C270.3 64 255.1 78.33 255.1 96C255.1 113.7 270.3 128 287.1 128zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM496 464C509.3 464 520 453.3 520 440C520 426.7 509.3 416 496 416C482.7 416 472 426.7 472 440C472 453.3 482.7 464 496 464zM479.1 288V368C479.1 376.8 487.2 384 495.1 384C504.8 384 511.1 376.8 511.1 368V288C511.1 279.2 504.8 272 495.1 272C487.2 272 479.1 279.2 479.1 288z"]
+};
+var faAnchorCircleXmark = {
+  prefix: 'fas',
+  iconName: 'anchor-circle-xmark',
+  icon: [640, 512, [], "e4ac", "M352 176C369.7 176 384 190.3 384 208C384 225.7 369.7 240 352 240H319.1V448H339.2C351.8 472.7 370 493.1 392.2 510.2C384.3 511.4 376.2 512 368 512H208C119.6 512 48 440.4 48 352V345.9L40.97 352.1C31.6 362.3 16.4 362.3 7.029 352.1C-2.343 343.6-2.343 328.4 7.029 319L63.03 263C72.4 253.7 87.6 253.7 96.97 263L152.1 319C162.3 328.4 162.3 343.6 152.1 352.1C143.6 362.3 128.4 362.3 119 352.1L112 345.9V352C112 405 154.1 448 208 448H256V240H224C206.3 240 192 225.7 192 208C192 190.3 206.3 176 224 176H234.9C209 158.8 192 129.4 192 96C192 42.98 234.1 0 288 0C341 0 384 42.98 384 96C384 129.4 366.1 158.8 341.1 176H352zM287.1 128C305.7 128 319.1 113.7 319.1 96C319.1 78.33 305.7 64 287.1 64C270.3 64 255.1 78.33 255.1 96C255.1 113.7 270.3 128 287.1 128zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM555.3 331.3C561.6 325.1 561.6 314.9 555.3 308.7C549.1 302.4 538.9 302.4 532.7 308.7L496 345.4L459.3 308.7C453.1 302.4 442.9 302.4 436.7 308.7C430.4 314.9 430.4 325.1 436.7 331.3L473.4 368L436.7 404.7C430.4 410.9 430.4 421.1 436.7 427.3C442.9 433.6 453.1 433.6 459.3 427.3L496 390.6L532.7 427.3C538.9 433.6 549.1 433.6 555.3 427.3C561.6 421.1 561.6 410.9 555.3 404.7L518.6 368L555.3 331.3z"]
+};
+var faAnchorLock = {
+  prefix: 'fas',
+  iconName: 'anchor-lock',
+  icon: [640, 512, [], "e4ad", "M352 176C369.7 176 384 190.3 384 208C384 225.7 369.7 240 352 240H319.1V448H368C373.4 448 378.8 447.5 384 446.7V480C384 490.1 386.7 501.3 391.6 510.3C383.9 511.4 376 512 368 512H208C119.6 512 48 440.4 48 352V345.9L40.97 352.1C31.6 362.3 16.4 362.3 7.029 352.1C-2.343 343.6-2.343 328.4 7.029 319L63.03 263C72.4 253.7 87.6 253.7 96.97 263L152.1 319C162.3 328.4 162.3 343.6 152.1 352.1C143.6 362.3 128.4 362.3 119 352.1L112 345.9V352C112 405 154.1 448 208 448H256V240H224C206.3 240 192 225.7 192 208C192 190.3 206.3 176 224 176H234.9C209 158.8 192 129.4 192 96C192 42.98 234.1 0 288 0C341 0 384 42.98 384 96C384 129.4 366.1 158.8 341.1 176H352zM287.1 128C305.7 128 319.1 113.7 319.1 96C319.1 78.33 305.7 64 287.1 64C270.3 64 255.1 78.33 255.1 96C255.1 113.7 270.3 128 287.1 128zM528 192C572.2 192 608 227.8 608 272V320C625.7 320 640 334.3 640 352V480C640 497.7 625.7 512 608 512H448C430.3 512 416 497.7 416 480V352C416 334.3 430.3 320 448 320V272C448 227.8 483.8 192 528 192zM528 240C510.3 240 496 254.3 496 272V320H560V272C560 254.3 545.7 240 528 240z"]
 };
 var faAngleDown = {
   prefix: 'fas',
@@ -8884,6 +9198,16 @@ var faArrowDownShortWide = {
 };
 var faSortAmountDesc = faArrowDownShortWide;
 var faSortAmountDownAlt = faArrowDownShortWide;
+var faArrowDownUpAcrossLine = {
+  prefix: 'fas',
+  iconName: 'arrow-down-up-across-line',
+  icon: [576, 512, [], "e4af", "M41.37 406.6C28.88 394.1 28.88 373.9 41.37 361.4C53.87 348.9 74.13 348.9 86.63 361.4L128 402.7V287.1H32C14.33 287.1 0 273.7 0 255.1C0 238.3 14.33 223.1 32 223.1H384V109.3L342.6 150.6C330.1 163.1 309.9 163.1 297.4 150.6C284.9 138.1 284.9 117.9 297.4 105.4L393.4 9.372C405.9-3.124 426.1-3.124 438.6 9.372L534.6 105.4C547.1 117.9 547.1 138.1 534.6 150.6C522.1 163.1 501.9 163.1 489.4 150.6L448 109.3V223.1H544C561.7 223.1 576 238.3 576 255.1C576 273.7 561.7 287.1 544 287.1H192V402.7L233.4 361.4C245.9 348.9 266.1 348.9 278.6 361.4C291.1 373.9 291.1 394.1 278.6 406.6L182.6 502.6C170.1 515.1 149.9 515.1 137.4 502.6L41.37 406.6zM128 63.1C128 46.33 142.3 31.1 160 31.1C177.7 31.1 192 46.33 192 63.1V191.1H128V63.1zM448 319.1V448C448 465.7 433.7 480 416 480C398.3 480 384 465.7 384 448V319.1H448z"]
+};
+var faArrowDownUpLock = {
+  prefix: 'fas',
+  iconName: 'arrow-down-up-lock',
+  icon: [640, 512, [], "e4b0", "M105.4 502.6L9.373 406.6C-3.124 394.1-3.124 373.9 9.373 361.4C21.87 348.9 42.13 348.9 54.63 361.4L96 402.7V287.1H32C14.33 287.1 0 273.7 0 255.1C0 238.3 14.33 223.1 32 223.1H288V109.3L246.6 150.6C234.1 163.1 213.9 163.1 201.4 150.6C188.9 138.1 188.9 117.9 201.4 105.4L297.4 9.372C303.4 3.371 311.5 0 320 0C328.5 0 336.6 3.372 342.6 9.372L438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6C426.1 163.1 405.9 163.1 393.4 150.6L352 109.3V223.1H426.8C419.9 238.5 416 254.8 416 271.1V287.1H160V402.7L201.4 361.4C213.9 348.9 234.1 348.9 246.6 361.4C259.1 373.9 259.1 394.1 246.6 406.6L150.6 502.6C138.1 515.1 117.9 515.1 105.4 502.6H105.4zM96 191.1V63.1C96 46.33 110.3 31.1 128 31.1C145.7 31.1 160 46.33 160 63.1V191.1H96zM352 319.1V448C352 465.7 337.7 480 320 480C302.3 480 288 465.7 288 448V319.1H352zM528 191.1C572.2 191.1 608 227.8 608 271.1V319.1C625.7 319.1 640 334.3 640 352V480C640 497.7 625.7 512 608 512H448C430.3 512 416 497.7 416 480V352C416 334.3 430.3 319.1 448 319.1V271.1C448 227.8 483.8 191.1 528 191.1zM528 239.1C510.3 239.1 496 254.3 496 271.1V319.1H560V271.1C560 254.3 545.7 239.1 528 239.1z"]
+};
 var faArrowDownWideShort = {
   prefix: 'fas',
   iconName: 'arrow-down-wide-short',
@@ -8944,6 +9268,11 @@ var faArrowRightToBracket = {
   icon: [512, 512, ["sign-in"], "f090", "M416 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c17.67 0 32 14.33 32 32v256c0 17.67-14.33 32-32 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c53.02 0 96-42.98 96-96V128C512 74.98 469 32 416 32zM342.6 233.4l-128-128c-12.51-12.51-32.76-12.49-45.25 0c-12.5 12.5-12.5 32.75 0 45.25L242.8 224H32C14.31 224 0 238.3 0 256s14.31 32 32 32h210.8l-73.38 73.38c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0l128-128C355.1 266.1 355.1 245.9 342.6 233.4z"]
 };
 var faSignIn = faArrowRightToBracket;
+var faArrowRightToCity = {
+  prefix: 'fas',
+  iconName: 'arrow-right-to-city',
+  icon: [640, 512, [], "e4b3", "M288 48C288 21.49 309.5 0 336 0H432C458.5 0 480 21.49 480 48V192H520V120C520 106.7 530.7 96 544 96C557.3 96 568 106.7 568 120V192H592C618.5 192 640 213.5 640 240V464C640 490.5 618.5 512 592 512H336C309.5 512 288 490.5 288 464V48zM352 112C352 120.8 359.2 128 368 128H400C408.8 128 416 120.8 416 112V80C416 71.16 408.8 64 400 64H368C359.2 64 352 71.16 352 80V112zM368 160C359.2 160 352 167.2 352 176V208C352 216.8 359.2 224 368 224H400C408.8 224 416 216.8 416 208V176C416 167.2 408.8 160 400 160H368zM352 304C352 312.8 359.2 320 368 320H400C408.8 320 416 312.8 416 304V272C416 263.2 408.8 256 400 256H368C359.2 256 352 263.2 352 272V304zM528 256C519.2 256 512 263.2 512 272V304C512 312.8 519.2 320 528 320H560C568.8 320 576 312.8 576 304V272C576 263.2 568.8 256 560 256H528zM512 400C512 408.8 519.2 416 528 416H560C568.8 416 576 408.8 576 400V368C576 359.2 568.8 352 560 352H528C519.2 352 512 359.2 512 368V400zM246.6 233.4C259.1 245.9 259.1 266.1 246.6 278.6L166.6 358.6C154.1 371.1 133.9 371.1 121.4 358.6C108.9 346.1 108.9 325.9 121.4 313.4L146.7 288H32C14.33 288 0 273.7 0 256C0 238.3 14.33 224 32 224H146.7L121.4 198.6C108.9 186.1 108.9 165.9 121.4 153.4C133.9 140.9 154.1 140.9 166.6 153.4L246.6 233.4z"]
+};
 var faArrowRotateLeft = {
   prefix: 'fas',
   iconName: 'arrow-rotate-left',
@@ -9011,16 +9340,31 @@ var faArrowUpFromBracket = {
   iconName: 'arrow-up-from-bracket',
   icon: [448, 512, [], "e09a", "M384 352v64c0 17.67-14.33 32-32 32H96c-17.67 0-32-14.33-32-32v-64c0-17.67-14.33-32-32-32s-32 14.33-32 32v64c0 53.02 42.98 96 96 96h256c53.02 0 96-42.98 96-96v-64c0-17.67-14.33-32-32-32S384 334.3 384 352zM201.4 9.375l-128 128c-12.51 12.51-12.49 32.76 0 45.25c12.5 12.5 32.75 12.5 45.25 0L192 109.3V320c0 17.69 14.31 32 32 32s32-14.31 32-32V109.3l73.38 73.38c12.5 12.5 32.75 12.5 45.25 0s12.5-32.75 0-45.25l-128-128C234.1-3.125 213.9-3.125 201.4 9.375z"]
 };
+var faArrowUpFromGroundWater = {
+  prefix: 'fas',
+  iconName: 'arrow-up-from-ground-water',
+  icon: [576, 512, [], "e4b5", "M256 319.1V109.3L230.6 134.6C218.1 147.1 197.9 147.1 185.4 134.6C172.9 122.1 172.9 101.9 185.4 89.37L265.4 9.372C277.9-3.124 298.1-3.124 310.6 9.372L390.6 89.37C403.1 101.9 403.1 122.1 390.6 134.6C378.1 147.1 357.9 147.1 345.4 134.6L320 109.3V319.1C320 337.7 305.7 352 288 352C270.3 352 256 337.7 256 319.1zM269.5 421.9C280.6 414 295.4 414 306.5 421.9C328.1 437.4 356.5 448 384 448C410.9 448 439.4 437.2 461.4 421.9L461.5 421.9C473.4 413.4 489.5 414.1 500.7 423.6C515.1 435.5 533.2 444.6 551.3 448.8C568.5 452.8 579.2 470.1 575.2 487.3C571.2 504.5 553.1 515.2 536.7 511.2C512.2 505.4 491.9 494.6 478.5 486.2C449.5 501.7 417 512 384 512C352.1 512 323.4 502.1 303.6 493.1C297.7 490.5 292.5 487.8 288 485.4C283.5 487.8 278.3 490.5 272.4 493.1C252.6 502.1 223.9 512 192 512C158.1 512 126.5 501.7 97.5 486.2C84.13 494.6 63.79 505.4 39.27 511.2C22.06 515.2 4.854 504.5 .8429 487.3C-3.168 470.1 7.533 452.8 24.74 448.8C42.84 444.6 60.96 435.5 75.31 423.6C86.46 414.1 102.6 413.4 114.5 421.9L114.6 421.9C136.7 437.2 165.1 448 192 448C219.5 448 247 437.4 269.5 421.9H269.5zM192 416.5C172.1 416.4 150.8 408.5 132.9 396.1C109.1 379.4 77.01 380.8 54.78 399.5C44.18 408.3 30.59 415.1 17.49 418.1C11.19 419.6 5.326 421.9 0 425V239.1C0 213.5 21.49 191.1 48 191.1H192V416.5zM576 239.1V424.1C570.7 421.9 564.8 419.6 558.5 418.1C545.4 415.1 531.8 408.3 521.2 399.5C499 380.8 466.9 379.4 443.2 396.1C425.2 408.5 403 416.5 384 416.5L384 191.1H528C554.5 191.1 576 213.5 576 239.1L576 239.1z"]
+};
+var faArrowUpFromWaterPump = {
+  prefix: 'fas',
+  iconName: 'arrow-up-from-water-pump',
+  icon: [576, 512, [], "e4b6", "M239.1 0C266.5 0 287.1 21.49 287.1 48V256H416V109.3L390.6 134.6C378.1 147.1 357.9 147.1 345.4 134.6C332.9 122.1 332.9 101.9 345.4 89.37L425.4 9.373C437.9-3.124 458.1-3.124 470.6 9.373L550.6 89.37C563.1 101.9 563.1 122.1 550.6 134.6C538.1 147.1 517.9 147.1 505.4 134.6L480 109.3V256H528C554.5 256 576 277.5 576 304V400C576 408 574 415.6 570.6 422.2C566.8 420.5 562.8 419.1 558.5 418.1C545.4 415.1 531.8 408.3 521.2 399.5C499 380.8 466.9 379.4 443.2 396.1C425.2 408.5 403 416.5 384 416.5C364.4 416.5 343.2 408.8 324.8 396.1C302.8 380.6 273.3 380.6 251.2 396.1C234 407.9 213.2 416.5 192 416.5C172.1 416.5 150.8 408.5 132.9 396.1C109.1 379.4 77.01 380.8 54.78 399.5C44.18 408.3 30.59 415.1 17.49 418.1C13.27 419.1 9.239 420.5 5.439 422.2C1.965 415.6 0 408 0 400V304C0 277.5 21.49 256 48 256H64V48C64 21.49 85.49 0 112 0H239.1zM384 448C410.9 448 439.4 437.2 461.4 421.9L461.5 421.9C473.4 413.4 489.5 414.1 500.7 423.6C515 435.5 533.2 444.6 551.3 448.8C568.5 452.8 579.2 470.1 575.2 487.3C571.2 504.5 553.1 515.2 536.7 511.2C512.2 505.4 491.9 494.6 478.5 486.2C449.5 501.7 417 512 384 512C352.1 512 323.4 502.1 303.6 493.1C297.7 490.5 292.5 487.8 288 485.4C283.5 487.8 278.3 490.5 272.4 493.1C252.6 502.1 223.9 512 192 512C158.1 512 126.5 501.7 97.5 486.2C84.12 494.6 63.79 505.4 39.27 511.2C22.06 515.2 4.853 504.5 .8422 487.3C-3.169 470.1 7.532 452.8 24.74 448.8C42.84 444.6 60.96 435.5 75.31 423.6C86.46 414.1 102.6 413.4 114.5 421.9L114.6 421.9C136.7 437.2 165.1 448 192 448C219.5 448 247 437.4 269.5 421.9C280.6 414 295.4 414 306.5 421.9C328.1 437.4 356.5 448 384 448H384z"]
+};
 var faArrowUpLong = {
   prefix: 'fas',
   iconName: 'arrow-up-long',
   icon: [320, 512, ["long-arrow-up"], "f176", "M310.6 182.6c-12.51 12.51-32.76 12.49-45.25 0L192 109.3V480c0 17.69-14.31 32-32 32s-32-14.31-32-32V109.3L54.63 182.6c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l128-128c12.5-12.5 32.75-12.5 45.25 0l128 128C323.1 149.9 323.1 170.1 310.6 182.6z"]
 };
 var faLongArrowUp = faArrowUpLong;
+var faArrowUpRightDots = {
+  prefix: 'fas',
+  iconName: 'arrow-up-right-dots',
+  icon: [576, 512, [], "e4b7", "M287.1 0C305.7 0 320 14.33 320 32V160C320 177.7 305.7 192 287.1 192C270.3 192 255.1 177.7 255.1 160V109.3L54.63 310.6C42.13 323.1 21.87 323.1 9.372 310.6C-3.124 298.1-3.124 277.9 9.372 265.4L210.7 64H159.1C142.3 64 127.1 49.67 127.1 32C127.1 14.33 142.3 0 159.1 0H287.1zM576 80C576 106.5 554.5 128 528 128C501.5 128 480 106.5 480 80C480 53.49 501.5 32 528 32C554.5 32 576 53.49 576 80zM448 208C448 234.5 426.5 256 400 256C373.5 256 352 234.5 352 208C352 181.5 373.5 160 400 160C426.5 160 448 181.5 448 208zM352 336C352 309.5 373.5 288 400 288C426.5 288 448 309.5 448 336C448 362.5 426.5 384 400 384C373.5 384 352 362.5 352 336zM448 464C448 490.5 426.5 512 400 512C373.5 512 352 490.5 352 464C352 437.5 373.5 416 400 416C426.5 416 448 437.5 448 464zM576 464C576 490.5 554.5 512 528 512C501.5 512 480 490.5 480 464C480 437.5 501.5 416 528 416C554.5 416 576 437.5 576 464zM223.1 336C223.1 309.5 245.5 288 271.1 288C298.5 288 320 309.5 320 336C320 362.5 298.5 384 271.1 384C245.5 384 223.1 362.5 223.1 336zM320 464C320 490.5 298.5 512 271.1 512C245.5 512 223.1 490.5 223.1 464C223.1 437.5 245.5 416 271.1 416C298.5 416 320 437.5 320 464zM95.1 464C95.1 437.5 117.5 416 143.1 416C170.5 416 191.1 437.5 191.1 464C191.1 490.5 170.5 512 143.1 512C117.5 512 95.1 490.5 95.1 464zM576 336C576 362.5 554.5 384 528 384C501.5 384 480 362.5 480 336C480 309.5 501.5 288 528 288C554.5 288 576 309.5 576 336zM480 208C480 181.5 501.5 160 528 160C554.5 160 576 181.5 576 208C576 234.5 554.5 256 528 256C501.5 256 480 234.5 480 208z"]
+};
 var faArrowUpRightFromSquare = {
   prefix: 'fas',
   iconName: 'arrow-up-right-from-square',
-  icon: [512, 512, ["external-link"], "f08e", "M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"]
+  icon: [448, 512, ["external-link"], "f08e", "M256 64C256 46.33 270.3 32 288 32H415.1C415.1 32 415.1 32 415.1 32C420.3 32 424.5 32.86 428.2 34.43C431.1 35.98 435.5 38.27 438.6 41.3C438.6 41.35 438.6 41.4 438.7 41.44C444.9 47.66 447.1 55.78 448 63.9C448 63.94 448 63.97 448 64V192C448 209.7 433.7 224 416 224C398.3 224 384 209.7 384 192V141.3L214.6 310.6C202.1 323.1 181.9 323.1 169.4 310.6C156.9 298.1 156.9 277.9 169.4 265.4L338.7 96H288C270.3 96 256 81.67 256 64V64zM0 128C0 92.65 28.65 64 64 64H160C177.7 64 192 78.33 192 96C192 113.7 177.7 128 160 128H64V416H352V320C352 302.3 366.3 288 384 288C401.7 288 416 302.3 416 320V416C416 451.3 387.3 480 352 480H64C28.65 480 0 451.3 0 416V128z"]
 };
 var faExternalLink = faArrowUpRightFromSquare;
 var faArrowUpShortWide = {
@@ -9041,12 +9385,27 @@ var faArrowUpZA = {
   icon: [512, 512, ["sort-alpha-up-alt"], "f882", "M151.6 41.95c-12.12-13.26-35.06-13.26-47.19 0l-87.1 96.09C4.473 151.1 5.348 171.4 18.38 183.3c13.02 11.95 33.27 11.04 45.22-1.973L96 145.9v302C96 465.7 110.3 480 128 480S160 465.7 160 447.1V145.9L192.4 181.3c6.312 6.883 14.94 10.39 23.61 10.39c7.719 0 15.47-2.785 21.61-8.414c13.03-11.95 13.9-32.22 1.969-45.27L151.6 41.95zM320 96h50.75l-73.38 73.38c-9.156 9.156-11.89 22.91-6.938 34.88s16.63 19.74 29.56 19.74h127.1C465.7 223.1 480 209.7 480 192s-14.33-32-32-32h-50.75l73.38-73.38c9.156-9.156 11.89-22.91 6.938-34.88S460.9 32 447.1 32h-127.1C302.3 32 288 46.31 288 64S302.3 96 320 96zM492.6 433.3l-79.99-160.1c-10.84-21.81-46.4-21.81-57.24 0l-79.99 160.1c-7.906 15.91-1.5 35.24 14.31 43.19c15.87 7.922 35.04 1.477 42.93-14.4l7.154-14.39h88.43l7.154 14.39c6.174 12.43 23.97 23.87 42.93 14.4C494.1 468.6 500.5 449.2 492.6 433.3zM367.8 391.4L384 358.7l16.22 32.63H367.8z"]
 };
 var faSortAlphaUpAlt = faArrowUpZA;
+var faArrowsDownToLine = {
+  prefix: 'fas',
+  iconName: 'arrows-down-to-line',
+  icon: [576, 512, [], "e4b8", "M544 416C561.7 416 576 430.3 576 448C576 465.7 561.7 480 544 480H32C14.33 480 0 465.7 0 448C0 430.3 14.33 416 32 416H544zM470.6 374.6C458.1 387.1 437.9 387.1 425.4 374.6L329.4 278.6C316.9 266.1 316.9 245.9 329.4 233.4C341.9 220.9 362.1 220.9 374.6 233.4L416 274.7V64C416 46.33 430.3 32 448 32C465.7 32 480 46.33 480 64V274.7L521.4 233.4C533.9 220.9 554.1 220.9 566.6 233.4C579.1 245.9 579.1 266.1 566.6 278.6L470.6 374.6zM246.6 278.6L150.6 374.6C138.1 387.1 117.9 387.1 105.4 374.6L9.373 278.6C-3.124 266.1-3.124 245.9 9.373 233.4C21.87 220.9 42.13 220.9 54.63 233.4L96 274.7V64C96 46.33 110.3 32 128 32C145.7 32 160 46.33 160 64V274.7L201.4 233.4C213.9 220.9 234.1 220.9 246.6 233.4C259.1 245.9 259.1 266.1 246.6 278.6H246.6z"]
+};
+var faArrowsDownToPeople = {
+  prefix: 'fas',
+  iconName: 'arrows-down-to-people',
+  icon: [640, 512, [], "e4b9", "M167.1 24V142.1L191 119C200.4 109.7 215.6 109.7 224.1 119C234.3 128.4 234.3 143.6 224.1 152.1L160.1 216.1C151.6 226.3 136.4 226.3 127 216.1L63.03 152.1C53.65 143.6 53.65 128.4 63.03 119C72.4 109.7 87.6 109.7 96.97 119L119.1 142.1V24C119.1 10.75 130.7 0 143.1 0C157.3 0 167.1 10.75 167.1 24V24zM359.1 200C359.1 222.1 342.1 240 319.1 240C297.9 240 279.1 222.1 279.1 200C279.1 177.9 297.9 160 319.1 160C342.1 160 359.1 177.9 359.1 200zM183.1 296C183.1 318.1 166.1 336 143.1 336C121.9 336 103.1 318.1 103.1 296C103.1 273.9 121.9 256 143.1 256C166.1 256 183.1 273.9 183.1 296zM455.1 296C455.1 273.9 473.9 256 495.1 256C518.1 256 535.1 273.9 535.1 296C535.1 318.1 518.1 336 495.1 336C473.9 336 455.1 318.1 455.1 296zM199.1 480C199.1 497.7 185.7 512 167.1 512H119.1C102.3 512 87.1 497.7 87.1 480V441.5L61.13 491.4C54.84 503 40.29 507.4 28.62 501.1C16.95 494.8 12.58 480.3 18.87 468.6L56.74 398.3C72.09 369.8 101.9 352 134.2 352H153.8C170.1 352 185.7 356.5 199.2 364.6L232.7 302.3C248.1 273.8 277.9 255.1 310.2 255.1H329.8C362.1 255.1 391.9 273.8 407.3 302.3L440.8 364.6C454.3 356.5 469.9 352 486.2 352H505.8C538.1 352 567.9 369.8 583.3 398.3L621.1 468.6C627.4 480.3 623 494.8 611.4 501.1C599.7 507.4 585.1 503 578.9 491.4L551.1 441.5V480C551.1 497.7 537.7 512 519.1 512H471.1C454.3 512 439.1 497.7 439.1 480V441.5L413.1 491.4C406.8 503 392.3 507.4 380.6 501.1C368.9 494.8 364.6 480.3 370.9 468.6L407.2 401.1C405.5 399.5 404 397.6 402.9 395.4L375.1 345.5V400C375.1 417.7 361.7 432 343.1 432H295.1C278.3 432 263.1 417.7 263.1 400V345.5L237.1 395.4C235.1 397.6 234.5 399.5 232.8 401.1L269.1 468.6C275.4 480.3 271 494.8 259.4 501.1C247.7 507.4 233.1 503 226.9 491.4L199.1 441.5L199.1 480zM415 152.1C405.7 143.6 405.7 128.4 415 119C424.4 109.7 439.6 109.7 448.1 119L471.1 142.1V24C471.1 10.75 482.7 0 495.1 0C509.3 0 519.1 10.75 519.1 24V142.1L543 119C552.4 109.7 567.6 109.7 576.1 119C586.3 128.4 586.3 143.6 576.1 152.1L512.1 216.1C503.6 226.3 488.4 226.3 479 216.1L415 152.1z"]
+};
 var faArrowsLeftRight = {
   prefix: 'fas',
   iconName: 'arrows-left-right',
   icon: [512, 512, ["arrows-h"], "f07e", "M502.6 278.6l-96 96C400.4 380.9 392.2 384 384 384s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L402.8 288h-293.5l41.38 41.38c12.5 12.5 12.5 32.75 0 45.25C144.4 380.9 136.2 384 128 384s-16.38-3.125-22.62-9.375l-96-96c-12.5-12.5-12.5-32.75 0-45.25l96-96c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224h293.5l-41.38-41.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l96 96C515.1 245.9 515.1 266.1 502.6 278.6z"]
 };
 var faArrowsH = faArrowsLeftRight;
+var faArrowsLeftRightToLine = {
+  prefix: 'fas',
+  iconName: 'arrows-left-right-to-line',
+  icon: [640, 512, [], "e4ba", "M32 64C49.67 64 64 78.33 64 96V416C64 433.7 49.67 448 32 448C14.33 448 0 433.7 0 416V96C0 78.33 14.33 64 32 64zM246.6 137.4C259.1 149.9 259.1 170.1 246.6 182.6L205.3 224H434.7L393.4 182.6C380.9 170.1 380.9 149.9 393.4 137.4C405.9 124.9 426.1 124.9 438.6 137.4L534.6 233.4C547.1 245.9 547.1 266.1 534.6 278.6L438.6 374.6C426.1 387.1 405.9 387.1 393.4 374.6C380.9 362.1 380.9 341.9 393.4 329.4L434.7 288H205.3L246.6 329.4C259.1 341.9 259.1 362.1 246.6 374.6C234.1 387.1 213.9 387.1 201.4 374.6L105.4 278.6C92.88 266.1 92.88 245.9 105.4 233.4L201.4 137.4C213.9 124.9 234.1 124.9 246.6 137.4V137.4zM640 416C640 433.7 625.7 448 608 448C590.3 448 576 433.7 576 416V96C576 78.33 590.3 64 608 64C625.7 64 640 78.33 640 96V416z"]
+};
 var faArrowsRotate = {
   prefix: 'fas',
   iconName: 'arrows-rotate',
@@ -9054,6 +9413,41 @@ var faArrowsRotate = {
 };
 var faRefresh = faArrowsRotate;
 var faSync = faArrowsRotate;
+var faArrowsSpin = {
+  prefix: 'fas',
+  iconName: 'arrows-spin',
+  icon: [512, 512, [], "e4bb", "M257.1 95.53C245.8 95.53 234.7 96.72 223.1 98.97V33.97C234.8 32.36 245.9 31.53 257.1 31.53C315.3 31.53 368.3 53.72 408.2 90.11L437.6 60.69C447.7 50.61 464.9 57.75 464.9 72V177.4C464.9 186.2 457.7 193.4 448.9 193.4H343.5C329.3 193.4 322.1 176.1 332.2 166.1L362.9 135.4C334.7 110.6 297.7 95.53 257.1 95.53L257.1 95.53zM97.14 255.5C97.14 266.7 98.27 277.5 100.4 288H35.47C33.93 277.4 33.14 266.6 33.14 255.5C33.14 198.2 54.71 145.8 90.18 106.2L60.69 76.69C50.61 66.61 57.74 49.38 71.1 49.38H177.4C186.2 49.38 193.4 56.54 193.4 65.38V170.7C193.4 185 176.1 192.1 166.1 182.1L135.5 151.5C111.6 179.5 97.14 215.8 97.14 255.5V255.5zM182.1 348.2L153.1 377.1C181.1 401.1 217.4 415.5 257.1 415.5C267.7 415.5 278 414.5 288 412.6V477.4C277.9 478.8 267.6 479.5 257.1 479.5C199.8 479.5 147.4 457.1 107.8 422.5L76.69 453.6C66.61 463.7 49.37 456.5 49.37 442.3V336.9C49.37 328.1 56.54 320.9 65.37 320.9H170.7C184.1 320.9 192.1 338.1 182.1 348.2H182.1zM348.2 332.2L377.2 361.2C402.1 333.1 417.1 296.1 417.1 255.5C417.1 244.7 416.1 234.2 414 224H478.9C480.4 234.3 481.1 244.8 481.1 255.5C481.1 313.7 458.9 366.7 422.6 406.6L453.6 437.6C463.7 447.7 456.5 464.9 442.3 464.9H336.9C328.1 464.9 320.9 457.7 320.9 448.9V343.5C320.9 329.3 338.1 322.1 348.2 332.2L348.2 332.2z"]
+};
+var faArrowsSplitUpAndLeft = {
+  prefix: 'fas',
+  iconName: 'arrows-split-up-and-left',
+  icon: [512, 512, [], "e4bc", "M246.6 150.6C234.1 163.1 213.9 163.1 201.4 150.6C188.9 138.1 188.9 117.9 201.4 105.4L297.4 9.372C309.9-3.124 330.1-3.124 342.6 9.372L438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6C426.1 163.1 405.9 163.1 393.4 150.6L352 109.3V384C352 419.3 380.7 448 416 448H480C497.7 448 512 462.3 512 480C512 497.7 497.7 512 480 512H416C345.3 512 288 454.7 288 384C288 348.7 259.3 320 224 320H109.3L150.6 361.4C163.1 373.9 163.1 394.1 150.6 406.6C138.1 419.1 117.9 419.1 105.4 406.6L9.38 310.6L9.305 310.6C3.575 304.8 .0259 296.9 .0003 288.1L2.428 275.8C3.99 271.1 6.305 268.4 9.372 265.4L105.4 169.4C117.9 156.9 138.1 156.9 150.6 169.4C163.1 181.9 163.1 202.1 150.6 214.6L109.3 255.1H224C247.3 255.1 269.2 262.2 288 273.1V109.3L246.6 150.6zM0 287.9C.0125 283.6 .8749 279.5 2.428 275.8C.8214 279.6 .0122 283.8 0 287.9zM0 288.1V287.1V287.9V288.1z"]
+};
+var faArrowsToCircle = {
+  prefix: 'fas',
+  iconName: 'arrows-to-circle',
+  icon: [640, 512, [], "e4bd", "M9.372 9.372C21.87-3.124 42.13-3.124 54.63 9.372L159.1 114.7V95.1C159.1 78.33 174.3 63.1 191.1 63.1C209.7 63.1 223.1 78.33 223.1 95.1V191.1C223.1 196.3 223.1 200.5 221.6 204.2C220 207.1 217.7 211.5 214.7 214.6L214.6 214.7C211.5 217.7 207.1 220 204.2 221.6C200.5 223.1 196.3 223.1 191.1 223.1H95.1C78.33 223.1 63.1 209.7 63.1 191.1C63.1 174.3 78.33 159.1 95.1 159.1H114.7L9.372 54.63C-3.124 42.13-3.124 21.87 9.372 9.372V9.372zM384 256C384 291.3 355.3 320 320 320C284.7 320 256 291.3 256 256C256 220.7 284.7 192 320 192C355.3 192 384 220.7 384 256zM96 352C78.33 352 64 337.7 64 320C64 302.3 78.33 288 96 288H192H192.1C200.9 288 208.8 291.6 214.6 297.3L214.7 297.4C217.7 300.5 220 304 221.6 307.8C223.1 311.5 224 315.7 224 319.1V416C224 433.7 209.7 448 192 448C174.3 448 160 433.7 160 416V397.3L54.63 502.6C42.13 515.1 21.87 515.1 9.373 502.6C-3.124 490.1-3.124 469.9 9.373 457.4L114.7 352L96 352zM448 64C465.7 64 480 78.33 480 96V114.7L585.4 9.373C597.9-3.124 618.1-3.124 630.6 9.373C643.1 21.87 643.1 42.13 630.6 54.63L525.3 160H544C561.7 160 576 174.3 576 192C576 209.7 561.7 224 544 224H448C439.2 224 431.2 220.4 425.4 214.7L425.3 214.6C422.3 211.5 419.1 207.1 418.4 204.2C416.9 200.5 416 196.4 416 192.1V191.1V96C416 78.33 430.3 64 448 64H448zM525.3 352L630.6 457.4C643.1 469.9 643.1 490.1 630.6 502.6C618.1 515.1 597.9 515.1 585.4 502.6L480 397.3V416C480 433.7 465.7 448 448 448C430.3 448 416 433.7 416 416V320C416 319.1 416 319.9 416 319.9C416 315.6 416.9 311.5 418.4 307.8C419.1 303.1 422.3 300.4 425.4 297.4C431.1 291.6 439.1 288 447.9 288C447.9 288 447.1 288 448 288H544C561.7 288 576 302.3 576 320C576 337.7 561.7 352 544 352L525.3 352z"]
+};
+var faArrowsToDot = {
+  prefix: 'fas',
+  iconName: 'arrows-to-dot',
+  icon: [512, 512, [], "e4be", "M288 82.74L297.4 73.37C309.9 60.88 330.1 60.88 342.6 73.37C355.1 85.87 355.1 106.1 342.6 118.6L278.6 182.6C266.1 195.1 245.9 195.1 233.4 182.6L169.4 118.6C156.9 106.1 156.9 85.87 169.4 73.37C181.9 60.88 202.1 60.88 214.6 73.37L223.1 82.75V32C223.1 14.33 238.3 0 255.1 0C273.7 0 288 14.33 288 32L288 82.74zM438.6 342.6C426.1 355.1 405.9 355.1 393.4 342.6L329.4 278.6C316.9 266.1 316.9 245.9 329.4 233.4L393.4 169.4C405.9 156.9 426.1 156.9 438.6 169.4C451.1 181.9 451.1 202.1 438.6 214.6L429.3 223.1H480C497.7 223.1 512 238.3 512 255.1C512 273.7 497.7 287.1 480 287.1H429.3L438.6 297.4C451.1 309.9 451.1 330.1 438.6 342.6V342.6zM288 256C288 273.7 273.7 288 256 288C238.3 288 224 273.7 224 256C224 238.3 238.3 224 256 224C273.7 224 288 238.3 288 256zM182.6 233.4C195.1 245.9 195.1 266.1 182.6 278.6L118.6 342.6C106.1 355.1 85.87 355.1 73.37 342.6C60.88 330.1 60.88 309.9 73.37 297.4L82.75 288H32C14.33 288 0 273.7 0 256C0 238.3 14.33 224 32 224H82.74L73.37 214.6C60.88 202.1 60.88 181.9 73.37 169.4C85.87 156.9 106.1 156.9 118.6 169.4L182.6 233.4zM169.4 438.6C156.9 426.1 156.9 405.9 169.4 393.4L233.4 329.4C245.9 316.9 266.1 316.9 278.6 329.4L342.6 393.4C355.1 405.9 355.1 426.1 342.6 438.6C330.1 451.1 309.9 451.1 297.4 438.6L288 429.3V480C288 497.7 273.7 512 256 512C238.3 512 224 497.7 224 480V429.3L214.6 438.6C202.1 451.1 181.9 451.1 169.4 438.6H169.4z"]
+};
+var faArrowsToEye = {
+  prefix: 'fas',
+  iconName: 'arrows-to-eye',
+  icon: [640, 512, [], "e4bf", "M15.03 15.03C24.4 5.657 39.6 5.657 48.97 15.03L112 78.06V40C112 26.75 122.7 15.1 136 15.1C149.3 15.1 160 26.75 160 40V136C160 149.3 149.3 160 136 160H40C26.75 160 15.1 149.3 15.1 136C15.1 122.7 26.75 112 40 112H78.06L15.03 48.97C5.657 39.6 5.657 24.4 15.03 15.03V15.03zM133.5 243.9C158.6 193.6 222.7 112 320 112C417.3 112 481.4 193.6 506.5 243.9C510.3 251.6 510.3 260.4 506.5 268.1C481.4 318.4 417.3 400 320 400C222.7 400 158.6 318.4 133.5 268.1C129.7 260.4 129.7 251.6 133.5 243.9V243.9zM320 320C355.3 320 384 291.3 384 256C384 220.7 355.3 192 320 192C284.7 192 256 220.7 256 256C256 291.3 284.7 320 320 320zM591 15.03C600.4 5.657 615.6 5.657 624.1 15.03C634.3 24.4 634.3 39.6 624.1 48.97L561.9 112H600C613.3 112 624 122.7 624 136C624 149.3 613.3 160 600 160H504C490.7 160 480 149.3 480 136V40C480 26.75 490.7 15.1 504 15.1C517.3 15.1 528 26.75 528 40V78.06L591 15.03zM15.03 463L78.06 400H40C26.75 400 15.1 389.3 15.1 376C15.1 362.7 26.75 352 40 352H136C149.3 352 160 362.7 160 376V472C160 485.3 149.3 496 136 496C122.7 496 112 485.3 112 472V433.9L48.97 496.1C39.6 506.3 24.4 506.3 15.03 496.1C5.657 487.6 5.657 472.4 15.03 463V463zM528 433.9V472C528 485.3 517.3 496 504 496C490.7 496 480 485.3 480 472V376C480 362.7 490.7 352 504 352H600C613.3 352 624 362.7 624 376C624 389.3 613.3 400 600 400H561.9L624.1 463C634.3 472.4 634.3 487.6 624.1 496.1C615.6 506.3 600.4 506.3 591 496.1L528 433.9z"]
+};
+var faArrowsTurnRight = {
+  prefix: 'fas',
+  iconName: 'arrows-turn-right',
+  icon: [448, 512, [], "e4c0", "M297.4 9.372C309.9-3.124 330.1-3.124 342.6 9.372L438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L342.6 246.6C330.1 259.1 309.9 259.1 297.4 246.6C284.9 234.1 284.9 213.9 297.4 201.4L338.7 160H128C92.65 160 64 188.7 64 224V256C64 273.7 49.67 288 32 288C14.33 288 0 273.7 0 256V224C0 153.3 57.31 96 128 96H338.7L297.4 54.63C284.9 42.13 284.9 21.87 297.4 9.373V9.372zM201.4 265.4C213.9 252.9 234.1 252.9 246.6 265.4L342.6 361.4C355.1 373.9 355.1 394.1 342.6 406.6L246.6 502.6C234.1 515.1 213.9 515.1 201.4 502.6C188.9 490.1 188.9 469.9 201.4 457.4L242.7 416H96C78.33 416 64 430.3 64 448V480C64 497.7 49.67 512 32 512C14.33 512 0 497.7 0 480V448C0 394.1 42.98 352 96 352H242.7L201.4 310.6C188.9 298.1 188.9 277.9 201.4 265.4V265.4z"]
+};
+var faArrowsTurnToDots = {
+  prefix: 'fas',
+  iconName: 'arrows-turn-to-dots',
+  icon: [512, 512, [], "e4c1", "M249.4 25.37C261.9 12.88 282.1 12.88 294.6 25.37C307.1 37.87 307.1 58.13 294.6 70.63L269.3 95.1H416C469 95.1 512 138.1 512 191.1V223.1C512 241.7 497.7 255.1 480 255.1C462.3 255.1 448 241.7 448 223.1V191.1C448 174.3 433.7 159.1 416 159.1H269.3L294.6 185.4C307.1 197.9 307.1 218.1 294.6 230.6C282.1 243.1 261.9 243.1 249.4 230.6L169.4 150.6C156.9 138.1 156.9 117.9 169.4 105.4L249.4 25.37zM342.6 361.4C355.1 373.9 355.1 394.1 342.6 406.6L262.6 486.6C250.1 499.1 229.9 499.1 217.4 486.6C204.9 474.1 204.9 453.9 217.4 441.4L242.7 416H96C78.33 416 64 430.3 64 448V480C64 497.7 49.67 512 32 512C14.33 512 0 497.7 0 480V448C0 394.1 42.98 352 96 352H242.7L217.4 326.6C204.9 314.1 204.9 293.9 217.4 281.4C229.9 268.9 250.1 268.9 262.6 281.4L342.6 361.4zM512 384C512 419.3 483.3 448 448 448C412.7 448 384 419.3 384 384C384 348.7 412.7 320 448 320C483.3 320 512 348.7 512 384zM128 128C128 163.3 99.35 192 64 192C28.65 192 0 163.3 0 128C0 92.65 28.65 64 64 64C99.35 64 128 92.65 128 128z"]
+};
 var faArrowsUpDown = {
   prefix: 'fas',
   iconName: 'arrows-up-down',
@@ -9066,6 +9460,11 @@ var faArrowsUpDownLeftRight = {
   icon: [512, 512, ["arrows"], "f047", "M512 255.1c0 8.188-3.125 16.41-9.375 22.66l-72 72C424.4 356.9 416.2 360 408 360c-18.28 0-32-14.95-32-32c0-8.188 3.125-16.38 9.375-22.62L402.8 288H288v114.8l17.38-17.38C311.6 379.1 319.8 376 328 376c18.28 0 32 14.95 32 32c0 8.188-3.125 16.38-9.375 22.62l-72 72C272.4 508.9 264.2 512 256 512s-16.38-3.125-22.62-9.375l-72-72C155.1 424.4 152 416.2 152 408c0-17.05 13.73-32 32-32c8.188 0 16.38 3.125 22.62 9.375L224 402.8V288H109.3l17.38 17.38C132.9 311.6 136 319.8 136 328c0 17.05-13.73 32-32 32c-8.188 0-16.38-3.125-22.62-9.375l-72-72C3.125 272.4 0 264.2 0 255.1s3.125-16.34 9.375-22.59l72-72C87.63 155.1 95.81 152 104 152c18.28 0 32 14.95 32 32c0 8.188-3.125 16.38-9.375 22.62L109.3 224H224V109.3L206.6 126.6C200.4 132.9 192.2 136 184 136c-18.28 0-32-14.95-32-32c0-8.188 3.125-16.38 9.375-22.62l72-72C239.6 3.125 247.8 0 256 0s16.38 3.125 22.62 9.375l72 72C356.9 87.63 360 95.81 360 104c0 17.05-13.73 32-32 32c-8.188 0-16.38-3.125-22.62-9.375L288 109.3V224h114.8l-17.38-17.38C379.1 200.4 376 192.2 376 184c0-17.05 13.73-32 32-32c8.188 0 16.38 3.125 22.62 9.375l72 72C508.9 239.6 512 247.8 512 255.1z"]
 };
 var faArrows = faArrowsUpDownLeftRight;
+var faArrowsUpToLine = {
+  prefix: 'fas',
+  iconName: 'arrows-up-to-line',
+  icon: [576, 512, [], "e4c2", "M32 96C14.33 96 0 81.67 0 64C0 46.33 14.33 32 32 32H544C561.7 32 576 46.33 576 64C576 81.67 561.7 96 544 96H32zM105.4 137.4C117.9 124.9 138.1 124.9 150.6 137.4L246.6 233.4C259.1 245.9 259.1 266.1 246.6 278.6C234.1 291.1 213.9 291.1 201.4 278.6L160 237.3V448C160 465.7 145.7 480 128 480C110.3 480 96 465.7 96 448V237.3L54.63 278.6C42.13 291.1 21.87 291.1 9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4L105.4 137.4zM329.4 233.4L425.4 137.4C437.9 124.9 458.1 124.9 470.6 137.4L566.6 233.4C579.1 245.9 579.1 266.1 566.6 278.6C554.1 291.1 533.9 291.1 521.4 278.6L480 237.3L480 448C480 465.7 465.7 480 448 480C430.3 480 416 465.7 416 448V237.3L374.6 278.6C362.1 291.1 341.9 291.1 329.4 278.6C316.9 266.1 316.9 245.9 329.4 233.4H329.4z"]
+};
 var faAsterisk = {
   prefix: 'fas',
   iconName: 'asterisk',
@@ -9074,7 +9473,7 @@ var faAsterisk = {
 var faAt = {
   prefix: 'fas',
   iconName: 'at',
-  icon: [512, 512, [129664, 61946], "40", "M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"]
+  icon: [512, 512, [61946], "40", "M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"]
 };
 var faAtom = {
   prefix: 'fas',
@@ -9383,6 +9782,11 @@ var faBookBible = {
   icon: [448, 512, ["bible"], "f647", "M448 336v-288C448 21.49 426.5 0 400 0H96C42.98 0 0 42.98 0 96v320c0 53.02 42.98 96 96 96h320c17.67 0 32-14.33 32-31.1c0-11.72-6.607-21.52-16-27.1v-81.36C441.8 362.8 448 350.2 448 336zM144 144c0-8.875 7.125-15.1 16-15.1L208 128V80c0-8.875 7.125-15.1 16-15.1l32 .0009c8.875 0 16 7.12 16 15.1V128L320 128c8.875 0 16 7.121 16 15.1v32c0 8.875-7.125 16-16 16L272 192v112c0 8.875-7.125 16-16 16l-32-.0002c-8.875 0-16-7.127-16-16V192L160 192c-8.875 0-16-7.127-16-16V144zM384 448H96c-17.67 0-32-14.33-32-32c0-17.67 14.33-32 32-32h288V448z"]
 };
 var faBible = faBookBible;
+var faBookBookmark = {
+  prefix: 'fas',
+  iconName: 'book-bookmark',
+  icon: [448, 512, [], "e0bb", "M448 336v-288C448 21.49 426.5 0 400 0H352v191.1c0 13.41-15.52 20.88-25.1 12.49L272 160L217.1 204.5C207.5 212.8 192 205.4 192 191.1V0H96C42.98 0 0 42.98 0 96v320c0 53.02 42.98 96 96 96h320c17.67 0 32-14.33 32-32c0-11.72-6.607-21.52-16-27.1v-81.36C441.8 362.8 448 350.2 448 336zM384 448H96c-17.67 0-32-14.33-32-32c0-17.67 14.33-32 32-32h288V448z"]
+};
 var faBookJournalWhills = {
   prefix: 'fas',
   iconName: 'book-journal-whills',
@@ -9438,6 +9842,31 @@ var faBorderTopLeft = {
   icon: [448, 512, ["border-style"], "f853", "M0 112C0 67.82 35.82 32 80 32H416C433.7 32 448 46.33 448 64C448 81.67 433.7 96 416 96H80C71.16 96 64 103.2 64 112V448C64 465.7 49.67 480 32 480C14.33 480 0 465.7 0 448V112zM128 480C110.3 480 96 465.7 96 448C96 430.3 110.3 416 128 416C145.7 416 160 430.3 160 448C160 465.7 145.7 480 128 480zM320 480C302.3 480 288 465.7 288 448C288 430.3 302.3 416 320 416C337.7 416 352 430.3 352 448C352 465.7 337.7 480 320 480zM256 448C256 465.7 241.7 480 224 480C206.3 480 192 465.7 192 448C192 430.3 206.3 416 224 416C241.7 416 256 430.3 256 448zM416 480C398.3 480 384 465.7 384 448C384 430.3 398.3 416 416 416C433.7 416 448 430.3 448 448C448 465.7 433.7 480 416 480zM416 288C398.3 288 384 273.7 384 256C384 238.3 398.3 224 416 224C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288zM448 352C448 369.7 433.7 384 416 384C398.3 384 384 369.7 384 352C384 334.3 398.3 320 416 320C433.7 320 448 334.3 448 352zM416 192C398.3 192 384 177.7 384 160C384 142.3 398.3 128 416 128C433.7 128 448 142.3 448 160C448 177.7 433.7 192 416 192z"]
 };
 var faBorderStyle = faBorderTopLeft;
+var faBoreHole = {
+  prefix: 'fas',
+  iconName: 'bore-hole',
+  icon: [512, 512, [], "e4c3", "M256 0C273.7 0 288 14.33 288 32V296.6C307.1 307.6 320 328.3 320 352C320 387.3 291.3 416 256 416C220.7 416 192 387.3 192 352C192 328.3 204.9 307.6 224 296.6V32C224 14.33 238.3 0 256 0zM160 128V352C160 405 202.1 448 256 448C309 448 352 405 352 352V128H464C490.5 128 512 149.5 512 176V464C512 490.5 490.5 512 464 512H48C21.49 512 0 490.5 0 464V176C0 149.5 21.49 128 48 128H160z"]
+};
+var faBottleDroplet = {
+  prefix: 'fas',
+  iconName: 'bottle-droplet',
+  icon: [320, 512, [], "e4c4", "M224 0C237.3-.0003 248 10.74 248 23.1C248 37.25 237.3 47.1 224 48L216 48V140.9C258.6 161.6 288 205.4 288 256V448C288 483.3 259.3 512 224 512H96C60.65 512 32 483.3 32 448V256C32 205.4 61.37 161.6 104 140.9V48L96 48C82.75 48 72 37.26 72 24C71.1 10.75 82.74 .0045 95.1 .0042L224 0zM160 384C186.5 384 208 368 208 336C208 304 160 256 160 256C160 256 112 304 112 336C112 362.5 133.5 384 160 384z"]
+};
+var faBottleWater = {
+  prefix: 'fas',
+  iconName: 'bottle-water',
+  icon: [320, 512, [], "e4c5", "M200 0C213.3 0 224 10.75 224 24V64H96V24C96 10.75 106.7 0 120 0H200zM32 151.7C32 136.1 41.04 121.9 55.19 115.3L79.6 103.8C90.58 98.67 102.6 96 114.7 96H205.3C217.4 96 229.4 98.67 240.4 103.8L264.8 115.3C278.1 121.9 288 136.1 288 151.7C288 166.1 280.5 178.7 269.1 185.8C280.6 194.6 288 208.4 288 223.1C288 240.7 279.5 255.4 266.5 263.1C279.5 272.6 288 287.3 288 303.1C288 320.7 279.5 335.4 266.5 344C279.5 352.6 288 367.3 288 384C288 400.7 279.5 415.4 266.5 424C279.5 432.6 288 447.3 288 464C288 490.5 266.5 512 240 512H80C53.49 512 32 490.5 32 464C32 447.3 40.52 432.6 53.46 424C40.52 415.4 32 400.7 32 384C32 367.3 40.52 352.6 53.46 344C40.52 335.4 32 320.7 32 303.1C32 287.3 40.52 272.6 53.46 263.1C40.52 255.4 32 240.7 32 223.1C32 208.4 39.4 194.6 50.87 185.8C39.53 178.7 32 166.1 32 151.7L32 151.7zM112 256H208C216.8 256 224 248.8 224 240C224 231.2 216.8 224 208 224H112C103.2 224 96 231.2 96 240C96 248.8 103.2 256 112 256zM112 352C103.2 352 96 359.2 96 368C96 376.8 103.2 384 112 384H208C216.8 384 224 376.8 224 368C224 359.2 216.8 352 208 352H112z"]
+};
+var faBowlFood = {
+  prefix: 'fas',
+  iconName: 'bowl-food',
+  icon: [576, 512, [], "e4c6", "M96 128C96.53 128 97.07 128 97.6 128C105 91.49 137.3 64 176 64C190.1 64 204.1 68.1 216.9 75.25C230.2 49.55 257.1 32 288 32C318.9 32 345.8 49.56 359.1 75.25C371 68.1 385 64 400 64C438.7 64 470.1 91.49 478.4 128C478.9 128 479.5 128 480 128C515.3 128 544 156.7 544 192C544 203.7 540.9 214.6 535.4 224H40.56C35.12 214.6 32 203.7 32 192C32 156.7 60.65 128 96 128H96zM16 283.4C16 268.3 28.28 256 43.43 256H532.6C547.7 256 560 268.3 560 283.4C560 356.3 512.6 418.2 446.9 439.8C447.6 442.4 448 445.2 448 448C448 465.7 433.7 480 416 480H160C142.3 480 128 465.7 128 448C128 445.2 128.4 442.4 129.1 439.8C63.4 418.2 16 356.3 16 283.4H16z"]
+};
+var faBowlRice = {
+  prefix: 'fas',
+  iconName: 'bowl-rice',
+  icon: [576, 512, [], "e2eb", "M208 72C208 58.75 218.7 48 232 48H248C261.3 48 272 58.75 272 72C272 85.25 261.3 96 248 96H232C218.7 96 208 85.25 208 72zM208 152C208 138.7 218.7 128 232 128H248C261.3 128 272 138.7 272 152C272 165.3 261.3 176 248 176H232C218.7 176 208 165.3 208 152zM16 232C16 218.7 26.75 208 40 208H56C69.25 208 80 218.7 80 232C80 245.3 69.25 256 56 256H40C26.75 256 16 245.3 16 232zM532.6 288C547.7 288 560 300.3 560 315.4C560 388.3 512.6 450.2 446.9 471.8C447.6 474.4 448 477.2 448 480C448 497.7 433.7 512 416 512H160C142.3 512 128 497.7 128 480C128 477.2 128.4 474.4 129.1 471.8C63.4 450.2 16 388.3 16 315.4C16 300.3 28.28 288 43.43 288H532.6zM248 208C261.3 208 272 218.7 272 232C272 245.3 261.3 256 248 256H232C218.7 256 208 245.3 208 232C208 218.7 218.7 208 232 208H248zM152 208C165.3 208 176 218.7 176 232C176 245.3 165.3 256 152 256H136C122.7 256 112 245.3 112 232C112 218.7 122.7 208 136 208H152zM112 152C112 138.7 122.7 128 136 128H152C165.3 128 176 138.7 176 152C176 165.3 165.3 176 152 176H136C122.7 176 112 165.3 112 152zM344 208C357.3 208 368 218.7 368 232C368 245.3 357.3 256 344 256H328C314.7 256 304 245.3 304 232C304 218.7 314.7 208 328 208H344zM304 152C304 138.7 314.7 128 328 128H344C357.3 128 368 138.7 368 152C368 165.3 357.3 176 344 176H328C314.7 176 304 165.3 304 152zM440 208C453.3 208 464 218.7 464 232C464 245.3 453.3 256 440 256H424C410.7 256 400 245.3 400 232C400 218.7 410.7 208 424 208H440zM400 152C400 138.7 410.7 128 424 128H440C453.3 128 464 138.7 464 152C464 165.3 453.3 176 440 176H424C410.7 176 400 165.3 400 152zM536 208C549.3 208 560 218.7 560 232C560 245.3 549.3 256 536 256H520C506.7 256 496 245.3 496 232C496 218.7 506.7 208 520 208H536zM344 48C357.3 48 368 58.75 368 72C368 85.25 357.3 96 344 96H328C314.7 96 304 85.25 304 72C304 58.75 314.7 48 328 48H344z"]
+};
 var faBowlingBall = {
   prefix: 'fas',
   iconName: 'bowling-ball',
@@ -9463,6 +9892,11 @@ var faBoxTissue = {
   prefix: 'fas',
   iconName: 'box-tissue',
   icon: [512, 512, [], "e05b", "M384 288l64-192h-109.4C308.4 96 281.6 76.66 272 48C262.4 19.33 235.6 0 205.4 0H64l64 288H384zM0 480c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-64H0V480zM480 224h-40.94l-21.33 64H432C440.8 288 448 295.2 448 304S440.8 320 432 320h-352C71.16 320 64 312.8 64 304S71.16 288 80 288h15.22l-14.22-64H32C14.33 224 0 238.3 0 256v128h512V256C512 238.3 497.7 224 480 224z"]
+};
+var faBoxesPacking = {
+  prefix: 'fas',
+  iconName: 'boxes-packing',
+  icon: [640, 512, [], "e4c7", "M256 48C256 21.49 277.5 0 304 0H592C618.5 0 640 21.49 640 48V464C640 490.5 618.5 512 592 512H381.3C383 506.1 384 501.6 384 496V253.3C402.6 246.7 416 228.9 416 208V176C416 149.5 394.5 128 368 128H256V48zM571.3 347.3C577.6 341.1 577.6 330.9 571.3 324.7L507.3 260.7C501.1 254.4 490.9 254.4 484.7 260.7L420.7 324.7C414.4 330.9 414.4 341.1 420.7 347.3C426.9 353.6 437.1 353.6 443.3 347.3L480 310.6V432C480 440.8 487.2 448 496 448C504.8 448 512 440.8 512 432V310.6L548.7 347.3C554.9 353.6 565.1 353.6 571.3 347.3H571.3zM0 176C0 167.2 7.164 160 16 160H368C376.8 160 384 167.2 384 176V208C384 216.8 376.8 224 368 224H16C7.164 224 0 216.8 0 208V176zM352 480C352 497.7 337.7 512 320 512H64C46.33 512 32 497.7 32 480V256H352V480zM144 320C135.2 320 128 327.2 128 336C128 344.8 135.2 352 144 352H240C248.8 352 256 344.8 256 336C256 327.2 248.8 320 240 320H144z"]
 };
 var faBoxesStacked = {
   prefix: 'fas',
@@ -9491,6 +9925,36 @@ var faBreadSlice = {
   iconName: 'bread-slice',
   icon: [512, 512, [], "f7ec", "M512 176.1C512 203 490.4 224 455.1 224H448v224c0 17.67-14.33 32-32 32H96c-17.67 0-32-14.33-32-32V224H56.89C21.56 224 0 203 0 176.1C0 112 96 32 256 32S512 112 512 176.1z"]
 };
+var faBridge = {
+  prefix: 'fas',
+  iconName: 'bridge',
+  icon: [576, 512, [], "e4c8", "M544 32C561.7 32 576 46.33 576 64C576 81.67 561.7 96 544 96H504V160H576V288C522.1 288 480 330.1 480 384V448C480 465.7 465.7 480 448 480H416C398.3 480 384 465.7 384 448V384C384 330.1 341 288 288 288C234.1 288 192 330.1 192 384V448C192 465.7 177.7 480 160 480H128C110.3 480 96 465.7 96 448V384C96 330.1 53.02 288 0 288V160H72V96H32C14.33 96 0 81.67 0 64C0 46.33 14.33 32 32 32H544zM456 96H376V160H456V96zM248 96V160H328V96H248zM200 96H120V160H200V96z"]
+};
+var faBridgeCircleCheck = {
+  prefix: 'fas',
+  iconName: 'bridge-circle-check',
+  icon: [640, 512, [], "e4c9", "M576 32C593.7 32 608 46.33 608 64C608 81.67 593.7 96 576 96H536V160H608V232.2C577.6 207.1 538.5 192 496 192C426.9 192 367.1 231.8 338.3 289.7C332.4 288.6 326.3 288 320 288C266.1 288 224 330.1 224 384V448C224 465.7 209.7 480 192 480H160C142.3 480 128 465.7 128 448V384C128 330.1 85.02 288 32 288V160H104V96H64C46.33 96 32 81.67 32 64C32 46.33 46.33 32 64 32H576zM488 96H408V160H488V96zM280 96V160H360V96H280zM232 96H152V160H232V96zM640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368zM540.7 324.7L480 385.4L451.3 356.7C445.1 350.4 434.9 350.4 428.7 356.7C422.4 362.9 422.4 373.1 428.7 379.3L468.7 419.3C474.9 425.6 485.1 425.6 491.3 419.3L563.3 347.3C569.6 341.1 569.6 330.9 563.3 324.7C557.1 318.4 546.9 318.4 540.7 324.7H540.7z"]
+};
+var faBridgeCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'bridge-circle-exclamation',
+  icon: [640, 512, [], "e4ca", "M576 32C593.7 32 608 46.33 608 64C608 81.67 593.7 96 576 96H536V160H608V232.2C577.6 207.1 538.5 192 496 192C426.9 192 367.1 231.8 338.3 289.7C332.4 288.6 326.3 288 320 288C266.1 288 224 330.1 224 384V448C224 465.7 209.7 480 192 480H160C142.3 480 128 465.7 128 448V384C128 330.1 85.02 288 32 288V160H104V96H64C46.33 96 32 81.67 32 64C32 46.33 46.33 32 64 32H576zM488 96H408V160H488V96zM280 96V160H360V96H280zM232 96H152V160H232V96zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM496 464C509.3 464 520 453.3 520 440C520 426.7 509.3 416 496 416C482.7 416 472 426.7 472 440C472 453.3 482.7 464 496 464zM479.1 288V368C479.1 376.8 487.2 384 495.1 384C504.8 384 511.1 376.8 511.1 368V288C511.1 279.2 504.8 272 495.1 272C487.2 272 479.1 279.2 479.1 288z"]
+};
+var faBridgeCircleXmark = {
+  prefix: 'fas',
+  iconName: 'bridge-circle-xmark',
+  icon: [640, 512, [], "e4cb", "M576 32C593.7 32 608 46.33 608 64C608 81.67 593.7 96 576 96H536V160H608V232.2C577.6 207.1 538.5 192 496 192C426.9 192 367.1 231.8 338.3 289.7C332.4 288.6 326.3 288 320 288C266.1 288 224 330.1 224 384V448C224 465.7 209.7 480 192 480H160C142.3 480 128 465.7 128 448V384C128 330.1 85.02 288 32 288V160H104V96H64C46.33 96 32 81.67 32 64C32 46.33 46.33 32 64 32H576zM488 96H408V160H488V96zM280 96V160H360V96H280zM232 96H152V160H232V96zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM555.3 331.3C561.6 325.1 561.6 314.9 555.3 308.7C549.1 302.4 538.9 302.4 532.7 308.7L496 345.4L459.3 308.7C453.1 302.4 442.9 302.4 436.7 308.7C430.4 314.9 430.4 325.1 436.7 331.3L473.4 368L436.7 404.7C430.4 410.9 430.4 421.1 436.7 427.3C442.9 433.6 453.1 433.6 459.3 427.3L496 390.6L532.7 427.3C538.9 433.6 549.1 433.6 555.3 427.3C561.6 421.1 561.6 410.9 555.3 404.7L518.6 368L555.3 331.3z"]
+};
+var faBridgeLock = {
+  prefix: 'fas',
+  iconName: 'bridge-lock',
+  icon: [640, 512, [], "e4cc", "M32 64C32 46.33 46.33 32 64 32H576C593.7 32 608 46.33 608 64C608 81.67 593.7 96 576 96H536V160H528C466.1 160 416 210.1 416 272V296.6C406.1 302.3 397.8 310.7 392.2 320.7C374.6 300.7 348.8 287.1 320 287.1C266.1 287.1 224 330.1 224 384V448C224 465.7 209.7 480 192 480H160C142.3 480 128 465.7 128 448V384C128 330.1 85.02 287.1 32 287.1V159.1H104V95.1H64C46.33 95.1 32 81.67 32 63.1V64zM408 160H488V96H408V160zM360 160V96H280V160H360zM152 160H232V96H152V160zM528 192C572.2 192 608 227.8 608 272V320C625.7 320 640 334.3 640 352V480C640 497.7 625.7 512 608 512H448C430.3 512 416 497.7 416 480V352C416 334.3 430.3 320 448 320V272C448 227.8 483.8 192 528 192zM528 240C510.3 240 496 254.3 496 272V320H560V272C560 254.3 545.7 240 528 240z"]
+};
+var faBridgeWater = {
+  prefix: 'fas',
+  iconName: 'bridge-water',
+  icon: [576, 512, [], "e4ce", "M.0003 96C.0003 78.33 14.33 64 32 64H544C561.7 64 576 78.33 576 96V131.6C576 147.3 563.3 160 547.6 160C510.2 160 480 190.2 480 227.6V352.5C467.1 352.5 454.2 356.3 443.2 364.1C425.2 376.5 403 384.5 384 384.5L384 384V256C384 202.1 341 160 288 160C234.1 160 192 202.1 192 256V384L191.1 384.5C172.1 384.4 150.8 376.5 132.9 364.1C121.8 356.3 108.9 352.4 96 352.5V227.6C96 190.2 65.75 160 28.44 160C12.74 160 0 147.3 0 131.6L.0003 96zM384 416C410.9 416 439.4 405.2 461.4 389.9L461.5 389.9C473.4 381.4 489.5 382.1 500.7 391.6C515.1 403.5 533.2 412.6 551.3 416.8C568.5 420.8 579.2 438.1 575.2 455.3C571.2 472.5 553.1 483.2 536.7 479.2C512.2 473.4 491.9 462.6 478.5 454.2C449.5 469.7 417 480 384 480C352.1 480 323.4 470.1 303.6 461.1C297.7 458.5 292.5 455.8 288 453.4C283.5 455.8 278.3 458.5 272.4 461.1C252.6 470.1 223.9 480 192 480C158.1 480 126.5 469.7 97.5 454.2C84.13 462.6 63.79 473.4 39.27 479.2C22.06 483.2 4.854 472.5 .8429 455.3C-3.168 438.1 7.533 420.8 24.74 416.8C42.84 412.6 60.96 403.5 75.31 391.6C86.46 382.1 102.6 381.4 114.5 389.9L114.6 389.9C136.7 405.2 165.1 416 192 416C219.5 416 247 405.4 269.5 389.9C280.6 382 295.4 382 306.5 389.9C328.1 405.4 356.5 416 384 416H384z"]
+};
 var faBriefcase = {
   prefix: 'fas',
   iconName: 'briefcase',
@@ -9518,6 +9982,11 @@ var faBrush = {
   iconName: 'brush',
   icon: [384, 512, [], "f55d", "M224 0H336C362.5 0 384 21.49 384 48V256H0V48C0 21.49 21.49 0 48 0H64L96 64L128 0H160L192 64L224 0zM384 288V320C384 355.3 355.3 384 320 384H256V448C256 483.3 227.3 512 192 512C156.7 512 128 483.3 128 448V384H64C28.65 384 0 355.3 0 320V288H384zM192 464C200.8 464 208 456.8 208 448C208 439.2 200.8 432 192 432C183.2 432 176 439.2 176 448C176 456.8 183.2 464 192 464z"]
 };
+var faBucket = {
+  prefix: 'fas',
+  iconName: 'bucket',
+  icon: [448, 512, [], "e4cf", "M96 160H48V152C48 68.05 116.1 0 200 0H248C331.9 0 400 68.05 400 152V160H352V152C352 94.56 305.4 48 248 48H200C142.6 48 96 94.56 96 152V160zM.0003 224C.0003 206.3 14.33 192 32 192H416C433.7 192 448 206.3 448 224C448 241.7 433.7 256 416 256H410.9L388.5 469C385.1 493.5 365.4 512 340.8 512H107.2C82.65 512 62.05 493.5 59.48 469L37.05 256H32C14.33 256 0 241.7 0 224H.0003z"]
+};
 var faBug = {
   prefix: 'fas',
   iconName: 'bug',
@@ -9528,10 +9997,35 @@ var faBugSlash = {
   iconName: 'bug-slash',
   icon: [640, 512, [], "e490", "M239.1 162.8C247.7 160.1 255.7 160 264 160H376C393.1 160 409.2 164.1 423.5 171.4C424.1 170.7 424.7 170 425.4 169.4L489.4 105.4C501.9 92.88 522.1 92.88 534.6 105.4C547.1 117.9 547.1 138.1 534.6 150.6L470.6 214.6C469.1 215.3 469.3 215.9 468.6 216.5C474.7 228.5 478.6 241.9 479.7 256H544C561.7 256 576 270.3 576 288C576 305.7 561.7 320 544 320H480C480 329.9 479.1 339.5 477.4 348.9L630.8 469.1C641.2 477.3 643.1 492.4 634.9 502.8C626.7 513.2 611.6 515.1 601.2 506.9L9.196 42.89C-1.236 34.71-3.065 19.63 5.112 9.196C13.29-1.236 28.37-3.065 38.81 5.112L239.1 162.8zM416 96V99.56C416 115.3 403.3 128 387.6 128H252.4C236.7 128 224 115.3 224 99.56V96C224 42.98 266.1 .001 320 .001C373 .001 416 42.98 416 96V96zM160.3 256C161.1 245.1 163.3 236.3 166.7 227.3L304 335.5V479.2C269.5 475.8 238.2 461.4 213.7 439.6L150.6 502.6C138.1 515.1 117.9 515.1 105.4 502.6C92.88 490.1 92.88 469.9 105.4 457.4L169.4 393.4C171.2 391.5 173.3 389.9 175.4 388.6C165.5 367.8 160 344.6 160 320H96C78.33 320 64 305.7 64 288C64 270.3 78.33 256 96 256H160.3zM336 479.2V360.7L430.8 435.4C405.7 459.6 372.7 475.6 336 479.2V479.2z"]
 };
+var faBugs = {
+  prefix: 'fas',
+  iconName: 'bugs',
+  icon: [576, 512, [], "e4d0", "M187.3 135.1H204.3L208.5 115.3C211.1 102.3 223.7 93.86 236.7 96.46C249.7 99.06 258.1 111.7 255.5 124.7L247.5 164.7C245.3 175.9 235.4 183.1 223.1 183.1H191.1V207.3L229.8 216.7C239.3 219.1 246.4 226.9 247.8 236.6L255.8 292.6C257.6 305.7 248.5 317.9 235.4 319.8C222.3 321.6 210.1 312.5 208.2 299.4L202.5 259.4L184.1 254.8C173.2 274.6 152.2 287.1 127.1 287.1C103.8 287.1 82.75 274.6 71.87 254.8L53.48 259.4L47.76 299.4C45.88 312.5 33.73 321.6 20.61 319.8C7.484 317.9-1.633 305.7 .2413 292.6L8.241 236.6C9.621 226.9 16.71 219.1 26.18 216.7L63.1 207.3V183.1H31.1C20.56 183.1 10.71 175.9 8.463 164.7L.4627 124.7C-2.137 111.7 6.292 99.06 19.29 96.46C32.29 93.86 44.93 102.3 47.53 115.3L51.67 135.1H68.65C73.35 124.4 81.36 114.5 91.51 107.4L58.15 33.92C52.67 21.85 58.01 7.625 70.08 2.145C82.15-3.335 96.37 2.007 101.9 14.08L128 71.66L154.1 14.08C159.6 2.007 173.9-3.335 185.9 2.145C197.1 7.625 203.3 21.85 197.9 33.92L164.5 107.4C174.6 114.5 182.6 124.4 187.3 135.1L187.3 135.1zM501.5 322.7L516.2 331.2L530.1 315.3C538.9 305.3 554 304.4 563.1 313.1C573.9 321.9 574.9 337 566.2 346.1L539.2 377.6C531.7 386.2 519.1 388.3 509.2 382.6L481.5 366.6L469.9 386.7L497.9 413.8C504.9 420.6 507.1 430.9 503.5 440L482.4 492.5C477.5 504.8 463.5 510.8 451.2 505.8C438.9 500.9 432.9 486.9 437.9 474.6L452.9 437.1L439.3 423.9C419.1 435.6 395 436.7 374.1 424.6C353.1 412.5 341.6 390.4 342.1 367.8L323.8 362.6L298.9 394.4C290.7 404.8 275.6 406.6 265.2 398.4C254.8 390.3 252.9 375.2 261.1 364.7L296 320.2C302.1 312.6 312.1 309.3 321.5 311.1L359 322.7L370.6 302.6L342.9 286.6C333 280.8 328.5 268.9 332.2 258.1L345.3 219.4C349.5 206.9 363.1 200.2 375.7 204.4C388.2 208.7 394.1 222.3 390.7 234.8L383.1 254.8L398.7 263.3C408.5 255.6 420.4 251 432.8 249.1L440.6 169.7C441.9 156.5 453.6 146.8 466.8 148.1C480 149.4 489.7 161.1 488.4 174.3L482.2 237.3L533.7 200.5C544.5 192.8 559.4 195.3 567.2 206C574.9 216.8 572.4 231.8 561.6 239.5L495.1 286.5C501.2 297.7 503.2 310.3 501.5 322.7V322.7z"]
+};
 var faBuilding = {
   prefix: 'fas',
   iconName: 'building',
   icon: [384, 512, [61687, 127970], "f1ad", "M336 0C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272z"]
+};
+var faBuildingCircleArrowRight = {
+  prefix: 'fas',
+  iconName: 'building-circle-arrow-right',
+  icon: [640, 512, [], "e4d1", "M0 48C0 21.49 21.49 0 48 0H336C362.5 0 384 21.49 384 48V232.2C344.9 264.5 320 313.3 320 368C320 417.5 340.4 462.2 373.3 494.2C364.5 505.1 351.1 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48zM80 224C71.16 224 64 231.2 64 240V272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80zM160 272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176C167.2 224 160 231.2 160 240V272zM272 224C263.2 224 256 231.2 256 240V272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272zM64 144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80C71.16 96 64 103.2 64 112V144zM176 96C167.2 96 160 103.2 160 112V144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176zM256 144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272C263.2 96 256 103.2 256 112V144zM640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368zM492.7 323.3L521.4 352H432C423.2 352 416 359.2 416 368C416 376.8 423.2 384 432 384H521.4L492.7 412.7C486.4 418.9 486.4 429.1 492.7 435.3C498.9 441.6 509.1 441.6 515.3 435.3L571.3 379.3C577.6 373.1 577.6 362.9 571.3 356.7L515.3 300.7C509.1 294.4 498.9 294.4 492.7 300.7C486.4 306.9 486.4 317.1 492.7 323.3V323.3z"]
+};
+var faBuildingCircleCheck = {
+  prefix: 'fas',
+  iconName: 'building-circle-check',
+  icon: [640, 512, [], "e4d2", "M336 0C362.5 0 384 21.49 384 48V232.2C344.9 264.5 320 313.3 320 368C320 417.5 340.4 462.2 373.3 494.2C364.5 505.1 351.1 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272zM640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368zM540.7 324.7L480 385.4L451.3 356.7C445.1 350.4 434.9 350.4 428.7 356.7C422.4 362.9 422.4 373.1 428.7 379.3L468.7 419.3C474.9 425.6 485.1 425.6 491.3 419.3L563.3 347.3C569.6 341.1 569.6 330.9 563.3 324.7C557.1 318.4 546.9 318.4 540.7 324.7H540.7z"]
+};
+var faBuildingCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'building-circle-exclamation',
+  icon: [640, 512, [], "e4d3", "M336 0C362.5 0 384 21.49 384 48V232.2C344.9 264.5 320 313.3 320 368C320 417.5 340.4 462.2 373.3 494.2C364.5 505.1 351.1 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM496 464C509.3 464 520 453.3 520 440C520 426.7 509.3 416 496 416C482.7 416 472 426.7 472 440C472 453.3 482.7 464 496 464zM479.1 288V368C479.1 376.8 487.2 384 495.1 384C504.8 384 511.1 376.8 511.1 368V288C511.1 279.2 504.8 272 495.1 272C487.2 272 479.1 279.2 479.1 288z"]
+};
+var faBuildingCircleXmark = {
+  prefix: 'fas',
+  iconName: 'building-circle-xmark',
+  icon: [640, 512, [], "e4d4", "M336 0C362.5 0 384 21.49 384 48V232.2C344.9 264.5 320 313.3 320 368C320 417.5 340.4 462.2 373.3 494.2C364.5 505.1 351.1 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM555.3 331.3C561.6 325.1 561.6 314.9 555.3 308.7C549.1 302.4 538.9 302.4 532.7 308.7L496 345.4L459.3 308.7C453.1 302.4 442.9 302.4 436.7 308.7C430.4 314.9 430.4 325.1 436.7 331.3L473.4 368L436.7 404.7C430.4 410.9 430.4 421.1 436.7 427.3C442.9 433.6 453.1 433.6 459.3 427.3L496 390.6L532.7 427.3C538.9 433.6 549.1 433.6 555.3 427.3C561.6 421.1 561.6 410.9 555.3 404.7L518.6 368L555.3 331.3z"]
 };
 var faBuildingColumns = {
   prefix: 'fas',
@@ -9542,6 +10036,41 @@ var faBank = faBuildingColumns;
 var faInstitution = faBuildingColumns;
 var faMuseum = faBuildingColumns;
 var faUniversity = faBuildingColumns;
+var faBuildingFlag = {
+  prefix: 'fas',
+  iconName: 'building-flag',
+  icon: [640, 512, [], "e4d5", "M336 0C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272zM448 0C465.7 0 480 14.33 480 32H624C632.8 32 640 39.16 640 48V176C640 184.8 632.8 192 624 192H480V512H416V32C416 14.33 430.3 0 448 0z"]
+};
+var faBuildingLock = {
+  prefix: 'fas',
+  iconName: 'building-lock',
+  icon: [576, 512, [], "e4d6", "M336 0C362.5 0 384 21.49 384 48V193.6C364.2 213.8 352 241.5 352 272V296.6C332.9 307.6 320 328.3 320 352V480C320 491.7 323.1 502.6 328.6 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272zM464 192C508.2 192 544 227.8 544 272V320C561.7 320 576 334.3 576 352V480C576 497.7 561.7 512 544 512H384C366.3 512 352 497.7 352 480V352C352 334.3 366.3 320 384 320V272C384 227.8 419.8 192 464 192zM464 240C446.3 240 432 254.3 432 272V320H496V272C496 254.3 481.7 240 464 240z"]
+};
+var faBuildingNgo = {
+  prefix: 'fas',
+  iconName: 'building-ngo',
+  icon: [384, 512, [], "e4d7", "M320 112V144C320 152.8 312.8 160 304 160C295.2 160 288 152.8 288 144V112C288 103.2 295.2 96 304 96C312.8 96 320 103.2 320 112zM336 0C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM168 64C159.2 64 152 71.16 152 80V168C152 181.3 162.7 192 176 192H208C221.3 192 232 181.3 232 168V144C232 135.2 224.8 128 216 128C207.2 128 200 135.2 200 144V160H184V96H216C224.8 96 232 88.84 232 80C232 71.16 224.8 64 216 64H168zM256 144C256 170.5 277.5 192 304 192C330.5 192 352 170.5 352 144V112C352 85.49 330.5 64 304 64C277.5 64 256 85.49 256 112V144zM61.31 71.12C57.4 65.26 50.11 62.64 43.36 64.69C36.62 66.73 32 72.95 32 80V176C32 184.8 39.16 192 48 192C56.84 192 64 184.8 64 176V132.8L98.69 184.9C102.6 190.7 109.9 193.4 116.6 191.3C123.4 189.3 128 183.1 128 176V80C128 71.16 120.8 64 112 64C103.2 64 96 71.16 96 80V123.2L61.31 71.12z"]
+};
+var faBuildingShield = {
+  prefix: 'fas',
+  iconName: 'building-shield',
+  icon: [576, 512, [], "e4d8", "M0 48C0 21.49 21.49 0 48 0H336C362.5 0 384 21.49 384 48V207L341.6 224H272C263.2 224 256 231.2 256 240V304C256 304.9 256.1 305.7 256.2 306.6C258.5 364.7 280.3 451.4 354.9 508.1C349.1 510.6 342.7 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48zM80 224C71.16 224 64 231.2 64 240V272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80zM160 272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176C167.2 224 160 231.2 160 240V272zM64 144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80C71.16 96 64 103.2 64 112V144zM176 96C167.2 96 160 103.2 160 112V144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176zM256 144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272C263.2 96 256 103.2 256 112V144zM423.1 225.7C428.8 223.4 435.2 223.4 440.9 225.7L560.9 273.7C570 277.4 576 286.2 576 296C576 359.3 550.1 464.8 441.2 510.2C435.3 512.6 428.7 512.6 422.8 510.2C313.9 464.8 288 359.3 288 296C288 286.2 293.1 277.4 303.1 273.7L423.1 225.7zM432 273.8V461.7C500.2 428.7 523.5 362.7 527.4 311.1L432 273.8z"]
+};
+var faBuildingUn = {
+  prefix: 'fas',
+  iconName: 'building-un',
+  icon: [384, 512, [], "e4d9", "M336 0C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM237.3 71.12C233.4 65.26 226.1 62.64 219.4 64.69C212.6 66.73 208 72.95 208 80V176C208 184.8 215.2 192 224 192C232.8 192 240 184.8 240 176V132.8L274.7 184.9C278.6 190.7 285.9 193.4 292.6 191.3C299.4 189.3 304 183.1 304 176V80C304 71.16 296.8 64 288 64C279.2 64 272 71.16 272 80V123.2L237.3 71.12zM112 80C112 71.16 104.8 64 96 64C87.16 64 80 71.16 80 80V144C80 170.5 101.5 192 128 192C154.5 192 176 170.5 176 144V80C176 71.16 168.8 64 160 64C151.2 64 144 71.16 144 80V144C144 152.8 136.8 160 128 160C119.2 160 112 152.8 112 144V80z"]
+};
+var faBuildingUser = {
+  prefix: 'fas',
+  iconName: 'building-user',
+  icon: [640, 512, [], "e4da", "M336 0C362.5 0 384 21.49 384 48V367.8C345.8 389.2 320 430 320 476.9C320 489.8 323.6 501.8 329.9 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272zM576 272C576 316.2 540.2 352 496 352C451.8 352 416 316.2 416 272C416 227.8 451.8 192 496 192C540.2 192 576 227.8 576 272zM352 477.1C352 425.7 393.7 384 445.1 384H546.9C598.3 384 640 425.7 640 477.1C640 496.4 624.4 512 605.1 512H386.9C367.6 512 352 496.4 352 477.1V477.1z"]
+};
+var faBuildingWheat = {
+  prefix: 'fas',
+  iconName: 'building-wheat',
+  icon: [640, 512, [], "e4db", "M0 48C0 21.49 21.49 0 48 0H336C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48zM80 224C71.16 224 64 231.2 64 240V272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80zM160 272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176C167.2 224 160 231.2 160 240V272zM272 224C263.2 224 256 231.2 256 240V272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272zM64 144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80C71.16 96 64 103.2 64 112V144zM176 96C167.2 96 160 103.2 160 112V144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176zM256 144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272C263.2 96 256 103.2 256 112V144zM640 192V208C640 252.2 604.2 288 560 288H544V272C544 227.8 579.8 192 624 192H640zM560 400H544V384C544 339.8 579.8 304 624 304H640V320C640 364.2 604.2 400 560 400zM560 512H544V496C544 451.8 579.8 416 624 416H640V432C640 476.2 604.2 512 560 512zM512 496V512H496C451.8 512 416 476.2 416 432V416H432C476.2 416 512 451.8 512 496zM496 400C451.8 400 416 364.2 416 320V304H432C476.2 304 512 339.8 512 384V400H496zM512 272V288H496C451.8 288 416 252.2 416 208V192H432C476.2 192 512 227.8 512 272zM528 32C541.3 32 552 42.75 552 56V160C552 173.3 541.3 184 528 184C514.7 184 504 173.3 504 160V56C504 42.75 514.7 32 528 32zM624 128C624 141.3 613.3 152 600 152C586.7 152 576 141.3 576 128V96C576 82.75 586.7 72 600 72C613.3 72 624 82.75 624 96V128zM456 72C469.3 72 480 82.75 480 96V128C480 141.3 469.3 152 456 152C442.7 152 432 141.3 432 128V96C432 82.75 442.7 72 456 72z"]
+};
 var faBullhorn = {
   prefix: 'fas',
   iconName: 'bullhorn',
@@ -9558,6 +10087,11 @@ var faBurger = {
   icon: [512, 512, ["hamburger"], "f805", "M481.9 270.1C490.9 279.1 496 291.3 496 304C496 316.7 490.9 328.9 481.9 337.9C472.9 346.9 460.7 352 448 352H64C51.27 352 39.06 346.9 30.06 337.9C21.06 328.9 16 316.7 16 304C16 291.3 21.06 279.1 30.06 270.1C39.06 261.1 51.27 256 64 256H448C460.7 256 472.9 261.1 481.9 270.1zM475.3 388.7C478.3 391.7 480 395.8 480 400V416C480 432.1 473.3 449.3 461.3 461.3C449.3 473.3 432.1 480 416 480H96C79.03 480 62.75 473.3 50.75 461.3C38.74 449.3 32 432.1 32 416V400C32 395.8 33.69 391.7 36.69 388.7C39.69 385.7 43.76 384 48 384H464C468.2 384 472.3 385.7 475.3 388.7zM50.39 220.8C45.93 218.6 42.03 215.5 38.97 211.6C35.91 207.7 33.79 203.2 32.75 198.4C31.71 193.5 31.8 188.5 32.99 183.7C54.98 97.02 146.5 32 256 32C365.5 32 457 97.02 479 183.7C480.2 188.5 480.3 193.5 479.2 198.4C478.2 203.2 476.1 207.7 473 211.6C469.1 215.5 466.1 218.6 461.6 220.8C457.2 222.9 452.3 224 447.3 224H64.67C59.73 224 54.84 222.9 50.39 220.8zM372.7 116.7C369.7 119.7 368 123.8 368 128C368 131.2 368.9 134.3 370.7 136.9C372.5 139.5 374.1 141.6 377.9 142.8C380.8 143.1 384 144.3 387.1 143.7C390.2 143.1 393.1 141.6 395.3 139.3C397.6 137.1 399.1 134.2 399.7 131.1C400.3 128 399.1 124.8 398.8 121.9C397.6 118.1 395.5 116.5 392.9 114.7C390.3 112.9 387.2 111.1 384 111.1C379.8 111.1 375.7 113.7 372.7 116.7V116.7zM244.7 84.69C241.7 87.69 240 91.76 240 96C240 99.16 240.9 102.3 242.7 104.9C244.5 107.5 246.1 109.6 249.9 110.8C252.8 111.1 256 112.3 259.1 111.7C262.2 111.1 265.1 109.6 267.3 107.3C269.6 105.1 271.1 102.2 271.7 99.12C272.3 96.02 271.1 92.8 270.8 89.88C269.6 86.95 267.5 84.45 264.9 82.7C262.3 80.94 259.2 79.1 256 79.1C251.8 79.1 247.7 81.69 244.7 84.69V84.69zM116.7 116.7C113.7 119.7 112 123.8 112 128C112 131.2 112.9 134.3 114.7 136.9C116.5 139.5 118.1 141.6 121.9 142.8C124.8 143.1 128 144.3 131.1 143.7C134.2 143.1 137.1 141.6 139.3 139.3C141.6 137.1 143.1 134.2 143.7 131.1C144.3 128 143.1 124.8 142.8 121.9C141.6 118.1 139.5 116.5 136.9 114.7C134.3 112.9 131.2 111.1 128 111.1C123.8 111.1 119.7 113.7 116.7 116.7L116.7 116.7z"]
 };
 var faHamburger = faBurger;
+var faBurst = {
+  prefix: 'fas',
+  iconName: 'burst',
+  icon: [512, 512, [], "e4dc", "M200.9 116.2L233.2 16.6C236.4 6.706 245.6 .001 256 .001C266.4 .001 275.6 6.706 278.8 16.6L313.3 123.1L383.8 97.45C392.6 94.26 402.4 96.43 408.1 103C415.6 109.6 417.7 119.4 414.6 128.2L388.9 198.7L495.4 233.2C505.3 236.4 512 245.6 512 256C512 266.4 505.3 275.6 495.4 278.8L392.3 312.2L445.2 412.8C450.1 422.1 448.4 433.5 440.1 440.1C433.5 448.4 422.1 450.1 412.8 445.2L312.2 392.3L278.8 495.4C275.6 505.3 266.4 512 256 512C245.6 512 236.4 505.3 233.2 495.4L199.8 392.3L99.17 445.2C89.87 450.1 78.46 448.4 71.03 440.1C63.6 433.5 61.87 422.1 66.76 412.8L119.7 312.2L16.6 278.8C6.705 275.6 .0003 266.4 .0003 256C.0003 245.6 6.705 236.4 16.6 233.2L116.2 200.9L4.208 37.57C-2.33 28.04-1.143 15.2 7.03 7.03C15.2-1.144 28.04-2.33 37.57 4.208L200.9 116.2z"]
+};
 var faBus = {
   prefix: 'fas',
   iconName: 'bus',
@@ -9682,10 +10216,16 @@ var faCarBattery = {
   icon: [512, 512, ["battery-car"], "f5df", "M80 96C80 78.33 94.33 64 112 64H176C193.7 64 208 78.33 208 96H304C304 78.33 318.3 64 336 64H400C417.7 64 432 78.33 432 96H448C483.3 96 512 124.7 512 160V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V160C0 124.7 28.65 96 64 96H80zM384 192C384 183.2 376.8 176 368 176C359.2 176 352 183.2 352 192V224H320C311.2 224 304 231.2 304 240C304 248.8 311.2 256 320 256H352V288C352 296.8 359.2 304 368 304C376.8 304 384 296.8 384 288V256H416C424.8 256 432 248.8 432 240C432 231.2 424.8 224 416 224H384V192zM96 256H192C200.8 256 208 248.8 208 240C208 231.2 200.8 224 192 224H96C87.16 224 80 231.2 80 240C80 248.8 87.16 256 96 256z"]
 };
 var faBatteryCar = faCarBattery;
-var faCarCrash = {
+var faCarBurst = {
   prefix: 'fas',
-  iconName: 'car-crash',
-  icon: [640, 512, [], "f5e1", "M176 8C182.6 8 188.4 11.1 190.9 18.09L220.3 92.05L296.4 68.93C302.7 67.03 309.5 69.14 313.6 74.27C314.1 74.85 314.5 75.45 314.9 76.08C297.8 84.32 282.7 96.93 271.4 113.3L230.4 172.5C203.1 181.4 180.6 203.5 172.6 233.4L152.7 307.4L117.4 339.9C112.6 344.4 105.5 345.4 99.64 342.6C93.73 339.7 90.16 333.6 90.62 327L96.21 247.6L17.56 235.4C11.08 234.4 5.871 229.6 4.413 223.2C2.954 216.8 5.54 210.1 10.94 206.4L76.5 161.3L37.01 92.18C33.76 86.49 34.31 79.39 38.4 74.27C42.48 69.14 49.28 67.03 55.55 68.93L131.7 92.05L161.1 18.09C163.6 11.1 169.4 8 176 8L176 8zM384.2 99.67L519.8 135.1C552.5 144.7 576.1 173.1 578.8 206.8L585.7 290.7C602.9 304.2 611.3 327 605.3 349.4L570.1 480.8C565.5 497.8 547.1 507.1 530.9 503.4L515.5 499.3C498.4 494.7 488.3 477.1 492.8 460.1L501.1 429.1L253.8 362.9L245.6 393.8C240.1 410.9 223.4 421 206.4 416.4L190.9 412.3C173.8 407.7 163.7 390.2 168.3 373.1L203.5 241.7C209.5 219.3 228.2 203.8 249.8 200.7L297.7 131.5C316.9 103.6 351.6 90.92 384.2 99.67L384.2 99.67zM367.7 161.5C361.1 159.7 354.2 162.3 350.4 167.8L318.1 214.5L519.6 268.5L515 211.1C514.5 205.2 509.8 199.6 503.2 197.8L367.7 161.5zM268.3 308.8C281.1 312.2 294.3 304.6 297.7 291.8C301.2 279 293.6 265.9 280.8 262.4C267.1 259 254.8 266.6 251.4 279.4C247.9 292.2 255.5 305.4 268.3 308.8zM528 328.7C515.2 325.3 502.1 332.9 498.6 345.7C495.2 358.5 502.8 371.6 515.6 375.1C528.4 378.5 541.6 370.9 545 358.1C548.4 345.3 540.8 332.1 528 328.7z"]
+  iconName: 'car-burst',
+  icon: [640, 512, ["car-crash"], "f5e1", "M176 8C182.6 8 188.4 11.1 190.9 18.09L220.3 92.05L296.4 68.93C302.7 67.03 309.5 69.14 313.6 74.27C314.1 74.85 314.5 75.45 314.9 76.08C297.8 84.32 282.7 96.93 271.4 113.3L230.4 172.5C203.1 181.4 180.6 203.5 172.6 233.4L152.7 307.4L117.4 339.9C112.6 344.4 105.5 345.4 99.64 342.6C93.73 339.7 90.16 333.6 90.62 327L96.21 247.6L17.56 235.4C11.08 234.4 5.871 229.6 4.413 223.2C2.954 216.8 5.54 210.1 10.94 206.4L76.5 161.3L37.01 92.18C33.76 86.49 34.31 79.39 38.4 74.27C42.48 69.14 49.28 67.03 55.55 68.93L131.7 92.05L161.1 18.09C163.6 11.1 169.4 8 176 8L176 8zM384.2 99.67L519.8 135.1C552.5 144.7 576.1 173.1 578.8 206.8L585.7 290.7C602.9 304.2 611.3 327 605.3 349.4L570.1 480.8C565.5 497.8 547.1 507.1 530.9 503.4L515.5 499.3C498.4 494.7 488.3 477.1 492.8 460.1L501.1 429.1L253.8 362.9L245.6 393.8C240.1 410.9 223.4 421 206.4 416.4L190.9 412.3C173.8 407.7 163.7 390.2 168.3 373.1L203.5 241.7C209.5 219.3 228.2 203.8 249.8 200.7L297.7 131.5C316.9 103.6 351.6 90.92 384.2 99.67L384.2 99.67zM367.7 161.5C361.1 159.7 354.2 162.3 350.4 167.8L318.1 214.5L519.6 268.5L515 211.1C514.5 205.2 509.8 199.6 503.2 197.8L367.7 161.5zM268.3 308.8C281.1 312.2 294.3 304.6 297.7 291.8C301.2 279 293.6 265.9 280.8 262.4C267.1 259 254.8 266.6 251.4 279.4C247.9 292.2 255.5 305.4 268.3 308.8zM528 328.7C515.2 325.3 502.1 332.9 498.6 345.7C495.2 358.5 502.8 371.6 515.6 375.1C528.4 378.5 541.6 370.9 545 358.1C548.4 345.3 540.8 332.1 528 328.7z"]
+};
+var faCarCrash = faCarBurst;
+var faCarOn = {
+  prefix: 'fas',
+  iconName: 'car-on',
+  icon: [448, 512, [], "e4dd", "M248 104C248 117.3 237.3 128 224 128C210.7 128 200 117.3 200 104V24C200 10.75 210.7 0 224 0C237.3 0 248 10.75 248 24V104zM153.8 160H294.2C327.1 160 358.1 181.3 369.5 213.1L397.8 292.4C417.9 300.9 432 320.8 432 344V480C432 497.7 417.7 512 400 512H384C366.3 512 352 497.7 352 480V448H96V480C96 497.7 81.67 512 64 512H48C30.33 512 16 497.7 16 480V344C16 320.8 30.08 300.9 50.16 292.4L78.49 213.1C89.86 181.3 120 160 153.8 160H153.8zM153.8 224C147.1 224 141 228.3 138.8 234.6L119.7 288H328.3L309.2 234.6C306.1 228.3 300.9 224 294.2 224H153.8zM96 392C109.3 392 120 381.3 120 368C120 354.7 109.3 344 96 344C82.75 344 72 354.7 72 368C72 381.3 82.75 392 96 392zM352 344C338.7 344 328 354.7 328 368C328 381.3 338.7 392 352 392C365.3 392 376 381.3 376 368C376 354.7 365.3 344 352 344zM7.029 39.03C16.4 29.66 31.6 29.66 40.97 39.03L88.97 87.03C98.34 96.4 98.34 111.6 88.97 120.1C79.6 130.3 64.4 130.3 55.03 120.1L7.029 72.97C-2.343 63.6-2.343 48.4 7.029 39.03V39.03zM407 39.03C416.4 29.66 431.6 29.66 440.1 39.03C450.3 48.4 450.3 63.6 440.1 72.97L392.1 120.1C383.6 130.3 368.4 130.3 359 120.1C349.7 111.6 349.7 96.4 359 87.03L407 39.03z"]
 };
 var faCarRear = {
   prefix: 'fas',
@@ -9697,6 +10237,11 @@ var faCarSide = {
   prefix: 'fas',
   iconName: 'car-side',
   icon: [640, 512, [128663], "f5e4", "M640 320V368C640 385.7 625.7 400 608 400H574.7C567.1 445.4 527.6 480 480 480C432.4 480 392.9 445.4 385.3 400H254.7C247.1 445.4 207.6 480 160 480C112.4 480 72.94 445.4 65.33 400H32C14.33 400 0 385.7 0 368V256C0 228.9 16.81 205.8 40.56 196.4L82.2 92.35C96.78 55.9 132.1 32 171.3 32H353.2C382.4 32 409.1 45.26 428.2 68.03L528.2 193C591.2 200.1 640 254.8 640 319.1V320zM171.3 96C158.2 96 146.5 103.1 141.6 116.1L111.3 192H224V96H171.3zM272 192H445.4L378.2 108C372.2 100.4 362.1 96 353.2 96H272V192zM525.3 400C527 394.1 528 389.6 528 384C528 357.5 506.5 336 480 336C453.5 336 432 357.5 432 384C432 389.6 432.1 394.1 434.7 400C441.3 418.6 459.1 432 480 432C500.9 432 518.7 418.6 525.3 400zM205.3 400C207 394.1 208 389.6 208 384C208 357.5 186.5 336 160 336C133.5 336 112 357.5 112 384C112 389.6 112.1 394.1 114.7 400C121.3 418.6 139.1 432 160 432C180.9 432 198.7 418.6 205.3 400z"]
+};
+var faCarTunnel = {
+  prefix: 'fas',
+  iconName: 'car-tunnel',
+  icon: [512, 512, [], "e4de", "M190.8 277.5C191.8 274.2 194.9 272 198.4 272H313.6C317.1 272 320.2 274.2 321.2 277.5L334.1 320H177L190.8 277.5zM144 384C144 370.7 154.7 360 168 360C181.3 360 192 370.7 192 384C192 397.3 181.3 408 168 408C154.7 408 144 397.3 144 384zM368 384C368 397.3 357.3 408 344 408C330.7 408 320 397.3 320 384C320 370.7 330.7 360 344 360C357.3 360 368 370.7 368 384zM512 256V448C512 483.3 483.3 512 448 512H384H128H64C28.65 512 0 483.3 0 448V256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM384 512C401.7 512 416 497.7 416 480V376C416 355.2 404.7 337.1 387.8 327.4L366.9 262.7C359.4 239.6 337.9 224 313.6 224H198.4C174.1 224 152.6 239.6 145.1 262.7L124.1 327.4C107.3 337.1 96 355.2 96 376V480C96 497.7 110.3 512 128 512C145.7 512 160 497.7 160 480V448H352V480C352 497.7 366.3 512 384 512H384z"]
 };
 var faCaravan = {
   prefix: 'fas',
@@ -9843,6 +10388,11 @@ var faChartPie = {
   icon: [576, 512, ["pie-chart"], "f200", "M304 16.58C304 7.555 310.1 0 320 0C443.7 0 544 100.3 544 224C544 233 536.4 240 527.4 240H304V16.58zM32 272C32 150.7 122.1 50.34 238.1 34.25C248.2 32.99 256 40.36 256 49.61V288L412.5 444.5C419.2 451.2 418.7 462.2 411 467.7C371.8 495.6 323.8 512 272 512C139.5 512 32 404.6 32 272zM558.4 288C567.6 288 575 295.8 573.8 305C566.1 360.9 539.1 410.6 499.9 447.3C493.9 452.1 484.5 452.5 478.7 446.7L320 288H558.4z"]
 };
 var faPieChart = faChartPie;
+var faChartSimple = {
+  prefix: 'fas',
+  iconName: 'chart-simple',
+  icon: [448, 512, [], "e473", "M160 80C160 53.49 181.5 32 208 32H240C266.5 32 288 53.49 288 80V432C288 458.5 266.5 480 240 480H208C181.5 480 160 458.5 160 432V80zM0 272C0 245.5 21.49 224 48 224H80C106.5 224 128 245.5 128 272V432C128 458.5 106.5 480 80 480H48C21.49 480 0 458.5 0 432V272zM400 96C426.5 96 448 117.5 448 144V432C448 458.5 426.5 480 400 480H368C341.5 480 320 458.5 320 432V144C320 117.5 341.5 96 368 96H400z"]
+};
 var faCheck = {
   prefix: 'fas',
   iconName: 'check',
@@ -9927,7 +10477,27 @@ var faChevronUp = {
 var faChild = {
   prefix: 'fas',
   iconName: 'child',
-  icon: [448, 512, [], "f1ae", "M224 144c39.75 0 72-32.25 72-72S263.8-.0004 224-.0004S151.1 32.25 151.1 72S184.3 144 224 144zM415.1 110.8c-13.89-17.14-39.06-19.8-56.25-5.906L307.6 146.4c-47.16 38.19-120.1 38.19-167.3 0L89.17 104.9C72.02 91 46.8 93.67 32.92 110.8C19.02 128 21.66 153.2 38.83 167.1l51.19 41.47c11.73 9.496 24.63 17.16 37.98 23.92L127.1 480c0 17.62 14.38 32 32 32h15.1c17.62 0 32-14.38 32-32v-112h32V480c0 17.62 14.38 32 32 32h15.1c17.62 0 32-14.38 32-32l-.0001-247.5c13.35-6.756 26.25-14.42 37.97-23.91l51.2-41.47C426.3 153.2 428.1 128 415.1 110.8z"]
+  icon: [320, 512, [], "f1ae", "M224 64C224 99.35 195.3 128 160 128C124.7 128 96 99.35 96 64C96 28.65 124.7 0 160 0C195.3 0 224 28.65 224 64zM144 384V480C144 497.7 129.7 512 112 512C94.33 512 80.01 497.7 80.01 480V287.8L59.09 321C49.67 336 29.92 340.5 14.96 331.1C.0016 321.7-4.491 301.9 4.924 286.1L44.79 223.6C69.72 184 113.2 160 160 160C206.8 160 250.3 184 275.2 223.6L315.1 286.1C324.5 301.9 320 321.7 305.1 331.1C290.1 340.5 270.3 336 260.9 321L240 287.8V480C240 497.7 225.7 512 208 512C190.3 512 176 497.7 176 480V384L144 384z"]
+};
+var faChildDress = {
+  prefix: 'fas',
+  iconName: 'child-dress',
+  icon: [320, 512, [], "e59c", "M223.1 64C223.1 99.35 195.3 128 159.1 128C124.7 128 95.1 99.35 95.1 64C95.1 28.65 124.7 0 159.1 0C195.3 0 223.1 28.65 223.1 64zM70.2 400C59.28 400 51.57 389.3 55.02 378.9L86.16 285.5L57.5 323.3C46.82 337.4 26.75 340.2 12.67 329.5C-1.415 318.8-4.175 298.7 6.503 284.7L65.4 206.1C87.84 177.4 122.9 160 160 160C197.2 160 232.2 177.4 254.6 206.1L313.5 284.7C324.2 298.7 321.4 318.8 307.3 329.5C293.3 340.2 273.2 337.4 262.5 323.3L233.9 285.6L264.1 378.9C268.4 389.3 260.7 400 249.8 400H232V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V400H152V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V400H70.2z"]
+};
+var faChildReaching = {
+  prefix: 'fas',
+  iconName: 'child-reaching',
+  icon: [384, 512, [], "e59d", "M256 64C256 99.35 227.3 128 192 128C156.7 128 128 99.35 128 64C128 28.65 156.7 0 192 0C227.3 0 256 28.65 256 64zM155.7 170.2C167.3 173.1 179.6 176 192.2 176C232.1 176 269.3 155.8 291 122.4L309.2 94.54C318.8 79.73 338.6 75.54 353.5 85.18C368.3 94.82 372.5 114.6 362.8 129.5L344.7 157.3C326.4 185.4 301.2 207.3 272 221.6V480C272 497.7 257.7 512 240 512C222.3 512 208 497.7 208 480V384H176V480C176 497.7 161.7 512 144 512C126.3 512 112 497.7 112 480V221.4C83.63 207.4 58.94 186.1 40.87 158.1L21.37 129.8C11.57 115 15.54 95.18 30.25 85.37C44.95 75.57 64.82 79.54 74.62 94.25L94.12 123.5C108.5 145 129.2 160.9 152.9 169.3C153.9 169.5 154.8 169.8 155.7 170.2V170.2z"]
+};
+var faChildRifle = {
+  prefix: 'fas',
+  iconName: 'child-rifle',
+  icon: [512, 512, [], "e4e0", "M79.1 64C79.1 28.65 108.7 .0003 143.1 .0003C179.3 .0003 207.1 28.65 207.1 64C207.1 99.35 179.3 128 143.1 128C108.7 128 79.1 99.35 79.1 64V64zM104 512C86.33 512 72 497.7 72 480V300.5L59.09 321C49.67 336 29.91 340.5 14.96 331.1C.0006 321.7-4.492 301.9 4.923 286.1L56.6 204.9C74.17 176.9 104.9 160 137.8 160H150.2C183.2 160 213.8 176.9 231.4 204.9L283.1 286.1C292.5 301.9 288 321.7 273 331.1C258.1 340.5 238.3 336 228.9 321L216 300.5V480C216 497.7 201.7 512 184 512C166.3 512 152 497.7 152 480V352H136V480C136 497.7 121.7 512 104 512V512zM432 16V132.3C441.6 137.8 448 148.2 448 160V269.3L464 264V208C464 199.2 471.2 192 480 192H496C504.8 192 512 199.2 512 208V292.5C512 299.4 507.6 305.5 501.1 307.6L448 325.3V352H496C504.8 352 512 359.2 512 368V384C512 392.8 504.8 400 496 400H452L475 492.1C477.6 502.2 469.9 512 459.5 512H400C391.2 512 384 504.8 384 496V400H368C350.3 400 336 385.7 336 368V224C336 206.3 350.3 192 368 192V160C368 148.2 374.4 137.8 384 132.3V32C375.2 32 368 24.84 368 16C368 7.164 375.2 0 384 0H416C424.8 0 432 7.164 432 16V16z"]
+};
+var faChildren = {
+  prefix: 'fas',
+  iconName: 'children',
+  icon: [640, 512, [], "e4e1", "M95.1 64C95.1 28.65 124.7 0 159.1 0C195.3 0 223.1 28.65 223.1 64C223.1 99.35 195.3 128 159.1 128C124.7 128 95.1 99.35 95.1 64zM88 480V400H70.2C59.28 400 51.57 389.3 55.02 378.9L86.16 285.5L57.5 323.3C46.82 337.4 26.75 340.2 12.67 329.5C-1.415 318.8-4.175 298.7 6.503 284.7L65.4 206.1C87.84 177.4 122.9 160 160 160C197.2 160 232.2 177.4 254.6 206.1L313.5 284.7C324.2 298.7 321.4 318.8 307.3 329.5C293.3 340.2 273.2 337.4 262.5 323.3L233.9 285.6L264.1 378.9C268.4 389.3 260.7 400 249.8 400H232V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V400H152V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480H88zM416 64C416 28.65 444.7 0 480 0C515.3 0 544 28.65 544 64C544 99.35 515.3 128 480 128C444.7 128 416 99.35 416 64V64zM472 384V480C472 497.7 457.7 512 440 512C422.3 512 408 497.7 408 480V300.5L395.1 321C385.7 336 365.9 340.5 350.1 331.1C336 321.7 331.5 301.9 340.9 286.1L392.6 204.9C410.2 176.9 440.9 159.1 473.8 159.1H486.2C519.2 159.1 549.8 176.9 567.4 204.9L619.1 286.1C628.5 301.9 624 321.7 609 331.1C594.1 340.5 574.3 336 564.9 321L552 300.5V480C552 497.7 537.7 512 520 512C502.3 512 488 497.7 488 480V384L472 384z"]
 };
 var faChurch = {
   prefix: 'fas',
@@ -10047,6 +10617,11 @@ var faCircleMinus = {
   icon: [512, 512, ["minus-circle"], "f056", "M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM168 232C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H168z"]
 };
 var faMinusCircle = faCircleMinus;
+var faCircleNodes = {
+  prefix: 'fas',
+  iconName: 'circle-nodes',
+  icon: [512, 512, [], "e4e2", "M380.6 365.6C401.1 379.9 416 404.3 416 432C416 476.2 380.2 512 336 512C291.8 512 256 476.2 256 432C256 423.6 257.3 415.4 259.7 407.8L114.1 280.4C103.8 285.3 92.21 288 80 288C35.82 288 0 252.2 0 208C0 163.8 35.82 128 80 128C101.9 128 121.7 136.8 136.2 151.1L320 77.52C321.3 34.48 356.6 0 400 0C444.2 0 480 35.82 480 80C480 117.9 453.7 149.6 418.4 157.9L380.6 365.6zM156.3 232.2L301.9 359.6C306.9 357.3 312.1 355.4 317.6 354.1L355.4 146.4C351.2 143.6 347.4 140.4 343.8 136.9L159.1 210.5C159.7 218 158.5 225.3 156.3 232.2V232.2z"]
+};
 var faCircleNotch = {
   prefix: 'fas',
   iconName: 'circle-notch',
@@ -10138,6 +10713,16 @@ var faClipboardList = {
   iconName: 'clipboard-list',
   icon: [384, 512, [], "f46d", "M336 64h-53.88C268.9 26.8 233.7 0 192 0S115.1 26.8 101.9 64H48C21.5 64 0 85.48 0 112v352C0 490.5 21.5 512 48 512h288c26.5 0 48-21.48 48-48v-352C384 85.48 362.5 64 336 64zM96 392c-13.25 0-24-10.75-24-24S82.75 344 96 344s24 10.75 24 24S109.3 392 96 392zM96 296c-13.25 0-24-10.75-24-24S82.75 248 96 248S120 258.8 120 272S109.3 296 96 296zM192 64c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S160 113.7 160 96C160 78.33 174.3 64 192 64zM304 384h-128C167.2 384 160 376.8 160 368C160 359.2 167.2 352 176 352h128c8.801 0 16 7.199 16 16C320 376.8 312.8 384 304 384zM304 288h-128C167.2 288 160 280.8 160 272C160 263.2 167.2 256 176 256h128C312.8 256 320 263.2 320 272C320 280.8 312.8 288 304 288z"]
 };
+var faClipboardQuestion = {
+  prefix: 'fas',
+  iconName: 'clipboard-question',
+  icon: [384, 512, [], "e4e3", "M282.5 64H320C355.3 64 384 92.65 384 128V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V128C0 92.65 28.65 64 64 64H101.5C114.6 26.71 150.2 0 192 0C233.8 0 269.4 26.71 282.5 64zM192 128C209.7 128 224 113.7 224 96C224 78.33 209.7 64 192 64C174.3 64 160 78.33 160 96C160 113.7 174.3 128 192 128zM105.4 230.5C100.9 243 107.5 256.7 119.1 261.2C132.5 265.6 146.2 259.1 150.6 246.6L151.1 245.3C152.2 242.1 155.2 240 158.6 240H216.9C225.2 240 232 246.8 232 255.1C232 260.6 229.1 265.6 224.4 268.3L180.1 293.7C172.6 298 168 305.9 168 314.5V328C168 341.3 178.7 352 192 352C205.1 352 215.8 341.5 215.1 328.4L248.3 309.9C267.9 298.7 280 277.8 280 255.1C280 220.3 251.7 192 216.9 192H158.6C134.9 192 113.8 206.9 105.8 229.3L105.4 230.5zM192 384C174.3 384 160 398.3 160 416C160 433.7 174.3 448 192 448C209.7 448 224 433.7 224 416C224 398.3 209.7 384 192 384z"]
+};
+var faClipboardUser = {
+  prefix: 'fas',
+  iconName: 'clipboard-user',
+  icon: [384, 512, [], "f7f3", "M336 64h-53.88C268.9 26.8 233.7 0 192 0S115.1 26.8 101.9 64H48C21.5 64 0 85.48 0 112v352C0 490.5 21.5 512 48 512h288c26.5 0 48-21.48 48-48v-352C384 85.48 362.5 64 336 64zM192 64c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S160 113.7 160 96C160 78.33 174.3 64 192 64zM192 192c35.35 0 64 28.65 64 64s-28.65 64-64 64S128 291.3 128 256S156.7 192 192 192zM288 448H96c-8.836 0-16-7.164-16-16C80 387.8 115.8 352 160 352h64c44.18 0 80 35.82 80 80C304 440.8 296.8 448 288 448z"]
+};
 var faClock = {
   prefix: 'fas',
   iconName: 'clock',
@@ -10179,6 +10764,12 @@ var faCloudArrowUp = {
 };
 var faCloudUpload = faCloudArrowUp;
 var faCloudUploadAlt = faCloudArrowUp;
+var faCloudBolt = {
+  prefix: 'fas',
+  iconName: 'cloud-bolt',
+  icon: [512, 512, [127785, "thunderstorm"], "f76c", "M352 351.1h-71.25l47.44-105.4c3.062-6.781 1.031-14.81-4.906-19.31c-5.969-4.469-14.22-4.312-19.94 .4687l-153.6 128c-5.156 4.312-7.094 11.41-4.781 17.72c2.281 6.344 8.281 10.56 15.03 10.56h71.25l-47.44 105.4c-3.062 6.781-1.031 14.81 4.906 19.31C191.6 510.9 194.1 512 198.4 512c3.656 0 7.281-1.25 10.25-3.719l153.6-128c5.156-4.312 7.094-11.41 4.781-17.72C364.8 356.2 358.8 351.1 352 351.1zM416 128c-.625 0-1.125 .25-1.625 .25C415.5 123 416 117.6 416 112C416 67.75 380.3 32 336 32c-24.62 0-46.25 11.25-61 28.75C256.4 24.75 219.3 0 176 0C114.1 0 64 50.13 64 112c0 7.25 .75 14.25 2.125 21.25C27.75 145.8 0 181.5 0 224c0 53 43 96 96 96h46.63l140.2-116.8c8.605-7.195 19.53-11.16 30.76-11.16c10.34 0 20.6 3.416 29.03 9.734c17.96 13.61 24.02 37.45 14.76 57.95L330.2 320H416c53 0 96-43 96-96S469 128 416 128z"]
+};
+var faThunderstorm = faCloudBolt;
 var faCloudMeatball = {
   prefix: 'fas',
   iconName: 'cloud-meatball',
@@ -10203,6 +10794,11 @@ var faCloudShowersHeavy = {
   prefix: 'fas',
   iconName: 'cloud-showers-heavy',
   icon: [512, 512, [], "f740", "M416 128c-.625 0-1.125 .25-1.625 .25C415.5 123 416 117.6 416 112c0-44.25-35.75-80-79.1-80c-24.62 0-46.25 11.25-60.1 28.75C256.4 24.75 219.3 0 176 0C114.3 0 64 50.13 64 112c0 7.25 .7512 14.25 2.126 21.25C27.76 145.8 .0054 181.5 .0054 224c0 53 42.1 96 95.1 96h319.1C469 320 512 277 512 224S469 128 416 128zM198.8 353.9c-12.17-5.219-26.3 .4062-31.52 12.59l-47.1 112c-5.219 12.19 .4219 26.31 12.61 31.53C134.1 511.4 138.2 512 141.3 512c9.312 0 18.17-5.438 22.08-14.53l47.1-112C216.6 373.3 210.1 359.2 198.8 353.9zM81.46 353.9c-12.19-5.219-26.3 .4062-31.52 12.59l-47.1 112C-3.276 490.7 2.365 504.8 14.55 510.1C17.63 511.4 20.83 512 23.99 512c9.312 0 18.17-5.438 22.08-14.53l47.1-112C99.29 373.3 93.64 359.2 81.46 353.9zM316.1 353.9c-12.19-5.219-26.3 .4062-31.52 12.59l-47.1 112c-5.219 12.19 .4219 26.31 12.61 31.53C252.3 511.4 255.5 512 258.7 512c9.312 0 18.17-5.438 22.08-14.53l47.1-112C333.1 373.3 328.3 359.2 316.1 353.9zM433.5 353.9c-12.17-5.219-26.28 .4062-31.52 12.59l-47.1 112c-5.219 12.19 .4219 26.31 12.61 31.53C369.6 511.4 372.8 512 375.1 512c9.312 0 18.17-5.438 22.08-14.53l47.1-112C451.3 373.3 445.6 359.2 433.5 353.9z"]
+};
+var faCloudShowersWater = {
+  prefix: 'fas',
+  iconName: 'cloud-showers-water',
+  icon: [576, 512, [], "e4e4", "M223.1 0C262.6 0 295.9 22.82 311.2 55.7C325.7 41.07 345.8 32 368 32C406.7 32 438.1 59.48 446.4 96H448C483.3 96 512 124.7 512 160C512 195.3 483.3 224 448 224H127.1C92.65 224 63.1 195.3 63.1 160C63.1 124.7 92.65 96 127.1 96C127.1 42.98 170.1 0 223.1 0zM92.58 372.3C85.76 383.7 71.02 387.4 59.65 380.6C48.29 373.8 44.6 359 51.42 347.7L99.42 267.7C106.2 256.3 120.1 252.6 132.3 259.4C143.7 266.2 147.4 280.1 140.6 292.3L92.58 372.3zM468.3 259.4C479.7 266.2 483.4 280.1 476.6 292.3L428.6 372.3C421.8 383.7 407 387.4 395.7 380.6C384.3 373.8 380.6 359 387.4 347.7L435.4 267.7C442.2 256.3 456.1 252.6 468.3 259.4V259.4zM204.6 372.3C197.8 383.7 183 387.4 171.7 380.6C160.3 373.8 156.6 359 163.4 347.7L211.4 267.7C218.2 256.3 232.1 252.6 244.3 259.4C255.7 266.2 259.4 280.1 252.6 292.3L204.6 372.3zM356.3 259.4C367.7 266.2 371.4 280.1 364.6 292.3L316.6 372.3C309.8 383.7 295 387.4 283.7 380.6C272.3 373.8 268.6 359 275.4 347.7L323.4 267.7C330.2 256.3 344.1 252.6 356.3 259.4V259.4zM384 448C410.9 448 439.4 437.2 461.4 421.9L461.5 421.9C473.4 413.4 489.5 414.1 500.7 423.6C515 435.5 533.2 444.6 551.3 448.8C568.5 452.8 579.2 470.1 575.2 487.3C571.2 504.5 553.1 515.2 536.7 511.2C512.2 505.4 491.9 494.6 478.5 486.2C449.5 501.7 417 512 384 512C352.1 512 323.4 502.1 303.6 493.1C297.7 490.5 292.5 487.8 288 485.4C283.5 487.8 278.3 490.5 272.4 493.1C252.6 502.1 223.9 512 192 512C158.1 512 126.5 501.7 97.5 486.2C84.12 494.6 63.79 505.4 39.27 511.2C22.06 515.2 4.853 504.5 .8422 487.3C-3.169 470.1 7.532 452.8 24.74 448.8C42.84 444.6 60.96 435.5 75.31 423.6C86.46 414.1 102.6 413.4 114.5 421.9L114.6 421.9C136.7 437.2 165.1 448 192 448C219.5 448 247 437.4 269.5 421.9C280.6 414 295.4 414 306.5 421.9C328.1 437.4 356.5 448 384 448H384z"]
 };
 var faCloudSun = {
   prefix: 'fas',
@@ -10327,6 +10923,11 @@ var faCompress = {
   iconName: 'compress',
   icon: [448, 512, [], "f066", "M128 320H32c-17.69 0-32 14.31-32 32s14.31 32 32 32h64v64c0 17.69 14.31 32 32 32s32-14.31 32-32v-96C160 334.3 145.7 320 128 320zM416 320h-96c-17.69 0-32 14.31-32 32v96c0 17.69 14.31 32 32 32s32-14.31 32-32v-64h64c17.69 0 32-14.31 32-32S433.7 320 416 320zM320 192h96c17.69 0 32-14.31 32-32s-14.31-32-32-32h-64V64c0-17.69-14.31-32-32-32s-32 14.31-32 32v96C288 177.7 302.3 192 320 192zM128 32C110.3 32 96 46.31 96 64v64H32C14.31 128 0 142.3 0 160s14.31 32 32 32h96c17.69 0 32-14.31 32-32V64C160 46.31 145.7 32 128 32z"]
 };
+var faComputer = {
+  prefix: 'fas',
+  iconName: 'computer',
+  icon: [640, 512, [], "e4e5", "M400 32C426.5 32 448 53.49 448 80V336C448 362.5 426.5 384 400 384H266.7L277.3 416H352C369.7 416 384 430.3 384 448C384 465.7 369.7 480 352 480H96C78.33 480 64 465.7 64 448C64 430.3 78.33 416 96 416H170.7L181.3 384H48C21.49 384 0 362.5 0 336V80C0 53.49 21.49 32 48 32H400zM64 96V320H384V96H64zM592 32C618.5 32 640 53.49 640 80V432C640 458.5 618.5 480 592 480H528C501.5 480 480 458.5 480 432V80C480 53.49 501.5 32 528 32H592zM544 96C535.2 96 528 103.2 528 112C528 120.8 535.2 128 544 128H576C584.8 128 592 120.8 592 112C592 103.2 584.8 96 576 96H544zM544 192H576C584.8 192 592 184.8 592 176C592 167.2 584.8 160 576 160H544C535.2 160 528 167.2 528 176C528 184.8 535.2 192 544 192zM560 400C577.7 400 592 385.7 592 368C592 350.3 577.7 336 560 336C542.3 336 528 350.3 528 368C528 385.7 542.3 400 560 400z"]
+};
 var faComputerMouse = {
   prefix: 'fas',
   iconName: 'computer-mouse',
@@ -10357,6 +10958,11 @@ var faCouch = {
   prefix: 'fas',
   iconName: 'couch',
   icon: [640, 512, [], "f4b8", "M592 224C565.5 224 544 245.5 544 272V352H96V272C96 245.5 74.51 224 48 224S0 245.5 0 272v192C0 472.8 7.164 480 16 480h64c8.836 0 15.1-7.164 15.1-16L96 448h448v16c0 8.836 7.164 16 16 16h64c8.836 0 16-7.164 16-16v-192C640 245.5 618.5 224 592 224zM128 272V320h384V272c0-38.63 27.53-70.95 64-78.38V160c0-70.69-57.31-128-128-128H191.1c-70.69 0-128 57.31-128 128L64 193.6C100.5 201.1 128 233.4 128 272z"]
+};
+var faCow = {
+  prefix: 'fas',
+  iconName: 'cow',
+  icon: [640, 512, [128004], "f6c8", "M634 276.8l-9.999-13.88L624 185.7c0-11.88-12.5-19.49-23.12-14.11c-10.88 5.375-19.5 13.5-26.38 23l-65.75-90.92C490.6 78.71 461.8 64 431 64H112C63.37 64 24 103.4 24 152v86.38C9.5 250.1 0 267.9 0 288v32h8c35.38 0 64-28.62 64-64L72 152c0-16.88 10.5-31.12 25.38-37C96.5 119.1 96 123.5 96 128l.0002 304c0 8.875 7.126 16 16 16h63.1c8.875 0 16-7.125 16-16l.0006-112c9.375 9.375 20.25 16.5 32 21.88V368c0 8.875 7.252 16 16 16c8.875 0 15.1-7.125 15.1-16v-17.25c9.125 1 12.88 2.25 32-.125V368c0 8.875 7.25 16 16 16c8.875 0 16-7.125 16-16v-26.12C331.8 336.5 342.6 329.2 352 320l-.0012 112c0 8.875 7.125 16 15.1 16h64c8.75 0 16-7.125 16-16V256l31.1 32l.0006 41.55c0 12.62 3.752 24.95 10.75 35.45l41.25 62C540.8 440.1 555.5 448 571.4 448c22.5 0 41.88-15.88 46.25-38l21.75-108.6C641.1 292.8 639.1 283.9 634 276.8zM377.3 167.4l-22.88 22.75C332.5 211.8 302.9 224 272.1 224S211.5 211.8 189.6 190.1L166.8 167.4C151 151.8 164.4 128 188.9 128h166.2C379.6 128 393 151.8 377.3 167.4zM576 352c-8.875 0-16-7.125-16-16s7.125-16 16-16s16 7.125 16 16S584.9 352 576 352z"]
 };
 var faCreditCard = {
   prefix: 'fas',
@@ -10414,6 +11020,11 @@ var faCubes = {
   prefix: 'fas',
   iconName: 'cubes',
   icon: [576, 512, [], "f1b3", "M172.1 40.16L268.1 3.76C280.9-1.089 295.1-1.089 307.9 3.76L403.9 40.16C425.6 48.41 440 69.25 440 92.52V204.7C441.3 205.1 442.6 205.5 443.9 205.1L539.9 242.4C561.6 250.6 576 271.5 576 294.7V413.9C576 436.1 562.9 456.2 542.5 465.1L446.5 507.3C432.2 513.7 415.8 513.7 401.5 507.3L288 457.5L174.5 507.3C160.2 513.7 143.8 513.7 129.5 507.3L33.46 465.1C13.13 456.2 0 436.1 0 413.9V294.7C0 271.5 14.39 250.6 36.15 242.4L132.1 205.1C133.4 205.5 134.7 205.1 136 204.7V92.52C136 69.25 150.4 48.41 172.1 40.16V40.16zM290.8 48.64C289 47.95 286.1 47.95 285.2 48.64L206.8 78.35L287.1 109.5L369.2 78.35L290.8 48.64zM392 210.6V121L309.6 152.6V241.8L392 210.6zM154.8 250.9C153 250.2 150.1 250.2 149.2 250.9L70.81 280.6L152 311.7L233.2 280.6L154.8 250.9zM173.6 455.3L256 419.1V323.2L173.6 354.8V455.3zM342.8 280.6L424 311.7L505.2 280.6L426.8 250.9C425 250.2 422.1 250.2 421.2 250.9L342.8 280.6zM528 413.9V323.2L445.6 354.8V455.3L523.2 421.2C526.1 419.9 528 417.1 528 413.9V413.9z"]
+};
+var faCubesStacked = {
+  prefix: 'fas',
+  iconName: 'cubes-stacked',
+  icon: [448, 512, [], "e4e6", "M192 64C192 46.33 206.3 32 224 32H288C305.7 32 320 46.33 320 64V128C320 145.7 305.7 160 288 160H224C206.3 160 192 145.7 192 128V64zM138.1 174.1C153.4 166.1 172.1 171.4 181.8 186.7L213.8 242.1C222.6 257.4 217.4 276.1 202.1 285.8L146.7 317.8C131.4 326.6 111.8 321.4 102.1 306.1L70.96 250.7C62.12 235.4 67.37 215.8 82.67 206.1L138.1 174.1zM352 192C369.7 192 384 206.3 384 224V288C384 305.7 369.7 320 352 320H288C270.3 320 256 305.7 256 288V224C256 206.3 270.3 192 288 192H352zM416 352C433.7 352 448 366.3 448 384V448C448 465.7 433.7 480 416 480H352C334.3 480 320 465.7 320 448V384C320 366.3 334.3 352 352 352H416zM160 384C160 366.3 174.3 352 192 352H256C273.7 352 288 366.3 288 384V448C288 465.7 273.7 480 256 480H192C174.3 480 160 465.7 160 448V384zM96 352C113.7 352 128 366.3 128 384V448C128 465.7 113.7 480 96 480H32C14.33 480 0 465.7 0 448V384C0 366.3 14.33 352 32 352H96z"]
 };
 var faD = {
   prefix: 'fas',
@@ -10528,6 +11139,11 @@ var faDisease = {
   prefix: 'fas',
   iconName: 'disease',
   icon: [512, 512, [], "f7fa", "M472.2 195.9l-66.1-22.1c-19.25-6.624-33.5-20.87-38.13-38.24l-16-60.49c-11.62-43.74-76.63-57.11-110-22.62L194.1 99.3c-13.25 13.75-33.5 20.87-54.25 19.25L68.86 112.9c-52-3.999-86.88 44.99-59 82.86l38.63 52.49c11 14.1 12.75 33.74 4.625 50.12l-28.5 56.99c-20.62 41.24 22.88 84.86 73.5 73.86l69.1-15.25c20.12-4.499 41.38 .0001 57 11.62l54.38 40.87c39.38 29.62 101 7.623 104.5-37.24l4.625-61.86c1.375-17.75 12.88-33.87 30.62-42.99l61.1-31.62C526.1 269.8 520.9 212.5 472.2 195.9zM159.1 256c-17.62 0-31.1-14.37-31.1-31.1s14.37-31.1 31.1-31.1s31.1 14.37 31.1 31.1S177.6 256 159.1 256zM287.1 351.1c-17.62 0-31.1-14.37-31.1-31.1c0-17.62 14.37-31.1 31.1-31.1s31.1 14.37 31.1 31.1C319.1 337.6 305.6 351.1 287.1 351.1zM303.1 224c-8.875 0-15.1-7.125-15.1-15.1c0-8.873 7.125-15.1 15.1-15.1s15.1 7.125 15.1 15.1C319.1 216.9 312.9 224 303.1 224z"]
+};
+var faDisplay = {
+  prefix: 'fas',
+  iconName: 'display',
+  icon: [576, 512, [], "e163", "M528 0h-480C21.5 0 0 21.5 0 48v320C0 394.5 21.5 416 48 416h192L224 464H152C138.8 464 128 474.8 128 488S138.8 512 152 512h272c13.25 0 24-10.75 24-24s-10.75-24-24-24H352L336 416h192c26.5 0 48-21.5 48-48v-320C576 21.5 554.5 0 528 0zM512 352H64V64h448V352z"]
 };
 var faDivide = {
   prefix: 'fas',
@@ -10732,7 +11348,12 @@ var faEllipsisV = faEllipsisVertical;
 var faEnvelope = {
   prefix: 'fas',
   iconName: 'envelope',
-  icon: [512, 512, [128386, 61443, 9993], "f0e0", "M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z"]
+  icon: [512, 512, [128386, 61443, 9993], "f0e0", "M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"]
+};
+var faEnvelopeCircleCheck = {
+  prefix: 'fas',
+  iconName: 'envelope-circle-check',
+  icon: [640, 512, [], "e4e8", "M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L478.9 160.8C412.3 167.2 356.5 210.8 332.6 270.6L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM294.4 339.2L320.8 319.4C320.3 324.9 320 330.4 320 336C320 378.5 335.1 417.6 360.2 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2zM640 336C640 415.5 575.5 480 496 480C416.5 480 352 415.5 352 336C352 256.5 416.5 192 496 192C575.5 192 640 256.5 640 336zM540.7 292.7L480 353.4L451.3 324.7C445.1 318.4 434.9 318.4 428.7 324.7C422.4 330.9 422.4 341.1 428.7 347.3L468.7 387.3C474.9 393.6 485.1 393.6 491.3 387.3L563.3 315.3C569.6 309.1 569.6 298.9 563.3 292.7C557.1 286.4 546.9 286.4 540.7 292.7H540.7z"]
 };
 var faEnvelopeOpen = {
   prefix: 'fas',
@@ -10781,6 +11402,11 @@ var faExpand = {
   prefix: 'fas',
   iconName: 'expand',
   icon: [448, 512, [], "f065", "M128 32H32C14.31 32 0 46.31 0 64v96c0 17.69 14.31 32 32 32s32-14.31 32-32V96h64c17.69 0 32-14.31 32-32S145.7 32 128 32zM416 32h-96c-17.69 0-32 14.31-32 32s14.31 32 32 32h64v64c0 17.69 14.31 32 32 32s32-14.31 32-32V64C448 46.31 433.7 32 416 32zM128 416H64v-64c0-17.69-14.31-32-32-32s-32 14.31-32 32v96c0 17.69 14.31 32 32 32h96c17.69 0 32-14.31 32-32S145.7 416 128 416zM416 320c-17.69 0-32 14.31-32 32v64h-64c-17.69 0-32 14.31-32 32s14.31 32 32 32h96c17.69 0 32-14.31 32-32v-96C448 334.3 433.7 320 416 320z"]
+};
+var faExplosion = {
+  prefix: 'fas',
+  iconName: 'explosion',
+  icon: [576, 512, [], "e4e9", "M499.6 11.32C506.3 .5948 520.1-3.127 531.3 2.814C542.4 8.754 547.1 22.32 541.9 33.84L404.8 338.6C406.9 340.9 409 343.3 411.1 345.7L508.2 291.1C518.7 285.2 531.9 287.9 539.1 297.5C546.4 307 545.4 320.5 536.1 328.1L449.9 415.1H378.5C365.4 378.7 329.8 351.1 288 351.1C246.2 351.1 210.6 378.7 197.5 415.1H117.8L42.34 363.7C32.59 356.1 29.23 344.1 34.43 333.5C39.64 322.8 51.84 317.6 63.16 321.1L160.4 351.5C163.3 347.6 166.5 343.8 169.7 340.2L107.4 236.3C101.4 226.3 103.5 213.3 112.5 205.7C121.5 198.1 134.7 198.1 143.6 205.8L246 293.6C247.5 293.2 249 292.8 250.5 292.4L264.1 149.7C265.3 137.4 275.6 127.1 288 127.1C300.4 127.1 310.7 137.4 311.9 149.7L325.4 291.6L499.6 11.32zM544 447.1C561.7 447.1 576 462.3 576 479.1C576 497.7 561.7 511.1 544 511.1H32C14.33 511.1 0 497.7 0 479.1C0 462.3 14.33 447.1 32 447.1H544zM288-.0046C301.3-.0046 312 10.74 312 23.1V71.1C312 85.25 301.3 95.1 288 95.1C274.7 95.1 264 85.25 264 71.1V23.1C264 10.74 274.7-.0046 288-.0046V-.0046z"]
 };
 var faEye = {
   prefix: 'fas',
@@ -11036,6 +11662,11 @@ var faFaucet = {
   iconName: 'faucet',
   icon: [512, 512, [], "e005", "M352 256h-38.54C297.7 242.5 277.9 232.9 256 228V180.5L224 177L192 180.5V228C170.1 233 150.3 242.6 134.5 256H16C7.125 256 0 263.1 0 272v96C0 376.9 7.125 384 16 384h92.78C129.4 421.8 173 448 224 448s94.59-26.25 115.2-64H352c17.62 0 32 14.29 32 31.91S398.4 448 416 448h64c17.62 0 32-14.31 32-31.94C512 327.7 440.4 256 352 256zM81.63 159.9L224 144.9l142.4 15C375.9 160.9 384 153.1 384 143.1V112.9c0-10-8.125-17.74-17.62-16.74L256 107.8V80C256 71.12 248.9 64 240 64h-32C199.1 64 192 71.12 192 80v27.75L81.63 96.14C72.13 95.14 64 102.9 64 112.9v30.24C64 153.1 72.13 160.9 81.63 159.9z"]
 };
+var faFaucetDrip = {
+  prefix: 'fas',
+  iconName: 'faucet-drip',
+  icon: [512, 512, [128688], "e006", "M416 480c0 17.62 14.38 32 32 32s32-14.38 32-32s-32-64-32-64S416 462.4 416 480zM352 192h-38.54C297.7 178.5 277.9 168.9 256 164V116.5L224 113L192 116.5V164C170.1 169 150.3 178.6 134.5 192H16C7.125 192 0 199.1 0 208v96C0 312.9 7.125 320 16 320h92.78C129.4 357.8 173 384 224 384s94.59-26.25 115.2-64H352c17.62 0 32 14.29 32 31.91S398.4 384 416 384h64c17.62 0 32-14.38 32-32C512 263.6 440.4 192 352 192zM81.63 95.88L224 80.88l142.4 15C375.9 96.88 384 89.12 384 79.12V48.89c0-10-8.125-17.74-17.62-16.74L256 43.75V16C256 7.125 248.9 0 240 0h-32C199.1 0 192 7.125 192 16v27.75L81.63 32.14C72.13 31.14 64 38.89 64 48.89V79.12C64 89.12 72.13 96.88 81.63 95.88z"]
+};
 var faFax = {
   prefix: 'fas',
   iconName: 'fax',
@@ -11052,10 +11683,15 @@ var faFeatherPointed = {
   icon: [512, 512, ["feather-alt"], "f56b", "M467.1 241.1L351.1 288h94.34c-7.711 14.85-16.29 29.28-25.87 43.01l-132.5 52.99h85.65c-59.34 52.71-144.1 80.34-264.5 52.82l-68.13 68.13c-9.38 9.38-24.56 9.374-33.94 0c-9.375-9.375-9.375-24.56 0-33.94l253.4-253.4c4.846-6.275 4.643-15.19-1.113-20.95c-6.25-6.25-16.38-6.25-22.62 0l-168.6 168.6C24.56 58 366.9 8.118 478.9 .0846c18.87-1.354 34.41 14.19 33.05 33.05C508.7 78.53 498.5 161.8 467.1 241.1z"]
 };
 var faFeatherAlt = faFeatherPointed;
+var faFerry = {
+  prefix: 'fas',
+  iconName: 'ferry',
+  icon: [576, 512, [], "e4ea", "M352 0C369.7 0 384 14.33 384 32H459.1C479.7 32 490.7 56.29 477.2 71.8L456 96H119.1L98.83 71.8C85.25 56.29 96.27 32 116.9 32H191.1C191.1 14.33 206.3 0 223.1 0L352 0zM95.1 128H480C497.7 128 512 142.3 512 160V283.5C512 296.8 507.8 309.8 500.1 320.7L448.7 392.6C446.8 393.7 444.1 394.9 443.2 396.1C427.7 406.8 409.1 414.2 392.1 416H375.6C358.5 414.2 340.6 406.1 324.8 396.1C302.8 380.6 273.3 380.6 251.2 396.1C236.3 406.3 218.7 414.1 200.5 416H183.9C166.9 414.2 148.3 406.8 132.9 396.1C131.1 394.8 129.2 393.7 127.3 392.6L75.92 320.7C68.17 309.8 64 296.8 64 283.5V160C64 142.3 78.33 128 96 128H95.1zM127.1 288H448V192H127.1V288zM384 448C410.9 448 439.4 437.2 461.4 421.9L461.5 421.9C473.4 413.4 489.5 414.1 500.7 423.6C515 435.5 533.2 444.6 551.3 448.8C568.5 452.8 579.2 470.1 575.2 487.3C571.2 504.5 553.1 515.2 536.7 511.2C512.2 505.4 491.9 494.6 478.5 486.2C449.5 501.7 417 512 384 512C352.1 512 323.4 502.1 303.6 493.1C297.7 490.5 292.5 487.8 288 485.4C283.5 487.8 278.3 490.5 272.4 493.1C252.6 502.1 223.9 512 192 512C158.1 512 126.5 501.7 97.5 486.2C84.12 494.6 63.79 505.4 39.27 511.2C22.06 515.2 4.853 504.5 .8422 487.3C-3.169 470.1 7.532 452.8 24.74 448.8C42.84 444.6 60.96 435.5 75.31 423.6C86.46 414.1 102.6 413.4 114.5 421.9L114.6 421.9C136.7 437.2 165.1 448 192 448C219.5 448 247 437.4 269.5 421.9C280.6 414 295.4 414 306.5 421.9C328.1 437.4 356.5 448 384 448H384z"]
+};
 var faFile = {
   prefix: 'fas',
   iconName: 'file',
-  icon: [384, 512, [128459, 61462, 128196], "f15b", "M256 0v128h128L256 0zM224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128z"]
+  icon: [384, 512, [128459, 61462, 128196], "f15b", "M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256z"]
 };
 var faFileArrowDown = {
   prefix: 'fas',
@@ -11074,6 +11710,36 @@ var faFileAudio = {
   iconName: 'file-audio',
   icon: [384, 512, [], "f1c7", "M224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM176 404c0 10.75-12.88 15.98-20.5 8.484L120 376H76C69.38 376 64 370.6 64 364v-56C64 301.4 69.38 296 76 296H120l35.5-36.5C163.1 251.9 176 257.3 176 268V404zM224 387.8c-4.391 0-8.75-1.835-11.91-5.367c-5.906-6.594-5.359-16.69 1.219-22.59C220.2 353.7 224 345.2 224 336s-3.797-17.69-10.69-23.88c-6.578-5.906-7.125-16-1.219-22.59c5.922-6.594 16.05-7.094 22.59-1.219C248.2 300.5 256 317.8 256 336s-7.766 35.53-21.31 47.69C231.6 386.4 227.8 387.8 224 387.8zM320 336c0 41.81-20.5 81.11-54.84 105.1c-2.781 1.938-5.988 2.875-9.145 2.875c-5.047 0-10.03-2.375-13.14-6.844c-5.047-7.25-3.281-17.22 3.969-22.28C272.6 396.9 288 367.4 288 336s-15.38-60.84-41.14-78.8c-7.25-5.062-9.027-15.03-3.98-22.28c5.047-7.281 14.99-9.062 22.27-3.969C299.5 254.9 320 294.2 320 336zM256 0v128h128L256 0z"]
 };
+var faFileCircleCheck = {
+  prefix: 'fas',
+  iconName: 'file-circle-check',
+  icon: [576, 512, [], "e493", "M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V198.6C310.1 219.5 256 287.4 256 368C256 427.1 285.1 479.3 329.7 511.3C326.6 511.7 323.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368zM476.7 324.7L416 385.4L387.3 356.7C381.1 350.4 370.9 350.4 364.7 356.7C358.4 362.9 358.4 373.1 364.7 379.3L404.7 419.3C410.9 425.6 421.1 425.6 427.3 419.3L499.3 347.3C505.6 341.1 505.6 330.9 499.3 324.7C493.1 318.4 482.9 318.4 476.7 324.7H476.7z"]
+};
+var faFileCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'file-circle-exclamation',
+  icon: [576, 512, [], "e4eb", "M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V198.6C310.1 219.5 256 287.4 256 368C256 427.1 285.1 479.3 329.7 511.3C326.6 511.7 323.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM432 464C445.3 464 456 453.3 456 440C456 426.7 445.3 416 432 416C418.7 416 408 426.7 408 440C408 453.3 418.7 464 432 464zM415.1 288V368C415.1 376.8 423.2 384 431.1 384C440.8 384 447.1 376.8 447.1 368V288C447.1 279.2 440.8 272 431.1 272C423.2 272 415.1 279.2 415.1 288z"]
+};
+var faFileCircleMinus = {
+  prefix: 'fas',
+  iconName: 'file-circle-minus',
+  icon: [576, 512, [], "e4ed", "M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V198.6C310.1 219.5 256 287.4 256 368C256 427.1 285.1 479.3 329.7 511.3C326.6 511.7 323.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368zM496 351.1H368C359.2 351.1 352 359.2 352 367.1C352 376.8 359.2 383.1 368 383.1H496C504.8 383.1 512 376.8 512 367.1C512 359.2 504.8 351.1 496 351.1z"]
+};
+var faFileCirclePlus = {
+  prefix: 'fas',
+  iconName: 'file-circle-plus',
+  icon: [576, 512, [], "e4ee", "M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V198.6C310.1 219.5 256 287.4 256 368C256 427.1 285.1 479.3 329.7 511.3C326.6 511.7 323.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM448 303.1C448 295.2 440.8 287.1 432 287.1C423.2 287.1 416 295.2 416 303.1V351.1H368C359.2 351.1 352 359.2 352 367.1C352 376.8 359.2 383.1 368 383.1H416V431.1C416 440.8 423.2 447.1 432 447.1C440.8 447.1 448 440.8 448 431.1V383.1H496C504.8 383.1 512 376.8 512 367.1C512 359.2 504.8 351.1 496 351.1H448V303.1z"]
+};
+var faFileCircleQuestion = {
+  prefix: 'fas',
+  iconName: 'file-circle-question',
+  icon: [576, 512, [], "e4ef", "M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V198.6C310.1 219.5 256 287.4 256 368C256 427.1 285.1 479.3 329.7 511.3C326.6 511.7 323.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM432 464C445.3 464 456 453.3 456 440C456 426.7 445.3 416 432 416C418.7 416 408 426.7 408 440C408 453.3 418.7 464 432 464zM368 328C368 336.8 375.2 344 384 344C392.8 344 400 336.8 400 328V321.6C400 316.3 404.3 312 409.6 312H450.1C457.8 312 464 318.2 464 325.9C464 331.1 461.1 335.8 456.6 338.3L424.6 355.1C419.3 357.9 416 363.3 416 369.2V384C416 392.8 423.2 400 432 400C440.8 400 448 392.8 448 384V378.9L471.5 366.6C486.6 358.6 496 342.1 496 325.9C496 300.6 475.4 280 450.1 280H409.6C386.6 280 368 298.6 368 321.6V328z"]
+};
+var faFileCircleXmark = {
+  prefix: 'fas',
+  iconName: 'file-circle-xmark',
+  icon: [576, 512, [], "e494", "M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V198.6C310.1 219.5 256 287.4 256 368C256 427.1 285.1 479.3 329.7 511.3C326.6 511.7 323.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM491.3 331.3C497.6 325.1 497.6 314.9 491.3 308.7C485.1 302.4 474.9 302.4 468.7 308.7L432 345.4L395.3 308.7C389.1 302.4 378.9 302.4 372.7 308.7C366.4 314.9 366.4 325.1 372.7 331.3L409.4 368L372.7 404.7C366.4 410.9 366.4 421.1 372.7 427.3C378.9 433.6 389.1 433.6 395.3 427.3L432 390.6L468.7 427.3C474.9 433.6 485.1 433.6 491.3 427.3C497.6 421.1 497.6 410.9 491.3 404.7L454.6 368L491.3 331.3z"]
+};
 var faFileCode = {
   prefix: 'fas',
   iconName: 'file-code',
@@ -11087,7 +11753,7 @@ var faFileContract = {
 var faFileCsv = {
   prefix: 'fas',
   iconName: 'file-csv',
-  icon: [384, 512, [], "f6dd", "M256 0v128h128L256 0zM224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM128 280C128 284.4 124.4 288 120 288H112C103.1 288 96 295.1 96 304v32C96 344.9 103.1 352 112 352h8C124.4 352 128 355.6 128 360v16C128 380.4 124.4 384 120 384H112C85.5 384 64 362.5 64 336v-32C64 277.5 85.5 256 112 256h8C124.4 256 128 259.6 128 264V280zM172.3 384H160c-4.375 0-8-3.625-8-8v-16C152 355.6 155.6 352 160 352h12.25c6 0 10.38-3.5 10.38-6.625c0-1.25-.75-2.625-2.125-3.875l-21.88-18.75C150.3 315.5 145.4 305.3 145.4 294.6C145.4 273.4 164.4 256 187.8 256H200c4.375 0 8 3.625 8 8v16C208 284.4 204.4 288 200 288H187.8c-6 0-10.38 3.5-10.38 6.625c0 1.25 .75 2.625 2.125 3.875l21.88 18.75c8.375 7.25 13.25 17.5 13.25 28.12C214.6 366.6 195.6 384 172.3 384zM288 284.8V264C288 259.6 291.6 256 296 256h16C316.4 256 320 259.6 320 264v20.75c0 35.5-12.88 69-36.25 94.13C280.8 382.1 276.5 384 272 384s-8.75-1.875-11.75-5.125C236.9 353.8 224 320.3 224 284.8V264C224 259.6 227.6 256 232 256h16C252.4 256 256 259.6 256 264v20.75c0 20.38 5.75 40.25 16 56.88C282.3 325 288 305.1 288 284.8z"]
+  icon: [384, 512, [], "f6dd", "M224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM80 224C57.91 224 40 241.9 40 264V344C40 366.1 57.91 384 80 384H96C118.1 384 136 366.1 136 344V336C136 327.2 128.8 320 120 320C111.2 320 104 327.2 104 336V344C104 348.4 100.4 352 96 352H80C75.58 352 72 348.4 72 344V264C72 259.6 75.58 256 80 256H96C100.4 256 104 259.6 104 264V272C104 280.8 111.2 288 120 288C128.8 288 136 280.8 136 272V264C136 241.9 118.1 224 96 224H80zM175.4 310.6L200.8 325.1C205.2 327.7 208 332.5 208 337.6C208 345.6 201.6 352 193.6 352H168C159.2 352 152 359.2 152 368C152 376.8 159.2 384 168 384H193.6C219.2 384 240 363.2 240 337.6C240 320.1 231.1 305.6 216.6 297.4L191.2 282.9C186.8 280.3 184 275.5 184 270.4C184 262.4 190.4 256 198.4 256H216C224.8 256 232 248.8 232 240C232 231.2 224.8 224 216 224H198.4C172.8 224 152 244.8 152 270.4C152 287 160.9 302.4 175.4 310.6zM280 240C280 231.2 272.8 224 264 224C255.2 224 248 231.2 248 240V271.6C248 306.3 258.3 340.3 277.6 369.2L282.7 376.9C285.7 381.3 290.6 384 296 384C301.4 384 306.3 381.3 309.3 376.9L314.4 369.2C333.7 340.3 344 306.3 344 271.6V240C344 231.2 336.8 224 328 224C319.2 224 312 231.2 312 240V271.6C312 294.6 306.5 317.2 296 337.5C285.5 317.2 280 294.6 280 271.6V240zM256 0L384 128H256V0z"]
 };
 var faFileExcel = {
   prefix: 'fas',
@@ -11136,8 +11802,14 @@ var faFileMedical = {
 var faFilePdf = {
   prefix: 'fas',
   iconName: 'file-pdf',
-  icon: [384, 512, [], "f1c1", "M184 208c0-4.406-3.594-8-8-8S168 203.6 168 208c0 2.062 .2969 23.31 9.141 50.25C179.1 249.6 184 226.2 184 208zM256 0v128h128L256 0zM80 422.4c0 9.656 10.47 11.97 14.38 6.375C99.27 421.9 108.8 408 120.1 388.6c-14.22 7.969-27.25 17.31-38.02 28.31C80.75 418.3 80 420.3 80 422.4zM224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM292 312c24.26 0 44 19.74 44 44c0 24.67-18.94 44-43.13 44c-5.994 0-11.81-.9531-17.22-2.805c-20.06-6.758-38.38-15.96-54.55-27.39c-23.88 5.109-45.46 11.52-64.31 19.1c-14.43 26.31-27.63 46.15-36.37 58.41C112.1 457.8 100.8 464 87.94 464C65.92 464 48 446.1 48 424.1c0-11.92 3.74-21.82 11.18-29.51c16.18-16.52 37.37-30.99 63.02-43.05c11.75-22.83 21.94-46.04 30.33-69.14C136.2 242.4 136 208.4 136 208c0-22.05 17.95-40 40-40c22.06 0 40 17.95 40 40c0 24.1-7.227 55.75-8.938 62.63c-1.006 3.273-2.035 6.516-3.082 9.723c7.83 14.46 17.7 27.21 29.44 38.05C263.1 313.4 284.3 312.1 287.6 312H292zM156.5 354.6c17.98-6.5 36.13-11.44 52.92-15.19c-12.42-12.06-22.17-25.12-29.8-38.16C172.3 320.6 164.4 338.5 156.5 354.6zM292.9 368C299 368 304 363 304 356.9C304 349.4 298.6 344 292 344H288c-.3438 .0313-16.83 .9687-40.95 4.75c11.27 7 24.12 13.19 38.84 18.12C288 367.6 290.5 368 292.9 368z"]
+  icon: [384, 512, [], "f1c1", "M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z"]
 };
+var faFilePen = {
+  prefix: 'fas',
+  iconName: 'file-pen',
+  icon: [576, 512, [128221, "file-edit"], "f31c", "M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V299.6L289.3 394.3C281.1 402.5 275.3 412.8 272.5 424.1L257.4 484.2C255.1 493.6 255.7 503.2 258.8 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM564.1 250.1C579.8 265.7 579.8 291 564.1 306.7L534.7 336.1L463.8 265.1L493.2 235.7C508.8 220.1 534.1 220.1 549.8 235.7L564.1 250.1zM311.9 416.1L441.1 287.8L512.1 358.7L382.9 487.9C378.8 492 373.6 494.9 368 496.3L307.9 511.4C302.4 512.7 296.7 511.1 292.7 507.2C288.7 503.2 287.1 497.4 288.5 491.1L303.5 431.8C304.9 426.2 307.8 421.1 311.9 416.1V416.1z"]
+};
+var faFileEdit = faFilePen;
 var faFilePowerpoint = {
   prefix: 'fas',
   iconName: 'file-powerpoint',
@@ -11147,6 +11819,11 @@ var faFilePrescription = {
   prefix: 'fas',
   iconName: 'file-prescription',
   icon: [384, 512, [], "f572", "M176 240H128v32h48C184.9 272 192 264.9 192 256S184.9 240 176 240zM256 0v128h128L256 0zM224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM292.5 315.5l11.38 11.25c6.25 6.25 6.25 16.38 0 22.62l-29.88 30L304 409.4c6.25 6.25 6.25 16.38 0 22.62l-11.25 11.38c-6.25 6.25-16.5 6.25-22.75 0L240 413.3l-30 30c-6.249 6.25-16.48 6.266-22.73 .0156L176 432c-6.25-6.25-6.25-16.38 0-22.62l29.1-30.12L146.8 320H128l.0078 48.01c0 8.875-7.125 16-16 16L96 384c-8.875 0-16-7.125-16-16v-160C80 199.1 87.13 192 96 192h80c35.38 0 64 28.62 64 64c0 24.25-13.62 45-33.5 55.88L240 345.4l29.88-29.88C276.1 309.3 286.3 309.3 292.5 315.5z"]
+};
+var faFileShield = {
+  prefix: 'fas',
+  iconName: 'file-shield',
+  icon: [576, 512, [], "e4f0", "M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V207L291.2 244.2C269.9 252.7 256 273.3 256 296.2C256 352.7 274.9 444.2 350.2 504.4C341.2 509.3 330.9 512 320 512H64C28.65 512 0 483.3 0 448V64zM256 128V0L384 128H256zM423.1 225.7C428.8 223.4 435.2 223.4 440.9 225.7L560.9 273.7C570 277.4 576 286.2 576 296C576 359.3 550.1 464.8 441.2 510.2C435.3 512.6 428.7 512.6 422.8 510.2C313.9 464.8 288 359.3 288 296C288 286.2 293.1 277.4 303.1 273.7L423.1 225.7zM432 273.8V461.7C500.2 428.7 523.5 362.7 527.4 311.1L432 273.8z"]
 };
 var faFileSignature = {
   prefix: 'fas',
@@ -11216,6 +11893,11 @@ var faFire = {
   iconName: 'fire',
   icon: [448, 512, [128293], "f06d", "M323.5 51.25C302.8 70.5 284 90.75 267.4 111.1C240.1 73.62 206.2 35.5 168 0C69.75 91.12 0 210 0 281.6C0 408.9 100.2 512 224 512s224-103.1 224-230.4C448 228.4 396 118.5 323.5 51.25zM304.1 391.9C282.4 407 255.8 416 226.9 416c-72.13 0-130.9-47.73-130.9-125.2c0-38.63 24.24-72.64 72.74-130.8c7 8 98.88 125.4 98.88 125.4l58.63-66.88c4.125 6.75 7.867 13.52 11.24 19.9C364.9 290.6 353.4 357.4 304.1 391.9z"]
 };
+var faFireBurner = {
+  prefix: 'fas',
+  iconName: 'fire-burner',
+  icon: [640, 512, [], "e4f1", "M349 61.49C356.9 51.61 365.8 40.76 375.5 31.99C381.1 26.87 389.9 26.89 395.5 32.03C420.2 54.71 441.1 84.69 455.8 113.2C470.4 141.2 480 169.9 480 190.1C480 277.9 408.7 352 320 352C230.3 352 160 277.8 160 190.1C160 163.7 172.7 131.5 192.4 99.52C212.4 67.16 240.5 33.43 273.8 3.734C279.4-1.26 287.1-1.242 293.5 3.773C313.3 21.55 331.8 40.74 349 61.49V61.49zM390 176.1C388 172.1 386 168.1 383 164.1L347 206.1C347 206.1 289 132.1 285 127.1C255 164.1 240 185.1 240 209.1C240 258.1 276 287.1 320.1 287.1C339 287.1 355 282.1 370 272.1C400 251.1 408 209.1 390 176.1zM32 287.1C32 270.3 46.33 255.1 64 255.1H96C113.7 255.1 128 270.3 128 287.1C128 305.7 113.7 319.1 96 319.1V384H544V319.1C526.3 319.1 512 305.7 512 287.1C512 270.3 526.3 255.1 544 255.1H576C593.7 255.1 608 270.3 608 287.1V384C625.7 384 640 398.3 640 416V480C640 497.7 625.7 512 608 512H32C14.33 512 0 497.7 0 480V416C0 398.3 14.33 384 32 384V287.1zM320 480C337.7 480 352 465.7 352 448C352 430.3 337.7 416 320 416C302.3 416 288 430.3 288 448C288 465.7 302.3 480 320 480zM448 416C430.3 416 416 430.3 416 448C416 465.7 430.3 480 448 480C465.7 480 480 465.7 480 448C480 430.3 465.7 416 448 416zM192 480C209.7 480 224 465.7 224 448C224 430.3 209.7 416 192 416C174.3 416 160 430.3 160 448C160 465.7 174.3 480 192 480z"]
+};
 var faFireExtinguisher = {
   prefix: 'fas',
   iconName: 'fire-extinguisher',
@@ -11238,6 +11920,11 @@ var faFish = {
   iconName: 'fish',
   icon: [576, 512, [128031], "f578", "M180.5 141.5C219.7 108.5 272.6 80 336 80C399.4 80 452.3 108.5 491.5 141.5C530.5 174.5 558.3 213.1 572.4 241.3C577.2 250.5 577.2 261.5 572.4 270.7C558.3 298 530.5 337.5 491.5 370.5C452.3 403.5 399.4 432 336 432C272.6 432 219.7 403.5 180.5 370.5C164.3 356.7 150 341.9 137.8 327.3L48.12 379.6C35.61 386.9 19.76 384.9 9.474 374.7C-.8133 364.5-2.97 348.7 4.216 336.1L50 256L4.216 175.9C-2.97 163.3-.8133 147.5 9.474 137.3C19.76 127.1 35.61 125.1 48.12 132.4L137.8 184.7C150 170.1 164.3 155.3 180.5 141.5L180.5 141.5zM416 224C398.3 224 384 238.3 384 256C384 273.7 398.3 288 416 288C433.7 288 448 273.7 448 256C448 238.3 433.7 224 416 224z"]
 };
+var faFishFins = {
+  prefix: 'fas',
+  iconName: 'fish-fins',
+  icon: [576, 512, [], "e4f2", "M352.8 96.61C407.7 100.6 454.3 123.6 490 150.4C529.2 179.8 557.3 215.1 571.7 239.9C577.4 249.9 577.4 262.1 571.7 272.1C557.3 296.9 529.2 332.2 490 361.6C454.3 388.4 407.7 411.4 352.8 415.4L275.2 473.6C264.6 481.6 250.2 482.1 238.9 475.1C227.7 468 222 454.7 224.6 441.7L234.3 393.1C214.1 384.1 197.5 373.2 181.1 361.6C166.6 350.1 152.1 337.7 141.2 325.3L48.12 379.6C35.61 386.9 19.76 384.9 9.475 374.7C-.8124 364.5-2.969 348.7 4.217 336.1L50 256L4.217 175.9C-2.969 163.3-.8124 147.5 9.475 137.3C19.76 127.1 35.61 125.1 48.12 132.4L141.2 186.7C152.1 174.3 166.6 161.9 181.1 150.4C197.5 138.8 214.1 127.9 234.3 118.9L224.6 70.28C222 57.27 227.7 44 238.9 36.93C250.2 29.85 264.6 30.44 275.2 38.4L352.8 96.61zM416 224C398.3 224 384 238.3 384 256C384 273.7 398.3 288 416 288C433.7 288 448 273.7 448 256C448 238.3 433.7 224 416 224z"]
+};
 var faFlag = {
   prefix: 'fas',
   iconName: 'flag',
@@ -11258,6 +11945,11 @@ var faFlask = {
   iconName: 'flask',
   icon: [448, 512, [], "f0c3", "M437.2 403.5L319.1 215L319.1 64h7.1c13.25 0 23.1-10.75 23.1-24l-.0002-16c0-13.25-10.75-24-23.1-24H120C106.8 0 96.01 10.75 96.01 24l-.0002 16c0 13.25 10.75 24 23.1 24h7.1L128 215l-117.2 188.5C-18.48 450.6 15.27 512 70.89 512h306.2C432.7 512 466.5 450.5 437.2 403.5zM137.1 320l48.15-77.63C189.8 237.3 191.9 230.8 191.9 224l.0651-160h63.99l-.06 160c0 6.875 2.25 13.25 5.875 18.38L309.9 320H137.1z"]
 };
+var faFlaskVial = {
+  prefix: 'fas',
+  iconName: 'flask-vial',
+  icon: [640, 512, [], "e4f3", "M160 442.5C149.1 446.1 139.2 448 128 448C74.98 448 32 405 32 352V64C14.33 64 0 49.67 0 32C0 14.33 14.33 0 32 0H224C241.7 0 256 14.33 256 32C256 49.67 241.7 64 224 64V309.9L175 389.4C165.2 405.4 160 423.8 160 442.5zM96 160H160V64H96V160zM512 0C529.7 0 544 14.33 544 32C544 49.67 529.7 64 512 64V214.9L629.7 406.2C636.4 417.2 640 429.7 640 442.6C640 480.9 608.9 512 570.6 512H261.4C223.1 512 191.1 480.9 191.1 442.6C191.1 429.7 195.6 417.2 202.3 406.2L319.1 214.9V64C302.3 64 287.1 49.67 287.1 32C287.1 14.33 302.3 0 319.1 0L512 0zM384 64V224C384 229.9 382.4 235.7 379.3 240.8L330.5 320H501.5L452.7 240.8C449.6 235.7 448 229.9 448 224V64H384z"]
+};
 var faFloppyDisk = {
   prefix: 'fas',
   iconName: 'floppy-disk',
@@ -11272,7 +11964,13 @@ var faFlorinSign = {
 var faFolder = {
   prefix: 'fas',
   iconName: 'folder',
-  icon: [512, 512, [128447, 61716, 128193], "f07b", "M464 96h-192l-64-64h-160C21.5 32 0 53.5 0 80V160h512V144C512 117.5 490.5 96 464 96zM0 432C0 458.5 21.5 480 48 480h416c26.5 0 48-21.5 48-48V192H0V432z"]
+  icon: [512, 512, [128447, 61716, 128193, "folder-blank"], "f07b", "M512 144v288c0 26.5-21.5 48-48 48h-416C21.5 480 0 458.5 0 432v-352C0 53.5 21.5 32 48 32h160l64 64h192C490.5 96 512 117.5 512 144z"]
+};
+var faFolderBlank = faFolder;
+var faFolderClosed = {
+  prefix: 'fas',
+  iconName: 'folder-closed',
+  icon: [512, 512, [], "e185", "M464 96h-192l-64-64h-160C21.5 32 0 53.5 0 80V160h512V144C512 117.5 490.5 96 464 96zM0 432C0 458.5 21.5 480 48 480h416c26.5 0 48-21.5 48-48V192H0V432z"]
 };
 var faFolderMinus = {
   prefix: 'fas',
@@ -11433,6 +12131,16 @@ var faGifts = {
   iconName: 'gifts',
   icon: [640, 512, [], "f79c", "M192.5 55.09L217.9 36.59C228.6 28.79 243.6 31.16 251.4 41.88C259.2 52.6 256.8 67.61 246.1 75.41L217.8 95.1H240C256.9 95.1 271.7 104.7 280.3 117.9C257.3 135.7 241.9 162.1 240.2 193.1C212.5 201 192 226.1 192 256V480C192 491.7 195.1 502.6 200.6 512H48C21.49 512 0 490.5 0 464V144C0 117.5 21.49 96 48 96H70.2L41.88 75.41C31.16 67.61 28.79 52.6 36.59 41.88C44.39 31.16 59.4 28.79 70.12 36.59L97.55 56.54L89.23 31.59C85.04 19.01 91.84 5.423 104.4 1.232C116.1-2.96 130.6 3.836 134.8 16.41L144.7 46.17L155.4 15.99C159.8 3.493 173.5-3.048 186 1.377C198.5 5.802 205 19.52 200.6 32.01L192.5 55.09zM344.2 127.1C366.6 127.1 387.8 138.4 401.5 156.2L432 195.8L462.5 156.2C476.2 138.4 497.4 127.1 519.8 127.1C559.5 127.1 592 160.1 592 199.1C592 208.4 590.6 216.5 587.9 223.1H592C618.5 223.1 640 245.5 640 271.1V352H448V255.1H416V352H224V271.1C224 245.5 245.5 223.1 272 223.1H276.1C273.4 216.5 272 208.4 272 199.1C272 160.1 304.5 127.1 344.2 127.1H344.2zM363.5 185.5C358.9 179.5 351.7 175.1 344.2 175.1C330.8 175.1 320 186.9 320 199.1C320 213.3 330.7 223.1 344 223.1H393.1L363.5 185.5zM519.8 175.1C512.3 175.1 505.1 179.5 500.5 185.5L470.9 223.1H520C533.3 223.1 544 213.3 544 199.1C544 186.9 533.2 175.1 519.8 175.1H519.8zM224 464V384H416V512H272C245.5 512 224 490.5 224 464zM448 512V384H640V464C640 490.5 618.5 512 592 512H448z"]
 };
+var faGlassWater = {
+  prefix: 'fas',
+  iconName: 'glass-water',
+  icon: [384, 512, [], "e4f4", "M352 0C360.9 0 369.4 3.692 375.4 10.19C381.5 16.69 384.6 25.42 383.9 34.28L355.1 437.7C352.1 479.6 317.3 512 275.3 512H108.7C66.72 512 31.89 479.6 28.9 437.7L.0813 34.28C-.5517 25.42 2.527 16.69 8.58 10.19C14.63 3.692 23.12 0 32 0L352 0zM97.19 168.6C116.6 178.3 139.4 178.3 158.8 168.6C179.7 158.1 204.3 158.1 225.2 168.6C244.6 178.3 267.4 178.3 286.8 168.6L311 156.5L317.6 64H66.37L72.97 156.5L97.19 168.6z"]
+};
+var faGlassWaterDroplet = {
+  prefix: 'fas',
+  iconName: 'glass-water-droplet',
+  icon: [384, 512, [], "e4f5", "M256 196C256 229.1 227.3 256 192 256C156.7 256 128 229.1 128 196C128 171.1 161.7 125.9 180.2 102.5C186.3 94.77 197.7 94.77 203.8 102.5C222.3 125.9 256 171.1 256 196V196zM352 0C360.9 0 369.4 3.692 375.4 10.19C381.5 16.69 384.6 25.42 383.9 34.28L355.1 437.7C352.1 479.6 317.3 512 275.3 512H108.7C66.72 512 31.89 479.6 28.9 437.7L.0813 34.28C-.5517 25.42 2.527 16.69 8.58 10.19C14.63 3.692 23.12 0 32 0L352 0zM96 304C116.1 314.1 139.9 314.1 160 304C180.1 293.9 203.9 293.9 224 304C244.1 314.1 267.9 314.1 288 304L300.1 297.5L317.6 64H66.37L83.05 297.5L96 304z"]
+};
 var faGlasses = {
   prefix: 'fas',
   iconName: 'glasses',
@@ -11490,6 +12198,11 @@ var faGripVertical = {
   prefix: 'fas',
   iconName: 'grip-vertical',
   icon: [320, 512, [], "f58e", "M88 352C110.1 352 128 369.9 128 392V440C128 462.1 110.1 480 88 480H40C17.91 480 0 462.1 0 440V392C0 369.9 17.91 352 40 352H88zM280 352C302.1 352 320 369.9 320 392V440C320 462.1 302.1 480 280 480H232C209.9 480 192 462.1 192 440V392C192 369.9 209.9 352 232 352H280zM40 320C17.91 320 0 302.1 0 280V232C0 209.9 17.91 192 40 192H88C110.1 192 128 209.9 128 232V280C128 302.1 110.1 320 88 320H40zM280 192C302.1 192 320 209.9 320 232V280C320 302.1 302.1 320 280 320H232C209.9 320 192 302.1 192 280V232C192 209.9 209.9 192 232 192H280zM40 160C17.91 160 0 142.1 0 120V72C0 49.91 17.91 32 40 32H88C110.1 32 128 49.91 128 72V120C128 142.1 110.1 160 88 160H40zM280 32C302.1 32 320 49.91 320 72V120C320 142.1 302.1 160 280 160H232C209.9 160 192 142.1 192 120V72C192 49.91 209.9 32 232 32H280z"]
+};
+var faGroupArrowsRotate = {
+  prefix: 'fas',
+  iconName: 'group-arrows-rotate',
+  icon: [512, 512, [], "e4f6", "M159.7 89.85C159.9 91.87 159.1 93.93 159.1 96C159.1 131.3 131.3 160 95.1 160C93.92 160 91.87 159.9 89.85 159.7C82.34 172.6 76.29 186.5 71.94 201.1C66.9 218.1 49.08 227.7 32.15 222.7C15.21 217.6 5.562 199.8 10.6 182.9C17.01 161.4 26.15 141 37.64 122.3C34.02 114.3 31.1 105.4 31.1 96C31.1 60.65 60.65 32 95.1 32C105.4 32 114.3 34.02 122.3 37.64C141 26.16 161.4 17.01 182.9 10.61C199.8 5.566 217.6 15.21 222.7 32.15C227.7 49.09 218.1 66.91 201.1 71.95C186.5 76.3 172.6 82.34 159.7 89.85V89.85zM389.7 37.64C397.7 34.02 406.6 32 415.1 32C451.3 32 479.1 60.65 479.1 96C479.1 105.4 477.1 114.3 474.4 122.3C485.8 141 494.1 161.4 501.4 182.9C506.4 199.8 496.8 217.6 479.8 222.7C462.9 227.7 445.1 218.1 440.1 201.1C435.7 186.5 429.7 172.6 422.1 159.7C420.1 159.9 418.1 160 416 160C380.7 160 352 131.3 352 96C352 93.93 352.1 91.87 352.3 89.85C339.4 82.34 325.5 76.3 310.9 71.95C293.9 66.91 284.3 49.09 289.3 32.15C294.4 15.21 312.2 5.566 329.1 10.61C350.6 17.01 370.1 26.16 389.7 37.64L389.7 37.64zM89.85 352.3C91.87 352.1 93.92 352 95.1 352C131.3 352 159.1 380.7 159.1 416C159.1 418.1 159.9 420.1 159.7 422.2C172.6 429.7 186.5 435.7 201.1 440.1C218.1 445.1 227.7 462.9 222.7 479.9C217.6 496.8 199.8 506.4 182.9 501.4C161.4 494.1 141 485.8 122.3 474.4C114.3 477.1 105.4 480 95.1 480C60.65 480 31.1 451.3 31.1 416C31.1 406.6 34.02 397.7 37.64 389.7C26.15 370.1 17.01 350.6 10.6 329.1C5.562 312.2 15.21 294.4 32.15 289.3C49.08 284.3 66.9 293.9 71.94 310.9C76.29 325.5 82.34 339.4 89.85 352.3L89.85 352.3zM474.4 389.7C477.1 397.7 479.1 406.6 479.1 416C479.1 451.3 451.3 480 415.1 480C406.6 480 397.7 477.1 389.7 474.4C370.1 485.8 350.6 494.1 329.1 501.4C312.2 506.4 294.4 496.8 289.3 479.9C284.3 462.9 293.9 445.1 310.9 440.1C325.5 435.7 339.4 429.7 352.3 422.2C352.1 420.1 351.1 418.1 351.1 416C351.1 380.7 380.7 352 415.1 352C418.1 352 420.1 352.1 422.2 352.3C429.7 339.4 435.7 325.5 440.1 310.9C445.1 293.9 462.9 284.3 479.8 289.3C496.8 294.4 506.4 312.2 501.4 329.1C494.1 350.6 485.8 370.1 474.4 389.7H474.4zM192.8 256.8C192.8 281.6 206.9 303.2 227.7 313.8C239.5 319.9 244.2 334.3 238.2 346.1C232.1 357.9 217.7 362.6 205.9 356.6C169.7 338.1 144.8 300.4 144.8 256.8C144.8 227.9 155.7 201.6 173.7 181.7L162.5 170.6C155.1 163.1 160.6 152.8 169.9 152.8H230.4C236.1 152.8 240.8 157.5 240.8 163.2V223.7C240.8 232.1 229.6 237.6 223 231L207.7 215.7C198.4 226.8 192.8 241.1 192.8 256.8V256.8zM275.4 165.9C281.5 154.1 295.9 149.4 307.7 155.4C343.9 173.9 368.8 211.6 368.8 255.2C368.8 284.1 357.8 310.5 339.9 330.3L351 341.5C357.6 348 352.1 359.2 343.7 359.2H283.2C277.5 359.2 272.8 354.6 272.8 348.8V288.3C272.8 279 284 274.4 290.6 280.1L305.9 296.3C315.2 285.2 320.8 270.9 320.8 255.2C320.8 230.4 306.6 208.8 285.9 198.2C274.1 192.1 269.4 177.7 275.4 165.9V165.9z"]
 };
 var faGuaraniSign = {
   prefix: 'fas',
@@ -11562,6 +12275,11 @@ var faHandHoldingDroplet = {
   icon: [576, 512, ["hand-holding-water"], "f4c1", "M287.1 256c53 0 95.1-42.13 95.1-93.1c0-40-57.12-120.8-83.25-155.6c-6.375-8.5-19.12-8.5-25.5 0C249.1 41.25 191.1 122 191.1 162C191.1 213.9 234.1 256 287.1 256zM568.2 336.3c-13.12-17.81-38.14-21.66-55.93-8.469l-119.7 88.17h-120.6c-8.748 0-15.1-7.25-15.1-15.99c0-8.75 7.25-16 15.1-16h78.25c15.1 0 30.75-10.88 33.37-26.62c3.25-20-12.12-37.38-31.62-37.38H191.1c-26.1 0-53.12 9.25-74.12 26.25l-46.5 37.74L15.1 383.1c-8.748 0-15.1 7.274-15.1 16.02L.0001 496C.0001 504.8 7.251 512 15.1 512h346.1c22.03 0 43.92-7.188 61.7-20.27l135.1-99.52C577.5 379.1 581.3 354.1 568.2 336.3z"]
 };
 var faHandHoldingWater = faHandHoldingDroplet;
+var faHandHoldingHand = {
+  prefix: 'fas',
+  iconName: 'hand-holding-hand',
+  icon: [512, 512, [], "e4f7", "M328.7 52.28L431.7 119.8C449.5 132.9 453.3 157.9 440.2 175.7C427.1 193.5 402.1 197.3 384.3 184.2L296.6 127.1H191.1C183.2 127.1 175.1 135.2 175.1 143.1C175.1 152.7 183.2 159.1 191.1 159.1H254.2C270.2 159.1 284.1 170.9 287.6 186.6C290.8 206.6 275.5 223.1 255.1 223.1H143.1C116.1 223.1 90.87 214.7 69.87 197.7L23.37 159.1L15.1 160C7.25 160 0 152.7 0 143.1V47.99C0 39.25 7.25 32 15.1 32H266.1C289 32 310.9 39.19 328.7 52.28L328.7 52.28zM151.3 459.7L16.27 360.2C-1.509 347.1-5.305 322.1 7.803 304.3C20.93 286.5 45.94 282.7 63.74 295.8L183.4 384H304C312.8 384 320 376.8 320 368C320 359.3 312.8 352 304 352H225.8C209.8 352 195 341.1 192.4 325.4C189.2 305.4 204.5 288 224 288H352C379 288 405.1 297.3 426.1 314.3L472.6 352L496 352C504.7 352 512 359.3 512 368V464C512 472.8 504.7 480 496 480H213C190.1 480 169.1 472.8 151.3 459.7V459.7z"]
+};
 var faHandHoldingHeart = {
   prefix: 'fas',
   iconName: 'hand-holding-heart',
@@ -11627,6 +12345,11 @@ var faHandSpock = {
   iconName: 'hand-spock',
   icon: [576, 512, [128406], "f259", "M543.6 128.6c0-8.999-6.115-32.58-31.68-32.58c-14.1 0-27.02 9.324-30.92 23.56l-34.36 125.1c-1.682 6.16-7.275 10.43-13.66 10.43c-7.981 0-14.16-6.518-14.16-14.13c0-.9844 .1034-1.987 .3197-2.996l35.71-166.6c.5233-2.442 .7779-4.911 .7779-7.362c0-13.89-9.695-32.86-31.7-32.86c-14.79 0-28.12 10.26-31.34 25.29l-37.77 176.2c-2.807 13.1-14.38 22.46-27.77 22.46c-13.04 0-24.4-8.871-27.56-21.52l-52.11-208.5C243.6 11.2 230.5-.0013 215.6-.0013c-26.71 0-31.78 25.71-31.78 31.98c0 2.569 .3112 5.18 .9617 7.786l50.55 202.2c.2326 .9301 .3431 1.856 .3431 2.764c0 6.051-4.911 11.27-11.3 11.27c-4.896 0-9.234-3.154-10.74-7.812L166.9 103.9C162.4 89.1 149.5 80.02 135.5 80.02c-15.68 0-31.63 12.83-31.63 31.97c0 3.273 .5059 6.602 1.57 9.884l69.93 215.7c.2903 .8949 .4239 1.766 .4239 2.598c0 4.521-3.94 7.915-8.119 7.915c-1.928 0-3.906-.7219-5.573-2.388L101.7 285.3c-8.336-8.336-19.63-12.87-30.81-12.87c-23.56 0-39.07 19.69-39.07 39.55c0 10.23 3.906 20.47 11.72 28.28l122.5 122.5C197.6 494.3 240.3 512 284.9 512h50.98c23.5 0 108.4-14.57 132.5-103l73.96-271.2C543.2 134.8 543.6 131.7 543.6 128.6z"]
 };
+var faHandcuffs = {
+  prefix: 'fas',
+  iconName: 'handcuffs',
+  icon: [640, 512, [], "e4f8", "M304 32C304 49.67 289.7 64 272 64C254.3 64 240 49.67 240 32C240 14.33 254.3 0 272 0C289.7 0 304 14.33 304 32zM160 80C160 62.33 174.3 48 192 48C209.7 48 224 62.33 224 80C224 97.67 209.7 112 192 112C174.3 112 160 97.67 160 80zM160 128C177.7 128 192 142.3 192 160H200C213.3 160 224 170.7 224 184V200C224 201.7 223.8 203.4 223.5 205.1C280.3 229.6 320 286.2 320 352C320 440.4 248.4 512 160 512C71.63 512 0 440.4 0 352C0 286.2 39.74 229.6 96.54 205.1C96.19 203.4 96 201.7 96 200V184C96 170.7 106.7 160 120 160H128C128 142.3 142.3 128 160 128zM160 448C213 448 256 405 256 352C256 298.1 213 256 160 256C106.1 256 64 298.1 64 352C64 405 106.1 448 160 448zM337.6 278.9C354.5 246.1 382.5 219.8 416.5 205.1C416.2 203.4 416 201.7 416 199.1V183.1C416 170.7 426.7 159.1 440 159.1H448C448 142.3 462.3 127.1 480 127.1C497.7 127.1 512 142.3 512 159.1H520C533.3 159.1 544 170.7 544 183.1V199.1C544 201.7 543.8 203.4 543.5 205.1C600.3 229.6 640 286.2 640 352C640 440.4 568.4 512 480 512C417.1 512 364.2 476.7 337.6 425.1C346.9 402.5 352 377.9 352 352C352 326.1 346.9 301.5 337.6 278.9V278.9zM480 256C426.1 256 384 298.1 384 352C384 405 426.1 448 480 448C533 448 576 405 576 352C576 298.1 533 256 480 256zM336 32C336 14.33 350.3 0 368 0C385.7 0 400 14.33 400 32C400 49.67 385.7 64 368 64C350.3 64 336 49.67 336 32zM416 80C416 62.33 430.3 48 448 48C465.7 48 480 62.33 480 80C480 97.67 465.7 112 448 112C430.3 112 416 97.67 416 80z"]
+};
 var faHands = {
   prefix: 'fas',
   iconName: 'hands',
@@ -11642,6 +12365,11 @@ var faHandsAslInterpreting = {
 var faAmericanSignLanguageInterpreting = faHandsAslInterpreting;
 var faAslInterpreting = faHandsAslInterpreting;
 var faHandsAmericanSignLanguageInterpreting = faHandsAslInterpreting;
+var faHandsBound = {
+  prefix: 'fas',
+  iconName: 'hands-bound',
+  icon: [640, 512, [], "e4f9", "M95.1 144.8L165.3 237.2C170.1 244.7 181.4 246.8 189.6 242C199.3 236.3 201.7 223.3 194.6 214.5L167 179.1C156.2 166.4 158.1 146.7 171.4 135.5C184.6 124.4 204.4 125.8 215.9 138.7L262.6 191.3C278.1 209.7 287.1 233.4 287.1 258.1V352H352V258.1C352 233.4 361 209.7 377.4 191.3L424.1 138.7C435.6 125.8 455.4 124.4 468.6 135.5C481.9 146.7 483.8 166.4 472.1 179.1L445.4 214.5C438.3 223.3 440.7 236.3 450.4 242C458.6 246.8 469 244.7 474.7 237.2L544 144.8V32C544 14.33 558.3 0 576 0C593.7 0 608 14.33 608 32V213.9C608 228 602.9 241.8 593.7 252.5L508.4 352H512C525.3 352 536 362.7 536 376C536 389.3 525.3 400 512 400H128C114.7 400 104 389.3 104 376C104 362.7 114.7 352 128 352H131.6L46.31 252.5C37.07 241.8 32 228 32 213.9V32C32 14.33 46.33 0 64 0C81.67 0 96 14.33 96 32L95.1 144.8zM127.1 480C114.7 480 103.1 469.3 103.1 456C103.1 442.7 114.7 432 127.1 432H512C525.3 432 536 442.7 536 456C536 469.3 525.3 480 512 480H480V512H352V480H287.1V512H159.1V480H127.1z"]
+};
 var faHandsBubbles = {
   prefix: 'fas',
   iconName: 'hands-bubbles',
@@ -11657,6 +12385,16 @@ var faHandsHolding = {
   prefix: 'fas',
   iconName: 'hands-holding',
   icon: [640, 512, [], "f4c2", "M216.1 236C205.1 222.3 185.8 219.1 172 231c-13.81 11.06-16.05 31.19-5 45l18.86 30.56C194.8 317.7 193.9 333.7 183.8 343.8c-11.79 11.79-31.2 10.71-41.61-2.305L80 256.8V104C80 81.91 62.09 64 40 64S0 81.91 0 104v204.7c0 14.54 4.949 28.65 14.03 40l120.1 151.3C141.1 507.6 150.3 512 159.1 512H256c17.67 0 32.03-14.35 32.03-32.02L288 358.4c0-21.79-7.414-42.93-21.02-59.94L216.1 236zM600 64c-22.09 0-40 17.91-40 40v152.8l-62.2 84.73c-10.41 13.02-29.83 14.09-41.61 2.305c-10.08-10.07-10.97-26.11-2.068-37.24l18.86-30.56c11.05-13.81 8.812-33.94-5-45c-13.77-11.03-33.94-8.75-44.97 5l-49.99 62.5C359.4 315.5 352 336.6 352 358.4l-.0313 121.5C351.1 497.7 366.3 512 384 512h96.02c9.713 0 18.9-4.414 24.96-12l120.1-151.3C635.1 337.4 640 323.3 640 308.7V104C640 81.91 622.1 64 600 64z"]
+};
+var faHandsHoldingChild = {
+  prefix: 'fas',
+  iconName: 'hands-holding-child',
+  icon: [640, 512, [], "e4fa", "M280 40C280 17.91 297.9 0 320 0C342.1 0 360 17.91 360 40C360 62.09 342.1 80 320 80C297.9 80 280 62.09 280 40zM375.8 253C377.5 266.2 368.1 278.2 354.1 279.8C341.8 281.5 329.8 272.1 328.2 258.1L323.8 223.1H316.2L311.8 258.1C310.2 272.1 298.2 281.5 285 279.8C271.9 278.2 262.5 266.2 264.2 253L275.3 164.3L255.5 180.1C245.4 189.6 230.2 188.3 221.7 178.2C213.1 168 214.4 152.9 224.5 144.3L266 109.2C276.1 100.7 288.9 96 302.2 96H337.8C351.1 96 363.9 100.7 373.1 109.2L415.5 144.3C425.6 152.9 426.9 168 418.3 178.2C409.8 188.3 394.6 189.6 384.5 180.1L364.7 164.3L375.8 253zM80 258.7L140.3 339C149.7 351.6 167.7 353.8 179.9 343.8C190.4 335.1 193.1 319.1 186 308.3L164.6 272.5C155.9 258 159.9 239.3 173.7 229.7C187.6 220.1 206.5 222.9 216.1 236L263.5 294.1C279.3 313.1 288 338.6 288 364.1V480C288 497.7 273.7 512 256 512H160C150.3 512 141.1 507.6 135 499.1L14.02 348.8C4.946 337.4 0 323.3 0 308.8V103.1C0 81.91 17.91 63.1 40 63.1C62.09 63.1 80 81.91 80 103.1V258.7zM640 104V308.8C640 323.3 635.1 337.4 625.1 348.8L504.1 499.1C498.9 507.6 489.7 512 480 512H384C366.3 512 352 497.7 352 480V364.1C352 338.6 360.7 313.1 376.5 294.1L423 236C433.5 222.9 452.4 220.1 466.3 229.7C480.1 239.3 484.1 258 475.4 272.5L453.1 308.3C446.9 319.1 449.6 335.1 460.2 343.8C472.3 353.8 490.3 351.6 499.7 339L560 258.7V104C560 81.91 577.9 64 600 64C622.1 64 640 81.91 640 104V104z"]
+};
+var faHandsHoldingCircle = {
+  prefix: 'fas',
+  iconName: 'hands-holding-circle',
+  icon: [640, 512, [], "e4fb", "M208 112C208 50.14 258.1 0 320 0C381.9 0 432 50.14 432 112C432 173.9 381.9 224 320 224C258.1 224 208 173.9 208 112zM80 258.7L140.3 339C149.7 351.6 167.7 353.8 179.9 343.8C190.4 335.1 193.1 319.1 186 308.3L164.6 272.5C155.9 258 159.9 239.3 173.7 229.7C187.6 220.1 206.5 222.9 216.1 236L263.5 294.1C279.3 313.1 288 338.6 288 364.1V480C288 497.7 273.7 512 256 512H160C150.3 512 141.1 507.6 135 499.1L14.02 348.8C4.946 337.4 0 323.3 0 308.8V103.1C0 81.91 17.91 63.1 40 63.1C62.09 63.1 80 81.91 80 103.1V258.7zM640 104V308.8C640 323.3 635.1 337.4 625.1 348.8L504.1 499.1C498.9 507.6 489.7 512 480 512H384C366.3 512 352 497.7 352 480V364.1C352 338.6 360.7 313.1 376.5 294.1L423 236C433.5 222.9 452.4 220.1 466.3 229.7C480.1 239.3 484.1 258 475.4 272.5L453.1 308.3C446.9 319.1 449.6 335.1 460.2 343.8C472.3 353.8 490.3 351.6 499.7 339L560 258.7V104C560 81.91 577.9 64 600 64C622.1 64 640 81.91 640 104V104z"]
 };
 var faHandsPraying = {
   prefix: 'fas',
@@ -11675,6 +12413,12 @@ var faHandshakeAngle = {
   icon: [640, 512, ["hands-helping"], "f4c4", "M488 191.1h-152l.0001 51.86c.0001 37.66-27.08 72-64.55 75.77c-43.09 4.333-79.45-29.42-79.45-71.63V126.4l-24.51 14.73C123.2 167.8 96.04 215.7 96.04 267.5L16.04 313.8c-15.25 8.751-20.63 28.38-11.75 43.63l80 138.6c8.875 15.25 28.5 20.5 43.75 11.75l103.4-59.75h136.6c35.25 0 64-28.75 64-64c26.51 0 48-21.49 48-48V288h8c13.25 0 24-10.75 24-24l.0001-48C512 202.7 501.3 191.1 488 191.1zM635.7 154.5l-79.95-138.6c-8.875-15.25-28.5-20.5-43.75-11.75l-103.4 59.75h-62.57c-37.85 0-74.93 10.61-107.1 30.63C229.7 100.4 224 110.6 224 121.6l-.0004 126.4c0 22.13 17.88 40 40 40c22.13 0 40-17.88 40-40V159.1h184c30.93 0 56 25.07 56 56v28.5l80-46.25C639.3 189.4 644.5 169.8 635.7 154.5z"]
 };
 var faHandsHelping = faHandshakeAngle;
+var faHandshakeSimple = {
+  prefix: 'fas',
+  iconName: 'handshake-simple',
+  icon: [640, 512, [129309, "handshake-alt"], "f4c6", "M334.6 217.4l-30 27.49C264 282.1 217.8 256.8 202.9 240.6C176 211.2 178.1 165.7 207.3 138.9L289.1 64H282.5C224.7 64 169.1 86.95 128.2 127.8L32 128.1c-17.6 0-32 14.39-32 31.98v159.8c0 17.59 14.4 32.04 31.1 32.04l114.3-.0604l90.5 81.82c27.5 22.37 67.75 18.11 90-9.255l18.12 15.25c15.88 12.1 39.38 10.5 52.38-5.369l31.38-38.6l5.374 4.498c13.75 11 33.88 9.002 45-4.748l9.576-11.83c11.08-13.7 8.979-33.75-4.701-44.86L334.6 217.4zM608 128.1l-96-.1257c-40.98-40.96-96.56-63.88-154.5-63.88L348.9 64c-8 0-15.62 3.197-21.62 8.568L229 162.3C228.9 162.5 228.8 162.7 228.8 162.7C212 178.5 212.4 203.3 226.6 218.7c9.625 10.5 35 21.62 56.13 2.75c0-.125 .25-.125 .375-.25l80-73.1c6.5-5.871 16.62-5.496 22.62 1s5.5 16.62-1 22.62l-26.12 23.87l145.6 118.1c12.12 9.992 19.5 23.49 22.12 37.98L608 351.7c17.6 0 32-14.38 32-31.98V160.1C640 142.4 625.7 128.1 608 128.1z"]
+};
+var faHandshakeAlt = faHandshakeSimple;
 var faHandshakeSimpleSlash = {
   prefix: 'fas',
   iconName: 'handshake-simple-slash',
@@ -11764,6 +12508,36 @@ var faHeart = {
   iconName: 'heart',
   icon: [512, 512, [128153, 128154, 128155, 128156, 128420, 129293, 129294, 129505, 10084, 61578, 9829], "f004", "M0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84.02L256 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 .0003 232.4 .0003 190.9L0 190.9z"]
 };
+var faHeartCircleBolt = {
+  prefix: 'fas',
+  iconName: 'heart-circle-bolt',
+  icon: [576, 512, [], "e4fc", "M256 368C256 403.7 266.6 436.9 284.9 464.6L279.4 470.3C266.4 483.2 245.5 483.2 233.5 470.3L39.71 270.5C-16.22 212.5-13.23 116.6 49.7 62.68C103.6 15.73 186.5 24.72 236.5 75.67L256.4 96.64L275.4 75.67C325.4 24.72 407.3 15.73 463.2 62.68C506.1 100.1 520.7 157.6 507 208.7C484.3 198 458.8 192 432 192C334.8 192 256 270.8 256 368zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM464.8 286.4L368.8 358.4C364.7 361.5 362.1 366.9 364.6 371.8C366.2 376.7 370.8 380 376 380H411.6L381.5 434.2C378.8 439.1 379.8 445.3 384.1 449C388.4 452.8 394.7 452.1 399.2 449.6L495.2 377.6C499.3 374.5 501 369.1 499.4 364.2C497.8 359.3 493.2 356 488 356H452.4L482.5 301.8C485.2 296.9 484.2 290.7 479.9 286.1C475.6 283.2 469.3 283 464.8 286.4V286.4z"]
+};
+var faHeartCircleCheck = {
+  prefix: 'fas',
+  iconName: 'heart-circle-check',
+  icon: [576, 512, [], "e4fd", "M256 368C256 403.7 266.6 436.9 284.9 464.6L279.4 470.3C266.4 483.2 245.5 483.2 233.5 470.3L39.71 270.5C-16.22 212.5-13.23 116.6 49.7 62.68C103.6 15.73 186.5 24.72 236.5 75.67L256.4 96.64L275.4 75.67C325.4 24.72 407.3 15.73 463.2 62.68C506.1 100.1 520.7 157.6 507 208.7C484.3 198 458.8 192 432 192C334.8 192 256 270.8 256 368zM576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368zM476.7 324.7L416 385.4L387.3 356.7C381.1 350.4 370.9 350.4 364.7 356.7C358.4 362.9 358.4 373.1 364.7 379.3L404.7 419.3C410.9 425.6 421.1 425.6 427.3 419.3L499.3 347.3C505.6 341.1 505.6 330.9 499.3 324.7C493.1 318.4 482.9 318.4 476.7 324.7H476.7z"]
+};
+var faHeartCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'heart-circle-exclamation',
+  icon: [576, 512, [], "e4fe", "M256 368C256 403.7 266.6 436.9 284.9 464.6L279.4 470.3C266.4 483.2 245.5 483.2 233.5 470.3L39.71 270.5C-16.22 212.5-13.23 116.6 49.7 62.68C103.6 15.73 186.5 24.72 236.5 75.67L256.4 96.64L275.4 75.67C325.4 24.72 407.3 15.73 463.2 62.68C506.1 100.1 520.7 157.6 507 208.7C484.3 198 458.8 192 432 192C334.8 192 256 270.8 256 368zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM432 464C445.3 464 456 453.3 456 440C456 426.7 445.3 416 432 416C418.7 416 408 426.7 408 440C408 453.3 418.7 464 432 464zM415.1 288V368C415.1 376.8 423.2 384 431.1 384C440.8 384 447.1 376.8 447.1 368V288C447.1 279.2 440.8 272 431.1 272C423.2 272 415.1 279.2 415.1 288z"]
+};
+var faHeartCircleMinus = {
+  prefix: 'fas',
+  iconName: 'heart-circle-minus',
+  icon: [576, 512, [], "e4ff", "M256 368C256 403.7 266.6 436.9 284.9 464.6L279.4 470.3C266.4 483.2 245.5 483.2 233.5 470.3L39.71 270.5C-16.22 212.5-13.23 116.6 49.7 62.68C103.6 15.73 186.5 24.72 236.5 75.67L256.4 96.64L275.4 75.67C325.4 24.72 407.3 15.73 463.2 62.68C506.1 100.1 520.7 157.6 507 208.7C484.3 198 458.8 192 432 192C334.8 192 256 270.8 256 368zM576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368zM496 351.1H368C359.2 351.1 352 359.2 352 367.1C352 376.8 359.2 383.1 368 383.1H496C504.8 383.1 512 376.8 512 367.1C512 359.2 504.8 351.1 496 351.1z"]
+};
+var faHeartCirclePlus = {
+  prefix: 'fas',
+  iconName: 'heart-circle-plus',
+  icon: [576, 512, [], "e500", "M256 368C256 403.7 266.6 436.9 284.9 464.6L279.4 470.3C266.4 483.2 245.5 483.2 233.5 470.3L39.71 270.5C-16.22 212.5-13.23 116.6 49.7 62.68C103.6 15.73 186.5 24.72 236.5 75.67L256.4 96.64L275.4 75.67C325.4 24.72 407.3 15.73 463.2 62.68C506.1 100.1 520.7 157.6 507 208.7C484.3 198 458.8 192 432 192C334.8 192 256 270.8 256 368zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM448 303.1C448 295.2 440.8 287.1 432 287.1C423.2 287.1 416 295.2 416 303.1V351.1H368C359.2 351.1 352 359.2 352 367.1C352 376.8 359.2 383.1 368 383.1H416V431.1C416 440.8 423.2 447.1 432 447.1C440.8 447.1 448 440.8 448 431.1V383.1H496C504.8 383.1 512 376.8 512 367.1C512 359.2 504.8 351.1 496 351.1H448V303.1z"]
+};
+var faHeartCircleXmark = {
+  prefix: 'fas',
+  iconName: 'heart-circle-xmark',
+  icon: [576, 512, [], "e501", "M256 368C256 403.7 266.6 436.9 284.9 464.6L279.4 470.3C266.4 483.2 245.5 483.2 233.5 470.3L39.71 270.5C-16.22 212.5-13.23 116.6 49.7 62.68C103.6 15.73 186.5 24.72 236.5 75.67L256.4 96.64L275.4 75.67C325.4 24.72 407.3 15.73 463.2 62.68C506.1 100.1 520.7 157.6 507 208.7C484.3 198 458.8 192 432 192C334.8 192 256 270.8 256 368zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM491.3 331.3C497.6 325.1 497.6 314.9 491.3 308.7C485.1 302.4 474.9 302.4 468.7 308.7L432 345.4L395.3 308.7C389.1 302.4 378.9 302.4 372.7 308.7C366.4 314.9 366.4 325.1 372.7 331.3L409.4 368L372.7 404.7C366.4 410.9 366.4 421.1 372.7 427.3C378.9 433.6 389.1 433.6 395.3 427.3L432 390.6L468.7 427.3C474.9 433.6 485.1 433.6 491.3 427.3C497.6 421.1 497.6 410.9 491.3 404.7L454.6 368L491.3 331.3z"]
+};
 var faHeartCrack = {
   prefix: 'fas',
   iconName: 'heart-crack',
@@ -11781,6 +12555,11 @@ var faHelicopter = {
   iconName: 'helicopter',
   icon: [640, 512, [128641], "f533", "M127.1 32C127.1 14.33 142.3 0 159.1 0H544C561.7 0 576 14.33 576 32C576 49.67 561.7 64 544 64H384V128H416C504.4 128 576 199.6 576 288V352C576 369.7 561.7 384 544 384H303.1C293.9 384 284.4 379.3 278.4 371.2L191.1 256L47.19 198.1C37.65 194.3 30.52 186.1 28.03 176.1L4.97 83.88C2.445 73.78 10.08 64 20.49 64H47.1C58.07 64 67.56 68.74 73.6 76.8L111.1 128H319.1V64H159.1C142.3 64 127.1 49.67 127.1 32V32zM384 320H512V288C512 234.1 469 192 416 192H384V320zM630.6 470.6L626.7 474.5C602.7 498.5 570.2 512 536.2 512H255.1C238.3 512 223.1 497.7 223.1 480C223.1 462.3 238.3 448 255.1 448H536.2C553.2 448 569.5 441.3 581.5 429.3L585.4 425.4C597.9 412.9 618.1 412.9 630.6 425.4C643.1 437.9 643.1 458.1 630.6 470.6L630.6 470.6z"]
 };
+var faHelicopterSymbol = {
+  prefix: 'fas',
+  iconName: 'helicopter-symbol',
+  icon: [576, 512, [], "e502", "M320 66.66V1.985C435.8 16.42 527.6 108.2 542 224H477.3C463.9 143.6 400.4 80.15 320 66.66V66.66zM320 510V445.4C400.4 431.9 463.9 368.4 477.3 288H542C527.6 403.8 435.8 495.6 320 510V510zM33.98 288H98.65C112.1 368.4 175.6 431.9 256 445.4V510C140.2 495.6 48.42 403.8 33.98 288zM256 1.984V66.66C175.6 80.15 112.1 143.6 98.66 224H33.98C48.42 108.2 140.2 16.42 256 1.985V1.984zM240 224H336V160C336 142.3 350.3 128 368 128C385.7 128 400 142.3 400 160V352C400 369.7 385.7 384 368 384C350.3 384 336 369.7 336 352V288H240V352C240 369.7 225.7 384 208 384C190.3 384 176 369.7 176 352V160C176 142.3 190.3 128 208 128C225.7 128 240 142.3 240 160V224z"]
+};
 var faHelmetSafety = {
   prefix: 'fas',
   iconName: 'helmet-safety',
@@ -11788,10 +12567,25 @@ var faHelmetSafety = {
 };
 var faHardHat = faHelmetSafety;
 var faHatHard = faHelmetSafety;
+var faHelmetUn = {
+  prefix: 'fas',
+  iconName: 'helmet-un',
+  icon: [512, 512, [], "e503", "M480 224C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H368V462.5L369.5 464H456C469.3 464 480 474.7 480 488C480 501.3 469.3 512 456 512H360C353.9 512 347.1 509.7 343.5 505.4L214.9 384H87.65C39.24 384 0 344.8 0 296.3V240C0 107.5 107.5 0 240 0C367.2 0 471.2 98.91 479.5 224H480zM320 288H274.4L241.1 343.5L320 417.2V288zM285.3 103.1C281.4 97.26 274.1 94.64 267.4 96.69C260.6 98.73 256 104.9 256 112V208C256 216.8 263.2 224 272 224C280.8 224 288 216.8 288 208V164.8L322.7 216.9C326.6 222.7 333.9 225.4 340.6 223.3C347.4 221.3 352 215.1 352 208V112C352 103.2 344.8 96 336 96C327.2 96 320 103.2 320 112V155.2L285.3 103.1zM160 112C160 103.2 152.8 96 144 96C135.2 96 128 103.2 128 112V176C128 202.5 149.5 224 176 224C202.5 224 224 202.5 224 176V112C224 103.2 216.8 96 208 96C199.2 96 192 103.2 192 112V176C192 184.8 184.8 192 176 192C167.2 192 160 184.8 160 176V112z"]
+};
 var faHighlighter = {
   prefix: 'fas',
   iconName: 'highlighter',
   icon: [576, 512, [], "f591", "M143.1 320V248.3C143.1 233 151.2 218.7 163.5 209.6L436.6 8.398C444 2.943 452.1 0 462.2 0C473.6 0 484.5 4.539 492.6 12.62L547.4 67.38C555.5 75.46 559.1 86.42 559.1 97.84C559.1 107 557.1 115.1 551.6 123.4L350.4 396.5C341.3 408.8 326.1 416 311.7 416H239.1L214.6 441.4C202.1 453.9 181.9 453.9 169.4 441.4L118.6 390.6C106.1 378.1 106.1 357.9 118.6 345.4L143.1 320zM489.4 99.92L460.1 70.59L245 229L330.1 314.1L489.4 99.92zM23.03 466.3L86.06 403.3L156.7 473.9L125.7 504.1C121.2 509.5 115.1 512 108.7 512H40C26.75 512 16 501.3 16 488V483.3C16 476.1 18.53 470.8 23.03 466.3V466.3z"]
+};
+var faHillAvalanche = {
+  prefix: 'fas',
+  iconName: 'hill-avalanche',
+  icon: [640, 512, [], "e507", "M161.4 91.58C160.5 87.87 160 83.99 160 80C160 53.49 181.5 32 208 32C229.9 32 248.3 46.62 254.1 66.62C268.5 45.7 292.7 32 320 32C364.2 32 400 67.82 400 112C400 119.4 398.1 126.6 397.1 133.5C426.9 145.1 448 174.1 448 208C448 236.4 433.2 261.3 410.9 275.5L492.6 357.2C508.2 372.8 533.6 372.8 549.2 357.2C564.8 341.6 564.8 316.2 549.2 300.6C533.6 284.1 508.2 284.1 492.6 300.6L458.7 266.7C493 232.3 548.8 232.3 583.1 266.7C617.5 301 617.5 356.8 583.1 391.1C552.8 421.4 505.9 425 471.7 401.9L161.4 91.58zM512 64C512 81.67 497.7 96 480 96C462.3 96 448 81.67 448 64C448 46.33 462.3 32 480 32C497.7 32 512 46.33 512 64zM480 160C480 142.3 494.3 128 512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192C494.3 192 480 177.7 480 160zM456.1 443.7C482.2 468.9 464.3 512 428.7 512H112C67.82 512 32 476.2 32 432V115.3C32 79.68 75.09 61.83 100.3 87.03L456.1 443.7z"]
+};
+var faHillRockslide = {
+  prefix: 'fas',
+  iconName: 'hill-rockslide',
+  icon: [576, 512, [], "e508", "M252.4 103.8C249.7 98.97 249.7 93.03 252.4 88.16L279.4 40.16C282.2 35.12 287.6 32 293.4 32H346.6C352.4 32 357.8 35.12 360.6 40.16L387.6 88.16C390.3 93.03 390.3 98.97 387.6 103.8L360.6 151.8C357.8 156.9 352.4 160 346.6 160H293.4C287.6 160 282.2 156.9 279.4 151.8L252.4 103.8zM424.1 443.7C450.2 468.9 432.3 512 396.7 512H80C35.82 512 0 476.2 0 432V115.3C0 79.68 43.09 61.83 68.28 87.03L424.1 443.7zM456.2 376.6C451.1 373.8 448 368.4 448 362.6V309.4C448 303.6 451.1 298.2 456.2 295.4L504.2 268.4C509 265.7 514.1 265.7 519.8 268.4L567.8 295.4C572.9 298.2 576 303.6 576 309.4V362.6C576 368.4 572.9 373.8 567.8 376.6L519.8 403.6C514.1 406.3 509 406.3 504.2 403.6L456.2 376.6zM192 64C192 81.67 177.7 96 160 96C142.3 96 128 81.67 128 64C128 46.33 142.3 32 160 32C177.7 32 192 46.33 192 64zM352 256C352 238.3 366.3 224 384 224C401.7 224 416 238.3 416 256C416 273.7 401.7 288 384 288C366.3 288 352 273.7 352 256z"]
 };
 var faHippo = {
   prefix: 'fas',
@@ -11906,10 +12700,45 @@ var faHouseChimneyWindow = {
   iconName: 'house-chimney-window',
   icon: [576, 512, [], "e00d", "M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.6 483.2 483.9 512 448.5 512H128.1C92.75 512 64.09 483.3 64.09 448V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L416 100.7V64C416 46.33 430.3 32 448 32H480C497.7 32 512 46.33 512 64V185L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5zM248 192C234.7 192 224 202.7 224 216V296C224 309.3 234.7 320 248 320H328C341.3 320 352 309.3 352 296V216C352 202.7 341.3 192 328 192H248z"]
 };
+var faHouseCircleCheck = {
+  prefix: 'fas',
+  iconName: 'house-circle-check',
+  icon: [640, 512, [], "e509", "M320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L522.1 193.9C513.6 192.7 504.9 192 496 192C404.2 192 328.8 262.3 320.7 352L320 352zM640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368zM540.7 324.7L480 385.4L451.3 356.7C445.1 350.4 434.9 350.4 428.7 356.7C422.4 362.9 422.4 373.1 428.7 379.3L468.7 419.3C474.9 425.6 485.1 425.6 491.3 419.3L563.3 347.3C569.6 341.1 569.6 330.9 563.3 324.7C557.1 318.4 546.9 318.4 540.7 324.7H540.7z"]
+};
+var faHouseCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'house-circle-exclamation',
+  icon: [640, 512, [], "e50a", "M320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L522.1 193.9C513.6 192.7 504.9 192 496 192C404.2 192 328.8 262.3 320.7 352L320 352zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM496 464C509.3 464 520 453.3 520 440C520 426.7 509.3 416 496 416C482.7 416 472 426.7 472 440C472 453.3 482.7 464 496 464zM479.1 288V368C479.1 376.8 487.2 384 495.1 384C504.8 384 511.1 376.8 511.1 368V288C511.1 279.2 504.8 272 495.1 272C487.2 272 479.1 279.2 479.1 288z"]
+};
+var faHouseCircleXmark = {
+  prefix: 'fas',
+  iconName: 'house-circle-xmark',
+  icon: [640, 512, [], "e50b", "M320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L522.1 193.9C513.6 192.7 504.9 192 496 192C404.2 192 328.8 262.3 320.7 352L320 352zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM555.3 331.3C561.6 325.1 561.6 314.9 555.3 308.7C549.1 302.4 538.9 302.4 532.7 308.7L496 345.4L459.3 308.7C453.1 302.4 442.9 302.4 436.7 308.7C430.4 314.9 430.4 325.1 436.7 331.3L473.4 368L436.7 404.7C430.4 410.9 430.4 421.1 436.7 427.3C442.9 433.6 453.1 433.6 459.3 427.3L496 390.6L532.7 427.3C538.9 433.6 549.1 433.6 555.3 427.3C561.6 421.1 561.6 410.9 555.3 404.7L518.6 368L555.3 331.3z"]
+};
 var faHouseCrack = {
   prefix: 'fas',
   iconName: 'house-crack',
   icon: [576, 512, [], "e3b1", "M511.8 287.6L512.5 447.7C512.6 483.2 483.9 512 448.5 512H326.4L288 448L368.8 380.7C376.6 374.1 376.5 362.1 368.5 355.8L250.6 263.2C235.1 251.7 216.8 270.1 227.8 285.2L288 368L202.5 439.2C196.5 444.3 194.1 452.1 199.1 459.8L230.4 512H128.1C92.75 512 64.09 483.3 64.09 448V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8z"]
+};
+var faHouseFire = {
+  prefix: 'fas',
+  iconName: 'house-fire',
+  icon: [640, 512, [], "e50c", "M288 350.1L288 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L447.3 128.1C434.9 127.2 422.3 131.1 412.5 139.9C377.1 171.5 346.9 207.6 325.2 242.7C304.3 276.5 288 314.9 288 350.1H288zM509 221.5C516.9 211.6 525.8 200.8 535.5 191.1C541.1 186.9 549.9 186.9 555.5 192C580.2 214.7 601.1 244.7 615.8 273.2C630.4 301.2 640 329.9 640 350.1C640 437.9 568.7 512 480 512C390.3 512 320 437.8 320 350.1C320 323.7 332.7 291.5 352.4 259.5C372.4 227.2 400.5 193.4 433.8 163.7C439.4 158.7 447.1 158.8 453.5 163.8C473.3 181.6 491.8 200.7 509 221.5V221.5zM550 336.1C548 332.1 546 328.1 543 324.1L507 367C507 367 449 293 445 288C415 324.1 400 346 400 370C400 419 436 448 481 448C499 448 515 443 530 432.1C560 412 568 370 550 336.1z"]
+};
+var faHouseFlag = {
+  prefix: 'fas',
+  iconName: 'house-flag',
+  icon: [640, 512, [], "e50d", "M480 0C497.7 0 512 14.33 512 32H624C632.8 32 640 39.16 640 48V176C640 184.8 632.8 192 624 192H512V512H448V32C448 14.33 462.3 0 480 0V0zM416 512H416.1L416.8 512H352C334.3 512 320 497.7 320 480V384C320 366.3 305.7 352 288 352H224C206.3 352 192 366.3 192 384V480C192 497.7 177.7 512 160 512H96C78.33 512 64 497.7 64 480V288H31.1C18.61 288 6.631 279.7 1.985 267.1C-2.661 254.5 1.005 240.4 11.17 231.7L235.2 39.7C247.2 29.43 264.8 29.43 276.8 39.7L416 159V512z"]
+};
+var faHouseFloodWater = {
+  prefix: 'fas',
+  iconName: 'house-flood-water',
+  icon: [576, 512, [], "e50e", "M482.8 134.1C494 142.3 498.7 156.7 494.4 169.9C490.1 183.1 477.9 192 464 192H447.4L447.7 265.2C446.1 266.1 444.6 267.1 443.2 268.1C425.2 280.5 403 288.5 384 288.5C364.4 288.5 343.2 280.8 324.8 268.1C302.8 252.6 273.3 252.6 251.2 268.1C234 279.9 213.2 288.5 192 288.5C172.1 288.5 150.8 280.5 132.9 268.1C131.3 267 129.7 265.1 128 265V192H112C98.14 192 85.86 183.1 81.57 169.9C77.28 156.7 81.97 142.3 93.18 134.1L269.2 6.12C280.4-2.04 295.6-2.04 306.8 6.12L482.8 134.1zM269.5 309.9C280.6 302 295.4 302 306.5 309.9C328.1 325.4 356.5 336 384 336C410.9 336 439.4 325.2 461.4 309.9L461.5 309.9C473.4 301.4 489.5 302.1 500.7 311.6C515 323.5 533.2 332.6 551.3 336.8C568.5 340.8 579.2 358.1 575.2 375.3C571.2 392.5 553.1 403.2 536.7 399.2C512.2 393.4 491.9 382.6 478.5 374.2C449.5 389.7 417 400 384 400C352.1 400 323.4 390.1 303.6 381.1C297.7 378.5 292.5 375.8 288 373.4C283.5 375.8 278.3 378.5 272.4 381.1C252.6 390.1 223.9 400 192 400C158.1 400 126.5 389.7 97.5 374.2C84.12 382.6 63.79 393.4 39.27 399.2C22.06 403.2 4.854 392.5 .8426 375.3C-3.169 358.1 7.532 340.8 24.74 336.8C42.84 332.6 60.96 323.5 75.31 311.6C86.46 302.1 102.6 301.4 114.5 309.9L114.6 309.9C136.7 325.2 165.1 336 192 336C219.5 336 247 325.4 269.5 309.9H269.5zM461.4 421.9L461.5 421.9C473.4 413.4 489.5 414.1 500.7 423.6C515 435.5 533.2 444.6 551.3 448.8C568.5 452.8 579.2 470.1 575.2 487.3C571.2 504.5 553.1 515.2 536.7 511.2C512.2 505.4 491.9 494.6 478.5 486.2C449.5 501.7 417 512 384 512C352.1 512 323.4 502.1 303.6 493.1C297.7 490.5 292.5 487.8 288 485.4C283.5 487.8 278.3 490.5 272.4 493.1C252.6 502.1 223.9 512 192 512C158.1 512 126.5 501.7 97.5 486.2C84.12 494.6 63.79 505.4 39.27 511.2C22.06 515.2 4.853 504.5 .8422 487.3C-3.169 470.1 7.532 452.8 24.74 448.8C42.84 444.6 60.96 435.5 75.31 423.6C86.46 414.1 102.6 413.4 114.5 421.9L114.6 421.9C136.7 437.2 165.1 448 192 448C219.5 448 247 437.4 269.5 421.9C280.6 414 295.4 414 306.5 421.9C328.1 437.4 356.5 448 384 448C410.9 448 439.4 437.2 461.4 421.9H461.4z"]
+};
+var faHouseFloodWaterCircleArrowRight = {
+  prefix: 'fas',
+  iconName: 'house-flood-water-circle-arrow-right',
+  icon: [640, 512, [], "e50f", "M288 144C288 223.5 223.5 288 144 288C64.47 288 0 223.5 0 144C0 64.47 64.47 .0002 144 .0002C223.5 .0002 288 64.47 288 144zM140.7 99.31L169.4 128H80C71.16 128 64 135.2 64 144C64 152.8 71.16 160 80 160H169.4L140.7 188.7C134.4 194.9 134.4 205.1 140.7 211.3C146.9 217.6 157.1 217.6 163.3 211.3L219.3 155.3C225.6 149.1 225.6 138.9 219.3 132.7L163.3 76.69C157.1 70.44 146.9 70.44 140.7 76.69C134.4 82.94 134.4 93.07 140.7 99.31V99.31zM301 64.42L381.2 6.12C392.4-2.04 407.6-2.04 418.8 6.12L594.8 134.1C606 142.3 610.7 156.7 606.4 169.9C602.1 183.1 589.9 192 576 192H559.4L559.7 276.4C557.5 274.8 555.3 273.2 553.2 271.5C531 252.8 498.9 251.4 475.2 268.1C457.2 280.5 435 288.5 416 288.5C396.4 288.5 375.2 280.8 356.8 268.1C334.8 252.6 305.3 252.6 283.2 268.1C273.2 274.1 262 280.7 250.2 284.3C292.6 252.2 319.1 201.3 319.1 144C319.1 115.4 313.2 88.32 301 64.42V64.42zM416 336C442.9 336 471.4 325.2 493.4 309.9L493.5 309.9C505.4 301.4 521.5 302.1 532.7 311.6C547 323.5 565.2 332.6 583.3 336.8C600.5 340.8 611.2 358.1 607.2 375.3C603.2 392.5 585.1 403.2 568.7 399.2C544.2 393.4 523.9 382.6 510.5 374.2C481.5 389.7 449 400 416 400C384.1 400 355.4 390.1 335.6 381.1C329.7 378.5 324.5 375.8 320 373.4C315.5 375.8 310.3 378.5 304.4 381.1C284.6 390.1 255.9 400 224 400C190.1 400 158.5 389.7 129.5 374.2C116.1 382.6 95.79 393.4 71.27 399.2C54.06 403.2 36.85 392.5 32.84 375.3C28.83 358.1 39.53 340.8 56.74 336.8C74.84 332.6 92.96 323.5 107.3 311.6C118.5 302.1 134.6 301.4 146.5 309.9L146.6 309.9C168.7 325.2 197.1 336 224 336C251.5 336 279 325.4 301.5 309.9C312.6 302 327.4 302 338.5 309.9C360.1 325.4 388.5 336 416 336H416zM338.5 421.9C360.1 437.4 388.5 448 416 448C442.9 448 471.4 437.2 493.4 421.9L493.5 421.9C505.4 413.4 521.5 414.1 532.7 423.6C547 435.5 565.2 444.6 583.3 448.8C600.5 452.8 611.2 470.1 607.2 487.3C603.2 504.5 585.1 515.2 568.7 511.2C544.2 505.4 523.9 494.6 510.5 486.2C481.5 501.7 449 512 416 512C384.1 512 355.4 502.1 335.6 493.1C329.7 490.5 324.5 487.8 320 485.4C315.5 487.8 310.3 490.5 304.4 493.1C284.6 502.1 255.9 512 224 512C190.1 512 158.5 501.7 129.5 486.2C116.1 494.6 95.79 505.4 71.27 511.2C54.06 515.2 36.85 504.5 32.84 487.3C28.83 470.1 39.53 452.8 56.74 448.8C74.84 444.6 92.96 435.5 107.3 423.6C118.5 414.1 134.6 413.4 146.5 421.9L146.6 421.9C168.7 437.2 197.1 448 224 448C251.5 448 279 437.4 301.5 421.9C312.6 414 327.4 414 338.5 421.9H338.5z"]
 };
 var faHouseLaptop = {
   prefix: 'fas',
@@ -11917,10 +12746,45 @@ var faHouseLaptop = {
   icon: [640, 512, ["laptop-house"], "e066", "M218.3 8.486C230.6-2.829 249.4-2.829 261.7 8.486L469.7 200.5C476.4 206.7 480 215.2 480 224H336C316.9 224 299.7 232.4 288 245.7V208C288 199.2 280.8 192 272 192H208C199.2 192 192 199.2 192 208V272C192 280.8 199.2 288 208 288H271.1V416H112C85.49 416 64 394.5 64 368V256H32C18.83 256 6.996 247.9 2.198 235.7C-2.6 223.4 .6145 209.4 10.3 200.5L218.3 8.486zM336 256H560C577.7 256 592 270.3 592 288V448H624C632.8 448 640 455.2 640 464C640 490.5 618.5 512 592 512H303.1C277.5 512 255.1 490.5 255.1 464C255.1 455.2 263.2 448 271.1 448H303.1V288C303.1 270.3 318.3 256 336 256zM352 304V448H544V304H352z"]
 };
 var faLaptopHouse = faHouseLaptop;
+var faHouseLock = {
+  prefix: 'fas',
+  iconName: 'house-lock',
+  icon: [640, 512, [], "e510", "M384 480C384 491.7 387.1 502.6 392.6 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L490.7 166.3C447.2 181.7 416 223.2 416 272V296.6C396.9 307.6 384 328.3 384 352L384 480zM528 192C572.2 192 608 227.8 608 272V320C625.7 320 640 334.3 640 352V480C640 497.7 625.7 512 608 512H448C430.3 512 416 497.7 416 480V352C416 334.3 430.3 320 448 320V272C448 227.8 483.8 192 528 192zM528 240C510.3 240 496 254.3 496 272V320H560V272C560 254.3 545.7 240 528 240z"]
+};
 var faHouseMedical = {
   prefix: 'fas',
   iconName: 'house-medical',
   icon: [576, 512, [], "e3b2", "M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.6 483.2 483.9 512 448.5 512H128.1C92.75 512 64.09 483.3 64.09 448V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5H575.8zM328 232V176C328 167.2 320.8 160 312 160H264C255.2 160 248 167.2 248 176V232H192C183.2 232 176 239.2 176 248V296C176 304.8 183.2 312 192 312H248V368C248 376.8 255.2 384 264 384H312C320.8 384 328 376.8 328 368V312H384C392.8 312 400 304.8 400 296V248C400 239.2 392.8 232 384 232H328z"]
+};
+var faHouseMedicalCircleCheck = {
+  prefix: 'fas',
+  iconName: 'house-medical-circle-check',
+  icon: [640, 512, [], "e511", "M320.5 381.5C324.6 435.5 353 482.6 394.8 512H128.1C92.75 512 64.09 483.3 64.09 448V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L522.1 193.9C513.6 192.7 504.9 192 496 192C453.6 192 414.7 207 384.3 232L384 232H328V176C328 167.2 320.8 160 311.1 160H263.1C255.2 160 247.1 167.2 247.1 176V232H191.1C183.2 232 175.1 239.2 175.1 248V296C175.1 304.8 183.2 312 191.1 312H247.1V368C247.1 376.8 255.2 384 263.1 384H311.1C315.1 384 318 383.1 320.5 381.5H320.5zM328 312H329.1C328.7 313.1 328.4 314.3 328 315.4V312zM640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368zM540.7 324.7L480 385.4L451.3 356.7C445.1 350.4 434.9 350.4 428.7 356.7C422.4 362.9 422.4 373.1 428.7 379.3L468.7 419.3C474.9 425.6 485.1 425.6 491.3 419.3L563.3 347.3C569.6 341.1 569.6 330.9 563.3 324.7C557.1 318.4 546.9 318.4 540.7 324.7H540.7z"]
+};
+var faHouseMedicalCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'house-medical-circle-exclamation',
+  icon: [640, 512, [], "e512", "M320.5 381.5C324.6 435.5 353 482.6 394.8 512H128.1C92.75 512 64.09 483.3 64.09 448V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L522.1 193.9C513.6 192.7 504.9 192 496 192C453.6 192 414.7 207 384.3 232L384 232H328V176C328 167.2 320.8 160 311.1 160H263.1C255.2 160 247.1 167.2 247.1 176V232H191.1C183.2 232 175.1 239.2 175.1 248V296C175.1 304.8 183.2 312 191.1 312H247.1V368C247.1 376.8 255.2 384 263.1 384H311.1C315.1 384 318 383.1 320.5 381.5H320.5zM328 312H329.1C328.7 313.1 328.4 314.3 328 315.4V312zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM496 464C509.3 464 520 453.3 520 440C520 426.7 509.3 416 496 416C482.7 416 472 426.7 472 440C472 453.3 482.7 464 496 464zM479.1 288V368C479.1 376.8 487.2 384 495.1 384C504.8 384 511.1 376.8 511.1 368V288C511.1 279.2 504.8 272 495.1 272C487.2 272 479.1 279.2 479.1 288z"]
+};
+var faHouseMedicalCircleXmark = {
+  prefix: 'fas',
+  iconName: 'house-medical-circle-xmark',
+  icon: [640, 512, [], "e513", "M320.5 381.5C324.6 435.5 353 482.6 394.8 512H128.1C92.75 512 64.09 483.3 64.09 448V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L522.1 193.9C513.6 192.7 504.9 192 496 192C453.6 192 414.7 207 384.3 232L384 232H328V176C328 167.2 320.8 160 311.1 160H263.1C255.2 160 247.1 167.2 247.1 176V232H191.1C183.2 232 175.1 239.2 175.1 248V296C175.1 304.8 183.2 312 191.1 312H247.1V368C247.1 376.8 255.2 384 263.1 384H311.1C315.1 384 318 383.1 320.5 381.5H320.5zM328 312H329.1C328.7 313.1 328.4 314.3 328 315.4V312zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM555.3 331.3C561.6 325.1 561.6 314.9 555.3 308.7C549.1 302.4 538.9 302.4 532.7 308.7L496 345.4L459.3 308.7C453.1 302.4 442.9 302.4 436.7 308.7C430.4 314.9 430.4 325.1 436.7 331.3L473.4 368L436.7 404.7C430.4 410.9 430.4 421.1 436.7 427.3C442.9 433.6 453.1 433.6 459.3 427.3L496 390.6L532.7 427.3C538.9 433.6 549.1 433.6 555.3 427.3C561.6 421.1 561.6 410.9 555.3 404.7L518.6 368L555.3 331.3z"]
+};
+var faHouseMedicalFlag = {
+  prefix: 'fas',
+  iconName: 'house-medical-flag',
+  icon: [640, 512, [], "e514", "M480 0C497.7 0 512 14.33 512 32H624C632.8 32 640 39.16 640 48V176C640 184.8 632.8 192 624 192H512V512H448V32C448 14.33 462.3 0 480 0V0zM416 512H416.1L416.8 512H96C78.33 512 64 497.7 64 480V288H31.1C18.61 288 6.631 279.7 1.985 267.1C-2.661 254.5 1.005 240.4 11.17 231.7L235.2 39.7C247.2 29.43 264.8 29.43 276.8 39.7L416 159V512zM223.1 256H175.1C167.2 256 159.1 263.2 159.1 272V304C159.1 312.8 167.2 320 175.1 320H223.1V368C223.1 376.8 231.2 384 239.1 384H271.1C280.8 384 287.1 376.8 287.1 368V320H336C344.8 320 352 312.8 352 304V272C352 263.2 344.8 256 336 256H287.1V208C287.1 199.2 280.8 192 271.1 192H239.1C231.2 192 223.1 199.2 223.1 208V256z"]
+};
+var faHouseSignal = {
+  prefix: 'fas',
+  iconName: 'house-signal',
+  icon: [576, 512, [], "e012", "M314.3 8.486C326.6-2.829 345.4-2.829 357.7 8.486L565.7 200.5C575.4 209.4 578.6 223.4 573.8 235.7C569 247.9 557.2 256 544 256H512V368C512 394.5 490.5 416 464 416H296.4C272.7 317.5 195.4 239.1 97.06 215.8C98.58 210.1 101.7 204.7 106.3 200.5L314.3 8.486zM304 192C295.2 192 287.1 199.2 287.1 208V272C287.1 280.8 295.2 288 304 288H368C376.8 288 384 280.8 384 272V208C384 199.2 376.8 192 368 192H304zM256 488C256 501.3 245.3 512 232 512C218.7 512 208 501.3 208 488C208 386.4 125.6 304 24 304C10.75 304 0 293.3 0 280C0 266.7 10.75 256 24 256C152.1 256 256 359.9 256 488zM0 480C0 462.3 14.33 448 32 448C49.67 448 64 462.3 64 480C64 497.7 49.67 512 32 512C14.33 512 0 497.7 0 480zM0 376C0 362.7 10.75 352 24 352C99.11 352 160 412.9 160 488C160 501.3 149.3 512 136 512C122.7 512 112 501.3 112 488C112 439.4 72.6 400 24 400C10.75 400 0 389.3 0 376z"]
+};
+var faHouseTsunami = {
+  prefix: 'fas',
+  iconName: 'house-tsunami',
+  icon: [576, 512, [], "e515", "M184.4 96C207.4 96 229.3 101.1 248.1 110.3C264.1 117.7 271.9 136.8 264.4 152.8C256.1 168.8 237.9 175.7 221.9 168.3C210.6 162.1 197.9 160 184.4 160C135.5 160 95.1 199.5 95.1 248C95.1 287 121.6 320.2 157.1 331.7C167.1 334.5 179.6 336 191.1 336C192 336 192.1 336 192.1 336C219.6 335.1 247.1 325.4 269.5 309.9C280.6 302 295.4 302 306.5 309.9C328.1 325.4 356.5 336 384 336C410.9 336 439.4 325.2 461.4 309.9L461.5 309.9C473.4 301.4 489.5 302.1 500.7 311.6C515 323.5 533.2 332.6 551.3 336.8C568.5 340.8 579.2 358.1 575.2 375.3C571.2 392.5 553.1 403.2 536.7 399.2C512.2 393.4 491.9 382.6 478.5 374.2C449.5 389.7 417 400 384 400C352.1 400 323.4 390.1 303.6 381.1C297.7 378.5 292.5 375.8 288 373.4C283.5 375.8 278.3 378.5 272.4 381.1C252.6 390.1 223.9 400 192 400C190.2 400 188.3 399.1 186.5 399.9C185.8 399.1 185.1 400 184.4 400C169.8 400 155.6 397.9 142.2 394.1C53.52 372.1 .0006 291.6 .0006 200C.0006 87.99 95.18 0 209 0C232.8 0 255.8 3.823 277.2 10.9C294 16.44 303.1 34.54 297.6 51.32C292 68.1 273.9 77.21 257.2 71.67C242.2 66.72 225.1 64 209 64C152.6 64 104.9 93.82 80.81 136.5C108 111.4 144.4 96 184.4 96H184.4zM428.8 46.43C440.2 37.88 455.8 37.9 467.2 46.47L562.7 118.4C570.7 124.5 575.4 133.9 575.5 143.9L575.8 287.9C575.8 290.8 575.4 293.6 574.7 296.3C569.8 293.6 564.3 291.5 558.5 290.1C545.4 287.1 531.8 280.3 521.2 271.5C499 252.8 466.9 251.4 443.2 268.1C425.2 280.5 403 288.5 384 288.5C364.4 288.5 343.2 280.8 324.8 268.1C323.3 267 321.6 265.1 320 265V143.1C320 133.9 324.7 124.4 332.8 118.4L428.8 46.43zM461.4 421.9L461.5 421.9C473.4 413.4 489.5 414.1 500.7 423.6C515 435.5 533.2 444.6 551.3 448.8C568.5 452.8 579.2 470.1 575.2 487.3C571.2 504.5 553.1 515.2 536.7 511.2C512.2 505.4 491.9 494.6 478.5 486.2C449.5 501.7 417 512 384 512C352.1 512 323.4 502.1 303.6 493.1C297.7 490.5 292.5 487.8 288 485.4C283.5 487.8 278.3 490.5 272.4 493.1C252.6 502.1 223.9 512 192 512C158.1 512 126.5 501.7 97.5 486.2C84.12 494.6 63.79 505.4 39.27 511.2C22.06 515.2 4.853 504.5 .8422 487.3C-3.169 470.1 7.532 452.8 24.74 448.8C42.84 444.6 60.96 435.5 75.31 423.6C86.46 414.1 102.6 413.4 114.5 421.9L114.6 421.9C136.7 437.2 165.1 448 192 448C219.5 448 247 437.4 269.5 421.9C280.6 414 295.4 414 306.5 421.9C328.1 437.4 356.5 448 384 448C410.9 448 439.4 437.2 461.4 421.9H461.4z"]
 };
 var faHouseUser = {
   prefix: 'fas',
@@ -11934,6 +12798,11 @@ var faHryvniaSign = {
   icon: [384, 512, [8372, "hryvnia"], "f6f2", "M115.1 120.1C102.2 132 82.05 129.8 71.01 115.1C59.97 102.2 62.21 82.05 76.01 71.01L81.94 66.27C109.7 44.08 144.1 32 179.6 32H223C285.4 32 336 82.59 336 144.1C336 155.6 334.5 166.1 331.7 176H352C369.7 176 384 190.3 384 208C384 225.7 369.7 240 352 240H284.2C282.5 241.1 280.8 242.1 279.1 243.1L228.5 272H352C369.7 272 384 286.3 384 304C384 321.7 369.7 336 352 336H123.1C116 344.6 112 355.5 112 367C112 394.1 133.9 416 160.1 416H204.4C225.3 416 245.7 408.9 262.1 395.8L268 391C281.8 379.1 301.9 382.2 312.1 396C324 409.8 321.8 429.9 307.1 440.1L302.1 445.7C274.3 467.9 239.9 480 204.4 480H160.1C98.59 480 48 429.4 48 367C48 356.4 49.49 345.9 52.33 336H32C14.33 336 0 321.7 0 304C0 286.3 14.33 272 32 272H99.82C101.5 270.9 103.2 269.9 104.9 268.9L155.5 240H32C14.33 240 0 225.7 0 208C0 190.3 14.33 176 32 176H260.9C267.1 167.4 272 156.5 272 144.1C272 117.9 250.1 96 223 96H179.6C158.7 96 138.3 103.1 121.9 116.2L115.1 120.1z"]
 };
 var faHryvnia = faHryvniaSign;
+var faHurricane = {
+  prefix: 'fas',
+  iconName: 'hurricane',
+  icon: [448, 512, [], "f751", "M224 223.1c-17.75 0-32 14.25-32 32c0 17.75 14.25 32 32 32s32-14.25 32-32C256 238.2 241.8 223.1 224 223.1zM208 95.98l24.5-74.74c3.75-11.25-5.615-22.49-17.36-21.11C112 12.38 32 101.6 32 208c0 114.9 93.13 208 208 208l-24.5 74.73c-3.75 11.25 5.615 22.5 17.36 21.12C335.1 499.6 416 410.4 416 304C416 189.1 322.9 95.98 208 95.98zM224 351.1c-53 0-96-43-96-96s43-96 96-96s96 43 96 96S277 351.1 224 351.1z"]
+};
 var faI = {
   prefix: 'fas',
   iconName: 'i',
@@ -12040,6 +12909,16 @@ var faJ = {
   iconName: 'j',
   icon: [320, 512, [106], "4a", "M320 64.01v259.4c0 86.36-71.78 156.6-160 156.6s-160-70.26-160-156.6V288c0-17.67 14.31-32 32-32s32 14.33 32 32v35.38c0 51.08 43.06 92.63 96 92.63s96-41.55 96-92.63V64.01c0-17.67 14.31-32 32-32S320 46.34 320 64.01z"]
 };
+var faJar = {
+  prefix: 'fas',
+  iconName: 'jar',
+  icon: [320, 512, [], "e516", "M32 32C32 14.33 46.33 0 64 0H256C273.7 0 288 14.33 288 32C288 49.67 273.7 64 256 64H64C46.33 64 32 49.67 32 32zM0 160C0 124.7 28.65 96 64 96H256C291.3 96 320 124.7 320 160V448C320 483.3 291.3 512 256 512H64C28.65 512 0 483.3 0 448V160zM256 224H64V384H256V224z"]
+};
+var faJarWheat = {
+  prefix: 'fas',
+  iconName: 'jar-wheat',
+  icon: [320, 512, [], "e517", "M32 32C32 14.33 46.33 0 64 0H256C273.7 0 288 14.33 288 32C288 49.67 273.7 64 256 64H64C46.33 64 32 49.67 32 32zM0 160C0 124.7 28.65 96 64 96H256C291.3 96 320 124.7 320 160V448C320 483.3 291.3 512 256 512H64C28.65 512 0 483.3 0 448V160zM192 320C227.3 320 256 291.3 256 256H208C188.9 256 171.7 264.4 160 277.7C148.3 264.4 131.1 256 112 256H64C64 291.3 92.65 320 128 320H192zM192 224C227.3 224 256 195.3 256 160H208C188.9 160 171.7 168.4 160 181.7C148.3 168.4 131.1 160 112 160H64C64 195.3 92.65 224 128 224H192zM192 416C227.3 416 256 387.3 256 352H208C188.9 352 171.7 360.4 160 373.7C148.3 360.4 131.1 352 112 352H64C64 387.3 92.65 416 128 416H144V448C144 456.8 151.2 464 160 464C168.8 464 176 456.8 176 448V416H192z"]
+};
 var faJedi = {
   prefix: 'fas',
   iconName: 'jedi',
@@ -12051,10 +12930,20 @@ var faJetFighter = {
   icon: [640, 512, ["fighter-jet"], "f0fb", "M160 24C160 10.75 170.7 0 184 0H296C309.3 0 320 10.75 320 24C320 37.25 309.3 48 296 48H280L384 192H500.4C508.1 192 515.7 193.4 522.9 196.1L625 234.4C634 237.8 640 246.4 640 256C640 265.6 634 274.2 625 277.6L522.9 315.9C515.7 318.6 508.1 320 500.4 320H384L280 464H296C309.3 464 320 474.7 320 488C320 501.3 309.3 512 296 512H184C170.7 512 160 501.3 160 488C160 474.7 170.7 464 184 464H192V320H160L105.4 374.6C99.37 380.6 91.23 384 82.75 384H64C46.33 384 32 369.7 32 352V288C14.33 288 0 273.7 0 256C0 238.3 14.33 224 32 224V160C32 142.3 46.33 128 64 128H82.75C91.23 128 99.37 131.4 105.4 137.4L160 192H192V48H184C170.7 48 160 37.25 160 24V24zM80 240C71.16 240 64 247.2 64 256C64 264.8 71.16 272 80 272H144C152.8 272 160 264.8 160 256C160 247.2 152.8 240 144 240H80z"]
 };
 var faFighterJet = faJetFighter;
+var faJetFighterUp = {
+  prefix: 'fas',
+  iconName: 'jet-fighter-up',
+  icon: [576, 512, [], "e518", "M346.8 112.6C350.2 120.6 352 129.2 352 137.9V214.8L496 298.8V280C496 266.7 506.7 256 520 256C533.3 256 544 266.7 544 280V392C544 405.3 533.3 416 520 416C506.7 416 496 405.3 496 392V384H352V416.7L410.5 467.1C414 470.1 416 475.4 416 480V496C416 504.8 408.8 512 400 512H304V448C304 439.2 296.8 432 288 432C279.2 432 272 439.2 272 448V512H176C167.2 512 160 504.8 160 496V480C160 475.4 161.1 470.1 165.5 467.1L224 416.7V384H80V392C80 405.3 69.25 416 56 416C42.75 416 32 405.3 32 392V280C32 266.7 42.75 256 56 256C69.25 256 80 266.7 80 280V298.8L224 214.8V137.9C224 129.2 225.8 120.6 229.2 112.6L273.3 9.697C275.8 3.814 281.6 0 288 0C294.4 0 300.2 3.814 302.7 9.697L346.8 112.6z"]
+};
 var faJoint = {
   prefix: 'fas',
   iconName: 'joint',
   icon: [640, 512, [], "f595", "M444.4 181.1C466.8 196.8 480 222.2 480 249.8V280C480 284.4 483.6 288 488 288h48C540.4 288 544 284.4 544 280V249.8c0-43.25-21-83.5-56.38-108.1C463.9 125 448 99.38 448 70.25V8C448 3.625 444.4 0 440 0h-48C387.6 0 384 3.625 384 8v66.38C384 118.1 408.5 156 444.4 181.1zM195 359C125.1 370.1 59.75 394.8 0 432C83.62 484.2 180.2 512 279 512h88.5l-112.7-131.5C240 363.2 217.4 355.4 195 359zM553.3 87.12C547.6 83.25 544 77.12 544 70.25V8C544 3.625 540.4 0 536 0h-48C483.6 0 480 3.625 480 8v62.25c0 22.13 10.12 43.5 28.62 55.5C550.8 153 576 199.5 576 249.8V280C576 284.4 579.6 288 584 288h48C636.4 288 640 284.4 640 280V249.8C640 184.2 607.6 123.5 553.3 87.12zM360.9 352c-34.38 .125-86.75 .25-88.25 .25l117.9 137.4C402.6 503.9 420.4 512 439.1 512h88.38l-117.9-137.6C397.4 360.1 379.6 352 360.9 352zM616 352H432l117.1 137.6C562.1 503.9 579.9 512 598.6 512H616c13.25 0 24-10.75 24-24v-112C640 362.8 629.3 352 616 352z"]
+};
+var faJugDetergent = {
+  prefix: 'fas',
+  iconName: 'jug-detergent',
+  icon: [384, 512, [], "e519", "M96 24C96 10.75 106.7 0 120 0H200C213.3 0 224 10.75 224 24V48H232C245.3 48 256 58.75 256 72C256 85.25 245.3 96 232 96H88C74.75 96 64 85.25 64 72C64 58.75 74.75 48 88 48H96V24zM0 256C0 185.3 57.31 128 128 128H256C326.7 128 384 185.3 384 256V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V256zM256 352C256 369.7 270.3 384 288 384C305.7 384 320 369.7 320 352V256C320 238.3 305.7 224 288 224C270.3 224 256 238.3 256 256V352z"]
 };
 var faK = {
   prefix: 'fas',
@@ -12092,6 +12981,11 @@ var faKitMedical = {
   icon: [576, 512, ["first-aid"], "f479", "M64 32h32v448H64c-35.35 0-64-28.66-64-64V96C0 60.66 28.65 32 64 32zM128 32h320v448H128V32zM176 282c0 8.835 7.164 16 16 16h53.1V352c0 8.836 7.165 16 16 16h52c8.836 0 16-7.164 16-16V298H384c8.836 0 16-7.165 16-16v-52c0-8.837-7.164-16-16-16h-54V160c0-8.836-7.164-16-16-16h-52c-8.835 0-16 7.164-16 16v54H192c-8.836 0-16 7.163-16 16V282zM512 32h-32v448h32c35.35 0 64-28.66 64-64V96C576 60.66 547.3 32 512 32z"]
 };
 var faFirstAid = faKitMedical;
+var faKitchenSet = {
+  prefix: 'fas',
+  iconName: 'kitchen-set',
+  icon: [576, 512, [], "e51a", "M80 144C80 108.7 108.7 80 144 80C179.3 80 208 108.7 208 144C208 179.3 179.3 208 144 208C108.7 208 80 179.3 80 144zM284.4 176C269.9 240.1 212.5 288 144 288C64.47 288 0 223.5 0 144C0 64.47 64.47 0 144 0C212.5 0 269.9 47.87 284.4 112H356.2C365 102.2 377.8 96 392 96H496C522.5 96 544 117.5 544 144C544 170.5 522.5 192 496 192H392C377.8 192 365 185.8 356.2 176H284.4zM144 48C90.98 48 48 90.98 48 144C48 197 90.98 240 144 240C197 240 240 197 240 144C240 90.98 197 48 144 48zM424 264V272H520C533.3 272 544 282.7 544 296C544 309.3 533.3 320 520 320H280C266.7 320 256 309.3 256 296C256 282.7 266.7 272 280 272H376V264C376 250.7 386.7 240 400 240C413.3 240 424 250.7 424 264zM288 464V352H512V464C512 490.5 490.5 512 464 512H336C309.5 512 288 490.5 288 464zM176 320C202.5 320 224 341.5 224 368C224 394.5 202.5 416 176 416H160C160 433.7 145.7 448 128 448H64C46.33 448 32 433.7 32 416V336C32 327.2 39.16 320 48 320H176zM192 368C192 359.2 184.8 352 176 352H160V384H176C184.8 384 192 376.8 192 368zM200 464C213.3 464 224 474.7 224 488C224 501.3 213.3 512 200 512H24C10.75 512 0 501.3 0 488C0 474.7 10.75 464 24 464H200z"]
+};
 var faKiwiBird = {
   prefix: 'fas',
   iconName: 'kiwi-bird',
@@ -12102,10 +12996,26 @@ var faL = {
   iconName: 'l',
   icon: [320, 512, [108], "4c", "M320 448c0 17.67-14.31 32-32 32H64c-17.69 0-32-14.33-32-32v-384C32 46.34 46.31 32.01 64 32.01S96 46.34 96 64.01v352h192C305.7 416 320 430.3 320 448z"]
 };
+var faLandMineOn = {
+  prefix: 'fas',
+  iconName: 'land-mine-on',
+  icon: [576, 512, [], "e51b", "M312 168C312 181.3 301.3 192 288 192C274.7 192 264 181.3 264 168V24C264 10.75 274.7 0 288 0C301.3 0 312 10.75 312 24V168zM160 320C160 302.3 174.3 288 192 288H384C401.7 288 416 302.3 416 320V352H160V320zM82.74 410.5C90.87 394.3 107.5 384 125.7 384H450.3C468.5 384 485.1 394.3 493.3 410.5L520.8 465.7C531.5 486.1 516 512 492.2 512H83.78C59.99 512 44.52 486.1 55.16 465.7L82.74 410.5zM4.269 138.3C11.81 127.4 26.77 124.7 37.66 132.3L141.7 204.3C152.6 211.8 155.3 226.8 147.7 237.7C140.2 248.6 125.2 251.3 114.3 243.7L10.34 171.7C-.5568 164.2-3.275 149.2 4.269 138.3V138.3zM538.3 132.3C549.2 124.7 564.2 127.4 571.7 138.3C579.3 149.2 576.6 164.2 565.7 171.7L461.7 243.7C450.8 251.3 435.8 248.6 428.3 237.7C420.7 226.8 423.4 211.8 434.3 204.3L538.3 132.3z"]
+};
 var faLandmark = {
   prefix: 'fas',
   iconName: 'landmark',
   icon: [512, 512, [127963], "f66f", "M240.1 4.216C249.1-1.405 262-1.405 271.9 4.216L443.6 102.4L447.1 104V104.9L495.9 132.2C508.5 139.4 514.6 154.2 510.9 168.2C507.2 182.2 494.5 192 479.1 192H31.1C17.49 192 4.795 182.2 1.071 168.2C-2.653 154.2 3.524 139.4 16.12 132.2L63.1 104.9V104L68.37 102.4L240.1 4.216zM64 224H128V416H168V224H232V416H280V224H344V416H384V224H448V420.3C448.6 420.6 449.2 420.1 449.8 421.4L497.8 453.4C509.5 461.2 514.7 475.8 510.6 489.3C506.5 502.8 494.1 512 480 512H32C17.9 512 5.46 502.8 1.373 489.3C-2.713 475.8 2.517 461.2 14.25 453.4L62.25 421.4C62.82 420.1 63.41 420.6 64 420.3V224z"]
+};
+var faLandmarkDome = {
+  prefix: 'fas',
+  iconName: 'landmark-dome',
+  icon: [512, 512, ["landmark-alt"], "f752", "M264 0C277.3 0 288 10.75 288 24V34.65C368.4 48.14 431.9 111.6 445.3 192H448C465.7 192 480 206.3 480 224C480 241.7 465.7 256 448 256H63.1C46.33 256 31.1 241.7 31.1 224C31.1 206.3 46.33 192 63.1 192H66.65C80.14 111.6 143.6 48.14 223.1 34.65V24C223.1 10.75 234.7 0 247.1 0L264 0zM63.1 288H127.1V416H167.1V288H231.1V416H280V288H344V416H384V288H448V420.3C448.6 420.6 449.2 420.1 449.8 421.4L497.8 453.4C509.5 461.2 514.7 475.8 510.6 489.3C506.5 502.8 494.1 512 480 512H31.1C17.9 512 5.458 502.8 1.372 489.3C-2.715 475.8 2.515 461.2 14.25 453.4L62.25 421.4C62.82 420.1 63.41 420.6 63.1 420.3V288z"]
+};
+var faLandmarkAlt = faLandmarkDome;
+var faLandmarkFlag = {
+  prefix: 'fas',
+  iconName: 'landmark-flag',
+  icon: [512, 512, [], "e51c", "M352 0C360.8 0 368 7.164 368 16V80C368 88.84 360.8 96 352 96H272V128H464C481.7 128 496 142.3 496 160C496 177.7 481.7 192 464 192H47.1C30.33 192 15.1 177.7 15.1 160C15.1 142.3 30.33 128 47.1 128H239.1V16C239.1 7.164 247.2 0 255.1 0H352zM63.1 224H127.1V416H167.1V224H231.1V416H280V224H344V416H384V224H448V420.3C448.6 420.6 449.2 420.1 449.8 421.4L497.8 453.4C509.5 461.2 514.7 475.8 510.6 489.3C506.5 502.8 494.1 512 480 512H31.1C17.9 512 5.458 502.8 1.372 489.3C-2.715 475.8 2.515 461.2 14.25 453.4L62.25 421.4C62.82 420.1 63.4 420.6 63.1 420.3V224z"]
 };
 var faLanguage = {
   prefix: 'fas',
@@ -12121,6 +13031,11 @@ var faLaptopCode = {
   prefix: 'fas',
   iconName: 'laptop-code',
   icon: [640, 512, [], "f5fc", "M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z"]
+};
+var faLaptopFile = {
+  prefix: 'fas',
+  iconName: 'laptop-file',
+  icon: [640, 512, [], "e51d", "M192 96C192 113.7 206.3 128 224 128H320V192H288C243.8 192 208 227.8 208 272V384C187.1 384 169.3 397.4 162.7 416H48C21.49 416 0 394.5 0 368V48C0 21.49 21.49 0 48 0H192V96zM240 272C240 245.5 261.5 224 288 224H544C570.5 224 592 245.5 592 272V416H624C632.8 416 640 423.2 640 432V448C640 483.3 611.3 512 576 512H256C220.7 512 192 483.3 192 448V432C192 423.2 199.2 416 208 416H240V272zM304 288V416H528V288H304zM320 96H224V0L320 96z"]
 };
 var faLaptopMedical = {
   prefix: 'fas',
@@ -12178,6 +13093,11 @@ var faLightbulb = {
   prefix: 'fas',
   iconName: 'lightbulb',
   icon: [384, 512, [128161], "f0eb", "M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"]
+};
+var faLinesLeaning = {
+  prefix: 'fas',
+  iconName: 'lines-leaning',
+  icon: [384, 512, [], "e51e", "M62.36 458.1C56.77 474.9 38.65 483.9 21.88 478.4C5.116 472.8-3.946 454.6 1.643 437.9L129.6 53.88C135.2 37.12 153.4 28.05 170.1 33.64C186.9 39.23 195.9 57.35 190.4 74.12L62.36 458.1zM261.3 32.44C278.7 35.34 290.5 51.83 287.6 69.26L223.6 453.3C220.7 470.7 204.2 482.5 186.7 479.6C169.3 476.7 157.5 460.2 160.4 442.7L224.4 58.74C227.3 41.31 243.8 29.53 261.3 32.44H261.3zM352 32C369.7 32 384 46.33 384 64V448C384 465.7 369.7 480 352 480C334.3 480 320 465.7 320 448V64C320 46.33 334.3 32 352 32V32z"]
 };
 var faLink = {
   prefix: 'fas',
@@ -12251,6 +13171,11 @@ var faLocationPin = {
   icon: [384, 512, ["map-marker"], "f041", "M384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192H384z"]
 };
 var faMapMarker = faLocationPin;
+var faLocationPinLock = {
+  prefix: 'fas',
+  iconName: 'location-pin-lock',
+  icon: [512, 512, [], "e51f", "M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C287.7 0 366.1 69.96 381.6 161.5C328.5 170.3 288 216.4 288 272V296.6C268.9 307.6 256 328.3 256 352V446.8C240.7 467.4 226.7 485.4 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256zM400 192C444.2 192 480 227.8 480 272V320C497.7 320 512 334.3 512 352V480C512 497.7 497.7 512 480 512H320C302.3 512 288 497.7 288 480V352C288 334.3 302.3 320 320 320V272C320 227.8 355.8 192 400 192zM400 240C382.3 240 368 254.3 368 272V320H432V272C432 254.3 417.7 240 400 240z"]
+};
 var faLock = {
   prefix: 'fas',
   iconName: 'lock',
@@ -12260,6 +13185,11 @@ var faLockOpen = {
   prefix: 'fas',
   iconName: 'lock-open',
   icon: [576, 512, [], "f3c1", "M352 192H384C419.3 192 448 220.7 448 256V448C448 483.3 419.3 512 384 512H64C28.65 512 0 483.3 0 448V256C0 220.7 28.65 192 64 192H288V144C288 64.47 352.5 0 432 0C511.5 0 576 64.47 576 144V192C576 209.7 561.7 224 544 224C526.3 224 512 209.7 512 192V144C512 99.82 476.2 64 432 64C387.8 64 352 99.82 352 144V192z"]
+};
+var faLocust = {
+  prefix: 'fas',
+  iconName: 'locust',
+  icon: [576, 512, [], "e520", "M328 32C464.1 32 576 143 576 280V320C576 320.1 576 320.2 576 320.3C575.8 364.3 540.1 400 496 400H483.6L508.8 444.1C515.4 455.6 511.4 470.3 499.9 476.8C488.4 483.4 473.7 479.4 467.2 467.9L428.4 400H347.1L299.7 469.7C292.2 480.6 277.2 483.3 266.3 475.7C255.4 468.2 252.7 453.2 260.3 442.3L289.6 400H215.1L163.3 470.2C155.5 480.9 140.4 483.2 129.8 475.3C119.1 467.5 116.8 452.4 124.7 441.8L165.2 386.7L122.2 370.4L42.84 470.9C34.62 481.3 19.53 483 9.13 474.8C-1.274 466.6-3.049 451.5 5.164 441.1L245.2 137.1C250.4 130.5 258.8 127.1 267.2 128.2C275.5 129.3 282.7 134.8 286.1 142.5L307.8 193.3L348.7 137.8C353.8 130.8 362.2 127.2 370.8 128.2C379.3 129.1 386.7 134.6 390.1 142.5L431.8 240H496C506.2 240 516 241.9 525 245.4C508.6 151.4 426.7 80 328 80H312C298.7 80 288 69.26 288 56C288 42.75 298.7 32 312 32L328 32zM332.1 240H379.6L362.5 199.1L332.1 240zM257.8 198.5L225.1 240H273.3L274.8 238.1L257.8 198.5zM496 336C504.8 336 512 328.8 512 320C512 311.2 504.8 304 496 304C487.2 304 480 311.2 480 320C480 328.8 487.2 336 496 336zM88.83 240H126.7L48.9 337.3C38.31 326.8 32 312.3 32 296.8C32 265.4 57.45 240 88.83 240V240z"]
 };
 var faLungs = {
   prefix: 'fas',
@@ -12287,6 +13217,16 @@ var faMagnifyingGlass = {
   icon: [512, 512, [128269, "search"], "f002", "M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"]
 };
 var faSearch = faMagnifyingGlass;
+var faMagnifyingGlassArrowRight = {
+  prefix: 'fas',
+  iconName: 'magnifying-glass-arrow-right',
+  icon: [512, 512, [], "e521", "M416 208C416 253.9 401.1 296.3 375.1 330.7L502.6 457.4C515.1 469.9 515.1 490.1 502.6 502.6C490.1 515.1 469.9 515.1 457.4 502.6L330.7 375.1C296.3 401.1 253.9 416 208 416C93.12 416 0 322.9 0 208C0 93.12 93.12 0 208 0C322.9 0 416 93.12 416 208zM240.1 119C231.6 109.7 216.4 109.7 207 119C197.7 128.4 197.7 143.6 207 152.1L238.1 184H120C106.7 184 96 194.7 96 208C96 221.3 106.7 232 120 232H238.1L207 263C197.7 272.4 197.7 287.6 207 296.1C216.4 306.3 231.6 306.3 240.1 296.1L312.1 224.1C322.3 215.6 322.3 200.4 312.1 191L240.1 119z"]
+};
+var faMagnifyingGlassChart = {
+  prefix: 'fas',
+  iconName: 'magnifying-glass-chart',
+  icon: [512, 512, [], "e522", "M416 208C416 253.9 401.1 296.3 375.1 330.7L502.6 457.4C515.1 469.9 515.1 490.1 502.6 502.6C490.1 515.1 469.9 515.1 457.4 502.6L330.7 375.1C296.3 401.1 253.9 416 208 416C93.12 416 0 322.9 0 208C0 93.12 93.12 0 208 0C322.9 0 416 93.12 416 208zM104 280C104 293.3 114.7 304 128 304C141.3 304 152 293.3 152 280V216C152 202.7 141.3 192 128 192C114.7 192 104 202.7 104 216V280zM184 280C184 293.3 194.7 304 208 304C221.3 304 232 293.3 232 280V120C232 106.7 221.3 96 208 96C194.7 96 184 106.7 184 120V280zM264 280C264 293.3 274.7 304 288 304C301.3 304 312 293.3 312 280V184C312 170.7 301.3 160 288 160C274.7 160 264 170.7 264 184V280z"]
+};
 var faMagnifyingGlassDollar = {
   prefix: 'fas',
   iconName: 'magnifying-glass-dollar',
@@ -12353,6 +13293,11 @@ var faMarsAndVenus = {
   iconName: 'mars-and-venus',
   icon: [512, 512, [9893], "f224", "M480 .0002l-112.4 .0001c-21.38 0-32.09 25.85-16.97 40.97l29.56 29.56l-27.11 27.11C326.1 76.85 292.7 64 256 64c-88.37 0-160 71.63-160 160c0 77.4 54.97 141.9 128 156.8v19.22H192c-8.836 0-16 7.162-16 16v31.1c0 8.836 7.164 16 16 16l32 .0001v32c0 8.836 7.164 16 16 16h32c8.838 0 16-7.164 16-16v-32l32-.0001c8.838 0 16-7.164 16-16v-31.1c0-8.838-7.162-16-16-16h-32v-19.22c73.03-14.83 128-79.37 128-156.8c0-28.38-8.018-54.65-20.98-77.77l30.45-30.45l29.56 29.56C470.1 160.5 496 149.8 496 128.4V16C496 7.164 488.8 .0002 480 .0002zM256 304c-44.11 0-80-35.89-80-80c0-44.11 35.89-80 80-80c44.11 0 80 35.89 80 80C336 268.1 300.1 304 256 304z"]
 };
+var faMarsAndVenusBurst = {
+  prefix: 'fas',
+  iconName: 'mars-and-venus-burst',
+  icon: [640, 512, [], "e523", "M607.1 0C625.7 0 639.1 14.33 639.1 32V120C639.1 137.7 625.7 152 607.1 152C590.3 152 575.1 137.7 575.1 120V109.3L539.6 145.7C552.6 168.8 559.1 195.6 559.1 224C559.1 301.4 505 365.1 431.1 380.8V400H447.1C465.7 400 479.1 414.3 479.1 432C479.1 449.7 465.7 464 447.1 464H431.1V480C431.1 497.7 417.7 512 399.1 512C382.3 512 367.1 497.7 367.1 480V464H351.1C334.3 464 319.1 449.7 319.1 432C319.1 414.3 334.3 400 351.1 400H367.1V380.8C294.1 365.1 239.1 301.4 239.1 224C239.1 135.6 311.6 64 399.1 64C436.7 64 470.6 76.37 497.6 97.18L530.7 64H511.1C494.3 64 479.1 49.67 479.1 32C479.1 14.33 494.3 0 511.1 0L607.1 0zM399.1 128C346.1 128 303.1 170.1 303.1 224C303.1 277 346.1 320 399.1 320C453 320 495.1 277 495.1 224C495.1 170.1 453 128 399.1 128zM220.3 92.05L280.4 73.81C236.3 108.1 207.1 163.2 207.1 224C207.1 269.2 223.6 310.8 249.8 343.6C244.5 345 238.7 343.7 234.6 339.9L175.1 286.1L117.4 339.9C112.6 344.4 105.5 345.4 99.63 342.6C93.73 339.7 90.15 333.6 90.62 327L96.21 247.6L17.55 235.4C11.08 234.4 5.868 229.6 4.41 223.2C2.951 216.8 5.538 210.1 10.94 206.4L76.5 161.3L37.01 92.18C33.76 86.49 34.31 79.39 38.39 74.27C42.48 69.14 49.28 67.03 55.55 68.93L131.7 92.05L161.1 18.09C163.6 11.1 169.4 7.1 175.1 7.1C182.6 7.1 188.4 11.1 190.9 18.09L220.3 92.05z"]
+};
 var faMarsDouble = {
   prefix: 'fas',
   iconName: 'mars-double',
@@ -12403,12 +13348,22 @@ var faMaskFace = {
   iconName: 'mask-face',
   icon: [640, 512, [], "e1d7", "M396.4 87.12L433.5 111.9C449.3 122.4 467.8 128 486.8 128H584C614.9 128 640 153.1 640 184V269C640 324.1 602.5 372.1 549.1 385.5L441.1 412.5C406.2 434.1 364.6 448 320 448C275.4 448 233.8 434.1 198.9 412.5L90.9 385.5C37.48 372.1 0 324.1 0 269V184C0 153.1 25.07 128 56 128H153.2C172.2 128 190.7 122.4 206.5 111.9L243.6 87.12C266.2 72.05 292.8 64 320 64C347.2 64 373.8 72.05 396.4 87.12zM132.3 346.3C109.4 311.2 96 269.1 96 224V176H56C51.58 176 48 179.6 48 184V269C48 302.1 70.49 330.9 102.5 338.9L132.3 346.3zM592 269V184C592 179.6 588.4 176 584 176H544V224C544 269.1 530.6 311.2 507.7 346.3L537.5 338.9C569.5 330.9 592 302.1 592 269H592zM208 224H432C440.8 224 448 216.8 448 208C448 199.2 440.8 192 432 192H208C199.2 192 192 199.2 192 208C192 216.8 199.2 224 208 224zM208 256C199.2 256 192 263.2 192 272C192 280.8 199.2 288 208 288H432C440.8 288 448 280.8 448 272C448 263.2 440.8 256 432 256H208zM240 352H400C408.8 352 416 344.8 416 336C416 327.2 408.8 320 400 320H240C231.2 320 224 327.2 224 336C224 344.8 231.2 352 240 352z"]
 };
+var faMaskVentilator = {
+  prefix: 'fas',
+  iconName: 'mask-ventilator',
+  icon: [640, 512, [], "e524", "M320 32C372.1 32 419.7 73.8 454.5 128H584C614.9 128 640 153.1 640 184V269C640 324.1 602.5 372.1 549.1 385.5L477.5 403.4C454.6 433.8 421.1 457.2 384 469.8V393.2C403.6 376.8 416 353.1 416 326.4C416 276.9 372.5 191.1 320 191.1C267 191.1 224 276.9 224 326.4C224 353 236.3 376.9 256 393.3V469.9C217.6 457.4 184.9 433.8 162.2 403.3L90.9 385.5C37.48 372.1 0 324.1 0 269V184C0 153.1 25.07 128 56 128H185.1C219.8 73.8 267.4 32 320 32V32zM56 176C51.58 176 48 179.6 48 184V269C48 302.1 70.49 330.9 102.5 338.9L134.3 346.8C130.2 332.2 127.1 316.7 127.1 300.8C127.1 264.7 139.4 219.2 159.1 176H56zM480.7 176C500.4 219.2 512 264.7 512 300.8C512 316.8 509.8 332.2 505.6 346.9L537.5 338.9C569.5 330.9 592 302.1 592 269V184C592 179.6 588.4 176 584 176H480.7zM288 320C288 302.3 302.3 288 320 288C337.7 288 352 302.3 352 320V512H288V320z"]
+};
 var faMasksTheater = {
   prefix: 'fas',
   iconName: 'masks-theater',
   icon: [640, 512, [127917, "theater-masks"], "f630", "M206.9 245.1C171 255.6 146.8 286.4 149.3 319.3C160.7 306.5 178.1 295.5 199.3 288.4L206.9 245.1zM95.78 294.9L64.11 115.5C63.74 113.9 64.37 112.9 64.37 112.9c57.75-32.13 123.1-48.99 189-48.99c1.625 0 3.113 .0745 4.738 .0745c13.1-13.5 31.75-22.75 51.62-26c18.87-3 38.12-4.5 57.25-5.25c-9.999-14-24.47-24.27-41.84-27.02c-23.87-3.875-47.9-5.732-71.77-5.732c-76.74 0-152.4 19.45-220.1 57.07C9.021 70.57-3.853 98.5 1.021 126.6L32.77 306c14.25 80.5 136.3 142 204.5 142c3.625 0 6.777-.2979 10.03-.6729c-13.5-17.13-28.1-40.5-39.5-67.63C160.1 366.8 101.7 328 95.78 294.9zM193.4 157.6C192.6 153.4 191.1 149.7 189.3 146.2c-8.249 8.875-20.62 15.75-35.25 18.37c-14.62 2.5-28.75 .376-39.5-5.249c-.5 4-.6249 7.998 .125 12.12c3.75 21.75 24.5 36.24 46.25 32.37C182.6 200.1 197.3 179.3 193.4 157.6zM606.8 121c-88.87-49.38-191.4-67.38-291.9-51.38C287.5 73.1 265.8 95.85 260.8 123.1L229 303.5c-15.37 87.13 95.33 196.3 158.3 207.3c62.1 11.13 204.5-53.68 219.9-140.8l31.75-179.5C643.9 162.3 631 134.4 606.8 121zM333.5 217.8c3.875-21.75 24.62-36.25 46.37-32.37c21.75 3.75 36.25 24.49 32.5 46.12c-.7499 4.125-2.25 7.873-4.125 11.5c-8.249-9-20.62-15.75-35.25-18.37c-14.75-2.625-28.75-.3759-39.5 5.124C332.1 225.9 332.9 221.9 333.5 217.8zM403.1 416.5c-55.62-9.875-93.49-59.23-88.99-112.1c20.62 25.63 56.25 46.24 99.49 53.87c43.25 7.625 83.74 .3781 111.9-16.62C512.2 392.7 459.7 426.3 403.1 416.5zM534.4 265.2c-8.249-8.875-20.75-15.75-35.37-18.37c-14.62-2.5-28.62-.3759-39.5 5.249c-.5-4-.625-7.998 .125-12.12c3.875-21.75 24.62-36.25 46.37-32.37c21.75 3.875 36.25 24.49 32.37 46.24C537.6 257.9 536.1 261.7 534.4 265.2z"]
 };
 var faTheaterMasks = faMasksTheater;
+var faMattressPillow = {
+  prefix: 'fas',
+  iconName: 'mattress-pillow',
+  icon: [640, 512, [], "e525", "M256 448H64C28.65 448 0 419.3 0 384V128C0 92.65 28.65 64 64 64H256V448zM64 352C64 369.7 78.33 384 96 384H160C177.7 384 192 369.7 192 352V160C192 142.3 177.7 128 160 128H96C78.33 128 64 142.3 64 160V352zM288 64H576C611.3 64 640 92.65 640 128V384C640 419.3 611.3 448 576 448H288V64z"]
+};
 var faMaximize = {
   prefix: 'fas',
   iconName: 'maximize',
@@ -12512,6 +13467,17 @@ var faMobileButton = {
   iconName: 'mobile-button',
   icon: [384, 512, [], "f10b", "M320 0H64C37.49 0 16 21.49 16 48v416C16 490.5 37.49 512 64 512h256c26.51 0 48-21.49 48-48v-416C368 21.49 346.5 0 320 0zM192 464c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 464 192 464z"]
 };
+var faMobileRetro = {
+  prefix: 'fas',
+  iconName: 'mobile-retro',
+  icon: [320, 512, [], "e527", "M0 64C0 28.65 28.65 0 64 0H256C291.3 0 320 28.65 320 64V448C320 483.3 291.3 512 256 512H64C28.65 512 0 483.3 0 448V64zM64 232C64 245.3 74.75 256 88 256H232C245.3 256 256 245.3 256 232V152C256 138.7 245.3 128 232 128H88C74.75 128 64 138.7 64 152V232zM80 352C93.25 352 104 341.3 104 328C104 314.7 93.25 304 80 304C66.75 304 56 314.7 56 328C56 341.3 66.75 352 80 352zM80 384C66.75 384 56 394.7 56 408C56 421.3 66.75 432 80 432C93.25 432 104 421.3 104 408C104 394.7 93.25 384 80 384zM160 352C173.3 352 184 341.3 184 328C184 314.7 173.3 304 160 304C146.7 304 136 314.7 136 328C136 341.3 146.7 352 160 352zM160 384C146.7 384 136 394.7 136 408C136 421.3 146.7 432 160 432C173.3 432 184 421.3 184 408C184 394.7 173.3 384 160 384zM240 352C253.3 352 264 341.3 264 328C264 314.7 253.3 304 240 304C226.7 304 216 314.7 216 328C216 341.3 226.7 352 240 352zM240 384C226.7 384 216 394.7 216 408C216 421.3 226.7 432 240 432C253.3 432 264 421.3 264 408C264 394.7 253.3 384 240 384zM128 48C119.2 48 112 55.16 112 64C112 72.84 119.2 80 128 80H192C200.8 80 208 72.84 208 64C208 55.16 200.8 48 192 48H128z"]
+};
+var faMobileScreen = {
+  prefix: 'fas',
+  iconName: 'mobile-screen',
+  icon: [384, 512, ["mobile-android-alt"], "f3cf", "M320 0H64C37.5 0 16 21.5 16 48v416C16 490.5 37.5 512 64 512h256c26.5 0 48-21.5 48-48v-416C368 21.5 346.5 0 320 0zM240 447.1C240 456.8 232.8 464 224 464H159.1C151.2 464 144 456.8 144 448S151.2 432 160 432h64C232.8 432 240 439.2 240 447.1zM304 384h-224V64h224V384z"]
+};
+var faMobileAndroidAlt = faMobileScreen;
 var faMobileScreenButton = {
   prefix: 'fas',
   iconName: 'mobile-screen-button',
@@ -12535,10 +13501,30 @@ var faMoneyBill1Wave = {
   icon: [576, 512, ["money-bill-wave-alt"], "f53b", "M251.1 207.1C251.1 196.1 260.1 187.1 271.1 187.1H287.1C299 187.1 308 196.1 308 207.1V275.1H312C323 275.1 332 284.1 332 295.1C332 307 323 315.1 312 315.1H263.1C252.1 315.1 243.1 307 243.1 295.1C243.1 284.1 252.1 275.1 263.1 275.1H267.1V227.6C258.9 225.7 251.1 217.7 251.1 207.1zM48.66 79.13C128.4 100.9 208.2 80.59 288 60.25C375 38.08 462 15.9 549 48.38C565.9 54.69 576 71.62 576 89.66V399.5C576 423.4 550.4 439.2 527.3 432.9C447.6 411.1 367.8 431.4 288 451.7C200.1 473.9 113.1 496.1 26.97 463.6C10.06 457.3 0 440.4 0 422.3V112.5C0 88.59 25.61 72.83 48.66 79.13L48.66 79.13zM127.1 416C127.1 380.7 99.35 352 63.1 352V416H127.1zM63.1 223.1C99.35 223.1 127.1 195.3 127.1 159.1H63.1V223.1zM512 352V287.1C476.7 287.1 448 316.7 448 352H512zM512 95.1H448C448 131.3 476.7 159.1 512 159.1V95.1zM287.1 143.1C234.1 143.1 191.1 194.1 191.1 255.1C191.1 317.9 234.1 368 287.1 368C341 368 384 317.9 384 255.1C384 194.1 341 143.1 287.1 143.1z"]
 };
 var faMoneyBillWaveAlt = faMoneyBill1Wave;
+var faMoneyBillTransfer = {
+  prefix: 'fas',
+  iconName: 'money-bill-transfer',
+  icon: [640, 512, [], "e528", "M535 7.03C544.4-2.343 559.6-2.343 568.1 7.029L632.1 71.02C637.5 75.52 640 81.63 640 87.99C640 94.36 637.5 100.5 632.1 104.1L568.1 168.1C559.6 178.3 544.4 178.3 535 168.1C525.7 159.6 525.7 144.4 535 135L558.1 111.1L384 111.1C370.7 111.1 360 101.2 360 87.99C360 74.74 370.7 63.99 384 63.99L558.1 63.1L535 40.97C525.7 31.6 525.7 16.4 535 7.03V7.03zM104.1 376.1L81.94 400L255.1 399.1C269.3 399.1 279.1 410.7 279.1 423.1C279.1 437.2 269.3 447.1 255.1 447.1L81.95 448L104.1 471C114.3 480.4 114.3 495.6 104.1 504.1C95.6 514.3 80.4 514.3 71.03 504.1L7.029 440.1C2.528 436.5-.0003 430.4 0 423.1C0 417.6 2.529 411.5 7.03 407L71.03 343C80.4 333.7 95.6 333.7 104.1 343C114.3 352.4 114.3 367.6 104.1 376.1H104.1zM95.1 64H337.9C334.1 71.18 332 79.34 332 87.1C332 116.7 355.3 139.1 384 139.1L481.1 139.1C484.4 157.5 494.9 172.5 509.4 181.9C511.1 184.3 513.1 186.6 515.2 188.8C535.5 209.1 568.5 209.1 588.8 188.8L608 169.5V384C608 419.3 579.3 448 544 448H302.1C305.9 440.8 307.1 432.7 307.1 423.1C307.1 395.3 284.7 371.1 255.1 371.1L158.9 372C155.5 354.5 145.1 339.5 130.6 330.1C128.9 327.7 126.9 325.4 124.8 323.2C104.5 302.9 71.54 302.9 51.23 323.2L31.1 342.5V128C31.1 92.65 60.65 64 95.1 64V64zM95.1 192C131.3 192 159.1 163.3 159.1 128H95.1V192zM544 384V320C508.7 320 480 348.7 480 384H544zM319.1 352C373 352 416 309 416 256C416 202.1 373 160 319.1 160C266.1 160 223.1 202.1 223.1 256C223.1 309 266.1 352 319.1 352z"]
+};
+var faMoneyBillTrendUp = {
+  prefix: 'fas',
+  iconName: 'money-bill-trend-up',
+  icon: [512, 512, [], "e529", "M470.7 9.441C473.7 12.49 476 16 477.6 19.75C479.1 23.5 479.1 27.6 480 31.9V32V128C480 145.7 465.7 160 448 160C430.3 160 416 145.7 416 128V109.3L310.6 214.6C298.8 226.5 279.9 227.2 267.2 216.3L175.1 138.1L84.82 216.3C71.41 227.8 51.2 226.2 39.7 212.8C28.2 199.4 29.76 179.2 43.17 167.7L155.2 71.7C167.2 61.43 184.8 61.43 196.8 71.7L286.3 148.4L370.7 64H352C334.3 64 320 49.67 320 32C320 14.33 334.3 0 352 0H447.1C456.8 0 464.8 3.554 470.6 9.305L470.7 9.441zM0 304C0 277.5 21.49 256 48 256H464C490.5 256 512 277.5 512 304V464C512 490.5 490.5 512 464 512H48C21.49 512 0 490.5 0 464V304zM48 464H96C96 437.5 74.51 416 48 416V464zM48 304V352C74.51 352 96 330.5 96 304H48zM464 416C437.5 416 416 437.5 416 464H464V416zM416 304C416 330.5 437.5 352 464 352V304H416zM256 320C220.7 320 192 348.7 192 384C192 419.3 220.7 448 256 448C291.3 448 320 419.3 320 384C320 348.7 291.3 320 256 320z"]
+};
 var faMoneyBillWave = {
   prefix: 'fas',
   iconName: 'money-bill-wave',
   icon: [576, 512, [], "f53a", "M48.66 79.13C128.4 100.9 208.2 80.59 288 60.25C375 38.08 462 15.9 549 48.38C565.9 54.69 576 71.62 576 89.66V399.5C576 423.4 550.4 439.2 527.3 432.9C447.6 411.1 367.8 431.4 288 451.7C200.1 473.9 113.1 496.1 26.97 463.6C10.06 457.3 0 440.4 0 422.3V112.5C0 88.59 25.61 72.83 48.66 79.13L48.66 79.13zM287.1 352C332.2 352 368 309 368 255.1C368 202.1 332.2 159.1 287.1 159.1C243.8 159.1 207.1 202.1 207.1 255.1C207.1 309 243.8 352 287.1 352zM63.1 416H127.1C127.1 380.7 99.35 352 63.1 352V416zM63.1 143.1V207.1C99.35 207.1 127.1 179.3 127.1 143.1H63.1zM512 303.1C476.7 303.1 448 332.7 448 368H512V303.1zM448 95.1C448 131.3 476.7 159.1 512 159.1V95.1H448z"]
+};
+var faMoneyBillWheat = {
+  prefix: 'fas',
+  iconName: 'money-bill-wheat',
+  icon: [512, 512, [], "e52a", "M256 80C256 88.84 248.8 96 240 96C195.8 96 160 60.18 160 16C160 7.164 167.2 0 176 0C220.2 0 256 35.82 256 80zM104 16C117.3 16 128 26.75 128 40C128 53.25 117.3 64 104 64H56C42.75 64 32 53.25 32 40C32 26.75 42.75 16 56 16H104zM136 88C149.3 88 160 98.75 160 112C160 125.3 149.3 136 136 136H24C10.75 136 0 125.3 0 112C0 98.75 10.75 88 24 88H136zM32 184C32 170.7 42.75 160 56 160H104C117.3 160 128 170.7 128 184C128 197.3 117.3 208 104 208H56C42.75 208 32 197.3 32 184zM272 16C272 7.164 279.2 0 288 0C332.2 0 368 35.82 368 80C368 88.84 360.8 96 352 96C307.8 96 272 60.18 272 16zM480 80C480 88.84 472.8 96 464 96C419.8 96 384 60.18 384 16C384 7.164 391.2 0 400 0C444.2 0 480 35.82 480 80zM400 224C391.2 224 384 216.8 384 208C384 163.8 419.8 128 464 128C472.8 128 480 135.2 480 144C480 188.2 444.2 224 400 224zM352 128C360.8 128 368 135.2 368 144C368 188.2 332.2 224 288 224C279.2 224 272 216.8 272 208C272 163.8 307.8 128 352 128zM176 224C167.2 224 160 216.8 160 208C160 163.8 195.8 128 240 128C248.8 128 256 135.2 256 144C256 188.2 220.2 224 176 224zM0 304C0 277.5 21.49 256 48 256H464C490.5 256 512 277.5 512 304V464C512 490.5 490.5 512 464 512H48C21.49 512 0 490.5 0 464V304zM48 464H96C96 437.5 74.51 416 48 416V464zM48 304V352C74.51 352 96 330.5 96 304H48zM464 416C437.5 416 416 437.5 416 464H464V416zM416 304C416 330.5 437.5 352 464 352V304H416zM256 320C220.7 320 192 348.7 192 384C192 419.3 220.7 448 256 448C291.3 448 320 419.3 320 384C320 348.7 291.3 320 256 320z"]
+};
+var faMoneyBills = {
+  prefix: 'fas',
+  iconName: 'money-bills',
+  icon: [640, 512, [], "e1f3", "M96 96C96 60.65 124.7 32 160 32H576C611.3 32 640 60.65 640 96V320C640 355.3 611.3 384 576 384H160C124.7 384 96 355.3 96 320V96zM160 320H224C224 284.7 195.3 256 160 256V320zM160 96V160C195.3 160 224 131.3 224 96H160zM576 256C540.7 256 512 284.7 512 320H576V256zM512 96C512 131.3 540.7 160 576 160V96H512zM368 128C323.8 128 288 163.8 288 208C288 252.2 323.8 288 368 288C412.2 288 448 252.2 448 208C448 163.8 412.2 128 368 128zM48 360C48 399.8 80.24 432 120 432H520C533.3 432 544 442.7 544 456C544 469.3 533.3 480 520 480H120C53.73 480 0 426.3 0 360V120C0 106.7 10.75 96 24 96C37.25 96 48 106.7 48 120V360z"]
 };
 var faMoneyCheck = {
   prefix: 'fas',
@@ -12571,15 +13557,40 @@ var faMosque = {
   iconName: 'mosque',
   icon: [640, 512, [128332], "f678", "M400 0C405 0 409.8 2.371 412.8 6.4C447.5 52.7 490.9 81.34 546.3 117.9C551.5 121.4 556.9 124.9 562.3 128.5C591.3 147.7 608 180.2 608 214.6C608 243.1 596.7 269 578.2 288H221.8C203.3 269 192 243.1 192 214.6C192 180.2 208.7 147.7 237.7 128.5C243.1 124.9 248.5 121.4 253.7 117.9C309.1 81.34 352.5 52.7 387.2 6.4C390.2 2.371 394.1 0 400 0V0zM288 440C288 426.7 277.3 416 264 416C250.7 416 240 426.7 240 440V512H192C174.3 512 160 497.7 160 480V352C160 334.3 174.3 320 192 320H608C625.7 320 640 334.3 640 352V480C640 497.7 625.7 512 608 512H560V440C560 426.7 549.3 416 536 416C522.7 416 512 426.7 512 440V512H448V453.1C448 434.1 439.6 416.1 424.1 404.8L400 384L375 404.8C360.4 416.1 352 434.1 352 453.1V512H288V440zM70.4 5.2C76.09 .9334 83.91 .9334 89.6 5.2L105.6 17.2C139.8 42.88 160 83.19 160 126V128H0V126C0 83.19 20.15 42.88 54.4 17.2L70.4 5.2zM0 160H160V296.6C140.9 307.6 128 328.3 128 352V480C128 489.6 130.1 498.6 133.8 506.8C127.3 510.1 119.9 512 112 512H48C21.49 512 0 490.5 0 464V160z"]
 };
+var faMosquito = {
+  prefix: 'fas',
+  iconName: 'mosquito',
+  icon: [640, 512, [], "e52b", "M430.3 503.8L382.3 447.8C378.4 443.4 376.3 437.7 376.3 431.7V376.3L351.1 344.7V407.8C351.1 425.4 337.7 439.8 319.1 439.8C302.3 439.8 287.1 425.4 287.1 407.8V344.7L263.7 376.3V431.7C263.7 437.7 261.6 443.4 257.7 447.8L209.7 503.8C201.1 513.8 186.1 514.8 176.3 505.9C166.5 497 165.6 481.6 174.3 471.6L216.3 422.5V367.8C216.3 362.3 218.1 357 221.5 352.7L287.1 266.3V266L154.6 387.8C97.58 447.6 .0003 405.2 0 320.6C0 272.7 34.02 232.3 79.35 226.4L232.3 202.5L191.5 161.6C183.7 153.8 182.1 141.5 187.6 131.8L211.5 90.06L173.3 39.18C165.3 28.54 167.2 13.26 177.5 5.046C187.9-3.17 202.7-1.207 210.7 9.429L258.7 73.34C264.6 81.21 265.3 91.99 260.4 100.6L237.8 140L287.1 190.3V152.1C287.1 137.2 298.2 124.7 311.1 121.1V63.93C311.1 59.51 315.6 55.93 319.1 55.93C324.4 55.93 327.1 59.51 327.1 63.93V121.1C341.8 124.7 351.1 137.2 351.1 152.1V190.3L402.2 140L379.6 100.6C374.7 91.99 375.4 81.21 381.3 73.34L429.3 9.429C437.3-1.207 452.1-3.169 462.5 5.047C472.8 13.26 474.7 28.55 466.7 39.18L428.5 90.06L452.4 131.8C457.9 141.5 456.3 153.8 448.5 161.6L407.7 202.5L560.6 226.4C605.1 232.3 640 272.7 640 320.6C640 405.2 542.4 447.6 485.4 387.8L351.1 266V266.3L418.5 352.7C421.9 357 423.7 362.3 423.7 367.8V422.5L465.7 471.6C474.4 481.6 473.5 497 463.7 505.9C453.9 514.8 438.9 513.8 430.3 503.8L430.3 503.8z"]
+};
+var faMosquitoNet = {
+  prefix: 'fas',
+  iconName: 'mosquito-net',
+  icon: [640, 512, [], "e52c", "M168.8 462.3C160.9 458.4 157.7 448.7 161.7 440.8L191.1 380.2V335.1C191.1 331.8 193.7 327.7 196.7 324.7L255.1 265.4V242.2L139.2 343.1C87.82 395.3 0 358.9 0 286.3C0 245.2 30.62 210.6 71.41 205.5L231.3 181.6L181.8 140.3C176.7 136.1 174.7 129.2 176.8 122.9L190.7 81.22L161.7 23.15C157.7 15.25 160.9 5.637 168.8 1.685C176.7-2.267 186.4 .9369 190.3 8.841L222.3 72.84C224.2 76.64 224.5 81.03 223.2 85.06L210.6 122.7L255.1 160.5V137.9C255.1 123.1 266.1 110.6 279.8 106.1V63.67C279.8 59.17 283.5 55.51 287.1 55.51C292.5 55.51 296.2 59.17 296.2 63.67V106.1C309.9 110.6 319.1 123.1 319.1 137.9V160.5L365.4 122.7L352.8 85.06C351.5 81.03 351.8 76.64 353.7 72.84L385.7 8.84C389.6 .9366 399.3-2.267 407.2 1.685C415.1 5.636 418.3 15.25 414.3 23.15L385.3 81.22L399.2 122.9C401.3 129.2 399.3 136.1 394.2 140.3L344.7 181.6L504.6 205.5C527 208.3 546.4 220 559.3 236.9C556.5 239.4 554.1 242.3 552 245.5C543.4 232.5 528.7 223.1 512 223.1C495.3 223.1 480.6 232.5 472 245.5C463.4 232.5 448.7 223.1 432 223.1C410.3 223.1 392 238.3 386.1 258.1C375.4 261.3 366.3 268.2 360.2 277.2L319.1 242.2V265.4L352.4 297.8C352.1 299.8 352 301.9 352 303.1C352 320.7 360.5 335.4 373.5 343.1C369.5 346.6 365.9 349.9 362.9 353.5L319.1 310.6V360.6C319.1 378.3 305.7 392.6 287.1 392.6C270.3 392.6 255.1 378.3 255.1 360.6V310.6L224 342.6V383.1C224 386.5 223.4 388.9 222.3 391.2L190.3 455.2C186.4 463.1 176.7 466.3 168.8 462.3V462.3zM512 255.1C520.8 255.1 528 263.2 528 271.1V287.1H576V271.1C576 263.2 583.2 255.1 592 255.1C600.8 255.1 608 263.2 608 271.1V287.1H624C632.8 287.1 640 295.2 640 303.1C640 312.8 632.8 319.1 624 319.1H608V367.1H624C632.8 367.1 640 375.2 640 383.1C640 392.8 632.8 399.1 624 399.1H608V447.1H624C632.8 447.1 640 455.2 640 463.1C640 472.8 632.8 479.1 624 479.1H608V495.1C608 504.8 600.8 511.1 592 511.1C583.2 511.1 576 504.8 576 495.1V479.1H528V495.1C528 504.8 520.8 511.1 512 511.1C503.2 511.1 496 504.8 496 495.1V479.1H448V495.1C448 504.8 440.8 511.1 432 511.1C423.2 511.1 416 504.8 416 495.1V479.1H400C391.2 479.1 384 472.8 384 463.1C384 455.2 391.2 447.1 400 447.1H416V399.1H400C391.2 399.1 384 392.8 384 383.1C384 375.2 391.2 367.1 400 367.1H416V319.1H400C391.2 319.1 384 312.8 384 303.1C384 295.2 391.2 287.1 400 287.1H416V271.1C416 263.2 423.2 255.1 432 255.1C440.8 255.1 448 263.2 448 271.1V287.1H496V271.1C496 263.2 503.2 255.1 512 255.1V255.1zM576 367.1V319.1H528V367.1H576zM576 447.1V399.1H528V447.1H576zM448 319.1V367.1H496V319.1H448zM448 399.1V447.1H496V399.1H448z"]
+};
 var faMotorcycle = {
   prefix: 'fas',
   iconName: 'motorcycle',
   icon: [640, 512, [127949], "f21c", "M342.5 32C357.2 32 370.7 40.05 377.6 52.98L391.7 78.93L439.1 39.42C444.9 34.62 452.1 32 459.6 32H480C497.7 32 512 46.33 512 64V96C512 113.7 497.7 128 480 128H418.2L473.3 229.1C485.5 226.1 498.5 224 512 224C582.7 224 640 281.3 640 352C640 422.7 582.7 480 512 480C441.3 480 384 422.7 384 352C384 311.1 402.4 276.3 431.1 252.8L415.7 224.2C376.1 253.4 352 299.8 352 352C352 362.1 353.1 373.7 355.2 384H284.8C286.9 373.7 287.1 362.1 287.1 352C287.1 263.6 216.4 192 127.1 192H31.1V160C31.1 142.3 46.33 128 63.1 128H165.5C182.5 128 198.7 134.7 210.7 146.7L255.1 192L354.1 110.3L337.7 80H279.1C266.7 80 255.1 69.25 255.1 56C255.1 42.75 266.7 32 279.1 32L342.5 32zM448 352C448 387.3 476.7 416 512 416C547.3 416 576 387.3 576 352C576 316.7 547.3 288 512 288C509.6 288 507.2 288.1 504.9 288.4L533.1 340.6C539.4 352.2 535.1 366.8 523.4 373.1C511.8 379.4 497.2 375.1 490.9 363.4L462.7 311.2C453.5 322.3 448 336.5 448 352V352zM253.8 376C242.5 435.2 190.5 480 128 480C57.31 480 0 422.7 0 352C0 281.3 57.31 224 128 224C190.5 224 242.5 268.8 253.8 328H187.3C177.9 304.5 154.9 288 128 288C92.65 288 64 316.7 64 352C64 387.3 92.65 416 128 416C154.9 416 177.9 399.5 187.3 376H253.8zM96 352C96 334.3 110.3 320 128 320C145.7 320 160 334.3 160 352C160 369.7 145.7 384 128 384C110.3 384 96 369.7 96 352z"]
 };
+var faMound = {
+  prefix: 'fas',
+  iconName: 'mound',
+  icon: [576, 512, [], "e52d", "M144.1 179.2C173.8 127.7 228.6 96 288 96C347.4 96 402.2 127.7 431.9 179.2L540.4 368C552.7 389.4 537.3 416 512.7 416H63.31C38.7 416 23.31 389.4 35.57 368L144.1 179.2z"]
+};
 var faMountain = {
   prefix: 'fas',
   iconName: 'mountain',
   icon: [512, 512, [127956], "f6fc", "M503.2 393.8L280.1 44.25c-10.42-16.33-37.73-16.33-48.15 0L8.807 393.8c-11.11 17.41-11.75 39.42-1.666 57.45C17.07 468.1 35.92 480 56.31 480h399.4c20.39 0 39.24-11.03 49.18-28.77C514.9 433.2 514.3 411.2 503.2 393.8zM256 111.8L327.8 224H256L208 288L177.2 235.3L256 111.8z"]
+};
+var faMountainCity = {
+  prefix: 'fas',
+  iconName: 'mountain-city',
+  icon: [640, 512, [], "e52e", "M432 0C458.5 0 480 21.49 480 48V192H520V120C520 106.7 530.7 96 544 96C557.3 96 568 106.7 568 120V192H592C618.5 192 640 213.5 640 240V464C640 490.5 618.5 512 592 512H470.2C470.7 511.2 471.2 510.5 471.6 509.7C483.2 488.6 482.8 462.9 470.3 442.4L396.5 320H400C408.8 320 416 312.8 416 304V272C416 263.2 408.8 256 400 256H368C364.8 256 361.9 256.9 359.4 258.5L288 140.1V48C288 21.49 309.5 0 336 0L432 0zM368 64C359.2 64 352 71.16 352 80V112C352 120.8 359.2 128 368 128H400C408.8 128 416 120.8 416 112V80C416 71.16 408.8 64 400 64H368zM352 208C352 216.8 359.2 224 368 224H400C408.8 224 416 216.8 416 208V176C416 167.2 408.8 160 400 160H368C359.2 160 352 167.2 352 176V208zM512 304C512 312.8 519.2 320 528 320H560C568.8 320 576 312.8 576 304V272C576 263.2 568.8 256 560 256H528C519.2 256 512 263.2 512 272V304zM528 352C519.2 352 512 359.2 512 368V400C512 408.8 519.2 416 528 416H560C568.8 416 576 408.8 576 400V368C576 359.2 568.8 352 560 352H528zM442.9 458.9C449.4 469.7 449.7 483.2 443.6 494.2C437.5 505.2 426 512 413.5 512H34.46C21.1 512 10.5 505.2 4.404 494.2C-1.693 483.2-1.444 469.7 5.056 458.9L194.6 144.7C200.9 134.3 211.1 128 224 128C236 128 247.1 134.3 253.4 144.7L442.9 458.9zM223.1 188.9L150.4 310.8L174.1 352L222.1 288H283.8L223.1 188.9z"]
+};
+var faMountainSun = {
+  prefix: 'fas',
+  iconName: 'mountain-sun',
+  icon: [640, 512, [], "e52f", "M480 80C480 35.82 515.8 0 560 0C604.2 0 640 35.82 640 80C640 124.2 604.2 160 560 160C515.8 160 480 124.2 480 80zM0 456.1C0 445.6 2.964 435.3 8.551 426.4L225.3 81.01C231.9 70.42 243.5 64 256 64C268.5 64 280.1 70.42 286.8 81.01L412.7 281.7L460.9 202.7C464.1 196.1 472.2 192 480 192C487.8 192 495 196.1 499.1 202.7L631.1 419.1C636.9 428.6 640 439.7 640 450.9C640 484.6 612.6 512 578.9 512H55.91C25.03 512 .0006 486.1 .0006 456.1L0 456.1z"]
 };
 var faMugHot = {
   prefix: 'fas',
@@ -12657,6 +13668,11 @@ var faOilCan = {
   prefix: 'fas',
   iconName: 'oil-can',
   icon: [640, 512, [], "f613", "M288 128V160H368.9C378.8 160 388.6 162.3 397.5 166.8L448 192L615 156.2C633.1 152.3 645.7 173.8 633.5 187.7L451.1 394.3C438.1 408.1 421.5 416 403.1 416H144C117.5 416 96 394.5 96 368V346.7L28.51 316.7C11.17 308.1 0 291.8 0 272.8V208C0 181.5 21.49 160 48 160H224V128H192C174.3 128 160 113.7 160 96C160 78.33 174.3 64 192 64H320C337.7 64 352 78.33 352 96C352 113.7 337.7 128 320 128L288 128zM96 208H48V272.8L96 294.1V208z"]
+};
+var faOilWell = {
+  prefix: 'fas',
+  iconName: 'oil-well',
+  icon: [576, 512, [], "e532", "M569.8 215.8C581.2 258.5 555.9 302.4 513.2 313.8L497.7 317.9C480.7 322.5 463.1 312.4 458.5 295.3L433.3 201.3L95.1 288.8V448H137.3L190.4 296.3L264.1 276.1L238.7 352H305.3L277.9 273.6L340 257.5L406.7 448H544C561.7 448 576 462.3 576 480C576 497.7 561.7 512 544 512H32C14.33 512 0 497.7 0 480C0 462.3 14.33 448 32 448H48V184C48 170.7 58.75 160 72 160C85.25 160 96 170.7 96 184V222.6L228.2 188.4L241.8 149.4C246.3 136.6 258.4 128 272 128C285.6 128 297.7 136.6 302.2 149.4L308.5 167.5L416.8 139.5L392.3 48.04C387.7 30.97 397.8 13.42 414.9 8.848L430.4 4.707C473-6.729 516.9 18.6 528.3 61.28L569.8 215.8zM205.1 448H338.9L327.7 416H216.3L205.1 448z"]
 };
 var faOm = {
   prefix: 'fas',
@@ -12807,6 +13823,31 @@ var faPeopleCarryBox = {
   icon: [640, 512, ["people-carry"], "f4ce", "M128 95.1c26.5 0 47.1-21.5 47.1-47.1S154.5 0 128 0S80.01 21.5 80.01 47.1S101.5 95.1 128 95.1zM511.1 95.1c26.5 0 47.1-21.5 47.1-47.1S538.5 0 511.1 0c-26.5 0-48 21.5-48 47.1S485.5 95.1 511.1 95.1zM603.5 258.3l-18.5-80.13c-4.625-20-18.62-36.88-37.5-44.88c-18.5-8-38.1-6.75-56.12 3.25c-22.62 13.38-39.62 34.5-48.12 59.38l-11.25 33.88l-15.1 10.25L415.1 144c0-8.75-7.25-16-16-16H240c-8.75 0-16 7.25-16 16L224 239.1l-16.12-10.25l-11.25-33.88c-8.375-25-25.38-46-48.12-59.38c-17.25-10-37.63-11.25-56.12-3.25c-18.88 8-32.88 24.88-37.5 44.88l-18.37 80.13c-4.625 20 .7506 41.25 14.37 56.75l67.25 75.88l10.12 92.63C130 499.8 143.8 512 160 512c1.25 0 2.25-.125 3.5-.25c17.62-1.875 30.25-17.62 28.25-35.25l-10-92.75c-1.5-13-7-25.12-15.62-35l-43.37-49l17.62-70.38l6.876 20.38c4 12.5 11.87 23.5 24.5 32.63l51 32.5c4.623 2.875 12.12 4.625 17.25 5h159.1c5.125-.375 12.62-2.125 17.25-5l51-32.5c12.62-9.125 20.5-20 24.5-32.63l6.875-20.38l17.63 70.38l-43.37 49c-8.625 9.875-14.12 22-15.62 35l-10 92.75c-2 17.62 10.75 33.38 28.25 35.25C477.7 511.9 478.7 512 479.1 512c16.12 0 29.1-12.12 31.75-28.5l10.12-92.63L589.1 315C602.7 299.5 608.1 278.3 603.5 258.3zM46.26 358.1l-44 110c-6.5 16.38 1.5 35 17.88 41.63c16.75 6.5 35.12-1.75 41.62-17.88l27.62-69.13l-2-18.25L46.26 358.1zM637.7 468.1l-43.1-110l-41.13 46.38l-2 18.25l27.62 69.13C583.2 504.4 595.2 512 607.1 512c3.998 0 7.998-.75 11.87-2.25C636.2 503.1 644.2 484.5 637.7 468.1z"]
 };
 var faPeopleCarry = faPeopleCarryBox;
+var faPeopleGroup = {
+  prefix: 'fas',
+  iconName: 'people-group',
+  icon: [640, 512, [], "e533", "M184 88C184 118.9 158.9 144 128 144C97.07 144 72 118.9 72 88C72 57.07 97.07 32 128 32C158.9 32 184 57.07 184 88zM208.4 196.3C178.7 222.7 160 261.2 160 304C160 338.3 171.1 369.8 192 394.5V416C192 433.7 177.7 448 160 448H96C78.33 448 64 433.7 64 416V389.2C26.16 371.2 0 332.7 0 288C0 226.1 50.14 176 112 176H144C167.1 176 190.2 183.5 208.4 196.3V196.3zM64 245.7C54.04 256.9 48 271.8 48 288C48 304.2 54.04 319.1 64 330.3V245.7zM448 416V394.5C468 369.8 480 338.3 480 304C480 261.2 461.3 222.7 431.6 196.3C449.8 183.5 472 176 496 176H528C589.9 176 640 226.1 640 288C640 332.7 613.8 371.2 576 389.2V416C576 433.7 561.7 448 544 448H480C462.3 448 448 433.7 448 416zM576 330.3C585.1 319.1 592 304.2 592 288C592 271.8 585.1 256.9 576 245.7V330.3zM568 88C568 118.9 542.9 144 512 144C481.1 144 456 118.9 456 88C456 57.07 481.1 32 512 32C542.9 32 568 57.07 568 88zM256 96C256 60.65 284.7 32 320 32C355.3 32 384 60.65 384 96C384 131.3 355.3 160 320 160C284.7 160 256 131.3 256 96zM448 304C448 348.7 421.8 387.2 384 405.2V448C384 465.7 369.7 480 352 480H288C270.3 480 256 465.7 256 448V405.2C218.2 387.2 192 348.7 192 304C192 242.1 242.1 192 304 192H336C397.9 192 448 242.1 448 304zM256 346.3V261.7C246 272.9 240 287.8 240 304C240 320.2 246 335.1 256 346.3zM384 261.7V346.3C393.1 335 400 320.2 400 304C400 287.8 393.1 272.9 384 261.7z"]
+};
+var faPeopleLine = {
+  prefix: 'fas',
+  iconName: 'people-line',
+  icon: [640, 512, [], "e534", "M360 72C360 94.09 342.1 112 320 112C297.9 112 280 94.09 280 72C280 49.91 297.9 32 320 32C342.1 32 360 49.91 360 72zM104 168C104 145.9 121.9 128 144 128C166.1 128 184 145.9 184 168C184 190.1 166.1 208 144 208C121.9 208 104 190.1 104 168zM608 416C625.7 416 640 430.3 640 448C640 465.7 625.7 480 608 480H32C14.33 480 0 465.7 0 448C0 430.3 14.33 416 32 416H608zM456 168C456 145.9 473.9 128 496 128C518.1 128 536 145.9 536 168C536 190.1 518.1 208 496 208C473.9 208 456 190.1 456 168zM200 352C200 369.7 185.7 384 168 384H120C102.3 384 88 369.7 88 352V313.5L61.13 363.4C54.85 375 40.29 379.4 28.62 373.1C16.95 366.8 12.58 352.3 18.87 340.6L56.75 270.3C72.09 241.8 101.9 224 134.2 224H153.8C170.1 224 185.7 228.5 199.2 236.6L232.7 174.3C248.1 145.8 277.9 128 310.2 128H329.8C362.1 128 391.9 145.8 407.3 174.3L440.8 236.6C454.3 228.5 469.9 224 486.2 224H505.8C538.1 224 567.9 241.8 583.3 270.3L621.1 340.6C627.4 352.3 623 366.8 611.4 373.1C599.7 379.4 585.2 375 578.9 363.4L552 313.5V352C552 369.7 537.7 384 520 384H472C454.3 384 440 369.7 440 352V313.5L413.1 363.4C406.8 375 392.3 379.4 380.6 373.1C368.1 366.8 364.6 352.3 370.9 340.6L407.2 273.1C405.5 271.5 404 269.6 402.9 267.4L376 217.5V272C376 289.7 361.7 304 344 304H295.1C278.3 304 263.1 289.7 263.1 272V217.5L237.1 267.4C235.1 269.6 234.5 271.5 232.8 273.1L269.1 340.6C275.4 352.3 271 366.8 259.4 373.1C247.7 379.4 233.2 375 226.9 363.4L199.1 313.5L200 352z"]
+};
+var faPeoplePulling = {
+  prefix: 'fas',
+  iconName: 'people-pulling',
+  icon: [576, 512, [], "e535", "M32 48C32 21.49 53.49 0 80 0C106.5 0 128 21.49 128 48C128 74.51 106.5 96 80 96C53.49 96 32 74.51 32 48V48zM118.3 128C130.1 128 143.5 130.5 155.2 135.4L289.3 191.2C302.6 171.1 320.1 156.6 342.7 146.9L353.7 142C374.5 132.8 396.1 128 419.7 128C464.3 128 504.5 154.8 521.6 195.9L536.1 232.7L558.3 243.4C574.1 251.3 580.5 270.5 572.6 286.3C564.7 302.1 545.5 308.5 529.7 300.6L503 287.3C492.7 282.1 484.6 273.4 480.2 262.8L470.6 239.8L451.3 305.3L500.8 359.4C506.2 365.3 510.1 372.4 512 380.2L535 472.2C539.3 489.4 528.9 506.8 511.8 511C494.6 515.3 477.2 504.9 472.1 487.8L450.9 399.6L380.3 322.5C365.5 306.4 359.1 283.9 365.6 262.8L382.5 199.3C381.6 199.7 380.6 200.1 379.7 200.5L368.7 205.4C353.4 212.2 341.4 224.6 335.2 240.1L333.7 243.9C328.6 256.7 316.1 264.4 303 263.1C299.2 263.9 295.4 263.1 291.7 261.5L173.3 212.2L231.2 473.1C235.1 490.3 224.2 507.4 206.9 511.2C189.7 515.1 172.6 504.2 168.8 486.9L138.8 352H123.1L143.6 474.7C146.5 492.2 134.7 508.7 117.3 511.6C99.83 514.5 83.34 502.7 80.44 485.3L56.35 340.8C50.48 347.6 41.75 352 32 352C14.33 352 0 337.7 0 319.1V191.1C0 156.7 28.65 127.1 64 127.1L118.3 128zM416 48C416 21.49 437.5 0 464 0C490.5 0 512 21.49 512 48C512 74.51 490.5 96 464 96C437.5 96 416 74.51 416 48V48zM356.7 344.2L397.4 388.6L382.9 424.8C380.5 430.9 376.9 436.4 372.3 440.9L310.6 502.6C298.1 515.1 277.9 515.1 265.4 502.6C252.9 490.1 252.9 469.9 265.4 457.4L324.7 398L349.7 335.6C351.8 338.6 354.2 341.4 356.7 344.2H356.7z"]
+};
+var faPeopleRobbery = {
+  prefix: 'fas',
+  iconName: 'people-robbery',
+  icon: [576, 512, [], "e536", "M496.1 24.24C501.2 7.093 518.6-3.331 535.8 .9552C552.9 5.242 563.3 22.62 559 39.76L550.3 74.63C539.3 118.6 510.1 154.2 472 174.3V480C472 497.7 457.7 512 440 512C422.3 512 408 497.7 408 480V352H392V480C392 497.7 377.7 512 360 512C342.3 512 328 497.7 328 480V174.3C289.9 154.2 260.7 118.6 249.7 74.63L240.1 39.76C236.7 22.62 247.1 5.242 264.2 .9552C281.4-3.331 298.8 7.093 303 24.24L311.8 59.1C321.9 99.59 358.3 127.1 400 127.1C441.7 127.1 478.1 99.59 488.2 59.1L496.1 24.24zM352 47.1C352 21.49 373.5-.0006 400-.0006C426.5-.0006 448 21.49 448 47.1C448 74.51 426.5 95.1 400 95.1C373.5 95.1 352 74.51 352 47.1V47.1zM32.01 48C32.01 21.49 53.5 0 80.01 0C106.5 0 128 21.49 128 48C128 74.51 106.5 96 80.01 96C53.5 96 32.01 74.51 32.01 48V48zM104.7 128C132.1 128 157.6 142 172.2 165.1L209.6 224H240C257.7 224 272 238.3 272 256C272 273.7 257.7 288 240 288H192C181 288 170.9 282.4 164.1 273.1L152 252.7V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V352H72V480C72 497.7 57.68 512 40 512C22.33 512 8.005 497.7 8.005 480V288.6L8 287.1V191.1C8 156.7 36.65 127.1 72 127.1L104.7 128z"]
+};
+var faPeopleRoof = {
+  prefix: 'fas',
+  iconName: 'people-roof',
+  icon: [640, 512, [], "e537", "M623.5 164C638.1 172.6 644.6 192.1 635.1 207.5C627.4 222.1 607.9 228.6 592.5 219.1L319.1 68.61L47.54 219.1C32.09 228.6 12.61 222.1 4.025 207.5C-4.558 192.1 1.008 172.6 16.46 164L304.5 4.027C314.1-1.342 325.9-1.342 335.5 4.027L623.5 164zM279.1 200C279.1 177.9 297.9 160 319.1 160C342.1 160 359.1 177.9 359.1 200C359.1 222.1 342.1 240 319.1 240C297.9 240 279.1 222.1 279.1 200zM103.1 296C103.1 273.9 121.9 256 143.1 256C166.1 256 183.1 273.9 183.1 296C183.1 318.1 166.1 336 143.1 336C121.9 336 103.1 318.1 103.1 296V296zM535.1 296C535.1 318.1 518.1 336 495.1 336C473.9 336 455.1 318.1 455.1 296C455.1 273.9 473.9 256 495.1 256C518.1 256 535.1 273.9 535.1 296zM226.9 491.4L199.1 441.5V480C199.1 497.7 185.7 512 167.1 512H119.1C102.3 512 87.1 497.7 87.1 480V441.5L61.13 491.4C54.84 503 40.29 507.4 28.62 501.1C16.95 494.8 12.58 480.3 18.87 468.6L56.74 398.3C72.09 369.8 101.9 352 134.2 352H153.8C170.1 352 185.7 356.5 199.2 364.6L232.7 302.3C248.1 273.8 277.9 255.1 310.2 255.1H329.8C362.1 255.1 391.9 273.8 407.3 302.3L440.8 364.6C454.3 356.5 469.9 352 486.2 352H505.8C538.1 352 567.9 369.8 583.3 398.3L621.1 468.6C627.4 480.3 623 494.8 611.4 501.1C599.7 507.4 585.2 503 578.9 491.4L551.1 441.5V480C551.1 497.7 537.7 512 519.1 512H471.1C454.3 512 439.1 497.7 439.1 480V441.5L413.1 491.4C406.8 503 392.3 507.4 380.6 501.1C368.1 494.8 364.6 480.3 370.9 468.6L407.2 401.1C405.5 399.5 404 397.6 402.9 395.4L375.1 345.5V400C375.1 417.7 361.7 432 343.1 432H295.1C278.3 432 263.1 417.7 263.1 400V345.5L237.1 395.4C235.1 397.6 234.5 399.5 232.8 401.1L269.1 468.6C275.4 480.3 271 494.8 259.4 501.1C247.7 507.4 233.2 503 226.9 491.4H226.9z"]
+};
 var faPepperHot = {
   prefix: 'fas',
   iconName: 'pepper-hot',
@@ -12815,15 +13856,25 @@ var faPepperHot = {
 var faPercent = {
   prefix: 'fas',
   iconName: 'percent',
-  icon: [384, 512, [62785, 62101, "percentage"], "25", "M374.6 73.39c-12.5-12.5-32.75-12.5-45.25 0l-320 320c-12.5 12.5-12.5 32.75 0 45.25C15.63 444.9 23.81 448 32 448s16.38-3.125 22.62-9.375l320-320C387.1 106.1 387.1 85.89 374.6 73.39zM64 192c35.3 0 64-28.72 64-64S99.3 64.01 64 64.01S0 92.73 0 128S28.7 192 64 192zM320 320c-35.3 0-64 28.72-64 64s28.7 64 64 64s64-28.72 64-64S355.3 320 320 320z"]
+  icon: [384, 512, [62101, 62785, "percentage"], "25", "M374.6 73.39c-12.5-12.5-32.75-12.5-45.25 0l-320 320c-12.5 12.5-12.5 32.75 0 45.25C15.63 444.9 23.81 448 32 448s16.38-3.125 22.62-9.375l320-320C387.1 106.1 387.1 85.89 374.6 73.39zM64 192c35.3 0 64-28.72 64-64S99.3 64.01 64 64.01S0 92.73 0 128S28.7 192 64 192zM320 320c-35.3 0-64 28.72-64 64s28.7 64 64 64s64-28.72 64-64S355.3 320 320 320z"]
 };
 var faPercentage = faPercent;
 var faPerson = {
   prefix: 'fas',
   iconName: 'person',
-  icon: [320, 512, [129485, "male"], "f183", "M315.1 271l-70.56-112.1C232.8 139.3 212.5 128 190.3 128H129.7c-22.22 0-42.53 11.25-54.28 30.09L4.873 271c-9.375 14.98-4.812 34.72 10.16 44.09c15 9.375 34.75 4.812 44.09-10.19l28.88-46.18L87.1 480c0 17.67 14.33 32 32 32c17.67 0 31.1-14.33 31.1-32l0-144h16V480c0 17.67 14.33 32 32 32c17.67 0 32-14.33 32-32V258.8l28.88 46.2C266.9 314.7 277.4 320 288 320c5.781 0 11.66-1.562 16.94-4.859C319.9 305.8 324.5 286 315.1 271zM160 96c26.5 0 48-21.5 48-48S186.5 0 160 0C133.5 0 112 21.5 112 48S133.5 96 160 96z"]
+  icon: [320, 512, [129485, "male"], "f183", "M208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48zM152 352V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H174.9C208.6 128 239.8 145.7 257.2 174.6L315.4 271.5C324.5 286.7 319.6 306.3 304.5 315.4C289.3 324.5 269.7 319.6 260.6 304.5L232 256.9V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352L152 352z"]
 };
 var faMale = faPerson;
+var faPersonArrowDownToLine = {
+  prefix: 'fas',
+  iconName: 'person-arrow-down-to-line',
+  icon: [640, 512, [], "e538", "M144 48C144 21.49 165.5 0 192 0C218.5 0 240 21.49 240 48C240 74.51 218.5 96 192 96C165.5 96 144 74.51 144 48zM120 256.9L91.43 304.5C82.33 319.6 62.67 324.5 47.52 315.4C32.37 306.3 27.47 286.7 36.57 271.5L94.85 174.6C112.2 145.7 143.4 128 177.1 128H206.9C240.6 128 271.8 145.7 289.2 174.6L347.4 271.5C356.5 286.7 351.6 306.3 336.5 315.4C321.3 324.5 301.7 319.6 292.6 304.5L264 256.9V448H608C625.7 448 640 462.3 640 480C640 497.7 625.7 512 608 512H32C14.33 512 0 497.7 0 480C0 462.3 14.33 448 32 448H120L120 256.9zM200 448V352H184V448H200zM393.4 326.6C380.9 314.1 380.9 293.9 393.4 281.4C405.9 268.9 426.1 268.9 438.6 281.4L464 306.7V64C464 46.33 478.3 32 496 32C513.7 32 528 46.33 528 64V306.7L553.4 281.4C565.9 268.9 586.1 268.9 598.6 281.4C611.1 293.9 611.1 314.1 598.6 326.6L518.6 406.6C506.1 419.1 485.9 419.1 473.4 406.6L393.4 326.6z"]
+};
+var faPersonArrowUpFromLine = {
+  prefix: 'fas',
+  iconName: 'person-arrow-up-from-line',
+  icon: [640, 512, [], "e539", "M144 48C144 21.49 165.5 0 192 0C218.5 0 240 21.49 240 48C240 74.51 218.5 96 192 96C165.5 96 144 74.51 144 48zM120 256.9L91.43 304.5C82.33 319.6 62.67 324.5 47.52 315.4C32.37 306.3 27.47 286.7 36.57 271.5L94.85 174.6C112.2 145.7 143.4 128 177.1 128H206.9C240.6 128 271.8 145.7 289.2 174.6L347.4 271.5C356.5 286.7 351.6 306.3 336.5 315.4C321.3 324.5 301.7 319.6 292.6 304.5L264 256.9V448H608C625.7 448 640 462.3 640 480C640 497.7 625.7 512 608 512H32C14.33 512 0 497.7 0 480C0 462.3 14.33 448 32 448H120L120 256.9zM200 448V352H184V448H200zM598.6 121.4C611.1 133.9 611.1 154.1 598.6 166.6C586.1 179.1 565.9 179.1 553.4 166.6L528 141.3V384C528 401.7 513.7 416 496 416C478.3 416 464 401.7 464 384V141.3L438.6 166.6C426.1 179.1 405.9 179.1 393.4 166.6C380.9 154.1 380.9 133.9 393.4 121.4L473.4 41.37C485.9 28.88 506.1 28.88 518.6 41.37L598.6 121.4z"]
+};
 var faPersonBiking = {
   prefix: 'fas',
   iconName: 'person-biking',
@@ -12835,6 +13886,62 @@ var faPersonBooth = {
   iconName: 'person-booth',
   icon: [576, 512, [], "f756", "M192 496C192 504.8 199.3 512 208 512h32C248.8 512 256 504.8 256 496V320H192V496zM544 0h-32v496c0 8.75 7.25 16 16 16h32c8.75 0 16-7.25 16-16V32C576 14.25 561.8 0 544 0zM64 128c26.5 0 48-21.5 48-48S90.5 32 64 32S16 53.5 16 80S37.5 128 64 128zM224 224H173.1L127.9 178.8C115.8 166.6 99.75 160 82.75 160H64C46.88 160 30.75 166.8 18.75 178.8c-12 12.12-18.72 28.22-18.72 45.35L0 480c0 17.75 14.25 32 31.88 32s32-14.25 32-32L64 379.3c.875 .5 1.625 1.375 2.5 1.75L95.63 424V480c0 17.75 14.25 32 32 32c17.62 0 32-14.25 32-32v-56.5c0-9.875-2.375-19.75-6.75-28.62l-41.13-61.25V253l20.88 20.88C141.8 283 153.8 288 166.5 288H224c17.75 0 32-14.25 32-32S241.8 224 224 224zM192 32v160h64V0H224C206.3 0 192 14.25 192 32zM288 32l31.5 223.1l-30.88 154.6C284.3 431.3 301.6 448 320 448c15.25 0 27.99-9.125 32.24-30.38C353.3 434.5 366.9 448 384 448c17.75 0 32-14.25 32-32c0 17.75 14.25 32 32 32s32-14.25 32-32V0h-192V32z"]
 };
+var faPersonBreastfeeding = {
+  prefix: 'fas',
+  iconName: 'person-breastfeeding',
+  icon: [448, 512, [], "e53a", "M144 80C144 35.82 179.8 0 224 0C268.2 0 304 35.82 304 80C304 124.2 268.2 160 224 160C179.8 160 144 124.2 144 80zM436.8 382.8L373.5 461.1C356.9 482.7 326.7 486 306 469.5C288.4 455.4 283.3 431.3 292.5 411.7L291.7 411.6C252.8 406.1 217.4 386.5 192 356.8V320C192 302.3 177.7 288 160 288C142.3 288 128 302.3 128 320V368C128 368.8 128 369.6 128.1 370.4L229.5 421.1C253.2 432.9 262.8 461.8 250.9 485.5C239.1 509.2 210.2 518.8 186.5 506.9L27.21 427.3C26.11 426.7 25.02 426.2 23.95 425.5C19.04 422.7 14.79 419.1 11.3 414.1C6.732 409.5 3.492 403.3 1.683 396.6C-1.576 384.6-.1811 371.4 6.459 359.9C7.098 358.8 7.776 357.8 8.489 356.7L75.56 256.1C102.3 216.1 147.2 192 195.4 192H270.6C317.1 192 360.7 214.5 387.8 252.3L438.5 323.2C440.7 326.2 442.5 329.4 443.9 332.7C446.9 339.3 448.2 346.4 447.1 353.5C447.7 364.1 443.8 374.5 436.8 382.8V382.8zM276 288C251.7 288 232 307.7 232 332C232 356.3 251.7 376 276 376C300.3 376 320 356.3 320 332C320 307.7 300.3 288 276 288z"]
+};
+var faPersonBurst = {
+  prefix: 'fas',
+  iconName: 'person-burst',
+  icon: [640, 512, [], "e53b", "M431.1 48C431.1 21.49 453.5 0 479.1 0C506.5 0 527.1 21.49 527.1 48C527.1 74.51 506.5 96 479.1 96C453.5 96 431.1 74.51 431.1 48zM439.1 512C422.3 512 407.1 497.7 407.1 480V256.9L379.4 304.5C370.3 319.6 350.7 324.5 335.5 315.4C320.4 306.3 315.5 286.7 324.6 271.5L382.8 174.6C400.2 145.7 431.4 128 465.1 128H494.9C528.6 128 559.8 145.7 577.2 174.6L635.4 271.5C644.5 286.7 639.6 306.3 624.5 315.4C609.3 324.5 589.7 319.6 580.6 304.5L551.1 256.9V480C551.1 497.7 537.7 512 519.1 512C502.3 512 487.1 497.7 487.1 480V352H471.1V480C471.1 497.7 457.7 512 439.1 512L439.1 512zM220.3 92.05L296.4 68.93C302.7 67.03 309.5 69.14 313.6 74.27C317.7 79.39 318.2 86.49 314.1 92.18L275.5 161.3L330.7 199.3L306.3 239.8L255.8 247.6L261.4 327C261.8 333.6 258.3 339.7 252.4 342.6C246.5 345.4 239.4 344.4 234.6 339.9L175.1 286.1L117.4 339.9C112.6 344.4 105.5 345.4 99.63 342.6C93.73 339.7 90.15 333.6 90.62 327L96.21 247.6L17.55 235.4C11.08 234.4 5.868 229.6 4.41 223.2C2.951 216.8 5.538 210.1 10.94 206.4L76.5 161.3L37.01 92.18C33.76 86.49 34.31 79.39 38.39 74.27C42.48 69.14 49.28 67.03 55.55 68.93L131.7 92.05L161.1 18.09C163.6 11.1 169.4 7.1 175.1 7.1C182.6 7.1 188.4 11.1 190.9 18.09L220.3 92.05z"]
+};
+var faPersonCane = {
+  prefix: 'fas',
+  iconName: 'person-cane',
+  icon: [384, 512, [], "e53c", "M240 48C240 74.51 218.5 96 192 96C165.5 96 144 74.51 144 48C144 21.49 165.5 0 192 0C218.5 0 240 21.49 240 48zM232 480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352H152V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H181C209.6 128 236.7 140.7 254.9 162.7L328.6 251.6C339.9 265.2 338 285.3 324.4 296.6C310.8 307.9 290.7 306 279.4 292.4L232 235.3L232 480zM320 384C320 397.3 309.3 408 296 408C282.7 408 272 397.3 272 384V376C272 345.1 297.1 320 328 320C358.9 320 384 345.1 384 376V488C384 501.3 373.3 512 360 512C346.7 512 336 501.3 336 488V376C336 371.6 332.4 368 328 368C323.6 368 320 371.6 320 376V384z"]
+};
+var faPersonChalkboard = {
+  prefix: 'fas',
+  iconName: 'person-chalkboard',
+  icon: [640, 512, [], "e53d", "M144 48C144 21.49 165.5 0 192 0C218.5 0 240 21.49 240 48C240 74.51 218.5 96 192 96C165.5 96 144 74.51 144 48zM152 512C134.3 512 120 497.7 120 480V256.9L91.43 304.5C82.33 319.6 62.67 324.5 47.52 315.4C32.37 306.3 27.47 286.7 36.58 271.5L94.85 174.6C112.2 145.7 143.4 128 177.1 128H320V48C320 21.49 341.5 .0003 368 .0003H592C618.5 .0003 640 21.49 640 48V272C640 298.5 618.5 320 592 320H368C341.5 320 320 298.5 320 272V224H384V256H576V64H384V128H400C417.7 128 432 142.3 432 160C432 177.7 417.7 192 400 192H264V480C264 497.7 249.7 512 232 512C214.3 512 200 497.7 200 480V352H184V480C184 497.7 169.7 512 152 512L152 512z"]
+};
+var faPersonCircleCheck = {
+  prefix: 'fas',
+  iconName: 'person-circle-check',
+  icon: [576, 512, [], "e53e", "M208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48zM152 352V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H174.9C208.6 128 239.8 145.7 257.2 174.6L302.1 249.3C285.1 266.9 273.4 287.7 265.5 310.8C263.6 308.9 261.1 306.8 260.6 304.5L232 256.9V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352L152 352zM576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368zM476.7 324.7L416 385.4L387.3 356.7C381.1 350.4 370.9 350.4 364.7 356.7C358.4 362.9 358.4 373.1 364.7 379.3L404.7 419.3C410.9 425.6 421.1 425.6 427.3 419.3L499.3 347.3C505.6 341.1 505.6 330.9 499.3 324.7C493.1 318.4 482.9 318.4 476.7 324.7H476.7z"]
+};
+var faPersonCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'person-circle-exclamation',
+  icon: [576, 512, [], "e53f", "M208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48zM152 352V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H174.9C208.6 128 239.8 145.7 257.2 174.6L302.1 249.3C285.1 266.9 273.4 287.7 265.5 310.8C263.6 308.9 261.1 306.8 260.6 304.5L232 256.9V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352L152 352zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM432 464C445.3 464 456 453.3 456 440C456 426.7 445.3 416 432 416C418.7 416 408 426.7 408 440C408 453.3 418.7 464 432 464zM415.1 288V368C415.1 376.8 423.2 384 431.1 384C440.8 384 447.1 376.8 447.1 368V288C447.1 279.2 440.8 272 431.1 272C423.2 272 415.1 279.2 415.1 288z"]
+};
+var faPersonCircleMinus = {
+  prefix: 'fas',
+  iconName: 'person-circle-minus',
+  icon: [576, 512, [], "e540", "M208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48zM152 352V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H174.9C208.6 128 239.8 145.7 257.2 174.6L302.1 249.3C285.1 266.9 273.4 287.7 265.5 310.8C263.6 308.9 261.1 306.8 260.6 304.5L232 256.9V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352L152 352zM576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368zM496 351.1H368C359.2 351.1 352 359.2 352 367.1C352 376.8 359.2 383.1 368 383.1H496C504.8 383.1 512 376.8 512 367.1C512 359.2 504.8 351.1 496 351.1z"]
+};
+var faPersonCirclePlus = {
+  prefix: 'fas',
+  iconName: 'person-circle-plus',
+  icon: [576, 512, [], "e541", "M208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48zM152 352V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H174.9C208.6 128 239.8 145.7 257.2 174.6L302.1 249.3C285.1 266.9 273.4 287.7 265.5 310.8C263.6 308.9 261.1 306.8 260.6 304.5L232 256.9V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352L152 352zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM448 303.1C448 295.2 440.8 287.1 432 287.1C423.2 287.1 416 295.2 416 303.1V351.1H368C359.2 351.1 352 359.2 352 367.1C352 376.8 359.2 383.1 368 383.1H416V431.1C416 440.8 423.2 447.1 432 447.1C440.8 447.1 448 440.8 448 431.1V383.1H496C504.8 383.1 512 376.8 512 367.1C512 359.2 504.8 351.1 496 351.1H448V303.1z"]
+};
+var faPersonCircleQuestion = {
+  prefix: 'fas',
+  iconName: 'person-circle-question',
+  icon: [576, 512, [], "e542", "M208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48zM152 352V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H174.9C208.6 128 239.8 145.7 257.2 174.6L302.1 249.3C285.1 266.9 273.4 287.7 265.5 310.8C263.6 308.9 261.1 306.8 260.6 304.5L232 256.9V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352L152 352zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM432 464C445.3 464 456 453.3 456 440C456 426.7 445.3 416 432 416C418.7 416 408 426.7 408 440C408 453.3 418.7 464 432 464zM368 328C368 336.8 375.2 344 384 344C392.8 344 400 336.8 400 328V321.6C400 316.3 404.3 312 409.6 312H450.1C457.8 312 464 318.2 464 325.9C464 331.1 461.1 335.8 456.6 338.3L424.6 355.1C419.3 357.9 416 363.3 416 369.2V384C416 392.8 423.2 400 432 400C440.8 400 448 392.8 448 384V378.9L471.5 366.6C486.5 358.6 496 342.1 496 325.9C496 300.6 475.4 280 450.1 280H409.6C386.6 280 368 298.6 368 321.6V328z"]
+};
+var faPersonCircleXmark = {
+  prefix: 'fas',
+  iconName: 'person-circle-xmark',
+  icon: [576, 512, [], "e543", "M208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48zM152 352V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H174.9C208.6 128 239.8 145.7 257.2 174.6L302.1 249.3C285.1 266.9 273.4 287.7 265.5 310.8C263.6 308.9 261.1 306.8 260.6 304.5L232 256.9V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352L152 352zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM491.3 331.3C497.6 325.1 497.6 314.9 491.3 308.7C485.1 302.4 474.9 302.4 468.7 308.7L432 345.4L395.3 308.7C389.1 302.4 378.9 302.4 372.7 308.7C366.4 314.9 366.4 325.1 372.7 331.3L409.4 368L372.7 404.7C366.4 410.9 366.4 421.1 372.7 427.3C378.9 433.6 389.1 433.6 395.3 427.3L432 390.6L468.7 427.3C474.9 433.6 485.1 433.6 491.3 427.3C497.6 421.1 497.6 410.9 491.3 404.7L454.6 368L491.3 331.3z"]
+};
+var faPersonDigging = {
+  prefix: 'fas',
+  iconName: 'person-digging',
+  icon: [576, 512, ["digging"], "f85e", "M272 95.93c26.5 0 47.99-21.47 47.99-47.97S298.5 0 272 0C245.5 0 224 21.47 224 47.97S245.5 95.93 272 95.93zM209.7 357.3c-25.75-17.25-52.25-33.24-79.5-48.11L58.62 270.2L1.246 471.1c-4.875 16.1 4.1 34.74 22 39.62s34.63-4.998 39.5-21.99l36.63-128.1l60.63 40.37v78.86c0 17.62 14.38 31.99 32 31.99s32-14.37 32-31.99l.0022-95.93C224 373.2 218.6 363.2 209.7 357.3zM311.1 416c-13.88 0-25.95 8.863-30.33 21.86l-24.75 74.07h319.9l-101.9-206.3c-11.38-22.49-43.1-23.63-56.1-2.01l-31.89 54.21l-65.26-35.64l-24-121.2C288.1 161.3 263.2 127.7 227.1 109.7c-1-.4999-2.125-.625-3.125-1.125c-2.25-1.125-4.752-1.1-7.252-2.625C201.5 99.85 185.2 95.98 168.7 95.98H95.1c-9.25 0-18.05 4.061-24.18 10.93l-55.95 63.92c-.75 .9998-1.5 2.124-2.25 3.249c-8.875 13.1-3 32.87 11.63 40.74l336.6 184.3l-9.837 16.87H311.1zM105.9 204.1l-23.5-12.87l28.13-32.12h34.38L105.9 204.1zM199.5 256.1l34.9-41.28l13.5 67.61L199.5 256.1z"]
+};
+var faDigging = faPersonDigging;
 var faPersonDotsFromLine = {
   prefix: 'fas',
   iconName: 'person-dots-from-line',
@@ -12844,27 +13951,92 @@ var faDiagnoses = faPersonDotsFromLine;
 var faPersonDress = {
   prefix: 'fas',
   iconName: 'person-dress',
-  icon: [320, 512, ["female"], "f182", "M160 96c26.5 0 48-21.5 48-48s-21.5-48-47.1-48c-26.5 0-48 21.5-48 48S133.5 96 160 96zM315.1 271l-61.19-97.95C236.3 144.9 205.8 128 172.5 128H147.5C114.2 128 83.75 144.9 66.06 173.1L4.873 271C-4.502 286 .0607 305.8 15.03 315.1c15.03 9.375 34.75 4.812 44.09-10.19l32.62-52.19L47.1 384h40v96c0 17.67 14.33 32 32 32c17.67 0 31.1-14.33 31.1-32v-96h16v96c0 17.67 14.33 32 32 32c17.67 0 32-14.33 32-32v-96h40l-43.76-131.3l32.63 52.22C266.9 314.7 277.4 320 288 320c5.781 0 11.66-1.562 16.94-4.859C319.9 305.8 324.5 286 315.1 271z"]
+  icon: [320, 512, ["female"], "f182", "M112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48zM88 384H70.2C59.28 384 51.57 373.3 55.02 362.9L93.28 248.1L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L58.18 182.3C78.43 148.6 114.9 128 154.2 128H165.8C205.1 128 241.6 148.6 261.8 182.3L315.4 271.5C324.5 286.7 319.6 306.3 304.5 315.4C289.3 324.5 269.7 319.6 260.6 304.5L226.7 248.1L264.1 362.9C268.4 373.3 260.7 384 249.8 384H232V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V384H152V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480L88 384z"]
 };
 var faFemale = faPersonDress;
+var faPersonDressBurst = {
+  prefix: 'fas',
+  iconName: 'person-dress-burst',
+  icon: [640, 512, [], "e544", "M527.1 48C527.1 74.51 506.5 96 479.1 96C453.5 96 431.1 74.51 431.1 48C431.1 21.49 453.5 0 479.1 0C506.5 0 527.1 21.49 527.1 48zM375 362.9L413.3 248.1L379.4 304.5C370.3 319.6 350.7 324.5 335.5 315.4C320.4 306.3 315.5 286.7 324.6 271.5L378.2 182.3C398.4 148.6 434.9 128 474.2 128H485.8C525.1 128 561.6 148.6 581.8 182.3L635.4 271.5C644.5 286.7 639.6 306.3 624.5 315.4C609.3 324.5 589.7 319.6 580.6 304.5L546.7 248.1L584.1 362.9C588.4 373.3 580.7 384 569.8 384H551.1V480C551.1 497.7 537.7 512 519.1 512C502.3 512 487.1 497.7 487.1 480V384H471.1V480C471.1 497.7 457.7 512 439.1 512C422.3 512 407.1 497.7 407.1 480V384H390.2C379.3 384 371.6 373.3 375 362.9L375 362.9zM220.3 92.05L296.4 68.93C302.7 67.03 309.5 69.14 313.6 74.27C317.7 79.39 318.2 86.49 314.1 92.18L275.5 161.3L330.7 199.3L306.3 239.8L255.8 247.6L261.4 327C261.8 333.6 258.3 339.7 252.4 342.6C246.5 345.4 239.4 344.4 234.6 339.9L175.1 286.1L117.4 339.9C112.6 344.4 105.5 345.4 99.63 342.6C93.73 339.7 90.15 333.6 90.62 327L96.21 247.6L17.55 235.4C11.08 234.4 5.868 229.6 4.41 223.2C2.951 216.8 5.538 210.1 10.94 206.4L76.5 161.3L37.01 92.18C33.76 86.49 34.31 79.39 38.39 74.27C42.48 69.14 49.28 67.03 55.55 68.93L131.7 92.05L161.1 18.09C163.6 11.1 169.4 7.1 175.1 7.1C182.6 7.1 188.4 11.1 190.9 18.09L220.3 92.05z"]
+};
+var faPersonDrowning = {
+  prefix: 'fas',
+  iconName: 'person-drowning',
+  icon: [576, 512, [], "e545", "M191.1 96.16C191.1 148.8 226.1 195.4 276.3 211.4C316.3 224.2 358.1 225.1 399.1 216.6L504.9 192.8C522.1 188.9 539.3 199.7 543.2 216.9C547.1 234.1 536.3 251.3 519.1 255.2L414.1 279.1C403.6 281.5 392.9 283.3 382.2 284.5L364.5 382.1C350.9 378.9 337.2 372.7 324.8 364.1C302.8 348.6 273.3 348.6 251.2 364.1C234 375.9 213.2 384.5 192 384.5C184.7 384.5 177 383.3 169.2 381.2L190.2 234.5C151.5 200.1 127.1 150.2 127.1 96.16V64C127.1 46.33 142.3 32 159.1 32C177.7 32 191.1 46.33 191.1 64V96.16zM255.1 127.1C255.1 92.65 284.7 63.1 320 63.1C355.3 63.1 384 92.65 384 127.1C384 163.3 355.3 191.1 320 191.1C284.7 191.1 255.1 163.3 255.1 127.1zM384 416C410.9 416 439.4 405.2 461.4 389.9L461.5 389.9C473.4 381.4 489.5 382.1 500.7 391.6C515 403.5 533.2 412.6 551.3 416.8C568.5 420.8 579.2 438.1 575.2 455.3C571.2 472.5 553.1 483.2 536.7 479.2C512.2 473.4 491.9 462.6 478.5 454.2C449.5 469.7 417 480 384 480C352.1 480 323.4 470.1 303.6 461.1C297.7 458.5 292.5 455.8 288 453.4C283.5 455.8 278.3 458.5 272.4 461.1C252.6 470.1 223.9 480 192 480C158.1 480 126.5 469.7 97.5 454.2C84.12 462.6 63.79 473.4 39.27 479.2C22.06 483.2 4.853 472.5 .8422 455.3C-3.169 438.1 7.532 420.8 24.74 416.8C42.84 412.6 60.96 403.5 75.31 391.6C86.46 382.1 102.6 381.4 114.5 389.9L114.6 389.9C136.7 405.2 165.1 416 192 416C219.5 416 247 405.4 269.5 389.9C280.6 382 295.4 382 306.5 389.9C328.1 405.4 356.5 416 384 416H384z"]
+};
+var faPersonFalling = {
+  prefix: 'fas',
+  iconName: 'person-falling',
+  icon: [448, 512, [], "e546", "M256 0C273.7 0 288 14.33 288 32V41.84C288 96.45 260.1 146.5 215.5 175.4L215.7 175.8L272.5 255.1H360C375.1 255.1 389.3 263.1 398.4 275.2L441.6 332.8C452.2 346.9 449.3 366.1 435.2 377.6C421.1 388.2 401 385.3 390.4 371.2L352 319.1H254.6L346.9 462.6C356.5 477.5 352.2 497.3 337.4 506.9C322.5 516.5 302.7 512.2 293.1 497.4L132.5 249.2C129.6 258.4 127.1 268.1 127.1 278.2V351.1C127.1 369.7 113.7 383.1 95.1 383.1C78.33 383.1 63.1 369.7 63.1 351.1V278.2C63.1 213 103.6 154.5 164.1 130.3C200.3 115.8 223.1 80.79 223.1 41.84V32C223.1 14.33 238.3 .0003 256 .0003L256 0zM32 80C32 53.49 53.49 32 80 32C106.5 32 128 53.49 128 80C128 106.5 106.5 128 80 128C53.49 128 32 106.5 32 80z"]
+};
+var faPersonFallingBurst = {
+  prefix: 'fas',
+  iconName: 'person-falling-burst',
+  icon: [640, 512, [], "e547", "M256 41.84C256 96.45 228.1 146.5 183.5 175.4L183.7 175.8L240.5 255.1H311.1C327.1 255.1 341.3 263.1 350.4 275.2L393.6 332.8C404.2 346.9 401.3 366.1 387.2 377.6C373.1 388.2 353 385.3 342.4 371.2L303.1 319.1H222.6L314.9 462.6C324.5 477.5 320.2 497.3 305.4 506.9C290.5 516.5 270.7 512.2 261.1 497.4L100.5 249.2C97.57 258.4 95.1 268.1 95.1 278.2V351.1C95.1 369.7 81.67 383.1 63.1 383.1C46.33 383.1 31.1 369.7 31.1 351.1V278.2C31.1 213 71.65 154.5 132.1 130.3C168.3 115.8 191.1 80.79 191.1 41.84V32C191.1 14.33 206.3 0 223.1 0C241.7 0 255.1 14.33 255.1 32L256 41.84zM96 79.1C96 106.5 74.51 127.1 48 127.1C21.49 127.1 0 106.5 0 79.1C0 53.49 21.49 31.1 48 31.1C74.51 31.1 96 53.49 96 79.1zM464 286.1L424.7 322.2C423.1 319.3 421.3 316.4 419.2 313.6L382.1 265.3L384.2 247.6L365.8 244.8C351.2 231.5 332.1 223.1 311.1 223.1H292.6C292.5 223.7 292.5 223.4 292.4 223.2C290.1 216.8 293.5 210.1 298.9 206.4L364.5 161.3L325 92.18C321.8 86.49 322.3 79.39 326.4 74.27C330.5 69.14 337.3 67.03 343.6 68.93L419.7 92.05L449.1 18.09C451.6 11.1 457.4 8 464 8C470.6 8 476.4 11.1 478.9 18.09L508.3 92.05L584.4 68.93C590.7 67.03 597.5 69.14 601.6 74.27C605.7 79.39 606.2 86.49 602.1 92.18L563.5 161.3L629.1 206.4C634.5 210.1 637 216.8 635.6 223.2C634.1 229.6 628.9 234.4 622.4 235.4L543.8 247.6L549.4 327C549.8 333.6 546.3 339.7 540.4 342.6C534.5 345.4 527.4 344.4 522.6 339.9L464 286.1z"]
+};
+var faPersonHalfDress = {
+  prefix: 'fas',
+  iconName: 'person-half-dress',
+  icon: [320, 512, [], "e548", "M112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48zM168 128H174.9C208.6 128 239.8 145.7 257.2 174.6L315.4 271.5C324.5 286.7 319.6 306.3 304.5 315.4C289.3 324.5 269.7 319.6 260.6 304.5L232 256.9V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480L168 128zM58.18 182.3C78.06 149.2 113.5 128.8 152 128V480.2C151.9 497.8 137.6 512 120 512C102.3 512 88 497.7 88 480V384H70.2C59.28 384 51.57 373.3 55.02 362.9L93.28 248.1L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L58.18 182.3z"]
+};
+var faPersonHarassing = {
+  prefix: 'fas',
+  iconName: 'person-harassing',
+  icon: [576, 512, [], "e549", "M144 48C144 21.49 165.5 0 192 0C218.5 0 240 21.49 240 48C240 74.51 218.5 96 192 96C165.5 96 144 74.51 144 48V48zM15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C80.2 145.7 111.4 128 145.1 128H181C209.6 128 236.7 140.7 254.9 162.7L328.6 251.6C339.9 265.2 338 285.3 324.4 296.6C310.8 307.9 290.7 306 279.4 292.4L232 235.3V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V352H152V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V256.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4H15.52zM480 240C480 266.5 458.5 288 432 288C405.5 288 384 266.5 384 240C384 213.5 405.5 192 432 192C458.5 192 480 213.5 480 240zM464 344C464 313.1 489.1 288 520 288C550.9 288 576 313.1 576 344V446.1C576 482.5 546.5 512 510.1 512C492.6 512 475.8 505.1 463.4 492.7L408.8 438L380.6 494.3C372.7 510.1 353.5 516.5 337.7 508.6C321.9 500.7 315.5 481.5 323.4 465.7L371.4 369.7C375.1 360.5 384.7 354.1 394.9 352.4C405 350.8 415.4 354.1 422.6 361.4L464 402.7V344zM288 48C288 39.16 295.2 32 304 32H360C368.8 32 376 39.16 376 48C376 56.84 368.8 64 360 64H304C295.2 64 288 56.84 288 48zM335.2 121.7C343.1 125.6 346.3 135.3 342.3 143.2C338.4 151.1 328.7 154.3 320.8 150.3L272.8 126.3C264.9 122.4 261.7 112.7 265.7 104.8C269.6 96.94 279.3 93.74 287.2 97.69L335.2 121.7z"]
+};
 var faPersonHiking = {
   prefix: 'fas',
   iconName: 'person-hiking',
   icon: [384, 512, ["hiking"], "f6ec", "M240 96c26.5 0 48-21.5 48-48S266.5 0 240 0C213.5 0 192 21.5 192 48S213.5 96 240 96zM80.01 287.1c7.31 0 13.97-4.762 15.87-11.86L137 117c.3468-1.291 .5125-2.588 .5125-3.866c0-7.011-4.986-13.44-12.39-15.13C118.4 96.38 111.7 95.6 105.1 95.6c-36.65 0-70 23.84-79.32 59.53L.5119 253.3C.1636 254.6-.0025 255.9-.0025 257.2c0 7.003 4.961 13.42 12.36 15.11L76.01 287.5C77.35 287.8 78.69 287.1 80.01 287.1zM368 160h-15.1c-8.875 0-15.1 7.125-15.1 16V192h-34.75l-46.75-46.75C243.4 134.1 228.6 128 212.9 128C185.9 128 162.5 146.3 155.9 172.5L129 280.3C128.4 282.8 128 285.5 128 288.1c0 8.325 3.265 16.44 9.354 22.53l86.62 86.63V480c0 17.62 14.37 32 31.1 32s32-14.38 32-32v-82.75c0-17.12-6.625-33.13-18.75-45.25l-46.87-46.88c.25-.5 .5-.875 .625-1.375l19.1-79.5l22.37 22.38C271.4 252.6 279.5 256 288 256h47.1v240c0 8.875 7.125 16 15.1 16h15.1C376.9 512 384 504.9 384 496v-320C384 167.1 376.9 160 368 160zM81.01 472.3c-.672 2.63-.993 5.267-.993 7.86c0 14.29 9.749 27.29 24.24 30.89C106.9 511.8 109.5 512 112 512c14.37 0 27.37-9.75 30.1-24.25l25.25-101l-52.75-52.75L81.01 472.3z"]
 };
 var faHiking = faPersonHiking;
+var faPersonMilitaryPointing = {
+  prefix: 'fas',
+  iconName: 'person-military-pointing',
+  icon: [512, 512, [], "e54a", "M366.7 1.443C376 .6658 384 8.027 384 17.39V47.1C384 56.84 376.8 63.1 368 63.1H216.1C203.2 63.1 192 52.81 192 39C192 25.1 201.1 15.17 214.9 14.09L366.7 1.443zM208 111.1C208 106.5 208.6 101.2 209.6 95.1H366.4C367.5 101.2 368 106.5 368 111.1C368 156.2 332.2 191.1 288 191.1C243.8 191.1 208 156.2 208 111.1V111.1zM313.2 223.1C327.6 223.1 341.6 226.3 354.9 230.5L192 393.4V303.1H40.01C17.92 303.1 .0077 286.1 .0077 263.1C.0077 241.9 17.92 223.1 40.01 223.1H313.2zM430.3 290.8L506.4 419.7C517.7 438.7 511.4 463.2 492.4 474.4C473.3 485.7 448.8 479.4 437.6 460.3L384 369.7V416H214.6L385.7 244.9C403.7 256.3 419.1 271.9 430.3 290.8V290.8zM384 448V480C384 497.7 369.7 512 352 512H224C206.3 512 192 497.7 192 480V448H384z"]
+};
+var faPersonMilitaryRifle = {
+  prefix: 'fas',
+  iconName: 'person-military-rifle',
+  icon: [448, 512, [], "e54b", "M128 39C128 25.1 137.1 15.17 150.9 14.09L302.7 1.443C312 .6658 320 8.027 320 17.39V47.1C320 56.84 312.8 63.1 304 63.1H152.1C139.2 63.1 128 52.81 128 39V39zM302.4 95.1C303.5 101.2 304 106.5 304 111.1C304 156.2 268.2 191.1 224 191.1C179.8 191.1 144 156.2 144 111.1C144 106.5 144.6 101.2 145.6 95.1H302.4zM373.6 460.3L320 369.7V480C320 481.3 319.9 482.5 319.8 483.8L145.5 234.9C162.1 227.8 180.2 223.1 198.8 223.1H249.2C265.1 223.1 280.6 226.8 295 231.9L389.9 67.71C382.2 63.3 379.6 53.51 384 45.86C388.4 38.21 398.2 35.58 405.9 40L433.6 56C441.2 60.42 443.8 70.21 439.4 77.86L383.1 173.9L385.6 174.9C400.9 183.7 406.1 203.3 397.3 218.6L360.6 282C362.6 284.9 364.5 287.8 366.3 290.8L442.4 419.7C453.7 438.7 447.4 463.2 428.4 474.4C409.3 485.7 384.8 479.4 373.6 460.3V460.3zM264 319.1C277.3 319.1 288 309.3 288 295.1C288 282.7 277.3 271.1 264 271.1C250.7 271.1 240 282.7 240 295.1C240 309.3 250.7 319.1 264 319.1zM160 512C142.3 512 128 497.7 128 480V369.7L74.44 460.3C63.21 479.4 38.68 485.7 19.66 474.4C.6381 463.2-5.669 438.7 5.569 419.7L81.7 290.8C91.06 274.1 103.4 261.5 117.7 250.8L299.1 510C295.6 511.3 291.9 512 288 512L160 512z"]
+};
+var faPersonMilitaryToPerson = {
+  prefix: 'fas',
+  iconName: 'person-military-to-person',
+  icon: [512, 512, [], "e54c", "M182.2 .0998C191.7-.9534 200 6.466 200 16V30.13C200 38.91 192.9 46.05 184.1 46.13H72.74C63.48 46.04 56 38.52 56 29.24C56 20.64 62.47 13.41 71.02 12.46L182.2 .0998zM192 96C192 131.3 163.3 160 128 160C92.65 160 64 131.3 64 96C64 89.8 64.88 83.8 66.53 78.13H189.5C191.1 83.8 192 89.8 192 96V96zM32 256C32 237.2 40.09 220.3 52.97 208.6L197.2 319.6C195.5 319.9 193.8 320 192 320H64C46.33 320 32 305.7 32 288L32 256zM222.2 298.5L85.05 192.9C88.61 192.3 92.27 191.1 96 191.1H160C195.3 191.1 224 220.7 224 255.1V287.1C224 291.7 223.4 295.2 222.2 298.5V298.5zM320 96C320 60.65 348.7 31.1 384 31.1C419.3 31.1 448 60.65 448 96C448 131.3 419.3 160 384 160C348.7 160 320 131.3 320 96zM416 192C451.3 192 480 220.7 480 256V288C480 305.7 465.7 320 448 320H320C302.3 320 288 305.7 288 288V256C288 220.7 316.7 192 352 192H416zM151.8 506.1C141.8 514.8 126.7 513.8 117.9 503.8C109.2 493.8 110.2 478.7 120.2 469.9L136.1 456L23.1 455.1C10.74 455.1-.0003 445.2 0 431.1C.0003 418.7 10.75 407.1 24 407.1L136.1 408L120.2 394.1C110.2 385.3 109.2 370.2 117.9 360.2C126.7 350.2 141.8 349.2 151.8 357.9L215.8 413.9C221 418.5 224 425.1 224 431.1C224 438.9 221 445.5 215.8 450.1L151.8 506.1zM296.2 413.9L360.2 357.9C370.2 349.2 385.3 350.2 394.1 360.2C402.8 370.2 401.8 385.3 391.8 394.1L375.9 407.1L488 407.1C501.3 407.1 512 418.7 512 431.1C512 445.2 501.3 455.1 488 455.1L375.9 455.1L391.8 469.9C401.8 478.7 402.8 493.8 394.1 503.8C385.3 513.8 370.2 514.8 360.2 506.1L296.2 450.1C290.1 445.5 288 438.9 288 431.1C288 425.1 290.1 418.5 296.2 413.9H296.2z"]
+};
 var faPersonPraying = {
   prefix: 'fas',
   iconName: 'person-praying',
   icon: [384, 512, [128720, "pray"], "f683", "M255.1 128c35.38 0 63.1-28.62 63.1-64s-28.62-64-63.1-64S191.1 28.62 191.1 64S220.6 128 255.1 128zM225.4 297.8c14 16.75 39 19.12 56.01 5.25l88.01-72c17-14 19.5-39.25 5.625-56.38c-14-17.12-39.25-19.5-56.38-5.625L261.3 216l-39-46.25c-15.38-18.38-39.13-27.88-64.01-25.38c-24.13 2.5-45.25 16.25-56.38 37l-49.38 92C29.13 317 43.88 369.8 86.76 397.1L131.5 432H40C17.88 432 0 449.9 0 472S17.88 512 40 512h208c34.13 0 53.76-42.75 28.25-68.25L166.4 333.9L201.3 269L225.4 297.8z"]
 };
 var faPray = faPersonPraying;
+var faPersonPregnant = {
+  prefix: 'fas',
+  iconName: 'person-pregnant',
+  icon: [320, 512, [], "e31e", "M112 48C112 21.49 133.5 0 160 0C186.5 0 208 21.49 208 48C208 74.51 186.5 96 160 96C133.5 96 112 74.51 112 48zM88 382.1C74.2 379.4 64 366.9 64 352V296.9L59.43 304.5C50.33 319.6 30.67 324.5 15.52 315.4C.3696 306.3-4.531 286.7 4.573 271.5L62.85 174.6C77.84 149.6 103.2 133 131.5 128.1C135.6 128.3 139.8 128 144 128H160C161.4 128 162.8 128.1 164.1 128.3C199.8 131.2 229.5 157.6 236.2 193.3L242.3 225.7C286.6 234.3 320 273.2 320 320V352C320 369.7 305.7 384 288 384H232V480C232 497.7 217.7 512 200 512C182.3 512 168 497.7 168 480V384H152V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480L88 382.1z"]
+};
+var faPersonRays = {
+  prefix: 'fas',
+  iconName: 'person-rays',
+  icon: [512, 512, [], "e54d", "M304 48C304 74.51 282.5 96 256 96C229.5 96 208 74.51 208 48C208 21.49 229.5 0 256 0C282.5 0 304 21.49 304 48zM248 352V480C248 497.7 233.7 512 216 512C198.3 512 184 497.7 184 480V256.9L155.4 304.5C146.3 319.6 126.7 324.5 111.5 315.4C96.37 306.3 91.47 286.7 100.6 271.5L158.8 174.6C176.2 145.7 207.4 128 241.1 128H270.9C304.6 128 335.8 145.7 353.2 174.6L411.4 271.5C420.5 286.7 415.6 306.3 400.5 315.4C385.3 324.5 365.7 319.6 356.6 304.5L328 256.9V480C328 497.7 313.7 512 296 512C278.3 512 264 497.7 264 480V352L248 352zM7.029 7.029C16.4-2.343 31.6-2.343 40.97 7.029L120.1 87.03C130.3 96.4 130.3 111.6 120.1 120.1C111.6 130.3 96.4 130.3 87.03 120.1L7.029 40.97C-2.343 31.6-2.343 16.4 7.029 7.029V7.029zM471 7.029C480.4-2.343 495.6-2.343 504.1 7.029C514.3 16.4 514.3 31.6 504.1 40.97L424.1 120.1C415.6 130.3 400.4 130.3 391 120.1C381.7 111.6 381.7 96.4 391 87.03L471 7.029zM7.029 471L87.03 391C96.4 381.7 111.6 381.7 120.1 391C130.3 400.4 130.3 415.6 120.1 424.1L40.97 504.1C31.6 514.3 16.4 514.3 7.029 504.1C-2.343 495.6-2.343 480.4 7.029 471V471zM391 424.1C381.7 415.6 381.7 400.4 391 391C400.4 381.7 415.6 381.7 424.1 391L504.1 471C514.3 480.4 514.3 495.6 504.1 504.1C495.6 514.3 480.4 514.3 471 504.1L391 424.1z"]
+};
+var faPersonRifle = {
+  prefix: 'fas',
+  iconName: 'person-rifle',
+  icon: [576, 512, [], "e54e", "M265.2 192C290.6 192 315 199.1 336 211.9V512H144V337.7L90.44 428.3C79.21 447.4 54.68 453.7 35.66 442.4C16.64 431.2 10.33 406.7 21.57 387.7L97.7 258.8C122.2 217.4 166.7 192 214.8 192L265.2 192zM320 80C320 124.2 284.2 160 240 160C195.8 160 160 124.2 160 80C160 35.82 195.8 .0003 240 .0003C284.2 .0003 320 35.82 320 80zM464 16V132.3C473.6 137.8 480 148.2 480 160V269.3L496 264V208C496 199.2 503.2 192 512 192H528C536.8 192 544 199.2 544 208V292.5C544 299.4 539.6 305.5 533.1 307.6L480 325.3V352H528C536.8 352 544 359.2 544 368V384C544 392.8 536.8 400 528 400H484L507 492.1C509.6 502.2 501.9 512 491.5 512H432C423.2 512 416 504.8 416 496V400H400C382.3 400 368 385.7 368 368V224C368 206.3 382.3 192 400 192V160C400 148.2 406.4 137.8 416 132.3V32C407.2 32 400 24.84 400 16C400 7.164 407.2 0 416 0H448C456.8 0 464 7.164 464 16V16z"]
+};
 var faPersonRunning = {
   prefix: 'fas',
   iconName: 'person-running',
   icon: [448, 512, [127939, "running"], "f70c", "M400 224h-44l-26.12-53.25c-12.5-25.5-35.38-44.25-61.75-51L197 98.63C189.5 96.84 181.1 95.97 174.5 95.97c-20.88 0-41.33 6.81-58.26 19.78L76.5 146.3C68.31 152.5 64.01 162 64.01 171.6c0 17.11 13.67 32.02 32.02 32.02c6.808 0 13.67-2.158 19.47-6.616l39.63-30.38c5.92-4.488 13.01-6.787 19.53-6.787c2.017 0 3.981 .2196 5.841 .6623l14.62 4.25l-37.5 87.5C154.1 260.3 152.5 268.8 152.5 277.2c0 22.09 11.49 43.52 31.51 55.29l85 50.13l-27.5 87.75c-.9875 3.174-1.458 6.388-1.458 9.55c0 13.65 8.757 26.31 22.46 30.58C265.6 511.5 268.9 512 272 512c13.62 0 26.25-8.75 30.5-22.5l31.75-101c1.211-4.278 1.796-8.625 1.796-12.93c0-16.57-8.661-32.51-23.55-41.44l-61.13-36.12l31.25-78.38l20.25 41.5C310.9 277.4 327.9 288 345.1 288H400c17.62 0 32-14.38 32-32C432 238.3 417.6 224 400 224zM288 96c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48S261.5 96 288 96zM129.8 317.5L114.9 352H48c-17.62 0-32 14.38-32 32s14.38 32 32 32h77.5c19.25 0 36.5-11.5 44-29.12l8.875-20.5l-10.75-6.25C150.4 349.9 137.6 334.8 129.8 317.5z"]
 };
 var faRunning = faPersonRunning;
+var faPersonShelter = {
+  prefix: 'fas',
+  iconName: 'person-shelter',
+  icon: [512, 512, [], "e54f", "M495.9 132.2C505.8 137.9 512 148.5 512 160V480C512 497.7 497.7 512 480 512C462.3 512 448 497.7 448 480V178.6L256 68.86L64 178.6V480C64 497.7 49.67 512 32 512C14.33 512 0 497.7 0 480V160C0 148.5 6.153 137.9 16.12 132.2L240.1 4.216C249.1-1.405 262-1.405 271.9 4.216L495.9 132.2zM216 168C216 145.9 233.9 128 256 128C278.1 128 296 145.9 296 168C296 190.1 278.1 208 256 208C233.9 208 216 190.1 216 168zM224 512C210.7 512 200 501.3 200 488V313.5L173.1 363.4C166.8 375 152.3 379.4 140.6 373.1C128.1 366.8 124.6 352.3 130.9 340.6L168.7 270.3C184.1 241.8 213.9 223.1 246.2 223.1H265.8C298.1 223.1 327.9 241.8 343.3 270.3L381.1 340.6C387.4 352.3 383 366.8 371.4 373.1C359.7 379.4 345.2 375 338.9 363.4L312 313.5V488C312 501.3 301.3 512 288 512C274.7 512 264 501.3 264 488V400H248V488C248 501.3 237.3 512 224 512V512z"]
+};
 var faPersonSkating = {
   prefix: 'fas',
   iconName: 'person-skating',
@@ -12895,12 +14067,37 @@ var faPersonSwimming = {
   icon: [576, 512, [127946, "swimmer"], "f5c4", "M192.4 320c63.38 0 54.09-39.67 95.33-40.02c42.54 .3672 31.81 40.02 95.91 40.02c39.27 0 55.72-18.41 62.21-24.83l-140.4-116.1c3.292-1.689 31.66-18.2 75.25-18.2c12.57 0 25.18 1.397 37.53 4.21l38.59 8.844c2.412 .5592 4.824 .8272 7.2 .8272c15.91 0 31.96-12.81 31.96-32.04c0-14.58-10.03-27.77-24.84-31.16l-38.59-8.844c-17.06-3.904-34.46-5.837-51.81-5.837c-120.1 0-177.4 85.87-178.1 88.02L179.1 213.3C158.1 241.3 147.4 273.8 145 307.7C157.5 315.4 174.3 320 192.4 320zM576 397c0-15.14-10.82-28.59-26.25-31.42c-48.52-8.888-45.5-29.48-69.6-29.48c-25.02 0-31.19 31.79-96.18 31.79c-48.59 0-72.72-22.06-73.38-22.62c-6.141-6.157-14.26-9.188-22.42-9.188c-24.75 0-31.59 31.81-96.2 31.81c-48.59 0-72.69-22.03-73.41-22.59c-6.125-6.157-14.3-9.245-22.46-9.245c-8.072 0-16.12 3.026-22.38 8.901c-29.01 26.25-73.75 12.54-73.75 52.08c0 16.08 12.77 32.07 31.71 32.07c9.77 0 39.65-7.34 64.26-21.84C115.5 418.8 147.4 431.1 192 431.1s76.5-13.12 96-24.66c19.53 11.53 51.47 24.59 96 24.59c44.59 0 76.56-13.09 96.06-24.62c24.71 14.57 54.74 21.83 64.24 21.83C563.2 429.1 576 413.3 576 397zM95.1 224c35.35 0 64-28.65 64-64c0-35.35-28.65-64-64-64s-64 28.65-64 64C31.1 195.3 60.65 224 95.1 224z"]
 };
 var faSwimmer = faPersonSwimming;
+var faPersonThroughWindow = {
+  prefix: 'fas',
+  iconName: 'person-through-window',
+  icon: [640, 512, [], "e433", "M191.1 128C191.1 154.5 170.5 176 143.1 176C117.5 176 95.1 154.5 95.1 128C95.1 101.5 117.5 80 143.1 80C170.5 80 191.1 101.5 191.1 128zM385 336H310.5L394.6 462.2C404.4 476.1 400.5 496.8 385.8 506.6C371 516.4 351.2 512.5 341.4 497.8L308.2 448H48C21.49 448 0 426.5 0 400V48C0 21.49 21.49 0 48 0H592C618.5 0 640 21.49 640 48V400C640 426.5 618.5 448 592 448H421.9L379.2 384H425L385 336zM63.1 64V384H127.1C127.1 384 127.1 384 127.1 384V310.2C127.1 245 167.6 186.5 228.1 162.3C264.3 147.8 287.1 112.8 287.1 73.84V64H63.1zM352 64V73.84C352 128.5 324.1 178.5 279.5 207.4C279.8 207.9 280.1 208.4 280.4 208.9L321.4 271.1H392.5C406.8 271.1 420.3 278.3 429.4 289.3L508.3 384H576V64H352zM265.5 384L196.7 280.7C193.6 290 191.1 299.1 191.1 310.2V383.1C191.1 383.1 191.1 384 191.1 383.1L265.5 384z"]
+};
 var faPersonWalking = {
   prefix: 'fas',
   iconName: 'person-walking',
-  icon: [320, 512, [128694, "walking"], "f554", "M207.9 95.99c26.5 0 47.1-21.49 47.1-47.99S234.4 0 207.9 0S159.1 21.49 159.1 47.99S181.4 95.99 207.9 95.99zM73.61 385.7c-3.25 8.125-7.998 15.5-14.25 21.49l-49.99 50.12c-6.249 6.246-9.373 14.46-9.373 22.68C-.0003 505.1 22.93 512 31.99 512c8.186 0 16.37-3.125 22.62-9.375l59.36-59.48c6.125-6 10.87-13.37 14.25-21.49l13.5-33.74c-55.36-60.23-38.74-41.74-47.49-53.74L73.61 385.7zM320 273.9c0-11.77-6.392-23.15-17.57-28.74l-23.24-11.88L269.4 203.9c-5.552-16.8-33.04-75.89-102.9-75.89c-35.58 0-55.44 10.22-92.58 25.26C52.36 161.9 34.74 178.4 24.24 199.4L17.62 213C15.33 217.6 14.24 222.5 14.24 227.3c0 17.25 13.78 31.97 31.63 31.97c11.6 0 22.78-6.455 28.37-17.63l6.748-13.62c3.5-7 9.248-12.5 16.5-15.38L124.2 201.8L109.1 262.5C107.8 267.6 107.2 272.9 107.2 278c0 15.79 5.886 31.29 16.8 43.24l59.86 65.51c7.25 7.875 12.37 17.38 14.87 27.62l18.37 73.39c3.609 14.45 16.69 24.2 31.04 24.2c19.31 0 32.01-16.13 32.01-32.05c0-2.531-.3053-5.097-.9435-7.652l-22.25-89.01c-2.625-10.38-7.748-20.01-14.87-27.76l-45.49-49.76l17.12-68.63l5.498 16.5c5.375 16.13 16.75 29.38 31.74 37.01l23.24 11.75c4.543 2.29 9.371 3.375 14.13 3.375C304.8 305.8 320 292.5 320 273.9z"]
+  icon: [320, 512, [128694, "walking"], "f554", "M256 48C256 74.51 234.5 96 208 96C181.5 96 160 74.51 160 48C160 21.49 181.5 0 208 0C234.5 0 256 21.49 256 48zM126.5 199.3C125.6 199.7 124.6 200.1 123.7 200.5L112.7 205.4C97.41 212.2 85.42 224.6 79.22 240.1L77.71 243.9C71.15 260.3 52.53 268.3 36.12 261.7C19.71 255.1 11.73 236.5 18.29 220.1L19.8 216.3C32.19 185.4 56.18 160.5 86.66 146.9L97.66 142C118.5 132.8 140.1 128 163.7 128C208.3 128 248.5 154.8 265.6 195.9L280.1 232.7L302.3 243.4C318.1 251.3 324.5 270.5 316.6 286.3C308.7 302.1 289.5 308.5 273.7 300.6L247 287.3C236.7 282.1 228.6 273.4 224.2 262.8L214.6 239.8L195.3 305.3L244.8 359.4C250.2 365.3 254.1 372.4 256 380.2L279 472.2C283.3 489.4 272.9 506.8 255.8 511C238.6 515.3 221.2 504.9 216.1 487.8L194.9 399.6L124.3 322.5C109.5 306.4 103.1 283.9 109.6 262.8L126.5 199.3zM68.73 398L93.69 335.6C95.84 338.6 98.16 341.4 100.7 344.2L141.4 388.6L126.9 424.8C124.5 430.9 120.9 436.4 116.3 440.9L54.63 502.6C42.13 515.1 21.87 515.1 9.372 502.6C-3.124 490.1-3.124 469.9 9.372 457.4L68.73 398z"]
 };
 var faWalking = faPersonWalking;
+var faPersonWalkingArrowLoopLeft = {
+  prefix: 'fas',
+  iconName: 'person-walking-arrow-loop-left',
+  icon: [640, 512, [], "e551", "M160 48C160 21.49 181.5 0 208 0C234.5 0 256 21.49 256 48C256 74.51 234.5 96 208 96C181.5 96 160 74.51 160 48V48zM112.7 205.4C97.41 212.2 85.42 224.6 79.22 240.1L77.71 243.9C71.15 260.3 52.53 268.3 36.12 261.7C19.71 255.1 11.73 236.5 18.29 220.1L19.8 216.3C32.19 185.4 56.18 160.5 86.66 146.9L97.66 142C118.5 132.8 140.1 128 163.7 128C208.3 128 248.5 154.8 265.6 195.9L280.1 232.7L302.3 243.4C318.1 251.3 324.5 270.5 316.6 286.3C308.7 302.1 289.5 308.5 273.7 300.6L247 287.3C236.7 282.1 228.6 273.4 224.2 262.8L214.6 239.8L195.3 305.3L244.8 359.4C250.2 365.3 254.1 372.4 256 380.2L279 472.2C283.3 489.4 272.9 506.8 255.8 511C238.6 515.3 221.2 504.9 216.1 487.8L194.9 399.6L124.3 322.5C109.5 306.4 103.1 283.9 109.6 262.8L126.5 199.3C125.6 199.7 124.6 200.1 123.7 200.5L112.7 205.4zM100.7 344.2L141.4 388.6L126.9 424.8C124.5 430.9 120.9 436.4 116.3 440.9L54.63 502.6C42.13 515.1 21.87 515.1 9.372 502.6C-3.124 490.1-3.124 469.9 9.372 457.4L68.73 398L93.69 335.6C95.84 338.6 98.17 341.4 100.7 344.2H100.7zM361.4 374.6C348.9 362.1 348.9 341.9 361.4 329.4L441.4 249.4C453.9 236.9 474.1 236.9 486.6 249.4C499.1 261.9 499.1 282.1 486.6 294.6L461.3 320H480C533 320 576 277 576 224C576 170.1 533 128 480 128H352C334.3 128 319.1 113.7 319.1 96C319.1 78.33 334.3 64 352 64H480C568.4 64 640 135.6 640 224C640 312.4 568.4 384 480 384H461.3L486.6 409.4C499.1 421.9 499.1 442.1 486.6 454.6C474.1 467.1 453.9 467.1 441.4 454.6L361.4 374.6z"]
+};
+var faPersonWalkingArrowRight = {
+  prefix: 'fas',
+  iconName: 'person-walking-arrow-right',
+  icon: [640, 512, [], "e552", "M160 48C160 21.49 181.5 0 208 0C234.5 0 256 21.49 256 48C256 74.51 234.5 96 208 96C181.5 96 160 74.51 160 48V48zM112.7 205.4C97.41 212.2 85.42 224.6 79.22 240.1L77.71 243.9C71.15 260.3 52.53 268.3 36.12 261.7C19.71 255.1 11.73 236.5 18.29 220.1L19.8 216.3C32.19 185.4 56.18 160.5 86.66 146.9L97.66 142C118.5 132.8 140.1 128 163.7 128C208.3 128 248.5 154.8 265.6 195.9L280.1 232.7L302.3 243.4C318.1 251.3 324.5 270.5 316.6 286.3C308.7 302.1 289.5 308.5 273.7 300.6L247 287.3C236.7 282.1 228.6 273.4 224.2 262.8L214.6 239.8L195.3 305.3L244.8 359.4C250.2 365.3 254.1 372.4 256 380.2L279 472.2C283.3 489.4 272.9 506.8 255.8 511C238.6 515.3 221.2 504.9 216.1 487.8L194.9 399.6L124.3 322.5C109.5 306.4 103.1 283.9 109.6 262.8L126.5 199.3C125.6 199.7 124.6 200.1 123.7 200.5L112.7 205.4zM100.7 344.2L141.4 388.6L126.9 424.8C124.5 430.9 120.9 436.4 116.3 440.9L54.63 502.6C42.13 515.1 21.87 515.1 9.372 502.6C-3.124 490.1-3.124 469.9 9.372 457.4L68.73 398L93.69 335.6C95.84 338.6 98.17 341.4 100.7 344.2H100.7zM630.6 233.4C643.1 245.9 643.1 266.1 630.6 278.6L550.6 358.6C538.1 371.1 517.9 371.1 505.4 358.6C492.9 346.1 492.9 325.9 505.4 313.4L530.7 288H384C366.3 288 352 273.7 352 256C352 238.3 366.3 224 384 224H530.7L505.4 198.6C492.9 186.1 492.9 165.9 505.4 153.4C517.9 140.9 538.1 140.9 550.6 153.4L630.6 233.4z"]
+};
+var faPersonWalkingDashedLineArrowRight = {
+  prefix: 'fas',
+  iconName: 'person-walking-dashed-line-arrow-right',
+  icon: [640, 512, [], "e553", "M160 48C160 21.49 181.5 0 208 0C234.5 0 256 21.49 256 48C256 74.51 234.5 96 208 96C181.5 96 160 74.51 160 48V48zM112.7 205.4C97.41 212.2 85.42 224.6 79.22 240.1L77.71 243.9C71.15 260.3 52.53 268.3 36.12 261.7C19.71 255.1 11.73 236.5 18.29 220.1L19.8 216.3C32.19 185.4 56.18 160.5 86.66 146.9L97.66 142C118.5 132.8 140.1 128 163.7 128C208.3 128 248.5 154.8 265.6 195.9L280.1 232.7L302.3 243.4C318.1 251.3 324.5 270.5 316.6 286.3C308.7 302.1 289.5 308.5 273.7 300.6L247 287.3C236.7 282.1 228.6 273.4 224.2 262.8L214.6 239.8L195.3 305.3L244.8 359.4C250.2 365.3 254.1 372.4 256 380.2L279 472.2C283.3 489.4 272.9 506.8 255.8 511C238.6 515.3 221.2 504.9 216.1 487.8L194.9 399.6L124.3 322.5C109.5 306.4 103.1 283.9 109.6 262.8L126.5 199.3C125.6 199.7 124.6 200.1 123.7 200.5L112.7 205.4zM100.7 344.2L141.4 388.6L126.9 424.8C124.5 430.9 120.9 436.4 116.3 440.9L54.63 502.6C42.13 515.1 21.87 515.1 9.372 502.6C-3.124 490.1-3.124 469.9 9.372 457.4L68.73 398L93.69 335.6C95.84 338.6 98.17 341.4 100.7 344.2H100.7zM630.6 233.4C643.1 245.9 643.1 266.1 630.6 278.6L550.6 358.6C538.1 371.1 517.9 371.1 505.4 358.6C492.9 346.1 492.9 325.9 505.4 313.4L530.7 288H384C366.3 288 352 273.7 352 256C352 238.3 366.3 224 384 224H530.7L505.4 198.6C492.9 186.1 492.9 165.9 505.4 153.4C517.9 140.9 538.1 140.9 550.6 153.4L630.6 233.4zM392 0C405.3 0 416 10.75 416 24V72C416 85.25 405.3 96 392 96C378.7 96 368 85.25 368 72V24C368 10.75 378.7 0 392 0zM416 168C416 181.3 405.3 192 392 192C378.7 192 368 181.3 368 168V152C368 138.7 378.7 128 392 128C405.3 128 416 138.7 416 152V168zM392 320C405.3 320 416 330.7 416 344V360C416 373.3 405.3 384 392 384C378.7 384 368 373.3 368 360V344C368 330.7 378.7 320 392 320zM416 488C416 501.3 405.3 512 392 512C378.7 512 368 501.3 368 488V440C368 426.7 378.7 416 392 416C405.3 416 416 426.7 416 440V488z"]
+};
+var faPersonWalkingLuggage = {
+  prefix: 'fas',
+  iconName: 'person-walking-luggage',
+  icon: [512, 512, [], "e554", "M352 48C352 21.49 373.5 0 400 0C426.5 0 448 21.49 448 48C448 74.51 426.5 96 400 96C373.5 96 352 74.51 352 48zM304.6 205.4C289.4 212.2 277.4 224.6 271.2 240.1L269.7 243.9C263.1 260.3 244.5 268.3 228.1 261.7C211.7 255.1 203.7 236.5 210.3 220.1L211.8 216.3C224.2 185.4 248.2 160.5 278.7 146.9L289.7 142C310.5 132.8 332.1 128 355.7 128C400.3 128 440.5 154.8 457.6 195.9L472.1 232.7L494.3 243.4C510.1 251.3 516.5 270.5 508.6 286.3C500.7 302.1 481.5 308.5 465.7 300.6L439 287.3C428.7 282.1 420.6 273.4 416.2 262.8L406.6 239.8L387.3 305.3L436.8 359.4C442.2 365.3 446.1 372.4 448 380.2L471 472.2C475.3 489.4 464.9 506.8 447.8 511C430.6 515.3 413.2 504.9 408.1 487.8L386.9 399.6L316.3 322.5C301.5 306.4 295.1 283.9 301.6 262.8L318.5 199.3C317.6 199.7 316.6 200.1 315.7 200.5L304.6 205.4zM292.7 344.2L333.4 388.6L318.9 424.8C316.5 430.9 312.9 436.4 308.3 440.9L246.6 502.6C234.1 515.1 213.9 515.1 201.4 502.6C188.9 490.1 188.9 469.9 201.4 457.4L260.7 398L285.7 335.6C287.8 338.6 290.2 341.4 292.7 344.2H292.7zM223.1 274.1C231.7 278.6 234.3 288.3 229.9 295.1L186.1 371.8C185.4 374.5 184.3 377.2 182.9 379.7L118.9 490.6C110 505.9 90.44 511.1 75.14 502.3L19.71 470.3C4.407 461.4-.8371 441.9 7.999 426.6L71.1 315.7C80.84 300.4 100.4 295.2 115.7 303.1L170.1 335.4L202.1 279.1C206.6 272.3 216.3 269.7 223.1 274.1H223.1z"]
+};
 var faPersonWalkingWithCane = {
   prefix: 'fas',
   iconName: 'person-walking-with-cane',
@@ -12975,15 +14172,50 @@ var faPlaneArrival = {
   iconName: 'plane-arrival',
   icon: [640, 512, [128748], "f5af", "M.2528 166.9L.0426 67.99C.0208 57.74 9.508 50.11 19.51 52.34L55.07 60.24C65.63 62.58 74.29 70.11 78.09 80.24L95.1 127.1L223.3 165.6L181.8 20.4C178.9 10.18 186.6 .001 197.2 .001H237.3C248.8 .001 259.5 6.236 265.2 16.31L374.2 210.2L481.5 241.8C497.4 246.5 512.2 254.3 525.2 264.7L559.6 292.2C583.7 311.4 577.7 349.5 548.9 360.5C507.7 376.1 462.7 378.5 420.1 367.4L121.7 289.8C110.6 286.9 100.5 281.1 92.4 272.9L9.536 189.4C3.606 183.4 .2707 175.3 .2528 166.9V166.9zM608 448C625.7 448 640 462.3 640 480C640 497.7 625.7 512 608 512H32C14.33 512 0 497.7 0 480C0 462.3 14.33 448 32 448H608zM192 368C192 385.7 177.7 400 160 400C142.3 400 128 385.7 128 368C128 350.3 142.3 336 160 336C177.7 336 192 350.3 192 368zM224 384C224 366.3 238.3 352 256 352C273.7 352 288 366.3 288 384C288 401.7 273.7 416 256 416C238.3 416 224 401.7 224 384z"]
 };
+var faPlaneCircleCheck = {
+  prefix: 'fas',
+  iconName: 'plane-circle-check',
+  icon: [640, 512, [], "e555", "M320 93.68V178.3L397.1 222.4C350.6 254 320 307.4 320 368C320 422.2 344.5 470.7 383.1 502.1C381 508.3 375.9 512 369.1 512C368.7 512 367.4 511.8 366.1 511.5L256 480L145.9 511.5C144.6 511.8 143.3 512 142 512C134.3 512 128 505.7 128 497.1V456C128 450.1 130.4 446.2 134.4 443.2L192 400V329.1L20.4 378.2C10.17 381.1 0 373.4 0 362.8V297.3C0 291.5 3.076 286.2 8.062 283.4L192 178.3V93.68C192 59.53 221 0 256 0C292 0 320 59.53 320 93.68H320zM640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368zM540.7 324.7L480 385.4L451.3 356.7C445.1 350.4 434.9 350.4 428.7 356.7C422.4 362.9 422.4 373.1 428.7 379.3L468.7 419.3C474.9 425.6 485.1 425.6 491.3 419.3L563.3 347.3C569.6 341.1 569.6 330.9 563.3 324.7C557.1 318.4 546.9 318.4 540.7 324.7H540.7z"]
+};
+var faPlaneCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'plane-circle-exclamation',
+  icon: [640, 512, [], "e556", "M320 93.68V178.3L397.1 222.4C350.6 254 320 307.4 320 368C320 422.2 344.5 470.7 383.1 502.1C381 508.3 375.9 512 369.1 512C368.7 512 367.4 511.8 366.1 511.5L256 480L145.9 511.5C144.6 511.8 143.3 512 142 512C134.3 512 128 505.7 128 497.1V456C128 450.1 130.4 446.2 134.4 443.2L192 400V329.1L20.4 378.2C10.17 381.1 0 373.4 0 362.8V297.3C0 291.5 3.076 286.2 8.062 283.4L192 178.3V93.68C192 59.53 221 0 256 0C292 0 320 59.53 320 93.68H320zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM496 464C509.3 464 520 453.3 520 440C520 426.7 509.3 416 496 416C482.7 416 472 426.7 472 440C472 453.3 482.7 464 496 464zM479.1 288V368C479.1 376.8 487.2 384 495.1 384C504.8 384 511.1 376.8 511.1 368V288C511.1 279.2 504.8 272 495.1 272C487.2 272 479.1 279.2 479.1 288z"]
+};
+var faPlaneCircleXmark = {
+  prefix: 'fas',
+  iconName: 'plane-circle-xmark',
+  icon: [640, 512, [], "e557", "M320 93.68V178.3L397.1 222.4C350.6 254 320 307.4 320 368C320 422.2 344.5 470.7 383.1 502.1C381 508.3 375.9 512 369.1 512C368.7 512 367.4 511.8 366.1 511.5L256 480L145.9 511.5C144.6 511.8 143.3 512 142 512C134.3 512 128 505.7 128 497.1V456C128 450.1 130.4 446.2 134.4 443.2L192 400V329.1L20.4 378.2C10.17 381.1 0 373.4 0 362.8V297.3C0 291.5 3.076 286.2 8.062 283.4L192 178.3V93.68C192 59.53 221 0 256 0C292 0 320 59.53 320 93.68H320zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM555.3 331.3C561.6 325.1 561.6 314.9 555.3 308.7C549.1 302.4 538.9 302.4 532.7 308.7L496 345.4L459.3 308.7C453.1 302.4 442.9 302.4 436.7 308.7C430.4 314.9 430.4 325.1 436.7 331.3L473.4 368L436.7 404.7C430.4 410.9 430.4 421.1 436.7 427.3C442.9 433.6 453.1 433.6 459.3 427.3L496 390.6L532.7 427.3C538.9 433.6 549.1 433.6 555.3 427.3C561.6 421.1 561.6 410.9 555.3 404.7L518.6 368L555.3 331.3z"]
+};
 var faPlaneDeparture = {
   prefix: 'fas',
   iconName: 'plane-departure',
   icon: [640, 512, [128747], "f5b0", "M484.6 62C502.6 52.8 522.6 48 542.8 48H600.2C627.2 48 645.9 74.95 636.4 100.2C618.2 148.9 582.1 188.9 535.6 212.2L262.8 348.6C258.3 350.8 253.4 352 248.4 352H110.7C101.4 352 92.5 347.9 86.42 340.8L13.34 255.6C6.562 247.7 9.019 235.5 18.33 230.8L50.49 214.8C59.05 210.5 69.06 210.2 77.8 214.1L135.1 239.1L234.6 189.7L87.64 95.2C77.21 88.49 78.05 72.98 89.14 67.43L135 44.48C150.1 36.52 169.5 35.55 186.1 41.8L381 114.9L484.6 62zM0 480C0 462.3 14.33 448 32 448H608C625.7 448 640 462.3 640 480C640 497.7 625.7 512 608 512H32C14.33 512 0 497.7 0 480z"]
 };
+var faPlaneLock = {
+  prefix: 'fas',
+  iconName: 'plane-lock',
+  icon: [640, 512, [], "e558", "M192 93.68C192 59.53 221 0 256 0C292 0 320 59.53 320 93.68V178.3L421.8 236.4C418 247.6 416 259.6 416 272V296.6C398.1 306.9 385.7 325.7 384.2 347.5L320 329.1V400L377.6 443.2C381.6 446.2 384 450.1 384 456V497.1C384 505.7 377.7 512 369.1 512C368.7 512 367.4 511.8 366.1 511.5L256 480L145.9 511.5C144.6 511.8 143.3 512 142 512C134.3 512 128 505.7 128 497.1V456C128 450.1 130.4 446.2 134.4 443.2L192 400V329.1L20.4 378.2C10.17 381.1 0 373.4 0 362.8V297.3C0 291.5 3.076 286.2 8.062 283.4L192 178.3L192 93.68zM528 192C572.2 192 608 227.8 608 272V320C625.7 320 640 334.3 640 352V480C640 497.7 625.7 512 608 512H448C430.3 512 416 497.7 416 480V352C416 334.3 430.3 320 448 320V272C448 227.8 483.8 192 528 192zM528 240C510.3 240 496 254.3 496 272V320H560V272C560 254.3 545.7 240 528 240z"]
+};
 var faPlaneSlash = {
   prefix: 'fas',
   iconName: 'plane-slash',
   icon: [640, 512, [], "e069", "M238.1 161.3L197.8 20.4C194.9 10.17 202.6-.0001 213.2-.0001H269.4C280.9-.0001 291.5 6.153 297.2 16.12L397.7 192H514.3C548.5 192 608 221 608 256C608 292 548.5 320 514.3 320H440.6L630.8 469.1C641.2 477.3 643.1 492.4 634.9 502.8C626.7 513.2 611.6 515.1 601.2 506.9L9.196 42.89C-1.236 34.71-3.065 19.63 5.112 9.196C13.29-1.237 28.37-3.065 38.81 5.112L238.1 161.3zM41.54 128.7L362.5 381.6L297.2 495.9C291.5 505.8 280.9 512 269.4 512H213.2C202.6 512 194.9 501.8 197.8 491.6L246.9 319.1H144L100.8 377.6C97.78 381.6 93.04 384 88 384H46.03C38.28 384 32 377.7 32 369.1C32 368.7 32.18 367.4 32.54 366.1L64 255.1L32.54 145.9C32.18 144.6 32 143.3 32 142C32 135.9 35.1 130.6 41.54 128.7V128.7z"]
+};
+var faPlaneUp = {
+  prefix: 'fas',
+  iconName: 'plane-up',
+  icon: [512, 512, [], "e22d", "M192 93.68C192 59.53 221 0 256 0C292 0 320 59.53 320 93.68V160L497.8 278.5C506.7 284.4 512 294.4 512 305.1V361.8C512 372.7 501.3 380.4 490.9 376.1L320 319.1V400L377.6 443.2C381.6 446.2 384 450.1 384 456V497.1C384 505.7 377.7 512 369.1 512C368.7 512 367.4 511.8 366.1 511.5L256 480L145.9 511.5C144.6 511.8 143.3 512 142 512C134.3 512 128 505.7 128 497.1V456C128 450.1 130.4 446.2 134.4 443.2L192 400V319.1L21.06 376.1C10.7 380.4 0 372.7 0 361.8V305.1C0 294.4 5.347 284.4 14.25 278.5L192 160L192 93.68z"]
+};
+var faPlantWilt = {
+  prefix: 'fas',
+  iconName: 'plant-wilt',
+  icon: [512, 512, [], "e43b", "M288 512H224V248C224 217.1 198.9 192 168 192C137.1 192 112 217.1 112 248V260.1C141.3 270.9 160 295.5 160 331.1C160 359.1 124.2 410.5 80 448C35.83 410.5 0 360.4 0 331.1C0 295.5 18.67 270.9 48 260.1V248C48 181.7 101.7 128 168 128C188.2 128 207.3 133 224 141.8V120C224 53.73 277.7 0 344 0C410.3 0 464 53.73 464 120V132.1C493.3 142.9 512 167.5 512 203.1C512 231.1 476.2 282.5 432 320C387.8 282.5 352 232.4 352 203.1C352 167.5 370.7 142.9 400 132.1V120C400 89.07 374.9 64 344 64C313.1 64 288 89.07 288 120V512z"]
+};
+var faPlateWheat = {
+  prefix: 'fas',
+  iconName: 'plate-wheat',
+  icon: [512, 512, [], "e55a", "M256 112V128C256 136.8 248.8 144 240 144C195.8 144 160 108.2 160 64V48C160 39.16 167.2 32 176 32C220.2 32 256 67.82 256 112zM104 64C117.3 64 128 74.75 128 88C128 101.3 117.3 112 104 112H56C42.75 112 32 101.3 32 88C32 74.75 42.75 64 56 64H104zM136 136C149.3 136 160 146.7 160 160C160 173.3 149.3 184 136 184H24C10.75 184 0 173.3 0 160C0 146.7 10.75 136 24 136H136zM32 232C32 218.7 42.75 208 56 208H104C117.3 208 128 218.7 128 232C128 245.3 117.3 256 104 256H56C42.75 256 32 245.3 32 232zM272 48C272 39.16 279.2 32 288 32C332.2 32 368 67.82 368 112V128C368 136.8 360.8 144 352 144C307.8 144 272 108.2 272 64V48zM480 112V128C480 136.8 472.8 144 464 144C419.8 144 384 108.2 384 64V48C384 39.16 391.2 32 400 32C444.2 32 480 67.82 480 112zM480 208C480 252.2 444.2 288 400 288C391.2 288 384 280.8 384 272V256C384 211.8 419.8 176 464 176C472.8 176 480 183.2 480 192V208zM352 176C360.8 176 368 183.2 368 192V208C368 252.2 332.2 288 288 288C279.2 288 272 280.8 272 272V256C272 211.8 307.8 176 352 176zM256 208C256 252.2 220.2 288 176 288C167.2 288 160 280.8 160 272V256C160 211.8 195.8 176 240 176C248.8 176 256 183.2 256 192V208zM0 352C0 334.3 14.33 320 32 320H480C497.7 320 512 334.3 512 352C512 411.7 471.1 461.9 415.8 476C415.9 477.3 416 478.7 416 480C416 497.7 401.7 512 384 512H128C110.3 512 96 497.7 96 480C96 478.7 96.08 477.3 96.24 476C40.91 461.9 0 411.7 0 352V352z"]
 };
 var faPlay = {
   prefix: 'fas',
@@ -12993,7 +14225,37 @@ var faPlay = {
 var faPlug = {
   prefix: 'fas',
   iconName: 'plug',
-  icon: [384, 512, [128268], "f1e6", "M320 32c0-17.62-14.38-32-32-32s-32 14.38-32 32v96h64V32zM368 159.1h-352c-8.875 0-16 7.125-16 16v32c0 8.875 7.125 16 16 16H32V256c0 76 53.5 141.6 128 156.8V512h64v-99.25C298.5 397.6 352 332 352 256V223.1h16c8.875 0 16-7.125 16-16v-32C384 167.1 376.9 159.1 368 159.1zM128 32c0-17.62-14.38-32-32-32S64 14.38 64 32v96h64V32z"]
+  icon: [384, 512, [128268], "f1e6", "M96 0C113.7 0 128 14.33 128 32V128H64V32C64 14.33 78.33 0 96 0zM288 0C305.7 0 320 14.33 320 32V128H256V32C256 14.33 270.3 0 288 0zM352 160C369.7 160 384 174.3 384 192C384 209.7 369.7 224 352 224V256C352 333.4 297 397.1 224 412.8V512H160V412.8C86.97 397.1 32 333.4 32 256V224C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H352z"]
+};
+var faPlugCircleBolt = {
+  prefix: 'fas',
+  iconName: 'plug-circle-bolt',
+  icon: [576, 512, [], "e55b", "M96 0C113.7 0 128 14.33 128 32V128H64V32C64 14.33 78.33 0 96 0zM288 0C305.7 0 320 14.33 320 32V128H256V32C256 14.33 270.3 0 288 0zM352 160C369.7 160 384 174.3 384 192C384 194.3 383.7 196.6 383.3 198.8C309.8 219.1 256 287.7 256 368C256 379.4 257.1 390.5 259.1 401.3C248.1 406.4 236.3 410.3 224 412.8V512H160V412.8C86.97 397.1 32 333.4 32 256V224C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H352zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM464.8 286.4L368.8 358.4C364.7 361.5 362.1 366.9 364.6 371.8C366.2 376.7 370.8 380 376 380H411.6L381.5 434.2C378.8 439.1 379.8 445.3 384.1 449C388.4 452.8 394.7 452.1 399.2 449.6L495.2 377.6C499.3 374.5 501 369.1 499.4 364.2C497.8 359.3 493.2 356 488 356H452.4L482.5 301.8C485.2 296.9 484.2 290.7 479.9 286.1C475.6 283.2 469.3 283 464.8 286.4V286.4z"]
+};
+var faPlugCircleCheck = {
+  prefix: 'fas',
+  iconName: 'plug-circle-check',
+  icon: [576, 512, [], "e55c", "M96 0C113.7 0 128 14.33 128 32V128H64V32C64 14.33 78.33 0 96 0zM288 0C305.7 0 320 14.33 320 32V128H256V32C256 14.33 270.3 0 288 0zM352 160C369.7 160 384 174.3 384 192C384 194.3 383.7 196.6 383.3 198.8C309.8 219.1 256 287.7 256 368C256 379.4 257.1 390.5 259.1 401.3C248.1 406.4 236.3 410.3 224 412.8V512H160V412.8C86.97 397.1 32 333.4 32 256V224C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H352zM576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368zM476.7 324.7L416 385.4L387.3 356.7C381.1 350.4 370.9 350.4 364.7 356.7C358.4 362.9 358.4 373.1 364.7 379.3L404.7 419.3C410.9 425.6 421.1 425.6 427.3 419.3L499.3 347.3C505.6 341.1 505.6 330.9 499.3 324.7C493.1 318.4 482.9 318.4 476.7 324.7H476.7z"]
+};
+var faPlugCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'plug-circle-exclamation',
+  icon: [576, 512, [], "e55d", "M96 0C113.7 0 128 14.33 128 32V128H64V32C64 14.33 78.33 0 96 0zM288 0C305.7 0 320 14.33 320 32V128H256V32C256 14.33 270.3 0 288 0zM352 160C369.7 160 384 174.3 384 192C384 194.3 383.7 196.6 383.3 198.8C309.8 219.1 256 287.7 256 368C256 379.4 257.1 390.5 259.1 401.3C248.1 406.4 236.3 410.3 224 412.8V512H160V412.8C86.97 397.1 32 333.4 32 256V224C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H352zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM432 464C445.3 464 456 453.3 456 440C456 426.7 445.3 416 432 416C418.7 416 408 426.7 408 440C408 453.3 418.7 464 432 464zM415.1 288V368C415.1 376.8 423.2 384 431.1 384C440.8 384 447.1 376.8 447.1 368V288C447.1 279.2 440.8 272 431.1 272C423.2 272 415.1 279.2 415.1 288z"]
+};
+var faPlugCircleMinus = {
+  prefix: 'fas',
+  iconName: 'plug-circle-minus',
+  icon: [576, 512, [], "e55e", "M96 0C113.7 0 128 14.33 128 32V128H64V32C64 14.33 78.33 0 96 0zM288 0C305.7 0 320 14.33 320 32V128H256V32C256 14.33 270.3 0 288 0zM352 160C369.7 160 384 174.3 384 192C384 194.3 383.7 196.6 383.3 198.8C309.8 219.1 256 287.7 256 368C256 379.4 257.1 390.5 259.1 401.3C248.1 406.4 236.3 410.3 224 412.8V512H160V412.8C86.97 397.1 32 333.4 32 256V224C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H352zM576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368zM496 351.1H368C359.2 351.1 352 359.2 352 367.1C352 376.8 359.2 383.1 368 383.1H496C504.8 383.1 512 376.8 512 367.1C512 359.2 504.8 351.1 496 351.1z"]
+};
+var faPlugCirclePlus = {
+  prefix: 'fas',
+  iconName: 'plug-circle-plus',
+  icon: [576, 512, [], "e55f", "M96 0C113.7 0 128 14.33 128 32V128H64V32C64 14.33 78.33 0 96 0zM288 0C305.7 0 320 14.33 320 32V128H256V32C256 14.33 270.3 0 288 0zM352 160C369.7 160 384 174.3 384 192C384 194.3 383.7 196.6 383.3 198.8C309.8 219.1 256 287.7 256 368C256 379.4 257.1 390.5 259.1 401.3C248.1 406.4 236.3 410.3 224 412.8V512H160V412.8C86.97 397.1 32 333.4 32 256V224C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H352zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM448 303.1C448 295.2 440.8 287.1 432 287.1C423.2 287.1 416 295.2 416 303.1V351.1H368C359.2 351.1 352 359.2 352 367.1C352 376.8 359.2 383.1 368 383.1H416V431.1C416 440.8 423.2 447.1 432 447.1C440.8 447.1 448 440.8 448 431.1V383.1H496C504.8 383.1 512 376.8 512 367.1C512 359.2 504.8 351.1 496 351.1H448V303.1z"]
+};
+var faPlugCircleXmark = {
+  prefix: 'fas',
+  iconName: 'plug-circle-xmark',
+  icon: [576, 512, [], "e560", "M96 0C113.7 0 128 14.33 128 32V128H64V32C64 14.33 78.33 0 96 0zM288 0C305.7 0 320 14.33 320 32V128H256V32C256 14.33 270.3 0 288 0zM352 160C369.7 160 384 174.3 384 192C384 194.3 383.7 196.6 383.3 198.8C309.8 219.1 256 287.7 256 368C256 379.4 257.1 390.5 259.1 401.3C248.1 406.4 236.3 410.3 224 412.8V512H160V412.8C86.97 397.1 32 333.4 32 256V224C14.33 224 0 209.7 0 192C0 174.3 14.33 160 32 160H352zM288 368C288 288.5 352.5 224 432 224C511.5 224 576 288.5 576 368C576 447.5 511.5 512 432 512C352.5 512 288 447.5 288 368zM491.3 331.3C497.6 325.1 497.6 314.9 491.3 308.7C485.1 302.4 474.9 302.4 468.7 308.7L432 345.4L395.3 308.7C389.1 302.4 378.9 302.4 372.7 308.7C366.4 314.9 366.4 325.1 372.7 331.3L409.4 368L372.7 404.7C366.4 410.9 366.4 421.1 372.7 427.3C378.9 433.6 389.1 433.6 395.3 427.3L432 390.6L468.7 427.3C474.9 433.6 485.1 433.6 491.3 427.3C497.6 421.1 497.6 410.9 491.3 404.7L454.6 368L491.3 331.3z"]
 };
 var faPlus = {
   prefix: 'fas',
@@ -13105,10 +14367,20 @@ var faRadiation = {
   iconName: 'radiation',
   icon: [512, 512, [], "f7b9", "M256 303.1c26.5 0 48-21.5 48-48S282.5 207.1 256 207.1S208 229.5 208 255.1S229.5 303.1 256 303.1zM213.6 188L142.7 74.71C132.5 58.41 109.9 54.31 95.25 66.75c-44.94 38.1-76.19 91.82-85.17 152.8C7.266 238.7 22.67 255.8 42.01 255.8h133.8C175.8 227.2 191 202.3 213.6 188zM416.8 66.75c-14.67-12.44-37.21-8.338-47.41 7.965L298.4 188c22.6 14.3 37.8 39.2 37.8 67.8h133.8c19.34 0 34.74-17.13 31.93-36.26C492.9 158.6 461.7 104.8 416.8 66.75zM298.4 323.5C286.1 331.2 271.6 335.9 256 335.9s-30.1-4.701-42.4-12.4L142.7 436.9c-10.14 16.21-4.16 38.2 13.32 45.95C186.6 496.4 220.4 504 256 504s69.42-7.611 100-21.18c17.48-7.752 23.46-29.74 13.32-45.95L298.4 323.5z"]
 };
+var faRadio = {
+  prefix: 'fas',
+  iconName: 'radio',
+  icon: [512, 512, [128251], "f8d7", "M447.1 128L218.5 128l276.2-80.97c12.72-3.734 19.1-17.06 16.28-29.78c-3.719-12.7-16.1-19.1-29.78-16.28L51.75 126.9c-29.07 8.512-49.55 34.8-51.39 64.78L.0007 192v255.1c0 35.31 28.69 63.1 63.1 63.1h383.1c35.31 0 63.1-28.69 63.1-63.1V192C511.1 156.7 483.3 128 447.1 128zM80 248c0-4.406 3.594-7.1 7.1-7.1h111.1c4.406 0 7.1 3.594 7.1 7.1V263.1c0 4.406-3.594 7.1-7.1 7.1h-111.1c-4.406 0-7.1-3.594-7.1-7.1V248zM208 391.1c0 4.406-3.594 7.1-7.1 7.1h-111.1c-4.406 0-7.1-3.594-7.1-7.1v-15.1c0-4.406 3.594-7.1 7.1-7.1h111.1c4.406 0 7.1 3.594 7.1 7.1V391.1zM224 327.1c0 4.406-3.594 7.1-7.1 7.1H72c-4.406 0-7.1-3.594-7.1-7.1V311.1c0-4.406 3.594-7.1 7.1-7.1h143.1c4.406 0 7.1 3.594 7.1 7.1V327.1zM367.1 399.1c-44.16 0-80-35.84-80-79.1s35.84-80 80-80s79.1 35.85 79.1 80S412.2 399.1 367.1 399.1z"]
+};
 var faRainbow = {
   prefix: 'fas',
   iconName: 'rainbow',
   icon: [640, 512, [127752], "f75b", "M312.3 32.09C137.6 36.22 0 183.3 0 358V464C0 472.8 7.164 480 16 480h32C56.84 480 64 472.8 64 464v-106.9c0-143.2 117.2-263.5 260.4-261.1C463.5 98.4 576 212.3 576 352v112c0 8.836 7.164 16 16 16h32c8.838 0 16-7.164 16-16V352C640 172.1 492.3 27.84 312.3 32.09zM313.5 224.2C244.8 227.6 192 286.9 192 355.7V464C192 472.8 199.2 480 208 480h32C248.8 480 256 472.8 256 464v-109.7c0-34.06 25.65-63.85 59.64-66.11C352.9 285.7 384 315.3 384 352v112c0 8.836 7.164 16 16 16h32c8.838 0 16-7.164 16-16V352C448 279.3 387 220.5 313.5 224.2zM313.2 128.1C191.4 131.7 96 234.9 96 356.8V464C96 472.8 103.2 480 112 480h32C152.8 480 160 472.8 160 464v-108.1c0-86.64 67.24-160.5 153.8-163.8C404.8 188.7 480 261.7 480 352v112c0 8.836 7.164 16 16 16h32c8.838 0 16-7.164 16-16V352C544 226.2 439.8 124.3 313.2 128.1z"]
+};
+var faRankingStar = {
+  prefix: 'fas',
+  iconName: 'ranking-star',
+  icon: [640, 512, [], "e561", "M406.1 61.65C415.4 63.09 419.4 74.59 412.6 81.41L374.6 118.1L383.6 170.1C384.1 179.5 375.3 186.7 366.7 182.4L320.2 157.9L273.3 182.7C264.7 187 255 179.8 256.4 170.5L265.4 118.4L227.4 81.41C220.6 74.59 224.6 63.09 233.9 61.65L286.2 54.11L309.8 6.332C314.1-2.289 326.3-1.93 330.2 6.332L353.8 54.11L406.1 61.65zM384 256C401.7 256 416 270.3 416 288V480C416 497.7 401.7 512 384 512H256C238.3 512 224 497.7 224 480V288C224 270.3 238.3 256 256 256H384zM160 320C177.7 320 192 334.3 192 352V480C192 497.7 177.7 512 160 512H32C14.33 512 0 497.7 0 480V352C0 334.3 14.33 320 32 320H160zM448 416C448 398.3 462.3 384 480 384H608C625.7 384 640 398.3 640 416V480C640 497.7 625.7 512 608 512H480C462.3 512 448 497.7 448 480V416z"]
 };
 var faReceipt = {
   prefix: 'fas',
@@ -13221,6 +14493,41 @@ var faRoad = {
   iconName: 'road',
   icon: [576, 512, [128739], "f018", "M256 96C256 113.7 270.3 128 288 128C305.7 128 320 113.7 320 96V32H394.8C421.9 32 446 49.08 455.1 74.63L572.9 407.2C574.9 413 576 419.2 576 425.4C576 455.5 551.5 480 521.4 480H320V416C320 398.3 305.7 384 288 384C270.3 384 256 398.3 256 416V480H54.61C24.45 480 0 455.5 0 425.4C0 419.2 1.06 413 3.133 407.2L120.9 74.63C129.1 49.08 154.1 32 181.2 32H255.1L256 96zM320 224C320 206.3 305.7 192 288 192C270.3 192 256 206.3 256 224V288C256 305.7 270.3 320 288 320C305.7 320 320 305.7 320 288V224z"]
 };
+var faRoadBarrier = {
+  prefix: 'fas',
+  iconName: 'road-barrier',
+  icon: [640, 512, [], "e562", "M32 32C49.67 32 64 46.33 64 64V96H149.2L64 266.3V448C64 465.7 49.67 480 32 480C14.33 480 0 465.7 0 448V64C0 46.33 14.33 32 32 32V32zM309.2 288H234.8L330.8 96H405.2L309.2 288zM458.8 96H533.2L437.2 288H362.8L458.8 96zM202.8 96H277.2L181.2 288H106.8L202.8 96zM576 117.7V64C576 46.33 590.3 32 608 32C625.7 32 640 46.33 640 64V448C640 465.7 625.7 480 608 480C590.3 480 576 465.7 576 448V288H490.8L576 117.7z"]
+};
+var faRoadBridge = {
+  prefix: 'fas',
+  iconName: 'road-bridge',
+  icon: [640, 512, [], "e563", "M352 0H608C625.7 0 640 14.33 640 32V480C640 497.7 625.7 512 608 512H352C334.3 512 320 497.7 320 480V32C320 14.33 334.3 0 352 0zM456 224V288C456 301.3 466.7 312 480 312C493.3 312 504 301.3 504 288V224C504 210.7 493.3 200 480 200C466.7 200 456 210.7 456 224zM504 384C504 370.7 493.3 360 480 360C466.7 360 456 370.7 456 384V448C456 461.3 466.7 472 480 472C493.3 472 504 461.3 504 448V384zM456 64V128C456 141.3 466.7 152 480 152C493.3 152 504 141.3 504 128V64C504 50.75 493.3 40 480 40C466.7 40 456 50.75 456 64zM32 96H288V160H248V224H288V320C234.1 320 192 362.1 192 416V480C192 497.7 177.7 512 160 512H128C110.3 512 96 497.7 96 480V416C96 362.1 53.02 320 0 320V224H72V160H32C14.33 160 0 145.7 0 128C0 110.3 14.33 96 32 96zM200 160H120V224H200V160z"]
+};
+var faRoadCircleCheck = {
+  prefix: 'fas',
+  iconName: 'road-circle-check',
+  icon: [640, 512, [], "e564", "M213.2 32H288V96C288 113.7 302.3 128 320 128C337.7 128 352 113.7 352 96V32H426.8C453.9 32 478 49.08 487.1 74.63L529.8 195.2C518.9 193.1 507.6 192 496 192C436.5 192 383.9 221.6 352 266.8V224C352 206.3 337.7 192 320 192C302.3 192 288 206.3 288 224V288C288 305.7 302.3 320 320 320C322.3 320 324.6 319.7 326.8 319.3C322.4 334.7 320 351.1 320 368C320 373.4 320.2 378.7 320.7 384L320 384C302.3 384 288 398.3 288 416V480H86.61C56.45 480 32 455.5 32 425.4C32 419.2 33.06 413 35.13 407.2L152.9 74.63C161.1 49.08 186.1 32 213.2 32H213.2zM640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368zM540.7 324.7L480 385.4L451.3 356.7C445.1 350.4 434.9 350.4 428.7 356.7C422.4 362.9 422.4 373.1 428.7 379.3L468.7 419.3C474.9 425.6 485.1 425.6 491.3 419.3L563.3 347.3C569.6 341.1 569.6 330.9 563.3 324.7C557.1 318.4 546.9 318.4 540.7 324.7H540.7z"]
+};
+var faRoadCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'road-circle-exclamation',
+  icon: [640, 512, [], "e565", "M213.2 32H288V96C288 113.7 302.3 128 320 128C337.7 128 352 113.7 352 96V32H426.8C453.9 32 478 49.08 487.1 74.63L529.8 195.2C518.9 193.1 507.6 192 496 192C436.5 192 383.9 221.6 352 266.8V224C352 206.3 337.7 192 320 192C302.3 192 288 206.3 288 224V288C288 305.7 302.3 320 320 320C322.3 320 324.6 319.7 326.8 319.3C322.4 334.7 320 351.1 320 368C320 373.4 320.2 378.7 320.7 384L320 384C302.3 384 288 398.3 288 416V480H86.61C56.45 480 32 455.5 32 425.4C32 419.2 33.06 413 35.13 407.2L152.9 74.63C161.1 49.08 186.1 32 213.2 32H213.2zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM496 464C509.3 464 520 453.3 520 440C520 426.7 509.3 416 496 416C482.7 416 472 426.7 472 440C472 453.3 482.7 464 496 464zM479.1 288V368C479.1 376.8 487.2 384 495.1 384C504.8 384 511.1 376.8 511.1 368V288C511.1 279.2 504.8 272 495.1 272C487.2 272 479.1 279.2 479.1 288z"]
+};
+var faRoadCircleXmark = {
+  prefix: 'fas',
+  iconName: 'road-circle-xmark',
+  icon: [640, 512, [], "e566", "M213.2 32H288V96C288 113.7 302.3 128 320 128C337.7 128 352 113.7 352 96V32H426.8C453.9 32 478 49.08 487.1 74.63L529.8 195.2C518.9 193.1 507.6 192 496 192C436.5 192 383.9 221.6 352 266.8V224C352 206.3 337.7 192 320 192C302.3 192 288 206.3 288 224V288C288 305.7 302.3 320 320 320C322.3 320 324.6 319.7 326.8 319.3C322.4 334.7 320 351.1 320 368C320 373.4 320.2 378.7 320.7 384L320 384C302.3 384 288 398.3 288 416V480H86.61C56.45 480 32 455.5 32 425.4C32 419.2 33.06 413 35.13 407.2L152.9 74.63C161.1 49.08 186.1 32 213.2 32H213.2zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM518.6 368L555.3 331.3C561.6 325.1 561.6 314.9 555.3 308.7C549.1 302.4 538.9 302.4 532.7 308.7L496 345.4L459.3 308.7C453.1 302.4 442.9 302.4 436.7 308.7C430.4 314.9 430.4 325.1 436.7 331.3L473.4 368L436.7 404.7C430.4 410.9 430.4 421.1 436.7 427.3C442.9 433.6 453.1 433.6 459.3 427.3L496 390.6L532.7 427.3C538.9 433.6 549.1 433.6 555.3 427.3C561.6 421.1 561.6 410.9 555.3 404.7L518.6 368z"]
+};
+var faRoadLock = {
+  prefix: 'fas',
+  iconName: 'road-lock',
+  icon: [640, 512, [], "e567", "M288 96C288 113.7 302.3 128 320 128C337.7 128 352 113.7 352 96V32H426.8C453.9 32 478 49.08 487.1 74.63L517.5 160.5C460.6 165.8 416 213.7 416 272V296.6C396.9 307.6 384 328.3 384 352V480H352V416C352 398.3 337.7 384 320 384C302.3 384 288 398.3 288 416V480H86.61C56.45 480 32 455.5 32 425.4C32 419.2 33.06 413 35.13 407.2L152.9 74.63C161.1 49.08 186.1 32 213.2 32H287.1L288 96zM352 224C352 206.3 337.7 192 320 192C302.3 192 288 206.3 288 224V288C288 305.7 302.3 320 320 320C337.7 320 352 305.7 352 288V224zM528 192C572.2 192 608 227.8 608 272V320C625.7 320 640 334.3 640 352V480C640 497.7 625.7 512 608 512H448C430.3 512 416 497.7 416 480V352C416 334.3 430.3 320 448 320V272C448 227.8 483.8 192 528 192zM528 240C510.3 240 496 254.3 496 272V320H560V272C560 254.3 545.7 240 528 240z"]
+};
+var faRoadSpikes = {
+  prefix: 'fas',
+  iconName: 'road-spikes',
+  icon: [640, 512, [], "e568", "M64 116.8C64 101 84.53 94.79 93.31 107.1L192 255.1V116.8C192 101 212.5 94.79 221.3 107.1L320 255.1V116.8C320 101 340.5 94.79 349.3 107.1L448 255.1V116.8C448 101 468.5 94.79 477.3 107.1L606.8 302.2C621 323.5 605.8 351.1 580.2 351.1H64L64 116.8zM608 383.1C625.7 383.1 640 398.3 640 415.1C640 433.7 625.7 447.1 608 447.1H32C14.33 447.1 0 433.7 0 415.1C0 398.3 14.33 383.1 32 383.1H608z"]
+};
 var faRobot = {
   prefix: 'fas',
   iconName: 'robot',
@@ -13271,6 +14578,11 @@ var faRubleSign = {
 var faRouble = faRubleSign;
 var faRub = faRubleSign;
 var faRuble = faRubleSign;
+var faRug = {
+  prefix: 'fas',
+  iconName: 'rug',
+  icon: [640, 512, [], "e569", "M80 64V448H24C10.75 448 0 437.3 0 424C0 410.7 10.75 400 24 400H32V360H24C10.75 360 0 349.3 0 336C0 322.7 10.75 312 24 312H32V280H24C10.75 280 0 269.3 0 256C0 242.7 10.75 232 24 232H32V200H24C10.75 200 0 189.3 0 176C0 162.7 10.75 152 24 152H32V112H24C10.75 112 0 101.3 0 88C0 74.75 10.75 64 24 64H80zM112 64H528V448H112V64zM616 112H608V152H616C629.3 152 640 162.7 640 176C640 189.3 629.3 200 616 200H608V232H616C629.3 232 640 242.7 640 256C640 269.3 629.3 280 616 280H608V312H616C629.3 312 640 322.7 640 336C640 349.3 629.3 360 616 360H608V400H616C629.3 400 640 410.7 640 424C640 437.3 629.3 448 616 448H560V64H616C629.3 64 640 74.75 640 88C640 101.3 629.3 112 616 112z"]
+};
 var faRuler = {
   prefix: 'fas',
   iconName: 'ruler',
@@ -13306,6 +14618,16 @@ var faS = {
   prefix: 'fas',
   iconName: 's',
   icon: [384, 512, [115], "53", "M349.9 379.1c-6.281 36.63-25.89 65.02-56.69 82.11c-24.91 13.83-54.08 18.98-83.73 18.98c-61.86 0-125.8-22.42-157.5-35.38c-16.38-6.672-24.22-25.34-17.55-41.7c6.641-16.36 25.27-24.28 41.7-17.55c77.56 31.64 150.6 39.39 186.1 19.69c13.83-7.672 21.67-19.42 24.69-36.98c7.25-42.31-18.2-56.75-103.7-81.38C112.6 266.6 15.98 238.7 34.11 133.2c5.484-32 23.64-59.36 51.14-77.02c45.59-29.33 115-31.87 206.4-7.688c17.09 4.531 27.27 22.05 22.75 39.13s-22.06 27.23-39.13 22.75C184 86.17 140.4 96.81 119.8 110c-12.55 8.062-20.17 19.5-22.66 34c-7.266 42.31 18.19 56.75 103.7 81.38C271.4 245.7 368 273.5 349.9 379.1z"]
+};
+var faSackDollar = {
+  prefix: 'fas',
+  iconName: 'sack-dollar',
+  icon: [512, 512, [128176], "f81d", "M320 96H192L144.6 24.88C137.5 14.24 145.1 0 157.9 0H354.1C366.9 0 374.5 14.24 367.4 24.88L320 96zM192 128H320C323.8 130.5 328.1 133.3 332.1 136.4C389.7 172.7 512 250.9 512 416C512 469 469 512 416 512H96C42.98 512 0 469 0 416C0 250.9 122.3 172.7 179 136.4C183.9 133.3 188.2 130.5 192 128V128zM276.1 224C276.1 212.9 267.1 203.9 255.1 203.9C244.9 203.9 235.9 212.9 235.9 224V230C230.3 231.2 224.1 232.9 220 235.1C205.1 241.9 192.1 254.5 188.9 272.8C187.1 283 188.1 292.9 192.3 301.8C196.5 310.6 203 316.8 209.6 321.3C221.2 329.2 236.5 333.8 248.2 337.3L250.4 337.9C264.4 342.2 273.8 345.3 279.7 349.6C282.2 351.4 283.1 352.8 283.4 353.7C283.8 354.5 284.4 356.3 283.7 360.3C283.1 363.8 281.2 366.8 275.7 369.1C269.6 371.7 259.7 373 246.9 371C240.9 370 230.2 366.4 220.7 363.2C218.5 362.4 216.3 361.7 214.3 361C203.8 357.5 192.5 363.2 189 373.7C185.5 384.2 191.2 395.5 201.7 398.1C202.9 399.4 204.4 399.9 206.1 400.5C213.1 403.2 226.4 407.4 235.9 409.6V416C235.9 427.1 244.9 436.1 255.1 436.1C267.1 436.1 276.1 427.1 276.1 416V410.5C281.4 409.5 286.6 407.1 291.4 405.9C307.2 399.2 319.8 386.2 323.1 367.2C324.9 356.8 324.1 346.8 320.1 337.7C316.2 328.7 309.9 322.1 303.2 317.3C291.1 308.4 274.9 303.6 262.8 299.9L261.1 299.7C247.8 295.4 238.2 292.4 232.1 288.2C229.5 286.4 228.7 285.2 228.5 284.7C228.3 284.3 227.7 283.1 228.3 279.7C228.7 277.7 230.2 274.4 236.5 271.6C242.1 268.7 252.9 267.1 265.1 268.1C269.5 269.7 283 272.3 286.9 273.3C297.5 276.2 308.5 269.8 311.3 259.1C314.2 248.5 307.8 237.5 297.1 234.7C292.7 233.5 282.7 231.5 276.1 230.3L276.1 224z"]
+};
+var faSackXmark = {
+  prefix: 'fas',
+  iconName: 'sack-xmark',
+  icon: [512, 512, [], "e56a", "M144.6 24.88C137.5 14.24 145.1 0 157.9 0H354.1C366.9 0 374.5 14.24 367.4 24.88L320 96H192L144.6 24.88zM332.1 136.4C389.7 172.7 512 250.9 512 416C512 469 469 512 416 512H96C42.98 512 0 469 0 416C0 250.9 122.3 172.7 179 136.4C183.9 133.3 188.2 130.5 192 128H320C323.8 130.5 328.1 133.3 332.1 136.4V136.4zM336.1 288.1C346.3 279.6 346.3 264.4 336.1 255C327.6 245.7 312.4 245.7 303 255L256 302.1L208.1 255C199.6 245.7 184.4 245.7 175 255C165.7 264.4 165.7 279.6 175 288.1L222.1 336L175 383C165.7 392.4 165.7 407.6 175 416.1C184.4 426.3 199.6 426.3 208.1 416.1L256 369.9L303 416.1C312.4 426.3 327.6 426.3 336.1 416.1C346.3 407.6 346.3 392.4 336.1 383L289.9 336L336.1 288.1z"]
 };
 var faSailboat = {
   prefix: 'fas',
@@ -13344,6 +14666,31 @@ var faSchool = {
   prefix: 'fas',
   iconName: 'school',
   icon: [640, 512, [127979], "f549", "M320 128C328.8 128 336 135.2 336 144V160H352C360.8 160 368 167.2 368 176C368 184.8 360.8 192 352 192H320C311.2 192 304 184.8 304 176V144C304 135.2 311.2 128 320 128zM476.8 98.06L602.4 125.1C624.4 130.9 640 150.3 640 172.8V464C640 490.5 618.5 512 592 512H48C21.49 512 0 490.5 0 464V172.8C0 150.3 15.63 130.9 37.59 125.1L163.2 98.06L302.2 5.374C312.1-1.791 327-1.791 337.8 5.374L476.8 98.06zM256 512H384V416C384 380.7 355.3 352 320 352C284.7 352 256 380.7 256 416V512zM96 192C87.16 192 80 199.2 80 208V272C80 280.8 87.16 288 96 288H128C136.8 288 144 280.8 144 272V208C144 199.2 136.8 192 128 192H96zM496 272C496 280.8 503.2 288 512 288H544C552.8 288 560 280.8 560 272V208C560 199.2 552.8 192 544 192H512C503.2 192 496 199.2 496 208V272zM96 320C87.16 320 80 327.2 80 336V400C80 408.8 87.16 416 96 416H128C136.8 416 144 408.8 144 400V336C144 327.2 136.8 320 128 320H96zM496 400C496 408.8 503.2 416 512 416H544C552.8 416 560 408.8 560 400V336C560 327.2 552.8 320 544 320H512C503.2 320 496 327.2 496 336V400zM320 88C271.4 88 232 127.4 232 176C232 224.6 271.4 264 320 264C368.6 264 408 224.6 408 176C408 127.4 368.6 88 320 88z"]
+};
+var faSchoolCircleCheck = {
+  prefix: 'fas',
+  iconName: 'school-circle-check',
+  icon: [640, 512, [], "e56b", "M476.8 98.06L602.4 125.1C624.4 130.9 640 150.3 640 172.8V266.8C608.1 221.6 555.5 191.1 496 191.1C457.5 191.1 421.8 204.4 392.9 225.4C402.4 211.3 408 194.3 408 175.1C408 127.4 368.6 87.1 320 87.1C271.4 87.1 232 127.4 232 175.1C232 224.6 271.4 263.1 320 263.1C335.6 263.1 350.2 259.1 362.9 252.9C339.4 279.9 324.1 314.3 320.7 352H320.3L320 352C284.7 352 256 380.7 256 416V512L320 512H48C21.49 512 0 490.5 0 464V172.8C0 150.3 15.63 130.9 37.59 125.1L163.2 98.06L302.2 5.374C312.1-1.791 327-1.791 337.8 5.374L476.8 98.06zM96 192C87.16 192 80 199.2 80 208V272C80 280.8 87.16 288 96 288H128C136.8 288 144 280.8 144 272V208C144 199.2 136.8 192 128 192H96zM96 320C87.16 320 80 327.2 80 336V400C80 408.8 87.16 416 96 416H128C136.8 416 144 408.8 144 400V336C144 327.2 136.8 320 128 320H96zM320 128C328.8 128 336 135.2 336 144V160H352C360.8 160 368 167.2 368 176C368 184.8 360.8 192 352 192H320C311.2 192 304 184.8 304 176V144C304 135.2 311.2 128 320 128zM640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368zM480 385.4L451.3 356.7C445.1 350.4 434.9 350.4 428.7 356.7C422.4 362.9 422.4 373.1 428.7 379.3L468.7 419.3C474.9 425.6 485.1 425.6 491.3 419.3L563.3 347.3C569.6 341.1 569.6 330.9 563.3 324.7C557.1 318.4 546.9 318.4 540.7 324.7L480 385.4z"]
+};
+var faSchoolCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'school-circle-exclamation',
+  icon: [640, 512, [], "e56c", "M476.8 98.06L602.4 125.1C624.4 130.9 640 150.3 640 172.8V266.8C608.1 221.6 555.5 191.1 496 191.1C457.5 191.1 421.8 204.4 392.9 225.4C402.4 211.3 408 194.3 408 175.1C408 127.4 368.6 87.1 320 87.1C271.4 87.1 232 127.4 232 175.1C232 224.6 271.4 263.1 320 263.1C335.6 263.1 350.2 259.1 362.9 252.9C339.4 279.9 324.1 314.3 320.7 352H320.3L320 352C284.7 352 256 380.7 256 416V512L320 512H48C21.49 512 0 490.5 0 464V172.8C0 150.3 15.63 130.9 37.59 125.1L163.2 98.06L302.2 5.374C312.1-1.791 327-1.791 337.8 5.374L476.8 98.06zM96 192C87.16 192 80 199.2 80 208V272C80 280.8 87.16 288 96 288H128C136.8 288 144 280.8 144 272V208C144 199.2 136.8 192 128 192H96zM96 320C87.16 320 80 327.2 80 336V400C80 408.8 87.16 416 96 416H128C136.8 416 144 408.8 144 400V336C144 327.2 136.8 320 128 320H96zM320 128C328.8 128 336 135.2 336 144V160H352C360.8 160 368 167.2 368 176C368 184.8 360.8 192 352 192H320C311.2 192 304 184.8 304 176V144C304 135.2 311.2 128 320 128zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM496 464C509.3 464 520 453.3 520 440C520 426.7 509.3 416 496 416C482.7 416 472 426.7 472 440C472 453.3 482.7 464 496 464zM479.1 288V368C479.1 376.8 487.2 384 495.1 384C504.8 384 511.1 376.8 511.1 368V288C511.1 279.2 504.8 272 495.1 272C487.2 272 479.1 279.2 479.1 288z"]
+};
+var faSchoolCircleXmark = {
+  prefix: 'fas',
+  iconName: 'school-circle-xmark',
+  icon: [640, 512, [], "e56d", "M476.8 98.06L602.4 125.1C624.4 130.9 640 150.3 640 172.8V266.8C608.1 221.6 555.5 191.1 496 191.1C457.5 191.1 421.8 204.4 392.9 225.4C402.4 211.3 408 194.3 408 175.1C408 127.4 368.6 87.1 320 87.1C271.4 87.1 232 127.4 232 175.1C232 224.6 271.4 263.1 320 263.1C335.6 263.1 350.2 259.1 362.9 252.9C339.4 279.9 324.1 314.3 320.7 352H320.3L320 352C284.7 352 256 380.7 256 416V512L320 512H48C21.49 512 0 490.5 0 464V172.8C0 150.3 15.63 130.9 37.59 125.1L163.2 98.06L302.2 5.374C312.1-1.791 327-1.791 337.8 5.374L476.8 98.06zM96 192C87.16 192 80 199.2 80 208V272C80 280.8 87.16 288 96 288H128C136.8 288 144 280.8 144 272V208C144 199.2 136.8 192 128 192H96zM96 320C87.16 320 80 327.2 80 336V400C80 408.8 87.16 416 96 416H128C136.8 416 144 408.8 144 400V336C144 327.2 136.8 320 128 320H96zM320 128C328.8 128 336 135.2 336 144V160H352C360.8 160 368 167.2 368 176C368 184.8 360.8 192 352 192H320C311.2 192 304 184.8 304 176V144C304 135.2 311.2 128 320 128zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM518.6 368L555.3 331.3C561.6 325.1 561.6 314.9 555.3 308.7C549.1 302.4 538.9 302.4 532.7 308.7L496 345.4L459.3 308.7C453.1 302.4 442.9 302.4 436.7 308.7C430.4 314.9 430.4 325.1 436.7 331.3L473.4 368L436.7 404.7C430.4 410.9 430.4 421.1 436.7 427.3C442.9 433.6 453.1 433.6 459.3 427.3L496 390.6L532.7 427.3C538.9 433.6 549.1 433.6 555.3 427.3C561.6 421.1 561.6 410.9 555.3 404.7L518.6 368z"]
+};
+var faSchoolFlag = {
+  prefix: 'fas',
+  iconName: 'school-flag',
+  icon: [576, 512, [], "e56e", "M288 0H400C408.8 0 416 7.164 416 16V64C416 72.84 408.8 80 400 80H320V95.53L410.3 160H512C547.3 160 576 188.7 576 224V448C576 483.3 547.3 512 512 512H336V400C336 373.5 314.5 352 288 352C261.5 352 240 373.5 240 400V512H64C28.65 512 0 483.3 0 448V224C0 188.7 28.65 160 64 160H165.7L256 95.53V32C256 14.33 270.3 0 288 0V0zM288 192C261.5 192 240 213.5 240 240C240 266.5 261.5 288 288 288C314.5 288 336 266.5 336 240C336 213.5 314.5 192 288 192zM80 224C71.16 224 64 231.2 64 240V304C64 312.8 71.16 320 80 320H112C120.8 320 128 312.8 128 304V240C128 231.2 120.8 224 112 224H80zM448 304C448 312.8 455.2 320 464 320H496C504.8 320 512 312.8 512 304V240C512 231.2 504.8 224 496 224H464C455.2 224 448 231.2 448 240V304zM80 352C71.16 352 64 359.2 64 368V432C64 440.8 71.16 448 80 448H112C120.8 448 128 440.8 128 432V368C128 359.2 120.8 352 112 352H80zM464 352C455.2 352 448 359.2 448 368V432C448 440.8 455.2 448 464 448H496C504.8 448 512 440.8 512 432V368C512 359.2 504.8 352 496 352H464z"]
+};
+var faSchoolLock = {
+  prefix: 'fas',
+  iconName: 'school-lock',
+  icon: [640, 512, [], "e56f", "M336 160H352C360.8 160 368 167.2 368 176C368 184.8 360.8 192 352 192H320C311.2 192 304 184.8 304 176V144C304 135.2 311.2 128 320 128C328.8 128 336 135.2 336 144V160zM302.2 5.374C312.1-1.791 327-1.791 337.8 5.374L476.8 98.06L602.4 125.1C624.4 130.9 640 150.3 640 172.8V271.1C640 210.1 589.9 159.1 528 159.1C466.1 159.1 416 210.1 416 271.1V296.6C396.9 307.6 384 328.3 384 352H320.3L320 352C284.7 352 256 380.7 256 416V512H320L48 512C21.49 512 0 490.5 0 464V172.8C0 150.3 15.63 130.9 37.59 125.1L163.2 98.06L302.2 5.374zM80 272C80 280.8 87.16 288 96 288H128C136.8 288 144 280.8 144 272V208C144 199.2 136.8 192 128 192H96C87.16 192 80 199.2 80 208V272zM80 400C80 408.8 87.16 416 96 416H128C136.8 416 144 408.8 144 400V336C144 327.2 136.8 320 128 320H96C87.16 320 80 327.2 80 336V400zM320 264C368.6 264 408 224.6 408 176C408 127.4 368.6 88 320 88C271.4 88 232 127.4 232 176C232 224.6 271.4 264 320 264zM528 192C572.2 192 608 227.8 608 272V320C625.7 320 640 334.3 640 352V480C640 497.7 625.7 512 608 512H448C430.3 512 416 497.7 416 480V352C416 334.3 430.3 320 448 320V272C448 227.8 483.8 192 528 192zM528 240C510.3 240 496 254.3 496 272V320H560V272C560 254.3 545.7 240 528 240z"]
 };
 var faScissors = {
   prefix: 'fas',
@@ -13419,6 +14766,11 @@ var faShareNodes = {
   icon: [448, 512, ["share-alt"], "f1e0", "M448 127.1C448 181 405 223.1 352 223.1C326.1 223.1 302.6 213.8 285.4 197.1L191.3 244.1C191.8 248 191.1 251.1 191.1 256C191.1 260 191.8 263.1 191.3 267.9L285.4 314.9C302.6 298.2 326.1 288 352 288C405 288 448 330.1 448 384C448 437 405 480 352 480C298.1 480 256 437 256 384C256 379.1 256.2 376 256.7 372.1L162.6 325.1C145.4 341.8 121.9 352 96 352C42.98 352 0 309 0 256C0 202.1 42.98 160 96 160C121.9 160 145.4 170.2 162.6 186.9L256.7 139.9C256.2 135.1 256 132 256 128C256 74.98 298.1 32 352 32C405 32 448 74.98 448 128L448 127.1zM95.1 287.1C113.7 287.1 127.1 273.7 127.1 255.1C127.1 238.3 113.7 223.1 95.1 223.1C78.33 223.1 63.1 238.3 63.1 255.1C63.1 273.7 78.33 287.1 95.1 287.1zM352 95.1C334.3 95.1 320 110.3 320 127.1C320 145.7 334.3 159.1 352 159.1C369.7 159.1 384 145.7 384 127.1C384 110.3 369.7 95.1 352 95.1zM352 416C369.7 416 384 401.7 384 384C384 366.3 369.7 352 352 352C334.3 352 320 366.3 320 384C320 401.7 334.3 416 352 416z"]
 };
 var faShareAlt = faShareNodes;
+var faSheetPlastic = {
+  prefix: 'fas',
+  iconName: 'sheet-plastic',
+  icon: [384, 512, [], "e571", "M0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V352H256C238.3 352 224 366.3 224 384V512H64C28.65 512 0 483.3 0 448V64zM171.3 52.69C165.1 46.44 154.9 46.44 148.7 52.69L52.69 148.7C46.44 154.9 46.44 165.1 52.69 171.3C58.93 177.6 69.06 177.6 75.31 171.3L171.3 75.31C177.6 69.07 177.6 58.94 171.3 52.69V52.69zM267.3 107.3C273.6 101.1 273.6 90.93 267.3 84.69C261.1 78.44 250.9 78.44 244.7 84.69L84.69 244.7C78.44 250.9 78.44 261.1 84.69 267.3C90.93 273.6 101.1 273.6 107.3 267.3L267.3 107.3zM384 384L256 512V384H384z"]
+};
 var faShekelSign = {
   prefix: 'fas',
   iconName: 'shekel-sign',
@@ -13431,14 +14783,30 @@ var faSheqelSign = faShekelSign;
 var faShield = {
   prefix: 'fas',
   iconName: 'shield',
-  icon: [512, 512, [128737], "f132", "M466.5 83.71l-192-80C269.6 1.67 261.3 0 256 0C250.7 0 242.5 1.67 237.6 3.702l-192 80C27.7 91.1 16 108.6 16 127.1c0 257.2 189.2 384 239.1 384c51.1 0 240-128.2 240-384C496 108.6 484.3 91.1 466.5 83.71zM256 446.5l.0234-381.1c.0059-.0234 0 0 0 0l175.9 73.17C427.8 319.7 319 417.1 256 446.5z"]
+  icon: [512, 512, [128737, "shield-blank"], "f132", "M256-.0078C260.7-.0081 265.2 1.008 269.4 2.913L457.7 82.79C479.7 92.12 496.2 113.8 496 139.1C495.5 239.2 454.7 420.7 282.4 503.2C265.7 511.1 246.3 511.1 229.6 503.2C57.25 420.7 16.49 239.2 15.1 139.1C15.87 113.8 32.32 92.12 54.3 82.79L242.7 2.913C246.8 1.008 251.4-.0081 256-.0078V-.0078z"]
 };
-var faShieldBlank = {
+var faShieldBlank = faShield;
+var faShieldCat = {
   prefix: 'fas',
-  iconName: 'shield-blank',
-  icon: [512, 512, ["shield-alt"], "f3ed", "M496 127.1C496 381.3 309.1 512 255.1 512C204.9 512 16 385.3 16 127.1c0-19.41 11.7-36.89 29.61-44.28l191.1-80.01c4.906-2.031 13.13-3.701 18.44-3.701c5.281 0 13.58 1.67 18.46 3.701l192 80.01C484.3 91.1 496 108.6 496 127.1z"]
+  iconName: 'shield-cat',
+  icon: [512, 512, [], "e572", "M199.1 272C199.1 263.2 207.2 256 215.1 256C224.8 256 231.1 263.2 231.1 272C231.1 280.8 224.8 288 215.1 288C207.2 288 199.1 280.8 199.1 272zM312 272C312 280.8 304.8 288 296 288C287.2 288 280 280.8 280 272C280 263.2 287.2 256 296 256C304.8 256 312 263.2 312 272zM256.3-.0068C261.9-.0507 267.3 1.386 272.1 4.066L476.5 90.53C487.7 95.27 495.2 105.1 495.9 118.1C501.6 213.6 466.7 421.9 272.5 507.7C267.6 510.5 261.1 512.1 256.3 512C250.5 512.1 244.9 510.5 239.1 507.7C45.8 421.9 10.95 213.6 16.57 118.1C17.28 105.1 24.83 95.27 36.04 90.53L240.4 4.066C245.2 1.386 250.7-.0507 256.3-.0068H256.3zM223.1 208L159.1 144V272C159.1 325 202.1 368 255.1 368C309 368 352 325 352 272V144L288 208H223.1z"]
 };
-var faShieldAlt = faShieldBlank;
+var faShieldDog = {
+  prefix: 'fas',
+  iconName: 'shield-dog',
+  icon: [512, 512, [], "e573", "M288 208C288 216.8 280.8 224 272 224C263.2 224 255.1 216.8 255.1 208C255.1 199.2 263.2 192 272 192C280.8 192 288 199.2 288 208zM256.3-.0068C261.9-.0507 267.3 1.386 272.1 4.066L476.5 90.53C487.7 95.27 495.2 105.1 495.9 118.1C501.6 213.6 466.7 421.9 272.5 507.7C267.6 510.5 261.1 512.1 256.3 512C250.5 512.1 244.9 510.5 239.1 507.7C45.8 421.9 10.95 213.6 16.57 118.1C17.28 105.1 24.83 95.27 36.04 90.53L240.4 4.066C245.2 1.386 250.7-.0507 256.3-.0068H256.3zM160.9 286.2L143.1 320L272 384V320H320C364.2 320 400 284.2 400 240V208C400 199.2 392.8 192 384 192H320L312.8 177.7C307.4 166.8 296.3 160 284.2 160H239.1V224C239.1 259.3 211.3 288 175.1 288C170.8 288 165.7 287.4 160.9 286.2H160.9zM143.1 176V224C143.1 241.7 158.3 256 175.1 256C193.7 256 207.1 241.7 207.1 224V160H159.1C151.2 160 143.1 167.2 143.1 176z"]
+};
+var faShieldHalved = {
+  prefix: 'fas',
+  iconName: 'shield-halved',
+  icon: [512, 512, ["shield-alt"], "f3ed", "M256-.0078C260.7-.0081 265.2 1.008 269.4 2.913L457.7 82.79C479.7 92.12 496.2 113.8 496 139.1C495.5 239.2 454.7 420.7 282.4 503.2C265.7 511.1 246.3 511.1 229.6 503.2C57.25 420.7 16.49 239.2 15.1 139.1C15.87 113.8 32.32 92.12 54.3 82.79L242.7 2.913C246.8 1.008 251.4-.0081 256-.0078V-.0078zM256 444.8C393.1 378 431.1 230.1 432 141.4L256 66.77L256 444.8z"]
+};
+var faShieldAlt = faShieldHalved;
+var faShieldHeart = {
+  prefix: 'fas',
+  iconName: 'shield-heart',
+  icon: [512, 512, [], "e574", "M256.3-.0068C261.9-.0507 267.3 1.386 272.1 4.066L476.5 90.53C487.7 95.27 495.2 105.1 495.9 118.1C501.6 213.6 466.7 421.9 272.5 507.7C267.6 510.5 261.1 512.1 256.3 512C250.5 512.1 244.9 510.5 239.1 507.7C45.8 421.9 10.95 213.6 16.57 118.1C17.28 105.1 24.83 95.27 36.04 90.53L240.4 4.066C245.2 1.386 250.7-.0507 256.3-.0068H256.3zM266.1 363.4L364.2 263.6C392.2 234.7 390.5 186.6 358.1 159.5C331.8 135.8 291.5 140.2 266.1 166.5L256.4 176.1L245.9 166.5C221.4 140.2 180.2 135.8 153 159.5C121.5 186.6 119.8 234.7 147.8 263.6L244.2 363.4C251.2 369.5 260.8 369.5 266.1 363.4V363.4z"]
+};
 var faShieldVirus = {
   prefix: 'fas',
   iconName: 'shield-virus',
@@ -13467,6 +14835,11 @@ var faShop = {
   icon: [640, 512, ["store-alt"], "f54f", "M0 155.2C0 147.9 2.153 140.8 6.188 134.7L81.75 21.37C90.65 8.021 105.6 0 121.7 0H518.3C534.4 0 549.3 8.021 558.2 21.37L633.8 134.7C637.8 140.8 640 147.9 640 155.2C640 175.5 623.5 192 603.2 192H36.84C16.5 192 .0003 175.5 .0003 155.2H0zM64 224H128V384H320V224H384V464C384 490.5 362.5 512 336 512H112C85.49 512 64 490.5 64 464V224zM512 224H576V480C576 497.7 561.7 512 544 512C526.3 512 512 497.7 512 480V224z"]
 };
 var faStoreAlt = faShop;
+var faShopLock = {
+  prefix: 'fas',
+  iconName: 'shop-lock',
+  icon: [640, 512, [], "e4a5", "M0 155.2C0 147.9 2.153 140.8 6.188 134.7L81.75 21.37C90.65 8.021 105.6 0 121.7 0H518.3C534.4 0 549.3 8.021 558.2 21.37L633.8 134.7C637.8 140.8 640 147.9 640 155.2C640 174.5 625.2 190.3 606.3 191.9C586.1 172.2 558.5 160 528 160C497.5 160 469.8 172.2 449.6 192H36.84C16.5 192 .0003 175.5 .0003 155.2H0zM384 224V464C384 490.5 362.5 512 336 512H112C85.49 512 64 490.5 64 464V224H128V384H320V224H384zM528 192C572.2 192 608 227.8 608 272V320C625.7 320 640 334.3 640 352V480C640 497.7 625.7 512 608 512H448C430.3 512 416 497.7 416 480V352C416 334.3 430.3 320 448 320V272C448 227.8 483.8 192 528 192zM528 240C510.3 240 496 254.3 496 272V320H560V272C560 254.3 545.7 240 528 240z"]
+};
 var faShopSlash = {
   prefix: 'fas',
   iconName: 'shop-slash',
@@ -13542,7 +14915,7 @@ var faSkull = {
 var faSkullCrossbones = {
   prefix: 'fas',
   iconName: 'skull-crossbones',
-  icon: [448, 512, [128369, 9760], "f714", "M368 128C368 172.4 342.6 211.5 304 234.4V256C304 273.7 289.7 288 272 288H176C158.3 288 144 273.7 144 256V234.4C105.4 211.5 80 172.4 80 128C80 57.31 144.5 0 224 0C303.5 0 368 57.31 368 128V128zM168 176C185.7 176 200 161.7 200 144C200 126.3 185.7 112 168 112C150.3 112 136 126.3 136 144C136 161.7 150.3 176 168 176zM280 112C262.3 112 248 126.3 248 144C248 161.7 262.3 176 280 176C297.7 176 312 161.7 312 144C312 126.3 297.7 112 280 112zM3.379 273.7C11.28 257.9 30.5 251.5 46.31 259.4L224 348.2L401.7 259.4C417.5 251.5 436.7 257.9 444.6 273.7C452.5 289.5 446.1 308.7 430.3 316.6L295.6 384L430.3 451.4C446.1 459.3 452.5 478.5 444.6 494.3C436.7 510.1 417.5 516.5 401.7 508.6L224 419.8L46.31 508.6C30.5 516.5 11.28 510.1 3.379 494.3C-4.525 478.5 1.882 459.3 17.69 451.4L152.4 384L17.69 316.6C1.882 308.7-4.525 289.5 3.379 273.7V273.7z"]
+  icon: [448, 512, [128369, 9760], "f714", "M368 128C368 172.4 342.6 211.5 304 234.4V256C304 273.7 289.7 288 272 288H175.1C158.3 288 143.1 273.7 143.1 256V234.4C105.4 211.5 79.1 172.4 79.1 128C79.1 57.31 144.5 0 223.1 0C303.5 0 368 57.31 368 128V128zM167.1 176C185.7 176 199.1 161.7 199.1 144C199.1 126.3 185.7 112 167.1 112C150.3 112 135.1 126.3 135.1 144C135.1 161.7 150.3 176 167.1 176zM280 112C262.3 112 248 126.3 248 144C248 161.7 262.3 176 280 176C297.7 176 312 161.7 312 144C312 126.3 297.7 112 280 112zM3.378 273.7C11.28 257.9 30.5 251.5 46.31 259.4L223.1 348.2L401.7 259.4C417.5 251.5 436.7 257.9 444.6 273.7C452.5 289.5 446.1 308.7 430.3 316.6L295.6 384L430.3 451.4C446.1 459.3 452.5 478.5 444.6 494.3C436.7 510.1 417.5 516.5 401.7 508.6L223.1 419.8L46.31 508.6C30.5 516.5 11.28 510.1 3.378 494.3C-4.526 478.5 1.881 459.3 17.69 451.4L152.4 384L17.69 316.6C1.881 308.7-4.526 289.5 3.378 273.7V273.7z"]
 };
 var faSlash = {
   prefix: 'fas',
@@ -13730,6 +15103,11 @@ var faSquareMinus = {
   icon: [448, 512, [61767, "minus-square"], "f146", "M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM136 232C122.7 232 112 242.7 112 256C112 269.3 122.7 280 136 280H312C325.3 280 336 269.3 336 256C336 242.7 325.3 232 312 232H136z"]
 };
 var faMinusSquare = faSquareMinus;
+var faSquareNfi = {
+  prefix: 'fas',
+  iconName: 'square-nfi',
+  icon: [448, 512, [], "e576", "M0 96C0 60.65 28.65 32 64 32H384C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96zM64 176V336C64 344.8 71.16 352 80 352C88.84 352 96 344.8 96 336V233.8L162.3 344.2C165.1 350.4 173.3 353.3 180.3 351.4C187.2 349.5 191.1 343.2 191.1 336V176C191.1 167.2 184.8 160 175.1 160C167.2 160 159.1 167.2 159.1 176V278.2L93.72 167.8C90.02 161.6 82.66 158.7 75.73 160.6C68.8 162.5 64 168.8 64 176V176zM224 336C224 344.8 231.2 352 240 352C248.8 352 256 344.8 256 336V256H304C312.8 256 320 248.8 320 240C320 231.2 312.8 224 304 224H256V192H304C312.8 192 320 184.8 320 176C320 167.2 312.8 160 304 160H240C231.2 160 224 167.2 224 176V336zM384 176C384 167.2 376.8 160 368 160C359.2 160 352 167.2 352 176V336C352 344.8 359.2 352 368 352C376.8 352 384 344.8 384 336V176z"]
+};
 var faSquareParking = {
   prefix: 'fas',
   iconName: 'square-parking',
@@ -13743,6 +15121,11 @@ var faSquarePen = {
 };
 var faPenSquare = faSquarePen;
 var faPencilSquare = faSquarePen;
+var faSquarePersonConfined = {
+  prefix: 'fas',
+  iconName: 'square-person-confined',
+  icon: [448, 512, [], "e577", "M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM208 96C181.5 96 160 117.5 160 144C160 170.5 181.5 192 208 192C234.5 192 256 170.5 256 144C256 117.5 234.5 96 208 96zM240 306.7L198.6 265.4C191.4 258.1 181 254.8 170.9 256.4C160.7 258.1 151.1 264.5 147.4 273.7L99.39 369.7C91.48 385.5 97.89 404.7 113.7 412.6C129.5 420.5 148.7 414.1 156.6 398.3L184.8 342L239.4 396.7C251.8 409.1 268.6 416 286.1 416C322.5 416 352 386.5 352 350.1V248C352 217.1 326.9 192 296 192C265.1 192 240 217.1 240 248V306.7z"]
+};
 var faSquarePhone = {
   prefix: 'fas',
   iconName: 'square-phone',
@@ -13797,6 +15180,11 @@ var faSquareUpRight = {
   icon: [448, 512, [8599, "external-link-square-alt"], "f360", "M384 32H64C28.65 32 0 60.65 0 96v320c0 35.34 28.65 64 64 64h320c35.35 0 64-28.66 64-64V96C448 60.65 419.3 32 384 32zM330.5 323.9c0 6.473-3.889 12.3-9.877 14.78c-5.979 2.484-12.86 1.105-17.44-3.469l-45.25-45.25l-67.92 67.92c-12.5 12.5-32.72 12.46-45.21-.0411l-22.63-22.63C109.7 322.7 109.6 302.5 122.1 289.1l67.92-67.92L144.8 176.8C140.2 172.2 138.8 165.3 141.3 159.4c2.477-5.984 8.309-9.875 14.78-9.875h158.4c8.835 0 15.1 7.163 15.1 15.1V323.9z"]
 };
 var faExternalLinkSquareAlt = faSquareUpRight;
+var faSquareVirus = {
+  prefix: 'fas',
+  iconName: 'square-virus',
+  icon: [448, 512, [], "e578", "M160 224C160 206.3 174.3 192 192 192C209.7 192 224 206.3 224 224C224 241.7 209.7 256 192 256C174.3 256 160 241.7 160 224zM280 288C280 301.3 269.3 312 256 312C242.7 312 232 301.3 232 288C232 274.7 242.7 264 256 264C269.3 264 280 274.7 280 288zM384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM199.8 117.7C199.8 146.9 164.5 161.6 143.8 140.9C134.4 131.5 119.2 131.5 109.8 140.9C100.5 150.2 100.5 165.4 109.8 174.8C130.5 195.5 115.9 230.9 86.61 230.9C73.35 230.9 62.61 241.6 62.61 254.9C62.61 268.1 73.35 278.9 86.61 278.9C115.9 278.9 130.5 314.3 109.8 334.9C100.5 344.3 100.5 359.5 109.8 368.9C119.2 378.3 134.4 378.3 143.8 368.9C164.5 348.2 199.8 362.9 199.8 392.1C199.8 405.4 210.6 416.1 223.8 416.1C237.1 416.1 247.8 405.4 247.8 392.1C247.8 362.9 283.2 348.2 303.9 368.9C313.3 378.3 328.5 378.3 337.8 368.9C347.2 359.5 347.2 344.3 337.8 334.9C317.2 314.3 331.8 278.9 361.1 278.9C374.3 278.9 385.1 268.1 385.1 254.9C385.1 241.6 374.3 230.9 361.1 230.9C331.8 230.9 317.2 195.5 337.8 174.8C347.2 165.4 347.2 150.2 337.8 140.9C328.5 131.5 313.3 131.5 303.9 140.9C283.2 161.6 247.8 146.9 247.8 117.7C247.8 104.4 237.1 93.65 223.8 93.65C210.6 93.65 199.8 104.4 199.8 117.7H199.8z"]
+};
 var faSquareXmark = {
   prefix: 'fas',
   iconName: 'square-xmark',
@@ -13804,6 +15192,14 @@ var faSquareXmark = {
 };
 var faTimesSquare = faSquareXmark;
 var faXmarkSquare = faSquareXmark;
+var faStaffAesculapius = {
+  prefix: 'fas',
+  iconName: 'staff-aesculapius',
+  icon: [384, 512, ["rod-asclepius", "rod-snake", "staff-snake"], "e579", "M222.5 48H288C341 48 384 90.98 384 144C384 197 341 240 288 240H248V160H288C296.8 160 304 152.8 304 144C304 135.2 296.8 128 288 128H220L215.5 272H256C309 272 352 314.1 352 368C352 421 309 464 256 464H240V384H256C264.8 384 272 376.8 272 368C272 359.2 264.8 352 256 352H212.1L208.5 496C208.2 504.9 200.9 512 191.1 512C183.1 512 175.8 504.9 175.5 496L174.5 464H135.1C113.9 464 95.1 446.1 95.1 424C95.1 401.9 113.9 384 135.1 384H171.1L170.1 352H151.1C98.98 352 55.1 309 55.1 256C55.1 208.4 90.6 168.9 135.1 161.3V256C135.1 264.8 143.2 272 151.1 272H168.5L164 128H122.6C113.6 146.9 94.34 160 72 160H56C25.07 160 0 134.9 0 104C0 73.07 25.07 48 56 48H161.5L160.1 31.98C160.1 31.33 160.1 30.69 160.1 30.05C161.5 13.43 175.1 0 192 0C208.9 0 222.5 13.43 223 30.05C223 30.69 223 31.33 223 31.98L222.5 48zM79.1 96C79.1 87.16 72.84 80 63.1 80C55.16 80 47.1 87.16 47.1 96C47.1 104.8 55.16 112 63.1 112C72.84 112 79.1 104.8 79.1 96z"]
+};
+var faRodAsclepius = faStaffAesculapius;
+var faRodSnake = faStaffAesculapius;
+var faStaffSnake = faStaffAesculapius;
 var faStairs = {
   prefix: 'fas',
   iconName: 'stairs',
@@ -13923,6 +15319,11 @@ var faSun = {
   iconName: 'sun',
   icon: [512, 512, [9728], "f185", "M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"]
 };
+var faSunPlantWilt = {
+  prefix: 'fas',
+  iconName: 'sun-plant-wilt',
+  icon: [640, 512, [], "e57a", "M192 160C192 177.7 177.7 192 160 192C142.3 192 128 177.7 128 160C128 142.3 142.3 128 160 128C177.7 128 192 142.3 192 160zM160 0C166.3 0 172 3.708 174.6 9.467L199.4 64.89L256.1 43.23C262 40.98 268.7 42.4 273.1 46.86C277.6 51.32 279 57.99 276.8 63.88L255.1 120.6L310.5 145.4C316.3 147.1 320 153.7 320 160C320 166.3 316.3 172 310.5 174.6L255.1 199.4L276.8 256.1C279 262 277.6 268.7 273.1 273.1C268.7 277.6 262 279 256.1 276.8L199.4 255.1L174.6 310.5C172 316.3 166.3 320 160 320C153.7 320 147.1 316.3 145.4 310.5L120.6 255.1L63.88 276.8C57.99 279 51.32 277.6 46.86 273.1C42.4 268.7 40.98 262 43.23 256.1L64.89 199.4L9.467 174.6C3.708 172 0 166.3 0 160C0 153.7 3.708 147.1 9.467 145.4L64.89 120.6L43.23 63.88C40.98 57.99 42.4 51.32 46.86 46.86C51.32 42.4 57.99 40.98 63.88 43.23L120.6 64.89L145.4 9.467C147.1 3.708 153.7 0 160 0V0zM160 224C195.3 224 224 195.3 224 160C224 124.7 195.3 96 160 96C124.7 96 96 124.7 96 160C96 195.3 124.7 224 160 224zM504 448H608C625.7 448 640 462.3 640 480C640 497.7 625.7 512 608 512H32C14.33 512 .0003 497.7 .0003 480C.0003 462.3 14.33 448 32 448H456V272C456 254.3 441.7 240 424 240C406.3 240 392 254.3 392 272V293.4C406.8 301.1 416 316.5 416 338C416 357.3 394.5 390.1 368 416C341.5 390.1 320 357.6 320 338C320 316.5 329.2 301.1 344 293.4V271.1C344 227.8 379.8 191.1 424 191.1C435.4 191.1 446.2 194.4 456 198.7V175.1C456 131.8 491.8 95.1 536 95.1C580.2 95.1 616 131.8 616 175.1V229.4C630.8 237.1 640 252.5 640 274C640 293.3 618.5 326.1 592 352C565.5 326.1 544 293.6 544 274C544 252.5 553.2 237.1 568 229.4V175.1C568 158.3 553.7 143.1 536 143.1C518.3 143.1 504 158.3 504 175.1V448z"]
+};
 var faSuperscript = {
   prefix: 'fas',
   iconName: 'superscript',
@@ -14027,6 +15428,16 @@ var faTape = {
   iconName: 'tape',
   icon: [576, 512, [], "f4db", "M288 256C288 291.3 259.3 320 224 320C188.7 320 160 291.3 160 256C160 220.7 188.7 192 224 192C259.3 192 288 220.7 288 256zM544 416C561.7 416 576 430.3 576 448C576 465.7 561.7 480 544 480H224C100.3 480 0 379.7 0 256C0 132.3 100.3 32 224 32C347.7 32 448 132.3 448 256C448 318.7 422.3 375.3 380.8 416H544zM224 352C277 352 320 309 320 256C320 202.1 277 160 224 160C170.1 160 128 202.1 128 256C128 309 170.1 352 224 352z"]
 };
+var faTarp = {
+  prefix: 'fas',
+  iconName: 'tarp',
+  icon: [576, 512, [], "e57b", "M576 288H448C430.3 288 416 302.3 416 320V448H64C28.65 448 0 419.3 0 384V128C0 92.65 28.65 64 64 64H512C547.3 64 576 92.65 576 128V288zM96 192C113.7 192 128 177.7 128 160C128 142.3 113.7 128 96 128C78.33 128 64 142.3 64 160C64 177.7 78.33 192 96 192zM448 448V320H576L448 448z"]
+};
+var faTarpDroplet = {
+  prefix: 'fas',
+  iconName: 'tarp-droplet',
+  icon: [576, 512, [], "e57c", "M224 100C224 75.95 257.7 29.93 276.2 6.49C282.3-1.226 293.7-1.226 299.8 6.49C318.3 29.93 352 75.95 352 100C352 133.1 323.3 160 288 160C252.7 160 224 133.1 224 100V100zM64 128H197.5C210.6 165.3 246.2 192 288 192C329.8 192 365.4 165.3 378.5 128H512C547.3 128 576 156.7 576 192V352H448C430.3 352 416 366.3 416 384V512H64C28.65 512 0 483.3 0 448V192C0 156.7 28.65 128 64 128V128zM96 256C113.7 256 128 241.7 128 224C128 206.3 113.7 192 96 192C78.33 192 64 206.3 64 224C64 241.7 78.33 256 96 256zM448 512V384H576L448 512z"]
+};
 var faTaxi = {
   prefix: 'fas',
   iconName: 'taxi',
@@ -14043,6 +15454,18 @@ var faTeethOpen = {
   iconName: 'teeth-open',
   icon: [576, 512, [], "f62f", "M512 288H64c-35.35 0-64 28.65-64 64v32c0 53.02 42.98 96 96 96h384c53.02 0 96-42.98 96-96v-32C576 316.7 547.3 288 512 288zM144 368C144 394.5 122.5 416 96 416s-48-21.5-48-48v-32C48 327.1 55.13 320 64 320h64c8.875 0 16 7.125 16 16V368zM272 368C272 394.5 250.5 416 224 416s-48-21.5-48-48v-32C176 327.1 183.1 320 192 320h64c8.875 0 16 7.125 16 16V368zM400 368c0 26.5-21.5 48-48 48s-48-21.5-48-48v-32c0-8.875 7.125-16 16-16h64c8.875 0 16 7.125 16 16V368zM528 368c0 26.5-21.5 48-48 48s-48-21.5-48-48v-32c0-8.875 7.125-16 16-16h64c8.875 0 16 7.125 16 16V368zM480 32H96C42.98 32 0 74.98 0 128v64c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V128C576 74.98 533 32 480 32zM144 208C144 216.9 136.9 224 128 224H64C55.13 224 48 216.9 48 208v-32C48 149.5 69.5 128 96 128s48 21.5 48 48V208zM272 210.3C272 217.9 265.9 224 258.3 224H189.7C182.1 224 176 217.9 176 210.3V144C176 117.5 197.5 96 224 96s48 21.54 48 48V210.3zM400 210.3C400 217.9 393.9 224 386.3 224h-68.57C310.1 224 304 217.9 304 210.3V144C304 117.5 325.5 96 352 96s48 21.54 48 48V210.3zM528 208C528 216.9 520.9 224 512 224h-64c-8.875 0-16-7.125-16-16v-32C432 149.5 453.5 128 480 128s48 21.5 48 48V208z"]
 };
+var faTemperatureArrowDown = {
+  prefix: 'fas',
+  iconName: 'temperature-arrow-down',
+  icon: [512, 512, ["temperature-down"], "e03f", "M159.1 322.9l-.0002-18.92C159.1 295.1 152.9 287.1 144 287.1c-8.875 0-15.1 7.115-15.1 15.99L128 322.9c-22 7.875-35.25 30.38-31.25 53.38C100.6 399.4 120.6 416.1 144 416.1c23.37 0 43.37-16.71 47.25-39.83C195.2 353.3 181.1 330.8 159.1 322.9zM255.1 112C255.1 50.13 205.9 0 144 0C82.13 0 32 50.13 32 112v166.5C12.25 303.3 0 334 0 368C0 447.5 64.5 512 144 512c79.5 0 143.1-64.5 143.1-144c0-34-12.25-64.88-32-89.5V112zM219.9 393.4C208.1 426.1 178.4 447.1 144 447.1c-34.38 0-65-21.84-75.88-54.59C57.25 360.8 68.5 324.9 96 304.3V112C96 85.5 117.5 64 144 64c26.5 0 47.1 21.5 47.1 48v192.3C219.5 324.9 230.7 360.8 219.9 393.4zM499.1 343c-13.77-11.03-33.92-8.75-44.97 5L448 356.8V64c0-17.69-14.33-32-32-32s-32 14.31-32 32v292.8L376.1 348c-11.03-13.81-31.19-16.03-44.97-5c-13.81 11.06-16.05 31.19-5 45l64 80C397.1 475.6 406.3 480 416 480s18.92-4.406 24.98-12l64-80C516 374.2 513.8 354.1 499.1 343z"]
+};
+var faTemperatureDown = faTemperatureArrowDown;
+var faTemperatureArrowUp = {
+  prefix: 'fas',
+  iconName: 'temperature-arrow-up',
+  icon: [512, 512, ["temperature-up"], "e040", "M159.1 322.9V112C159.1 103.1 152.9 96 144 96C135.1 96 128 103.1 128 112v210.9c-22 7.875-35.25 30.38-31.25 53.38C100.6 399.4 120.6 416.1 144 416.1c23.37 0 43.37-16.71 47.25-39.83C195.2 353.3 181.1 330.8 159.1 322.9zM255.1 112C255.1 50.13 205.9 0 144 0C82.13 0 32 50.13 32 112v166.5C12.25 303.3 0 334 0 368C0 447.5 64.5 512 144 512c79.5 0 143.1-64.5 143.1-144c0-34-12.25-64.88-32-89.5V112zM219.9 393.4C208.1 426.1 178.4 447.1 144 447.1c-34.38 0-65-21.84-75.88-54.59C57.25 360.8 68.5 324.9 96 304.3V112c0-26.5 21.5-48.01 48-48.01c26.5 0 47.1 21.51 47.1 48.01v192.3C219.5 324.9 230.7 360.8 219.9 393.4zM504.1 124l-64-80c-12.12-15.19-37.84-15.19-49.97 0l-64 80c-11.05 13.81-8.812 33.94 5 45c13.75 11.03 33.94 8.781 44.97-5L384 155.2V448c0 17.69 14.33 32 32 32s32-14.31 32-32V155.2L455 164c6.312 7.906 15.61 12 25 12c7.016 0 14.08-2.281 19.97-7C513.8 157.9 516 137.8 504.1 124z"]
+};
+var faTemperatureUp = faTemperatureArrowUp;
 var faTemperatureEmpty = {
   prefix: 'fas',
   iconName: 'temperature-empty',
@@ -14099,6 +15522,36 @@ var faTengeSign = {
   icon: [384, 512, [8376, "tenge"], "f7d7", "M0 64C0 46.33 14.33 32 32 32H352C369.7 32 384 46.33 384 64C384 81.67 369.7 96 352 96H32C14.33 96 0 81.67 0 64zM0 192C0 174.3 14.33 160 32 160H352C369.7 160 384 174.3 384 192C384 209.7 369.7 224 352 224H224V448C224 465.7 209.7 480 192 480C174.3 480 160 465.7 160 448V224H32C14.33 224 0 209.7 0 192z"]
 };
 var faTenge = faTengeSign;
+var faTent = {
+  prefix: 'fas',
+  iconName: 'tent',
+  icon: [576, 512, [], "e57d", "M269.4 5.961C280.5-1.987 295.5-1.987 306.6 5.961L530.6 165.1C538 171.2 542.8 179.4 543.8 188.5L575.8 476.5C576.8 485.5 573.9 494.6 567.8 501.3C561.8 508.1 553.1 512 544 512H416L288 288V512H32C22.9 512 14.23 508.1 8.156 501.3C2.086 494.6-.8093 485.5 .1958 476.5L32.2 188.5C33.2 179.4 38 171.2 45.4 165.1L269.4 5.961z"]
+};
+var faTentArrowDownToLine = {
+  prefix: 'fas',
+  iconName: 'tent-arrow-down-to-line',
+  icon: [640, 512, [], "e57e", "M241.8 111.9C250.7 121.8 249.9 136.1 240.1 145.8L160.1 217.8C150.9 226.1 137.1 226.1 127.9 217.8L47.94 145.8C38.09 136.1 37.29 121.8 46.16 111.9C55.03 102.1 70.2 101.3 80.05 110.2L119.1 146.1V24C119.1 10.75 130.7 0 143.1 0C157.3 0 167.1 10.75 167.1 24V146.1L207.9 110.2C217.8 101.3 232.1 102.1 241.8 111.9H241.8zM364.6 134.5C376.1 125.8 391.9 125.8 403.4 134.5L571.4 262.5C578 267.6 582.4 275 583.6 283.3L608.4 448C625.9 448.2 640 462.4 640 480C640 497.7 625.7 512 608 512H32C14.33 512 0 497.7 0 480C0 462.3 14.33 448 32 448H159.6L184.4 283.3C185.6 275 189.1 267.6 196.6 262.5L364.6 134.5zM384 448H460.8L384 320V448z"]
+};
+var faTentArrowLeftRight = {
+  prefix: 'fas',
+  iconName: 'tent-arrow-left-right',
+  icon: [576, 512, [], "e57f", "M568.1 78.16C573.1 82.71 576 89.2 576 96C576 102.8 573.1 109.3 568.1 113.8L488.1 185.8C478.2 194.7 463 193.9 454.2 184.1C445.3 174.2 446.1 159 455.9 150.2L489.5 120H86.54L120.1 150.2C129.9 159 130.7 174.2 121.8 184.1C112.1 193.9 97.8 194.7 87.94 185.8L7.945 113.8C2.888 109.3 0 102.8 0 96C0 89.2 2.888 82.71 7.945 78.16L87.94 6.161C97.8-2.706 112.1-1.907 121.8 7.945C130.7 17.8 129.9 32.97 120.1 41.84L86.54 72H489.5L455.9 41.84C446.1 32.97 445.3 17.8 454.2 7.945C463-1.907 478.2-2.706 488.1 6.161L568.1 78.16zM475.4 294.5C482 299.6 486.4 307 487.6 315.3L511.6 475.3C513 484.5 510.3 493.8 504.2 500.9C498.2 507.9 489.3 512 480 512H384L287.1 352V512H96C86.68 512 77.83 507.9 71.75 500.9C65.67 493.8 62.97 484.5 64.35 475.3L88.35 315.3C89.59 307 93.98 299.6 100.6 294.5L268.6 166.5C280.1 157.8 295.9 157.8 307.4 166.5L475.4 294.5z"]
+};
+var faTentArrowTurnLeft = {
+  prefix: 'fas',
+  iconName: 'tent-arrow-turn-left',
+  icon: [576, 512, [], "e580", "M86.54 72H456C522.3 72 576 125.7 576 192V232C576 245.3 565.3 256 552 256C538.7 256 528 245.3 528 232V192C528 152.2 495.8 120 456 120H86.54L120.1 150.2C129.9 159 130.7 174.2 121.8 184.1C112.1 193.9 97.8 194.7 87.94 185.8L7.945 113.8C2.888 109.3 0 102.8 0 96C0 89.2 2.888 82.71 7.945 78.16L87.94 6.161C97.8-2.706 112.1-1.907 121.8 7.945C130.7 17.8 129.9 32.97 120.1 41.84L86.54 72zM475.4 294.5C482 299.6 486.4 307 487.6 315.3L511.6 475.3C513 484.5 510.3 493.8 504.2 500.9C498.2 507.9 489.3 512 480 512H384L287.1 352V512H96C86.68 512 77.83 507.9 71.75 500.9C65.67 493.8 62.97 484.5 64.35 475.3L88.35 315.3C89.59 307 93.98 299.6 100.6 294.5L268.6 166.5C280.1 157.8 295.9 157.8 307.4 166.5L475.4 294.5z"]
+};
+var faTentArrowsDown = {
+  prefix: 'fas',
+  iconName: 'tent-arrows-down',
+  icon: [576, 512, [], "e581", "M209.8 111.9C218.7 121.8 217.9 136.1 208.1 145.8L128.1 217.8C118.9 226.1 105.1 226.1 95.94 217.8L15.94 145.8C6.093 136.1 5.294 121.8 14.16 111.9C23.03 102.1 38.2 101.3 48.06 110.2L88 146.1V24C88 10.75 98.75 0 112 0C125.3 0 136 10.75 136 24V146.1L175.9 110.2C185.8 101.3 200.1 102.1 209.8 111.9H209.8zM561.8 111.9C570.7 121.8 569.9 136.1 560.1 145.8L480.1 217.8C470.9 226.1 457.1 226.1 447.9 217.8L367.9 145.8C358.1 136.1 357.3 121.8 366.2 111.9C375 102.1 390.2 101.3 400.1 110.2L440 146.1V24C440 10.75 450.7 0 464 0C477.3 0 488 10.75 488 24V146.1L527.9 110.2C537.8 101.3 552.1 102.1 561.8 111.9H561.8zM475.4 294.5C482 299.6 486.4 307 487.6 315.3L511.6 475.3C513 484.5 510.3 493.8 504.2 500.9C498.2 507.9 489.3 512 480 512H384L287.1 352V512H96C86.68 512 77.83 507.9 71.75 500.9C65.67 493.8 62.97 484.5 64.35 475.3L88.35 315.3C89.59 307 93.98 299.6 100.6 294.5L268.6 166.5C280.1 157.8 295.9 157.8 307.4 166.5L475.4 294.5z"]
+};
+var faTents = {
+  prefix: 'fas',
+  iconName: 'tents',
+  icon: [640, 512, [], "e582", "M396.6 6.546C408.1-2.182 423.9-2.182 435.4 6.546L603.4 134.5C610 139.6 614.4 147 615.6 155.3L639.6 315.3C641 324.5 638.3 333.8 632.2 340.9C626.2 347.9 617.3 352 608 352H461.5L455.3 310.5C452.8 294 444 279.2 430.8 269.1L262.8 141.1C254.6 134.9 245.4 130.9 235.8 129.1L396.6 6.546zM411.4 294.5C418 299.6 422.4 307 423.6 315.3L447.6 475.3C449 484.5 446.3 493.8 440.2 500.9C434.2 507.9 425.3 512 416 512H319.1L223.1 352V512H32C22.68 512 13.83 507.9 7.753 500.9C1.674 493.8-1.028 484.5 .3542 475.3L24.35 315.3C25.59 307 29.98 299.6 36.61 294.5L204.6 166.5C216.1 157.8 231.9 157.8 243.4 166.5L411.4 294.5z"]
+};
 var faTerminal = {
   prefix: 'fas',
   iconName: 'terminal',
@@ -14182,6 +15635,16 @@ var faToiletPaperSlash = {
   iconName: 'toilet-paper-slash',
   icon: [640, 512, [], "e072", "M63.98 191.1v172.1c0 41.12-9.75 62.75-31.13 126.9c-3.5 10.25 4.25 20.1 15.13 20.1l280.9-.0059c13.87 0 25.1-8.75 30.37-21.87c10.08-30.15 19.46-57.6 23.1-93.78L66.51 148.8C64.9 162.7 63.98 177.1 63.98 191.1zM630.8 469.1l-109.8-86.02c48.75-9.144 86.94-91.2 86.94-191.1C607.1 86 564.1 0 511.1 0s-96 86-96 191.1c0 49.25 9.362 94.03 24.62 128l-56.62-44.38l.0049-83.65c0-83.62 23.62-153.5 60.5-191.1H159.1C135.2 0 112.7 18.93 95.72 49.72L38.81 5.109C34.41 1.672 29.19 0 24.03 0c-7.125 0-14.19 3.156-18.91 9.187C-3.061 19.62-1.249 34.72 9.189 42.89l591.1 463.1c10.5 8.203 25.56 6.328 33.69-4.078C643.1 492.4 641.2 477.3 630.8 469.1zM479.1 191.1c0-35.37 14.37-64 32-64c17.62 0 32 28.63 32 64S529.6 255.1 511.1 255.1C494.4 255.1 479.1 227.4 479.1 191.1z"]
 };
+var faToiletPortable = {
+  prefix: 'fas',
+  iconName: 'toilet-portable',
+  icon: [320, 512, [], "e583", "M0 32C0 14.33 14.33 0 32 0H288C305.7 0 320 14.33 320 32V64H0V32zM320 96V488C320 501.3 309.3 512 296 512C282.7 512 272 501.3 272 488V480H48V488C48 501.3 37.25 512 24 512C10.75 512 0 501.3 0 488V96H320zM256 240C256 231.2 248.8 224 240 224C231.2 224 224 231.2 224 240V304C224 312.8 231.2 320 240 320C248.8 320 256 312.8 256 304V240z"]
+};
+var faToiletsPortable = {
+  prefix: 'fas',
+  iconName: 'toilets-portable',
+  icon: [576, 512, [], "e584", "M224 0C241.7 0 256 14.33 256 32V64H0V32C0 14.33 14.33 0 32 0H224zM0 96H256V488C256 501.3 245.3 512 232 512C218.7 512 208 501.3 208 488V480H48V488C48 501.3 37.25 512 24 512C10.75 512 0 501.3 0 488V96zM176 240V304C176 312.8 183.2 320 192 320C200.8 320 208 312.8 208 304V240C208 231.2 200.8 224 192 224C183.2 224 176 231.2 176 240zM544 0C561.7 0 576 14.33 576 32V64H320V32C320 14.33 334.3 0 352 0H544zM320 96H576V488C576 501.3 565.3 512 552 512C538.7 512 528 501.3 528 488V480H368V488C368 501.3 357.3 512 344 512C330.7 512 320 501.3 320 488V96zM496 240V304C496 312.8 503.2 320 512 320C520.8 320 528 312.8 528 304V240C528 231.2 520.8 224 512 224C503.2 224 496 231.2 496 240z"]
+};
 var faToolbox = {
   prefix: 'fas',
   iconName: 'toolbox',
@@ -14197,12 +15660,27 @@ var faToriiGate = {
   iconName: 'torii-gate',
   icon: [512, 512, [9961], "f6a1", "M0 80V0L71.37 23.79C87.68 29.23 104.8 32 121.1 32H390C407.2 32 424.3 29.23 440.6 23.79L512 0V80C512 106.5 490.5 128 464 128H448V192H384V128H288V192H224V128H128V192H64V128H48C21.49 128 0 106.5 0 80zM32 288C14.33 288 0 273.7 0 256C0 238.3 14.33 224 32 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H448V480C448 497.7 433.7 512 416 512C398.3 512 384 497.7 384 480V288H128V480C128 497.7 113.7 512 96 512C78.33 512 64 497.7 64 480V288H32z"]
 };
+var faTornado = {
+  prefix: 'fas',
+  iconName: 'tornado',
+  icon: [448, 512, [127786], "f76f", "M407.8 42.09c7.531-6.562 10.22-17.12 6.688-26.5C410.1 6.219 401.1 0 391.1 0L24.16 .0313c-13 0-23.66 10.38-24 23.38C-.5495 50.32 1.349 74.22 4.945 95.98h353.9C367.9 80.76 383.4 63.34 407.8 42.09zM387.7 195.9c-22.02-25.33-38.96-44.87-39-67.93H12.05c11.47 40.4 30.38 71.34 53.15 96h345.8C403.4 214.1 395.4 204.8 387.7 195.9zM303.6 485.3c-1.125 10.12 4.249 19.84 13.44 24.28C320.3 511.2 323.9 512 327.4 512c6.219 0 12.34-2.406 16.94-7c43.73-43.61 73.32-83.63 89.35-121h-148.6C300.8 408.6 308.7 440 303.6 485.3zM431.7 255.1H100.5C127.1 276.3 155.8 291.6 182.4 305.8c28.14 15.01 54.04 28.9 74.73 46.14h186.8C446.4 341.1 447.1 330.4 448 320C448 295.4 441.4 274.6 431.7 255.1z"]
+};
 var faTowerBroadcast = {
   prefix: 'fas',
   iconName: 'tower-broadcast',
   icon: [576, 512, ["broadcast-tower"], "f519", "M160.9 59.01C149.3 52.6 134.7 56.76 128.3 68.39C117.6 87.6 112 109.4 112 131.4c0 19.03 4.031 37.44 11.98 54.62c4.047 8.777 12.73 13.93 21.8 13.93c3.375 0 6.797-.7187 10.05-2.219C167.9 192.2 173.1 177.1 167.5 165.9C162.5 155.1 160 143.5 160 131.4c0-13.93 3.547-27.69 10.25-39.81C176.7 80.04 172.5 65.42 160.9 59.01zM62.61 2.363C46.17-4.32 27.58 3.676 20.95 20.02C7.047 54.36 0 90.69 0 127.1C0 165.3 7.047 201.7 20.95 236C25.98 248.5 37.97 256 50.63 256C54.61 256 58.69 255.3 62.61 253.7C79 247 86.91 228.4 80.27 212C69.47 185.3 64 157.1 64 128c0-29.06 5.469-57.3 16.27-83.99C86.91 27.64 79 8.988 62.61 2.363zM555 20.02c-6.609-16.41-25.23-24.31-41.66-17.66c-16.39 6.625-24.3 25.28-17.66 41.65C506.5 70.7 512 98.95 512 128c0 29.06-5.469 57.31-16.27 83.1C489.1 228.4 497 247 513.4 253.7C517.3 255.3 521.4 256 525.4 256c12.66 0 24.64-7.562 29.67-20C568.1 201.7 576 165.3 576 127.1C576 90.69 568.1 54.36 555 20.02zM420.2 58.23c-12.03 5.562-17.28 19.81-11.72 31.84C413.5 100.9 416 112.5 416 124.6c0 13.94-3.547 27.69-10.25 39.81c-6.422 11.59-2.219 26.22 9.375 32.62c3.688 2.031 7.672 3 11.61 3c8.438 0 16.64-4.47 21.02-12.37C458.4 168.4 464 146.6 464 124.6c0-19.03-4.031-37.43-11.98-54.62C446.5 57.89 432.1 52.7 420.2 58.23zM301.8 65.45C260.5 56.78 224 88.13 224 128c0 23.63 12.95 44.04 32 55.12v296.9c0 17.67 14.33 32 32 32s32-14.33 32-32V183.1c23.25-13.54 37.42-40.96 30.03-71.18C344.4 88.91 325 70.31 301.8 65.45z"]
 };
 var faBroadcastTower = faTowerBroadcast;
+var faTowerCell = {
+  prefix: 'fas',
+  iconName: 'tower-cell',
+  icon: [576, 512, [], "e585", "M62.62 2.339C78.1 8.97 86.9 27.63 80.27 44.01C69.79 69.9 64 98.24 64 128C64 157.8 69.79 186.1 80.27 211.1C86.9 228.4 78.1 247 62.62 253.7C46.23 260.3 27.58 252.4 20.95 236C7.428 202.6 0 166.1 0 128C0 89.87 7.428 53.39 20.95 19.99C27.58 3.612 46.23-4.293 62.62 2.339V2.339zM513.4 2.339C529.8-4.293 548.4 3.612 555.1 19.99C568.6 53.39 576 89.87 576 128C576 166.1 568.6 202.6 555.1 236C548.4 252.4 529.8 260.3 513.4 253.7C497 247 489.1 228.4 495.7 211.1C506.2 186.1 512 157.8 512 128C512 98.24 506.2 69.9 495.7 44.01C489.1 27.63 497 8.969 513.4 2.338V2.339zM477.1 466.8C484.4 482.8 477.3 501.8 461.2 509.1C445.2 516.4 426.2 509.3 418.9 493.2L398.3 448H177.7L157.1 493.2C149.8 509.3 130.8 516.4 114.8 509.1C98.67 501.8 91.56 482.8 98.87 466.8L235.9 165.2C228.4 154.7 224 141.9 224 128C224 92.65 252.7 64 288 64C323.3 64 352 92.65 352 128C352 141.9 347.6 154.7 340.1 165.2L477.1 466.8zM369.2 384L354.7 352H221.3L206.8 384H369.2zM250.4 288H325.6L288 205.3L250.4 288zM152 128C152 147.4 156 165.8 163.3 182.4C168.6 194.5 163.1 208.7 150.9 213.1C138.8 219.3 124.6 213.8 119.3 201.6C109.5 179 104 154.1 104 128C104 101.9 109.5 76.96 119.3 54.39C124.6 42.25 138.8 36.7 150.9 42.01C163.1 47.31 168.6 61.46 163.3 73.61C156 90.23 152 108.6 152 128V128zM472 128C472 154.1 466.5 179 456.7 201.6C451.4 213.8 437.2 219.3 425.1 213.1C412.9 208.7 407.4 194.5 412.7 182.4C419.1 165.8 424 147.4 424 128C424 108.6 419.1 90.24 412.7 73.61C407.4 61.46 412.9 47.32 425.1 42.01C437.2 36.7 451.4 42.25 456.7 54.39C466.5 76.96 472 101.9 472 128V128z"]
+};
+var faTowerObservation = {
+  prefix: 'fas',
+  iconName: 'tower-observation',
+  icon: [512, 512, [], "e586", "M241.7 3.378C250.7-1.126 261.3-1.126 270.3 3.378L430.3 83.38C446.1 91.28 452.5 110.5 444.6 126.3C439 137.5 427.7 143.1 416 144V224C416 241.7 401.7 256 384 256H379.1L411.1 448H480C497.7 448 512 462.3 512 480C512 497.7 497.7 512 480 512H384.5C384.2 512 383.8 512 383.4 512H128.6C128.2 512 127.9 512 127.5 512H32C14.33 512 0 497.7 0 480C0 462.3 14.33 448 32 448H100.9L132.9 256H128C110.3 256 96 241.7 96 224V144C84.27 143.1 72.98 137.5 67.38 126.3C59.47 110.5 65.88 91.28 81.69 83.38L241.7 3.378zM314.5 448L256 399.2L197.5 448H314.5zM193.1 284.3L256 336.8L318.9 284.3L314.2 256H197.8L193.1 284.3zM183.9 339.2L172.8 406.1L218.5 368L183.9 339.2zM293.5 368L339.2 406.1L328.1 339.2L293.5 368zM176 128C167.2 128 160 135.2 160 144C160 152.8 167.2 160 176 160H336C344.8 160 352 152.8 352 144C352 135.2 344.8 128 336 128H176z"]
+};
 var faTractor = {
   prefix: 'fas',
   iconName: 'tractor',
@@ -14274,6 +15752,11 @@ var faTree = {
   iconName: 'tree',
   icon: [448, 512, [127794], "f1bb", "M413.8 447.1L256 448l0 31.99C256 497.7 241.8 512 224.1 512c-17.67 0-32.1-14.32-32.1-31.99l0-31.99l-158.9-.0099c-28.5 0-43.69-34.49-24.69-56.4l68.98-79.59H62.22c-25.41 0-39.15-29.8-22.67-49.13l60.41-70.85H89.21c-21.28 0-32.87-22.5-19.28-37.31l134.8-146.5c10.4-11.3 28.22-11.3 38.62-.0033l134.9 146.5c13.62 14.81 2.001 37.31-19.28 37.31h-10.77l60.35 70.86c16.46 19.34 2.716 49.12-22.68 49.12h-15.2l68.98 79.59C458.7 413.7 443.1 447.1 413.8 447.1z"]
 };
+var faTreeCity = {
+  prefix: 'fas',
+  iconName: 'tree-city',
+  icon: [640, 512, [], "e587", "M288 48C288 21.49 309.5 0 336 0H432C458.5 0 480 21.49 480 48V192H520V120C520 106.7 530.7 96 544 96C557.3 96 568 106.7 568 120V192H592C618.5 192 640 213.5 640 240V464C640 490.5 618.5 512 592 512H336C309.5 512 288 490.5 288 464V48zM352 112C352 120.8 359.2 128 368 128H400C408.8 128 416 120.8 416 112V80C416 71.16 408.8 64 400 64H368C359.2 64 352 71.16 352 80V112zM368 160C359.2 160 352 167.2 352 176V208C352 216.8 359.2 224 368 224H400C408.8 224 416 216.8 416 208V176C416 167.2 408.8 160 400 160H368zM352 304C352 312.8 359.2 320 368 320H400C408.8 320 416 312.8 416 304V272C416 263.2 408.8 256 400 256H368C359.2 256 352 263.2 352 272V304zM528 256C519.2 256 512 263.2 512 272V304C512 312.8 519.2 320 528 320H560C568.8 320 576 312.8 576 304V272C576 263.2 568.8 256 560 256H528zM512 400C512 408.8 519.2 416 528 416H560C568.8 416 576 408.8 576 400V368C576 359.2 568.8 352 560 352H528C519.2 352 512 359.2 512 368V400zM224 160C224 166 223 171 222 176C242 190 256 214 256 240C256 285 220 320 176 320H160V480C160 498 145 512 128 512C110 512 96 498 96 480V320H80C35 320 0 285 0 240C0 214 13 190 33 176C32 171 32 166 32 160C32 107 74 64 128 64C181 64 224 107 224 160z"]
+};
 var faTriangleExclamation = {
   prefix: 'fas',
   iconName: 'triangle-exclamation',
@@ -14286,17 +15769,52 @@ var faTrophy = {
   iconName: 'trophy',
   icon: [576, 512, [127942], "f091", "M572.1 82.38C569.5 71.59 559.8 64 548.7 64h-100.8c.2422-12.45 .1078-23.7-.1559-33.02C447.3 13.63 433.2 0 415.8 0H160.2C142.8 0 128.7 13.63 128.2 30.98C127.1 40.3 127.8 51.55 128.1 64H27.26C16.16 64 6.537 71.59 3.912 82.38C3.1 85.78-15.71 167.2 37.07 245.9c37.44 55.82 100.6 95.03 187.5 117.4c18.7 4.805 31.41 22.06 31.41 41.37C256 428.5 236.5 448 212.6 448H208c-26.51 0-47.99 21.49-47.99 48c0 8.836 7.163 16 15.1 16h223.1c8.836 0 15.1-7.164 15.1-16c0-26.51-21.48-48-47.99-48h-4.644c-23.86 0-43.36-19.5-43.36-43.35c0-19.31 12.71-36.57 31.41-41.37c86.96-22.34 150.1-61.55 187.5-117.4C591.7 167.2 572.9 85.78 572.1 82.38zM77.41 219.8C49.47 178.6 47.01 135.7 48.38 112h80.39c5.359 59.62 20.35 131.1 57.67 189.1C137.4 281.6 100.9 254.4 77.41 219.8zM498.6 219.8c-23.44 34.6-59.94 61.75-109 81.22C426.9 243.1 441.9 171.6 447.2 112h80.39C528.1 135.7 526.5 178.7 498.6 219.8z"]
 };
+var faTrowel = {
+  prefix: 'fas',
+  iconName: 'trowel',
+  icon: [512, 512, [], "e589", "M343.9 213.4L245.3 312L310.6 377.4C318.5 385.3 321.8 396.8 319.1 407.6C316.4 418.5 308.2 427.2 297.5 430.5L41.55 510.5C30.18 514.1 17.79 511 9.373 502.6C.9565 494.2-2.093 481.8 1.458 470.5L81.46 214.5C84.8 203.8 93.48 195.6 104.4 192.9C115.2 190.3 126.7 193.5 134.6 201.4L200 266.7L298.6 168.1C284.4 153.5 284.5 130.1 298.9 115.6L394.4 20.18C421.3-6.728 464.9-6.728 491.8 20.18C518.7 47.1 518.7 90.73 491.8 117.6L396.4 213.1C381.9 227.5 358.5 227.6 343.9 213.4V213.4z"]
+};
+var faTrowelBricks = {
+  prefix: 'fas',
+  iconName: 'trowel-bricks',
+  icon: [512, 512, [], "e58a", "M240.8 4.779C250.3 10.61 256 20.91 256 32V104H345C348.6 90.2 361.1 80 376 80H464C490.5 80 512 101.5 512 128C512 154.5 490.5 176 464 176H376C361.1 176 348.6 165.8 345 152H256V224C256 235.1 250.3 245.4 240.8 251.2C231.4 257.1 219.6 257.6 209.7 252.6L17.69 156.6C6.848 151.2 0 140.1 0 128C0 115.9 6.848 104.8 17.69 99.38L209.7 3.378C219.6-1.581 231.4-1.051 240.8 4.779V4.779zM288 256C288 238.3 302.3 224 320 224H480C497.7 224 512 238.3 512 256V320C512 337.7 497.7 352 480 352H320C302.3 352 288 337.7 288 320V256zM128 384C145.7 384 160 398.3 160 416V480C160 497.7 145.7 512 128 512H32C14.33 512 0 497.7 0 480V416C0 398.3 14.33 384 32 384H128zM480 384C497.7 384 512 398.3 512 416V480C512 497.7 497.7 512 480 512H224C206.3 512 192 497.7 192 480V416C192 398.3 206.3 384 224 384H480z"]
+};
 var faTruck = {
   prefix: 'fas',
   iconName: 'truck',
   icon: [640, 512, [128666, 9951], "f0d1", "M368 0C394.5 0 416 21.49 416 48V96H466.7C483.7 96 499.1 102.7 512 114.7L589.3 192C601.3 204 608 220.3 608 237.3V352C625.7 352 640 366.3 640 384C640 401.7 625.7 416 608 416H576C576 469 533 512 480 512C426.1 512 384 469 384 416H256C256 469 213 512 160 512C106.1 512 64 469 64 416H48C21.49 416 0 394.5 0 368V48C0 21.49 21.49 0 48 0H368zM416 160V256H544V237.3L466.7 160H416zM160 368C133.5 368 112 389.5 112 416C112 442.5 133.5 464 160 464C186.5 464 208 442.5 208 416C208 389.5 186.5 368 160 368zM480 464C506.5 464 528 442.5 528 416C528 389.5 506.5 368 480 368C453.5 368 432 389.5 432 416C432 442.5 453.5 464 480 464z"]
 };
+var faTruckArrowRight = {
+  prefix: 'fas',
+  iconName: 'truck-arrow-right',
+  icon: [640, 512, [], "e58b", "M0 48C0 21.49 21.49 0 48 0H368C394.5 0 416 21.49 416 48V96H466.7C483.7 96 499.1 102.7 512 114.7L589.3 192C601.3 204 608 220.3 608 237.3V352C625.7 352 640 366.3 640 384C640 401.7 625.7 416 608 416H576C576 469 533 512 480 512C426.1 512 384 469 384 416H256C256 469 213 512 160 512C106.1 512 64 469 64 416H48C21.49 416 0 394.5 0 368V48zM544 256V237.3L466.7 160H416V256H544zM160 464C186.5 464 208 442.5 208 416C208 389.5 186.5 368 160 368C133.5 368 112 389.5 112 416C112 442.5 133.5 464 160 464zM480 368C453.5 368 432 389.5 432 416C432 442.5 453.5 464 480 464C506.5 464 528 442.5 528 416C528 389.5 506.5 368 480 368zM256.1 95.03C247.6 85.66 232.4 85.66 223 95.03C213.7 104.4 213.7 119.6 223 128.1L262.1 168H96C82.75 168 72 178.7 72 192C72 205.3 82.75 216 96 216H262.1L223 255C213.7 264.4 213.7 279.6 223 288.1C232.4 298.3 247.6 298.3 256.1 288.1L336.1 208.1C346.3 199.6 346.3 184.4 336.1 175L256.1 95.03z"]
+};
+var faTruckDroplet = {
+  prefix: 'fas',
+  iconName: 'truck-droplet',
+  icon: [640, 512, [], "e58c", "M0 48C0 21.49 21.49 0 48 0H368C394.5 0 416 21.49 416 48V96H466.7C483.7 96 499.1 102.7 512 114.7L589.3 192C601.3 204 608 220.3 608 237.3V352C625.7 352 640 366.3 640 384C640 401.7 625.7 416 608 416H576C576 469 533 512 480 512C426.1 512 384 469 384 416H256C256 469 213 512 160 512C106.1 512 64 469 64 416H48C21.49 416 0 394.5 0 368V48zM544 256V237.3L466.7 160H416V256H544zM160 464C186.5 464 208 442.5 208 416C208 389.5 186.5 368 160 368C133.5 368 112 389.5 112 416C112 442.5 133.5 464 160 464zM480 368C453.5 368 432 389.5 432 416C432 442.5 453.5 464 480 464C506.5 464 528 442.5 528 416C528 389.5 506.5 368 480 368zM208 272C247.8 272 280 242.4 280 205.1C280 179 240.6 123 220.1 95.71C213.1 87.54 202 87.54 195.9 95.71C175.4 123 136 179 136 205.1C136 242.4 168.2 272 208 272V272z"]
+};
 var faTruckFast = {
   prefix: 'fas',
   iconName: 'truck-fast',
-  icon: [640, 512, ["shipping-fast"], "f48b", "M64 48C64 21.49 85.49 0 112 0H368C394.5 0 416 21.49 416 48V256H608V352C625.7 352 640 366.3 640 384C640 401.7 625.7 416 608 416H576C576 469 533 512 480 512C426.1 512 384 469 384 416H256C256 469 213 512 160 512C106.1 512 64 469 64 416V288H208C216.8 288 224 280.8 224 272C224 263.2 216.8 256 208 256H16C7.164 256 0 248.8 0 240C0 231.2 7.164 224 16 224H240C248.8 224 256 216.8 256 208C256 199.2 248.8 192 240 192H48C39.16 192 32 184.8 32 176C32 167.2 39.16 160 48 160H272C280.8 160 288 152.8 288 144C288 135.2 280.8 128 272 128H16C7.164 128 0 120.8 0 112C0 103.2 7.164 96 16 96H64V48zM160 464C186.5 464 208 442.5 208 416C208 389.5 186.5 368 160 368C133.5 368 112 389.5 112 416C112 442.5 133.5 464 160 464zM480 368C453.5 368 432 389.5 432 416C432 442.5 453.5 464 480 464C506.5 464 528 442.5 528 416C528 389.5 506.5 368 480 368zM466.7 160H400V96H466.7C483.7 96 499.1 102.7 512 114.7L589.3 192C601.3 204 608 220.3 608 237.3V288H544V237.3L466.7 160z"]
+  icon: [640, 512, ["shipping-fast"], "f48b", "M112 0C85.49 0 64 21.49 64 48V96H16C7.163 96 0 103.2 0 112C0 120.8 7.163 128 16 128H272C280.8 128 288 135.2 288 144C288 152.8 280.8 160 272 160H48C39.16 160 32 167.2 32 176C32 184.8 39.16 192 48 192H240C248.8 192 256 199.2 256 208C256 216.8 248.8 224 240 224H16C7.163 224 0 231.2 0 240C0 248.8 7.163 256 16 256H208C216.8 256 224 263.2 224 272C224 280.8 216.8 288 208 288H64V416C64 469 106.1 512 160 512C213 512 256 469 256 416H384C384 469 426.1 512 480 512C533 512 576 469 576 416H608C625.7 416 640 401.7 640 384C640 366.3 625.7 352 608 352V237.3C608 220.3 601.3 204 589.3 192L512 114.7C499.1 102.7 483.7 96 466.7 96H416V48C416 21.49 394.5 0 368 0H112zM544 237.3V256H416V160H466.7L544 237.3zM160 464C133.5 464 112 442.5 112 416C112 389.5 133.5 368 160 368C186.5 368 208 389.5 208 416C208 442.5 186.5 464 160 464zM528 416C528 442.5 506.5 464 480 464C453.5 464 432 442.5 432 416C432 389.5 453.5 368 480 368C506.5 368 528 389.5 528 416z"]
 };
 var faShippingFast = faTruckFast;
+var faTruckField = {
+  prefix: 'fas',
+  iconName: 'truck-field',
+  icon: [640, 512, [], "e58d", "M32 96C32 60.65 60.65 32 96 32H320C343.7 32 364.4 44.87 375.4 64H427.2C452.5 64 475.4 78.9 485.7 102L538.5 220.8C538.1 221.9 539.4 222.9 539.8 223.1H544C579.3 223.1 608 252.7 608 287.1V319.1C625.7 319.1 640 334.3 640 352C640 369.7 625.7 384 608 384H576C576 437 533 480 480 480C426.1 480 384 437 384 384H256C256 437 213 480 160 480C106.1 480 64 437 64 384H32C14.33 384 0 369.7 0 352C0 334.3 14.33 319.1 32 319.1V287.1C14.33 287.1 0 273.7 0 255.1V159.1C0 142.3 14.33 127.1 32 127.1V96zM469.9 224L427.2 128H384V224H469.9zM160 432C186.5 432 208 410.5 208 384C208 357.5 186.5 336 160 336C133.5 336 112 357.5 112 384C112 410.5 133.5 432 160 432zM480 336C453.5 336 432 357.5 432 384C432 410.5 453.5 432 480 432C506.5 432 528 410.5 528 384C528 357.5 506.5 336 480 336z"]
+};
+var faTruckFieldUn = {
+  prefix: 'fas',
+  iconName: 'truck-field-un',
+  icon: [640, 512, [], "e58e", "M320 32C343.7 32 364.4 44.87 375.4 64H427.2C452.5 64 475.4 78.9 485.7 102L538.5 220.8C538.1 221.9 539.4 222.9 539.8 224H544C579.3 224 608 252.7 608 288V320C625.7 320 640 334.3 640 352C640 369.7 625.7 384 608 384H576C576 437 533 480 480 480C426.1 480 384 437 384 384H256C256 437 213 480 160 480C106.1 480 64 437 64 384H32C14.33 384 0 369.7 0 352C0 334.3 14.33 320 32 320V288C14.33 288 0 273.7 0 256V160C0 142.3 14.33 128 32 128V96C32 60.65 60.65 32 96 32L320 32zM384 128V224H469.9L427.2 128H384zM160 336C133.5 336 112 357.5 112 384C112 410.5 133.5 432 160 432C186.5 432 208 410.5 208 384C208 357.5 186.5 336 160 336zM480 432C506.5 432 528 410.5 528 384C528 357.5 506.5 336 480 336C453.5 336 432 357.5 432 384C432 410.5 453.5 432 480 432zM253.3 135.1C249.4 129.3 242.1 126.6 235.4 128.7C228.6 130.7 224 136.9 224 144V240C224 248.8 231.2 256 240 256C248.8 256 256 248.8 256 240V196.8L290.7 248.9C294.6 254.7 301.9 257.4 308.6 255.3C315.4 253.3 320 247.1 320 240V144C320 135.2 312.8 128 304 128C295.2 128 288 135.2 288 144V187.2L253.3 135.1zM128 144C128 135.2 120.8 128 112 128C103.2 128 96 135.2 96 144V208C96 234.5 117.5 256 144 256C170.5 256 192 234.5 192 208V144C192 135.2 184.8 128 176 128C167.2 128 160 135.2 160 144V208C160 216.8 152.8 224 144 224C135.2 224 128 216.8 128 208V144z"]
+};
+var faTruckFront = {
+  prefix: 'fas',
+  iconName: 'truck-front',
+  icon: [512, 512, [], "e2b7", "M0 80C0 35.82 35.82 0 80 0H432C476.2 0 512 35.82 512 80V368C512 394.2 499.4 417.4 480 432V480C480 497.7 465.7 512 448 512H416C398.3 512 384 497.7 384 480V448H128V480C128 497.7 113.7 512 96 512H64C46.33 512 32 497.7 32 480V432C12.57 417.4 0 394.2 0 368V80zM129.9 152.2L112 224H400L382.1 152.2C378.5 137.1 365.7 128 351 128H160.1C146.3 128 133.5 137.1 129.9 152.2H129.9zM96 288C78.33 288 64 302.3 64 320C64 337.7 78.33 352 96 352C113.7 352 128 337.7 128 320C128 302.3 113.7 288 96 288zM416 352C433.7 352 448 337.7 448 320C448 302.3 433.7 288 416 288C398.3 288 384 302.3 384 320C384 337.7 398.3 352 416 352z"]
+};
 var faTruckMedical = {
   prefix: 'fas',
   iconName: 'truck-medical',
@@ -14317,6 +15835,11 @@ var faTruckPickup = {
   prefix: 'fas',
   iconName: 'truck-pickup',
   icon: [640, 512, [128763], "f63c", "M272 32H368.6C388.1 32 406.5 40.84 418.6 56.02L527.4 192H576C593.7 192 608 206.3 608 224V288C625.7 288 640 302.3 640 320C640 337.7 625.7 352 608 352H574.9C575.6 357.2 576 362.6 576 368C576 429.9 525.9 480 464 480C402.1 480 352 429.9 352 368C352 362.6 352.4 357.2 353.1 352H286.9C287.6 357.2 288 362.6 288 368C288 429.9 237.9 480 176 480C114.1 480 64 429.9 64 368C64 362.6 64.39 357.2 65.13 352H32C14.33 352 0 337.7 0 320C0 302.3 14.33 288 32 288V224C32 206.3 46.33 192 64 192H224V80C224 53.49 245.5 32 272 32H272zM368.6 96H288V192H445.4L368.6 96zM176 416C202.5 416 224 394.5 224 368C224 341.5 202.5 320 176 320C149.5 320 128 341.5 128 368C128 394.5 149.5 416 176 416zM464 416C490.5 416 512 394.5 512 368C512 341.5 490.5 320 464 320C437.5 320 416 341.5 416 368C416 394.5 437.5 416 464 416z"]
+};
+var faTruckPlane = {
+  prefix: 'fas',
+  iconName: 'truck-plane',
+  icon: [640, 512, [], "e58f", "M256 86.06L256 182.9L256 184V411.5L256.1 411.6C257.3 433.8 269.8 452.9 288 463.4V496C288 501.2 288.8 506.3 290.4 510.1L200 480.9L109.1 511.2C104.2 512.8 98.82 511.1 94.64 508.1C90.47 505.1 88 501.1 88 496V464C88 459.1 90.21 454.5 94 451.5L144 411.5V330.3L20.6 367.3C15.75 368.8 10.51 367.9 6.449 364.8C2.391 361.8 0 357.1 0 352V288C0 282.4 2.949 277.2 7.768 274.3L144 192.5V86.06C144 54.68 169.4 0 200 0C231.5 0 256 54.68 256 86.06V86.06zM288 176C288 149.5 309.5 128 336 128H592C618.5 128 640 149.5 640 176V400C640 420.9 626.6 438.7 608 445.3V488C608 501.3 597.3 512 584 512H568C554.7 512 544 501.3 544 488V448H384V488C384 501.3 373.3 512 360 512H344C330.7 512 320 501.3 320 488V445.3C301.4 438.7 288 420.9 288 400V176zM367.8 254.7L352 304H576L560.2 254.7C556.9 246 548.9 240 539.7 240H388.3C379.1 240 371.1 246 367.8 254.7H367.8zM568 400C581.3 400 592 389.3 592 376C592 362.7 581.3 352 568 352C554.7 352 544 362.7 544 376C544 389.3 554.7 400 568 400zM360 352C346.7 352 336 362.7 336 376C336 389.3 346.7 400 360 400C373.3 400 384 389.3 384 376C384 362.7 373.3 352 360 352z"]
 };
 var faTruckRampBox = {
   prefix: 'fas',
@@ -14554,16 +16077,41 @@ var faUsers = {
   iconName: 'users',
   icon: [640, 512, [], "f0c0", "M319.9 320c57.41 0 103.1-46.56 103.1-104c0-57.44-46.54-104-103.1-104c-57.41 0-103.1 46.56-103.1 104C215.9 273.4 262.5 320 319.9 320zM369.9 352H270.1C191.6 352 128 411.7 128 485.3C128 500.1 140.7 512 156.4 512h327.2C499.3 512 512 500.1 512 485.3C512 411.7 448.4 352 369.9 352zM512 160c44.18 0 80-35.82 80-80S556.2 0 512 0c-44.18 0-80 35.82-80 80S467.8 160 512 160zM183.9 216c0-5.449 .9824-10.63 1.609-15.91C174.6 194.1 162.6 192 149.9 192H88.08C39.44 192 0 233.8 0 285.3C0 295.6 7.887 304 17.62 304h199.5C196.7 280.2 183.9 249.7 183.9 216zM128 160c44.18 0 80-35.82 80-80S172.2 0 128 0C83.82 0 48 35.82 48 80S83.82 160 128 160zM551.9 192h-61.84c-12.8 0-24.88 3.037-35.86 8.24C454.8 205.5 455.8 210.6 455.8 216c0 33.71-12.78 64.21-33.16 88h199.7C632.1 304 640 295.6 640 285.3C640 233.8 600.6 192 551.9 192z"]
 };
+var faUsersBetweenLines = {
+  prefix: 'fas',
+  iconName: 'users-between-lines',
+  icon: [640, 512, [], "e591", "M0 24C0 10.75 10.75 0 24 0H616C629.3 0 640 10.75 640 24C640 37.25 629.3 48 616 48H24C10.75 48 0 37.25 0 24zM0 488C0 474.7 10.75 464 24 464H616C629.3 464 640 474.7 640 488C640 501.3 629.3 512 616 512H24C10.75 512 0 501.3 0 488zM211.2 160C211.2 195.3 182.5 224 147.2 224C111.9 224 83.2 195.3 83.2 160C83.2 124.7 111.9 96 147.2 96C182.5 96 211.2 124.7 211.2 160zM32 320C32 284.7 60.65 256 96 256H192C204.2 256 215.7 259.4 225.4 265.4C188.2 280.5 159.8 312.6 149.6 352H64C46.33 352 32 337.7 32 320V320zM415.9 264.6C425.3 259.1 436.3 256 448 256H544C579.3 256 608 284.7 608 320C608 337.7 593.7 352 576 352H493.6C483.2 311.9 453.1 279.4 415.9 264.6zM391.2 290.4C423.3 297.8 449.3 321.3 460.1 352C463.7 362 465.6 372.8 465.6 384C465.6 401.7 451.3 416 433.6 416H209.6C191.9 416 177.6 401.7 177.6 384C177.6 372.8 179.5 362 183.1 352C193.6 322.3 218.3 299.2 249.1 291.1C256.1 289.1 265.1 288 273.6 288H369.6C377 288 384.3 288.8 391.2 290.4zM563.2 160C563.2 195.3 534.5 224 499.2 224C463.9 224 435.2 195.3 435.2 160C435.2 124.7 463.9 96 499.2 96C534.5 96 563.2 124.7 563.2 160zM241.6 176C241.6 131.8 277.4 96 321.6 96C365.8 96 401.6 131.8 401.6 176C401.6 220.2 365.8 256 321.6 256C277.4 256 241.6 220.2 241.6 176z"]
+};
 var faUsersGear = {
   prefix: 'fas',
   iconName: 'users-gear',
   icon: [640, 512, ["users-cog"], "f509", "M512 160c44.18 0 80-35.82 80-80S556.2 0 512 0c-44.18 0-80 35.82-80 80S467.8 160 512 160zM128 160c44.18 0 80-35.82 80-80S172.2 0 128 0C83.82 0 48 35.82 48 80S83.82 160 128 160zM319.9 320c57.41 0 103.1-46.56 103.1-104c0-57.44-46.54-104-103.1-104c-57.41 0-103.1 46.56-103.1 104C215.9 273.4 262.5 320 319.9 320zM368 400c0-16.69 3.398-32.46 8.619-47.36C374.3 352.5 372.2 352 369.9 352H270.1C191.6 352 128 411.7 128 485.3C128 500.1 140.7 512 156.4 512h266.1C389.5 485.6 368 445.5 368 400zM183.9 216c0-5.449 .9824-10.63 1.609-15.91C174.6 194.1 162.6 192 149.9 192H88.08C39.44 192 0 233.8 0 285.3C0 295.6 7.887 304 17.62 304h199.5C196.7 280.2 183.9 249.7 183.9 216zM551.9 192h-61.84c-12.8 0-24.88 3.037-35.86 8.24C454.8 205.5 455.8 210.6 455.8 216c0 21.47-5.625 41.38-14.65 59.34C462.2 263.4 486.1 256 512 256c42.48 0 80.27 18.74 106.6 48h3.756C632.1 304 640 295.6 640 285.3C640 233.8 600.6 192 551.9 192zM618.1 366.7c-5.025-16.01-13.59-30.62-24.75-42.71c-1.674-1.861-4.467-2.326-6.699-1.023l-19.17 11.07c-8.096-6.887-17.4-12.28-27.45-15.82V295.1c0-2.514-1.861-4.746-4.281-5.213c-16.56-3.723-33.5-3.629-49.32 0C484.9 291.2 483.1 293.5 483.1 295.1v22.24c-10.05 3.537-19.36 8.932-27.45 15.82l-19.26-11.07c-2.139-1.303-4.932-.8379-6.697 1.023c-11.17 12.1-19.73 26.71-24.66 42.71c-.7441 2.512 .2793 5.117 2.42 6.326l19.17 11.17c-1.859 10.42-1.859 21.21 0 31.64l-19.17 11.17c-2.234 1.209-3.164 3.816-2.42 6.328c4.932 16.01 13.49 30.52 24.66 42.71c1.766 1.863 4.467 2.328 6.697 1.025l19.26-11.07c8.094 6.887 17.4 12.28 27.45 15.82v22.24c0 2.514 1.77 4.746 4.188 5.211c16.66 3.723 33.5 3.629 49.32 0c2.42-.4648 4.281-2.697 4.281-5.211v-22.24c10.05-3.535 19.36-8.932 27.45-15.82l19.17 11.07c2.141 1.303 5.025 .8379 6.699-1.025c11.17-12.1 19.73-26.7 24.75-42.71c.7441-2.512-.2773-5.119-2.512-6.328l-19.17-11.17c1.953-10.42 1.953-21.22 0-31.64l19.17-11.17C618.7 371.8 619.7 369.2 618.1 366.7zM512 432c-17.67 0-32-14.33-32-32c0-17.67 14.33-32 32-32s32 14.33 32 32C544 417.7 529.7 432 512 432z"]
 };
 var faUsersCog = faUsersGear;
+var faUsersLine = {
+  prefix: 'fas',
+  iconName: 'users-line',
+  icon: [640, 512, [], "e592", "M211.2 96C211.2 131.3 182.5 160 147.2 160C111.9 160 83.2 131.3 83.2 96C83.2 60.65 111.9 32 147.2 32C182.5 32 211.2 60.65 211.2 96zM32 256C32 220.7 60.65 192 96 192H192C204.2 192 215.7 195.4 225.4 201.4C188.2 216.5 159.8 248.6 149.6 288H64C46.33 288 32 273.7 32 256V256zM415.9 200.6C425.3 195.1 436.3 192 448 192H544C579.3 192 608 220.7 608 256C608 273.7 593.7 288 576 288H493.6C483.2 247.9 453.1 215.4 415.9 200.6zM391.2 226.4C423.3 233.8 449.3 257.3 460.1 288C463.7 298 465.6 308.8 465.6 320C465.6 337.7 451.3 352 433.6 352H209.6C191.9 352 177.6 337.7 177.6 320C177.6 308.8 179.5 298 183.1 288C193.6 258.3 218.3 235.2 249.1 227.1C256.1 225.1 265.1 224 273.6 224H369.6C377 224 384.3 224.8 391.2 226.4zM563.2 96C563.2 131.3 534.5 160 499.2 160C463.9 160 435.2 131.3 435.2 96C435.2 60.65 463.9 32 499.2 32C534.5 32 563.2 60.65 563.2 96zM241.6 112C241.6 67.82 277.4 32 321.6 32C365.8 32 401.6 67.82 401.6 112C401.6 156.2 365.8 192 321.6 192C277.4 192 241.6 156.2 241.6 112zM608 416C625.7 416 640 430.3 640 448C640 465.7 625.7 480 608 480H32C14.33 480 0 465.7 0 448C0 430.3 14.33 416 32 416H608z"]
+};
+var faUsersRays = {
+  prefix: 'fas',
+  iconName: 'users-rays',
+  icon: [640, 512, [], "e593", "M112.1 79.03C122.3 88.4 122.3 103.6 112.1 112.1C103.6 122.3 88.4 122.3 79.03 112.1L7.029 40.97C-2.343 31.6-2.343 16.4 7.029 7.029C16.4-2.343 31.6-2.343 40.97 7.029L112.1 79.03zM599 7.029C608.4-2.343 623.6-2.343 632.1 7.029C642.3 16.4 642.3 31.6 632.1 40.97L560.1 112.1C551.6 122.3 536.4 122.3 527 112.1C517.7 103.6 517.7 88.4 527 79.03L599 7.029zM7.029 471L79.03 399C88.4 389.7 103.6 389.7 112.1 399C122.3 408.4 122.3 423.6 112.1 432.1L40.97 504.1C31.6 514.3 16.4 514.3 7.029 504.1C-2.343 495.6-2.343 480.4 7.029 471V471zM527 432.1C517.7 423.6 517.7 408.4 527 399C536.4 389.7 551.6 389.7 560.1 399L632.1 471C642.3 480.4 642.3 495.6 632.1 504.1C623.6 514.3 608.4 514.3 599 504.1L527 432.1zM256 192C256 156.7 284.7 128 320 128C355.3 128 384 156.7 384 192C384 227.3 355.3 256 320 256C284.7 256 256 227.3 256 192zM265.5 289.5C266.3 289.3 267.1 289.1 267.1 288.1C271.9 288.3 275.9 288 280 288H360C364.1 288 368.1 288.3 372 288.1C396.6 293.1 416.9 309.7 426.3 331.1C426.9 333.3 427.4 334.6 427.9 336C430.6 343.5 432 351.6 432 360C432 373.3 421.3 384 408 384H232C218.7 384 208 373.3 208 360C208 351.6 209.4 343.5 212.1 336C220.4 312.5 240.6 294.6 265.5 289.5V289.5zM127.8 176C127.8 149.5 149.3 128 175.8 128C202.3 128 223.8 149.5 223.8 176C223.8 202.5 202.3 224 175.8 224C149.3 224 127.8 202.5 127.8 176V176zM218.7 256C227.8 256 236.5 258.3 244 262.4C211.6 274.3 186.8 301.9 178.8 336H122.7C107.9 336 96 324.1 96 309.3C96 279.9 119.9 256 149.3 256H218.7zM517.3 336H461.2C453.2 301.9 428.4 274.3 395.1 262.4C403.5 258.3 412.2 256 421.3 256H490.7C520.1 256 544 279.9 544 309.3C544 324.1 532.1 336 517.3 336H517.3zM416 176C416 149.5 437.5 128 464 128C490.5 128 512 149.5 512 176C512 202.5 490.5 224 464 224C437.5 224 416 202.5 416 176z"]
+};
+var faUsersRectangle = {
+  prefix: 'fas',
+  iconName: 'users-rectangle',
+  icon: [640, 512, [], "e594", "M223.8 176C223.8 202.5 202.3 224 175.8 224C149.3 224 127.8 202.5 127.8 176C127.8 149.5 149.3 128 175.8 128C202.3 128 223.8 149.5 223.8 176zM96 309.3C96 279.9 119.9 256 149.3 256H218.7C227.8 256 236.5 258.3 244 262.4C211.6 274.3 186.8 301.9 178.8 336H122.7C107.9 336 96 324.1 96 309.3H96zM395.1 262.4C403.5 258.3 412.2 256 421.3 256H490.7C520.1 256 544 279.9 544 309.3C544 324.1 532.1 336 517.3 336H461.2C453.2 301.9 428.4 274.3 395.1 262.4H395.1zM372 288.1C398 293.4 419.3 311.7 427.9 336C430.6 343.5 432 351.6 432 360C432 373.3 421.3 384 408 384H232C218.7 384 208 373.3 208 360C208 351.6 209.4 343.5 212.1 336C220.7 311.7 241.1 293.4 267.1 288.1C271.9 288.3 275.9 288 280 288H360C364.1 288 368.1 288.3 372 288.1V288.1zM512 176C512 202.5 490.5 224 464 224C437.5 224 416 202.5 416 176C416 149.5 437.5 128 464 128C490.5 128 512 149.5 512 176zM256 192C256 156.7 284.7 128 320 128C355.3 128 384 156.7 384 192C384 227.3 355.3 256 320 256C284.7 256 256 227.3 256 192zM544 0C597 0 640 42.98 640 96V416C640 469 597 512 544 512H96C42.98 512 0 469 0 416V96C0 42.98 42.98 0 96 0H544zM64 416C64 433.7 78.33 448 96 448H544C561.7 448 576 433.7 576 416V96C576 78.33 561.7 64 544 64H96C78.33 64 64 78.33 64 96V416z"]
+};
 var faUsersSlash = {
   prefix: 'fas',
   iconName: 'users-slash',
   icon: [640, 512, [], "e073", "M512 160c44.18 0 80-35.82 80-80S556.2 0 512 0c-44.18 0-80 35.82-80 80S467.8 160 512 160zM490.1 192c-12.8 0-24.88 3.037-35.86 8.24C454.8 205.5 455.8 210.6 455.8 216c0 33.71-12.78 64.21-33.16 88h199.7C632.1 304 640 295.6 640 285.3C640 233.8 600.6 192 551.9 192H490.1zM396.6 285.5C413.4 267.2 423.8 242.9 423.8 216c0-57.44-46.54-104-103.1-104c-35.93 0-67.07 18.53-85.59 46.3L193.1 126.1C202.4 113.1 208 97.24 208 80C208 35.82 172.2 0 128 0C103.8 0 82.52 10.97 67.96 27.95L38.81 5.109C34.41 1.672 29.19 0 24.03 0C16.91 0 9.846 3.156 5.127 9.188C-3.061 19.62-1.248 34.72 9.189 42.89l591.1 463.1c10.5 8.203 25.56 6.328 33.69-4.078c8.188-10.44 6.375-25.53-4.062-33.7L396.6 285.5zM270.1 352C191.6 352 128 411.7 128 485.3C128 500.1 140.7 512 156.4 512h327.2c11.62 0 21.54-6.583 25.95-15.96L325.7 352H270.1zM186.1 243.2L121.6 192H88.08C39.44 192 0 233.8 0 285.3C0 295.6 7.887 304 17.62 304h199.5C202.4 286.8 191.8 266.1 186.1 243.2z"]
+};
+var faUsersViewfinder = {
+  prefix: 'fas',
+  iconName: 'users-viewfinder',
+  icon: [640, 512, [], "e595", "M48 136C48 149.3 37.25 160 24 160C10.75 160 0 149.3 0 136V32C0 14.33 14.33 0 32 0H136C149.3 0 160 10.75 160 24C160 37.25 149.3 48 136 48H48V136zM127.8 176C127.8 149.5 149.3 128 175.8 128C202.3 128 223.8 149.5 223.8 176C223.8 202.5 202.3 224 175.8 224C149.3 224 127.8 202.5 127.8 176V176zM218.7 256C227.8 256 236.5 258.3 244 262.4C211.6 274.3 186.8 301.9 178.8 336H122.7C107.9 336 96 324.1 96 309.3C96 279.9 119.9 256 149.3 256H218.7zM517.3 336H461.2C453.2 301.9 428.4 274.3 395.1 262.4C403.5 258.3 412.2 256 421.3 256H490.7C520.1 256 544 279.9 544 309.3C544 324.1 532.1 336 517.3 336H517.3zM432 360C432 373.3 421.3 384 408 384H232C218.7 384 208 373.3 208 360C208 351.6 209.4 343.5 212.1 336C220.7 311.7 241.1 293.4 267.1 288.1C271.9 288.3 275.9 288 280 288H360C364.1 288 368.1 288.3 372 288.1C398 293.4 419.3 311.7 427.9 336C430.6 343.5 432 351.6 432 360zM416 176C416 149.5 437.5 128 464 128C490.5 128 512 149.5 512 176C512 202.5 490.5 224 464 224C437.5 224 416 202.5 416 176zM384 192C384 227.3 355.3 256 320 256C284.7 256 256 227.3 256 192C256 156.7 284.7 128 320 128C355.3 128 384 156.7 384 192zM480 24C480 10.75 490.7 0 504 0H608C625.7 0 640 14.33 640 32V136C640 149.3 629.3 160 616 160C602.7 160 592 149.3 592 136V48H504C490.7 48 480 37.25 480 24zM48 464H136C149.3 464 160 474.7 160 488C160 501.3 149.3 512 136 512H32C14.33 512 0 497.7 0 480V376C0 362.7 10.75 352 24 352C37.25 352 48 362.7 48 376V464zM504 464H592V376C592 362.7 602.7 352 616 352C629.3 352 640 362.7 640 376V480C640 497.7 625.7 512 608 512H504C490.7 512 480 501.3 480 488C480 474.7 490.7 464 504 464z"]
 };
 var faUtensils = {
   prefix: 'fas',
@@ -14622,6 +16170,16 @@ var faVial = {
   iconName: 'vial',
   icon: [512, 512, [129514], "f492", "M502.6 169.4l-160-160C336.4 3.125 328.2 0 320 0s-16.38 3.125-22.62 9.375c-12.5 12.5-12.5 32.75 0 45.25l6.975 6.977l-271.4 271c-38.75 38.75-45.13 102-9.375 143.5C44.08 500 72.76 512 101.5 512h.4473c26.38 0 52.75-9.1 72.88-30.12l275.2-274.6l7.365 7.367C463.6 220.9 471.8 224 480 224s16.38-3.125 22.62-9.375C515.1 202.1 515.1 181.9 502.6 169.4zM310.6 256H200.2l149.3-149.1l55.18 55.12L310.6 256z"]
 };
+var faVialCircleCheck = {
+  prefix: 'fas',
+  iconName: 'vial-circle-check',
+  icon: [512, 512, [], "e596", "M0 64C0 46.33 14.33 32 32 32H224C241.7 32 256 46.33 256 64C256 81.67 241.7 96 224 96V266.8C203.8 295.4 192 330.3 192 368C192 393.2 197.3 417.1 206.8 438.8C189.5 463.7 160.6 480 128 480C74.98 480 32 437 32 384V96C14.33 96 0 81.67 0 64V64zM96 192H160V96H96V192zM512 368C512 447.5 447.5 512 368 512C288.5 512 224 447.5 224 368C224 288.5 288.5 224 368 224C447.5 224 512 288.5 512 368zM412.7 324.7L352 385.4L323.3 356.7C317.1 350.4 306.9 350.4 300.7 356.7C294.4 362.9 294.4 373.1 300.7 379.3L340.7 419.3C346.9 425.6 357.1 425.6 363.3 419.3L435.3 347.3C441.6 341.1 441.6 330.9 435.3 324.7C429.1 318.4 418.9 318.4 412.7 324.7H412.7z"]
+};
+var faVialVirus = {
+  prefix: 'fas',
+  iconName: 'vial-virus',
+  icon: [576, 512, [], "e597", "M256 32C273.7 32 288 46.33 288 64C288 81.67 273.7 96 256 96V207.1C252.9 209.1 249.9 211.5 247.2 214.2C225.3 236.1 225.3 271.6 247.2 293.4C247.4 293.6 247.4 293.7 247.5 293.8L247.5 293.8C247.5 293.9 247.5 294.1 247.4 294.4C247.3 294.6 247.1 294.8 247.1 294.8L247 294.9C246.1 294.9 246.8 294.9 246.6 294.9C215.7 294.9 190.6 319.1 190.6 350.9C190.6 381.8 215.7 406.9 246.6 406.9C246.8 406.9 246.1 406.9 247 406.9L247.1 406.9C247.1 406.1 247.3 407.1 247.4 407.4C247.5 407.7 247.5 407.9 247.5 407.1L247.5 408C247.4 408.1 247.4 408.2 247.2 408.3C236 419.5 230.6 434.2 230.8 448.8C213.3 467.1 188 480 160 480C106.1 480 64 437 64 384V96C46.33 96 32 81.67 32 64C32 46.33 46.33 32 64 32H256zM192 192V96H128V192H192zM383.8 189.7C397.1 189.7 407.8 200.4 407.8 213.7C407.8 242.9 443.2 257.6 463.9 236.9C473.3 227.5 488.5 227.5 497.8 236.9C507.2 246.2 507.2 261.4 497.8 270.8C477.2 291.5 491.8 326.9 521.1 326.9C534.3 326.9 545.1 337.6 545.1 350.9C545.1 364.1 534.3 374.9 521.1 374.9C491.8 374.9 477.2 410.3 497.8 430.9C507.2 440.3 507.2 455.5 497.8 464.9C488.5 474.3 473.3 474.3 463.9 464.9C443.2 444.2 407.8 458.9 407.8 488.1C407.8 501.4 397.1 512.1 383.8 512.1C370.6 512.1 359.8 501.4 359.8 488.1C359.8 458.9 324.5 444.2 303.8 464.9C294.4 474.3 279.2 474.3 269.8 464.9C260.5 455.5 260.5 440.3 269.8 430.9C290.5 410.3 275.9 374.9 246.6 374.9C233.4 374.9 222.6 364.1 222.6 350.9C222.6 337.6 233.4 326.9 246.6 326.9C275.9 326.9 290.5 291.5 269.8 270.8C260.5 261.4 260.5 246.2 269.8 236.9C279.2 227.5 294.4 227.5 303.8 236.9C324.5 257.6 359.8 242.9 359.8 213.7C359.8 200.4 370.6 189.7 383.8 189.7H383.8zM352 352C369.7 352 384 337.7 384 320C384 302.3 369.7 288 352 288C334.3 288 320 302.3 320 320C320 337.7 334.3 352 352 352zM416 360C402.7 360 392 370.7 392 384C392 397.3 402.7 408 416 408C429.3 408 440 397.3 440 384C440 370.7 429.3 360 416 360z"]
+};
 var faVials = {
   prefix: 'fas',
   iconName: 'vials',
@@ -14646,7 +16204,7 @@ var faVihara = {
 var faVirus = {
   prefix: 'fas',
   iconName: 'virus',
-  icon: [576, 512, [], "e074", "M515.6 227.6h-21.55c-50.68 0-76.06-61.28-40.23-97.12l15.25-15.25c11.11-11.11 11.11-29.11 .001-40.22c-11.11-11.11-29.11-11.11-40.22 .001l-15.24 15.24c-35.84 35.84-97.12 10.46-97.12-40.23V28.44c0-15.72-12.72-28.44-28.45-28.44S259.6 12.72 259.6 28.44v21.55c0 50.68-61.28 76.06-97.12 40.23L147.2 74.97C136.1 63.86 118.1 63.86 106.1 74.97c-11.11 11.11-11.11 29.11 .001 40.22l15.25 15.25C158.1 166.3 132.7 227.6 81.99 227.6H60.45C44.72 227.6 32 240.3 32 256s12.72 28.44 28.45 28.44h21.55c50.68 0 76.06 61.28 40.23 97.12l-15.25 15.25c-11.11 11.11-11.11 29.11-.001 40.22c5.555 5.555 12.83 8.333 20.11 8.333c7.277 0 14.55-2.779 20.11-8.334l15.24-15.25c35.84-35.84 97.12-10.46 97.12 40.23v21.55c0 15.72 12.72 28.45 28.45 28.45s28.45-12.72 28.45-28.45v-21.55c0-50.68 61.28-76.06 97.12-40.23l15.24 15.25c5.557 5.555 12.83 8.334 20.11 8.334c7.279 0 14.56-2.778 20.11-8.333c11.11-11.11 11.11-29.11-.001-40.22l-15.25-15.25c-35.84-35.84-10.46-97.12 40.23-97.12h21.55C531.3 284.4 544 271.7 544 256S531.3 227.6 515.6 227.6zM256 272c-26.51 0-48-21.49-48-48s21.49-48 48-48s48 21.49 48 48S282.5 272 256 272zM336 328c-13.25 0-24-10.75-24-24c0-13.26 10.75-23.1 24-23.1s24 10.74 24 24C360 317.3 349.3 328 336 328z"]
+  icon: [512, 512, [], "e074", "M288 43.55C288 93.44 348.3 118.4 383.6 83.15L391.8 74.98C404.3 62.48 424.5 62.48 437 74.98C449.5 87.48 449.5 107.7 437 120.2L428.9 128.4C393.6 163.7 418.6 224 468.5 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H468.5C418.6 288 393.6 348.3 428.9 383.6L437 391.8C449.5 404.3 449.5 424.5 437 437C424.5 449.5 404.3 449.5 391.8 437L383.6 428.9C348.3 393.6 288 418.6 288 468.5V480C288 497.7 273.7 512 256 512C238.3 512 224 497.7 224 480V468.5C224 418.6 163.7 393.6 128.4 428.9L120.2 437C107.7 449.5 87.48 449.5 74.98 437C62.48 424.5 62.48 404.3 74.98 391.8L83.15 383.6C118.4 348.3 93.44 288 43.55 288H32C14.33 288 0 273.7 0 256C0 238.3 14.33 224 32 224H43.55C93.44 224 118.4 163.7 83.15 128.4L74.98 120.2C62.48 107.7 62.48 87.48 74.98 74.98C87.48 62.48 107.7 62.48 120.2 74.98L128.4 83.15C163.7 118.4 224 93.44 224 43.55V32C224 14.33 238.3 0 256 0C273.7 0 288 14.33 288 32V43.55zM224 176C197.5 176 176 197.5 176 224C176 250.5 197.5 272 224 272C250.5 272 272 250.5 272 224C272 197.5 250.5 176 224 176zM304 328C317.3 328 328 317.3 328 304C328 290.7 317.3 280 304 280C290.7 280 280 290.7 280 304C280 317.3 290.7 328 304 328z"]
 };
 var faVirusCovid = {
   prefix: 'fas',
@@ -14672,6 +16230,11 @@ var faVoicemail = {
   prefix: 'fas',
   iconName: 'voicemail',
   icon: [640, 512, [], "f897", "M495.1 96c-53.13 0-102 29.25-127 76.13c-25 46.88-22.25 103.8 7.25 147.9H263.7c36.63-54.88 31.25-127.8-13-176.8c-44.38-48.87-116.4-61.37-174.6-30.25s-87.88 97.88-71.75 162c16 64 73.63 108.1 139.6 108.1h352C575.5 384 640 319.5 640 240S575.5 96 495.1 96zM63.99 240c0-44.12 35.88-80 80-80s80 35.88 80 80s-35.88 79.1-80 79.1S63.99 284.1 63.99 240zM495.1 320c-44.13 0-80-35.88-80-79.1s35.88-80 80-80s80 35.88 80 80S540.1 320 495.1 320z"]
+};
+var faVolcano = {
+  prefix: 'fas',
+  iconName: 'volcano',
+  icon: [512, 512, [127755], "f770", "M304.4 224H207.6C197.7 224 188.5 228.5 182.4 236.3l-55.63 71l13.25 16.5C149.7 336 170.2 336 180.1 323.8c10.75-13.5 26.75-21.25 44.13-21.5c17.13-1.5 33.5 7 44.75 20l31.63 36.88c9.751 11.38 29.13 11.38 39 0l45.13-52.62l-55-70.25C323.5 228.5 314.3 224 304.4 224zM159.1 144c12.88 0 24.75-3.875 34.75-10.38L223.1 192h64l29.25-58.38C327.3 140.1 339.1 144 352 144c35.25 0 64-28.75 64-64s-28.75-64-64-64c-15.75 0-30 5.875-41.25 15.38C299.6 12.75 279.4 0 255.1 0C232.6 0 212.4 12.75 201.2 31.38C189.1 21.88 175.7 16 159.1 16c-35.25 0-64 28.75-64 64S124.7 144 159.1 144zM505.5 460.8l-100.8-128.6l-41 47.63C352.8 392.6 336.8 400 320 400s-32.75-7.25-43.75-20.25L244.6 343C239.7 337.3 232.6 334 225.1 334H224.7c-7.751 .25-14.88 3.75-19.63 9.75c-22.13 27.5-68.13 27.5-90.13 0l-8.376-10.62l-100.1 127.6C-9.397 481.9 5.727 512 32.1 512h447.9C506.3 512 521.4 481.9 505.5 460.8z"]
 };
 var faVolleyball = {
   prefix: 'fas',
@@ -14712,6 +16275,11 @@ var faW = {
   prefix: 'fas',
   iconName: 'w',
   icon: [576, 512, [119], "57", "M573.1 75.25l-144 384c-4.703 12.53-16.67 20.77-29.95 20.77c-.4062 0-.8125 0-1.219-.0156c-13.77-.5156-25.66-9.797-29.52-23.03L288 178.3l-81.28 278.7c-3.859 13.23-15.75 22.52-29.52 23.03c-13.75 .4687-26.33-7.844-31.17-20.75l-144-384c-6.203-16.55 2.188-34.98 18.73-41.2C37.31 27.92 55.75 36.23 61.97 52.78l110.2 293.1l85.08-291.7C261.3 41.41 273.8 32.01 288 32.01s26.73 9.396 30.72 23.05l85.08 291.7l110.2-293.1c6.219-16.55 24.67-24.86 41.2-18.73C571.8 40.26 580.2 58.7 573.1 75.25z"]
+};
+var faWalkieTalkie = {
+  prefix: 'fas',
+  iconName: 'walkie-talkie',
+  icon: [384, 512, [], "f8ef", "M352 96h-32V80C320 71.16 312.8 64 304 64h-32C263.2 64 256 71.16 256 80V96h-32V80C224 71.16 216.8 64 208 64h-32C167.2 64 160 71.16 160 80V96H112V23.1C112 10.74 101.3 0 88 0S64 10.74 64 23.1V96H32C14.4 96 0 110.4 0 128v178.7c0 8.484 3.373 16.62 9.371 22.62L32 352v112C32 490.5 53.49 512 80 512h224c26.51 0 48-21.49 48-48V352l22.63-22.63C380.6 323.4 384 315.2 384 306.7V128C384 110.4 369.6 96 352 96zM288 312C288 316.4 284.4 320 280 320h-176C99.63 320 96 316.4 96 312v-16C96 291.6 99.63 288 104 288h176C284.4 288 288 291.6 288 296V312zM288 248C288 252.4 284.4 256 280 256h-176C99.63 256 96 252.4 96 248v-16C96 227.6 99.63 224 104 224h176C284.4 224 288 227.6 288 232V248zM288 184C288 188.4 284.4 192 280 192h-176C99.63 192 96 188.4 96 184v-16C96 163.6 99.63 160 104 160h176C284.4 160 288 163.6 288 168V184z"]
 };
 var faWallet = {
   prefix: 'fas',
@@ -14768,11 +16336,28 @@ var faWeightScale = {
   icon: [512, 512, ["weight"], "f496", "M310.3 97.25c-8-3.5-17.5 .25-21 8.5L255.8 184C233.8 184.3 216 202 216 224c0 22.12 17.88 40 40 40S296 246.1 296 224c0-10.5-4.25-20-11-27.12l33.75-78.63C322.3 110.1 318.4 100.8 310.3 97.25zM448 64h-56.23C359.5 24.91 310.7 0 256 0S152.5 24.91 120.2 64H64C28.75 64 0 92.75 0 128v320c0 35.25 28.75 64 64 64h384c35.25 0 64-28.75 64-64V128C512 92.75 483.3 64 448 64zM256 304c-70.58 0-128-57.42-128-128s57.42-128 128-128c70.58 0 128 57.42 128 128S326.6 304 256 304z"]
 };
 var faWeight = faWeightScale;
+var faWheatAwn = {
+  prefix: 'fas',
+  iconName: 'wheat-awn',
+  icon: [512, 512, ["wheat-alt"], "e2cd", "M416.1 128.1C407.6 138.3 392.4 138.3 383 128.1C373.7 119.6 373.7 104.4 383 95.03L471 7.029C480.4-2.343 495.6-2.343 504.1 7.029C514.3 16.4 514.3 31.6 504.1 40.97L416.1 128.1zM327.2 230.1L295.3 261.1C323.8 264.7 351.5 277 373.4 298.8L395.1 321.5L373.4 344.1C335.9 381.6 275.1 381.6 237.6 344.1L225.4 331.9L193.5 363.8C221.1 366.5 249.7 378.8 271.5 400.7L294.2 423.3L271.5 445.9C234 483.4 173.3 483.4 135.8 445.9L123.5 433.7L54.63 502.6C42.13 515.1 21.87 515.1 9.372 502.6C-3.124 490.1-3.124 469.9 9.372 457.4L78.29 388.5L67.88 378C30.39 340.6 30.39 279.8 67.88 242.3L90.51 219.6L113.1 242.3C134.1 263.3 146.3 289.7 149.7 317.1L180.1 286.6L169.7 276.2C132.2 238.7 132.2 177.9 169.7 140.5L192.3 117.8L214.1 140.5C235.1 161.4 248.1 187.9 251.5 215.3L281.9 184.8L271.5 174.4C234 136.9 234 76.12 271.5 38.63L294.2 16L316.8 38.63C321.3 43.15 325.4 47.94 329.1 52.93L375 7.03C384.4-2.343 399.6-2.343 408.1 7.03C418.3 16.4 418.3 31.6 408.1 40.97L350.7 99.2C355.9 120.7 355.4 143.2 349.3 164.5C369.6 158.7 391.1 157.1 411.7 162.4L471 103C480.4 93.66 495.6 93.66 504.1 103C514.3 112.4 514.3 127.6 504.1 136.1L458.8 183.2C464.5 187.2 470 191.9 475.2 197L497.8 219.6L475.2 242.3C437.7 279.8 376.9 279.8 339.4 242.3L327.2 230.1z"]
+};
+var faWheatAlt = faWheatAwn;
+var faWheatAwnCircleExclamation = {
+  prefix: 'fas',
+  iconName: 'wheat-awn-circle-exclamation',
+  icon: [640, 512, [], "e598", "M416.1 128.1C407.6 138.3 392.4 138.3 383 128.1C373.7 119.6 373.7 104.4 383 95.03L471 7.03C480.4-2.343 495.6-2.343 504.1 7.03C514.3 16.4 514.3 31.6 504.1 40.97L416.1 128.1zM327.2 230.1L295.3 261.1C312.5 263.6 329.5 268.8 345 277.4C329.1 303.9 320 334.9 320 368C320 369 320 370.1 320 371.1C290.9 375.6 260 366.6 237.6 344.1L225.4 331.9L193.5 363.8C221.1 366.5 249.7 378.8 271.5 400.7L294.2 423.3L271.5 445.9C234 483.4 173.3 483.4 135.8 445.9L123.5 433.7L54.63 502.6C42.13 515.1 21.87 515.1 9.372 502.6C-3.124 490.1-3.124 469.9 9.372 457.4L78.29 388.5L67.88 378C30.39 340.6 30.39 279.8 67.88 242.3L90.51 219.6L113.1 242.3C134.1 263.3 146.3 289.7 149.7 317.1L180.1 286.6L169.7 276.2C132.2 238.7 132.2 177.9 169.7 140.5L192.3 117.8L214.1 140.5C235.1 161.4 248.1 187.9 251.5 215.3L281.9 184.8L271.5 174.4C234 136.9 234 76.12 271.5 38.63L294.2 15.1L316.8 38.63C321.3 43.15 325.4 47.94 329.1 52.93L375 7.029C384.4-2.343 399.6-2.343 408.1 7.029C418.3 16.4 418.3 31.6 408.1 40.97L350.7 99.2C355.9 120.7 355.4 143.2 349.3 164.5C369.6 158.7 391.1 157.1 411.7 162.4L471 103C480.4 93.66 495.6 93.66 504.1 103C514.3 112.4 514.3 127.6 504.1 136.1L458.8 183.1C463.3 186.3 467.6 189.8 471.7 193.7C426.4 199.9 386.5 223.5 359.1 257.4C352 253.3 345.4 248.3 339.4 242.3L327.2 230.1zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM496 464C509.3 464 520 453.3 520 440C520 426.7 509.3 416 496 416C482.7 416 472 426.7 472 440C472 453.3 482.7 464 496 464zM479.1 288V368C479.1 376.8 487.2 384 495.1 384C504.8 384 511.1 376.8 511.1 368V288C511.1 279.2 504.8 272 495.1 272C487.2 272 479.1 279.2 479.1 288z"]
+};
 var faWheelchair = {
   prefix: 'fas',
   iconName: 'wheelchair',
   icon: [512, 512, [], "f193", "M510.3 421.9c-5.594-16.75-23.53-25.84-40.47-20.22l-19.38 6.438l-41.7-99.97C403.9 295.1 392.2 288 379.1 288h-97.78l-10.4-48h65.11c17.69 0 32-14.31 32-32s-14.31-32-32-32h-78.98L255.6 169.2C251.8 142.1 227.2 124.8 201.2 128.5C174.1 132.2 156.7 156.5 160.5 182.8l23.68 140.4C185.8 339.6 199.6 352 216 352h141.4l44.86 107.9C407.3 472.3 419.3 480 432 480c3.344 0 6.781-.5313 10.12-1.656l48-16C506.9 456.8 515.9 438.7 510.3 421.9zM160 464c-61.76 0-112-50.24-112-112c0-54.25 38.78-99.55 90.06-109.8L130.1 195C56.06 209 0 273.9 0 352c0 88.37 71.63 160 160 160c77.4 0 141.9-54.97 156.8-128h-49.1C252.9 430.1 210.6 464 160 464zM192 96c26.51 0 48-21.49 48-48S218.5 0 192 0S144 21.49 144 48S165.5 96 192 96z"]
 };
+var faWheelchairMove = {
+  prefix: 'fas',
+  iconName: 'wheelchair-move',
+  icon: [448, 512, ["wheelchair-alt"], "e2ce", "M416 48C416 74.51 394.5 96 368 96C341.5 96 320 74.51 320 48C320 21.49 341.5 0 368 0C394.5 0 416 21.49 416 48zM172.8 54.4C182.3 47.29 194.9 46 205.6 51.05L322.1 105.9C351.3 119.6 358.9 157.5 337.4 181.4L299.1 224H416C425.6 224 434.7 228.3 440.7 235.7C446.8 243.1 449.3 252.9 447.4 262.3L415.4 422.3C411.9 439.6 395.1 450.8 377.7 447.4C360.4 443.9 349.2 427.1 352.6 409.7L376.1 288H306.7C315.3 307.6 320 329.2 320 352C320 440.4 248.4 512 160 512C71.63 512 0 440.4 0 352C0 263.6 71.63 192 160 192C171.1 192 181.1 193.1 192.4 195.3L246.6 141.1L195.8 117.2L147.2 153.6C133.1 164.2 113 161.3 102.4 147.2C91.8 133.1 94.66 113 108.8 102.4L172.8 54.4zM160 448C213 448 256 405 256 352C256 298.1 213 256 160 256C106.1 256 64 298.1 64 352C64 405 106.1 448 160 448z"]
+};
+var faWheelchairAlt = faWheelchairMove;
 var faWhiskeyGlass = {
   prefix: 'fas',
   iconName: 'whiskey-glass',
@@ -14829,6 +16414,11 @@ var faWonSign = {
 };
 var faKrw = faWonSign;
 var faWon = faWonSign;
+var faWorm = {
+  prefix: 'fas',
+  iconName: 'worm',
+  icon: [512, 512, [], "e599", "M256 96C256 42.98 298.1 0 352 0H390.4C439.9 0 480 40.12 480 89.6V376C480 451.1 419.1 512 344 512C268.9 512 208 451.1 208 376V296C208 273.9 190.1 256 168 256C145.9 256 128 273.9 128 296V464C128 490.5 106.5 512 80 512C53.49 512 32 490.5 32 464V296C32 220.9 92.89 160 168 160C243.1 160 304 220.9 304 296V376C304 398.1 321.9 416 344 416C366.1 416 384 398.1 384 376V192H352C298.1 192 256 149 256 96zM376 64C362.7 64 352 74.75 352 88C352 101.3 362.7 112 376 112C389.3 112 400 101.3 400 88C400 74.75 389.3 64 376 64z"]
+};
 var faWrench = {
   prefix: 'fas',
   iconName: 'wrench',
@@ -14853,6 +16443,11 @@ var faClose = faXmark;
 var faMultiply = faXmark;
 var faRemove = faXmark;
 var faTimes = faXmark;
+var faXmarksLines = {
+  prefix: 'fas',
+  iconName: 'xmarks-lines',
+  icon: [640, 512, [], "e59a", "M608 32C625.7 32 640 46.33 640 64C640 81.67 625.7 96 608 96H32C14.33 96 0 81.67 0 64C0 46.33 14.33 32 32 32H608zM608 416C625.7 416 640 430.3 640 448C640 465.7 625.7 480 608 480H32C14.33 480 0 465.7 0 448C0 430.3 14.33 416 32 416H608zM7.029 167C16.4 157.7 31.6 157.7 40.97 167L96 222.1L151 167C160.4 157.7 175.6 157.7 184.1 167C194.3 176.4 194.3 191.6 184.1 200.1L129.9 256L184.1 311C194.3 320.4 194.3 335.6 184.1 344.1C175.6 354.3 160.4 354.3 151 344.1L96 289.9L40.97 344.1C31.6 354.3 16.4 354.3 7.029 344.1C-2.343 335.6-2.343 320.4 7.029 311L62.06 256L7.029 200.1C-2.343 191.6-2.343 176.4 7.029 167V167zM320 222.1L375 167C384.4 157.7 399.6 157.7 408.1 167C418.3 176.4 418.3 191.6 408.1 200.1L353.9 256L408.1 311C418.3 320.4 418.3 335.6 408.1 344.1C399.6 354.3 384.4 354.3 375 344.1L320 289.9L264.1 344.1C255.6 354.3 240.4 354.3 231 344.1C221.7 335.6 221.7 320.4 231 311L286.1 256L231 200.1C221.7 191.6 221.7 176.4 231 167C240.4 157.7 255.6 157.7 264.1 167L320 222.1zM455 167C464.4 157.7 479.6 157.7 488.1 167L544 222.1L599 167C608.4 157.7 623.6 157.7 632.1 167C642.3 176.4 642.3 191.6 632.1 200.1L577.9 256L632.1 311C642.3 320.4 642.3 335.6 632.1 344.1C623.6 354.3 608.4 354.3 599 344.1L544 289.9L488.1 344.1C479.6 354.3 464.4 354.3 455 344.1C445.7 335.6 445.7 320.4 455 311L510.1 256L455 200.1C445.7 191.6 445.7 176.4 455 167V167z"]
+};
 var faY = {
   prefix: 'fas',
   iconName: 'y',
@@ -14899,6 +16494,10 @@ var _iconsCache = {
   faAlignLeft: faAlignLeft,
   faAlignRight: faAlignRight,
   faAnchor: faAnchor,
+  faAnchorCircleCheck: faAnchorCircleCheck,
+  faAnchorCircleExclamation: faAnchorCircleExclamation,
+  faAnchorCircleXmark: faAnchorCircleXmark,
+  faAnchorLock: faAnchorLock,
   faAngleDown: faAngleDown,
   faAngleLeft: faAngleLeft,
   faAngleRight: faAngleRight,
@@ -14930,6 +16529,8 @@ var _iconsCache = {
   faArrowDownShortWide: faArrowDownShortWide,
   faSortAmountDesc: faSortAmountDesc,
   faSortAmountDownAlt: faSortAmountDownAlt,
+  faArrowDownUpAcrossLine: faArrowDownUpAcrossLine,
+  faArrowDownUpLock: faArrowDownUpLock,
   faArrowDownWideShort: faArrowDownWideShort,
   faSortAmountAsc: faSortAmountAsc,
   faSortAmountDown: faSortAmountDown,
@@ -14950,6 +16551,7 @@ var _iconsCache = {
   faLongArrowRight: faLongArrowRight,
   faArrowRightToBracket: faArrowRightToBracket,
   faSignIn: faSignIn,
+  faArrowRightToCity: faArrowRightToCity,
   faArrowRotateLeft: faArrowRotateLeft,
   faArrowLeftRotate: faArrowLeftRotate,
   faArrowRotateBack: faArrowRotateBack,
@@ -14973,8 +16575,11 @@ var _iconsCache = {
   faArrowUpAZ: faArrowUpAZ,
   faSortAlphaUp: faSortAlphaUp,
   faArrowUpFromBracket: faArrowUpFromBracket,
+  faArrowUpFromGroundWater: faArrowUpFromGroundWater,
+  faArrowUpFromWaterPump: faArrowUpFromWaterPump,
   faArrowUpLong: faArrowUpLong,
   faLongArrowUp: faLongArrowUp,
+  faArrowUpRightDots: faArrowUpRightDots,
   faArrowUpRightFromSquare: faArrowUpRightFromSquare,
   faExternalLink: faExternalLink,
   faArrowUpShortWide: faArrowUpShortWide,
@@ -14983,15 +16588,26 @@ var _iconsCache = {
   faSortAmountUp: faSortAmountUp,
   faArrowUpZA: faArrowUpZA,
   faSortAlphaUpAlt: faSortAlphaUpAlt,
+  faArrowsDownToLine: faArrowsDownToLine,
+  faArrowsDownToPeople: faArrowsDownToPeople,
   faArrowsLeftRight: faArrowsLeftRight,
   faArrowsH: faArrowsH,
+  faArrowsLeftRightToLine: faArrowsLeftRightToLine,
   faArrowsRotate: faArrowsRotate,
   faRefresh: faRefresh,
   faSync: faSync,
+  faArrowsSpin: faArrowsSpin,
+  faArrowsSplitUpAndLeft: faArrowsSplitUpAndLeft,
+  faArrowsToCircle: faArrowsToCircle,
+  faArrowsToDot: faArrowsToDot,
+  faArrowsToEye: faArrowsToEye,
+  faArrowsTurnRight: faArrowsTurnRight,
+  faArrowsTurnToDots: faArrowsTurnToDots,
   faArrowsUpDown: faArrowsUpDown,
   faArrowsV: faArrowsV,
   faArrowsUpDownLeftRight: faArrowsUpDownLeftRight,
   faArrows: faArrows,
+  faArrowsUpToLine: faArrowsUpToLine,
   faAsterisk: faAsterisk,
   faAt: faAt,
   faAtom: faAtom,
@@ -15077,6 +16693,7 @@ var _iconsCache = {
   faAtlas: faAtlas,
   faBookBible: faBookBible,
   faBible: faBible,
+  faBookBookmark: faBookBookmark,
   faBookJournalWhills: faBookJournalWhills,
   faJournalWhills: faJournalWhills,
   faBookMedical: faBookMedical,
@@ -15092,12 +16709,18 @@ var _iconsCache = {
   faBorderNone: faBorderNone,
   faBorderTopLeft: faBorderTopLeft,
   faBorderStyle: faBorderStyle,
+  faBoreHole: faBoreHole,
+  faBottleDroplet: faBottleDroplet,
+  faBottleWater: faBottleWater,
+  faBowlFood: faBowlFood,
+  faBowlRice: faBowlRice,
   faBowlingBall: faBowlingBall,
   faBox: faBox,
   faBoxArchive: faBoxArchive,
   faArchive: faArchive,
   faBoxOpen: faBoxOpen,
   faBoxTissue: faBoxTissue,
+  faBoxesPacking: faBoxesPacking,
   faBoxesStacked: faBoxesStacked,
   faBoxes: faBoxes,
   faBoxesAlt: faBoxesAlt,
@@ -15105,6 +16728,12 @@ var _iconsCache = {
   faBrain: faBrain,
   faBrazilianRealSign: faBrazilianRealSign,
   faBreadSlice: faBreadSlice,
+  faBridge: faBridge,
+  faBridgeCircleCheck: faBridgeCircleCheck,
+  faBridgeCircleExclamation: faBridgeCircleExclamation,
+  faBridgeCircleXmark: faBridgeCircleXmark,
+  faBridgeLock: faBridgeLock,
+  faBridgeWater: faBridgeWater,
   faBriefcase: faBriefcase,
   faBriefcaseMedical: faBriefcaseMedical,
   faBroom: faBroom,
@@ -15112,18 +16741,32 @@ var _iconsCache = {
   faQuidditch: faQuidditch,
   faQuidditchBroomBall: faQuidditchBroomBall,
   faBrush: faBrush,
+  faBucket: faBucket,
   faBug: faBug,
   faBugSlash: faBugSlash,
+  faBugs: faBugs,
   faBuilding: faBuilding,
+  faBuildingCircleArrowRight: faBuildingCircleArrowRight,
+  faBuildingCircleCheck: faBuildingCircleCheck,
+  faBuildingCircleExclamation: faBuildingCircleExclamation,
+  faBuildingCircleXmark: faBuildingCircleXmark,
   faBuildingColumns: faBuildingColumns,
   faBank: faBank,
   faInstitution: faInstitution,
   faMuseum: faMuseum,
   faUniversity: faUniversity,
+  faBuildingFlag: faBuildingFlag,
+  faBuildingLock: faBuildingLock,
+  faBuildingNgo: faBuildingNgo,
+  faBuildingShield: faBuildingShield,
+  faBuildingUn: faBuildingUn,
+  faBuildingUser: faBuildingUser,
+  faBuildingWheat: faBuildingWheat,
   faBullhorn: faBullhorn,
   faBullseye: faBullseye,
   faBurger: faBurger,
   faHamburger: faHamburger,
+  faBurst: faBurst,
   faBus: faBus,
   faBusSimple: faBusSimple,
   faBusAlt: faBusAlt,
@@ -15156,10 +16799,13 @@ var _iconsCache = {
   faAutomobile: faAutomobile,
   faCarBattery: faCarBattery,
   faBatteryCar: faBatteryCar,
+  faCarBurst: faCarBurst,
   faCarCrash: faCarCrash,
+  faCarOn: faCarOn,
   faCarRear: faCarRear,
   faCarAlt: faCarAlt,
   faCarSide: faCarSide,
+  faCarTunnel: faCarTunnel,
   faCaravan: faCaravan,
   faCaretDown: faCaretDown,
   faCaretLeft: faCaretLeft,
@@ -15197,6 +16843,7 @@ var _iconsCache = {
   faLineChart: faLineChart,
   faChartPie: faChartPie,
   faPieChart: faPieChart,
+  faChartSimple: faChartSimple,
   faCheck: faCheck,
   faCheckDouble: faCheckDouble,
   faCheckToSlot: faCheckToSlot,
@@ -15215,6 +16862,10 @@ var _iconsCache = {
   faChevronRight: faChevronRight,
   faChevronUp: faChevronUp,
   faChild: faChild,
+  faChildDress: faChildDress,
+  faChildReaching: faChildReaching,
+  faChildRifle: faChildRifle,
+  faChildren: faChildren,
   faChurch: faChurch,
   faCircle: faCircle,
   faCircleArrowDown: faCircleArrowDown,
@@ -15253,6 +16904,7 @@ var _iconsCache = {
   faArrowAltCircleLeft: faArrowAltCircleLeft,
   faCircleMinus: faCircleMinus,
   faMinusCircle: faMinusCircle,
+  faCircleNodes: faCircleNodes,
   faCircleNotch: faCircleNotch,
   faCirclePause: faCirclePause,
   faPauseCircle: faPauseCircle,
@@ -15280,6 +16932,8 @@ var _iconsCache = {
   faClipboard: faClipboard,
   faClipboardCheck: faClipboardCheck,
   faClipboardList: faClipboardList,
+  faClipboardQuestion: faClipboardQuestion,
+  faClipboardUser: faClipboardUser,
   faClock: faClock,
   faClockFour: faClockFour,
   faClockRotateLeft: faClockRotateLeft,
@@ -15293,11 +16947,14 @@ var _iconsCache = {
   faCloudArrowUp: faCloudArrowUp,
   faCloudUpload: faCloudUpload,
   faCloudUploadAlt: faCloudUploadAlt,
+  faCloudBolt: faCloudBolt,
+  faThunderstorm: faThunderstorm,
   faCloudMeatball: faCloudMeatball,
   faCloudMoon: faCloudMoon,
   faCloudMoonRain: faCloudMoonRain,
   faCloudRain: faCloudRain,
   faCloudShowersHeavy: faCloudShowersHeavy,
+  faCloudShowersWater: faCloudShowersWater,
   faCloudSun: faCloudSun,
   faCloudSunRain: faCloudSunRain,
   faClover: faClover,
@@ -15325,6 +16982,7 @@ var _iconsCache = {
   faCompassDrafting: faCompassDrafting,
   faDraftingCompass: faDraftingCompass,
   faCompress: faCompress,
+  faComputer: faComputer,
   faComputerMouse: faComputerMouse,
   faMouse: faMouse,
   faCookie: faCookie,
@@ -15332,6 +16990,7 @@ var _iconsCache = {
   faCopy: faCopy,
   faCopyright: faCopyright,
   faCouch: faCouch,
+  faCow: faCow,
   faCreditCard: faCreditCard,
   faCreditCardAlt: faCreditCardAlt,
   faCrop: faCrop,
@@ -15345,6 +17004,7 @@ var _iconsCache = {
   faCruzeiroSign: faCruzeiroSign,
   faCube: faCube,
   faCubes: faCubes,
+  faCubesStacked: faCubesStacked,
   faD: faD,
   faDatabase: faDatabase,
   faDeleteLeft: faDeleteLeft,
@@ -15371,6 +17031,7 @@ var _iconsCache = {
   faDiceThree: faDiceThree,
   faDiceTwo: faDiceTwo,
   faDisease: faDisease,
+  faDisplay: faDisplay,
   faDivide: faDivide,
   faDna: faDna,
   faDog: faDog,
@@ -15428,6 +17089,7 @@ var _iconsCache = {
   faEllipsisVertical: faEllipsisVertical,
   faEllipsisV: faEllipsisV,
   faEnvelope: faEnvelope,
+  faEnvelopeCircleCheck: faEnvelopeCircleCheck,
   faEnvelopeOpen: faEnvelopeOpen,
   faEnvelopeOpenText: faEnvelopeOpenText,
   faEnvelopesBulk: faEnvelopesBulk,
@@ -15440,6 +17102,7 @@ var _iconsCache = {
   faEuro: faEuro,
   faExclamation: faExclamation,
   faExpand: faExpand,
+  faExplosion: faExplosion,
   faEye: faEye,
   faEyeDropper: faEyeDropper,
   faEyeDropperEmpty: faEyeDropperEmpty,
@@ -15522,16 +17185,24 @@ var _iconsCache = {
   faTired: faTired,
   faFan: faFan,
   faFaucet: faFaucet,
+  faFaucetDrip: faFaucetDrip,
   faFax: faFax,
   faFeather: faFeather,
   faFeatherPointed: faFeatherPointed,
   faFeatherAlt: faFeatherAlt,
+  faFerry: faFerry,
   faFile: faFile,
   faFileArrowDown: faFileArrowDown,
   faFileDownload: faFileDownload,
   faFileArrowUp: faFileArrowUp,
   faFileUpload: faFileUpload,
   faFileAudio: faFileAudio,
+  faFileCircleCheck: faFileCircleCheck,
+  faFileCircleExclamation: faFileCircleExclamation,
+  faFileCircleMinus: faFileCircleMinus,
+  faFileCirclePlus: faFileCirclePlus,
+  faFileCircleQuestion: faFileCircleQuestion,
+  faFileCircleXmark: faFileCircleXmark,
   faFileCode: faFileCode,
   faFileContract: faFileContract,
   faFileCsv: faFileCsv,
@@ -15548,8 +17219,11 @@ var _iconsCache = {
   faFileText: faFileText,
   faFileMedical: faFileMedical,
   faFilePdf: faFilePdf,
+  faFilePen: faFilePen,
+  faFileEdit: faFileEdit,
   faFilePowerpoint: faFilePowerpoint,
   faFilePrescription: faFilePrescription,
+  faFileShield: faFileShield,
   faFileSignature: faFileSignature,
   faFileVideo: faFileVideo,
   faFileWaveform: faFileWaveform,
@@ -15566,20 +17240,25 @@ var _iconsCache = {
   faFilterCircleXmark: faFilterCircleXmark,
   faFingerprint: faFingerprint,
   faFire: faFire,
+  faFireBurner: faFireBurner,
   faFireExtinguisher: faFireExtinguisher,
   faFireFlameCurved: faFireFlameCurved,
   faFireAlt: faFireAlt,
   faFireFlameSimple: faFireFlameSimple,
   faBurn: faBurn,
   faFish: faFish,
+  faFishFins: faFishFins,
   faFlag: faFlag,
   faFlagCheckered: faFlagCheckered,
   faFlagUsa: faFlagUsa,
   faFlask: faFlask,
+  faFlaskVial: faFlaskVial,
   faFloppyDisk: faFloppyDisk,
   faSave: faSave,
   faFlorinSign: faFlorinSign,
   faFolder: faFolder,
+  faFolderBlank: faFolderBlank,
+  faFolderClosed: faFolderClosed,
   faFolderMinus: faFolderMinus,
   faFolderOpen: faFolderOpen,
   faFolderPlus: faFolderPlus,
@@ -15627,6 +17306,8 @@ var _iconsCache = {
   faGhost: faGhost,
   faGift: faGift,
   faGifts: faGifts,
+  faGlassWater: faGlassWater,
+  faGlassWaterDroplet: faGlassWaterDroplet,
   faGlasses: faGlasses,
   faGlobe: faGlobe,
   faGolfBallTee: faGolfBallTee,
@@ -15641,6 +17322,7 @@ var _iconsCache = {
   faGripLines: faGripLines,
   faGripLinesVertical: faGripLinesVertical,
   faGripVertical: faGripVertical,
+  faGroupArrowsRotate: faGroupArrowsRotate,
   faGuaraniSign: faGuaraniSign,
   faGuitar: faGuitar,
   faGun: faGun,
@@ -15660,6 +17342,7 @@ var _iconsCache = {
   faHandHoldingUsd: faHandHoldingUsd,
   faHandHoldingDroplet: faHandHoldingDroplet,
   faHandHoldingWater: faHandHoldingWater,
+  faHandHoldingHand: faHandHoldingHand,
   faHandHoldingHeart: faHandHoldingHeart,
   faHandHoldingMedical: faHandHoldingMedical,
   faHandLizard: faHandLizard,
@@ -15673,6 +17356,7 @@ var _iconsCache = {
   faHandScissors: faHandScissors,
   faHandSparkles: faHandSparkles,
   faHandSpock: faHandSpock,
+  faHandcuffs: faHandcuffs,
   faHands: faHands,
   faSignLanguage: faSignLanguage,
   faSigning: faSigning,
@@ -15680,15 +17364,20 @@ var _iconsCache = {
   faAmericanSignLanguageInterpreting: faAmericanSignLanguageInterpreting,
   faAslInterpreting: faAslInterpreting,
   faHandsAmericanSignLanguageInterpreting: faHandsAmericanSignLanguageInterpreting,
+  faHandsBound: faHandsBound,
   faHandsBubbles: faHandsBubbles,
   faHandsWash: faHandsWash,
   faHandsClapping: faHandsClapping,
   faHandsHolding: faHandsHolding,
+  faHandsHoldingChild: faHandsHoldingChild,
+  faHandsHoldingCircle: faHandsHoldingCircle,
   faHandsPraying: faHandsPraying,
   faPrayingHands: faPrayingHands,
   faHandshake: faHandshake,
   faHandshakeAngle: faHandshakeAngle,
   faHandsHelping: faHandsHelping,
+  faHandshakeSimple: faHandshakeSimple,
+  faHandshakeAlt: faHandshakeAlt,
   faHandshakeSimpleSlash: faHandshakeSimpleSlash,
   faHandshakeAltSlash: faHandshakeAltSlash,
   faHandshakeSlash: faHandshakeSlash,
@@ -15710,15 +17399,25 @@ var _iconsCache = {
   faHeadphonesAlt: faHeadphonesAlt,
   faHeadset: faHeadset,
   faHeart: faHeart,
+  faHeartCircleBolt: faHeartCircleBolt,
+  faHeartCircleCheck: faHeartCircleCheck,
+  faHeartCircleExclamation: faHeartCircleExclamation,
+  faHeartCircleMinus: faHeartCircleMinus,
+  faHeartCirclePlus: faHeartCirclePlus,
+  faHeartCircleXmark: faHeartCircleXmark,
   faHeartCrack: faHeartCrack,
   faHeartBroken: faHeartBroken,
   faHeartPulse: faHeartPulse,
   faHeartbeat: faHeartbeat,
   faHelicopter: faHelicopter,
+  faHelicopterSymbol: faHelicopterSymbol,
   faHelmetSafety: faHelmetSafety,
   faHardHat: faHardHat,
   faHatHard: faHatHard,
+  faHelmetUn: faHelmetUn,
   faHighlighter: faHighlighter,
+  faHillAvalanche: faHillAvalanche,
+  faHillRockslide: faHillRockslide,
   faHippo: faHippo,
   faHockeyPuck: faHockeyPuck,
   faHollyBerry: faHollyBerry,
@@ -15752,14 +17451,29 @@ var _iconsCache = {
   faClinicMedical: faClinicMedical,
   faHouseChimneyUser: faHouseChimneyUser,
   faHouseChimneyWindow: faHouseChimneyWindow,
+  faHouseCircleCheck: faHouseCircleCheck,
+  faHouseCircleExclamation: faHouseCircleExclamation,
+  faHouseCircleXmark: faHouseCircleXmark,
   faHouseCrack: faHouseCrack,
+  faHouseFire: faHouseFire,
+  faHouseFlag: faHouseFlag,
+  faHouseFloodWater: faHouseFloodWater,
+  faHouseFloodWaterCircleArrowRight: faHouseFloodWaterCircleArrowRight,
   faHouseLaptop: faHouseLaptop,
   faLaptopHouse: faLaptopHouse,
+  faHouseLock: faHouseLock,
   faHouseMedical: faHouseMedical,
+  faHouseMedicalCircleCheck: faHouseMedicalCircleCheck,
+  faHouseMedicalCircleExclamation: faHouseMedicalCircleExclamation,
+  faHouseMedicalCircleXmark: faHouseMedicalCircleXmark,
+  faHouseMedicalFlag: faHouseMedicalFlag,
+  faHouseSignal: faHouseSignal,
+  faHouseTsunami: faHouseTsunami,
   faHouseUser: faHouseUser,
   faHomeUser: faHomeUser,
   faHryvniaSign: faHryvniaSign,
   faHryvnia: faHryvnia,
+  faHurricane: faHurricane,
   faI: faI,
   faICursor: faICursor,
   faIceCream: faIceCream,
@@ -15786,10 +17500,14 @@ var _iconsCache = {
   faInfo: faInfo,
   faItalic: faItalic,
   faJ: faJ,
+  faJar: faJar,
+  faJarWheat: faJarWheat,
   faJedi: faJedi,
   faJetFighter: faJetFighter,
   faFighterJet: faFighterJet,
+  faJetFighterUp: faJetFighterUp,
   faJoint: faJoint,
+  faJugDetergent: faJugDetergent,
   faK: faK,
   faKaaba: faKaaba,
   faKey: faKey,
@@ -15798,12 +17516,18 @@ var _iconsCache = {
   faKipSign: faKipSign,
   faKitMedical: faKitMedical,
   faFirstAid: faFirstAid,
+  faKitchenSet: faKitchenSet,
   faKiwiBird: faKiwiBird,
   faL: faL,
+  faLandMineOn: faLandMineOn,
   faLandmark: faLandmark,
+  faLandmarkDome: faLandmarkDome,
+  faLandmarkAlt: faLandmarkAlt,
+  faLandmarkFlag: faLandmarkFlag,
   faLanguage: faLanguage,
   faLaptop: faLaptop,
   faLaptopCode: faLaptopCode,
+  faLaptopFile: faLaptopFile,
   faLaptopMedical: faLaptopMedical,
   faLariSign: faLariSign,
   faLayerGroup: faLayerGroup,
@@ -15817,6 +17541,7 @@ var _iconsCache = {
   faLessThanEqual: faLessThanEqual,
   faLifeRing: faLifeRing,
   faLightbulb: faLightbulb,
+  faLinesLeaning: faLinesLeaning,
   faLink: faLink,
   faChain: faChain,
   faLinkSlash: faLinkSlash,
@@ -15841,14 +17566,18 @@ var _iconsCache = {
   faMapMarkerAlt: faMapMarkerAlt,
   faLocationPin: faLocationPin,
   faMapMarker: faMapMarker,
+  faLocationPinLock: faLocationPinLock,
   faLock: faLock,
   faLockOpen: faLockOpen,
+  faLocust: faLocust,
   faLungs: faLungs,
   faLungsVirus: faLungsVirus,
   faM: faM,
   faMagnet: faMagnet,
   faMagnifyingGlass: faMagnifyingGlass,
   faSearch: faSearch,
+  faMagnifyingGlassArrowRight: faMagnifyingGlassArrowRight,
+  faMagnifyingGlassChart: faMagnifyingGlassChart,
   faMagnifyingGlassDollar: faMagnifyingGlassDollar,
   faSearchDollar: faSearchDollar,
   faMagnifyingGlassLocation: faMagnifyingGlassLocation,
@@ -15867,6 +17596,7 @@ var _iconsCache = {
   faMarker: faMarker,
   faMars: faMars,
   faMarsAndVenus: faMarsAndVenus,
+  faMarsAndVenusBurst: faMarsAndVenusBurst,
   faMarsDouble: faMarsDouble,
   faMarsStroke: faMarsStroke,
   faMarsStrokeRight: faMarsStrokeRight,
@@ -15881,8 +17611,10 @@ var _iconsCache = {
   faGlassMartini: faGlassMartini,
   faMask: faMask,
   faMaskFace: faMaskFace,
+  faMaskVentilator: faMaskVentilator,
   faMasksTheater: faMasksTheater,
   faTheaterMasks: faTheaterMasks,
+  faMattressPillow: faMattressPillow,
   faMaximize: faMaximize,
   faExpandArrowsAlt: faExpandArrowsAlt,
   faMedal: faMedal,
@@ -15910,6 +17642,9 @@ var _iconsCache = {
   faMobileAndroid: faMobileAndroid,
   faMobilePhone: faMobilePhone,
   faMobileButton: faMobileButton,
+  faMobileRetro: faMobileRetro,
+  faMobileScreen: faMobileScreen,
+  faMobileAndroidAlt: faMobileAndroidAlt,
   faMobileScreenButton: faMobileScreenButton,
   faMobileAlt: faMobileAlt,
   faMoneyBill: faMoneyBill,
@@ -15917,7 +17652,11 @@ var _iconsCache = {
   faMoneyBillAlt: faMoneyBillAlt,
   faMoneyBill1Wave: faMoneyBill1Wave,
   faMoneyBillWaveAlt: faMoneyBillWaveAlt,
+  faMoneyBillTransfer: faMoneyBillTransfer,
+  faMoneyBillTrendUp: faMoneyBillTrendUp,
   faMoneyBillWave: faMoneyBillWave,
+  faMoneyBillWheat: faMoneyBillWheat,
+  faMoneyBills: faMoneyBills,
   faMoneyCheck: faMoneyCheck,
   faMoneyCheckDollar: faMoneyCheckDollar,
   faMoneyCheckAlt: faMoneyCheckAlt,
@@ -15925,8 +17664,13 @@ var _iconsCache = {
   faMoon: faMoon,
   faMortarPestle: faMortarPestle,
   faMosque: faMosque,
+  faMosquito: faMosquito,
+  faMosquitoNet: faMosquitoNet,
   faMotorcycle: faMotorcycle,
+  faMound: faMound,
   faMountain: faMountain,
+  faMountainCity: faMountainCity,
+  faMountainSun: faMountainSun,
   faMugHot: faMugHot,
   faMugSaucer: faMugSaucer,
   faCoffee: faCoffee,
@@ -15944,6 +17688,7 @@ var _iconsCache = {
   faObjectGroup: faObjectGroup,
   faObjectUngroup: faObjectUngroup,
   faOilCan: faOilCan,
+  faOilWell: faOilWell,
   faOm: faOm,
   faOtter: faOtter,
   faOutdent: faOutdent,
@@ -15981,24 +17726,56 @@ var _iconsCache = {
   faPeopleArrows: faPeopleArrows,
   faPeopleCarryBox: faPeopleCarryBox,
   faPeopleCarry: faPeopleCarry,
+  faPeopleGroup: faPeopleGroup,
+  faPeopleLine: faPeopleLine,
+  faPeoplePulling: faPeoplePulling,
+  faPeopleRobbery: faPeopleRobbery,
+  faPeopleRoof: faPeopleRoof,
   faPepperHot: faPepperHot,
   faPercent: faPercent,
   faPercentage: faPercentage,
   faPerson: faPerson,
   faMale: faMale,
+  faPersonArrowDownToLine: faPersonArrowDownToLine,
+  faPersonArrowUpFromLine: faPersonArrowUpFromLine,
   faPersonBiking: faPersonBiking,
   faBiking: faBiking,
   faPersonBooth: faPersonBooth,
+  faPersonBreastfeeding: faPersonBreastfeeding,
+  faPersonBurst: faPersonBurst,
+  faPersonCane: faPersonCane,
+  faPersonChalkboard: faPersonChalkboard,
+  faPersonCircleCheck: faPersonCircleCheck,
+  faPersonCircleExclamation: faPersonCircleExclamation,
+  faPersonCircleMinus: faPersonCircleMinus,
+  faPersonCirclePlus: faPersonCirclePlus,
+  faPersonCircleQuestion: faPersonCircleQuestion,
+  faPersonCircleXmark: faPersonCircleXmark,
+  faPersonDigging: faPersonDigging,
+  faDigging: faDigging,
   faPersonDotsFromLine: faPersonDotsFromLine,
   faDiagnoses: faDiagnoses,
   faPersonDress: faPersonDress,
   faFemale: faFemale,
+  faPersonDressBurst: faPersonDressBurst,
+  faPersonDrowning: faPersonDrowning,
+  faPersonFalling: faPersonFalling,
+  faPersonFallingBurst: faPersonFallingBurst,
+  faPersonHalfDress: faPersonHalfDress,
+  faPersonHarassing: faPersonHarassing,
   faPersonHiking: faPersonHiking,
   faHiking: faHiking,
+  faPersonMilitaryPointing: faPersonMilitaryPointing,
+  faPersonMilitaryRifle: faPersonMilitaryRifle,
+  faPersonMilitaryToPerson: faPersonMilitaryToPerson,
   faPersonPraying: faPersonPraying,
   faPray: faPray,
+  faPersonPregnant: faPersonPregnant,
+  faPersonRays: faPersonRays,
+  faPersonRifle: faPersonRifle,
   faPersonRunning: faPersonRunning,
   faRunning: faRunning,
+  faPersonShelter: faPersonShelter,
   faPersonSkating: faPersonSkating,
   faSkating: faSkating,
   faPersonSkiing: faPersonSkiing,
@@ -16009,8 +17786,13 @@ var _iconsCache = {
   faSnowboarding: faSnowboarding,
   faPersonSwimming: faPersonSwimming,
   faSwimmer: faSwimmer,
+  faPersonThroughWindow: faPersonThroughWindow,
   faPersonWalking: faPersonWalking,
   faWalking: faWalking,
+  faPersonWalkingArrowLoopLeft: faPersonWalkingArrowLoopLeft,
+  faPersonWalkingArrowRight: faPersonWalkingArrowRight,
+  faPersonWalkingDashedLineArrowRight: faPersonWalkingDashedLineArrowRight,
+  faPersonWalkingLuggage: faPersonWalkingLuggage,
   faPersonWalkingWithCane: faPersonWalkingWithCane,
   faBlind: faBlind,
   faPesetaSign: faPesetaSign,
@@ -16029,10 +17811,23 @@ var _iconsCache = {
   faPlaceOfWorship: faPlaceOfWorship,
   faPlane: faPlane,
   faPlaneArrival: faPlaneArrival,
+  faPlaneCircleCheck: faPlaneCircleCheck,
+  faPlaneCircleExclamation: faPlaneCircleExclamation,
+  faPlaneCircleXmark: faPlaneCircleXmark,
   faPlaneDeparture: faPlaneDeparture,
+  faPlaneLock: faPlaneLock,
   faPlaneSlash: faPlaneSlash,
+  faPlaneUp: faPlaneUp,
+  faPlantWilt: faPlantWilt,
+  faPlateWheat: faPlateWheat,
   faPlay: faPlay,
   faPlug: faPlug,
+  faPlugCircleBolt: faPlugCircleBolt,
+  faPlugCircleCheck: faPlugCircleCheck,
+  faPlugCircleExclamation: faPlugCircleExclamation,
+  faPlugCircleMinus: faPlugCircleMinus,
+  faPlugCirclePlus: faPlugCirclePlus,
+  faPlugCircleXmark: faPlugCircleXmark,
   faPlus: faPlus,
   faAdd: faAdd,
   faPlusMinus: faPlusMinus,
@@ -16059,7 +17854,9 @@ var _iconsCache = {
   faQuoteRightAlt: faQuoteRightAlt,
   faR: faR,
   faRadiation: faRadiation,
+  faRadio: faRadio,
   faRainbow: faRainbow,
+  faRankingStar: faRankingStar,
   faReceipt: faReceipt,
   faRecordVinyl: faRecordVinyl,
   faRectangleAd: faRectangleAd,
@@ -16091,6 +17888,13 @@ var _iconsCache = {
   faSignInAlt: faSignInAlt,
   faRing: faRing,
   faRoad: faRoad,
+  faRoadBarrier: faRoadBarrier,
+  faRoadBridge: faRoadBridge,
+  faRoadCircleCheck: faRoadCircleCheck,
+  faRoadCircleExclamation: faRoadCircleExclamation,
+  faRoadCircleXmark: faRoadCircleXmark,
+  faRoadLock: faRoadLock,
+  faRoadSpikes: faRoadSpikes,
   faRobot: faRobot,
   faRocket: faRocket,
   faRotate: faRotate,
@@ -16109,6 +17913,7 @@ var _iconsCache = {
   faRouble: faRouble,
   faRub: faRub,
   faRuble: faRuble,
+  faRug: faRug,
   faRuler: faRuler,
   faRulerCombined: faRulerCombined,
   faRulerHorizontal: faRulerHorizontal,
@@ -16117,6 +17922,8 @@ var _iconsCache = {
   faRupee: faRupee,
   faRupiahSign: faRupiahSign,
   faS: faS,
+  faSackDollar: faSackDollar,
+  faSackXmark: faSackXmark,
   faSailboat: faSailboat,
   faSatellite: faSatellite,
   faSatelliteDish: faSatelliteDish,
@@ -16127,6 +17934,11 @@ var _iconsCache = {
   faScaleUnbalancedFlip: faScaleUnbalancedFlip,
   faBalanceScaleRight: faBalanceScaleRight,
   faSchool: faSchool,
+  faSchoolCircleCheck: faSchoolCircleCheck,
+  faSchoolCircleExclamation: faSchoolCircleExclamation,
+  faSchoolCircleXmark: faSchoolCircleXmark,
+  faSchoolFlag: faSchoolFlag,
+  faSchoolLock: faSchoolLock,
   faScissors: faScissors,
   faCut: faCut,
   faScrewdriver: faScrewdriver,
@@ -16149,6 +17961,7 @@ var _iconsCache = {
   faShareSquare: faShareSquare,
   faShareNodes: faShareNodes,
   faShareAlt: faShareAlt,
+  faSheetPlastic: faSheetPlastic,
   faShekelSign: faShekelSign,
   faIls: faIls,
   faShekel: faShekel,
@@ -16156,7 +17969,11 @@ var _iconsCache = {
   faSheqelSign: faSheqelSign,
   faShield: faShield,
   faShieldBlank: faShieldBlank,
+  faShieldCat: faShieldCat,
+  faShieldDog: faShieldDog,
+  faShieldHalved: faShieldHalved,
   faShieldAlt: faShieldAlt,
+  faShieldHeart: faShieldHeart,
   faShieldVirus: faShieldVirus,
   faShip: faShip,
   faShirt: faShirt,
@@ -16165,6 +17982,7 @@ var _iconsCache = {
   faShoePrints: faShoePrints,
   faShop: faShop,
   faStoreAlt: faStoreAlt,
+  faShopLock: faShopLock,
   faShopSlash: faShopSlash,
   faStoreAltSlash: faStoreAltSlash,
   faShower: faShower,
@@ -16236,11 +18054,13 @@ var _iconsCache = {
   faHSquare: faHSquare,
   faSquareMinus: faSquareMinus,
   faMinusSquare: faMinusSquare,
+  faSquareNfi: faSquareNfi,
   faSquareParking: faSquareParking,
   faParking: faParking,
   faSquarePen: faSquarePen,
   faPenSquare: faPenSquare,
   faPencilSquare: faPencilSquare,
+  faSquarePersonConfined: faSquarePersonConfined,
   faSquarePhone: faSquarePhone,
   faPhoneSquare: faPhoneSquare,
   faSquarePhoneFlip: faSquarePhoneFlip,
@@ -16259,9 +18079,14 @@ var _iconsCache = {
   faShareAltSquare: faShareAltSquare,
   faSquareUpRight: faSquareUpRight,
   faExternalLinkSquareAlt: faExternalLinkSquareAlt,
+  faSquareVirus: faSquareVirus,
   faSquareXmark: faSquareXmark,
   faTimesSquare: faTimesSquare,
   faXmarkSquare: faXmarkSquare,
+  faStaffAesculapius: faStaffAesculapius,
+  faRodAsclepius: faRodAsclepius,
+  faRodSnake: faRodSnake,
+  faStaffSnake: faStaffSnake,
   faStairs: faStairs,
   faStamp: faStamp,
   faStar: faStar,
@@ -16289,6 +18114,7 @@ var _iconsCache = {
   faMedkit: faMedkit,
   faSuitcaseRolling: faSuitcaseRolling,
   faSun: faSun,
+  faSunPlantWilt: faSunPlantWilt,
   faSuperscript: faSuperscript,
   faSwatchbook: faSwatchbook,
   faSynagogue: faSynagogue,
@@ -16317,10 +18143,16 @@ var _iconsCache = {
   faTag: faTag,
   faTags: faTags,
   faTape: faTape,
+  faTarp: faTarp,
+  faTarpDroplet: faTarpDroplet,
   faTaxi: faTaxi,
   faCab: faCab,
   faTeeth: faTeeth,
   faTeethOpen: faTeethOpen,
+  faTemperatureArrowDown: faTemperatureArrowDown,
+  faTemperatureDown: faTemperatureDown,
+  faTemperatureArrowUp: faTemperatureArrowUp,
+  faTemperatureUp: faTemperatureUp,
   faTemperatureEmpty: faTemperatureEmpty,
   faTemperature0: faTemperature0,
   faThermometer0: faThermometer0,
@@ -16345,6 +18177,12 @@ var _iconsCache = {
   faThermometerThreeQuarters: faThermometerThreeQuarters,
   faTengeSign: faTengeSign,
   faTenge: faTenge,
+  faTent: faTent,
+  faTentArrowDownToLine: faTentArrowDownToLine,
+  faTentArrowLeftRight: faTentArrowLeftRight,
+  faTentArrowTurnLeft: faTentArrowTurnLeft,
+  faTentArrowsDown: faTentArrowsDown,
+  faTents: faTents,
   faTerminal: faTerminal,
   faTextHeight: faTextHeight,
   faTextSlash: faTextSlash,
@@ -16364,11 +18202,16 @@ var _iconsCache = {
   faToilet: faToilet,
   faToiletPaper: faToiletPaper,
   faToiletPaperSlash: faToiletPaperSlash,
+  faToiletPortable: faToiletPortable,
+  faToiletsPortable: faToiletsPortable,
   faToolbox: faToolbox,
   faTooth: faTooth,
   faToriiGate: faToriiGate,
+  faTornado: faTornado,
   faTowerBroadcast: faTowerBroadcast,
   faBroadcastTower: faBroadcastTower,
+  faTowerCell: faTowerCell,
+  faTowerObservation: faTowerObservation,
   faTractor: faTractor,
   faTrademark: faTrademark,
   faTrafficLight: faTrafficLight,
@@ -16388,18 +18231,27 @@ var _iconsCache = {
   faTrashCanArrowUp: faTrashCanArrowUp,
   faTrashRestoreAlt: faTrashRestoreAlt,
   faTree: faTree,
+  faTreeCity: faTreeCity,
   faTriangleExclamation: faTriangleExclamation,
   faExclamationTriangle: faExclamationTriangle,
   faWarning: faWarning,
   faTrophy: faTrophy,
+  faTrowel: faTrowel,
+  faTrowelBricks: faTrowelBricks,
   faTruck: faTruck,
+  faTruckArrowRight: faTruckArrowRight,
+  faTruckDroplet: faTruckDroplet,
   faTruckFast: faTruckFast,
   faShippingFast: faShippingFast,
+  faTruckField: faTruckField,
+  faTruckFieldUn: faTruckFieldUn,
+  faTruckFront: faTruckFront,
   faTruckMedical: faTruckMedical,
   faAmbulance: faAmbulance,
   faTruckMonster: faTruckMonster,
   faTruckMoving: faTruckMoving,
   faTruckPickup: faTruckPickup,
+  faTruckPlane: faTruckPlane,
   faTruckRampBox: faTruckRampBox,
   faTruckLoading: faTruckLoading,
   faTty: faTty,
@@ -16464,9 +18316,14 @@ var _iconsCache = {
   faUserXmark: faUserXmark,
   faUserTimes: faUserTimes,
   faUsers: faUsers,
+  faUsersBetweenLines: faUsersBetweenLines,
   faUsersGear: faUsersGear,
   faUsersCog: faUsersCog,
+  faUsersLine: faUsersLine,
+  faUsersRays: faUsersRays,
+  faUsersRectangle: faUsersRectangle,
   faUsersSlash: faUsersSlash,
+  faUsersViewfinder: faUsersViewfinder,
   faUtensils: faUtensils,
   faCutlery: faCutlery,
   faV: faV,
@@ -16480,6 +18337,8 @@ var _iconsCache = {
   faVest: faVest,
   faVestPatches: faVestPatches,
   faVial: faVial,
+  faVialCircleCheck: faVialCircleCheck,
+  faVialVirus: faVialVirus,
   faVials: faVials,
   faVideo: faVideo,
   faVideoCamera: faVideoCamera,
@@ -16491,6 +18350,7 @@ var _iconsCache = {
   faVirusSlash: faVirusSlash,
   faViruses: faViruses,
   faVoicemail: faVoicemail,
+  faVolcano: faVolcano,
   faVolleyball: faVolleyball,
   faVolleyballBall: faVolleyballBall,
   faVolumeHigh: faVolumeHigh,
@@ -16503,6 +18363,7 @@ var _iconsCache = {
   faVolumeTimes: faVolumeTimes,
   faVrCardboard: faVrCardboard,
   faW: faW,
+  faWalkieTalkie: faWalkieTalkie,
   faWallet: faWallet,
   faWandMagic: faWandMagic,
   faMagic: faMagic,
@@ -16518,7 +18379,12 @@ var _iconsCache = {
   faWeightHanging: faWeightHanging,
   faWeightScale: faWeightScale,
   faWeight: faWeight,
+  faWheatAwn: faWheatAwn,
+  faWheatAlt: faWheatAlt,
+  faWheatAwnCircleExclamation: faWheatAwnCircleExclamation,
   faWheelchair: faWheelchair,
+  faWheelchairMove: faWheelchairMove,
+  faWheelchairAlt: faWheelchairAlt,
   faWhiskeyGlass: faWhiskeyGlass,
   faGlassWhiskey: faGlassWhiskey,
   faWifi: faWifi,
@@ -16535,6 +18401,7 @@ var _iconsCache = {
   faWonSign: faWonSign,
   faKrw: faKrw,
   faWon: faWon,
+  faWorm: faWorm,
   faWrench: faWrench,
   faX: faX,
   faXRay: faXRay,
@@ -16543,6 +18410,7 @@ var _iconsCache = {
   faMultiply: faMultiply,
   faRemove: faRemove,
   faTimes: faTimes,
+  faXmarksLines: faXmarksLines,
   faY: faY,
   faYenSign: faYenSign,
   faCny: faCny,
@@ -16704,6 +18572,9 @@ function classList(props) {
 
   var beat = props.beat,
       fade = props.fade,
+      beatFade = props.beatFade,
+      bounce = props.bounce,
+      shake = props.shake,
       flash = props.flash,
       spin = props.spin,
       spinPulse = props.spinPulse,
@@ -16721,6 +18592,9 @@ function classList(props) {
   var classes = (_classes = {
     'fa-beat': beat,
     'fa-fade': fade,
+    'fa-beat-fade': beatFade,
+    'fa-bounce': bounce,
+    'fa-shake': shake,
     'fa-flash': flash,
     'fa-spin': spin,
     'fa-spin-reverse': spinReverse,
@@ -16730,6 +18604,7 @@ function classList(props) {
     'fa-inverse': inverse,
     'fa-border': border,
     'fa-li': listItem,
+    'fa-flip': flip === true,
     'fa-flip-horizontal': flip === 'horizontal' || flip === 'both',
     'fa-flip-vertical': flip === 'vertical' || flip === 'both'
   }, _defineProperty(_classes, "fa-".concat(size), typeof size !== 'undefined' && size !== null), _defineProperty(_classes, "fa-rotate-".concat(rotation), typeof rotation !== 'undefined' && rotation !== null && rotation !== 0), _defineProperty(_classes, "fa-pull-".concat(pull), typeof pull !== 'undefined' && pull !== null), _defineProperty(_classes, 'fa-swap-opacity', props.swapOpacity), _classes); // map over all the keys in the classes object
@@ -16908,7 +18783,8 @@ function FontAwesomeIcon(_ref) {
       symbol = props.symbol,
       className = props.className,
       title = props.title,
-      titleId = props.titleId;
+      titleId = props.titleId,
+      maskId = props.maskId;
   var iconLookup = normalizeIconArgs(iconArgs);
   var classes = objectWithKey('classes', [].concat(_toConsumableArray(classList(props)), _toConsumableArray(className.split(' '))));
   var transform = objectWithKey('transform', typeof props.transform === 'string' ? _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.parse.transform(props.transform) : props.transform);
@@ -16916,7 +18792,8 @@ function FontAwesomeIcon(_ref) {
   var renderedIcon = (0,_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.icon)(iconLookup, _objectSpread2(_objectSpread2(_objectSpread2(_objectSpread2({}, classes), transform), mask), {}, {
     symbol: symbol,
     title: title,
-    titleId: titleId
+    titleId: titleId,
+    maskId: maskId
   }));
 
   if (!renderedIcon) {
@@ -16940,24 +18817,29 @@ FontAwesomeIcon.displayName = 'FontAwesomeIcon';
 FontAwesomeIcon.propTypes = {
   beat: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   border: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  beatFade: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
+  bounce: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   className: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
   fade: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   flash: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   mask: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().array), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string)]),
+  maskId: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
   fixedWidth: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   inverse: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
-  flip: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOf(['horizontal', 'vertical', 'both']),
+  flip: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOf([true, false, 'horizontal', 'vertical', 'both']),
   icon: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().array), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string)]),
   listItem: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   pull: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOf(['right', 'left']),
   pulse: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   rotation: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOf([0, 90, 180, 270]),
+  shake: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   size: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOf(['2xs', 'xs', 'sm', 'lg', 'xl', '2xl', '1x', '2x', '3x', '4x', '5x', '6x', '7x', '8x', '9x', '10x']),
   spin: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   spinPulse: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   spinReverse: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool),
   symbol: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string)]),
   title: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
+  titleId: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
   transform: prop_types__WEBPACK_IMPORTED_MODULE_2___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_2___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_2___default().object)]),
   swapOpacity: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool)
 };
@@ -16965,9 +18847,10 @@ FontAwesomeIcon.defaultProps = {
   border: false,
   className: '',
   mask: null,
+  maskId: null,
   fixedWidth: false,
   inverse: false,
-  flip: null,
+  flip: false,
   icon: null,
   listItem: false,
   pull: null,
@@ -16975,8 +18858,16 @@ FontAwesomeIcon.defaultProps = {
   rotation: null,
   size: null,
   spin: false,
+  spinPulse: false,
+  spinReverse: false,
+  beat: false,
+  fade: false,
+  beatFade: false,
+  bounce: false,
+  shake: false,
   symbol: false,
   title: '',
+  titleId: null,
   transform: null,
   swapOpacity: false
 };
@@ -17000,24 +18891,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
-/* harmony import */ var gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gsap/ScrollTrigger */ "./node_modules/gsap/ScrollTrigger.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
+/* harmony import */ var gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gsap/ScrollTrigger */ "./node_modules/gsap/ScrollTrigger.js");
 
 
 
 
+const SWrap = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+    width: 48%;
+    @media screen and (max-width: 520px) {
+        width: 100%;
+    }
+`;
 const FadeInLeft = props => {
   const {
     children
   } = props;
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    gsap__WEBPACK_IMPORTED_MODULE_1__.gsap.registerPlugin(gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_2__.ScrollTrigger);
+    gsap__WEBPACK_IMPORTED_MODULE_2__.gsap.registerPlugin(gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_3__.ScrollTrigger);
     setAnimation();
   }, []);
 
   const setAnimation = () => {
-    gsap__WEBPACK_IMPORTED_MODULE_1__.gsap.fromTo('#fadeLeft', {
+    gsap__WEBPACK_IMPORTED_MODULE_2__.gsap.fromTo('#fadeLeft', {
       opacity: 0,
       x: -50
     }, //fromの設定
@@ -17038,12 +18935,6 @@ const FadeInLeft = props => {
     id: "fadeLeft"
   }, children);
 };
-const SWrap = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div`
-    width: 48%;
-    @media screen and (max-width: 520px) {
-        width: 100%;
-    }
-`;
 
 /***/ }),
 
@@ -17060,24 +18951,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
-/* harmony import */ var gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gsap/ScrollTrigger */ "./node_modules/gsap/ScrollTrigger.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/index.js");
+/* harmony import */ var gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gsap/ScrollTrigger */ "./node_modules/gsap/ScrollTrigger.js");
 
 
 
 
+const SWrap = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
+    width: 48%;
+    @media screen and (max-width: 520px) {
+        width: 100%;
+        margin-top: 30px;
+    }
+`;
 const FadeInRight = props => {
   const {
     children
   } = props;
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    gsap__WEBPACK_IMPORTED_MODULE_1__.gsap.registerPlugin(gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_2__.ScrollTrigger);
+    gsap__WEBPACK_IMPORTED_MODULE_2__.gsap.registerPlugin(gsap_ScrollTrigger__WEBPACK_IMPORTED_MODULE_3__.ScrollTrigger);
     setAnimation();
   }, []);
 
   const setAnimation = () => {
-    gsap__WEBPACK_IMPORTED_MODULE_1__.gsap.fromTo('#fadeRight', {
+    gsap__WEBPACK_IMPORTED_MODULE_2__.gsap.fromTo('#fadeRight', {
       opacity: 0,
       x: 50
     }, //fromの設定
@@ -17098,13 +18996,6 @@ const FadeInRight = props => {
     id: "fadeRight"
   }, children);
 };
-const SWrap = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div`
-    width: 48%;
-    @media screen and (max-width: 520px) {
-        width: 100%;
-        margin-top: 30px;
-    }
-`;
 
 /***/ }),
 
@@ -17176,15 +19067,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
 
-const Button = props => {
-  const {
-    url,
-    children
-  } = props;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFvButton, {
-    href: url
-  }, children);
-};
 const SFvButton = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a`
     margin-top: 40px;
     border-radius: 12px;
@@ -17214,6 +19096,15 @@ const SFvButton = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a`
         color: #212529;
     }
 `;
+const Button = props => {
+  const {
+    url,
+    children
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFvButton, {
+    href: url
+  }, children);
+};
 
 /***/ }),
 
@@ -17237,14 +19128,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const About = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SContainer, {
-    id: "about"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFlex, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_animation_FadeUp__WEBPACK_IMPORTED_MODULE_2__.FadeUp, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SProfileImage, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/68e54e20cfb66ea5cf478e338183404b/profile.jpg",
-    alt: "\u81EA\u5DF1\u7D39\u4ECB\u5199\u771F"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_organisms_about_ProfileText__WEBPACK_IMPORTED_MODULE_1__.ProfileText, null))));
-};
 const SSection = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].section`
     background-color: #fff;
 `;
@@ -17277,6 +19160,14 @@ const SProfileImage = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].
         height: 100%;
     }
 `;
+const About = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SContainer, {
+    id: "about"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFlex, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_animation_FadeUp__WEBPACK_IMPORTED_MODULE_2__.FadeUp, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SProfileImage, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "/static/68e54e20cfb66ea5cf478e338183404b/profile.jpg",
+    alt: "\u81EA\u5DF1\u7D39\u4ECB\u5199\u771F"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_organisms_about_ProfileText__WEBPACK_IMPORTED_MODULE_1__.ProfileText, null))));
+};
 
 /***/ }),
 
@@ -17293,51 +19184,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
 /* harmony import */ var _title_Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../title/Title */ "./src/components/atoms/title/Title.jsx");
 
 
 
 
 
-const Contact = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSection, {
-    id: "contact"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_title_Title__WEBPACK_IMPORTED_MODULE_2__.Title, {
-    title: "Contact",
-    subTitle: "お気軽にお問合せください"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SText, null, "\u304A\u554F\u3044\u5408\u308F\u305B\u306F\u73FE\u5728Twitter\u306EDM\u304B\u3089\u306E\u307F\u53D7\u3051\u4ED8\u3051\u3066\u304A\u308A\u307E\u3059\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\u5F53\u30B5\u30A4\u30C8\u304B\u3089\u306E\u554F\u3044\u5408\u308F\u305B\u3068\u8A00\u3046\u4E8B\u3068\u3001\u304A\u554F\u5408\u305B\u5185\u5BB9\u3092\u8A18\u8F09\u306E\u4E0A\u9001\u4FE1\u304A\u9858\u3044\u7533\u3057\u4E0A\u3052\u307E\u3059\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFlex, {
-    href: "https://twitter.com/web_roaster",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSfontAwesomeIcon, {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faTwitterSquare
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "Click"))));
-};
-const SSection = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].section`
+const SSection = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].section`
     position: relative;
     background: #fff;
 `;
-const SContainer = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div`
+const SContainer = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div`
     width: 95%;
     max-width: 850px;
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
 `;
-const SText = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].p`
+const SText = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].p`
     font-size: 1.4rem;
     text-align: center;
     letter-spacing: 0.1em;
     line-height: 1.6em;
 `;
-const SSfontAwesomeIcon = (0,styled_components__WEBPACK_IMPORTED_MODULE_4__["default"])(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon)`
+const SSfontAwesomeIcon = (0,styled_components__WEBPACK_IMPORTED_MODULE_3__["default"])(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon)`
     color:#fff;
     font-size: 4rem;
 `;
-const SFlex = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].a`
+const SFlex = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].a`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17361,6 +19238,20 @@ const SFlex = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].a`
         margin-left: 30px;
     }
 `;
+const Contact = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSection, {
+    id: "contact"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_title_Title__WEBPACK_IMPORTED_MODULE_2__.Title, {
+    title: "Contact",
+    subTitle: "お気軽にお問合せください"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SText, null, "\u304A\u554F\u3044\u5408\u308F\u305B\u306F\u73FE\u5728Twitter\u306EDM\u304B\u3089\u306E\u307F\u53D7\u3051\u4ED8\u3051\u3066\u304A\u308A\u307E\u3059\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\u5F53\u30B5\u30A4\u30C8\u304B\u3089\u306E\u554F\u3044\u5408\u308F\u305B\u3068\u8A00\u3046\u4E8B\u3068\u3001\u304A\u554F\u5408\u305B\u5185\u5BB9\u3092\u8A18\u8F09\u306E\u4E0A\u9001\u4FE1\u304A\u9858\u3044\u7533\u3057\u4E0A\u3052\u307E\u3059\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFlex, {
+    href: "https://twitter.com/web_roaster",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSfontAwesomeIcon, {
+    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faTwitterSquare
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "Click"))));
+};
 
 /***/ }),
 
@@ -17384,18 +19275,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Fee = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSection, {
-    id: "fee"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_title_Title__WEBPACK_IMPORTED_MODULE_1__.Title, {
-    title: "Fee",
-    subTitle: "料金について"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_title_SecondaryTitle__WEBPACK_IMPORTED_MODULE_2__.SecondaryTitle, {
-    title: "WordPress制作"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(STable, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "WordPress\u5236\u4F5C\uFF5C\u30C8\u30C3\u30D7\u30DA\u30FC\u30B8+\u4E0B\u5C643\u30DA\u30FC\u30B8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "100,000\u5186\uFF5E")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "WordPress\u5236\u4F5C\uFF5C\u30D6\u30ED\u30B0\u6A5F\u80FD\u3042\u308A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "130,000\u5186\uFF5E")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "WordPress\uFF5C \u30C8\u30C3\u30D7\u30DA\u30FC\u30B8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "70,000\u5186\uFF5E")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_title_SecondaryTitle__WEBPACK_IMPORTED_MODULE_2__.SecondaryTitle, {
-    title: "マークアップ系（デザイン業務なし）"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(STable, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "HTML\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0\uFF5C \u30C8\u30C3\u30D7\u30DA\u30FC\u30B8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "25,000\u5186\uFF5E")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0\uFF5C \u4E0B\u5C64\u30DA\u30FC\u30B8 \uFF08\uFF11\u30DA\u30FC\u30B8\u3042\u305F\u308A\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "8,000\u5186\uFF5E")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "LP\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "30,000\u5186\uFF5E")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SText, null, "\u203B\u6599\u91D1\u306F\u5B9F\u88C5\u5185\u5BB9\u306B\u3088\u3063\u3066\u7570\u306A\u308B\u305F\u3081\u3001\u3042\u304F\u307E\u3067\u3082\u76EE\u5B89\u306B\u306A\u308A\u307E\u3059\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\u8A73\u7D30\u306A\u91D1\u984D\u306B\u3064\u3044\u3066\u306F\u3054\u76F8\u8AC7\u3057\u305F\u3044\u3068\u8003\u3048\u3066\u304A\u308A\u307E\u3059\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SText, null, "\u203B\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0\u306F\u57FA\u672C\u7684\u306B\u30EC\u30B9\u30DD\u30F3\u30B7\u30D6\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0\u3092\u60F3\u5B9A\u3057\u3066\u304A\u308A\u307E\u3059\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\uFF08\u30B9\u30DE\u30FC\u30C8\u30D5\u30A9\u30F3\u3084\u30BF\u30D6\u30EC\u30C3\u30C8\u306E\u753B\u9762\u30B5\u30A4\u30BA\u306B\u5BFE\u5FDC\u3055\u308C\u305F\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0\u306E\u4E8B\u3067\u3059\u3002\uFF09")));
-};
 const SSection = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].section`
     position: relative;
     background-color: #f3f4f4;
@@ -17454,6 +19333,18 @@ const SText = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].p`
         font-size: 1.2rem;
     }
 `;
+const Fee = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSection, {
+    id: "fee"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_title_Title__WEBPACK_IMPORTED_MODULE_1__.Title, {
+    title: "Fee",
+    subTitle: "料金について"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_title_SecondaryTitle__WEBPACK_IMPORTED_MODULE_2__.SecondaryTitle, {
+    title: "WordPress制作"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(STable, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "WordPress\u5236\u4F5C\uFF5C\u30C8\u30C3\u30D7\u30DA\u30FC\u30B8+\u4E0B\u5C643\u30DA\u30FC\u30B8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "100,000\u5186\uFF5E")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "WordPress\u5236\u4F5C\uFF5C\u30D6\u30ED\u30B0\u6A5F\u80FD\u3042\u308A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "130,000\u5186\uFF5E")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "WordPress\uFF5C \u30C8\u30C3\u30D7\u30DA\u30FC\u30B8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "70,000\u5186\uFF5E")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_title_SecondaryTitle__WEBPACK_IMPORTED_MODULE_2__.SecondaryTitle, {
+    title: "マークアップ系（デザイン業務なし）"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(STable, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "HTML\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0\uFF5C \u30C8\u30C3\u30D7\u30DA\u30FC\u30B8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "25,000\u5186\uFF5E")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0\uFF5C \u4E0B\u5C64\u30DA\u30FC\u30B8 \uFF08\uFF11\u30DA\u30FC\u30B8\u3042\u305F\u308A\uFF09"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "8,000\u5186\uFF5E")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "LP\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", null, "30,000\u5186\uFF5E")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SText, null, "\u203B\u6599\u91D1\u306F\u5B9F\u88C5\u5185\u5BB9\u306B\u3088\u3063\u3066\u7570\u306A\u308B\u305F\u3081\u3001\u3042\u304F\u307E\u3067\u3082\u76EE\u5B89\u306B\u306A\u308A\u307E\u3059\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\u8A73\u7D30\u306A\u91D1\u984D\u306B\u3064\u3044\u3066\u306F\u3054\u76F8\u8AC7\u3057\u305F\u3044\u3068\u8003\u3048\u3066\u304A\u308A\u307E\u3059\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SText, null, "\u203B\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0\u306F\u57FA\u672C\u7684\u306B\u30EC\u30B9\u30DD\u30F3\u30B7\u30D6\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0\u3092\u60F3\u5B9A\u3057\u3066\u304A\u308A\u307E\u3059\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\uFF08\u30B9\u30DE\u30FC\u30C8\u30D5\u30A9\u30F3\u3084\u30BF\u30D6\u30EC\u30C3\u30C8\u306E\u753B\u9762\u30B5\u30A4\u30BA\u306B\u5BFE\u5FDC\u3055\u308C\u305F\u30B3\u30FC\u30C7\u30A3\u30F3\u30B0\u306E\u4E8B\u3067\u3059\u3002\uFF09")));
+};
 
 /***/ }),
 
@@ -17473,9 +19364,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
 
-const Footer = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFooter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("small", null, "2020 Aki Nishiguchi"));
-};
 const SFooter = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].footer`
     width: 100%;
     background-color: #282F35;
@@ -17487,6 +19375,9 @@ const SFooter = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].footer
         font-size: 80%;
     }
 `;
+const Footer = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFooter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("small", null, "2020 Aki Nishiguchi"));
+};
 
 /***/ }),
 
@@ -17508,20 +19399,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Fv = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFv, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("style", null, `
-                    @keyframes FadeIn {
-                        0% {
-                            opacity: 0;
-                        }
-                        100% {
-                            opacity: 100;
-                        }
-                    }
-                `), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFvLogo, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFvTitle, null, "AKI NISHIGUCHI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFvSubTitle, null, "Web Engineer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_button_Button__WEBPACK_IMPORTED_MODULE_1__.Button, {
-    url: "/#service"
-  }, "\u30B5\u30FC\u30D3\u30B9\u5185\u5BB9\u306F\u3053\u3061\u3089")));
-};
 const SFv = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div`
     position: relative;
     height: 700px;
@@ -17589,6 +19466,20 @@ const SFvButton = (0,styled_components__WEBPACK_IMPORTED_MODULE_2__["default"])(
     animation-fill-mode:forwards;
     animation-delay: 1s;
 `;
+const Fv = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFv, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("style", null, `
+                    @keyframes FadeIn {
+                        0% {
+                            opacity: 0;
+                        }
+                        100% {
+                            opacity: 100;
+                        }
+                    }
+                `), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFvLogo, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFvTitle, null, "AKI NISHIGUCHI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFvSubTitle, null, "Web Engineer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_button_Button__WEBPACK_IMPORTED_MODULE_1__.Button, {
+    url: "/#service"
+  }, "\u30B5\u30FC\u30D3\u30B9\u5185\u5BB9\u306F\u3053\u3061\u3089")));
+};
 
 /***/ }),
 
@@ -17605,33 +19496,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-/* harmony import */ var _molecules_header_Hamburger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../molecules/header/Hamburger */ "./src/components/molecules/header/Hamburger.jsx");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-anchor-link-smooth-scroll */ "./node_modules/react-anchor-link-smooth-scroll/lib/anchor-link.js");
+/* harmony import */ var react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _molecules_header_Hamburger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../molecules/header/Hamburger */ "./src/components/molecules/header/Hamburger.jsx");
 
 
 
-const Header = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SHeader, {
-    id: "header"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Aki Nishiguchi - Portfolio site"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
-    className: "pc"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#about"
-  }, "ABOUT")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#service"
-  }, "SERVICE")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#skills"
-  }, "SKILLS")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#works"
-  }, "WORKS")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#fee"
-  }, "FEE")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#contact"
-  }, "CONTACT")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_header_Hamburger__WEBPACK_IMPORTED_MODULE_1__.Hamburger, null)));
-};
-const SHeader = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].header`
+
+const SHeader = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].header`
     width: 100vw;
     position: fixed;
     top: 0;
@@ -17696,6 +19569,27 @@ const SHeader = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].header
         }
     }
 `;
+const Header = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SHeader, {
+    id: "header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Aki Nishiguchi - Portfolio site"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
+    className: "pc"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default()), {
+    href: "#about"
+  }, "ABOUT")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default()), {
+    href: "#service"
+  }, "SERVICE")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default()), {
+    href: "#skills"
+  }, "SKILLS")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default()), {
+    href: "#works"
+  }, "WORKS")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default()), {
+    href: "#fee"
+  }, "FEE")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react_anchor_link_smooth_scroll__WEBPACK_IMPORTED_MODULE_1___default()), {
+    href: "#contact"
+  }, "CONTACT")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_header_Hamburger__WEBPACK_IMPORTED_MODULE_2__.Hamburger, null)));
+};
 
 /***/ }),
 
@@ -17712,9 +19606,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
 /* harmony import */ var _title_Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../title/Title */ "./src/components/atoms/title/Title.jsx");
 /* harmony import */ var _molecules_service_ServiceCont__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../molecules/service/ServiceCont */ "./src/components/molecules/service/ServiceCont.jsx");
 /* harmony import */ var _Skills__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Skills */ "./src/components/atoms/layout/Skills.jsx");
@@ -17729,6 +19623,37 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const SSection = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].section`
+    position: relative;
+
+    &::before {
+        content: "";
+        display: block;
+        position: sticky;
+        z-index: -1;
+        top: 0;
+        height: 100vh;
+        background: url(/static/d55ce8db67f2682614e0d23750d0b35f/service-bgi.jpg) no-repeat center / cover;
+    }
+`;
+const SContainer = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div`
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+`;
+const SServiceInner = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 520px) {
+        overflow: hidden;
+        flex-direction: column;
+    }
+`;
 const Service = () => {
   const title = "Service";
   const SubTitle = "サービス内容";
@@ -17740,11 +19665,11 @@ const Service = () => {
     fontWeight: "900"
   };
   const icon1 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_7__.faCode,
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_8__.faCode,
     style: iconStyle
   });
   const icon2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_7__.faComments,
+    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_8__.faComments,
     style: iconStyle
   });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SContainer, {
@@ -17762,37 +19687,6 @@ const Service = () => {
     icon: icon2
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Skills__WEBPACK_IMPORTED_MODULE_4__.Skills, null));
 };
-const SSection = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].section`
-    position: relative;
-
-    &::before {
-        content: "";
-        display: block;
-        position: sticky;
-        z-index: -1;
-        top: 0;
-        height: 100vh;
-        background: url(/static/d55ce8db67f2682614e0d23750d0b35f/service-bgi.jpg) no-repeat center / cover;
-    }
-`;
-const SContainer = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div`
-    width: 95%;
-    max-width: 800px;
-    margin: 0 auto;
-    z-index: 1;
-    padding-top: 100px;
-    padding-bottom: 100px;
-`;
-const SServiceInner = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    @media screen and (max-width: 520px) {
-        overflow: hidden;
-        flex-direction: column;
-    }
-`;
 
 /***/ }),
 
@@ -17809,9 +19703,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
 /* harmony import */ var _title_Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../title/Title */ "./src/components/atoms/title/Title.jsx");
 /* harmony import */ var _molecules_skills_SkillsCont__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../molecules/skills/SkillsCont */ "./src/components/molecules/skills/SkillsCont.jsx");
 
@@ -17820,24 +19714,46 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const SSection = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].section`
+    background-color: #fff;
+`;
+const SContainer = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div`
+    width: 95%;
+    max-width: 850px;
+    margin: 0 auto;
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+`;
+const SSkillsInner = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 520px) {
+        flex-wrap: wrap;
+    }
+`;
 const Skills = () => {
   const iconStyle = {
     fontSize: "5rem"
   };
   const icon1 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faHtml5,
+    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__.faHtml5,
     style: iconStyle
   });
   const icon2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faCss3Alt,
+    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__.faCss3Alt,
     style: iconStyle
   });
   const icon3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faJsSquare,
+    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__.faJsSquare,
     style: iconStyle
   });
   const icon4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faWordpress,
+    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__.faWordpress,
     style: iconStyle
   });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SContainer, {
@@ -17859,28 +19775,6 @@ const Skills = () => {
     title: "WordPress"
   }))));
 };
-const SSection = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].section`
-    background-color: #fff;
-`;
-const SContainer = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].div`
-    width: 95%;
-    max-width: 850px;
-    margin: 0 auto;
-    z-index: 1;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-`;
-const SSkillsInner = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].div`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    @media screen and (max-width: 520px) {
-        flex-wrap: wrap;
-    }
-`;
 
 /***/ }),
 
@@ -17904,94 +19798,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Works = () => {
-  const work1 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/5fbb2b616b70fa507ed0af786b95c74c/works-img3.png",
-    alt: "\u5236\u4F5C\u4E00\u89A7"
-  });
-  const work2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/00a2dd0fc9bca9186b58df79c5d81bbb/works-img2.png",
-    alt: "\u5236\u4F5C\u4E00\u89A7"
-  });
-  const work3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/fc144ffaa19331f28da52f75d9d897e9/works-img1.jpg",
-    alt: "\u5236\u4F5C\u4E00\u89A7"
-  });
-  const work4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/8bee6fa4278922d839a3d5f47c67be72/works-img.jpg",
-    alt: "\u5236\u4F5C\u4E00\u89A7"
-  });
-  const work5 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/de650a2304cd4317345601dc4993230f/works-img4.jpg",
-    alt: "\u5236\u4F5C\u4E00\u89A7"
-  });
-  const work6 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/ec394bfd1304190d64a9bd7560e9a095/works-img5.jpg",
-    alt: "\u5236\u4F5C\u4E00\u89A7"
-  });
-  const work7 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/b325710bdef3ae240fd85ae60961d56f/works-img6.jpg",
-    alt: "\u5236\u4F5C\u4E00\u89A7"
-  });
-  const work8 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: "/static/6e154ebd7011da0ad1f55793910bdc1f/works-img7.jpg",
-    alt: "\u5236\u4F5C\u4E00\u89A7"
-  });
-  const text1 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u5185\u90E8SEO");
-  const text2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u6C7A\u6E08\u6A5F\u80FD");
-  const text3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u4F01\u753B\u30FB\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u5185\u90E8SEO");
-  const text4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u5185\u90E8SEO\u30FB\u30D6\u30ED\u30B0\u904B\u55B6\u30FB\u30CD\u30C3\u30C8\u30B7\u30E7\u30C3\u30D7\u9023\u643A");
-  const text5 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u5185\u90E8SEO");
-  const text6 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u4F01\u753B\u30FB\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u5185\u90E8SEO");
-  const text7 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u30AA\u30EA\u30B8\u30CA\u30EB\u30C6\u30FC\u30DE\u30FB\u5185\u90E8SEO");
-  const text8 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u4F01\u753B\u30FB\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u30AA\u30EA\u30B8\u30CA\u30EB\u30C6\u30FC\u30DE\u30FB\u5185\u90E8SEO\u30FB\u4E88\u7D04\u6A5F\u80FD");
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SContainer, {
-    id: "works"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_title_Title__WEBPACK_IMPORTED_MODULE_2__.Title, {
-    title: "Works",
-    subTitle: "制作一覧"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SText, null, "\u30AF\u30EA\u30C3\u30AF\u3059\u308B\u3068\u5B9F\u969B\u306E\u30DA\u30FC\u30B8\u306B\u9077\u79FB\u3057\u307E\u3059\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SInner, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
-    url: "https://ryugaku-chiebukuro.com/",
-    worksImg: work1,
-    title: "メディアサイト制作",
-    text: text1
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
-    url: "https://gamicome.com/",
-    worksImg: work2,
-    title: "LP制作",
-    text: text2
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
-    url: "https://sgcreate1.com/",
-    worksImg: work3,
-    title: "メディアサイト制作",
-    text: text3
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
-    url: "https://canoa-coffee.xyz/",
-    worksImg: work4,
-    title: "自社HP・ブログ",
-    text: text4
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
-    url: "https://english-philippines.com/",
-    worksImg: work5,
-    title: "オンライン英会話HP",
-    text: text5
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
-    url: "https://livecafeotodama.net/",
-    worksImg: work6,
-    title: "ミュージックバーHP",
-    text: text6
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
-    url: "https://dress-maker.com/",
-    worksImg: work7,
-    title: "人材募集LP",
-    text: text7
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
-    url: "https://hibiki-music-studio.com/",
-    worksImg: work8,
-    title: "ミュージックスタジオHP",
-    text: text8
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null))));
-};
 const SSection = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].section`
     position: relative;
 
@@ -18031,6 +19837,86 @@ const SText = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].p`
     margin-bottom: 50px;
     mix-blend-mode: difference;
 `;
+const Works = () => {
+  const work1 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "/static/5fbb2b616b70fa507ed0af786b95c74c/works-img3.png",
+    alt: "\u5236\u4F5C\u4E00\u89A7"
+  });
+  const work2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "/static/00a2dd0fc9bca9186b58df79c5d81bbb/works-img2.png",
+    alt: "\u5236\u4F5C\u4E00\u89A7"
+  });
+  const work3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "/static/fc144ffaa19331f28da52f75d9d897e9/works-img1.jpg",
+    alt: "\u5236\u4F5C\u4E00\u89A7"
+  });
+  const work4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "/static/8bee6fa4278922d839a3d5f47c67be72/works-img.jpg",
+    alt: "\u5236\u4F5C\u4E00\u89A7"
+  });
+  const work5 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "/static/de650a2304cd4317345601dc4993230f/works-img4.jpg",
+    alt: "\u5236\u4F5C\u4E00\u89A7"
+  }); // const work6 = <img src="/static/ec394bfd1304190d64a9bd7560e9a095/works-img5.jpg" alt="制作一覧" />
+
+  const work7 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "/static/b325710bdef3ae240fd85ae60961d56f/works-img6.jpg",
+    alt: "\u5236\u4F5C\u4E00\u89A7"
+  });
+  const work8 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "/static/6e154ebd7011da0ad1f55793910bdc1f/works-img7.jpg",
+    alt: "\u5236\u4F5C\u4E00\u89A7"
+  });
+  const text1 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u5185\u90E8SEO");
+  const text2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u6C7A\u6E08\u6A5F\u80FD");
+  const text3 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u4F01\u753B\u30FB\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u5185\u90E8SEO");
+  const text4 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u5185\u90E8SEO\u30FB\u30D6\u30ED\u30B0\u904B\u55B6\u30FB\u30CD\u30C3\u30C8\u30B7\u30E7\u30C3\u30D7\u9023\u643A");
+  const text5 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u69CB\u7BC9\u30FB\u5185\u90E8SEO"); // const text6 = <p>企画・デザイン・WordPress構築・内部SEO</p>;
+
+  const text7 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u30AA\u30EA\u30B8\u30CA\u30EB\u30C6\u30FC\u30DE\u30FB\u5185\u90E8SEO");
+  const text8 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\u4F01\u753B\u30FB\u30C7\u30B6\u30A4\u30F3\u30FBWordPress\u30AA\u30EA\u30B8\u30CA\u30EB\u30C6\u30FC\u30DE\u30FB\u5185\u90E8SEO\u30FB\u4E88\u7D04\u6A5F\u80FD");
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSection, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SContainer, {
+    id: "works"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_title_Title__WEBPACK_IMPORTED_MODULE_2__.Title, {
+    title: "Works",
+    subTitle: "制作一覧"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SText, null, "\u30AF\u30EA\u30C3\u30AF\u3059\u308B\u3068\u5B9F\u969B\u306E\u30DA\u30FC\u30B8\u306B\u9077\u79FB\u3057\u307E\u3059\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SInner, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
+    url: "https://ryugaku-chiebukuro.com/",
+    worksImg: work1,
+    title: "メディアサイト制作",
+    text: text1
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
+    url: "https://gamicome.com/",
+    worksImg: work2,
+    title: "LP制作",
+    text: text2
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
+    url: "https://sgcreate1.com/",
+    worksImg: work3,
+    title: "メディアサイト制作",
+    text: text3
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
+    url: "https://canoa-coffee.xyz/",
+    worksImg: work4,
+    title: "自社HP・ブログ",
+    text: text4
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
+    url: "https://english-philippines.com/",
+    worksImg: work5,
+    title: "オンライン英会話HP",
+    text: text5
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
+    url: "https://dress-maker.com/",
+    worksImg: work7,
+    title: "人材募集LP",
+    text: text7
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_works_WorksCont__WEBPACK_IMPORTED_MODULE_1__.WorksCont, {
+    url: "https://hibiki-music-studio.com/",
+    worksImg: work8,
+    title: "ミュージックスタジオHP",
+    text: text8
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null))));
+};
 
 /***/ }),
 
@@ -18050,12 +19936,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
 
-const SecondaryTitle = props => {
-  const {
-    title
-  } = props;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(STitle, null, title);
-};
 const STitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2`
     position: relative;
     font-size: 2.2rem;
@@ -18079,6 +19959,12 @@ const STitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2`
         border-radius: 5px;
     }
 `;
+const SecondaryTitle = props => {
+  const {
+    title
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(STitle, null, title);
+};
 
 /***/ }),
 
@@ -18098,13 +19984,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
 
-const Title = props => {
-  const {
-    title,
-    subTitle
-  } = props;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFlex, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(STitle, null, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSubTitle, null, subTitle)));
-};
 const SFlex = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
     display: flex;
     flex-direction: column;
@@ -18157,6 +20036,13 @@ const SSubTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p`
         }
     }
 `;
+const Title = props => {
+  const {
+    title,
+    subTitle
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SFlex, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(STitle, null, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSubTitle, null, subTitle)));
+};
 
 /***/ }),
 
@@ -18202,37 +20088,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
 
 
 
 
-const Text = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSnsWrap, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SName, null, "\u897F\u53E3\u3000\u8AD2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://twitter.com/web_roaster",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSfontAwesomeIcon, {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_2__.faTwitterSquare
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SText, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "\u300C\u8CAC\u4EFB\u611F\u300D"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "\u300C\u30B3\u30DF\u30E5\u30CB\u30B1\u30FC\u30B7\u30E7\u30F3\u300D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\u304C\u79C1\u306E\u30E2\u30C3\u30C8\u30FC\u3067\u3042\u308A\u3001\u3053\u308C\u3092\u7279\u306B\u5927\u5207\u306B\u30AF\u30E9\u30A4\u30A2\u30F3\u30C8\u69D8\u306E\u304A\u624B\u4F1D\u3044\u3092\u3055\u305B\u3066\u3044\u305F\u3060\u304D\u307E\u3059\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\u798F\u5CA1\u770C\u3092\u62E0\u70B9\u306BWeb\u5236\u4F5C\u3068\u3001\u30B3\u30FC\u30D2\u30FC\u8C46\u5C4B\u3055\u3093\u3068\u3057\u3066\u6D3B\u52D5\u3057\u3066\u304A\u308A\u307E\u3059\u3002"));
-};
-const SSnsWrap = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div`
+const SSnsWrap = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div`
     display: flex;
     align-items: center;
     margin-bottom: 1em;
     font-size: 2.5rem;
 `;
-const SName = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].h3`
+const SName = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h3`
     font-size: 2rem;
     font-weight: normal;
     margin-right: 30px;
 `;
-const SSfontAwesomeIcon = (0,styled_components__WEBPACK_IMPORTED_MODULE_3__["default"])(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon)`
+const SSfontAwesomeIcon = (0,styled_components__WEBPACK_IMPORTED_MODULE_2__["default"])(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon)`
     color:#00acee;
 `;
-const SText = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].p`
+const SText = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p`
     letter-spacing: 0.2em;
     font-size: 1.8rem;
     line-height: 1.6em;
@@ -18244,6 +20121,15 @@ const SText = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].p`
         background: linear-gradient(transparent 70%,#E5BB09 70%);
     }
 `;
+const Text = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSnsWrap, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SName, null, "\u897F\u53E3\u3000\u8AD2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://twitter.com/web_roaster",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSfontAwesomeIcon, {
+    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.faTwitterSquare
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SText, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "\u300C\u8CAC\u4EFB\u611F\u300D"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "\u300C\u30B3\u30DF\u30E5\u30CB\u30B1\u30FC\u30B7\u30E7\u30F3\u300D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\u304C\u79C1\u306E\u30E2\u30C3\u30C8\u30FC\u3067\u3042\u308A\u3001\u3053\u308C\u3092\u7279\u306B\u5927\u5207\u306B\u30AF\u30E9\u30A4\u30A2\u30F3\u30C8\u69D8\u306E\u304A\u624B\u4F1D\u3044\u3092\u3055\u305B\u3066\u3044\u305F\u3060\u304D\u307E\u3059\u3002", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "\u798F\u5CA1\u770C\u3092\u62E0\u70B9\u306BWeb\u5236\u4F5C\u3068\u3001\u30B3\u30FC\u30D2\u30FC\u8C46\u5C4B\u3055\u3093\u3068\u3057\u3066\u6D3B\u52D5\u3057\u3066\u304A\u308A\u307E\u3059\u3002"));
+};
 
 /***/ }),
 
@@ -18263,41 +20149,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
 
-const Hamburger = () => {
-  const onClickHamburgerBtb = () => {
-    const header = document.getElementById('header');
-    const headerBtn = document.getElementById('hamburgerBtn');
-    const hamburgerItem = document.getElementById('headerItem');
-    header.classList.toggle('active');
-    headerBtn.classList.toggle('active');
-    hamburgerItem.classList.toggle('active');
-  };
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SHamburgerBtn, {
-    id: "hamburgerBtn",
-    onClick: onClickHamburgerBtb
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SHamburgerNav, {
-    id: "headerItem"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#about",
-    onClick: onClickHamburgerBtb
-  }, "ABOUT")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#service",
-    onClick: onClickHamburgerBtb
-  }, "SERVICE")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#skills",
-    onClick: onClickHamburgerBtb
-  }, "SKILLS")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#works",
-    onClick: onClickHamburgerBtb
-  }, "WORKS")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#fee",
-    onClick: onClickHamburgerBtb
-  }, "FEE")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/#contact",
-    onClick: onClickHamburgerBtb
-  }, "CONTACT")))));
-};
 const SHamburgerBtn = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].button`
     display: none;
     position: relative;
@@ -18392,6 +20243,41 @@ const SHamburgerNav = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].
         }
     }
 `;
+const Hamburger = () => {
+  const onClickHamburgerBtb = () => {
+    const header = document.getElementById('header');
+    const headerBtn = document.getElementById('hamburgerBtn');
+    const hamburgerItem = document.getElementById('headerItem');
+    header.classList.toggle('active');
+    headerBtn.classList.toggle('active');
+    hamburgerItem.classList.toggle('active');
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SHamburgerBtn, {
+    id: "hamburgerBtn",
+    onClick: onClickHamburgerBtb
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SHamburgerNav, {
+    id: "headerItem"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/#about",
+    onClick: onClickHamburgerBtb
+  }, "ABOUT")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/#service",
+    onClick: onClickHamburgerBtb
+  }, "SERVICE")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/#skills",
+    onClick: onClickHamburgerBtb
+  }, "SKILLS")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/#works",
+    onClick: onClickHamburgerBtb
+  }, "WORKS")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/#fee",
+    onClick: onClickHamburgerBtb
+  }, "FEE")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/#contact",
+    onClick: onClickHamburgerBtb
+  }, "CONTACT")))));
+};
 
 /***/ }),
 
@@ -18411,14 +20297,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
 
-const ServiceCont = props => {
-  const {
-    title,
-    text,
-    icon
-  } = props;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SServiceCont, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SIcon, null, icon), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(STitle, null, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SLine, null), text);
-};
 const SServiceCont = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
     display: flex;
     flex-direction: column;
@@ -18459,6 +20337,14 @@ const SLine = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span`
     width: 30px;
     transition: 0.2s ease-in-out;
 `;
+const ServiceCont = props => {
+  const {
+    title,
+    text,
+    icon
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SServiceCont, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SIcon, null, icon), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(STitle, null, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SLine, null), text);
+};
 
 /***/ }),
 
@@ -18478,13 +20364,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
 
-const SkillsCont = props => {
-  const {
-    icon,
-    title
-  } = props;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSkill, null, icon, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSkillTitle, null, title));
-};
 const SSkill = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div`
     display: flex;
     align-items: center;
@@ -18510,6 +20389,13 @@ const SSkillTitle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p`
         font-size: 1.4rem;
     }
 `;
+const SkillsCont = props => {
+  const {
+    icon,
+    title
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSkill, null, icon, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SSkillTitle, null, title));
+};
 
 /***/ }),
 
@@ -18529,19 +20415,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
 
 
-const WorksCont = props => {
-  const {
-    worksImg,
-    title,
-    text,
-    url
-  } = props;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SCont, {
-    href: url,
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, worksImg, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, title), text));
-};
 const SCont = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a`
 display: block;
 position: relative;
@@ -18626,6 +20499,19 @@ transition: 0.2s ease-in-out;
     }
 }
 `;
+const WorksCont = props => {
+  const {
+    worksImg,
+    title,
+    text,
+    url
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SCont, {
+    href: url,
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, worksImg, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, title), text));
+};
 
 /***/ }),
 
@@ -18653,14 +20539,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const ProfileText = () => {
-  const title = "About Me";
-  const SubTitle = "自己紹介";
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SProfileText, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_title_Title__WEBPACK_IMPORTED_MODULE_3__.Title, {
-    title: title,
-    subTitle: SubTitle
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_animation_FadeUp__WEBPACK_IMPORTED_MODULE_4__.FadeUp, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_about_MyName__WEBPACK_IMPORTED_MODULE_1__.MyName, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_about_Text__WEBPACK_IMPORTED_MODULE_2__.Text, null))));
-};
 const SProfileText = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].div`
     max-width:510px;
     width: 100%;
@@ -18674,6 +20552,14 @@ const SProfileText = styled_components__WEBPACK_IMPORTED_MODULE_5__["default"].d
         }
     }
 `;
+const ProfileText = () => {
+  const title = "About Me";
+  const SubTitle = "自己紹介";
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(SProfileText, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_title_Title__WEBPACK_IMPORTED_MODULE_3__.Title, {
+    title: title,
+    subTitle: SubTitle
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_animation_FadeUp__WEBPACK_IMPORTED_MODULE_4__.FadeUp, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_about_MyName__WEBPACK_IMPORTED_MODULE_1__.MyName, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_molecules_about_Text__WEBPACK_IMPORTED_MODULE_2__.Text, null))));
+};
 
 /***/ }),
 
@@ -18779,17 +20665,17 @@ function Home() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "CSSPlugin": () => (/* binding */ CSSPlugin),
-/* harmony export */   "default": () => (/* binding */ CSSPlugin),
-/* harmony export */   "_getBBox": () => (/* binding */ _getBBox),
 /* harmony export */   "_createElement": () => (/* binding */ _createElement),
-/* harmony export */   "checkPrefix": () => (/* binding */ _checkPropPrefix)
+/* harmony export */   "_getBBox": () => (/* binding */ _getBBox),
+/* harmony export */   "checkPrefix": () => (/* binding */ _checkPropPrefix),
+/* harmony export */   "default": () => (/* binding */ CSSPlugin)
 /* harmony export */ });
 /* harmony import */ var _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./gsap-core.js */ "./node_modules/gsap/gsap-core.js");
 /*!
- * CSSPlugin 3.9.1
+ * CSSPlugin 3.10.4
  * https://greensock.com
  *
- * Copyright 2008-2021, GreenSock. All rights reserved.
+ * Copyright 2008-2022, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for
  * Club GreenSock members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
@@ -18814,7 +20700,7 @@ var _win,
     _atan2 = Math.atan2,
     _bigNum = 1e8,
     _capsExp = /([A-Z])/g,
-    _horizontalExp = /(?:left|right|width|margin|padding|x)/i,
+    _horizontalExp = /(left|right|width|margin|padding|x)/i,
     _complexExp = /[\s,\(]\S/,
     _propertyAliases = {
   autoAlpha: "opacity,visibility",
@@ -19100,7 +20986,7 @@ _convertToUnit = function _convertToUnit(target, property, value, unit) {
   return unit && !~(value + "").trim().indexOf(" ") ? _convertToUnit(target, property, value, unit) + unit : value;
 },
     _tweenComplexCSSString = function _tweenComplexCSSString(target, prop, start, end) {
-  //note: we call _tweenComplexCSSString.call(pluginInstance...) to ensure that it's scoped properly. We may call it from within a plugin too, thus "this" would refer to the plugin.
+  // note: we call _tweenComplexCSSString.call(pluginInstance...) to ensure that it's scoped properly. We may call it from within a plugin too, thus "this" would refer to the plugin.
   if (!start || start === "none") {
     // some browsers like Safari actually PREFER the prefixed property and mis-report the unprefixed value like clipPath (BUG). In other words, even though clipPath exists in the style ("clipPath" in target.style) and it's set in the CSS properly (along with -webkit-clip-path), Safari reports clipPath as "none" whereas WebkitClipPath reports accurately like "ellipse(100% 0% at 50% 0%)", so in this case we must SWITCH to using the prefixed property instead. See https://greensock.com/forums/topic/18310-clippath-doesnt-work-on-ios/
     var p = _checkPropPrefix(prop, target, 1),
@@ -19128,11 +21014,10 @@ _convertToUnit = function _convertToUnit(target, property, value, unit) {
       chunk,
       endUnit,
       startUnit,
-      relative,
       endValues;
   pt.b = start;
   pt.e = end;
-  start += ""; //ensure values are strings
+  start += ""; // ensure values are strings
 
   end += "";
 
@@ -19144,7 +21029,7 @@ _convertToUnit = function _convertToUnit(target, property, value, unit) {
 
   a = [start, end];
 
-  (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._colorStringFilter)(a); //pass an array with the starting and ending values and let the filter do whatever it needs to the values. If colors are found, it returns true and then we must match where the color shows up order-wise because for things like boxShadow, sometimes the browser provides the computed values with the color FIRST, but the user provides it with the color LAST, so flip them if necessary. Same for drop-shadow().
+  (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._colorStringFilter)(a); // pass an array with the starting and ending values and let the filter do whatever it needs to the values. If colors are found, it returns true and then we must match where the color shows up order-wise because for things like boxShadow, sometimes the browser provides the computed values with the color FIRST, but the user provides it with the color LAST, so flip them if necessary. Same for drop-shadow().
 
 
   start = a[0];
@@ -19166,12 +21051,7 @@ _convertToUnit = function _convertToUnit(target, property, value, unit) {
       if (endValue !== (startValue = startValues[matchIndex++] || "")) {
         startNum = parseFloat(startValue) || 0;
         startUnit = startValue.substr((startNum + "").length);
-        relative = endValue.charAt(1) === "=" ? +(endValue.charAt(0) + "1") : 0;
-
-        if (relative) {
-          endValue = endValue.substr(2);
-        }
-
+        endValue.charAt(1) === "=" && (endValue = (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._parseRelative)(startNum, endValue) + startUnit);
         endNum = parseFloat(endValue);
         endUnit = endValue.substr((endNum + "").length);
         index = _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._numWithUnitExp.lastIndex - endUnit.length;
@@ -19188,7 +21068,7 @@ _convertToUnit = function _convertToUnit(target, property, value, unit) {
 
         if (startUnit !== endUnit) {
           startNum = _convertToUnit(target, prop, startValue, endUnit) || 0;
-        } //these nested PropTweens are handled in a special way - we'll never actually call a render or setter method on them. We'll just loop through them in the parent complex string PropTween's render method.
+        } // these nested PropTweens are handled in a special way - we'll never actually call a render or setter method on them. We'll just loop through them in the parent complex string PropTween's render method.
 
 
         pt._pt = {
@@ -19196,7 +21076,7 @@ _convertToUnit = function _convertToUnit(target, property, value, unit) {
           p: chunk || matchIndex === 1 ? chunk : ",",
           //note: SVG spec allows omission of comma/space when a negative sign is wedged between two numbers, like 2.5-5.3 instead of 2.5,-5.3 but when tweening, the negative value may switch to positive, so we insert the comma just in case.
           s: startNum,
-          c: relative ? relative * endNum : endNum - startNum,
+          c: endNum - startNum,
           m: color && color < 4 || prop === "zIndex" ? Math.round : 0
         };
       }
@@ -19650,8 +21530,9 @@ _identity2DMatrix = [1, 0, 0, 1, 0, 0],
     }
   }
 
-  cache.x = x - ((cache.xPercent = x && (cache.xPercent || (Math.round(target.offsetWidth / 2) === Math.round(-x) ? -50 : 0))) ? target.offsetWidth * cache.xPercent / 100 : 0) + px;
-  cache.y = y - ((cache.yPercent = y && (cache.yPercent || (Math.round(target.offsetHeight / 2) === Math.round(-y) ? -50 : 0))) ? target.offsetHeight * cache.yPercent / 100 : 0) + px;
+  uncache = uncache || cache.uncache;
+  cache.x = x - ((cache.xPercent = x && (!uncache && cache.xPercent || (Math.round(target.offsetWidth / 2) === Math.round(-x) ? -50 : 0))) ? target.offsetWidth * cache.xPercent / 100 : 0) + px;
+  cache.y = y - ((cache.yPercent = y && (!uncache && cache.yPercent || (Math.round(target.offsetHeight / 2) === Math.round(-y) ? -50 : 0))) ? target.offsetHeight * cache.yPercent / 100 : 0) + px;
   cache.z = z + px;
   cache.scaleX = (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._round)(scaleX);
   cache.scaleY = (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._round)(scaleY);
@@ -19849,11 +21730,11 @@ _addPxTranslate = function _addPxTranslate(target, start, value) {
   target.setAttribute("transform", temp);
   forceCSS && (target.style[_transformProp] = temp); //some browsers prioritize CSS transforms over the transform attribute. When we sense that the user has CSS transforms applied, we must overwrite them this way (otherwise some browser simply won't render the  transform attribute changes!)
 },
-    _addRotationalPropTween = function _addRotationalPropTween(plugin, target, property, startNum, endValue, relative) {
+    _addRotationalPropTween = function _addRotationalPropTween(plugin, target, property, startNum, endValue) {
   var cap = 360,
       isString = (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._isString)(endValue),
       endNum = parseFloat(endValue) * (isString && ~endValue.indexOf("rad") ? _RAD2DEG : 1),
-      change = relative ? endNum * relative : endNum - startNum,
+      change = endNum - startNum,
       finalValue = startNum + change + "deg",
       direction,
       pt;
@@ -20054,7 +21935,7 @@ var CSSPlugin = {
         }
 
         startNum = parseFloat(startValue);
-        relative = type === "string" && endValue.charAt(1) === "=" ? +(endValue.charAt(0) + "1") : 0;
+        relative = type === "string" && endValue.charAt(1) === "=" && endValue.substr(0, 2);
         relative && (endValue = endValue.substr(2));
         endNum = parseFloat(endValue);
 
@@ -20089,7 +21970,7 @@ var CSSPlugin = {
           }
 
           if (p === "scale") {
-            this._pt = new _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.PropTween(this._pt, cache, "scaleY", cache.scaleY, (relative ? relative * endNum : endNum - cache.scaleY) || 0);
+            this._pt = new _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.PropTween(this._pt, cache, "scaleY", cache.scaleY, (relative ? (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._parseRelative)(cache.scaleY, relative + endNum) : endNum) - cache.scaleY || 0);
             props.push("scaleY", p);
             p += "X";
           } else if (p === "transformOrigin") {
@@ -20111,7 +21992,7 @@ var CSSPlugin = {
 
             continue;
           } else if (p in _rotationalProperties) {
-            _addRotationalPropTween(this, cache, p, startNum, endValue, relative);
+            _addRotationalPropTween(this, cache, p, startNum, relative ? (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._parseRelative)(startNum, relative + endValue) : endValue);
 
             continue;
           } else if (p === "smoothOrigin") {
@@ -20136,7 +22017,7 @@ var CSSPlugin = {
 
           endUnit = (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.getUnit)(endValue) || (p in _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._config.units ? _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._config.units[p] : startUnit);
           startUnit !== endUnit && (startNum = _convertToUnit(target, p, startValue, endUnit));
-          this._pt = new _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.PropTween(this._pt, isTransformRelated ? cache : style, p, startNum, relative ? relative * endNum : endNum - startNum, !isTransformRelated && (endUnit === "px" || p === "zIndex") && vars.autoRound !== false ? _renderRoundedCSSProp : _renderCSSProp);
+          this._pt = new _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.PropTween(this._pt, isTransformRelated ? cache : style, p, startNum, (relative ? (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._parseRelative)(startNum, relative + endNum) : endNum) - startNum, !isTransformRelated && (endUnit === "px" || p === "zIndex") && vars.autoRound !== false ? _renderRoundedCSSProp : _renderCSSProp);
           this._pt.u = endUnit || 0;
 
           if (startUnit !== endUnit && endUnit !== "%") {
@@ -20147,14 +22028,14 @@ var CSSPlugin = {
         } else if (!(p in style)) {
           if (p in target) {
             //maybe it's not a style - it could be a property added directly to an element in which case we'll try to animate that.
-            this.add(target, p, startValue || target[p], endValue, index, targets);
+            this.add(target, p, startValue || target[p], relative ? relative + endValue : endValue, index, targets);
           } else {
             (0,_gsap_core_js__WEBPACK_IMPORTED_MODULE_0__._missingPlugin)(p, endValue);
 
             continue;
           }
         } else {
-          _tweenComplexCSSString.call(this, target, p, startValue, endValue);
+          _tweenComplexCSSString.call(this, target, p, startValue, relative ? relative + endValue : endValue);
         }
 
         props.push(p);
@@ -20205,6 +22086,699 @@ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.gsap.registerPlugin(CSSPlugin);
 
 /***/ }),
 
+/***/ "./node_modules/gsap/Observer.js":
+/*!***************************************!*\
+  !*** ./node_modules/gsap/Observer.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Observer": () => (/* binding */ Observer),
+/* harmony export */   "_getProxyProp": () => (/* binding */ _getProxyProp),
+/* harmony export */   "_getScrollFunc": () => (/* binding */ _getScrollFunc),
+/* harmony export */   "_getTarget": () => (/* binding */ _getTarget),
+/* harmony export */   "_getVelocityProp": () => (/* binding */ _getVelocityProp),
+/* harmony export */   "_horizontal": () => (/* binding */ _horizontal),
+/* harmony export */   "_isViewport": () => (/* binding */ _isViewport),
+/* harmony export */   "_proxies": () => (/* binding */ _proxies),
+/* harmony export */   "_scrollers": () => (/* binding */ _scrollers),
+/* harmony export */   "_vertical": () => (/* binding */ _vertical),
+/* harmony export */   "default": () => (/* binding */ Observer)
+/* harmony export */ });
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+/*!
+ * Observer 3.10.4
+ * https://greensock.com
+ *
+ * @license Copyright 2008-2022, GreenSock. All rights reserved.
+ * Subject to the terms at https://greensock.com/standard-license or for
+ * Club GreenSock members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/* eslint-disable */
+var gsap,
+    _coreInitted,
+    _clamp,
+    _win,
+    _doc,
+    _docEl,
+    _body,
+    _isTouch,
+    _pointerType,
+    ScrollTrigger,
+    _root,
+    _normalizer,
+    _eventTypes,
+    _getGSAP = function _getGSAP() {
+  return gsap || typeof window !== "undefined" && (gsap = window.gsap) && gsap.registerPlugin && gsap;
+},
+    _passThrough = function _passThrough(p) {
+  return p;
+},
+    _startup = 1,
+    _observers = [],
+    _scrollers = [],
+    _proxies = [],
+    _getTime = Date.now,
+    _bridge = function _bridge(name, value) {
+  return value;
+},
+    _integrate = function _integrate() {
+  var core = ScrollTrigger.core,
+      data = core.bridge || {},
+      scrollers = core._scrollers,
+      proxies = core._proxies;
+  scrollers.push.apply(scrollers, _scrollers);
+  proxies.push.apply(proxies, _proxies);
+  _scrollers = scrollers;
+  _proxies = proxies;
+
+  _bridge = function _bridge(name, value) {
+    return data[name](value);
+  };
+},
+    _getProxyProp = function _getProxyProp(element, property) {
+  return ~_proxies.indexOf(element) && _proxies[_proxies.indexOf(element) + 1][property];
+},
+    _isViewport = function _isViewport(el) {
+  return !!~_root.indexOf(el);
+},
+    _addListener = function _addListener(element, type, func, nonPassive, capture) {
+  return element.addEventListener(type, func, {
+    passive: !nonPassive,
+    capture: !!capture
+  });
+},
+    _removeListener = function _removeListener(element, type, func, capture) {
+  return element.removeEventListener(type, func, !!capture);
+},
+    _scrollLeft = "scrollLeft",
+    _scrollTop = "scrollTop",
+    _onScroll = function _onScroll() {
+  return _normalizer && _normalizer.isPressed || _scrollers.cache++;
+},
+    _scrollCacheFunc = function _scrollCacheFunc(f, doNotCache) {
+  var cachingFunc = function cachingFunc(value) {
+    // since reading the scrollTop/scrollLeft/pageOffsetY/pageOffsetX can trigger a layout, this function allows us to cache the value so it only gets read fresh after a "scroll" event fires (or while we're refreshing because that can lengthen the page and alter the scroll position). when "soft" is true, that means don't actually set the scroll, but cache the new value instead (useful in ScrollSmoother)
+    if (value || value === 0) {
+      _startup && (_win.history.scrollRestoration = "manual"); // otherwise the new position will get overwritten by the browser onload.
+
+      var isNormalizing = _normalizer && _normalizer.isPressed;
+      value = cachingFunc.v = Math.round(value) || (_normalizer && _normalizer.iOS ? 1 : 0); //TODO: iOS Bug: if you allow it to go to 0, Safari can start to report super strange (wildly inaccurate) touch positions!
+
+      f(value);
+      cachingFunc.cacheID = _scrollers.cache;
+      isNormalizing && _bridge("ss", value); // set scroll (notify ScrollTrigger so it can dispatch a "scrollStart" event if necessary
+    } else if (doNotCache || _scrollers.cache !== cachingFunc.cacheID || _bridge("ref")) {
+      cachingFunc.cacheID = _scrollers.cache;
+      cachingFunc.v = f();
+    }
+
+    return cachingFunc.v + cachingFunc.offset;
+  };
+
+  cachingFunc.offset = 0;
+  return f && cachingFunc;
+},
+    _horizontal = {
+  s: _scrollLeft,
+  p: "left",
+  p2: "Left",
+  os: "right",
+  os2: "Right",
+  d: "width",
+  d2: "Width",
+  a: "x",
+  sc: _scrollCacheFunc(function (value) {
+    return arguments.length ? _win.scrollTo(value, _vertical.sc()) : _win.pageXOffset || _doc[_scrollLeft] || _docEl[_scrollLeft] || _body[_scrollLeft] || 0;
+  })
+},
+    _vertical = {
+  s: _scrollTop,
+  p: "top",
+  p2: "Top",
+  os: "bottom",
+  os2: "Bottom",
+  d: "height",
+  d2: "Height",
+  a: "y",
+  op: _horizontal,
+  sc: _scrollCacheFunc(function (value) {
+    return arguments.length ? _win.scrollTo(_horizontal.sc(), value) : _win.pageYOffset || _doc[_scrollTop] || _docEl[_scrollTop] || _body[_scrollTop] || 0;
+  })
+},
+    _getTarget = function _getTarget(t) {
+  return gsap.utils.toArray(t)[0] || (typeof t === "string" && gsap.config().nullTargetWarn !== false ? console.warn("Element not found:", t) : null);
+},
+    _getScrollFunc = function _getScrollFunc(element, _ref) {
+  var s = _ref.s,
+      sc = _ref.sc;
+
+  // we store the scroller functions in a alternating sequenced Array like [element, verticalScrollFunc, horizontalScrollFunc, ...] so that we can minimize memory, maximize performance, and we also record the last position as a ".rec" property in order to revert to that after refreshing to ensure things don't shift around.
+  var i = _scrollers.indexOf(element),
+      offset = sc === _vertical.sc ? 1 : 2;
+
+  !~i && (i = _scrollers.push(element) - 1);
+  return _scrollers[i + offset] || (_scrollers[i + offset] = _scrollCacheFunc(_getProxyProp(element, s), true) || (_isViewport(element) ? sc : _scrollCacheFunc(function (value) {
+    return arguments.length ? element[s] = value : element[s];
+  })));
+},
+    _getVelocityProp = function _getVelocityProp(value, minTimeRefresh, useDelta) {
+  var v1 = value,
+      v2 = value,
+      t1 = _getTime(),
+      t2 = t1,
+      min = minTimeRefresh || 50,
+      dropToZeroTime = Math.max(500, min * 3),
+      update = function update(value, force) {
+    var t = _getTime();
+
+    if (force || t - t1 > min) {
+      v2 = v1;
+      v1 = value;
+      t2 = t1;
+      t1 = t;
+    } else if (useDelta) {
+      v1 += value;
+    } else {
+      // not totally necessary, but makes it a bit more accurate by adjusting the v1 value according to the new slope. This way we're not just ignoring the incoming data. Removing for now because it doesn't seem to make much practical difference and it's probably not worth the kb.
+      v1 = v2 + (value - v2) / (t - t2) * (t1 - t2);
+    }
+  },
+      reset = function reset() {
+    v2 = v1 = useDelta ? 0 : v1;
+    t2 = t1 = 0;
+  },
+      getVelocity = function getVelocity(latestValue) {
+    var tOld = t2,
+        vOld = v2,
+        t = _getTime();
+
+    (latestValue || latestValue === 0) && latestValue !== v1 && update(latestValue);
+    return t1 === t2 || t - t2 > dropToZeroTime ? 0 : (v1 + (useDelta ? vOld : -vOld)) / ((useDelta ? t : t1) - tOld) * 1000;
+  };
+
+  return {
+    update: update,
+    reset: reset,
+    getVelocity: getVelocity
+  };
+},
+    _getEvent = function _getEvent(e, preventDefault) {
+  preventDefault && !e._gsapAllow && e.preventDefault();
+  return e.changedTouches ? e.changedTouches[0] : e;
+},
+    _getAbsoluteMax = function _getAbsoluteMax(a) {
+  var max = Math.max.apply(Math, a),
+      min = Math.min.apply(Math, a);
+  return Math.abs(max) >= Math.abs(min) ? max : min;
+},
+    _setScrollTrigger = function _setScrollTrigger() {
+  ScrollTrigger = gsap.core.globals().ScrollTrigger;
+  ScrollTrigger && ScrollTrigger.core && _integrate();
+},
+    _initCore = function _initCore(core) {
+  gsap = core || _getGSAP();
+
+  if (gsap && typeof document !== "undefined" && document.body) {
+    _win = window;
+    _doc = document;
+    _docEl = _doc.documentElement;
+    _body = _doc.body;
+    _root = [_win, _doc, _docEl, _body];
+    _clamp = gsap.utils.clamp;
+    _pointerType = "onpointerenter" in _body ? "pointer" : "mouse"; // isTouch is 0 if no touch, 1 if ONLY touch, and 2 if it can accommodate touch but also other types like mouse/pointer.
+
+    _isTouch = Observer.isTouch = _win.matchMedia && _win.matchMedia("(hover: none), (pointer: coarse)").matches ? 1 : "ontouchstart" in _win || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0 ? 2 : 0;
+    _eventTypes = Observer.eventTypes = ("ontouchstart" in _docEl ? "touchstart,touchmove,touchcancel,touchend" : !("onpointerdown" in _docEl) ? "mousedown,mousemove,mouseup,mouseup" : "pointerdown,pointermove,pointercancel,pointerup").split(",");
+    setTimeout(function () {
+      return _startup = 0;
+    }, 500);
+
+    _setScrollTrigger();
+
+    _coreInitted = 1;
+  }
+
+  return _coreInitted;
+};
+
+_horizontal.op = _vertical;
+_scrollers.cache = 0;
+var Observer = /*#__PURE__*/function () {
+  function Observer(vars) {
+    this.init(vars);
+  }
+
+  var _proto = Observer.prototype;
+
+  _proto.init = function init(vars) {
+    _coreInitted || _initCore(gsap) || console.warn("Please gsap.registerPlugin(Observer)");
+    ScrollTrigger || _setScrollTrigger();
+    var tolerance = vars.tolerance,
+        dragMinimum = vars.dragMinimum,
+        type = vars.type,
+        target = vars.target,
+        lineHeight = vars.lineHeight,
+        debounce = vars.debounce,
+        preventDefault = vars.preventDefault,
+        onStop = vars.onStop,
+        onStopDelay = vars.onStopDelay,
+        ignore = vars.ignore,
+        wheelSpeed = vars.wheelSpeed,
+        event = vars.event,
+        onDragStart = vars.onDragStart,
+        onDragEnd = vars.onDragEnd,
+        onDrag = vars.onDrag,
+        onPress = vars.onPress,
+        onRelease = vars.onRelease,
+        onRight = vars.onRight,
+        onLeft = vars.onLeft,
+        onUp = vars.onUp,
+        onDown = vars.onDown,
+        onChangeX = vars.onChangeX,
+        onChangeY = vars.onChangeY,
+        onChange = vars.onChange,
+        onToggleX = vars.onToggleX,
+        onToggleY = vars.onToggleY,
+        onHover = vars.onHover,
+        onHoverEnd = vars.onHoverEnd,
+        onMove = vars.onMove,
+        ignoreCheck = vars.ignoreCheck,
+        isNormalizer = vars.isNormalizer,
+        onGestureStart = vars.onGestureStart,
+        onGestureEnd = vars.onGestureEnd,
+        onWheel = vars.onWheel,
+        onEnable = vars.onEnable,
+        onDisable = vars.onDisable,
+        onClick = vars.onClick,
+        scrollSpeed = vars.scrollSpeed,
+        capture = vars.capture,
+        allowClicks = vars.allowClicks,
+        lockAxis = vars.lockAxis,
+        onLockAxis = vars.onLockAxis;
+    this.target = target = _getTarget(target) || _docEl;
+    this.vars = vars;
+    ignore && (ignore = gsap.utils.toArray(ignore));
+    tolerance = tolerance || 0;
+    dragMinimum = dragMinimum || 0;
+    wheelSpeed = wheelSpeed || 1;
+    scrollSpeed = scrollSpeed || 1;
+    type = type || "wheel,touch,pointer";
+    debounce = debounce !== false;
+    lineHeight || (lineHeight = parseFloat(_win.getComputedStyle(_body).lineHeight) || 22); // note: browser may report "normal", so default to 22.
+
+    var id,
+        onStopDelayedCall,
+        dragged,
+        moved,
+        wheeled,
+        locked,
+        axis,
+        self = this,
+        prevDeltaX = 0,
+        prevDeltaY = 0,
+        scrollFuncX = _getScrollFunc(target, _horizontal),
+        scrollFuncY = _getScrollFunc(target, _vertical),
+        scrollX = scrollFuncX(),
+        scrollY = scrollFuncY(),
+        limitToTouch = ~type.indexOf("touch") && !~type.indexOf("pointer") && _eventTypes[0] === "pointerdown",
+        // for devices that accommodate mouse events and touch events, we need to distinguish.
+    isViewport = _isViewport(target),
+        ownerDoc = target.ownerDocument || _doc,
+        deltaX = [0, 0, 0],
+        // wheel, scroll, pointer/touch
+    deltaY = [0, 0, 0],
+        onClickTime = 0,
+        clickCapture = function clickCapture() {
+      return onClickTime = _getTime();
+    },
+        _ignoreCheck = function _ignoreCheck(e, isPointerOrTouch) {
+      return (self.event = e) && ignore && ~ignore.indexOf(e.target) || isPointerOrTouch && limitToTouch && e.pointerType !== "touch" || ignoreCheck && ignoreCheck(e, isPointerOrTouch);
+    },
+        onStopFunc = function onStopFunc() {
+      self._vx.reset();
+
+      self._vy.reset();
+
+      onStopDelayedCall.pause();
+      onStop && onStop(self);
+    },
+        update = function update() {
+      var dx = self.deltaX = _getAbsoluteMax(deltaX),
+          dy = self.deltaY = _getAbsoluteMax(deltaY),
+          changedX = Math.abs(dx) >= tolerance,
+          changedY = Math.abs(dy) >= tolerance;
+
+      onChange && (changedX || changedY) && onChange(self, dx, dy, deltaX, deltaY); // in ScrollTrigger.normalizeScroll(), we need to know if it was touch/pointer so we need access to the deltaX/deltaY Arrays before we clear them out.
+
+      if (changedX) {
+        onRight && self.deltaX > 0 && onRight(self);
+        onLeft && self.deltaX < 0 && onLeft(self);
+        onChangeX && onChangeX(self);
+        onToggleX && self.deltaX < 0 !== prevDeltaX < 0 && onToggleX(self);
+        prevDeltaX = self.deltaX;
+        deltaX[0] = deltaX[1] = deltaX[2] = 0;
+      }
+
+      if (changedY) {
+        onDown && self.deltaY > 0 && onDown(self);
+        onUp && self.deltaY < 0 && onUp(self);
+        onChangeY && onChangeY(self);
+        onToggleY && self.deltaY < 0 !== prevDeltaY < 0 && onToggleY(self);
+        prevDeltaY = self.deltaY;
+        deltaY[0] = deltaY[1] = deltaY[2] = 0;
+      }
+
+      if (moved || dragged) {
+        onMove && onMove(self);
+        onLockAxis && locked && onLockAxis(self);
+
+        if (dragged) {
+          onDrag(self);
+          dragged = false;
+        }
+
+        moved = locked = false;
+      }
+
+      if (wheeled) {
+        onWheel(self);
+        wheeled = false;
+      }
+
+      id = 0;
+    },
+        onDelta = function onDelta(x, y, index) {
+      deltaX[index] += x;
+      deltaY[index] += y;
+
+      self._vx.update(x);
+
+      self._vy.update(y);
+
+      debounce ? id || (id = requestAnimationFrame(update)) : update();
+    },
+        onTouchOrPointerDelta = function onTouchOrPointerDelta(x, y) {
+      if (axis !== "y") {
+        deltaX[2] += x;
+
+        self._vx.update(x, true); // update the velocity as frequently as possible instead of in the debounced function so that very quick touch-scrolls (flicks) feel natural. If it's the mouse/touch/pointer, force it so that we get snappy/accurate momentum scroll.
+
+      }
+
+      if (axis !== "x") {
+        deltaY[2] += y;
+
+        self._vy.update(y, true);
+      }
+
+      if (lockAxis && !axis) {
+        self.axis = axis = Math.abs(x) > Math.abs(y) ? "x" : "y";
+        locked = true;
+      }
+
+      debounce ? id || (id = requestAnimationFrame(update)) : update();
+    },
+        _onDrag = function _onDrag(e) {
+      if (_ignoreCheck(e, 1)) {
+        return;
+      }
+
+      e = _getEvent(e, preventDefault);
+      var x = e.clientX,
+          y = e.clientY,
+          dx = x - self.x,
+          dy = y - self.y,
+          isDragging = self.isDragging;
+      self.x = x;
+      self.y = y;
+
+      if (isDragging || Math.abs(self.startX - x) >= dragMinimum || Math.abs(self.startY - y) >= dragMinimum) {
+        onDrag && (dragged = true);
+        isDragging || (self.isDragging = true);
+        onTouchOrPointerDelta(dx, dy);
+        isDragging || onDragStart && onDragStart(self);
+      }
+    },
+        _onPress = self.onPress = function (e) {
+      if (_ignoreCheck(e, 1)) {
+        return;
+      }
+
+      self.axis = axis = null;
+      onStopDelayedCall.pause();
+      self.isPressed = true;
+      e = _getEvent(e); // note: may need to preventDefault(?) Won't side-scroll on iOS Safari if we do, though.
+
+      prevDeltaX = prevDeltaY = 0;
+      self.startX = self.x = e.clientX;
+      self.startY = self.y = e.clientY;
+
+      self._vx.reset(); // otherwise the t2 may be stale if the user touches and flicks super fast and releases in less than 2 requestAnimationFrame ticks, causing velocity to be 0.
+
+
+      self._vy.reset();
+
+      _addListener(isNormalizer ? target : ownerDoc, _eventTypes[1], _onDrag, preventDefault, true);
+
+      self.deltaX = self.deltaY = 0;
+      onPress && onPress(self);
+    },
+        _onRelease = function _onRelease(e) {
+      if (_ignoreCheck(e, 1)) {
+        return;
+      }
+
+      _removeListener(isNormalizer ? target : ownerDoc, _eventTypes[1], _onDrag, true);
+
+      var wasDragging = self.isDragging && (Math.abs(self.x - self.startX) > 3 || Math.abs(self.y - self.startY) > 3),
+          // some touch devices need some wiggle room in terms of sensing clicks - the finger may move a few pixels.
+      eventData = _getEvent(e);
+
+      if (!wasDragging) {
+        self._vx.reset();
+
+        self._vy.reset();
+
+        if (preventDefault && allowClicks) {
+          gsap.delayedCall(0.08, function () {
+            // some browsers (like Firefox) won't trust script-generated clicks, so if the user tries to click on a video to play it, for example, it simply won't work. Since a regular "click" event will most likely be generated anyway (one that has its isTrusted flag set to true), we must slightly delay our script-generated click so that the "real"/trusted one is prioritized. Remember, when there are duplicate events in quick succession, we suppress all but the first one. Some browsers don't even trigger the "real" one at all, so our synthetic one is a safety valve that ensures that no matter what, a click event does get dispatched.
+            if (_getTime() - onClickTime > 300 && !e.defaultPrevented) {
+              if (e.target.click) {
+                //some browsers (like mobile Safari) don't properly trigger the click event
+                e.target.click();
+              } else if (ownerDoc.createEvent) {
+                var syntheticEvent = ownerDoc.createEvent("MouseEvents");
+                syntheticEvent.initMouseEvent("click", true, true, _win, 1, eventData.screenX, eventData.screenY, eventData.clientX, eventData.clientY, false, false, false, false, 0, null);
+                e.target.dispatchEvent(syntheticEvent);
+              }
+            }
+          });
+        }
+      }
+
+      self.isDragging = self.isGesturing = self.isPressed = false;
+      onStop && !isNormalizer && onStopDelayedCall.restart(true);
+      onDragEnd && wasDragging && onDragEnd(self);
+      onRelease && onRelease(self, wasDragging);
+    },
+        _onGestureStart = function _onGestureStart(e) {
+      return e.touches && e.touches.length > 1 && (self.isGesturing = true) && onGestureStart(e, self.isDragging);
+    },
+        _onGestureEnd = function _onGestureEnd() {
+      return (self.isGesturing = false) || onGestureEnd(self);
+    },
+        onScroll = function onScroll(e) {
+      if (_ignoreCheck(e)) {
+        return;
+      }
+
+      var x = scrollFuncX(),
+          y = scrollFuncY();
+      onDelta((x - scrollX) * scrollSpeed, (y - scrollY) * scrollSpeed, 1);
+      scrollX = x;
+      scrollY = y;
+      onStop && onStopDelayedCall.restart(true);
+    },
+        _onWheel = function _onWheel(e) {
+      if (_ignoreCheck(e)) {
+        return;
+      }
+
+      e = _getEvent(e, preventDefault);
+      onWheel && (wheeled = true);
+      var multiplier = (e.deltaMode === 1 ? lineHeight : e.deltaMode === 2 ? _win.innerHeight : 1) * wheelSpeed;
+      onDelta(e.deltaX * multiplier, e.deltaY * multiplier, 0);
+      onStop && !isNormalizer && onStopDelayedCall.restart(true);
+    },
+        _onMove = function _onMove(e) {
+      if (_ignoreCheck(e)) {
+        return;
+      }
+
+      var x = e.clientX,
+          y = e.clientY,
+          dx = x - self.x,
+          dy = y - self.y;
+      self.x = x;
+      self.y = y;
+      moved = true;
+      (dx || dy) && onTouchOrPointerDelta(dx, dy);
+    },
+        _onHover = function _onHover(e) {
+      self.event = e;
+      onHover(self);
+    },
+        _onHoverEnd = function _onHoverEnd(e) {
+      self.event = e;
+      onHoverEnd(self);
+    },
+        _onClick = function _onClick(e) {
+      return _ignoreCheck(e) || _getEvent(e, preventDefault) && onClick(self);
+    };
+
+    onStopDelayedCall = self._dc = gsap.delayedCall(onStopDelay || 0.25, onStopFunc).pause();
+    self.deltaX = self.deltaY = 0;
+    self._vx = _getVelocityProp(0, 50, true);
+    self._vy = _getVelocityProp(0, 50, true);
+    self.scrollX = scrollFuncX;
+    self.scrollY = scrollFuncY;
+    self.isDragging = self.isGesturing = self.isPressed = false;
+
+    self.enable = function (e) {
+      if (!self.isEnabled) {
+        _addListener(isViewport ? ownerDoc : target, "scroll", _onScroll);
+
+        type.indexOf("scroll") >= 0 && _addListener(isViewport ? ownerDoc : target, "scroll", onScroll, preventDefault, capture);
+        type.indexOf("wheel") >= 0 && _addListener(target, "wheel", _onWheel, preventDefault, capture);
+
+        if (type.indexOf("touch") >= 0 && _isTouch || type.indexOf("pointer") >= 0) {
+          _addListener(target, _eventTypes[0], _onPress, preventDefault, capture);
+
+          _addListener(ownerDoc, _eventTypes[2], _onRelease);
+
+          _addListener(ownerDoc, _eventTypes[3], _onRelease);
+
+          allowClicks && _addListener(target, "click", clickCapture, false, true);
+          onClick && _addListener(target, "click", _onClick);
+          onGestureStart && _addListener(ownerDoc, "gesturestart", _onGestureStart);
+          onGestureEnd && _addListener(ownerDoc, "gestureend", _onGestureEnd);
+          onHover && _addListener(target, _pointerType + "enter", _onHover);
+          onHoverEnd && _addListener(target, _pointerType + "leave", _onHoverEnd);
+          onMove && _addListener(target, _pointerType + "move", _onMove);
+        }
+
+        self.isEnabled = true;
+        e && e.type && _onPress(e);
+        onEnable && onEnable(self);
+      }
+
+      return self;
+    };
+
+    self.disable = function () {
+      if (self.isEnabled) {
+        // only remove the _onScroll listener if there aren't any others that rely on the functionality.
+        _observers.filter(function (o) {
+          return o !== self && _isViewport(o.target);
+        }).length || _removeListener(isViewport ? ownerDoc : target, "scroll", _onScroll);
+
+        if (self.isPressed) {
+          self._vx.reset();
+
+          self._vy.reset();
+
+          _removeListener(isNormalizer ? target : ownerDoc, _eventTypes[1], _onDrag, true);
+        }
+
+        _removeListener(isViewport ? ownerDoc : target, "scroll", onScroll, capture);
+
+        _removeListener(target, "wheel", _onWheel, capture);
+
+        _removeListener(target, _eventTypes[0], _onPress, capture);
+
+        _removeListener(ownerDoc, _eventTypes[2], _onRelease);
+
+        _removeListener(ownerDoc, _eventTypes[3], _onRelease);
+
+        _removeListener(target, "click", clickCapture, true);
+
+        _removeListener(target, "click", _onClick);
+
+        _removeListener(ownerDoc, "gesturestart", _onGestureStart);
+
+        _removeListener(ownerDoc, "gestureend", _onGestureEnd);
+
+        _removeListener(target, _pointerType + "enter", _onHover);
+
+        _removeListener(target, _pointerType + "leave", _onHoverEnd);
+
+        _removeListener(target, _pointerType + "move", _onMove);
+
+        self.isEnabled = self.isPressed = self.isDragging = false;
+        onDisable && onDisable(self);
+      }
+    };
+
+    self.kill = function () {
+      self.disable();
+
+      var i = _observers.indexOf(self);
+
+      i >= 0 && _observers.splice(i, 1);
+      _normalizer === self && (_normalizer = 0);
+    };
+
+    _observers.push(self);
+
+    isNormalizer && _isViewport(target) && (_normalizer = self);
+    self.enable(event);
+  };
+
+  _createClass(Observer, [{
+    key: "velocityX",
+    get: function get() {
+      return this._vx.getVelocity();
+    }
+  }, {
+    key: "velocityY",
+    get: function get() {
+      return this._vy.getVelocity();
+    }
+  }]);
+
+  return Observer;
+}();
+Observer.version = "3.10.4";
+
+Observer.create = function (vars) {
+  return new Observer(vars);
+};
+
+Observer.register = _initCore;
+
+Observer.getAll = function () {
+  return _observers.slice();
+};
+
+Observer.getById = function (id) {
+  return _observers.filter(function (o) {
+    return o.vars.id === id;
+  })[0];
+};
+
+_getGSAP() && gsap.registerPlugin(Observer);
+
+
+/***/ }),
+
 /***/ "./node_modules/gsap/ScrollTrigger.js":
 /*!********************************************!*\
   !*** ./node_modules/gsap/ScrollTrigger.js ***!
@@ -20217,17 +22791,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ScrollTrigger": () => (/* binding */ ScrollTrigger),
 /* harmony export */   "default": () => (/* binding */ ScrollTrigger)
 /* harmony export */ });
+/* harmony import */ var _Observer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Observer.js */ "./node_modules/gsap/Observer.js");
 /*!
- * ScrollTrigger 3.9.1
+ * ScrollTrigger 3.10.4
  * https://greensock.com
  *
- * @license Copyright 2008-2021, GreenSock. All rights reserved.
+ * @license Copyright 2008-2022, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for
  * Club GreenSock members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
 */
 
 /* eslint-disable */
+
+
 var gsap,
     _coreInitted,
     _win,
@@ -20250,20 +22827,26 @@ var gsap,
     _sort,
     _suppressOverwrites,
     _ignoreResize,
+    _normalizer,
+    _ignoreMobileResize,
+    _baseScreenHeight,
+    _baseScreenWidth,
+    _fixIOSBug,
     _limitCallbacks,
     // if true, we'll only trigger callbacks if the active state toggles, so if you scroll immediately past both the start and end positions of a ScrollTrigger (thus inactive to inactive), neither its onEnter nor onLeave will be called. This is useful during startup.
 _startup = 1,
-    _proxies = [],
-    _scrollers = [],
     _getTime = Date.now,
     _time1 = _getTime(),
     _lastScrollTime = 0,
-    _enabled = 1,
+    _enabled = 0,
+    _pointerDownHandler = function _pointerDownHandler() {
+  return _pointerIsDown = 1;
+},
+    _pointerUpHandler = function _pointerUpHandler() {
+  return _pointerIsDown = 0;
+},
     _passThrough = function _passThrough(v) {
   return v;
-},
-    _getTarget = function _getTarget(t) {
-  return _toArray(t)[0] || (_isString(t) && gsap.config().nullTargetWarn !== false ? console.warn("Element not found:", t) : null);
 },
     _round = function _round(value) {
   return Math.round(value * 100000) / 100000 || 0;
@@ -20277,24 +22860,8 @@ _startup = 1,
     _isViewport = function _isViewport(e) {
   return !!~_root.indexOf(e);
 },
-    _getProxyProp = function _getProxyProp(element, property) {
-  return ~_proxies.indexOf(element) && _proxies[_proxies.indexOf(element) + 1][property];
-},
-    _getScrollFunc = function _getScrollFunc(element, _ref) {
-  var s = _ref.s,
-      sc = _ref.sc;
-
-  // we store the scroller functions in a alternating sequenced Array like [element, verticalScrollFunc, horizontalScrollFunc, ...] so that we can minimize memory, maximize performance, and we also record the last position as a ".rec" property in order to revert to that after refreshing to ensure things don't shift around.
-  var i = _scrollers.indexOf(element),
-      offset = sc === _vertical.sc ? 1 : 2;
-
-  !~i && (i = _scrollers.push(element) - 1);
-  return _scrollers[i + offset] || (_scrollers[i + offset] = _getProxyProp(element, s) || (_isViewport(element) ? sc : function (value) {
-    return arguments.length ? element[s] = value : element[s];
-  }));
-},
     _getBoundsFunc = function _getBoundsFunc(element) {
-  return _getProxyProp(element, "getBoundingClientRect") || (_isViewport(element) ? function () {
+  return (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getProxyProp)(element, "getBoundingClientRect") || (_isViewport(element) ? function () {
     _winOffsets.width = _win.innerWidth;
     _winOffsets.height = _win.innerHeight;
     return _winOffsets;
@@ -20302,27 +22869,27 @@ _startup = 1,
     return _getBounds(element);
   });
 },
-    _getSizeFunc = function _getSizeFunc(scroller, isViewport, _ref2) {
-  var d = _ref2.d,
-      d2 = _ref2.d2,
-      a = _ref2.a;
-  return (a = _getProxyProp(scroller, "getBoundingClientRect")) ? function () {
+    _getSizeFunc = function _getSizeFunc(scroller, isViewport, _ref) {
+  var d = _ref.d,
+      d2 = _ref.d2,
+      a = _ref.a;
+  return (a = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getProxyProp)(scroller, "getBoundingClientRect")) ? function () {
     return a()[d];
   } : function () {
     return (isViewport ? _win["inner" + d2] : scroller["client" + d2]) || 0;
   };
 },
     _getOffsetsFunc = function _getOffsetsFunc(element, isViewport) {
-  return !isViewport || ~_proxies.indexOf(element) ? _getBoundsFunc(element) : function () {
+  return !isViewport || ~_Observer_js__WEBPACK_IMPORTED_MODULE_0__._proxies.indexOf(element) ? _getBoundsFunc(element) : function () {
     return _winOffsets;
   };
 },
-    _maxScroll = function _maxScroll(element, _ref3) {
-  var s = _ref3.s,
-      d2 = _ref3.d2,
-      d = _ref3.d,
-      a = _ref3.a;
-  return (s = "scroll" + d2) && (a = _getProxyProp(element, s)) ? a() - _getBoundsFunc(element)()[d] : _isViewport(element) ? (_body[s] || _docEl[s]) - (_win["inner" + d2] || _docEl["client" + d2] || _body["client" + d2]) : element[s] - element["offset" + d2];
+    _maxScroll = function _maxScroll(element, _ref2) {
+  var s = _ref2.s,
+      d2 = _ref2.d2,
+      d = _ref2.d,
+      a = _ref2.a;
+  return (s = "scroll" + d2) && (a = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getProxyProp)(element, s)) ? a() - _getBoundsFunc(element)()[d] : _isViewport(element) ? (_docEl[s] || _body[s]) - (_win["inner" + d2] || _docEl["client" + d2] || _body["client" + d2]) : element[s] - element["offset" + d2];
 },
     _iterateAutoRefresh = function _iterateAutoRefresh(func, events) {
   for (var i = 0; i < _autoRefresh.length; i += 3) {
@@ -20383,33 +22950,6 @@ _startup = 1,
     _Width = "Width",
     _Height = "Height",
     _px = "px",
-    _horizontal = {
-  s: _scrollLeft,
-  p: _left,
-  p2: _Left,
-  os: _right,
-  os2: _Right,
-  d: _width,
-  d2: _Width,
-  a: "x",
-  sc: function sc(value) {
-    return arguments.length ? _win.scrollTo(value, _vertical.sc()) : _win.pageXOffset || _doc[_scrollLeft] || _docEl[_scrollLeft] || _body[_scrollLeft] || 0;
-  }
-},
-    _vertical = {
-  s: _scrollTop,
-  p: _top,
-  p2: _Top,
-  os: _bottom,
-  os2: _Bottom,
-  d: _height,
-  d2: _Height,
-  a: "y",
-  op: _horizontal,
-  sc: function sc(value) {
-    return arguments.length ? _win.scrollTo(_horizontal.sc(), value) : _win.pageYOffset || _doc[_scrollTop] || _docEl[_scrollTop] || _body[_scrollTop] || 0;
-  }
-},
     _getComputedStyle = function _getComputedStyle(element) {
   return _win.getComputedStyle(element);
 },
@@ -20443,8 +22983,8 @@ _startup = 1,
   tween && tween.progress(0).kill();
   return bounds;
 },
-    _getSize = function _getSize(element, _ref4) {
-  var d2 = _ref4.d2;
+    _getSize = function _getSize(element, _ref3) {
+  var d2 = _ref3.d2;
   return element["offset" + d2] || element["client" + d2] || 0;
 },
     _getLabelRatioArray = function _getLabelRatioArray(timeline) {
@@ -20521,13 +23061,17 @@ _startup = 1,
     return func(element, type, callback);
   });
 },
-    _addListener = function _addListener(element, type, func) {
+    _addListener = function _addListener(element, type, func, nonPassive, capture) {
   return element.addEventListener(type, func, {
-    passive: true
+    passive: !nonPassive,
+    capture: !!capture
   });
 },
-    _removeListener = function _removeListener(element, type, func) {
-  return element.removeEventListener(type, func);
+    _removeListener = function _removeListener(element, type, func, capture) {
+  return element.removeEventListener(type, func, !!capture);
+},
+    _wheelListener = function _wheelListener(func, el, scrollFunc) {
+  return scrollFunc && scrollFunc.wheelHandler && func(el, "wheel", scrollFunc);
 },
     _markerDefaults = {
   startColor: "green",
@@ -20562,15 +23106,15 @@ _startup = 1,
 
   return value;
 },
-    _createMarker = function _createMarker(type, name, container, direction, _ref5, offset, matchWidthEl, containerAnimation) {
-  var startColor = _ref5.startColor,
-      endColor = _ref5.endColor,
-      fontSize = _ref5.fontSize,
-      indent = _ref5.indent,
-      fontWeight = _ref5.fontWeight;
+    _createMarker = function _createMarker(type, name, container, direction, _ref4, offset, matchWidthEl, containerAnimation) {
+  var startColor = _ref4.startColor,
+      endColor = _ref4.endColor,
+      fontSize = _ref4.fontSize,
+      indent = _ref4.indent,
+      fontWeight = _ref4.fontWeight;
 
   var e = _doc.createElement("div"),
-      useFixedPosition = _isViewport(container) || _getProxyProp(container, "pinType") === "fixed",
+      useFixedPosition = _isViewport(container) || (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getProxyProp)(container, "pinType") === "fixed",
       isScroller = type.indexOf("scroller") !== -1,
       parent = useFixedPosition ? _body : container,
       isStart = type.indexOf("start") !== -1,
@@ -20578,7 +23122,7 @@ _startup = 1,
       css = "border-color:" + color + ";font-size:" + fontSize + ";color:" + color + ";font-weight:" + fontWeight + ";pointer-events:none;white-space:nowrap;font-family:sans-serif,Arial;z-index:1000;padding:4px 8px;border-width:0;border-style:solid;";
 
   css += "position:" + ((isScroller || containerAnimation) && useFixedPosition ? "fixed;" : "absolute;");
-  (isScroller || containerAnimation || !useFixedPosition) && (css += (direction === _vertical ? _right : _bottom) + ":" + (offset + parseFloat(indent)) + "px;");
+  (isScroller || containerAnimation || !useFixedPosition) && (css += (direction === _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical ? _right : _bottom) + ":" + (offset + parseFloat(indent)) + "px;");
   matchWidthEl && (css += "box-sizing:border-box;text-align:left;width:" + matchWidthEl.offsetWidth + "px;");
   e._isStart = isStart;
   e.setAttribute("class", "gsap-marker-" + type + (name ? " marker-" + name : ""));
@@ -20607,18 +23151,27 @@ _startup = 1,
 },
     _triggers = [],
     _ids = {},
+    _rafID,
     _sync = function _sync() {
   return _getTime() - _lastScrollTime > 34 && _updateAll();
 },
     _onScroll = function _onScroll() {
-  // previously, we tried to optimize performance by batching/deferring to the next requestAnimationFrame(), but discovered that Safari has a few bugs that make this unworkable (especially on iOS). See https://codepen.io/GreenSock/pen/16c435b12ef09c38125204818e7b45fc?editors=0010
-  _updateAll();
-
-  _lastScrollTime || _dispatch("scrollStart");
-  _lastScrollTime = _getTime();
+  // previously, we tried to optimize performance by batching/deferring to the next requestAnimationFrame(), but discovered that Safari has a few bugs that make this unworkable (especially on iOS). See https://codepen.io/GreenSock/pen/16c435b12ef09c38125204818e7b45fc?editors=0010 and https://codepen.io/GreenSock/pen/JjOxYpQ/3dd65ccec5a60f1d862c355d84d14562?editors=0010 and https://codepen.io/GreenSock/pen/ExbrPNa/087cef197dc35445a0951e8935c41503?editors=0010
+  if (!_normalizer || !_normalizer.isPressed || _normalizer.startX > _body.clientWidth) {
+    // if the user is dragging the scrollbar, allow it.
+    _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers.cache++;
+    _rafID || (_rafID = requestAnimationFrame(_updateAll));
+    _lastScrollTime || _dispatch("scrollStart");
+    _lastScrollTime = _getTime();
+  }
+},
+    _setBaseDimensions = function _setBaseDimensions() {
+  _baseScreenWidth = _win.innerWidth;
+  _baseScreenHeight = _win.innerHeight;
 },
     _onResize = function _onResize() {
-  return !_refreshing && !_ignoreResize && !_doc.fullscreenElement && _resizeDelay.restart(true);
+  _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers.cache++;
+  !_refreshing && !_ignoreResize && !_doc.fullscreenElement && !_doc.webkitFullscreenElement && (!_ignoreMobileResize || _baseScreenWidth !== _win.innerWidth || Math.abs(_win.innerHeight - _baseScreenHeight) > _win.innerHeight * 0.25) && _resizeDelay.restart(true);
 },
     // ignore resizes triggered by refresh()
 _listeners = {},
@@ -20700,12 +23253,13 @@ _revertRecorded = function _revertRecorded(media) {
   media || _dispatch("revert");
 },
     _clearScrollMemory = function _clearScrollMemory() {
-  return _scrollers.forEach(function (obj) {
+  return _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers.cache++ && _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers.forEach(function (obj) {
     return typeof obj === "function" && (obj.rec = 0);
   });
 },
     // zero-out all the recorded scroll positions. Don't use _triggers because if, for example, .matchMedia() is used to create some ScrollTriggers and then the user resizes and it removes ALL ScrollTriggers, and then go back to a size where there are ScrollTriggers, it would have kept the position(s) saved from the initial state.
 _refreshingAll,
+    _refreshID = 0,
     _refreshAll = function _refreshAll(force, skipRevert) {
   if (_lastScrollTime && !force) {
     _addListener(ScrollTrigger, "scrollEnd", _softRefresh);
@@ -20720,7 +23274,7 @@ _refreshingAll,
   _sort && ScrollTrigger.sort();
   skipRevert || _revertAll();
 
-  _triggers.forEach(function (t) {
+  _triggers.slice(0).forEach(function (t) {
     return t.refresh();
   }); // don't loop with _i because during a refresh() someone could call ScrollTrigger.update() which would iterate through _i resulting in a skip.
 
@@ -20738,14 +23292,19 @@ _refreshingAll,
 
   _resizeDelay.pause();
 
+  _refreshID++;
   _refreshingAll = false;
 
   _dispatch("refresh");
 },
     _lastScroll = 0,
     _direction = 1,
+    _primary,
     _updateAll = function _updateAll() {
   if (!_refreshingAll) {
+    ScrollTrigger.isUpdating = true;
+    _primary && _primary.update(0); // ScrollSmoother users refreshPriority -9999 to become the primary that gets updated before all others because it affects the scroll position.
+
     var l = _triggers.length,
         time = _getTime(),
         recordVelocity = time - _time1 >= 50,
@@ -20778,7 +23337,11 @@ _refreshingAll,
         _triggers[_i] && _triggers[_i].update(0, recordVelocity);
       }
     }
+
+    ScrollTrigger.isUpdating = false;
   }
+
+  _rafID = 0;
 },
     _propNamesToCopy = [_left, _top, _bottom, _right, _margin + _Bottom, _margin + _Right, _margin + _Top, _margin + _Left, "display", "flexShrink", "float", "zIndex", "gridColumnStart", "gridColumnEnd", "gridRowStart", "gridRowEnd", "gridArea", "justifySelf", "alignSelf", "placeSelf", "order"],
     _stateProps = _propNamesToCopy.concat([_width, _height, "boxSizing", "max" + _Width, "max" + _Height, "position", _margin, _padding, _padding + _Top, _padding + _Right, _padding + _Bottom, _padding + _Left]),
@@ -20815,8 +23378,8 @@ _refreshingAll,
     pinStyle[_bottom] = pinStyle[_right] = spacerStyle.flexBasis = "auto";
     spacerStyle.overflow = "visible";
     spacerStyle.boxSizing = "border-box";
-    spacerStyle[_width] = _getSize(pin, _horizontal) + _px;
-    spacerStyle[_height] = _getSize(pin, _vertical) + _px;
+    spacerStyle[_width] = _getSize(pin, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal) + _px;
+    spacerStyle[_height] = _getSize(pin, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical) + _px;
     spacerStyle[_padding] = pinStyle[_margin] = pinStyle[_top] = pinStyle[_left] = "0";
 
     _setState(spacerState);
@@ -20911,7 +23474,7 @@ _parsePosition = function _parsePosition(value, trigger, scrollerSize, direction
         localOffset,
         globalOffset,
         display;
-    element = _getTarget(trigger) || _body;
+    element = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(trigger) || _body;
     bounds = _getBounds(element) || {};
 
     if ((!bounds || !bounds.left && !bounds.top) && _getComputedStyle(element).display === "none") {
@@ -20955,7 +23518,7 @@ _parsePosition = function _parsePosition(value, trigger, scrollerSize, direction
   containerAnimation && containerAnimation.seek(time);
   return containerAnimation ? value : Math.round(value);
 },
-    _prefixExp = /(?:webkit|moz|length|cssText|inset)/i,
+    _prefixExp = /(webkit|moz|length|cssText|inset)/i,
     _reparent = function _reparent(element, parent, top, left) {
   if (element.parentNode !== parent) {
     var style = element.style,
@@ -20992,7 +23555,7 @@ _parsePosition = function _parsePosition(value, trigger, scrollerSize, direction
 // },
 // returns a function that can be used to tween the scroll position in the direction provided, and when doing so it'll add a .tween property to the FUNCTION itself, and remove it when the tween completes or gets killed. This gives us a way to have multiple ScrollTriggers use a central function for any given scroller and see if there's a scroll tween running (which would affect if/how things get updated)
 _getTweenCreator = function _getTweenCreator(scroller, direction) {
-  var getScroll = _getScrollFunc(scroller, direction),
+  var getScroll = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getScrollFunc)(scroller, direction),
       prop = "_scroll" + direction.p2,
       // add a tweenable property to the scroller that's a getter/setter function, like _scrollTop or _scrollLeft. This way, if someone does gsap.killTweensOf(scroller) it'll kill the scroll tween.
   lastScroll1,
@@ -21001,6 +23564,10 @@ _getTweenCreator = function _getTweenCreator(scroller, direction) {
     var tween = getTween.tween,
         onComplete = vars.onComplete,
         modifiers = {};
+    initialValue = initialValue || getScroll();
+    change2 = change1 && change2 || 0; // if change1 is 0, we set that to the difference and ignore change2. Otherwise, there would be a compound effect.
+
+    change1 = change1 || scrollTo - initialValue;
     tween && tween.kill();
     lastScroll1 = Math.round(initialValue);
     vars[prop] = scrollTo;
@@ -21032,15 +23599,16 @@ _getTweenCreator = function _getTweenCreator(scroller, direction) {
 
   scroller[prop] = getScroll;
 
-  _addListener(scroller, "wheel", function () {
+  getScroll.wheelHandler = function () {
     return getTween.tween && getTween.tween.kill() && (getTween.tween = 0);
-  }); // Windows machines handle mousewheel scrolling in chunks (like "3 lines per scroll") meaning the typical strategy for cancelling the scroll isn't as sensitive. It's much more likely to match one of the previous 2 scroll event positions. So we kill any snapping as soon as there's a wheel event.
+  };
+
+  _addListener(scroller, "wheel", getScroll.wheelHandler); // Windows machines handle mousewheel scrolling in chunks (like "3 lines per scroll") meaning the typical strategy for cancelling the scroll isn't as sensitive. It's much more likely to match one of the previous 2 scroll event positions. So we kill any snapping as soon as there's a wheel event.
 
 
   return getTween;
 };
 
-_horizontal.op = _vertical;
 var ScrollTrigger = /*#__PURE__*/function () {
   function ScrollTrigger(vars, animation) {
     _coreInitted || ScrollTrigger.register(gsap) || console.warn("Please gsap.registerPlugin(ScrollTrigger)");
@@ -21051,7 +23619,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
 
   _proto.init = function init(vars, animation) {
     this.progress = this.start = 0;
-    this.vars && this.kill(1); // in case it's being initted again
+    this.vars && this.kill(true, true); // in case it's being initted again
 
     if (!_enabled) {
       this.update = this.refresh = this.kill = _passThrough;
@@ -21083,12 +23651,12 @@ var ScrollTrigger = /*#__PURE__*/function () {
         containerAnimation = _vars.containerAnimation,
         fastScrollEnd = _vars.fastScrollEnd,
         preventOverlaps = _vars.preventOverlaps,
-        direction = vars.horizontal || vars.containerAnimation && vars.horizontal !== false ? _horizontal : _vertical,
+        direction = vars.horizontal || vars.containerAnimation && vars.horizontal !== false ? _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal : _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical,
         isToggle = !scrub && scrub !== 0,
-        scroller = _getTarget(vars.scroller || _win),
+        scroller = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(vars.scroller || _win),
         scrollerCache = gsap.core.getCache(scroller),
         isViewport = _isViewport(scroller),
-        useFixedPosition = ("pinType" in vars ? vars.pinType : _getProxyProp(scroller, "pinType") || isViewport && "fixed") === "fixed",
+        useFixedPosition = ("pinType" in vars ? vars.pinType : (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getProxyProp)(scroller, "pinType") || isViewport && "fixed") === "fixed",
         callbacks = [vars.onEnter, vars.onLeave, vars.onEnterBack, vars.onLeaveBack],
         toggleActions = isToggle && vars.toggleActions.split(" "),
         markers = "markers" in vars ? vars.markers : _defaults.markers,
@@ -21100,7 +23668,8 @@ var ScrollTrigger = /*#__PURE__*/function () {
         getScrollerSize = _getSizeFunc(scroller, isViewport, direction),
         getScrollerOffsets = _getOffsetsFunc(scroller, isViewport),
         lastSnap = 0,
-        scrollFunc = _getScrollFunc(scroller, direction),
+        lastRefresh = 0,
+        scrollFunc = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getScrollFunc)(scroller, direction),
         tweenTo,
         pinCache,
         snapFunc,
@@ -21137,7 +23706,8 @@ var ScrollTrigger = /*#__PURE__*/function () {
         prevProgress,
         prevScroll,
         prevAnimProgress,
-        caMarkerSetter;
+        caMarkerSetter,
+        customRevertReturn;
 
     self.media = _creatingMedia;
     self._dir = direction;
@@ -21147,26 +23717,43 @@ var ScrollTrigger = /*#__PURE__*/function () {
     scroll1 = scrollFunc();
     self.vars = vars;
     animation = animation || vars.animation;
-    "refreshPriority" in vars && (_sort = 1);
+
+    if ("refreshPriority" in vars) {
+      _sort = 1;
+      vars.refreshPriority === -9999 && (_primary = self); // used by ScrollSmoother
+    }
+
     scrollerCache.tweenScroll = scrollerCache.tweenScroll || {
-      top: _getTweenCreator(scroller, _vertical),
-      left: _getTweenCreator(scroller, _horizontal)
+      top: _getTweenCreator(scroller, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical),
+      left: _getTweenCreator(scroller, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal)
     };
     self.tweenTo = tweenTo = scrollerCache.tweenScroll[direction.p];
+
+    self.scrubDuration = function (value) {
+      scrubSmooth = _isNumber(value) && value;
+
+      if (!scrubSmooth) {
+        scrubTween && scrubTween.progress(1).kill();
+        scrubTween = 0;
+      } else {
+        scrubTween ? scrubTween.duration(value) : scrubTween = gsap.to(animation, {
+          ease: "expo",
+          totalProgress: "+=0.001",
+          duration: scrubSmooth,
+          paused: true,
+          onComplete: function onComplete() {
+            return onScrubComplete && onScrubComplete(self);
+          }
+        });
+      }
+    };
 
     if (animation) {
       animation.vars.lazy = false;
       animation._initted || animation.vars.immediateRender !== false && vars.immediateRender !== false && animation.render(0, true, true);
       self.animation = animation.pause();
       animation.scrollTrigger = self;
-      scrubSmooth = _isNumber(scrub) && scrub;
-      scrubSmooth && (scrubTween = gsap.to(animation, {
-        ease: "power3",
-        duration: scrubSmooth,
-        onComplete: function onComplete() {
-          return onScrubComplete && onScrubComplete(self);
-        }
-      }));
+      self.scrubDuration(scrub);
       snap1 = 0;
       id || (id = animation.vars.id);
     }
@@ -21185,7 +23772,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
       }); // smooth scrolling doesn't work with snap.
 
       snapFunc = _isFunction(snap.snapTo) ? snap.snapTo : snap.snapTo === "labels" ? _getClosestLabel(animation) : snap.snapTo === "labelsDirectional" ? _getLabelAtDirection(animation) : snap.directional !== false ? function (value, st) {
-        return _snapDirectional(snap.snapTo)(value, st.direction);
+        return _snapDirectional(snap.snapTo)(value, _getTime() - lastRefresh < 500 ? 0 : st.direction);
       } : gsap.utils.snap(snap.snapTo);
       snapDurClamp = snap.duration || {
         min: 0.1,
@@ -21193,19 +23780,22 @@ var ScrollTrigger = /*#__PURE__*/function () {
       };
       snapDurClamp = _isObject(snapDurClamp) ? _clamp(snapDurClamp.min, snapDurClamp.max) : _clamp(snapDurClamp, snapDurClamp);
       snapDelayedCall = gsap.delayedCall(snap.delay || scrubSmooth / 2 || 0.1, function () {
-        if (Math.abs(self.getVelocity()) < 10 && !_pointerIsDown && lastSnap !== scrollFunc()) {
-          var totalProgress = animation && !isToggle ? animation.totalProgress() : self.progress,
-              velocity = (totalProgress - snap2) / (_getTime() - _time2) * 1000 || 0,
-              change1 = gsap.utils.clamp(-self.progress, 1 - self.progress, _abs(velocity / 2) * velocity / 0.185),
-              naturalEnd = self.progress + (snap.inertia === false ? 0 : change1),
+        var scroll = scrollFunc(),
+            refreshedRecently = _getTime() - lastRefresh < 500,
+            tween = tweenTo.tween;
+
+        if ((refreshedRecently || Math.abs(self.getVelocity()) < 10) && !tween && !_pointerIsDown && lastSnap !== scroll) {
+          var progress = (scroll - start) / change,
+              totalProgress = animation && !isToggle ? animation.totalProgress() : progress,
+              velocity = refreshedRecently ? 0 : (totalProgress - snap2) / (_getTime() - _time2) * 1000 || 0,
+              change1 = gsap.utils.clamp(-progress, 1 - progress, _abs(velocity / 2) * velocity / 0.185),
+              naturalEnd = progress + (snap.inertia === false ? 0 : change1),
               endValue = _clamp(0, 1, snapFunc(naturalEnd, self)),
-              scroll = scrollFunc(),
               endScroll = Math.round(start + endValue * change),
               _snap = snap,
               onStart = _snap.onStart,
               _onInterrupt = _snap.onInterrupt,
-              _onComplete = _snap.onComplete,
-              tween = tweenTo.tween;
+              _onComplete = _snap.onComplete;
 
           if (scroll <= end && scroll >= start && endScroll !== scroll) {
             if (tween && !tween._initted && tween.data <= _abs(endScroll - scroll)) {
@@ -21214,7 +23804,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
             }
 
             if (snap.inertia === false) {
-              change1 = endValue - self.progress;
+              change1 = endValue - progress;
             }
 
             tweenTo(endScroll, {
@@ -21235,15 +23825,18 @@ var ScrollTrigger = /*#__PURE__*/function () {
             }, scroll, change1 * change, endScroll - scroll - change1 * change);
             onStart && onStart(self, tweenTo.tween);
           }
-        } else if (self.isActive) {
+        } else if (self.isActive && lastSnap !== scroll) {
           snapDelayedCall.restart(true);
         }
       }).pause();
     }
 
     id && (_ids[id] = self);
-    trigger = self.trigger = _getTarget(trigger || pin);
-    pin = pin === true ? trigger : _getTarget(pin);
+    trigger = self.trigger = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(trigger || pin); // if a trigger has some kind of scroll-related effect applied that could contaminate the "y" or "x" position (like a ScrollSmoother effect), we needed a way to temporarily revert it, so we use the stRevert property of the gsCache. It can return another function that we'll call at the end so it can return to its normal state.
+
+    customRevertReturn = trigger && trigger._gsap && trigger._gsap.stRevert;
+    customRevertReturn && (customRevertReturn = customRevertReturn(self));
+    pin = pin === true ? trigger : (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(pin);
     _isString(toggleClass) && (toggleClass = {
       targets: trigger,
       className: toggleClass
@@ -21261,7 +23854,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
       if (!pinCache.spacer) {
         // record the spacer and pinOriginalState on the cache in case someone tries pinning the same element with MULTIPLE ScrollTriggers - we don't want to have multiple spacers or record the "original" pin state after it has already been affected by another ScrollTrigger.
         if (pinSpacer) {
-          pinSpacer = _getTarget(pinSpacer);
+          pinSpacer = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(pinSpacer);
           pinSpacer && !pinSpacer.nodeType && (pinSpacer = pinSpacer.current || pinSpacer.nativeElement); // for React & Angular
 
           pinCache.spacerIsNative = !!pinSpacer;
@@ -21292,11 +23885,14 @@ var ScrollTrigger = /*#__PURE__*/function () {
       markerStartTrigger = _createMarker("scroller-start", id, scroller, direction, markerVars, 0);
       markerEndTrigger = _createMarker("scroller-end", id, scroller, direction, markerVars, 0, markerStartTrigger);
       offset = markerStartTrigger["offset" + direction.op.d2];
-      markerStart = _createMarker("start", id, scroller, direction, markerVars, offset, 0, containerAnimation);
-      markerEnd = _createMarker("end", id, scroller, direction, markerVars, offset, 0, containerAnimation);
+
+      var content = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)((0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getProxyProp)(scroller, "content") || scroller);
+
+      markerStart = this.markerStart = _createMarker("start", id, content, direction, markerVars, offset, 0, containerAnimation);
+      markerEnd = this.markerEnd = _createMarker("end", id, content, direction, markerVars, offset, 0, containerAnimation);
       containerAnimation && (caMarkerSetter = gsap.quickSetter([markerStart, markerEnd], direction.a, _px));
 
-      if (!useFixedPosition && !(_proxies.length && _getProxyProp(scroller, "fixedMarkers") === true)) {
+      if (!useFixedPosition && !(_Observer_js__WEBPACK_IMPORTED_MODULE_0__._proxies.length && (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getProxyProp)(scroller, "fixedMarkers") === true)) {
         _makePositionable(isViewport ? _body : scroller);
 
         gsap.set([markerStartTrigger, markerEndTrigger], {
@@ -21330,7 +23926,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
 
       if (r !== self.isReverted) {
         if (r) {
-          self.scroll.rec || (self.scroll.rec = scrollFunc());
+          self.scroll.rec || !_refreshing || !_refreshingAll || (self.scroll.rec = scrollFunc());
           prevScroll = Math.max(scrollFunc(), self.scroll.rec || 0); // record the scroll so we can revert later (repositioning/pinning things can affect scroll position). In the static refresh() method, we first record all the scroll positions as a reference.
 
           prevProgress = self.progress;
@@ -21360,7 +23956,15 @@ var ScrollTrigger = /*#__PURE__*/function () {
         return;
       }
 
+      !_refreshingAll && onRefreshInit && onRefreshInit(self);
       _refreshing = 1;
+      lastRefresh = _getTime();
+
+      if (tweenTo.tween) {
+        tweenTo.tween.kill();
+        tweenTo.tween = 0;
+      }
+
       scrubTween && scrubTween.pause();
       invalidateOnRefresh && animation && animation.time(-0.01, true).invalidate();
       self.isReverted || self.revert();
@@ -21373,7 +23977,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
           parsedEnd = vars.end,
           parsedEndTrigger = vars.endTrigger || trigger,
           parsedStart = vars.start || (vars.start === 0 || !trigger ? 0 : pin ? "0 0" : "0 100%"),
-          pinnedContainer = vars.pinnedContainer && _getTarget(vars.pinnedContainer),
+          pinnedContainer = self.pinnedContainer = vars.pinnedContainer && (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(vars.pinnedContainer),
           triggerIndex = trigger && Math.max(0, _triggers.indexOf(self)) || 0,
           i = triggerIndex,
           cs,
@@ -21399,6 +24003,12 @@ var ScrollTrigger = /*#__PURE__*/function () {
           revertedPins.unshift(curTrigger); // we'll revert from first to last to make sure things reach their end state properly
 
           curTrigger.revert();
+        }
+
+        if (curTrigger !== _triggers[i]) {
+          // in case it got removed.
+          triggerIndex--;
+          i--;
         }
       }
 
@@ -21426,7 +24036,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
         curTrigger = _triggers[i];
         curPin = curTrigger.pin;
 
-        if (curPin && curTrigger.start - curTrigger._pinPush < start && !containerAnimation) {
+        if (curPin && curTrigger.start - curTrigger._pinPush < start && !containerAnimation && curTrigger.end > 0) {
           cs = curTrigger.end - curTrigger.start;
 
           if ((curPin === trigger || curPin === pinnedContainer) && !_isNumber(parsedStart)) {
@@ -21452,7 +24062,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
 
       if (pin) {
         cs = _getComputedStyle(pin);
-        isVertical = direction === _vertical;
+        isVertical = direction === _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical;
         scroll = scrollFunc(); // recalculate because the triggers can affect the scroll
 
         pinStart = parseFloat(pinGetter(direction.a)) + otherPinOffset;
@@ -21463,7 +24073,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
         pinState = _getState(pin); // transforms will interfere with the top/left/right/bottom placement, so remove them temporarily. getBoundingClientRect() factors in transforms.
 
         bounds = _getBounds(pin, true);
-        oppositeScroll = useFixedPosition && _getScrollFunc(scroller, isVertical ? _horizontal : _vertical)();
+        oppositeScroll = useFixedPosition && (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getScrollFunc)(scroller, isVertical ? _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal : _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical)();
 
         if (pinSpacing) {
           spacerState = [pinSpacing + direction.os2, change + otherPinOffset + _px];
@@ -21502,7 +24112,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
 
           animation.render(animation.duration(), true, true);
           pinChange = pinGetter(direction.a) - pinStart + change + otherPinOffset;
-          change !== pinChange && pinActiveState.splice(pinActiveState.length - 2, 2); // transform is the last property/value set in the state Array. Since the animation is controlling that, we should omit it.
+          change !== pinChange && useFixedPosition && pinActiveState.splice(pinActiveState.length - 2, 2); // transform is the last property/value set in the state Array. Since the animation is controlling that, we should omit it.
 
           animation.render(0, true, true);
           initted || animation.invalidate();
@@ -21538,8 +24148,16 @@ var ScrollTrigger = /*#__PURE__*/function () {
       }
 
       self.revert(false);
+
+      if (snapDelayedCall) {
+        lastSnap = -1;
+        self.isActive && scrollFunc(start + change * prevProgress); // just so snapping gets re-enabled, clear out any recorded last value
+
+        snapDelayedCall.restart(true);
+      }
+
       _refreshing = 0;
-      animation && isToggle && animation._initted && animation.progress() !== prevAnimProgress && animation.progress(prevAnimProgress, true).render(animation.time(), true, true); // must force a re-render because if saveStyles() was used on the target(s), the styles could have been wiped out during the refresh().
+      animation && isToggle && (animation._initted || prevAnimProgress) && animation.progress() !== prevAnimProgress && animation.progress(prevAnimProgress, true).render(animation.time(), true, true); // must force a re-render because if saveStyles() was used on the target(s), the styles could have been wiped out during the refresh().
 
       if (prevProgress !== self.progress || containerAnimation) {
         // ensures that the direction is set properly (when refreshing, progress is set back to 0 initially, then back again to wherever it needs to be) and that callbacks are triggered.
@@ -21549,7 +24167,8 @@ var ScrollTrigger = /*#__PURE__*/function () {
         self.update(0, 0, 1);
       }
 
-      pin && pinSpacing && (spacer._pinOffset = Math.round(self.progress * pinChange));
+      pin && pinSpacing && (spacer._pinOffset = Math.round(self.progress * pinChange)); //			scrubTween && scrubTween.invalidate();
+
       onRefresh && onRefresh(self);
     };
 
@@ -21573,9 +24192,11 @@ var ScrollTrigger = /*#__PURE__*/function () {
       var i = _triggers.indexOf(self),
           a = self.direction > 0 ? _triggers.slice(0, i).reverse() : _triggers.slice(i + 1);
 
-      return _isString(name) ? a.filter(function (t) {
+      return (_isString(name) ? a.filter(function (t) {
         return t.vars.preventOverlaps === name;
-      }) : a;
+      }) : a).filter(function (t) {
+        return self.direction > 0 ? t.end <= start : t.start >= end;
+      });
     };
 
     self.update = function (reset, recordVelocity, forceFake) {
@@ -21628,14 +24249,21 @@ var ScrollTrigger = /*#__PURE__*/function () {
           }
         }
 
-        preventOverlaps && toggled && (isTakingAction || scrub || !animation) && (_isFunction(preventOverlaps) ? preventOverlaps(self) : self.getTrailing(preventOverlaps).forEach(function (t) {
+        preventOverlaps && (toggled || isTakingAction) && (isTakingAction || scrub || !animation) && (_isFunction(preventOverlaps) ? preventOverlaps(self) : self.getTrailing(preventOverlaps).forEach(function (t) {
           return t.endAnimation();
         }));
 
         if (!isToggle) {
           if (scrubTween && !_refreshing && !_startup) {
-            scrubTween.vars.totalProgress = clipped;
-            scrubTween.invalidate().restart();
+            (containerAnimation || _primary && _primary !== self) && scrubTween.render(scrubTween._dp._time - scrubTween._start); // if there's a scrub on both the container animation and this one (or a ScrollSmoother), the update order would cause this one not to have rendered yet, so it wouldn't make any progress before we .restart() it heading toward the new progress so it'd appear stuck thus we force a render here.
+
+            if (scrubTween.resetTo) {
+              scrubTween.resetTo("totalProgress", clipped, animation._tTime / animation._tDur);
+            } else {
+              // legacy support (courtesy), before 3.10.0
+              scrubTween.vars.totalProgress = clipped;
+              scrubTween.invalidate().restart();
+            }
           } else if (animation) {
             animation.totalProgress(clipped, !!_refreshing);
           }
@@ -21645,7 +24273,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
           reset && pinSpacing && (spacer.style[pinSpacing + direction.os2] = spacingStart);
 
           if (!useFixedPosition) {
-            pinSetter(pinStart + pinChange * clipped);
+            pinSetter(_round(pinStart + pinChange * clipped));
           } else if (stateChanged) {
             isAtMax = !reset && clipped > prevProgress && end + 1 > scroll && scroll + 1 >= _maxScroll(scroller, direction); // if it's at the VERY end of the page, don't switch away from position: fixed because it's pointless and it could cause a brief flash when the user scrolls back up (when it gets pinned again)
 
@@ -21654,7 +24282,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
                 var bounds = _getBounds(pin, true),
                     _offset = scroll - start;
 
-                _reparent(pin, _body, bounds.top + (direction === _vertical ? _offset : 0) + _px, bounds.left + (direction === _vertical ? 0 : _offset) + _px);
+                _reparent(pin, _body, bounds.top + (direction === _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical ? _offset : 0) + _px, bounds.left + (direction === _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical ? 0 : _offset) + _px);
               } else {
                 _reparent(pin, spacer);
               }
@@ -21729,7 +24357,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
 
         _addListener(scroller, "resize", _onResize);
 
-        _addListener(scroller, "scroll", _onScroll);
+        _addListener(isViewport ? _doc : scroller, "scroll", _onScroll);
 
         onRefreshInit && _addListener(ScrollTrigger, "refreshInit", onRefreshInit);
 
@@ -21791,7 +24419,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
 
     self.kill = function (revert, allowAnimation) {
       self.disable(revert, allowAnimation);
-      scrubTween && scrubTween.kill();
+      scrubTween && !allowAnimation && scrubTween.kill();
       id && delete _ids[id];
 
       var i = _triggers.indexOf(self);
@@ -21817,6 +24445,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
       markerStart && [markerStart, markerEnd, markerStartTrigger, markerEndTrigger].forEach(function (m) {
         return m.parentNode && m.parentNode.removeChild(m);
       });
+      _primary === self && (_primary = 0);
 
       if (pin) {
         pinCache && (pinCache.uncache = 1);
@@ -21828,9 +24457,12 @@ var ScrollTrigger = /*#__PURE__*/function () {
 
         i || (pinCache.spacer = 0); // if there aren't any more ScrollTriggers with the same pin, remove the spacer, otherwise it could be contaminated with old/stale values if the user re-creates a ScrollTrigger for the same element.
       }
+
+      vars.onKill && vars.onKill(self);
     };
 
     self.enable(false, false);
+    customRevertReturn && customRevertReturn(self);
     !animation || !animation.add || change ? self.refresh() : gsap.delayedCall(0.01, function () {
       return start || end || self.refresh();
     }) && (change = 0.01) && (start = end = 0); // if the animation is a timeline, it may not have been populated yet, so it wouldn't render at the proper place on the first refresh(), thus we should schedule one for the next tick. If "change" is defined, we know it must be re-enabling, thus we can refresh() right away.
@@ -21839,80 +24471,8 @@ var ScrollTrigger = /*#__PURE__*/function () {
   ScrollTrigger.register = function register(core) {
     if (!_coreInitted) {
       gsap = core || _getGSAP();
-
-      if (_windowExists() && window.document) {
-        _win = window;
-        _doc = document;
-        _docEl = _doc.documentElement;
-        _body = _doc.body;
-      }
-
-      if (gsap) {
-        _toArray = gsap.utils.toArray;
-        _clamp = gsap.utils.clamp;
-        _suppressOverwrites = gsap.core.suppressOverwrites || _passThrough;
-        gsap.core.globals("ScrollTrigger", ScrollTrigger); // must register the global manually because in Internet Explorer, functions (classes) don't have a "name" property.
-
-        if (_body) {
-          _addListener(_win, "wheel", _onScroll);
-
-          _root = [_win, _doc, _docEl, _body];
-
-          _addListener(_doc, "scroll", _onScroll); // some browsers (like Chrome), the window stops dispatching scroll events on the window if you scroll really fast, but it's consistent on the document!
-
-
-          var bodyStyle = _body.style,
-              border = bodyStyle.borderTopStyle,
-              bounds;
-          bodyStyle.borderTopStyle = "solid"; // works around an issue where a margin of a child element could throw off the bounds of the _body, making it seem like there's a margin when there actually isn't. The border ensures that the bounds are accurate.
-
-          bounds = _getBounds(_body);
-          _vertical.m = Math.round(bounds.top + _vertical.sc()) || 0; // accommodate the offset of the <body> caused by margins and/or padding
-
-          _horizontal.m = Math.round(bounds.left + _horizontal.sc()) || 0;
-          border ? bodyStyle.borderTopStyle = border : bodyStyle.removeProperty("border-top-style");
-          _syncInterval = setInterval(_sync, 200);
-          gsap.delayedCall(0.5, function () {
-            return _startup = 0;
-          });
-
-          _addListener(_doc, "touchcancel", _passThrough); // some older Android devices intermittently stop dispatching "touchmove" events if we don't listen for "touchcancel" on the document.
-
-
-          _addListener(_body, "touchstart", _passThrough); //works around Safari bug: https://greensock.com/forums/topic/21450-draggable-in-iframe-on-mobile-is-buggy/
-
-
-          _multiListener(_addListener, _doc, "pointerdown,touchstart,mousedown", function () {
-            return _pointerIsDown = 1;
-          });
-
-          _multiListener(_addListener, _doc, "pointerup,touchend,mouseup", function () {
-            return _pointerIsDown = 0;
-          });
-
-          _transformProp = gsap.utils.checkPrefix("transform");
-
-          _stateProps.push(_transformProp);
-
-          _coreInitted = _getTime();
-          _resizeDelay = gsap.delayedCall(0.2, _refreshAll).pause();
-          _autoRefresh = [_doc, "visibilitychange", function () {
-            var w = _win.innerWidth,
-                h = _win.innerHeight;
-
-            if (_doc.hidden) {
-              _prevWidth = w;
-              _prevHeight = h;
-            } else if (_prevWidth !== w || _prevHeight !== h) {
-              _onResize();
-            }
-          }, _doc, "DOMContentLoaded", _refreshAll, _win, "load", function () {
-            return _lastScrollTime || _refreshAll();
-          }, _win, "resize", _onResize];
-
-          _iterateAutoRefresh(_addListener);
-        }
-      }
+      _windowExists() && window.document && ScrollTrigger.enable();
+      _coreInitted = _enabled;
     }
 
     return _coreInitted;
@@ -21928,18 +24488,138 @@ var ScrollTrigger = /*#__PURE__*/function () {
     return _defaults;
   };
 
-  ScrollTrigger.kill = function kill() {
+  ScrollTrigger.disable = function disable(reset, kill) {
     _enabled = 0;
 
-    _triggers.slice(0).forEach(function (trigger) {
-      return trigger.kill(1);
+    _triggers.forEach(function (trigger) {
+      return trigger[kill ? "kill" : "disable"](reset);
     });
+
+    _removeListener(_win, "wheel", _onScroll);
+
+    _removeListener(_doc, "scroll", _onScroll);
+
+    clearInterval(_syncInterval);
+
+    _removeListener(_doc, "touchcancel", _passThrough);
+
+    _removeListener(_body, "touchstart", _passThrough);
+
+    _multiListener(_removeListener, _doc, "pointerdown,touchstart,mousedown", _pointerDownHandler);
+
+    _multiListener(_removeListener, _doc, "pointerup,touchend,mouseup", _pointerUpHandler);
+
+    _resizeDelay.kill();
+
+    _iterateAutoRefresh(_removeListener);
+
+    for (var i = 0; i < _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers.length; i += 3) {
+      _wheelListener(_removeListener, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers[i], _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers[i + 1]);
+
+      _wheelListener(_removeListener, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers[i], _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers[i + 2]);
+    }
+  };
+
+  ScrollTrigger.enable = function enable() {
+    _win = window;
+    _doc = document;
+    _docEl = _doc.documentElement;
+    _body = _doc.body;
+
+    if (gsap) {
+      _toArray = gsap.utils.toArray;
+      _clamp = gsap.utils.clamp;
+      _suppressOverwrites = gsap.core.suppressOverwrites || _passThrough;
+      gsap.core.globals("ScrollTrigger", ScrollTrigger); // must register the global manually because in Internet Explorer, functions (classes) don't have a "name" property.
+
+      if (_body) {
+        _enabled = 1;
+        _Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer.register(gsap); // isTouch is 0 if no touch, 1 if ONLY touch, and 2 if it can accommodate touch but also other types like mouse/pointer.
+
+        ScrollTrigger.isTouch = _Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer.isTouch;
+        _fixIOSBug = _Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer.isTouch && /(iPad|iPhone|iPod|Mac)/g.test(navigator.userAgent); // since 2017, iOS has had a bug that causes event.clientX/Y to be inaccurate when a scroll occurs, thus we must alternate ignoring every other touchmove event to work around it. See https://bugs.webkit.org/show_bug.cgi?id=181954 and https://codepen.io/GreenSock/pen/ExbrPNa/087cef197dc35445a0951e8935c41503
+
+        _addListener(_win, "wheel", _onScroll); // mostly for 3rd party smooth scrolling libraries.
+
+
+        _root = [_win, _doc, _docEl, _body];
+        ScrollTrigger.matchMedia({
+          // when orientation changes, we should take new base measurements for the ignoreMobileResize feature.
+          "(orientation: portrait)": function orientationPortrait() {
+            _setBaseDimensions();
+
+            return _setBaseDimensions;
+          }
+        });
+
+        _addListener(_doc, "scroll", _onScroll); // some browsers (like Chrome), the window stops dispatching scroll events on the window if you scroll really fast, but it's consistent on the document!
+
+
+        var bodyStyle = _body.style,
+            border = bodyStyle.borderTopStyle,
+            bounds,
+            i;
+        bodyStyle.borderTopStyle = "solid"; // works around an issue where a margin of a child element could throw off the bounds of the _body, making it seem like there's a margin when there actually isn't. The border ensures that the bounds are accurate.
+
+        bounds = _getBounds(_body);
+        _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical.m = Math.round(bounds.top + _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical.sc()) || 0; // accommodate the offset of the <body> caused by margins and/or padding
+
+        _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal.m = Math.round(bounds.left + _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal.sc()) || 0;
+        border ? bodyStyle.borderTopStyle = border : bodyStyle.removeProperty("border-top-style"); // TODO: (?) maybe move to leveraging the velocity mechanism in Observer and skip intervals.
+
+        _syncInterval = setInterval(_sync, 250);
+        gsap.delayedCall(0.5, function () {
+          return _startup = 0;
+        });
+
+        _addListener(_doc, "touchcancel", _passThrough); // some older Android devices intermittently stop dispatching "touchmove" events if we don't listen for "touchcancel" on the document.
+
+
+        _addListener(_body, "touchstart", _passThrough); //works around Safari bug: https://greensock.com/forums/topic/21450-draggable-in-iframe-on-mobile-is-buggy/
+
+
+        _multiListener(_addListener, _doc, "pointerdown,touchstart,mousedown", _pointerDownHandler);
+
+        _multiListener(_addListener, _doc, "pointerup,touchend,mouseup", _pointerUpHandler);
+
+        _transformProp = gsap.utils.checkPrefix("transform");
+
+        _stateProps.push(_transformProp);
+
+        _coreInitted = _getTime();
+        _resizeDelay = gsap.delayedCall(0.2, _refreshAll).pause();
+        _autoRefresh = [_doc, "visibilitychange", function () {
+          var w = _win.innerWidth,
+              h = _win.innerHeight;
+
+          if (_doc.hidden) {
+            _prevWidth = w;
+            _prevHeight = h;
+          } else if (_prevWidth !== w || _prevHeight !== h) {
+            _onResize();
+          }
+        }, _doc, "DOMContentLoaded", _refreshAll, _win, "load", _refreshAll, _win, "resize", _onResize];
+
+        _iterateAutoRefresh(_addListener);
+
+        _triggers.forEach(function (trigger) {
+          return trigger.enable(0, 1);
+        });
+
+        for (i = 0; i < _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers.length; i += 3) {
+          _wheelListener(_removeListener, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers[i], _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers[i + 1]);
+
+          _wheelListener(_removeListener, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers[i], _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers[i + 2]);
+        }
+      }
+    }
   };
 
   ScrollTrigger.config = function config(vars) {
     "limitCallbacks" in vars && (_limitCallbacks = !!vars.limitCallbacks);
     var ms = vars.syncInterval;
     ms && clearInterval(_syncInterval) || (_syncInterval = ms) && setInterval(_sync, ms);
+    "ignoreMobileResize" in vars && (_ignoreMobileResize = ScrollTrigger.isTouch === 1 && vars.ignoreMobileResize);
 
     if ("autoRefreshEvents" in vars) {
       _iterateAutoRefresh(_removeListener) || _iterateAutoRefresh(_addListener, vars.autoRefreshEvents || "none");
@@ -21948,16 +24628,16 @@ var ScrollTrigger = /*#__PURE__*/function () {
   };
 
   ScrollTrigger.scrollerProxy = function scrollerProxy(target, vars) {
-    var t = _getTarget(target),
-        i = _scrollers.indexOf(t),
+    var t = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(target),
+        i = _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers.indexOf(t),
         isViewport = _isViewport(t);
 
     if (~i) {
-      _scrollers.splice(i, isViewport ? 6 : 2);
+      _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers.splice(i, isViewport ? 6 : 2);
     }
 
     if (vars) {
-      isViewport ? _proxies.unshift(_win, vars, _body, vars, _docEl, vars) : _proxies.unshift(t, vars);
+      isViewport ? _Observer_js__WEBPACK_IMPORTED_MODULE_0__._proxies.unshift(_win, vars, _body, vars, _docEl, vars) : _Observer_js__WEBPACK_IMPORTED_MODULE_0__._proxies.unshift(t, vars);
     }
   };
 
@@ -22006,13 +24686,13 @@ var ScrollTrigger = /*#__PURE__*/function () {
   };
 
   ScrollTrigger.isInViewport = function isInViewport(element, ratio, horizontal) {
-    var bounds = (_isString(element) ? _getTarget(element) : element).getBoundingClientRect(),
+    var bounds = (_isString(element) ? (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(element) : element).getBoundingClientRect(),
         offset = bounds[horizontal ? _width : _height] * ratio || 0;
     return horizontal ? bounds.right - offset > 0 && bounds.left + offset < _win.innerWidth : bounds.bottom - offset > 0 && bounds.top + offset < _win.innerHeight;
   };
 
   ScrollTrigger.positionInViewport = function positionInViewport(element, referencePoint, horizontal) {
-    _isString(element) && (element = _getTarget(element));
+    _isString(element) && (element = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(element));
     var bounds = element.getBoundingClientRect(),
         size = bounds[horizontal ? _width : _height],
         offset = referencePoint == null ? size / 2 : referencePoint in _keywords ? _keywords[referencePoint] * size : ~referencePoint.indexOf("%") ? parseFloat(referencePoint) * size / 100 : parseFloat(referencePoint) || 0;
@@ -22021,7 +24701,7 @@ var ScrollTrigger = /*#__PURE__*/function () {
 
   return ScrollTrigger;
 }();
-ScrollTrigger.version = "3.9.1";
+ScrollTrigger.version = "3.10.4";
 
 ScrollTrigger.saveStyles = function (targets) {
   return targets ? _toArray(targets).forEach(function (target) {
@@ -22052,11 +24732,11 @@ ScrollTrigger.update = _updateAll;
 ScrollTrigger.clearScrollMemory = _clearScrollMemory;
 
 ScrollTrigger.maxScroll = function (element, horizontal) {
-  return _maxScroll(element, horizontal ? _horizontal : _vertical);
+  return _maxScroll(element, horizontal ? _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal : _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical);
 };
 
 ScrollTrigger.getScrollFunc = function (element, horizontal) {
-  return _getScrollFunc(_getTarget(element), horizontal ? _horizontal : _vertical);
+  return (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getScrollFunc)((0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(element), horizontal ? _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal : _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical);
 };
 
 ScrollTrigger.getById = function (id) {
@@ -22064,8 +24744,11 @@ ScrollTrigger.getById = function (id) {
 };
 
 ScrollTrigger.getAll = function () {
-  return _triggers.slice(0);
-};
+  return _triggers.filter(function (t) {
+    return t.vars.id !== "ScrollSmoother";
+  });
+}; // it's common for people to ScrollTrigger.getAll(t => t.kill()) on page routes, for example, and we don't want it to ruin smooth scrolling by killing the main ScrollSmoother one.
+
 
 ScrollTrigger.isScrolling = function () {
   return !!_lastScrollTime;
@@ -22130,6 +24813,265 @@ ScrollTrigger.batch = function (targets, vars) {
   });
 
   return result;
+}; // to reduce file size. clamps the scroll and also returns a duration multiplier so that if the scroll gets chopped shorter, the duration gets curtailed as well (otherwise if you're very close to the top of the page, for example, and swipe up really fast, it'll suddenly slow down and take a long time to reach the top).
+
+
+var _clampScrollAndGetDurationMultiplier = function _clampScrollAndGetDurationMultiplier(scrollFunc, current, end, max) {
+  current > max ? scrollFunc(max) : current < 0 && scrollFunc(0);
+  return end > max ? (max - current) / (end - current) : end < 0 ? current / (current - end) : 1;
+},
+    _allowNativePanning = function _allowNativePanning(target, direction) {
+  if (direction === true) {
+    target.style.removeProperty("touch-action");
+  } else {
+    target.style.touchAction = direction === true ? "auto" : direction ? "pan-" + direction + (_Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer.isTouch ? " pinch-zoom" : "") : "none"; // note: Firefox doesn't support it pinch-zoom properly, at least in addition to a pan-x or pan-y.
+  }
+
+  target === _docEl && _allowNativePanning(_body, direction);
+},
+    _overflow = {
+  auto: 1,
+  scroll: 1
+},
+    _nestedScroll = function _nestedScroll(_ref5) {
+  var event = _ref5.event,
+      target = _ref5.target,
+      axis = _ref5.axis;
+
+  var node = (event.changedTouches ? event.changedTouches[0] : event).target,
+      cache = node._gsap || gsap.core.getCache(node),
+      time = _getTime(),
+      cs;
+
+  if (!cache._isScrollT || time - cache._isScrollT > 2000) {
+    // cache for 2 seconds to improve performance.
+    while (node && node.scrollHeight <= node.clientHeight) {
+      node = node.parentNode;
+    }
+
+    cache._isScroll = node && !_isViewport(node) && node !== target && (_overflow[(cs = _getComputedStyle(node)).overflowY] || _overflow[cs.overflowX]);
+    cache._isScrollT = time;
+  }
+
+  (cache._isScroll || axis === "x") && (event._gsapAllow = true);
+},
+    // capture events on scrollable elements INSIDE the <body> and allow those by calling stopPropagation() when we find a scrollable ancestor
+_inputObserver = function _inputObserver(target, type, inputs, nested) {
+  return _Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer.create({
+    target: target,
+    capture: true,
+    debounce: false,
+    lockAxis: true,
+    type: type,
+    onWheel: nested = nested && _nestedScroll,
+    onPress: nested,
+    onDrag: nested,
+    onScroll: nested,
+    onEnable: function onEnable() {
+      return inputs && _addListener(_doc, _Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer.eventTypes[0], _captureInputs, false, true);
+    },
+    onDisable: function onDisable() {
+      return _removeListener(_doc, _Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer.eventTypes[0], _captureInputs, true);
+    }
+  });
+},
+    _inputExp = /(input|label|select|textarea)/i,
+    _inputIsFocused,
+    _captureInputs = function _captureInputs(e) {
+  var isInput = _inputExp.test(e.target.tagName);
+
+  if (isInput || _inputIsFocused) {
+    e._gsapAllow = true;
+    _inputIsFocused = isInput;
+  }
+},
+    _getScrollNormalizer = function _getScrollNormalizer(vars) {
+  _isObject(vars) || (vars = {});
+  vars.preventDefault = vars.isNormalizer = vars.allowClicks = true;
+  vars.type || (vars.type = "wheel,touch");
+  vars.debounce = !!vars.debounce;
+  vars.id = vars.id || "normalizer";
+
+  var _vars2 = vars,
+      normalizeScrollX = _vars2.normalizeScrollX,
+      momentum = _vars2.momentum,
+      allowNestedScroll = _vars2.allowNestedScroll,
+      self,
+      maxY,
+      target = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(vars.target) || _docEl,
+      smoother = gsap.core.globals().ScrollSmoother,
+      content = _fixIOSBug && (vars.content && (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getTarget)(vars.content) || smoother && smoother.get() && smoother.get().content()),
+      scrollFuncY = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getScrollFunc)(target, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical),
+      scrollFuncX = (0,_Observer_js__WEBPACK_IMPORTED_MODULE_0__._getScrollFunc)(target, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal),
+      scale = 1,
+      initialScale = (_Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer.isTouch && _win.visualViewport ? _win.visualViewport.scale * _win.visualViewport.width : _win.outerWidth) / _win.innerWidth,
+      wheelRefresh = 0,
+      resolveMomentumDuration = _isFunction(momentum) ? function () {
+    return momentum(self);
+  } : function () {
+    return momentum || 2.8;
+  },
+      skipTouchMove,
+      lastRefreshID,
+      inputObserver = _inputObserver(target, vars.type, true, allowNestedScroll),
+      resumeTouchMove = function resumeTouchMove() {
+    return skipTouchMove = false;
+  },
+      scrollClampX = _passThrough,
+      scrollClampY = _passThrough,
+      updateClamps = function updateClamps() {
+    maxY = _maxScroll(target, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical);
+    scrollClampY = _clamp(_fixIOSBug ? 1 : 0, maxY);
+    normalizeScrollX && (scrollClampX = _clamp(0, _maxScroll(target, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal)));
+    lastRefreshID = _refreshID;
+  },
+      ignoreDrag = function ignoreDrag() {
+    if (skipTouchMove) {
+      requestAnimationFrame(resumeTouchMove); // we MUST wait for a requestAnimationFrame, otherwise iOS will misreport the value.
+
+      var offset = _round(self.deltaY / 2),
+          scroll = scrollClampY(scrollFuncY.v - offset);
+
+      if (content && scroll !== scrollFuncY.v + scrollFuncY.offset) {
+        scrollFuncY.offset = scroll - scrollFuncY.v;
+        content.style.transform = "translateY(" + -scrollFuncY.offset + "px)";
+        content._gsap && (content._gsap.y = -scrollFuncY.offset + "px");
+        scrollFuncY.cacheID = _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers.cache;
+
+        _updateAll();
+      }
+
+      return true;
+    }
+
+    if (content) {
+      content.style.transform = "translateY(0px)";
+      scrollFuncY.offset = scrollFuncY.cacheID = 0;
+      content._gsap && (content._gsap.y = "0px");
+    }
+
+    skipTouchMove = true;
+  },
+      tween,
+      startScrollX,
+      startScrollY,
+      onStopDelayedCall,
+      onResize = function onResize() {
+    // if the window resizes, like on an iPhone which Apple FORCES the address bar to show/hide even if we event.preventDefault(), it may be scrolling too far now that the address bar is showing, so we must dynamically adjust the momentum tween.
+    updateClamps();
+
+    if (tween.isActive() && tween.vars.scrollY > maxY) {
+      scrollFuncY() > maxY ? tween.progress(1) && scrollFuncY(maxY) : tween.resetTo("scrollY", maxY);
+    }
+  };
+
+  vars.ignoreCheck = function (e) {
+    return _fixIOSBug && e.type === "touchmove" && ignoreDrag(e) || scale > 1.05 && e.type !== "touchstart" || self.isGesturing || e.touches && e.touches.length > 1;
+  };
+
+  vars.onPress = function () {
+    var prevScale = scale;
+    scale = _round((_win.visualViewport && _win.visualViewport.scale || 1) / initialScale);
+    tween.pause();
+    prevScale !== scale && _allowNativePanning(target, scale > 1.01 ? true : normalizeScrollX ? false : "x");
+    skipTouchMove = false;
+    startScrollX = scrollFuncX();
+    startScrollY = scrollFuncY();
+    updateClamps();
+    lastRefreshID = _refreshID;
+  };
+
+  vars.onRelease = vars.onGestureStart = function (self, wasDragging) {
+    if (content) {
+      content.style.transform = "translateY(0px)";
+      scrollFuncY.offset = scrollFuncY.cacheID = 0;
+      content._gsap && (content._gsap.y = "0px");
+    }
+
+    if (!wasDragging) {
+      onStopDelayedCall.restart(true);
+    } else {
+      _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers.cache++; // make sure we're pulling the non-cached value
+      // alternate algorithm: durX = Math.min(6, Math.abs(self.velocityX / 800)),	dur = Math.max(durX, Math.min(6, Math.abs(self.velocityY / 800))); dur = dur * (0.4 + (1 - _power4In(dur / 6)) * 0.6)) * (momentumSpeed || 1)
+
+      var dur = resolveMomentumDuration(),
+          currentScroll,
+          endScroll;
+
+      if (normalizeScrollX) {
+        currentScroll = scrollFuncX();
+        endScroll = currentScroll + dur * 0.05 * -self.velocityX / 0.227; // the constant .227 is from power4(0.05). velocity is inverted because scrolling goes in the opposite direction.
+
+        dur *= _clampScrollAndGetDurationMultiplier(scrollFuncX, currentScroll, endScroll, _maxScroll(target, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._horizontal));
+        tween.vars.scrollX = scrollClampX(endScroll);
+      }
+
+      currentScroll = scrollFuncY();
+      endScroll = currentScroll + dur * 0.05 * -self.velocityY / 0.227; // the constant .227 is from power4(0.05)
+
+      dur *= _clampScrollAndGetDurationMultiplier(scrollFuncY, currentScroll, endScroll, _maxScroll(target, _Observer_js__WEBPACK_IMPORTED_MODULE_0__._vertical));
+      tween.vars.scrollY = scrollClampY(endScroll);
+      tween.invalidate().duration(dur).play(0.01);
+
+      if (_fixIOSBug && tween.vars.scrollY >= maxY || currentScroll >= maxY - 1) {
+        // iOS bug: it'll show the address bar but NOT fire the window "resize" event until the animation is done but we must protect against overshoot so we leverage an onUpdate to do so.
+        gsap.to({}, {
+          onUpdate: onResize,
+          duration: dur
+        });
+      }
+    }
+  };
+
+  vars.onWheel = function () {
+    tween._ts && tween.pause();
+
+    if (_getTime() - wheelRefresh > 1000) {
+      // after 1 second, refresh the clamps otherwise that'll only happen when ScrollTrigger.refresh() is called or for touch-scrolling.
+      lastRefreshID = 0;
+      wheelRefresh = _getTime();
+    }
+  };
+
+  vars.onChange = function (self, dx, dy, xArray, yArray) {
+    _refreshID !== lastRefreshID && updateClamps();
+    dx && normalizeScrollX && scrollFuncX(scrollClampX(xArray[2] === dx ? startScrollX + (self.startX - self.x) : scrollFuncX() + dx - xArray[1])); // for more precision, we track pointer/touch movement from the start, otherwise it'll drift.
+
+    dy && scrollFuncY(scrollClampY(yArray[2] === dy ? startScrollY + (self.startY - self.y) : scrollFuncY() + dy - yArray[1]));
+
+    _updateAll();
+  };
+
+  vars.onEnable = function () {
+    _allowNativePanning(target, normalizeScrollX ? false : "x");
+
+    _addListener(_win, "resize", onResize);
+
+    inputObserver.enable();
+  };
+
+  vars.onDisable = function () {
+    _allowNativePanning(target, true);
+
+    _removeListener(_win, "resize", onResize);
+
+    inputObserver.kill();
+  };
+
+  self = new _Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer(vars);
+  self.iOS = _fixIOSBug; // used in the Observer getCachedScroll() function to work around an iOS bug that wreaks havoc with TouchEvent.clientY if we allow scroll to go all the way back to 0.
+
+  _fixIOSBug && !scrollFuncY() && scrollFuncY(1); // iOS bug causes event.clientY values to freak out (wildly inaccurate) if the scroll position is exactly 0.
+
+  onStopDelayedCall = self._dc;
+  tween = gsap.to(self, {
+    ease: "power4",
+    paused: true,
+    scrollX: normalizeScrollX ? "+=0.1" : "+=0",
+    scrollY: "+=0.1",
+    onComplete: onStopDelayedCall.vars.onComplete
+  });
+  return self;
 };
 
 ScrollTrigger.sort = function (func) {
@@ -22138,6 +25080,47 @@ ScrollTrigger.sort = function (func) {
   });
 };
 
+ScrollTrigger.observe = function (vars) {
+  return new _Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer(vars);
+};
+
+ScrollTrigger.normalizeScroll = function (vars) {
+  if (typeof vars === "undefined") {
+    return _normalizer;
+  }
+
+  if (vars === true && _normalizer) {
+    return _normalizer.enable();
+  }
+
+  if (vars === false) {
+    return _normalizer && _normalizer.kill();
+  }
+
+  var normalizer = vars instanceof _Observer_js__WEBPACK_IMPORTED_MODULE_0__.Observer ? vars : _getScrollNormalizer(vars);
+  _normalizer && _normalizer.target === normalizer.target && _normalizer.kill();
+  _isViewport(normalizer.target) && (_normalizer = normalizer);
+  return normalizer;
+};
+
+ScrollTrigger.core = {
+  // smaller file size way to leverage in ScrollSmoother and Observer
+  _getVelocityProp: _Observer_js__WEBPACK_IMPORTED_MODULE_0__._getVelocityProp,
+  _inputObserver: _inputObserver,
+  _scrollers: _Observer_js__WEBPACK_IMPORTED_MODULE_0__._scrollers,
+  _proxies: _Observer_js__WEBPACK_IMPORTED_MODULE_0__._proxies,
+  bridge: {
+    // when normalizeScroll sets the scroll position (ss = setScroll)
+    ss: function ss() {
+      _lastScrollTime || _dispatch("scrollStart");
+      _lastScrollTime = _getTime();
+    },
+    // a way to get the _refreshing value in Observer
+    ref: function ref() {
+      return _refreshing;
+    }
+  }
+};
 _getGSAP() && gsap.registerPlugin(ScrollTrigger);
 
 
@@ -22152,84 +25135,85 @@ _getGSAP() && gsap.registerPlugin(ScrollTrigger);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "GSCache": () => (/* binding */ GSCache),
 /* harmony export */   "Animation": () => (/* binding */ Animation),
-/* harmony export */   "Timeline": () => (/* binding */ Timeline),
-/* harmony export */   "Tween": () => (/* binding */ Tween),
-/* harmony export */   "PropTween": () => (/* binding */ PropTween),
-/* harmony export */   "gsap": () => (/* binding */ gsap),
+/* harmony export */   "Back": () => (/* binding */ Back),
+/* harmony export */   "Bounce": () => (/* binding */ Bounce),
+/* harmony export */   "Circ": () => (/* binding */ Circ),
+/* harmony export */   "Cubic": () => (/* binding */ Cubic),
+/* harmony export */   "Elastic": () => (/* binding */ Elastic),
+/* harmony export */   "Expo": () => (/* binding */ Expo),
+/* harmony export */   "GSCache": () => (/* binding */ GSCache),
+/* harmony export */   "Linear": () => (/* binding */ Linear),
 /* harmony export */   "Power0": () => (/* binding */ Power0),
 /* harmony export */   "Power1": () => (/* binding */ Power1),
 /* harmony export */   "Power2": () => (/* binding */ Power2),
 /* harmony export */   "Power3": () => (/* binding */ Power3),
 /* harmony export */   "Power4": () => (/* binding */ Power4),
-/* harmony export */   "Linear": () => (/* binding */ Linear),
+/* harmony export */   "PropTween": () => (/* binding */ PropTween),
 /* harmony export */   "Quad": () => (/* binding */ Quad),
-/* harmony export */   "Cubic": () => (/* binding */ Cubic),
 /* harmony export */   "Quart": () => (/* binding */ Quart),
 /* harmony export */   "Quint": () => (/* binding */ Quint),
-/* harmony export */   "Strong": () => (/* binding */ Strong),
-/* harmony export */   "Elastic": () => (/* binding */ Elastic),
-/* harmony export */   "Back": () => (/* binding */ Back),
-/* harmony export */   "SteppedEase": () => (/* binding */ SteppedEase),
-/* harmony export */   "Bounce": () => (/* binding */ Bounce),
 /* harmony export */   "Sine": () => (/* binding */ Sine),
-/* harmony export */   "Expo": () => (/* binding */ Expo),
-/* harmony export */   "Circ": () => (/* binding */ Circ),
-/* harmony export */   "TweenMax": () => (/* binding */ Tween),
-/* harmony export */   "TweenLite": () => (/* binding */ Tween),
-/* harmony export */   "TimelineMax": () => (/* binding */ Timeline),
+/* harmony export */   "SteppedEase": () => (/* binding */ SteppedEase),
+/* harmony export */   "Strong": () => (/* binding */ Strong),
+/* harmony export */   "Timeline": () => (/* binding */ Timeline),
 /* harmony export */   "TimelineLite": () => (/* binding */ Timeline),
-/* harmony export */   "default": () => (/* binding */ gsap),
-/* harmony export */   "wrap": () => (/* binding */ wrap),
-/* harmony export */   "wrapYoyo": () => (/* binding */ wrapYoyo),
-/* harmony export */   "distribute": () => (/* binding */ distribute),
-/* harmony export */   "random": () => (/* binding */ random),
-/* harmony export */   "snap": () => (/* binding */ snap),
-/* harmony export */   "normalize": () => (/* binding */ normalize),
-/* harmony export */   "getUnit": () => (/* binding */ getUnit),
-/* harmony export */   "clamp": () => (/* binding */ clamp),
-/* harmony export */   "splitColor": () => (/* binding */ splitColor),
-/* harmony export */   "toArray": () => (/* binding */ toArray),
-/* harmony export */   "selector": () => (/* binding */ selector),
-/* harmony export */   "mapRange": () => (/* binding */ mapRange),
-/* harmony export */   "pipe": () => (/* binding */ pipe),
-/* harmony export */   "unitize": () => (/* binding */ unitize),
-/* harmony export */   "interpolate": () => (/* binding */ interpolate),
-/* harmony export */   "shuffle": () => (/* binding */ shuffle),
+/* harmony export */   "TimelineMax": () => (/* binding */ Timeline),
+/* harmony export */   "Tween": () => (/* binding */ Tween),
+/* harmony export */   "TweenLite": () => (/* binding */ Tween),
+/* harmony export */   "TweenMax": () => (/* binding */ Tween),
+/* harmony export */   "_checkPlugin": () => (/* binding */ _checkPlugin),
+/* harmony export */   "_colorExp": () => (/* binding */ _colorExp),
+/* harmony export */   "_colorStringFilter": () => (/* binding */ _colorStringFilter),
+/* harmony export */   "_config": () => (/* binding */ _config),
+/* harmony export */   "_forEachName": () => (/* binding */ _forEachName),
+/* harmony export */   "_getCache": () => (/* binding */ _getCache),
 /* harmony export */   "_getProperty": () => (/* binding */ _getProperty),
-/* harmony export */   "_numExp": () => (/* binding */ _numExp),
-/* harmony export */   "_numWithUnitExp": () => (/* binding */ _numWithUnitExp),
+/* harmony export */   "_getSetter": () => (/* binding */ _getSetter),
 /* harmony export */   "_isString": () => (/* binding */ _isString),
 /* harmony export */   "_isUndefined": () => (/* binding */ _isUndefined),
-/* harmony export */   "_renderComplexString": () => (/* binding */ _renderComplexString),
-/* harmony export */   "_relExp": () => (/* binding */ _relExp),
-/* harmony export */   "_setDefaults": () => (/* binding */ _setDefaults),
-/* harmony export */   "_removeLinkedListItem": () => (/* binding */ _removeLinkedListItem),
-/* harmony export */   "_forEachName": () => (/* binding */ _forEachName),
-/* harmony export */   "_sortPropTweensByPriority": () => (/* binding */ _sortPropTweensByPriority),
-/* harmony export */   "_colorStringFilter": () => (/* binding */ _colorStringFilter),
-/* harmony export */   "_replaceRandom": () => (/* binding */ _replaceRandom),
-/* harmony export */   "_checkPlugin": () => (/* binding */ _checkPlugin),
-/* harmony export */   "_plugins": () => (/* binding */ _plugins),
-/* harmony export */   "_ticker": () => (/* binding */ _ticker),
-/* harmony export */   "_config": () => (/* binding */ _config),
-/* harmony export */   "_roundModifier": () => (/* binding */ _roundModifier),
-/* harmony export */   "_round": () => (/* binding */ _round),
 /* harmony export */   "_missingPlugin": () => (/* binding */ _missingPlugin),
-/* harmony export */   "_getSetter": () => (/* binding */ _getSetter),
-/* harmony export */   "_getCache": () => (/* binding */ _getCache),
-/* harmony export */   "_colorExp": () => (/* binding */ _colorExp)
+/* harmony export */   "_numExp": () => (/* binding */ _numExp),
+/* harmony export */   "_numWithUnitExp": () => (/* binding */ _numWithUnitExp),
+/* harmony export */   "_parseRelative": () => (/* binding */ _parseRelative),
+/* harmony export */   "_plugins": () => (/* binding */ _plugins),
+/* harmony export */   "_relExp": () => (/* binding */ _relExp),
+/* harmony export */   "_removeLinkedListItem": () => (/* binding */ _removeLinkedListItem),
+/* harmony export */   "_renderComplexString": () => (/* binding */ _renderComplexString),
+/* harmony export */   "_replaceRandom": () => (/* binding */ _replaceRandom),
+/* harmony export */   "_round": () => (/* binding */ _round),
+/* harmony export */   "_roundModifier": () => (/* binding */ _roundModifier),
+/* harmony export */   "_setDefaults": () => (/* binding */ _setDefaults),
+/* harmony export */   "_sortPropTweensByPriority": () => (/* binding */ _sortPropTweensByPriority),
+/* harmony export */   "_ticker": () => (/* binding */ _ticker),
+/* harmony export */   "clamp": () => (/* binding */ clamp),
+/* harmony export */   "default": () => (/* binding */ gsap),
+/* harmony export */   "distribute": () => (/* binding */ distribute),
+/* harmony export */   "getUnit": () => (/* binding */ getUnit),
+/* harmony export */   "gsap": () => (/* binding */ gsap),
+/* harmony export */   "interpolate": () => (/* binding */ interpolate),
+/* harmony export */   "mapRange": () => (/* binding */ mapRange),
+/* harmony export */   "normalize": () => (/* binding */ normalize),
+/* harmony export */   "pipe": () => (/* binding */ pipe),
+/* harmony export */   "random": () => (/* binding */ random),
+/* harmony export */   "selector": () => (/* binding */ selector),
+/* harmony export */   "shuffle": () => (/* binding */ shuffle),
+/* harmony export */   "snap": () => (/* binding */ snap),
+/* harmony export */   "splitColor": () => (/* binding */ splitColor),
+/* harmony export */   "toArray": () => (/* binding */ toArray),
+/* harmony export */   "unitize": () => (/* binding */ unitize),
+/* harmony export */   "wrap": () => (/* binding */ wrap),
+/* harmony export */   "wrapYoyo": () => (/* binding */ wrapYoyo)
 /* harmony export */ });
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
 
 /*!
- * GSAP 3.9.1
+ * GSAP 3.10.4
  * https://greensock.com
  *
- * @license Copyright 2008-2021, GreenSock. All rights reserved.
+ * @license Copyright 2008-2022, GreenSock. All rights reserved.
  * Subject to the terms at https://greensock.com/standard-license or for
  * Club GreenSock members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
@@ -22295,7 +25279,7 @@ _numWithUnitExp = /[-+=.]*\d+[.e-]*\d*[a-z%]*/g,
 _relExp = /[+-]=-?[.\d]+/,
     _delimitedValueExp = /[^,'"\[\]\s]+/gi,
     // previously /[#\-+.]*\b[a-z\d\-=+%.]+/gi but didn't catch special characters.
-_unitExp = /[\d.+\-=]+(?:e[-+]\d*)*/i,
+_unitExp = /^[+\-=e\s\d]*\d+[.\d]*([a-z]*|%)\s*$/i,
     _globalTimeline,
     _win,
     _coreInitted,
@@ -22367,7 +25351,13 @@ _round = function _round(value) {
   return Math.round(value * 10000000) / 10000000 || 0;
 },
     // increased precision mostly for timing values.
-_arrayContainsAny = function _arrayContainsAny(toSearch, toFind) {
+_parseRelative = function _parseRelative(start, value) {
+  var operator = value.charAt(0),
+      end = parseFloat(value.substr(2));
+  start = parseFloat(start);
+  return operator === "+" ? start + end : operator === "-" ? start - end : operator === "*" ? start * end : start / end;
+},
+    _arrayContainsAny = function _arrayContainsAny(toSearch, toFind) {
   //searches one array to find matches for any of the items in the toFind array. As soon as one is found, it returns true. It does NOT return all the matches; it's simply a boolean search.
   var l = toFind.length,
       i = 0;
@@ -22836,7 +25826,7 @@ _isFromOrFromStart = function _isFromOrFromStart(_ref2) {
   return value < min ? min : value > max ? max : value;
 },
     getUnit = function getUnit(value, v) {
-  return !_isString(value) || !(v = _unitExp.exec(value)) ? "" : value.substr(v.index + v[0].length);
+  return !_isString(value) || !(v = _unitExp.exec(value)) ? "" : v[1];
 },
     // note: protect against padded numbers as strings, like "100.100". That shouldn't return "00" as the unit. If it's numeric, return no unit.
 clamp = function clamp(min, max, value) {
@@ -23548,10 +26538,20 @@ _tickerActive,
       _gap = 1000 / (_fps || 240);
       _nextTime = _self.time * 1000 + _gap;
     },
-    add: function add(callback) {
-      _listeners.indexOf(callback) < 0 && _listeners.push(callback);
+    add: function add(callback, once, prioritize) {
+      var func = once ? function (t, d, f, v) {
+        callback(t, d, f, v);
+
+        _self.remove(func);
+      } : callback;
+
+      _self.remove(callback);
+
+      _listeners[prioritize ? "unshift" : "push"](func);
 
       _wake();
+
+      return func;
     },
     remove: function remove(callback, i) {
       ~(i = _listeners.indexOf(callback)) && _listeners.splice(i, 1) && _i >= i && _i--;
@@ -23942,12 +26942,12 @@ var Animation = /*#__PURE__*/function () {
     this._rts = +value || 0;
     this._ts = this._ps || value === -_tinyNum ? 0 : this._rts; // _ts is the functional timeScale which would be 0 if the animation is paused.
 
-    _recacheAncestors(this.totalTime(_clamp(-this._delay, this._tDur, tTime), true));
+    this.totalTime(_clamp(-this._delay, this._tDur, tTime), true);
 
     _setEnd(this); // if parent.smoothChildTiming was false, the end time didn't get updated in the _alignPlayhead() method, so do it here.
 
 
-    return this;
+    return _recacheAncestors(this);
   };
 
   _proto.paused = function paused(value) {
@@ -24456,7 +27456,8 @@ var Timeline = /*#__PURE__*/function (_Animation) {
       }
 
       this._onUpdate && !suppressEvents && _callback(this, "onUpdate", true);
-      if (tTime === tDur && tDur >= this.totalDuration() || !tTime && prevTime) if (prevStart === this._start || Math.abs(timeScale) !== Math.abs(this._ts)) if (!this._lock) {
+      if (tTime === tDur && this._tTime >= this.totalDuration() || !tTime && prevTime) if (prevStart === this._start || Math.abs(timeScale) !== Math.abs(this._ts)) if (!this._lock) {
+        // remember, a child's callback may alter this timeline's playhead or timeScale which is why we need to add some of these checks.
         (totalTime || !dur) && (tTime === tDur && this._ts > 0 || !tTime && this._ts < 0) && _removeFromParent(this, 1); // don't remove if the timeline is reversed and the playhead isn't at 0, otherwise tl.progress(1).reverse() won't work. Only remove if the playhead is at the end and timeScale is positive, or if the playhead is at 0 and the timeScale is negative.
 
         if (!suppressEvents && !(totalTime < 0 && !prevTime) && (tTime || prevTime || !tDur)) {
@@ -24915,7 +27916,7 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
         p: chunk || matchIndex === 1 ? chunk : ",",
         //note: SVG spec allows omission of comma/space when a negative sign is wedged between two numbers, like 2.5-5.3 instead of 2.5,-5.3 but when tweening, the negative value may switch to positive, so we insert the comma just in case.
         s: startNum,
-        c: endNum.charAt(1) === "=" ? parseFloat(endNum.substr(2)) * (endNum.charAt(0) === "-" ? -1 : 1) : parseFloat(endNum) - startNum,
+        c: endNum.charAt(1) === "=" ? _parseRelative(startNum, endNum) - startNum : parseFloat(endNum) - startNum,
         m: color && color < 4 ? Math.round : 0
       };
       index = _complexStringNumExp.lastIndex;
@@ -24947,7 +27948,7 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
     }
 
     if (end.charAt(1) === "=") {
-      pt = parseFloat(parsedStart) + parseFloat(end.substr(2)) * (end.charAt(0) === "-" ? -1 : 1) + (getUnit(parsedStart) || 0);
+      pt = _parseRelative(parsedStart, end) + (getUnit(parsedStart) || 0);
 
       if (pt || pt === 0) {
         // to avoid isNaN, like if someone passes in a value like "!= whatever"
@@ -24956,7 +27957,7 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
     }
   }
 
-  if (parsedStart !== end) {
+  if (parsedStart !== end || _forceAllPropTweens) {
     if (!isNaN(parsedStart * end) && end !== "") {
       // fun fact: any number multiplied by "" is evaluated as the number 0!
       pt = new PropTween(this._pt, target, prop, +parsedStart || 0, end - (parsedStart || 0), typeof currentValue === "boolean" ? _renderBoolean : _renderPlain, 0, setter);
@@ -25007,7 +28008,8 @@ _processVars = function _processVars(vars, index, target, targets, tween) {
 },
     _overwritingTween,
     //store a reference temporarily so we can avoid overwriting itself.
-_initTween = function _initTween(tween, time) {
+_forceAllPropTweens,
+    _initTween = function _initTween(tween, time) {
   var vars = tween.vars,
       ease = vars.ease,
       startAt = vars.startAt,
@@ -25059,7 +28061,12 @@ _initTween = function _initTween(tween, time) {
     harnessVars = harness && vars[harness.prop]; //someone may need to specify CSS-specific values AND non-CSS values, like if the element has an "x" property plus it's a standard DOM element. We allow people to distinguish by wrapping plugin-specific stuff in a css:{} object for example.
 
     cleanVars = _copyExcluding(vars, _reservedProps);
-    prevStartAt && _removeFromParent(prevStartAt.render(-1, true));
+
+    if (prevStartAt) {
+      _removeFromParent(prevStartAt.render(-1, true));
+
+      prevStartAt._lazy = 0;
+    }
 
     if (startAt) {
       _removeFromParent(tween._startAt = Tween.set(targets, _setDefaults({
@@ -25130,7 +28137,7 @@ _initTween = function _initTween(tween, time) {
       }
     }
 
-    tween._pt = 0;
+    tween._pt = tween._ptCache = 0;
     lazy = dur && _isNotFalse(lazy) || lazy && !dur;
 
     for (i = 0; i < targets.length; i++) {
@@ -25184,6 +28191,57 @@ _initTween = function _initTween(tween, time) {
   tween._initted = (!tween._op || tween._pt) && !overwritten; // if overwrittenProps resulted in the entire tween being killed, do NOT flag it as initted or else it may render for one tick.
 
   keyframes && time <= 0 && tl.render(_bigNum, true, true); // if there's a 0% keyframe, it'll render in the "before" state for any staggered/delayed animations thus when the following tween initializes, it'll use the "before" state instead of the "after" state as the initial values.
+},
+    _updatePropTweens = function _updatePropTweens(tween, property, value, start, startIsRelative, ratio, time) {
+  var ptCache = (tween._pt && tween._ptCache || (tween._ptCache = {}))[property],
+      pt,
+      lookup,
+      i;
+
+  if (!ptCache) {
+    ptCache = tween._ptCache[property] = [];
+    lookup = tween._ptLookup;
+    i = tween._targets.length;
+
+    while (i--) {
+      pt = lookup[i][property];
+
+      if (pt && pt.d && pt.d._pt) {
+        // it's a plugin, so find the nested PropTween
+        pt = pt.d._pt;
+
+        while (pt && pt.p !== property) {
+          pt = pt._next;
+        }
+      }
+
+      if (!pt) {
+        // there is no PropTween associated with that property, so we must FORCE one to be created and ditch out of this
+        // if the tween has other properties that already rendered at new positions, we'd normally have to rewind to put them back like tween.render(0, true) before forcing an _initTween(), but that can create another edge case like tweening a timeline's progress would trigger onUpdates to fire which could move other things around. It's better to just inform users that .resetTo() should ONLY be used for tweens that already have that property. For example, you can't gsap.to(...{ y: 0 }) and then tween.restTo("x", 200) for example.
+        _forceAllPropTweens = 1; // otherwise, when we _addPropTween() and it finds no change between the start and end values, it skips creating a PropTween (for efficiency...why tween when there's no difference?) but in this case we NEED that PropTween created so we can edit it.
+
+        tween.vars[property] = "+=0";
+
+        _initTween(tween, time);
+
+        _forceAllPropTweens = 0;
+        return 1;
+      }
+
+      ptCache.push(pt);
+    }
+  }
+
+  i = ptCache.length;
+
+  while (i--) {
+    pt = ptCache[i];
+    pt.s = (start || start === 0) && !startIsRelative ? start : pt.s + (start || 0) + ratio * pt.c;
+    pt.c = value - pt.s;
+    pt.e && (pt.e = _round(value) + getUnit(pt.e)); // mainly for CSSPlugin (end value)
+
+    pt.b && (pt.b = pt.s + getUnit(pt.b)); // (beginning value)
+  }
 },
     _addAliasesToVars = function _addAliasesToVars(targets, vars) {
   var harness = targets[0] ? _getCache(targets[0]).harness : 0,
@@ -25242,7 +28300,7 @@ _parseKeyframe = function _parseKeyframe(prop, obj, allProps, easeEach) {
     _parseFuncOrString = function _parseFuncOrString(value, tween, i, target, targets) {
   return _isFunction(value) ? value.call(tween, i, target, targets) : _isString(value) && ~value.indexOf("random(") ? _replaceRandom(value) : value;
 },
-    _staggerTweenProps = _callbackNames + "repeat,repeatDelay,yoyo,repeatRefresh,yoyoEase",
+    _staggerTweenProps = _callbackNames + "repeat,repeatDelay,yoyo,repeatRefresh,yoyoEase,autoRevert",
     _staggerPropsToSkip = {};
 
 _forEachName(_staggerTweenProps + ",id,stagger,delay,duration,paused,scrollTrigger", function (name) {
@@ -25474,6 +28532,7 @@ var Tween = /*#__PURE__*/function (_Animation2) {
 
         if (time === prevTime && !force && this._initted) {
           //could be during the repeatDelay part. No need to render and fire callbacks.
+          this._tTime = tTime;
           return this;
         }
 
@@ -25492,6 +28551,11 @@ var Tween = /*#__PURE__*/function (_Animation2) {
         if (_attemptInitTween(this, totalTime < 0 ? totalTime : time, force, suppressEvents)) {
           this._tTime = 0; // in constructor if immediateRender is true, we set _tTime to -_tinyNum to have the playhead cross the starting point but we can't leave _tTime as a negative number.
 
+          return this;
+        }
+
+        if (prevTime !== this._time) {
+          // rare edge case - during initialization, an onUpdate in the _startAt (.fromTo()) might force this tween to render at a different spot in which case we should ditch this render() call so that it doesn't revert the values.
           return this;
         }
 
@@ -25567,6 +28631,33 @@ var Tween = /*#__PURE__*/function (_Animation2) {
     this._ptLookup = [];
     this.timeline && this.timeline.invalidate();
     return _Animation2.prototype.invalidate.call(this);
+  };
+
+  _proto3.resetTo = function resetTo(property, value, start, startIsRelative) {
+    _tickerActive || _ticker.wake();
+    this._ts || this.play();
+    var time = Math.min(this._dur, (this._dp._time - this._start) * this._ts),
+        ratio;
+    this._initted || _initTween(this, time);
+    ratio = this._ease(time / this._dur); // don't just get tween.ratio because it may not have rendered yet.
+    // possible future addition to allow an object with multiple values to update, like tween.resetTo({x: 100, y: 200}); At this point, it doesn't seem worth the added kb given the fact that most users will likely opt for the convenient gsap.quickTo() way of interacting with this method.
+    // if (_isObject(property)) { // performance optimization
+    // 	for (p in property) {
+    // 		if (_updatePropTweens(this, p, property[p], value ? value[p] : null, start, ratio, time)) {
+    // 			return this.resetTo(property, value, start, startIsRelative); // if a PropTween wasn't found for the property, it'll get forced with a re-initialization so we need to jump out and start over again.
+    // 		}
+    // 	}
+    // } else {
+
+    if (_updatePropTweens(this, property, value, start, startIsRelative, ratio, time)) {
+      return this.resetTo(property, value, start, startIsRelative); // if a PropTween wasn't found for the property, it'll get forced with a re-initialization so we need to jump out and start over again.
+    } //}
+
+
+    _alignPlayhead(this, 0);
+
+    this.parent || _addLinkedListItem(this._dp, this, "_first", "_last", this._dp._sort ? "_start" : 0);
+    return this.render(0);
   };
 
   _proto3.kill = function kill(targets, vars) {
@@ -25962,6 +29053,17 @@ var _gsap = {
       return setter(target, p, unit ? value + unit : value, cache, 1);
     };
   },
+  quickTo: function quickTo(target, property, vars) {
+    var _merge2;
+
+    var tween = gsap.to(target, _merge((_merge2 = {}, _merge2[property] = "+=0.1", _merge2.paused = true, _merge2), vars || {})),
+        func = function func(value, start, startIsRelative) {
+      return tween.resetTo(property, value, start, startIsRelative);
+    };
+
+    func.tween = tween;
+    return func;
+  },
   isTweening: function isTweening(targets) {
     return _globalTimeline.getTweensOf(targets, true).length > 0;
   },
@@ -26172,7 +29274,7 @@ var gsap = _gsap.registerPlugin({
   }
 }, _buildModifierPlugin("roundProps", _roundModifier), _buildModifierPlugin("modifiers"), _buildModifierPlugin("snap", snap)) || _gsap; //to prevent the core plugins from being dropped via aggressive tree shaking, we must include them in the variable declaration in this way.
 
-Tween.version = Timeline.version = gsap.version = "3.9.1";
+Tween.version = Timeline.version = gsap.version = "3.10.4";
 _coreReady = 1;
 _windowExists() && _wake();
 var Power0 = _easeMap.Power0,
@@ -26209,31 +29311,31 @@ var Power0 = _easeMap.Power0,
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "gsap": () => (/* binding */ gsapWithCSS),
-/* harmony export */   "default": () => (/* binding */ gsapWithCSS),
+/* harmony export */   "Back": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Back),
+/* harmony export */   "Bounce": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Bounce),
 /* harmony export */   "CSSPlugin": () => (/* reexport safe */ _CSSPlugin_js__WEBPACK_IMPORTED_MODULE_1__.CSSPlugin),
-/* harmony export */   "TweenMax": () => (/* binding */ TweenMaxWithCSS),
-/* harmony export */   "TweenLite": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.TweenLite),
-/* harmony export */   "TimelineMax": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.TimelineMax),
-/* harmony export */   "TimelineLite": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.TimelineLite),
+/* harmony export */   "Circ": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Circ),
+/* harmony export */   "Cubic": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Cubic),
+/* harmony export */   "Elastic": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Elastic),
+/* harmony export */   "Expo": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Expo),
+/* harmony export */   "Linear": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Linear),
 /* harmony export */   "Power0": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Power0),
 /* harmony export */   "Power1": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Power1),
 /* harmony export */   "Power2": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Power2),
 /* harmony export */   "Power3": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Power3),
 /* harmony export */   "Power4": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Power4),
-/* harmony export */   "Linear": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Linear),
 /* harmony export */   "Quad": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Quad),
-/* harmony export */   "Cubic": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Cubic),
 /* harmony export */   "Quart": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Quart),
 /* harmony export */   "Quint": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Quint),
-/* harmony export */   "Strong": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Strong),
-/* harmony export */   "Elastic": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Elastic),
-/* harmony export */   "Back": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Back),
-/* harmony export */   "SteppedEase": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.SteppedEase),
-/* harmony export */   "Bounce": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Bounce),
 /* harmony export */   "Sine": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Sine),
-/* harmony export */   "Expo": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Expo),
-/* harmony export */   "Circ": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Circ)
+/* harmony export */   "SteppedEase": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.SteppedEase),
+/* harmony export */   "Strong": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.Strong),
+/* harmony export */   "TimelineLite": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.TimelineLite),
+/* harmony export */   "TimelineMax": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.TimelineMax),
+/* harmony export */   "TweenLite": () => (/* reexport safe */ _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__.TweenLite),
+/* harmony export */   "TweenMax": () => (/* binding */ TweenMaxWithCSS),
+/* harmony export */   "default": () => (/* binding */ gsapWithCSS),
+/* harmony export */   "gsap": () => (/* binding */ gsapWithCSS)
 /* harmony export */ });
 /* harmony import */ var _gsap_core_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./gsap-core.js */ "./node_modules/gsap/gsap-core.js");
 /* harmony import */ var _CSSPlugin_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CSSPlugin.js */ "./node_modules/gsap/CSSPlugin.js");
@@ -26255,7 +29357,7 @@ TweenMaxWithCSS = gsapWithCSS.core.Tween;
 "use strict";
 
 
-var reactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+var reactIs = __webpack_require__(/*! react-is */ "./node_modules/hoist-non-react-statics/node_modules/react-is/index.js");
 
 /**
  * Copyright 2015, Yahoo! Inc.
@@ -26360,12 +29462,1108 @@ module.exports = hoistNonReactStatics;
 
 /***/ }),
 
+/***/ "./node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.development.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.development.js ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+/** @license React v16.13.1
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+// nor polyfill, then a plain number is used for performance.
+var hasSymbol = typeof Symbol === 'function' && Symbol.for;
+var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
+var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
+var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
+var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
+var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
+var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
+var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+// (unstable) APIs that have been removed. Can we remove the symbols?
+
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
+var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
+var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
+var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
+var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
+var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
+var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
+var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for('react.block') : 0xead9;
+var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
+var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
+var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
+
+function isValidElementType(type) {
+  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+}
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
+          case REACT_CONCURRENT_MODE_TYPE:
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+            return type;
+
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_LAZY_TYPE:
+              case REACT_MEMO_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+
+              default:
+                return $$typeof;
+            }
+
+        }
+
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+} // AsyncMode is deprecated along with isAsyncMode
+
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
+var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
+    }
+  }
+
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+}
+function isConcurrentMode(object) {
+  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+
+exports.AsyncMode = AsyncMode;
+exports.ConcurrentMode = ConcurrentMode;
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+exports.isValidElementType = isValidElementType;
+exports.typeOf = typeOf;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/hoist-non-react-statics/node_modules/react-is/index.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/hoist-non-react-statics/node_modules/react-is/index.js ***!
+  \*****************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.development.js");
+}
+
+
+/***/ }),
+
 /***/ "./src/style.css":
 /*!***********************!*\
   !*** ./src/style.css ***!
   \***********************/
 /***/ (() => {
 
+
+
+/***/ }),
+
+/***/ "./node_modules/react-anchor-link-smooth-scroll/lib/anchor-link.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/react-anchor-link-smooth-scroll/lib/anchor-link.js ***!
+  \*************************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(true)
+		module.exports = factory(__webpack_require__(/*! react */ "react"));
+	else {}
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_2__) {
+return /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __nested_webpack_require_663__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __nested_webpack_require_663__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__nested_webpack_require_663__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__nested_webpack_require_663__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__nested_webpack_require_663__.d = function(exports, name, getter) {
+/******/ 		if(!__nested_webpack_require_663__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__nested_webpack_require_663__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__nested_webpack_require_663__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__nested_webpack_require_663__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__nested_webpack_require_663__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __nested_webpack_require_663__(__nested_webpack_require_663__.s = 0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, exports, __nested_webpack_require_2940__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _anchorLink = __nested_webpack_require_2940__(1);
+
+var _anchorLink2 = _interopRequireDefault(_anchorLink);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _anchorLink2.default;
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __nested_webpack_require_3335__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __nested_webpack_require_3335__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var AnchorLink = function (_Component) {
+  _inherits(AnchorLink, _Component);
+
+  function AnchorLink(props) {
+    _classCallCheck(this, AnchorLink);
+
+    var _this = _possibleConstructorReturn(this, (AnchorLink.__proto__ || Object.getPrototypeOf(AnchorLink)).call(this, props));
+
+    _this.smoothScroll = _this.smoothScroll.bind(_this);
+    return _this;
+  }
+
+  _createClass(AnchorLink, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      __nested_webpack_require_3335__(3).polyfill();
+    }
+  }, {
+    key: 'smoothScroll',
+    value: function smoothScroll(e) {
+      var _this2 = this;
+
+      e.preventDefault();
+      var offset = function offset() {
+        return 0;
+      };
+      if (typeof this.props.offset !== 'undefined') {
+        if (!!(this.props.offset && this.props.offset.constructor && this.props.offset.apply)) {
+          offset = this.props.offset;
+        } else {
+          offset = function offset() {
+            return parseInt(_this2.props.offset);
+          };
+        }
+      }
+      var id = e.currentTarget.getAttribute('href').slice(1);
+      var $anchor = document.getElementById(id);
+      var offsetTop = $anchor.getBoundingClientRect().top + window.pageYOffset;
+      window.scroll({
+        top: offsetTop - offset(),
+        behavior: 'smooth'
+      });
+      if (this.props.onClick) {
+        this.props.onClick(e);
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _props = this.props,
+          offset = _props.offset,
+          rest = _objectWithoutProperties(_props, ['offset']);
+
+      return _react2.default.createElement('a', _extends({}, rest, { onClick: this.smoothScroll }));
+    }
+  }]);
+
+  return AnchorLink;
+}(_react.Component);
+
+exports.default = AnchorLink;
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_2__;
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* smoothscroll v0.4.0 - 2018 - Dustan Kasten, Jeremias Menichelli - MIT License */
+(function () {
+  'use strict';
+
+  // polyfill
+  function polyfill() {
+    // aliases
+    var w = window;
+    var d = document;
+
+    // return if scroll behavior is supported and polyfill is not forced
+    if (
+      'scrollBehavior' in d.documentElement.style &&
+      w.__forceSmoothScrollPolyfill__ !== true
+    ) {
+      return;
+    }
+
+    // globals
+    var Element = w.HTMLElement || w.Element;
+    var SCROLL_TIME = 468;
+
+    // object gathering original scroll methods
+    var original = {
+      scroll: w.scroll || w.scrollTo,
+      scrollBy: w.scrollBy,
+      elementScroll: Element.prototype.scroll || scrollElement,
+      scrollIntoView: Element.prototype.scrollIntoView
+    };
+
+    // define timing method
+    var now =
+      w.performance && w.performance.now
+        ? w.performance.now.bind(w.performance)
+        : Date.now;
+
+    /**
+     * indicates if a the current browser is made by Microsoft
+     * @method isMicrosoftBrowser
+     * @param {String} userAgent
+     * @returns {Boolean}
+     */
+    function isMicrosoftBrowser(userAgent) {
+      var userAgentPatterns = ['MSIE ', 'Trident/', 'Edge/'];
+
+      return new RegExp(userAgentPatterns.join('|')).test(userAgent);
+    }
+
+    /*
+     * IE has rounding bug rounding down clientHeight and clientWidth and
+     * rounding up scrollHeight and scrollWidth causing false positives
+     * on hasScrollableSpace
+     */
+    var ROUNDING_TOLERANCE = isMicrosoftBrowser(w.navigator.userAgent) ? 1 : 0;
+
+    /**
+     * changes scroll position inside an element
+     * @method scrollElement
+     * @param {Number} x
+     * @param {Number} y
+     * @returns {undefined}
+     */
+    function scrollElement(x, y) {
+      this.scrollLeft = x;
+      this.scrollTop = y;
+    }
+
+    /**
+     * returns result of applying ease math function to a number
+     * @method ease
+     * @param {Number} k
+     * @returns {Number}
+     */
+    function ease(k) {
+      return 0.5 * (1 - Math.cos(Math.PI * k));
+    }
+
+    /**
+     * indicates if a smooth behavior should be applied
+     * @method shouldBailOut
+     * @param {Number|Object} firstArg
+     * @returns {Boolean}
+     */
+    function shouldBailOut(firstArg) {
+      if (
+        firstArg === null ||
+        typeof firstArg !== 'object' ||
+        firstArg.behavior === undefined ||
+        firstArg.behavior === 'auto' ||
+        firstArg.behavior === 'instant'
+      ) {
+        // first argument is not an object/null
+        // or behavior is auto, instant or undefined
+        return true;
+      }
+
+      if (typeof firstArg === 'object' && firstArg.behavior === 'smooth') {
+        // first argument is an object and behavior is smooth
+        return false;
+      }
+
+      // throw error when behavior is not supported
+      throw new TypeError(
+        'behavior member of ScrollOptions ' +
+          firstArg.behavior +
+          ' is not a valid value for enumeration ScrollBehavior.'
+      );
+    }
+
+    /**
+     * indicates if an element has scrollable space in the provided axis
+     * @method hasScrollableSpace
+     * @param {Node} el
+     * @param {String} axis
+     * @returns {Boolean}
+     */
+    function hasScrollableSpace(el, axis) {
+      if (axis === 'Y') {
+        return el.clientHeight + ROUNDING_TOLERANCE < el.scrollHeight;
+      }
+
+      if (axis === 'X') {
+        return el.clientWidth + ROUNDING_TOLERANCE < el.scrollWidth;
+      }
+    }
+
+    /**
+     * indicates if an element has a scrollable overflow property in the axis
+     * @method canOverflow
+     * @param {Node} el
+     * @param {String} axis
+     * @returns {Boolean}
+     */
+    function canOverflow(el, axis) {
+      var overflowValue = w.getComputedStyle(el, null)['overflow' + axis];
+
+      return overflowValue === 'auto' || overflowValue === 'scroll';
+    }
+
+    /**
+     * indicates if an element can be scrolled in either axis
+     * @method isScrollable
+     * @param {Node} el
+     * @param {String} axis
+     * @returns {Boolean}
+     */
+    function isScrollable(el) {
+      var isScrollableY = hasScrollableSpace(el, 'Y') && canOverflow(el, 'Y');
+      var isScrollableX = hasScrollableSpace(el, 'X') && canOverflow(el, 'X');
+
+      return isScrollableY || isScrollableX;
+    }
+
+    /**
+     * finds scrollable parent of an element
+     * @method findScrollableParent
+     * @param {Node} el
+     * @returns {Node} el
+     */
+    function findScrollableParent(el) {
+      var isBody;
+
+      do {
+        el = el.parentNode;
+
+        isBody = el === d.body;
+      } while (isBody === false && isScrollable(el) === false);
+
+      isBody = null;
+
+      return el;
+    }
+
+    /**
+     * self invoked function that, given a context, steps through scrolling
+     * @method step
+     * @param {Object} context
+     * @returns {undefined}
+     */
+    function step(context) {
+      var time = now();
+      var value;
+      var currentX;
+      var currentY;
+      var elapsed = (time - context.startTime) / SCROLL_TIME;
+
+      // avoid elapsed times higher than one
+      elapsed = elapsed > 1 ? 1 : elapsed;
+
+      // apply easing to elapsed time
+      value = ease(elapsed);
+
+      currentX = context.startX + (context.x - context.startX) * value;
+      currentY = context.startY + (context.y - context.startY) * value;
+
+      context.method.call(context.scrollable, currentX, currentY);
+
+      // scroll more if we have not reached our destination
+      if (currentX !== context.x || currentY !== context.y) {
+        w.requestAnimationFrame(step.bind(w, context));
+      }
+    }
+
+    /**
+     * scrolls window or element with a smooth behavior
+     * @method smoothScroll
+     * @param {Object|Node} el
+     * @param {Number} x
+     * @param {Number} y
+     * @returns {undefined}
+     */
+    function smoothScroll(el, x, y) {
+      var scrollable;
+      var startX;
+      var startY;
+      var method;
+      var startTime = now();
+
+      // define scroll context
+      if (el === d.body) {
+        scrollable = w;
+        startX = w.scrollX || w.pageXOffset;
+        startY = w.scrollY || w.pageYOffset;
+        method = original.scroll;
+      } else {
+        scrollable = el;
+        startX = el.scrollLeft;
+        startY = el.scrollTop;
+        method = scrollElement;
+      }
+
+      // scroll looping over a frame
+      step({
+        scrollable: scrollable,
+        method: method,
+        startTime: startTime,
+        startX: startX,
+        startY: startY,
+        x: x,
+        y: y
+      });
+    }
+
+    // ORIGINAL METHODS OVERRIDES
+    // w.scroll and w.scrollTo
+    w.scroll = w.scrollTo = function() {
+      // avoid action when no arguments are passed
+      if (arguments[0] === undefined) {
+        return;
+      }
+
+      // avoid smooth behavior if not required
+      if (shouldBailOut(arguments[0]) === true) {
+        original.scroll.call(
+          w,
+          arguments[0].left !== undefined
+            ? arguments[0].left
+            : typeof arguments[0] !== 'object'
+              ? arguments[0]
+              : w.scrollX || w.pageXOffset,
+          // use top prop, second argument if present or fallback to scrollY
+          arguments[0].top !== undefined
+            ? arguments[0].top
+            : arguments[1] !== undefined
+              ? arguments[1]
+              : w.scrollY || w.pageYOffset
+        );
+
+        return;
+      }
+
+      // LET THE SMOOTHNESS BEGIN!
+      smoothScroll.call(
+        w,
+        d.body,
+        arguments[0].left !== undefined
+          ? ~~arguments[0].left
+          : w.scrollX || w.pageXOffset,
+        arguments[0].top !== undefined
+          ? ~~arguments[0].top
+          : w.scrollY || w.pageYOffset
+      );
+    };
+
+    // w.scrollBy
+    w.scrollBy = function() {
+      // avoid action when no arguments are passed
+      if (arguments[0] === undefined) {
+        return;
+      }
+
+      // avoid smooth behavior if not required
+      if (shouldBailOut(arguments[0])) {
+        original.scrollBy.call(
+          w,
+          arguments[0].left !== undefined
+            ? arguments[0].left
+            : typeof arguments[0] !== 'object' ? arguments[0] : 0,
+          arguments[0].top !== undefined
+            ? arguments[0].top
+            : arguments[1] !== undefined ? arguments[1] : 0
+        );
+
+        return;
+      }
+
+      // LET THE SMOOTHNESS BEGIN!
+      smoothScroll.call(
+        w,
+        d.body,
+        ~~arguments[0].left + (w.scrollX || w.pageXOffset),
+        ~~arguments[0].top + (w.scrollY || w.pageYOffset)
+      );
+    };
+
+    // Element.prototype.scroll and Element.prototype.scrollTo
+    Element.prototype.scroll = Element.prototype.scrollTo = function() {
+      // avoid action when no arguments are passed
+      if (arguments[0] === undefined) {
+        return;
+      }
+
+      // avoid smooth behavior if not required
+      if (shouldBailOut(arguments[0]) === true) {
+        // if one number is passed, throw error to match Firefox implementation
+        if (typeof arguments[0] === 'number' && arguments[1] === undefined) {
+          throw new SyntaxError('Value could not be converted');
+        }
+
+        original.elementScroll.call(
+          this,
+          // use left prop, first number argument or fallback to scrollLeft
+          arguments[0].left !== undefined
+            ? ~~arguments[0].left
+            : typeof arguments[0] !== 'object' ? ~~arguments[0] : this.scrollLeft,
+          // use top prop, second argument or fallback to scrollTop
+          arguments[0].top !== undefined
+            ? ~~arguments[0].top
+            : arguments[1] !== undefined ? ~~arguments[1] : this.scrollTop
+        );
+
+        return;
+      }
+
+      var left = arguments[0].left;
+      var top = arguments[0].top;
+
+      // LET THE SMOOTHNESS BEGIN!
+      smoothScroll.call(
+        this,
+        this,
+        typeof left === 'undefined' ? this.scrollLeft : ~~left,
+        typeof top === 'undefined' ? this.scrollTop : ~~top
+      );
+    };
+
+    // Element.prototype.scrollBy
+    Element.prototype.scrollBy = function() {
+      // avoid action when no arguments are passed
+      if (arguments[0] === undefined) {
+        return;
+      }
+
+      // avoid smooth behavior if not required
+      if (shouldBailOut(arguments[0]) === true) {
+        original.elementScroll.call(
+          this,
+          arguments[0].left !== undefined
+            ? ~~arguments[0].left + this.scrollLeft
+            : ~~arguments[0] + this.scrollLeft,
+          arguments[0].top !== undefined
+            ? ~~arguments[0].top + this.scrollTop
+            : ~~arguments[1] + this.scrollTop
+        );
+
+        return;
+      }
+
+      this.scroll({
+        left: ~~arguments[0].left + this.scrollLeft,
+        top: ~~arguments[0].top + this.scrollTop,
+        behavior: arguments[0].behavior
+      });
+    };
+
+    // Element.prototype.scrollIntoView
+    Element.prototype.scrollIntoView = function() {
+      // avoid smooth behavior if not required
+      if (shouldBailOut(arguments[0]) === true) {
+        original.scrollIntoView.call(
+          this,
+          arguments[0] === undefined ? true : arguments[0]
+        );
+
+        return;
+      }
+
+      // LET THE SMOOTHNESS BEGIN!
+      var scrollableParent = findScrollableParent(this);
+      var parentRects = scrollableParent.getBoundingClientRect();
+      var clientRects = this.getBoundingClientRect();
+
+      if (scrollableParent !== d.body) {
+        // reveal element inside parent
+        smoothScroll.call(
+          this,
+          scrollableParent,
+          scrollableParent.scrollLeft + clientRects.left - parentRects.left,
+          scrollableParent.scrollTop + clientRects.top - parentRects.top
+        );
+
+        // reveal parent in viewport unless is fixed
+        if (w.getComputedStyle(scrollableParent).position !== 'fixed') {
+          w.scrollBy({
+            left: parentRects.left,
+            top: parentRects.top,
+            behavior: 'smooth'
+          });
+        }
+      } else {
+        // reveal element in viewport
+        w.scrollBy({
+          left: clientRects.left,
+          top: clientRects.top,
+          behavior: 'smooth'
+        });
+      }
+    };
+  }
+
+  if (true) {
+    // commonjs
+    module.exports = { polyfill: polyfill };
+  } else {}
+
+}());
+
+
+/***/ })
+/******/ ]);
+});
+
+/***/ }),
+
+/***/ "./node_modules/react-is/cjs/react-is.development.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+/**
+ * @license React
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+// ATTENTION
+// When adding new symbols to this file,
+// Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
+// The Symbol used to tag the ReactElement-like types.
+var REACT_ELEMENT_TYPE = Symbol.for('react.element');
+var REACT_PORTAL_TYPE = Symbol.for('react.portal');
+var REACT_FRAGMENT_TYPE = Symbol.for('react.fragment');
+var REACT_STRICT_MODE_TYPE = Symbol.for('react.strict_mode');
+var REACT_PROFILER_TYPE = Symbol.for('react.profiler');
+var REACT_PROVIDER_TYPE = Symbol.for('react.provider');
+var REACT_CONTEXT_TYPE = Symbol.for('react.context');
+var REACT_SERVER_CONTEXT_TYPE = Symbol.for('react.server_context');
+var REACT_FORWARD_REF_TYPE = Symbol.for('react.forward_ref');
+var REACT_SUSPENSE_TYPE = Symbol.for('react.suspense');
+var REACT_SUSPENSE_LIST_TYPE = Symbol.for('react.suspense_list');
+var REACT_MEMO_TYPE = Symbol.for('react.memo');
+var REACT_LAZY_TYPE = Symbol.for('react.lazy');
+var REACT_OFFSCREEN_TYPE = Symbol.for('react.offscreen');
+
+// -----------------------------------------------------------------------------
+
+var enableScopeAPI = false; // Experimental Create Event Handle API.
+var enableCacheElement = false;
+var enableTransitionTracing = false; // No known bugs, but needs performance testing
+
+var enableLegacyHidden = false; // Enables unstable_avoidThisFallback feature in Fiber
+// stuff. Intended to enable React core members to more easily debug scheduling
+// issues in DEV builds.
+
+var enableDebugTracing = false; // Track which Fiber(s) schedule render work.
+
+var REACT_MODULE_REFERENCE;
+
+{
+  REACT_MODULE_REFERENCE = Symbol.for('react.module.reference');
+}
+
+function isValidElementType(type) {
+  if (typeof type === 'string' || typeof type === 'function') {
+    return true;
+  } // Note: typeof might be other than 'symbol' or 'number' (e.g. if it's a polyfill).
+
+
+  if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing  || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden  || type === REACT_OFFSCREEN_TYPE || enableScopeAPI  || enableCacheElement  || enableTransitionTracing ) {
+    return true;
+  }
+
+  if (typeof type === 'object' && type !== null) {
+    if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || // This needs to include all possible module reference object
+    // types supported by any Flight configuration anywhere since
+    // we don't know which Flight build this will end up being used
+    // with.
+    type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== undefined) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+          case REACT_SUSPENSE_LIST_TYPE:
+            return type;
+
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_SERVER_CONTEXT_TYPE:
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_LAZY_TYPE:
+              case REACT_MEMO_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+
+              default:
+                return $$typeof;
+            }
+
+        }
+
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+}
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+var SuspenseList = REACT_SUSPENSE_LIST_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false;
+var hasWarnedAboutDeprecatedIsConcurrentMode = false; // AsyncMode should be deprecated
+
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 18+.');
+    }
+  }
+
+  return false;
+}
+function isConcurrentMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsConcurrentMode) {
+      hasWarnedAboutDeprecatedIsConcurrentMode = true; // Using console['warn'] to evade Babel and ESLint
+
+      console['warn']('The ReactIs.isConcurrentMode() alias has been deprecated, ' + 'and will be removed in React 18+.');
+    }
+  }
+
+  return false;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+function isSuspenseList(object) {
+  return typeOf(object) === REACT_SUSPENSE_LIST_TYPE;
+}
+
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.SuspenseList = SuspenseList;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+exports.isSuspenseList = isSuspenseList;
+exports.isValidElementType = isValidElementType;
+exports.typeOf = typeOf;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-is/index.js":
+/*!****************************************!*\
+  !*** ./node_modules/react-is/index.js ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
+}
 
 
 /***/ }),
@@ -26435,7 +30633,6 @@ module.exports = function shallowEqual(objA, objB, compare, compareContext) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
 /* harmony export */   "ServerStyleSheet": () => (/* binding */ Je),
 /* harmony export */   "StyleSheetConsumer": () => (/* binding */ ue),
 /* harmony export */   "StyleSheetContext": () => (/* binding */ ce),
@@ -26446,6 +30643,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "__PRIVATE__": () => (/* binding */ Ke),
 /* harmony export */   "createGlobalStyle": () => (/* binding */ $e),
 /* harmony export */   "css": () => (/* binding */ Ae),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
 /* harmony export */   "isStyledComponent": () => (/* binding */ _),
 /* harmony export */   "keyframes": () => (/* binding */ We),
 /* harmony export */   "useTheme": () => (/* binding */ Ze),
@@ -26459,10 +30657,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var shallowequal__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(shallowequal__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _emotion_stylis__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @emotion/stylis */ "./node_modules/@emotion/stylis/dist/stylis.esm.js");
 /* harmony import */ var _emotion_unitless__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @emotion/unitless */ "./node_modules/@emotion/unitless/dist/unitless.esm.js");
-/* harmony import */ var _emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @emotion/is-prop-valid */ "./node_modules/@emotion/is-prop-valid/dist/is-prop-valid.esm.js");
+/* harmony import */ var _emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @emotion/is-prop-valid */ "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js");
 /* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! hoist-non-react-statics */ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
 /* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_6__);
-function y(){return(y=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e}).apply(this,arguments)}var v=function(e,t){for(var n=[e[0]],r=0,o=t.length;r<o;r+=1)n.push(t[r],e[r+1]);return n},g=function(t){return null!==t&&"object"==typeof t&&"[object Object]"===(t.toString?t.toString():Object.prototype.toString.call(t))&&!(0,react_is__WEBPACK_IMPORTED_MODULE_0__.typeOf)(t)},S=Object.freeze([]),w=Object.freeze({});function E(e){return"function"==typeof e}function b(e){return true&&"string"==typeof e&&e||e.displayName||e.name||"Component"}function _(e){return e&&"string"==typeof e.styledComponentId}var N="undefined"!=typeof process&&(({}).REACT_APP_SC_ATTR||({}).SC_ATTR)||"data-styled",A="5.3.3",C="undefined"!=typeof window&&"HTMLElement"in window,I=Boolean("boolean"==typeof SC_DISABLE_SPEEDY?SC_DISABLE_SPEEDY:"undefined"!=typeof process&&void 0!==({}).REACT_APP_SC_DISABLE_SPEEDY&&""!==({}).REACT_APP_SC_DISABLE_SPEEDY?"false"!==({}).REACT_APP_SC_DISABLE_SPEEDY&&({}).REACT_APP_SC_DISABLE_SPEEDY:"undefined"!=typeof process&&void 0!==({}).SC_DISABLE_SPEEDY&&""!==({}).SC_DISABLE_SPEEDY?"false"!==({}).SC_DISABLE_SPEEDY&&({}).SC_DISABLE_SPEEDY:"production"!=="development"),P={},O= true?{1:"Cannot create styled-component for component: %s.\n\n",2:"Can't collect styles once you've consumed a `ServerStyleSheet`'s styles! `ServerStyleSheet` is a one off instance for each server-side render cycle.\n\n- Are you trying to reuse it across renders?\n- Are you accidentally calling collectStyles twice?\n\n",3:"Streaming SSR is only supported in a Node.js environment; Please do not try to call this method in the browser.\n\n",4:"The `StyleSheetManager` expects a valid target or sheet prop!\n\n- Does this error occur on the client and is your target falsy?\n- Does this error occur on the server and is the sheet falsy?\n\n",5:"The clone method cannot be used on the client!\n\n- Are you running in a client-like environment on the server?\n- Are you trying to run SSR on the client?\n\n",6:"Trying to insert a new style tag, but the given Node is unmounted!\n\n- Are you using a custom target that isn't mounted?\n- Does your document not have a valid head element?\n- Have you accidentally removed a style tag manually?\n\n",7:'ThemeProvider: Please return an object from your "theme" prop function, e.g.\n\n```js\ntheme={() => ({})}\n```\n\n',8:'ThemeProvider: Please make your "theme" prop an object.\n\n',9:"Missing document `<head>`\n\n",10:"Cannot find a StyleSheet instance. Usually this happens if there are multiple copies of styled-components loaded at once. Check out this issue for how to troubleshoot and fix the common cases where this situation can happen: https://github.com/styled-components/styled-components/issues/1941#issuecomment-417862021\n\n",11:"_This error was replaced with a dev-time warning, it will be deleted for v4 final._ [createGlobalStyle] received children which will not be rendered. Please use the component without passing children elements.\n\n",12:"It seems you are interpolating a keyframe declaration (%s) into an untagged string. This was supported in styled-components v3, but is not longer supported in v4 as keyframes are now injected on-demand. Please wrap your string in the css\\`\\` helper which ensures the styles are injected correctly. See https://www.styled-components.com/docs/api#css\n\n",13:"%s is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details.\n\n",14:'ThemeProvider: "theme" prop is required.\n\n',15:"A stylis plugin has been supplied that is not named. We need a name for each plugin to be able to prevent styling collisions between different stylis configurations within the same app. Before you pass your plugin to `<StyleSheetManager stylisPlugins={[]}>`, please make sure each plugin is uniquely-named, e.g.\n\n```js\nObject.defineProperty(importedPlugin, 'name', { value: 'some-unique-name' });\n```\n\n",16:"Reached the limit of how many styled components may be created at group %s.\nYou may only create up to 1,073,741,824 components. If you're creating components dynamically,\nas for instance in your render method then you may be running into this limitation.\n\n",17:"CSSStyleSheet could not be found on HTMLStyleElement.\nHas styled-components' style tag been unmounted or altered by another script?\n"}:0;function R(){for(var e=arguments.length<=0?void 0:arguments[0],t=[],n=1,r=arguments.length;n<r;n+=1)t.push(n<0||arguments.length<=n?void 0:arguments[n]);return t.forEach((function(t){e=e.replace(/%[a-z]/,t)})),e}function D(e){for(var t=arguments.length,n=new Array(t>1?t-1:0),r=1;r<t;r++)n[r-1]=arguments[r];throw false?0:new Error(R.apply(void 0,[O[e]].concat(n)).trim())}var j=function(){function e(e){this.groupSizes=new Uint32Array(512),this.length=512,this.tag=e}var t=e.prototype;return t.indexOfGroup=function(e){for(var t=0,n=0;n<e;n++)t+=this.groupSizes[n];return t},t.insertRules=function(e,t){if(e>=this.groupSizes.length){for(var n=this.groupSizes,r=n.length,o=r;e>=o;)(o<<=1)<0&&D(16,""+e);this.groupSizes=new Uint32Array(o),this.groupSizes.set(n),this.length=o;for(var s=r;s<o;s++)this.groupSizes[s]=0}for(var i=this.indexOfGroup(e+1),a=0,c=t.length;a<c;a++)this.tag.insertRule(i,t[a])&&(this.groupSizes[e]++,i++)},t.clearGroup=function(e){if(e<this.length){var t=this.groupSizes[e],n=this.indexOfGroup(e),r=n+t;this.groupSizes[e]=0;for(var o=n;o<r;o++)this.tag.deleteRule(n)}},t.getGroup=function(e){var t="";if(e>=this.length||0===this.groupSizes[e])return t;for(var n=this.groupSizes[e],r=this.indexOfGroup(e),o=r+n,s=r;s<o;s++)t+=this.tag.getRule(s)+"/*!sc*/\n";return t},e}(),T=new Map,x=new Map,k=1,V=function(e){if(T.has(e))return T.get(e);for(;x.has(k);)k++;var t=k++;return true&&((0|t)<0||t>1<<30)&&D(16,""+t),T.set(e,t),x.set(t,e),t},z=function(e){return x.get(e)},B=function(e,t){t>=k&&(k=t+1),T.set(e,t),x.set(t,e)},M="style["+N+'][data-styled-version="5.3.3"]',G=new RegExp("^"+N+'\\.g(\\d+)\\[id="([\\w\\d-]+)"\\].*?"([^"]*)'),L=function(e,t,n){for(var r,o=n.split(","),s=0,i=o.length;s<i;s++)(r=o[s])&&e.registerName(t,r)},F=function(e,t){for(var n=(t.textContent||"").split("/*!sc*/\n"),r=[],o=0,s=n.length;o<s;o++){var i=n[o].trim();if(i){var a=i.match(G);if(a){var c=0|parseInt(a[1],10),u=a[2];0!==c&&(B(u,c),L(e,u,a[3]),e.getTag().insertRules(c,r)),r.length=0}else r.push(i)}}},Y=function(){return"undefined"!=typeof window&&void 0!==window.__webpack_nonce__?window.__webpack_nonce__:null},q=function(e){var t=document.head,n=e||t,r=document.createElement("style"),o=function(e){for(var t=e.childNodes,n=t.length;n>=0;n--){var r=t[n];if(r&&1===r.nodeType&&r.hasAttribute(N))return r}}(n),s=void 0!==o?o.nextSibling:null;r.setAttribute(N,"active"),r.setAttribute("data-styled-version","5.3.3");var i=Y();return i&&r.setAttribute("nonce",i),n.insertBefore(r,s),r},H=function(){function e(e){var t=this.element=q(e);t.appendChild(document.createTextNode("")),this.sheet=function(e){if(e.sheet)return e.sheet;for(var t=document.styleSheets,n=0,r=t.length;n<r;n++){var o=t[n];if(o.ownerNode===e)return o}D(17)}(t),this.length=0}var t=e.prototype;return t.insertRule=function(e,t){try{return this.sheet.insertRule(t,e),this.length++,!0}catch(e){return!1}},t.deleteRule=function(e){this.sheet.deleteRule(e),this.length--},t.getRule=function(e){var t=this.sheet.cssRules[e];return void 0!==t&&"string"==typeof t.cssText?t.cssText:""},e}(),$=function(){function e(e){var t=this.element=q(e);this.nodes=t.childNodes,this.length=0}var t=e.prototype;return t.insertRule=function(e,t){if(e<=this.length&&e>=0){var n=document.createTextNode(t),r=this.nodes[e];return this.element.insertBefore(n,r||null),this.length++,!0}return!1},t.deleteRule=function(e){this.element.removeChild(this.nodes[e]),this.length--},t.getRule=function(e){return e<this.length?this.nodes[e].textContent:""},e}(),W=function(){function e(e){this.rules=[],this.length=0}var t=e.prototype;return t.insertRule=function(e,t){return e<=this.length&&(this.rules.splice(e,0,t),this.length++,!0)},t.deleteRule=function(e){this.rules.splice(e,1),this.length--},t.getRule=function(e){return e<this.length?this.rules[e]:""},e}(),U=C,J={isServer:!C,useCSSOMInjection:!I},X=function(){function e(e,t,n){void 0===e&&(e=w),void 0===t&&(t={}),this.options=y({},J,{},e),this.gs=t,this.names=new Map(n),this.server=!!e.isServer,!this.server&&C&&U&&(U=!1,function(e){for(var t=document.querySelectorAll(M),n=0,r=t.length;n<r;n++){var o=t[n];o&&"active"!==o.getAttribute(N)&&(F(e,o),o.parentNode&&o.parentNode.removeChild(o))}}(this))}e.registerId=function(e){return V(e)};var t=e.prototype;return t.reconstructWithOptions=function(t,n){return void 0===n&&(n=!0),new e(y({},this.options,{},t),this.gs,n&&this.names||void 0)},t.allocateGSInstance=function(e){return this.gs[e]=(this.gs[e]||0)+1},t.getTag=function(){return this.tag||(this.tag=(n=(t=this.options).isServer,r=t.useCSSOMInjection,o=t.target,e=n?new W(o):r?new H(o):new $(o),new j(e)));var e,t,n,r,o},t.hasNameForId=function(e,t){return this.names.has(e)&&this.names.get(e).has(t)},t.registerName=function(e,t){if(V(e),this.names.has(e))this.names.get(e).add(t);else{var n=new Set;n.add(t),this.names.set(e,n)}},t.insertRules=function(e,t,n){this.registerName(e,t),this.getTag().insertRules(V(e),n)},t.clearNames=function(e){this.names.has(e)&&this.names.get(e).clear()},t.clearRules=function(e){this.getTag().clearGroup(V(e)),this.clearNames(e)},t.clearTag=function(){this.tag=void 0},t.toString=function(){return function(e){for(var t=e.getTag(),n=t.length,r="",o=0;o<n;o++){var s=z(o);if(void 0!==s){var i=e.names.get(s),a=t.getGroup(o);if(i&&a&&i.size){var c=N+".g"+o+'[id="'+s+'"]',u="";void 0!==i&&i.forEach((function(e){e.length>0&&(u+=e+",")})),r+=""+a+c+'{content:"'+u+'"}/*!sc*/\n'}}}return r}(this)},e}(),Z=/(a)(d)/gi,K=function(e){return String.fromCharCode(e+(e>25?39:97))};function Q(e){var t,n="";for(t=Math.abs(e);t>52;t=t/52|0)n=K(t%52)+n;return(K(t%52)+n).replace(Z,"$1-$2")}var ee=function(e,t){for(var n=t.length;n;)e=33*e^t.charCodeAt(--n);return e},te=function(e){return ee(5381,e)};function ne(e){for(var t=0;t<e.length;t+=1){var n=e[t];if(E(n)&&!_(n))return!1}return!0}var re=te("5.3.3"),oe=function(){function e(e,t,n){this.rules=e,this.staticRulesId="",this.isStatic= false&&0,this.componentId=t,this.baseHash=ee(re,t),this.baseStyle=n,X.registerId(t)}return e.prototype.generateAndInjectStyles=function(e,t,n){var r=this.componentId,o=[];if(this.baseStyle&&o.push(this.baseStyle.generateAndInjectStyles(e,t,n)),this.isStatic&&!n.hash)if(this.staticRulesId&&t.hasNameForId(r,this.staticRulesId))o.push(this.staticRulesId);else{var s=_e(this.rules,e,t,n).join(""),i=Q(ee(this.baseHash,s)>>>0);if(!t.hasNameForId(r,i)){var a=n(s,"."+i,void 0,r);t.insertRules(r,i,a)}o.push(i),this.staticRulesId=i}else{for(var c=this.rules.length,u=ee(this.baseHash,n.hash),l="",d=0;d<c;d++){var h=this.rules[d];if("string"==typeof h)l+=h, true&&(u=ee(u,h+d));else if(h){var p=_e(h,e,t,n),f=Array.isArray(p)?p.join(""):p;u=ee(u,f+d),l+=f}}if(l){var m=Q(u>>>0);if(!t.hasNameForId(r,m)){var y=n(l,"."+m,void 0,r);t.insertRules(r,m,y)}o.push(m)}}return o.join(" ")},e}(),se=/^\s*\/\/.*$/gm,ie=[":","[",".","#"];function ae(e){var t,n,r,o,s=void 0===e?w:e,i=s.options,a=void 0===i?w:i,c=s.plugins,u=void 0===c?S:c,l=new _emotion_stylis__WEBPACK_IMPORTED_MODULE_3__["default"](a),d=[],p=function(e){function t(t){if(t)try{e(t+"}")}catch(e){}}return function(n,r,o,s,i,a,c,u,l,d){switch(n){case 1:if(0===l&&64===r.charCodeAt(0))return e(r+";"),"";break;case 2:if(0===u)return r+"/*|*/";break;case 3:switch(u){case 102:case 112:return e(o[0]+r),"";default:return r+(0===d?"/*|*/":"")}case-2:r.split("/*|*/}").forEach(t)}}}((function(e){d.push(e)})),f=function(e,r,s){return 0===r&&-1!==ie.indexOf(s[n.length])||s.match(o)?e:"."+t};function m(e,s,i,a){void 0===a&&(a="&");var c=e.replace(se,""),u=s&&i?i+" "+s+" { "+c+" }":c;return t=a,n=s,r=new RegExp("\\"+n+"\\b","g"),o=new RegExp("(\\"+n+"\\b){2,}"),l(i||!s?"":s,u)}return l.use([].concat(u,[function(e,t,o){2===e&&o.length&&o[0].lastIndexOf(n)>0&&(o[0]=o[0].replace(r,f))},p,function(e){if(-2===e){var t=d;return d=[],t}}])),m.hash=u.length?u.reduce((function(e,t){return t.name||D(15),ee(e,t.name)}),5381).toString():"",m}var ce=react__WEBPACK_IMPORTED_MODULE_1___default().createContext(),ue=ce.Consumer,le=react__WEBPACK_IMPORTED_MODULE_1___default().createContext(),de=(le.Consumer,new X),he=ae();function pe(){return (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(ce)||de}function fe(){return (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(le)||he}function me(e){var t=(0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(e.stylisPlugins),n=t[0],s=t[1],c=pe(),u=(0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)((function(){var t=c;return e.sheet?t=e.sheet:e.target&&(t=t.reconstructWithOptions({target:e.target},!1)),e.disableCSSOMInjection&&(t=t.reconstructWithOptions({useCSSOMInjection:!1})),t}),[e.disableCSSOMInjection,e.sheet,e.target]),l=(0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)((function(){return ae({options:{prefix:!e.disableVendorPrefixes},plugins:n})}),[e.disableVendorPrefixes,n]);return (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)((function(){shallowequal__WEBPACK_IMPORTED_MODULE_2___default()(n,e.stylisPlugins)||s(e.stylisPlugins)}),[e.stylisPlugins]),react__WEBPACK_IMPORTED_MODULE_1___default().createElement(ce.Provider,{value:u},react__WEBPACK_IMPORTED_MODULE_1___default().createElement(le.Provider,{value:l}, true?react__WEBPACK_IMPORTED_MODULE_1___default().Children.only(e.children):0))}var ye=function(){function e(e,t){var n=this;this.inject=function(e,t){void 0===t&&(t=he);var r=n.name+t.hash;e.hasNameForId(n.id,r)||e.insertRules(n.id,r,t(n.rules,r,"@keyframes"))},this.toString=function(){return D(12,String(n.name))},this.name=e,this.id="sc-keyframes-"+e,this.rules=t}return e.prototype.getName=function(e){return void 0===e&&(e=he),this.name+e.hash},e}(),ve=/([A-Z])/,ge=/([A-Z])/g,Se=/^ms-/,we=function(e){return"-"+e.toLowerCase()};function Ee(e){return ve.test(e)?e.replace(ge,we).replace(Se,"-ms-"):e}var be=function(e){return null==e||!1===e||""===e};function _e(e,n,r,o){if(Array.isArray(e)){for(var s,i=[],a=0,c=e.length;a<c;a+=1)""!==(s=_e(e[a],n,r,o))&&(Array.isArray(s)?i.push.apply(i,s):i.push(s));return i}if(be(e))return"";if(_(e))return"."+e.styledComponentId;if(E(e)){if("function"!=typeof(l=e)||l.prototype&&l.prototype.isReactComponent||!n)return e;var u=e(n);return true&&(0,react_is__WEBPACK_IMPORTED_MODULE_0__.isElement)(u)&&console.warn(b(e)+" is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details."),_e(u,n,r,o)}var l;return e instanceof ye?r?(e.inject(r,o),e.getName(o)):e:g(e)?function e(t,n){var r,o,s=[];for(var i in t)t.hasOwnProperty(i)&&!be(t[i])&&(Array.isArray(t[i])&&t[i].isCss||E(t[i])?s.push(Ee(i)+":",t[i],";"):g(t[i])?s.push.apply(s,e(t[i],i)):s.push(Ee(i)+": "+(r=i,null==(o=t[i])||"boolean"==typeof o||""===o?"":"number"!=typeof o||0===o||r in _emotion_unitless__WEBPACK_IMPORTED_MODULE_4__["default"]?String(o).trim():o+"px")+";"));return n?[n+" {"].concat(s,["}"]):s}(e):e.toString()}var Ne=function(e){return Array.isArray(e)&&(e.isCss=!0),e};function Ae(e){for(var t=arguments.length,n=new Array(t>1?t-1:0),r=1;r<t;r++)n[r-1]=arguments[r];return E(e)||g(e)?Ne(_e(v(S,[e].concat(n)))):0===n.length&&1===e.length&&"string"==typeof e[0]?e:Ne(_e(v(e,n)))}var Ce=/invalid hook call/i,Ie=new Set,Pe=function(e,t){if(true){var n="The component "+e+(t?' with the id of "'+t+'"':"")+" has been created dynamically.\nYou may see this warning because you've called styled inside another component.\nTo resolve this only create new StyledComponents outside of any render method and function component.",r=console.error;try{var o=!0;console.error=function(e){if(Ce.test(e))o=!1,Ie.delete(n);else{for(var t=arguments.length,s=new Array(t>1?t-1:0),i=1;i<t;i++)s[i-1]=arguments[i];r.apply(void 0,[e].concat(s))}},(0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(),o&&!Ie.has(n)&&(console.warn(n),Ie.add(n))}catch(e){Ce.test(e.message)&&Ie.delete(n)}finally{console.error=r}}},Oe=function(e,t,n){return void 0===n&&(n=w),e.theme!==n.theme&&e.theme||t||n.theme},Re=/[!"#$%&'()*+,./:;<=>?@[\\\]^`{|}~-]+/g,De=/(^-|-$)/g;function je(e){return e.replace(Re,"-").replace(De,"")}var Te=function(e){return Q(te(e)>>>0)};function xe(e){return"string"==typeof e&&( false||e.charAt(0)===e.charAt(0).toLowerCase())}var ke=function(e){return"function"==typeof e||"object"==typeof e&&null!==e&&!Array.isArray(e)},Ve=function(e){return"__proto__"!==e&&"constructor"!==e&&"prototype"!==e};function ze(e,t,n){var r=e[n];ke(t)&&ke(r)?Be(r,t):e[n]=t}function Be(e){for(var t=arguments.length,n=new Array(t>1?t-1:0),r=1;r<t;r++)n[r-1]=arguments[r];for(var o=0,s=n;o<s.length;o++){var i=s[o];if(ke(i))for(var a in i)Ve(a)&&ze(e,i[a],a)}return e}var Me=react__WEBPACK_IMPORTED_MODULE_1___default().createContext(),Ge=Me.Consumer;function Le(e){var t=(0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(Me),n=(0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)((function(){return function(e,t){if(!e)return D(14);if(E(e)){var n=e(t);return false||null!==n&&!Array.isArray(n)&&"object"==typeof n?n:D(7)}return Array.isArray(e)||"object"!=typeof e?D(8):t?y({},t,{},e):e}(e.theme,t)}),[e.theme,t]);return e.children?react__WEBPACK_IMPORTED_MODULE_1___default().createElement(Me.Provider,{value:n},e.children):null}var Fe={};function Ye(e,t,n){var o=_(e),i=!xe(e),a=t.attrs,c=void 0===a?S:a,d=t.componentId,h=void 0===d?function(e,t){var n="string"!=typeof e?"sc":je(e);Fe[n]=(Fe[n]||0)+1;var r=n+"-"+Te("5.3.3"+n+Fe[n]);return t?t+"-"+r:r}(t.displayName,t.parentComponentId):d,p=t.displayName,v=void 0===p?function(e){return xe(e)?"styled."+e:"Styled("+b(e)+")"}(e):p,g=t.displayName&&t.componentId?je(t.displayName)+"-"+t.componentId:t.componentId||h,N=o&&e.attrs?Array.prototype.concat(e.attrs,c).filter(Boolean):c,A=t.shouldForwardProp;o&&e.shouldForwardProp&&(A=t.shouldForwardProp?function(n,r,o){return e.shouldForwardProp(n,r,o)&&t.shouldForwardProp(n,r,o)}:e.shouldForwardProp);var C,I=new oe(n,g,o?e.componentStyle:void 0),P=I.isStatic&&0===c.length,O=function(e,t){return function(e,t,n,r){var o=e.attrs,i=e.componentStyle,a=e.defaultProps,c=e.foldedComponentIds,d=e.shouldForwardProp,h=e.styledComponentId,p=e.target; true&&(0,react__WEBPACK_IMPORTED_MODULE_1__.useDebugValue)(h);var m=function(e,t,n){void 0===e&&(e=w);var r=y({},t,{theme:e}),o={};return n.forEach((function(e){var t,n,s,i=e;for(t in E(i)&&(i=i(r)),i)r[t]=o[t]="className"===t?(n=o[t],s=i[t],n&&s?n+" "+s:n||s):i[t]})),[r,o]}(Oe(t,(0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(Me),a)||w,t,o),v=m[0],g=m[1],S=function(e,t,n,r){var o=pe(),s=fe(),i=t?e.generateAndInjectStyles(w,o,s):e.generateAndInjectStyles(n,o,s);return true&&(0,react__WEBPACK_IMPORTED_MODULE_1__.useDebugValue)(i), true&&!t&&r&&r(i),i}(i,r,v, true?e.warnTooManyClasses:0),b=n,_=g.$as||t.$as||g.as||t.as||p,N=xe(_),A=g!==t?y({},t,{},g):t,C={};for(var I in A)"$"!==I[0]&&"as"!==I&&("forwardedAs"===I?C.as=A[I]:(d?d(I,_emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_5__["default"],_):!N||(0,_emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_5__["default"])(I))&&(C[I]=A[I]));return t.style&&g.style!==t.style&&(C.style=y({},t.style,{},g.style)),C.className=Array.prototype.concat(c,h,S!==h?S:null,t.className,g.className).filter(Boolean).join(" "),C.ref=b,(0,react__WEBPACK_IMPORTED_MODULE_1__.createElement)(_,C)}(C,e,t,P)};return O.displayName=v,(C=react__WEBPACK_IMPORTED_MODULE_1___default().forwardRef(O)).attrs=N,C.componentStyle=I,C.displayName=v,C.shouldForwardProp=A,C.foldedComponentIds=o?Array.prototype.concat(e.foldedComponentIds,e.styledComponentId):S,C.styledComponentId=g,C.target=o?e.target:e,C.withComponent=function(e){var r=t.componentId,o=function(e,t){if(null==e)return{};var n,r,o={},s=Object.keys(e);for(r=0;r<s.length;r++)n=s[r],t.indexOf(n)>=0||(o[n]=e[n]);return o}(t,["componentId"]),s=r&&r+"-"+(xe(e)?e:je(b(e)));return Ye(e,y({},o,{attrs:N,componentId:s}),n)},Object.defineProperty(C,"defaultProps",{get:function(){return this._foldedDefaultProps},set:function(t){this._foldedDefaultProps=o?Be({},e.defaultProps,t):t}}), true&&(Pe(v,g),C.warnTooManyClasses=function(e,t){var n={},r=!1;return function(o){if(!r&&(n[o]=!0,Object.keys(n).length>=200)){var s=t?' with the id of "'+t+'"':"";console.warn("Over 200 classes were generated for component "+e+s+".\nConsider using the attrs method, together with a style object for frequently changed styles.\nExample:\n  const Component = styled.div.attrs(props => ({\n    style: {\n      background: props.background,\n    },\n  }))`width: 100%;`\n\n  <Component />"),r=!0,n={}}}}(v,g)),C.toString=function(){return"."+C.styledComponentId},i&&hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_6___default()(C,e,{attrs:!0,componentStyle:!0,displayName:!0,foldedComponentIds:!0,shouldForwardProp:!0,styledComponentId:!0,target:!0,withComponent:!0}),C}var qe=function(e){return function e(t,r,o){if(void 0===o&&(o=w),!(0,react_is__WEBPACK_IMPORTED_MODULE_0__.isValidElementType)(r))return D(1,String(r));var s=function(){return t(r,o,Ae.apply(void 0,arguments))};return s.withConfig=function(n){return e(t,r,y({},o,{},n))},s.attrs=function(n){return e(t,r,y({},o,{attrs:Array.prototype.concat(o.attrs,n).filter(Boolean)}))},s}(Ye,e)};["a","abbr","address","area","article","aside","audio","b","base","bdi","bdo","big","blockquote","body","br","button","canvas","caption","cite","code","col","colgroup","data","datalist","dd","del","details","dfn","dialog","div","dl","dt","em","embed","fieldset","figcaption","figure","footer","form","h1","h2","h3","h4","h5","h6","head","header","hgroup","hr","html","i","iframe","img","input","ins","kbd","keygen","label","legend","li","link","main","map","mark","marquee","menu","menuitem","meta","meter","nav","noscript","object","ol","optgroup","option","output","p","param","picture","pre","progress","q","rp","rt","ruby","s","samp","script","section","select","small","source","span","strong","style","sub","summary","sup","table","tbody","td","textarea","tfoot","th","thead","time","title","tr","track","u","ul","var","video","wbr","circle","clipPath","defs","ellipse","foreignObject","g","image","line","linearGradient","marker","mask","path","pattern","polygon","polyline","radialGradient","rect","stop","svg","text","textPath","tspan"].forEach((function(e){qe[e]=qe(e)}));var He=function(){function e(e,t){this.rules=e,this.componentId=t,this.isStatic=ne(e),X.registerId(this.componentId+1)}var t=e.prototype;return t.createStyles=function(e,t,n,r){var o=r(_e(this.rules,t,n,r).join(""),""),s=this.componentId+e;n.insertRules(s,s,o)},t.removeStyles=function(e,t){t.clearRules(this.componentId+e)},t.renderStyles=function(e,t,n,r){e>2&&X.registerId(this.componentId+e),this.removeStyles(e,n),this.createStyles(e,t,n,r)},e}();function $e(e){for(var t=arguments.length,n=new Array(t>1?t-1:0),o=1;o<t;o++)n[o-1]=arguments[o];var i=Ae.apply(void 0,[e].concat(n)),a="sc-global-"+Te(JSON.stringify(i)),u=new He(i,a);function l(e){var t=pe(),n=fe(),o=(0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(Me),u=(0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(t.allocateGSInstance(a)).current;return true&&react__WEBPACK_IMPORTED_MODULE_1___default().Children.count(e.children)&&console.warn("The global style component "+a+" was given child JSX. createGlobalStyle does not render children."), true&&i.some((function(e){return"string"==typeof e&&-1!==e.indexOf("@import")}))&&console.warn("Please do not use @import CSS syntax in createGlobalStyle at this time, as the CSSOM APIs we use in production do not handle it well. Instead, we recommend using a library such as react-helmet to inject a typical <link> meta tag to the stylesheet, or simply embedding it manually in your index.html <head> section for a simpler app."),t.server&&d(u,e,t,o,n),null}function d(e,t,n,r,o){if(u.isStatic)u.renderStyles(e,P,n,o);else{var s=y({},t,{theme:Oe(t,r,l.defaultProps)});u.renderStyles(e,s,n,o)}}return true&&Pe(a),react__WEBPACK_IMPORTED_MODULE_1___default().memo(l)}function We(e){ true&&"undefined"!=typeof navigator&&"ReactNative"===navigator.product&&console.warn("`keyframes` cannot be used on ReactNative, only on the web. To do animation in ReactNative please use Animated.");for(var t=arguments.length,n=new Array(t>1?t-1:0),r=1;r<t;r++)n[r-1]=arguments[r];var o=Ae.apply(void 0,[e].concat(n)).join(""),s=Te(o);return new ye(s,o)}var Ue=/^\s*<\/[a-z]/i,Je=function(){function e(){var e=this;this._emitSheetCSS=function(){var t=e.instance.toString();if(!t)return"";var n=Y();return"<style "+[n&&'nonce="'+n+'"',N+'="true"','data-styled-version="5.3.3"'].filter(Boolean).join(" ")+">"+t+"</style>"},this.getStyleTags=function(){return e.sealed?D(2):e._emitSheetCSS()},this.getStyleElement=function(){var t;if(e.sealed)return D(2);var n=((t={})[N]="",t["data-styled-version"]="5.3.3",t.dangerouslySetInnerHTML={__html:e.instance.toString()},t),o=Y();return o&&(n.nonce=o),[react__WEBPACK_IMPORTED_MODULE_1___default().createElement("style",y({},n,{key:"sc-0-0"}))]},this.seal=function(){e.sealed=!0},this.instance=new X({isServer:!0}),this.sealed=!1}var t=e.prototype;return t.collectStyles=function(e){return this.sealed?D(2):react__WEBPACK_IMPORTED_MODULE_1___default().createElement(me,{sheet:this.instance},e)},t.interleaveWithNodeStream=function(e){if(C)return D(3);if(this.sealed)return D(2);this.seal();var t=__webpack_require__(/*! stream */ "stream"),n=(t.Readable,t.Transform),r=e,o=this.instance,s=this._emitSheetCSS,i=new n({transform:function(e,t,n){var r=e.toString(),i=s();if(o.clearTag(),Ue.test(r)){var a=r.indexOf(">")+1,c=r.slice(0,a),u=r.slice(a);this.push(c+i+u)}else this.push(i+r);n()}});return r.on("error",(function(e){i.emit("error",e)})),r.pipe(i)},e}(),Xe=function(e){var t=react__WEBPACK_IMPORTED_MODULE_1___default().forwardRef((function(t,n){var o=(0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(Me),i=e.defaultProps,a=Oe(t,o,i);return true&&void 0===a&&console.warn('[withTheme] You are not using a ThemeProvider nor passing a theme prop or a theme in defaultProps in component class "'+b(e)+'"'),react__WEBPACK_IMPORTED_MODULE_1___default().createElement(e,y({},t,{theme:a,ref:n}))}));return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_6___default()(t,e),t.displayName="WithTheme("+b(e)+")",t},Ze=function(){return (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(Me)},Ke={StyleSheet:X,masterSheet:de}; true&&"undefined"!=typeof navigator&&"ReactNative"===navigator.product&&console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), true&&"undefined"!=typeof window&&(window["__styled-components-init__"]=window["__styled-components-init__"]||0,1===window["__styled-components-init__"]&&console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."),window["__styled-components-init__"]+=1);/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (qe);
+function y(){return(y=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e}).apply(this,arguments)}var v=function(e,t){for(var n=[e[0]],r=0,o=t.length;r<o;r+=1)n.push(t[r],e[r+1]);return n},g=function(t){return null!==t&&"object"==typeof t&&"[object Object]"===(t.toString?t.toString():Object.prototype.toString.call(t))&&!(0,react_is__WEBPACK_IMPORTED_MODULE_0__.typeOf)(t)},S=Object.freeze([]),w=Object.freeze({});function E(e){return"function"==typeof e}function b(e){return true&&"string"==typeof e&&e||e.displayName||e.name||"Component"}function _(e){return e&&"string"==typeof e.styledComponentId}var N="undefined"!=typeof process&&(({}).REACT_APP_SC_ATTR||({}).SC_ATTR)||"data-styled",A="5.3.5",C="undefined"!=typeof window&&"HTMLElement"in window,I=Boolean("boolean"==typeof SC_DISABLE_SPEEDY?SC_DISABLE_SPEEDY:"undefined"!=typeof process&&void 0!==({}).REACT_APP_SC_DISABLE_SPEEDY&&""!==({}).REACT_APP_SC_DISABLE_SPEEDY?"false"!==({}).REACT_APP_SC_DISABLE_SPEEDY&&({}).REACT_APP_SC_DISABLE_SPEEDY:"undefined"!=typeof process&&void 0!==({}).SC_DISABLE_SPEEDY&&""!==({}).SC_DISABLE_SPEEDY?"false"!==({}).SC_DISABLE_SPEEDY&&({}).SC_DISABLE_SPEEDY:"production"!=="development"),P={},O= true?{1:"Cannot create styled-component for component: %s.\n\n",2:"Can't collect styles once you've consumed a `ServerStyleSheet`'s styles! `ServerStyleSheet` is a one off instance for each server-side render cycle.\n\n- Are you trying to reuse it across renders?\n- Are you accidentally calling collectStyles twice?\n\n",3:"Streaming SSR is only supported in a Node.js environment; Please do not try to call this method in the browser.\n\n",4:"The `StyleSheetManager` expects a valid target or sheet prop!\n\n- Does this error occur on the client and is your target falsy?\n- Does this error occur on the server and is the sheet falsy?\n\n",5:"The clone method cannot be used on the client!\n\n- Are you running in a client-like environment on the server?\n- Are you trying to run SSR on the client?\n\n",6:"Trying to insert a new style tag, but the given Node is unmounted!\n\n- Are you using a custom target that isn't mounted?\n- Does your document not have a valid head element?\n- Have you accidentally removed a style tag manually?\n\n",7:'ThemeProvider: Please return an object from your "theme" prop function, e.g.\n\n```js\ntheme={() => ({})}\n```\n\n',8:'ThemeProvider: Please make your "theme" prop an object.\n\n',9:"Missing document `<head>`\n\n",10:"Cannot find a StyleSheet instance. Usually this happens if there are multiple copies of styled-components loaded at once. Check out this issue for how to troubleshoot and fix the common cases where this situation can happen: https://github.com/styled-components/styled-components/issues/1941#issuecomment-417862021\n\n",11:"_This error was replaced with a dev-time warning, it will be deleted for v4 final._ [createGlobalStyle] received children which will not be rendered. Please use the component without passing children elements.\n\n",12:"It seems you are interpolating a keyframe declaration (%s) into an untagged string. This was supported in styled-components v3, but is not longer supported in v4 as keyframes are now injected on-demand. Please wrap your string in the css\\`\\` helper which ensures the styles are injected correctly. See https://www.styled-components.com/docs/api#css\n\n",13:"%s is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details.\n\n",14:'ThemeProvider: "theme" prop is required.\n\n',15:"A stylis plugin has been supplied that is not named. We need a name for each plugin to be able to prevent styling collisions between different stylis configurations within the same app. Before you pass your plugin to `<StyleSheetManager stylisPlugins={[]}>`, please make sure each plugin is uniquely-named, e.g.\n\n```js\nObject.defineProperty(importedPlugin, 'name', { value: 'some-unique-name' });\n```\n\n",16:"Reached the limit of how many styled components may be created at group %s.\nYou may only create up to 1,073,741,824 components. If you're creating components dynamically,\nas for instance in your render method then you may be running into this limitation.\n\n",17:"CSSStyleSheet could not be found on HTMLStyleElement.\nHas styled-components' style tag been unmounted or altered by another script?\n"}:0;function R(){for(var e=arguments.length<=0?void 0:arguments[0],t=[],n=1,r=arguments.length;n<r;n+=1)t.push(n<0||arguments.length<=n?void 0:arguments[n]);return t.forEach((function(t){e=e.replace(/%[a-z]/,t)})),e}function D(e){for(var t=arguments.length,n=new Array(t>1?t-1:0),r=1;r<t;r++)n[r-1]=arguments[r];throw false?0:new Error(R.apply(void 0,[O[e]].concat(n)).trim())}var j=function(){function e(e){this.groupSizes=new Uint32Array(512),this.length=512,this.tag=e}var t=e.prototype;return t.indexOfGroup=function(e){for(var t=0,n=0;n<e;n++)t+=this.groupSizes[n];return t},t.insertRules=function(e,t){if(e>=this.groupSizes.length){for(var n=this.groupSizes,r=n.length,o=r;e>=o;)(o<<=1)<0&&D(16,""+e);this.groupSizes=new Uint32Array(o),this.groupSizes.set(n),this.length=o;for(var s=r;s<o;s++)this.groupSizes[s]=0}for(var i=this.indexOfGroup(e+1),a=0,c=t.length;a<c;a++)this.tag.insertRule(i,t[a])&&(this.groupSizes[e]++,i++)},t.clearGroup=function(e){if(e<this.length){var t=this.groupSizes[e],n=this.indexOfGroup(e),r=n+t;this.groupSizes[e]=0;for(var o=n;o<r;o++)this.tag.deleteRule(n)}},t.getGroup=function(e){var t="";if(e>=this.length||0===this.groupSizes[e])return t;for(var n=this.groupSizes[e],r=this.indexOfGroup(e),o=r+n,s=r;s<o;s++)t+=this.tag.getRule(s)+"/*!sc*/\n";return t},e}(),T=new Map,x=new Map,k=1,V=function(e){if(T.has(e))return T.get(e);for(;x.has(k);)k++;var t=k++;return true&&((0|t)<0||t>1<<30)&&D(16,""+t),T.set(e,t),x.set(t,e),t},z=function(e){return x.get(e)},B=function(e,t){t>=k&&(k=t+1),T.set(e,t),x.set(t,e)},M="style["+N+'][data-styled-version="5.3.5"]',G=new RegExp("^"+N+'\\.g(\\d+)\\[id="([\\w\\d-]+)"\\].*?"([^"]*)'),L=function(e,t,n){for(var r,o=n.split(","),s=0,i=o.length;s<i;s++)(r=o[s])&&e.registerName(t,r)},F=function(e,t){for(var n=(t.textContent||"").split("/*!sc*/\n"),r=[],o=0,s=n.length;o<s;o++){var i=n[o].trim();if(i){var a=i.match(G);if(a){var c=0|parseInt(a[1],10),u=a[2];0!==c&&(B(u,c),L(e,u,a[3]),e.getTag().insertRules(c,r)),r.length=0}else r.push(i)}}},Y=function(){return"undefined"!=typeof window&&void 0!==window.__webpack_nonce__?window.__webpack_nonce__:null},q=function(e){var t=document.head,n=e||t,r=document.createElement("style"),o=function(e){for(var t=e.childNodes,n=t.length;n>=0;n--){var r=t[n];if(r&&1===r.nodeType&&r.hasAttribute(N))return r}}(n),s=void 0!==o?o.nextSibling:null;r.setAttribute(N,"active"),r.setAttribute("data-styled-version","5.3.5");var i=Y();return i&&r.setAttribute("nonce",i),n.insertBefore(r,s),r},H=function(){function e(e){var t=this.element=q(e);t.appendChild(document.createTextNode("")),this.sheet=function(e){if(e.sheet)return e.sheet;for(var t=document.styleSheets,n=0,r=t.length;n<r;n++){var o=t[n];if(o.ownerNode===e)return o}D(17)}(t),this.length=0}var t=e.prototype;return t.insertRule=function(e,t){try{return this.sheet.insertRule(t,e),this.length++,!0}catch(e){return!1}},t.deleteRule=function(e){this.sheet.deleteRule(e),this.length--},t.getRule=function(e){var t=this.sheet.cssRules[e];return void 0!==t&&"string"==typeof t.cssText?t.cssText:""},e}(),$=function(){function e(e){var t=this.element=q(e);this.nodes=t.childNodes,this.length=0}var t=e.prototype;return t.insertRule=function(e,t){if(e<=this.length&&e>=0){var n=document.createTextNode(t),r=this.nodes[e];return this.element.insertBefore(n,r||null),this.length++,!0}return!1},t.deleteRule=function(e){this.element.removeChild(this.nodes[e]),this.length--},t.getRule=function(e){return e<this.length?this.nodes[e].textContent:""},e}(),W=function(){function e(e){this.rules=[],this.length=0}var t=e.prototype;return t.insertRule=function(e,t){return e<=this.length&&(this.rules.splice(e,0,t),this.length++,!0)},t.deleteRule=function(e){this.rules.splice(e,1),this.length--},t.getRule=function(e){return e<this.length?this.rules[e]:""},e}(),U=C,J={isServer:!C,useCSSOMInjection:!I},X=function(){function e(e,t,n){void 0===e&&(e=w),void 0===t&&(t={}),this.options=y({},J,{},e),this.gs=t,this.names=new Map(n),this.server=!!e.isServer,!this.server&&C&&U&&(U=!1,function(e){for(var t=document.querySelectorAll(M),n=0,r=t.length;n<r;n++){var o=t[n];o&&"active"!==o.getAttribute(N)&&(F(e,o),o.parentNode&&o.parentNode.removeChild(o))}}(this))}e.registerId=function(e){return V(e)};var t=e.prototype;return t.reconstructWithOptions=function(t,n){return void 0===n&&(n=!0),new e(y({},this.options,{},t),this.gs,n&&this.names||void 0)},t.allocateGSInstance=function(e){return this.gs[e]=(this.gs[e]||0)+1},t.getTag=function(){return this.tag||(this.tag=(n=(t=this.options).isServer,r=t.useCSSOMInjection,o=t.target,e=n?new W(o):r?new H(o):new $(o),new j(e)));var e,t,n,r,o},t.hasNameForId=function(e,t){return this.names.has(e)&&this.names.get(e).has(t)},t.registerName=function(e,t){if(V(e),this.names.has(e))this.names.get(e).add(t);else{var n=new Set;n.add(t),this.names.set(e,n)}},t.insertRules=function(e,t,n){this.registerName(e,t),this.getTag().insertRules(V(e),n)},t.clearNames=function(e){this.names.has(e)&&this.names.get(e).clear()},t.clearRules=function(e){this.getTag().clearGroup(V(e)),this.clearNames(e)},t.clearTag=function(){this.tag=void 0},t.toString=function(){return function(e){for(var t=e.getTag(),n=t.length,r="",o=0;o<n;o++){var s=z(o);if(void 0!==s){var i=e.names.get(s),a=t.getGroup(o);if(i&&a&&i.size){var c=N+".g"+o+'[id="'+s+'"]',u="";void 0!==i&&i.forEach((function(e){e.length>0&&(u+=e+",")})),r+=""+a+c+'{content:"'+u+'"}/*!sc*/\n'}}}return r}(this)},e}(),Z=/(a)(d)/gi,K=function(e){return String.fromCharCode(e+(e>25?39:97))};function Q(e){var t,n="";for(t=Math.abs(e);t>52;t=t/52|0)n=K(t%52)+n;return(K(t%52)+n).replace(Z,"$1-$2")}var ee=function(e,t){for(var n=t.length;n;)e=33*e^t.charCodeAt(--n);return e},te=function(e){return ee(5381,e)};function ne(e){for(var t=0;t<e.length;t+=1){var n=e[t];if(E(n)&&!_(n))return!1}return!0}var re=te("5.3.5"),oe=function(){function e(e,t,n){this.rules=e,this.staticRulesId="",this.isStatic= false&&0,this.componentId=t,this.baseHash=ee(re,t),this.baseStyle=n,X.registerId(t)}return e.prototype.generateAndInjectStyles=function(e,t,n){var r=this.componentId,o=[];if(this.baseStyle&&o.push(this.baseStyle.generateAndInjectStyles(e,t,n)),this.isStatic&&!n.hash)if(this.staticRulesId&&t.hasNameForId(r,this.staticRulesId))o.push(this.staticRulesId);else{var s=_e(this.rules,e,t,n).join(""),i=Q(ee(this.baseHash,s)>>>0);if(!t.hasNameForId(r,i)){var a=n(s,"."+i,void 0,r);t.insertRules(r,i,a)}o.push(i),this.staticRulesId=i}else{for(var c=this.rules.length,u=ee(this.baseHash,n.hash),l="",d=0;d<c;d++){var h=this.rules[d];if("string"==typeof h)l+=h, true&&(u=ee(u,h+d));else if(h){var p=_e(h,e,t,n),f=Array.isArray(p)?p.join(""):p;u=ee(u,f+d),l+=f}}if(l){var m=Q(u>>>0);if(!t.hasNameForId(r,m)){var y=n(l,"."+m,void 0,r);t.insertRules(r,m,y)}o.push(m)}}return o.join(" ")},e}(),se=/^\s*\/\/.*$/gm,ie=[":","[",".","#"];function ae(e){var t,n,r,o,s=void 0===e?w:e,i=s.options,a=void 0===i?w:i,c=s.plugins,u=void 0===c?S:c,l=new _emotion_stylis__WEBPACK_IMPORTED_MODULE_3__["default"](a),d=[],p=function(e){function t(t){if(t)try{e(t+"}")}catch(e){}}return function(n,r,o,s,i,a,c,u,l,d){switch(n){case 1:if(0===l&&64===r.charCodeAt(0))return e(r+";"),"";break;case 2:if(0===u)return r+"/*|*/";break;case 3:switch(u){case 102:case 112:return e(o[0]+r),"";default:return r+(0===d?"/*|*/":"")}case-2:r.split("/*|*/}").forEach(t)}}}((function(e){d.push(e)})),f=function(e,r,s){return 0===r&&-1!==ie.indexOf(s[n.length])||s.match(o)?e:"."+t};function m(e,s,i,a){void 0===a&&(a="&");var c=e.replace(se,""),u=s&&i?i+" "+s+" { "+c+" }":c;return t=a,n=s,r=new RegExp("\\"+n+"\\b","g"),o=new RegExp("(\\"+n+"\\b){2,}"),l(i||!s?"":s,u)}return l.use([].concat(u,[function(e,t,o){2===e&&o.length&&o[0].lastIndexOf(n)>0&&(o[0]=o[0].replace(r,f))},p,function(e){if(-2===e){var t=d;return d=[],t}}])),m.hash=u.length?u.reduce((function(e,t){return t.name||D(15),ee(e,t.name)}),5381).toString():"",m}var ce=react__WEBPACK_IMPORTED_MODULE_1___default().createContext(),ue=ce.Consumer,le=react__WEBPACK_IMPORTED_MODULE_1___default().createContext(),de=(le.Consumer,new X),he=ae();function pe(){return (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(ce)||de}function fe(){return (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(le)||he}function me(e){var t=(0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(e.stylisPlugins),n=t[0],s=t[1],c=pe(),u=(0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)((function(){var t=c;return e.sheet?t=e.sheet:e.target&&(t=t.reconstructWithOptions({target:e.target},!1)),e.disableCSSOMInjection&&(t=t.reconstructWithOptions({useCSSOMInjection:!1})),t}),[e.disableCSSOMInjection,e.sheet,e.target]),l=(0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)((function(){return ae({options:{prefix:!e.disableVendorPrefixes},plugins:n})}),[e.disableVendorPrefixes,n]);return (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)((function(){shallowequal__WEBPACK_IMPORTED_MODULE_2___default()(n,e.stylisPlugins)||s(e.stylisPlugins)}),[e.stylisPlugins]),react__WEBPACK_IMPORTED_MODULE_1___default().createElement(ce.Provider,{value:u},react__WEBPACK_IMPORTED_MODULE_1___default().createElement(le.Provider,{value:l}, true?react__WEBPACK_IMPORTED_MODULE_1___default().Children.only(e.children):0))}var ye=function(){function e(e,t){var n=this;this.inject=function(e,t){void 0===t&&(t=he);var r=n.name+t.hash;e.hasNameForId(n.id,r)||e.insertRules(n.id,r,t(n.rules,r,"@keyframes"))},this.toString=function(){return D(12,String(n.name))},this.name=e,this.id="sc-keyframes-"+e,this.rules=t}return e.prototype.getName=function(e){return void 0===e&&(e=he),this.name+e.hash},e}(),ve=/([A-Z])/,ge=/([A-Z])/g,Se=/^ms-/,we=function(e){return"-"+e.toLowerCase()};function Ee(e){return ve.test(e)?e.replace(ge,we).replace(Se,"-ms-"):e}var be=function(e){return null==e||!1===e||""===e};function _e(e,n,r,o){if(Array.isArray(e)){for(var s,i=[],a=0,c=e.length;a<c;a+=1)""!==(s=_e(e[a],n,r,o))&&(Array.isArray(s)?i.push.apply(i,s):i.push(s));return i}if(be(e))return"";if(_(e))return"."+e.styledComponentId;if(E(e)){if("function"!=typeof(l=e)||l.prototype&&l.prototype.isReactComponent||!n)return e;var u=e(n);return true&&(0,react_is__WEBPACK_IMPORTED_MODULE_0__.isElement)(u)&&console.warn(b(e)+" is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details."),_e(u,n,r,o)}var l;return e instanceof ye?r?(e.inject(r,o),e.getName(o)):e:g(e)?function e(t,n){var r,o,s=[];for(var i in t)t.hasOwnProperty(i)&&!be(t[i])&&(Array.isArray(t[i])&&t[i].isCss||E(t[i])?s.push(Ee(i)+":",t[i],";"):g(t[i])?s.push.apply(s,e(t[i],i)):s.push(Ee(i)+": "+(r=i,null==(o=t[i])||"boolean"==typeof o||""===o?"":"number"!=typeof o||0===o||r in _emotion_unitless__WEBPACK_IMPORTED_MODULE_4__["default"]?String(o).trim():o+"px")+";"));return n?[n+" {"].concat(s,["}"]):s}(e):e.toString()}var Ne=function(e){return Array.isArray(e)&&(e.isCss=!0),e};function Ae(e){for(var t=arguments.length,n=new Array(t>1?t-1:0),r=1;r<t;r++)n[r-1]=arguments[r];return E(e)||g(e)?Ne(_e(v(S,[e].concat(n)))):0===n.length&&1===e.length&&"string"==typeof e[0]?e:Ne(_e(v(e,n)))}var Ce=/invalid hook call/i,Ie=new Set,Pe=function(e,t){if(true){var n="The component "+e+(t?' with the id of "'+t+'"':"")+" has been created dynamically.\nYou may see this warning because you've called styled inside another component.\nTo resolve this only create new StyledComponents outside of any render method and function component.",r=console.error;try{var o=!0;console.error=function(e){if(Ce.test(e))o=!1,Ie.delete(n);else{for(var t=arguments.length,s=new Array(t>1?t-1:0),i=1;i<t;i++)s[i-1]=arguments[i];r.apply(void 0,[e].concat(s))}},(0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(),o&&!Ie.has(n)&&(console.warn(n),Ie.add(n))}catch(e){Ce.test(e.message)&&Ie.delete(n)}finally{console.error=r}}},Oe=function(e,t,n){return void 0===n&&(n=w),e.theme!==n.theme&&e.theme||t||n.theme},Re=/[!"#$%&'()*+,./:;<=>?@[\\\]^`{|}~-]+/g,De=/(^-|-$)/g;function je(e){return e.replace(Re,"-").replace(De,"")}var Te=function(e){return Q(te(e)>>>0)};function xe(e){return"string"==typeof e&&( false||e.charAt(0)===e.charAt(0).toLowerCase())}var ke=function(e){return"function"==typeof e||"object"==typeof e&&null!==e&&!Array.isArray(e)},Ve=function(e){return"__proto__"!==e&&"constructor"!==e&&"prototype"!==e};function ze(e,t,n){var r=e[n];ke(t)&&ke(r)?Be(r,t):e[n]=t}function Be(e){for(var t=arguments.length,n=new Array(t>1?t-1:0),r=1;r<t;r++)n[r-1]=arguments[r];for(var o=0,s=n;o<s.length;o++){var i=s[o];if(ke(i))for(var a in i)Ve(a)&&ze(e,i[a],a)}return e}var Me=react__WEBPACK_IMPORTED_MODULE_1___default().createContext(),Ge=Me.Consumer;function Le(e){var t=(0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(Me),n=(0,react__WEBPACK_IMPORTED_MODULE_1__.useMemo)((function(){return function(e,t){if(!e)return D(14);if(E(e)){var n=e(t);return false||null!==n&&!Array.isArray(n)&&"object"==typeof n?n:D(7)}return Array.isArray(e)||"object"!=typeof e?D(8):t?y({},t,{},e):e}(e.theme,t)}),[e.theme,t]);return e.children?react__WEBPACK_IMPORTED_MODULE_1___default().createElement(Me.Provider,{value:n},e.children):null}var Fe={};function Ye(e,t,n){var o=_(e),i=!xe(e),a=t.attrs,c=void 0===a?S:a,d=t.componentId,h=void 0===d?function(e,t){var n="string"!=typeof e?"sc":je(e);Fe[n]=(Fe[n]||0)+1;var r=n+"-"+Te("5.3.5"+n+Fe[n]);return t?t+"-"+r:r}(t.displayName,t.parentComponentId):d,p=t.displayName,v=void 0===p?function(e){return xe(e)?"styled."+e:"Styled("+b(e)+")"}(e):p,g=t.displayName&&t.componentId?je(t.displayName)+"-"+t.componentId:t.componentId||h,N=o&&e.attrs?Array.prototype.concat(e.attrs,c).filter(Boolean):c,A=t.shouldForwardProp;o&&e.shouldForwardProp&&(A=t.shouldForwardProp?function(n,r,o){return e.shouldForwardProp(n,r,o)&&t.shouldForwardProp(n,r,o)}:e.shouldForwardProp);var C,I=new oe(n,g,o?e.componentStyle:void 0),P=I.isStatic&&0===c.length,O=function(e,t){return function(e,t,n,r){var o=e.attrs,i=e.componentStyle,a=e.defaultProps,c=e.foldedComponentIds,d=e.shouldForwardProp,h=e.styledComponentId,p=e.target; true&&(0,react__WEBPACK_IMPORTED_MODULE_1__.useDebugValue)(h);var m=function(e,t,n){void 0===e&&(e=w);var r=y({},t,{theme:e}),o={};return n.forEach((function(e){var t,n,s,i=e;for(t in E(i)&&(i=i(r)),i)r[t]=o[t]="className"===t?(n=o[t],s=i[t],n&&s?n+" "+s:n||s):i[t]})),[r,o]}(Oe(t,(0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(Me),a)||w,t,o),v=m[0],g=m[1],S=function(e,t,n,r){var o=pe(),s=fe(),i=t?e.generateAndInjectStyles(w,o,s):e.generateAndInjectStyles(n,o,s);return true&&(0,react__WEBPACK_IMPORTED_MODULE_1__.useDebugValue)(i), true&&!t&&r&&r(i),i}(i,r,v, true?e.warnTooManyClasses:0),b=n,_=g.$as||t.$as||g.as||t.as||p,N=xe(_),A=g!==t?y({},t,{},g):t,C={};for(var I in A)"$"!==I[0]&&"as"!==I&&("forwardedAs"===I?C.as=A[I]:(d?d(I,_emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_5__["default"],_):!N||(0,_emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_5__["default"])(I))&&(C[I]=A[I]));return t.style&&g.style!==t.style&&(C.style=y({},t.style,{},g.style)),C.className=Array.prototype.concat(c,h,S!==h?S:null,t.className,g.className).filter(Boolean).join(" "),C.ref=b,(0,react__WEBPACK_IMPORTED_MODULE_1__.createElement)(_,C)}(C,e,t,P)};return O.displayName=v,(C=react__WEBPACK_IMPORTED_MODULE_1___default().forwardRef(O)).attrs=N,C.componentStyle=I,C.displayName=v,C.shouldForwardProp=A,C.foldedComponentIds=o?Array.prototype.concat(e.foldedComponentIds,e.styledComponentId):S,C.styledComponentId=g,C.target=o?e.target:e,C.withComponent=function(e){var r=t.componentId,o=function(e,t){if(null==e)return{};var n,r,o={},s=Object.keys(e);for(r=0;r<s.length;r++)n=s[r],t.indexOf(n)>=0||(o[n]=e[n]);return o}(t,["componentId"]),s=r&&r+"-"+(xe(e)?e:je(b(e)));return Ye(e,y({},o,{attrs:N,componentId:s}),n)},Object.defineProperty(C,"defaultProps",{get:function(){return this._foldedDefaultProps},set:function(t){this._foldedDefaultProps=o?Be({},e.defaultProps,t):t}}), true&&(Pe(v,g),C.warnTooManyClasses=function(e,t){var n={},r=!1;return function(o){if(!r&&(n[o]=!0,Object.keys(n).length>=200)){var s=t?' with the id of "'+t+'"':"";console.warn("Over 200 classes were generated for component "+e+s+".\nConsider using the attrs method, together with a style object for frequently changed styles.\nExample:\n  const Component = styled.div.attrs(props => ({\n    style: {\n      background: props.background,\n    },\n  }))`width: 100%;`\n\n  <Component />"),r=!0,n={}}}}(v,g)),C.toString=function(){return"."+C.styledComponentId},i&&hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_6___default()(C,e,{attrs:!0,componentStyle:!0,displayName:!0,foldedComponentIds:!0,shouldForwardProp:!0,styledComponentId:!0,target:!0,withComponent:!0}),C}var qe=function(e){return function e(t,r,o){if(void 0===o&&(o=w),!(0,react_is__WEBPACK_IMPORTED_MODULE_0__.isValidElementType)(r))return D(1,String(r));var s=function(){return t(r,o,Ae.apply(void 0,arguments))};return s.withConfig=function(n){return e(t,r,y({},o,{},n))},s.attrs=function(n){return e(t,r,y({},o,{attrs:Array.prototype.concat(o.attrs,n).filter(Boolean)}))},s}(Ye,e)};["a","abbr","address","area","article","aside","audio","b","base","bdi","bdo","big","blockquote","body","br","button","canvas","caption","cite","code","col","colgroup","data","datalist","dd","del","details","dfn","dialog","div","dl","dt","em","embed","fieldset","figcaption","figure","footer","form","h1","h2","h3","h4","h5","h6","head","header","hgroup","hr","html","i","iframe","img","input","ins","kbd","keygen","label","legend","li","link","main","map","mark","marquee","menu","menuitem","meta","meter","nav","noscript","object","ol","optgroup","option","output","p","param","picture","pre","progress","q","rp","rt","ruby","s","samp","script","section","select","small","source","span","strong","style","sub","summary","sup","table","tbody","td","textarea","tfoot","th","thead","time","title","tr","track","u","ul","var","video","wbr","circle","clipPath","defs","ellipse","foreignObject","g","image","line","linearGradient","marker","mask","path","pattern","polygon","polyline","radialGradient","rect","stop","svg","text","textPath","tspan"].forEach((function(e){qe[e]=qe(e)}));var He=function(){function e(e,t){this.rules=e,this.componentId=t,this.isStatic=ne(e),X.registerId(this.componentId+1)}var t=e.prototype;return t.createStyles=function(e,t,n,r){var o=r(_e(this.rules,t,n,r).join(""),""),s=this.componentId+e;n.insertRules(s,s,o)},t.removeStyles=function(e,t){t.clearRules(this.componentId+e)},t.renderStyles=function(e,t,n,r){e>2&&X.registerId(this.componentId+e),this.removeStyles(e,n),this.createStyles(e,t,n,r)},e}();function $e(e){for(var t=arguments.length,n=new Array(t>1?t-1:0),o=1;o<t;o++)n[o-1]=arguments[o];var i=Ae.apply(void 0,[e].concat(n)),a="sc-global-"+Te(JSON.stringify(i)),u=new He(i,a);function l(e){var t=pe(),n=fe(),o=(0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(Me),u=(0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(t.allocateGSInstance(a)).current;return true&&react__WEBPACK_IMPORTED_MODULE_1___default().Children.count(e.children)&&console.warn("The global style component "+a+" was given child JSX. createGlobalStyle does not render children."), true&&i.some((function(e){return"string"==typeof e&&-1!==e.indexOf("@import")}))&&console.warn("Please do not use @import CSS syntax in createGlobalStyle at this time, as the CSSOM APIs we use in production do not handle it well. Instead, we recommend using a library such as react-helmet to inject a typical <link> meta tag to the stylesheet, or simply embedding it manually in your index.html <head> section for a simpler app."),t.server&&d(u,e,t,o,n),null}function d(e,t,n,r,o){if(u.isStatic)u.renderStyles(e,P,n,o);else{var s=y({},t,{theme:Oe(t,r,l.defaultProps)});u.renderStyles(e,s,n,o)}}return true&&Pe(a),react__WEBPACK_IMPORTED_MODULE_1___default().memo(l)}function We(e){ true&&"undefined"!=typeof navigator&&"ReactNative"===navigator.product&&console.warn("`keyframes` cannot be used on ReactNative, only on the web. To do animation in ReactNative please use Animated.");for(var t=arguments.length,n=new Array(t>1?t-1:0),r=1;r<t;r++)n[r-1]=arguments[r];var o=Ae.apply(void 0,[e].concat(n)).join(""),s=Te(o);return new ye(s,o)}var Ue=/^\s*<\/[a-z]/i,Je=function(){function e(){var e=this;this._emitSheetCSS=function(){var t=e.instance.toString();if(!t)return"";var n=Y();return"<style "+[n&&'nonce="'+n+'"',N+'="true"','data-styled-version="5.3.5"'].filter(Boolean).join(" ")+">"+t+"</style>"},this.getStyleTags=function(){return e.sealed?D(2):e._emitSheetCSS()},this.getStyleElement=function(){var t;if(e.sealed)return D(2);var n=((t={})[N]="",t["data-styled-version"]="5.3.5",t.dangerouslySetInnerHTML={__html:e.instance.toString()},t),o=Y();return o&&(n.nonce=o),[react__WEBPACK_IMPORTED_MODULE_1___default().createElement("style",y({},n,{key:"sc-0-0"}))]},this.seal=function(){e.sealed=!0},this.instance=new X({isServer:!0}),this.sealed=!1}var t=e.prototype;return t.collectStyles=function(e){return this.sealed?D(2):react__WEBPACK_IMPORTED_MODULE_1___default().createElement(me,{sheet:this.instance},e)},t.interleaveWithNodeStream=function(e){if(C)return D(3);if(this.sealed)return D(2);this.seal();var t=__webpack_require__(/*! stream */ "stream"),n=(t.Readable,t.Transform),r=e,o=this.instance,s=this._emitSheetCSS,i=new n({transform:function(e,t,n){var r=e.toString(),i=s();if(o.clearTag(),Ue.test(r)){var a=r.indexOf(">")+1,c=r.slice(0,a),u=r.slice(a);this.push(c+i+u)}else this.push(i+r);n()}});return r.on("error",(function(e){i.emit("error",e)})),r.pipe(i)},e}(),Xe=function(e){var t=react__WEBPACK_IMPORTED_MODULE_1___default().forwardRef((function(t,n){var o=(0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(Me),i=e.defaultProps,a=Oe(t,o,i);return true&&void 0===a&&console.warn('[withTheme] You are not using a ThemeProvider nor passing a theme prop or a theme in defaultProps in component class "'+b(e)+'"'),react__WEBPACK_IMPORTED_MODULE_1___default().createElement(e,y({},t,{theme:a,ref:n}))}));return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_6___default()(t,e),t.displayName="WithTheme("+b(e)+")",t},Ze=function(){return (0,react__WEBPACK_IMPORTED_MODULE_1__.useContext)(Me)},Ke={StyleSheet:X,masterSheet:de}; true&&"undefined"!=typeof navigator&&"ReactNative"===navigator.product&&console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), true&&"undefined"!=typeof window&&(window["__styled-components-init__"]=window["__styled-components-init__"]||0,1===window["__styled-components-init__"]&&console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."),window["__styled-components-init__"]+=1);/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (qe);
 //# sourceMappingURL=styled-components.esm.js.map
 
 

@@ -2,128 +2,6 @@ exports.id = "component---cache-dev-404-page-js";
 exports.ids = ["component---cache-dev-404-page-js"];
 exports.modules = {
 
-/***/ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
-  \**********************************************************************/
-/***/ ((module) => {
-
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return self;
-}
-
-module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/extends.js":
-/*!********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/extends.js ***!
-  \********************************************************/
-/***/ ((module) => {
-
-function _extends() {
-  module.exports = _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
-  return _extends.apply(this, arguments);
-}
-
-module.exports = _extends, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/inheritsLoose.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/inheritsLoose.js ***!
-  \**************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
-
-function _inheritsLoose(subClass, superClass) {
-  subClass.prototype = Object.create(superClass.prototype);
-  subClass.prototype.constructor = subClass;
-  setPrototypeOf(subClass, superClass);
-}
-
-module.exports = _inheritsLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
-  \**********************************************************************/
-/***/ ((module) => {
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
-
-module.exports = _interopRequireDefault, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js ***!
-  \*****************************************************************************/
-/***/ ((module) => {
-
-function _objectWithoutPropertiesLoose(source, excluded) {
-  if (source == null) return {};
-  var target = {};
-  var sourceKeys = Object.keys(source);
-  var key, i;
-
-  for (i = 0; i < sourceKeys.length; i++) {
-    key = sourceKeys[i];
-    if (excluded.indexOf(key) >= 0) continue;
-    target[key] = source[key];
-  }
-
-  return target;
-}
-
-module.exports = _objectWithoutPropertiesLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
-  \***************************************************************/
-/***/ ((module) => {
-
-function _setPrototypeOf(o, p) {
-  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-    o.__proto__ = p;
-    return o;
-  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
-  return _setPrototypeOf(o, p);
-}
-
-module.exports = _setPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
-
-/***/ }),
-
 /***/ "./node_modules/@gatsbyjs/reach-router/es/lib/history.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@gatsbyjs/reach-router/es/lib/history.js ***!
@@ -133,10 +11,10 @@ module.exports = _setPrototypeOf, module.exports.__esModule = true, module.expor
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "globalHistory": () => (/* binding */ globalHistory),
-/* harmony export */   "navigate": () => (/* binding */ navigate),
 /* harmony export */   "createHistory": () => (/* binding */ createHistory),
-/* harmony export */   "createMemorySource": () => (/* binding */ createMemorySource)
+/* harmony export */   "createMemorySource": () => (/* binding */ createMemorySource),
+/* harmony export */   "globalHistory": () => (/* binding */ globalHistory),
+/* harmony export */   "navigate": () => (/* binding */ navigate)
 /* harmony export */ });
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -333,13 +211,13 @@ var navigate = globalHistory.navigate;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "startsWith": () => (/* binding */ startsWith),
-/* harmony export */   "pick": () => (/* binding */ pick),
-/* harmony export */   "match": () => (/* binding */ match),
-/* harmony export */   "resolve": () => (/* binding */ resolve),
 /* harmony export */   "insertParams": () => (/* binding */ insertParams),
-/* harmony export */   "validateRedirect": () => (/* binding */ validateRedirect),
-/* harmony export */   "shallowCompare": () => (/* binding */ shallowCompare)
+/* harmony export */   "match": () => (/* binding */ match),
+/* harmony export */   "pick": () => (/* binding */ pick),
+/* harmony export */   "resolve": () => (/* binding */ resolve),
+/* harmony export */   "shallowCompare": () => (/* binding */ shallowCompare),
+/* harmony export */   "startsWith": () => (/* binding */ startsWith),
+/* harmony export */   "validateRedirect": () => (/* binding */ validateRedirect)
 /* harmony export */ });
 /* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! invariant */ "./node_modules/invariant/invariant.js");
 /* harmony import */ var invariant__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(invariant__WEBPACK_IMPORTED_MODULE_0__);
@@ -1074,84 +952,71 @@ module.exports = function (obj, predicate) {
 /*!*******************************************!*\
   !*** ./node_modules/gatsby-link/index.js ***!
   \*******************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "navigate": () => (/* binding */ navigate),
+/* harmony export */   "parsePath": () => (/* reexport safe */ _parse_path__WEBPACK_IMPORTED_MODULE_4__.parsePath),
+/* harmony export */   "withAssetPrefix": () => (/* binding */ withAssetPrefix),
+/* harmony export */   "withPrefix": () => (/* binding */ withPrefix)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_helpers_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js");
+/* harmony import */ var _babel_runtime_helpers_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _gatsbyjs_reach_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @gatsbyjs/reach-router */ "./node_modules/@gatsbyjs/reach-router/es/index.js");
+/* harmony import */ var _parse_path__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./parse-path */ "./node_modules/gatsby-link/parse-path.js");
+/* harmony import */ var _is_local_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./is-local-link */ "./node_modules/gatsby-link/is-local-link.js");
+/* harmony import */ var _rewrite_link_path__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./rewrite-link-path */ "./node_modules/gatsby-link/rewrite-link-path.js");
 
 
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+const _excluded = ["to", "getProps", "onClick", "onMouseEnter", "activeClassName", "activeStyle", "innerRef", "partiallyActive", "state", "replace", "_location"];
 
-exports.__esModule = true;
-exports.withPrefix = withPrefix;
-exports.withAssetPrefix = withAssetPrefix;
-exports.navigate = exports["default"] = void 0;
 
-var _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js"));
 
-var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js"));
 
-var _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js"));
 
-var _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "react"));
+function withPrefix(path, prefix = getGlobalBasePrefix()) {
+  var _ref;
 
-var _reachRouter = __webpack_require__(/*! @gatsbyjs/reach-router */ "./node_modules/@gatsbyjs/reach-router/es/index.js");
-
-var _parsePath = __webpack_require__(/*! ./parse-path */ "./node_modules/gatsby-link/parse-path.js");
-
-exports.parsePath = _parsePath.parsePath;
-
-var _isLocalLink = __webpack_require__(/*! ./is-local-link */ "./node_modules/gatsby-link/is-local-link.js");
-
-var _rewriteLinkPath = __webpack_require__(/*! ./rewrite-link-path */ "./node_modules/gatsby-link/rewrite-link-path.js");
-
-var _excluded = ["to", "getProps", "onClick", "onMouseEnter", "activeClassName", "activeStyle", "innerRef", "partiallyActive", "state", "replace", "_location"];
-
-function withPrefix(path, prefix) {
-  var _ref, _prefix;
-
-  if (prefix === void 0) {
-    prefix = getGlobalBasePrefix();
-  }
-
-  if (!(0, _isLocalLink.isLocalLink)(path)) {
+  if (!(0,_is_local_link__WEBPACK_IMPORTED_MODULE_5__.isLocalLink)(path)) {
     return path;
   }
 
-  if (path.startsWith("./") || path.startsWith("../")) {
+  if (path.startsWith(`./`) || path.startsWith(`../`)) {
     return path;
   }
 
-  var base = (_ref = (_prefix = prefix) !== null && _prefix !== void 0 ? _prefix : getGlobalPathPrefix()) !== null && _ref !== void 0 ? _ref : "/";
-  return "" + (base !== null && base !== void 0 && base.endsWith("/") ? base.slice(0, -1) : base) + (path.startsWith("/") ? path : "/" + path);
+  const base = (_ref = prefix !== null && prefix !== void 0 ? prefix : getGlobalPathPrefix()) !== null && _ref !== void 0 ? _ref : `/`;
+  return `${base !== null && base !== void 0 && base.endsWith(`/`) ? base.slice(0, -1) : base}${path.startsWith(`/`) ? path : `/${path}`}`;
 } // These global values are wrapped in typeof clauses to ensure the values exist.
 // This is especially problematic in unit testing of this component.
 
+const getGlobalPathPrefix = () =>  true ?  true ? "" : 0 : 0;
 
-var getGlobalPathPrefix = function getGlobalPathPrefix() {
-  return  true ?  true ? "" : 0 : 0;
-};
-
-var getGlobalBasePrefix = function getGlobalBasePrefix() {
-  return  true ?  true ? "" : 0 : 0;
-};
+const getGlobalBasePrefix = () =>  true ?  true ? "" : 0 : 0;
 
 function withAssetPrefix(path) {
   return withPrefix(path, getGlobalPathPrefix());
 }
-
-var NavLinkPropTypes = {
-  activeClassName: _propTypes.default.string,
-  activeStyle: _propTypes.default.object,
-  partiallyActive: _propTypes.default.bool
+const NavLinkPropTypes = {
+  activeClassName: (prop_types__WEBPACK_IMPORTED_MODULE_7___default().string),
+  activeStyle: (prop_types__WEBPACK_IMPORTED_MODULE_7___default().object),
+  partiallyActive: (prop_types__WEBPACK_IMPORTED_MODULE_7___default().bool)
 }; // Set up IntersectionObserver
 
-var createIntersectionObserver = function createIntersectionObserver(el, cb) {
-  var io = new window.IntersectionObserver(function (entries) {
-    entries.forEach(function (entry) {
+const createIntersectionObserver = (el, cb) => {
+  const io = new window.IntersectionObserver(entries => {
+    entries.forEach(entry => {
       if (el === entry.target) {
         // Check if element is within viewport, remove listener, destroy observer, and run link callback.
         // MSEdge doesn't currently support isIntersecting, so also test for  an intersectionRatio > 0
@@ -1163,67 +1028,59 @@ var createIntersectionObserver = function createIntersectionObserver(el, cb) {
   io.observe(el);
   return {
     instance: io,
-    el: el
+    el
   };
 };
 
 function GatsbyLinkLocationWrapper(props) {
-  return /*#__PURE__*/_react.default.createElement(_reachRouter.Location, null, function (_ref2) {
-    var location = _ref2.location;
-    return /*#__PURE__*/_react.default.createElement(GatsbyLink, (0, _extends2.default)({}, props, {
-      _location: location
-    }));
-  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(_gatsbyjs_reach_router__WEBPACK_IMPORTED_MODULE_3__.Location, null, ({
+    location
+  }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(GatsbyLink, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()({}, props, {
+    _location: location
+  })));
 }
 
-var GatsbyLink = /*#__PURE__*/function (_React$Component) {
-  (0, _inheritsLoose2.default)(GatsbyLink, _React$Component);
+class GatsbyLink extends (react__WEBPACK_IMPORTED_MODULE_2___default().Component) {
+  constructor(props) {
+    super(props); // Default to no support for IntersectionObserver
 
-  function GatsbyLink(props) {
-    var _this;
-
-    _this = _React$Component.call(this, props) || this; // Default to no support for IntersectionObserver
-
-    _this.defaultGetProps = function (_ref3) {
-      var isPartiallyCurrent = _ref3.isPartiallyCurrent,
-          isCurrent = _ref3.isCurrent;
-
-      if (_this.props.partiallyActive ? isPartiallyCurrent : isCurrent) {
+    this.defaultGetProps = ({
+      isPartiallyCurrent,
+      isCurrent
+    }) => {
+      if (this.props.partiallyActive ? isPartiallyCurrent : isCurrent) {
         return {
-          className: [_this.props.className, _this.props.activeClassName].filter(Boolean).join(" "),
-          style: (0, _extends2.default)({}, _this.props.style, _this.props.activeStyle)
+          className: [this.props.className, this.props.activeClassName].filter(Boolean).join(` `),
+          style: _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()({}, this.props.style, this.props.activeStyle)
         };
       }
 
       return null;
     };
 
-    var IOSupported = false;
+    let IOSupported = false;
 
-    if (typeof window !== "undefined" && window.IntersectionObserver) {
+    if (typeof window !== `undefined` && window.IntersectionObserver) {
       IOSupported = true;
     }
 
-    _this.state = {
-      IOSupported: IOSupported
+    this.state = {
+      IOSupported
     };
-    _this.abortPrefetch = null;
-    _this.handleRef = _this.handleRef.bind((0, _assertThisInitialized2.default)(_this));
-    return _this;
+    this.abortPrefetch = null;
+    this.handleRef = this.handleRef.bind(this);
   }
 
-  var _proto = GatsbyLink.prototype;
-
-  _proto._prefetch = function _prefetch() {
-    var currentPath = window.location.pathname + window.location.search; // reach router should have the correct state
+  _prefetch() {
+    let currentPath = window.location.pathname + window.location.search; // reach router should have the correct state
 
     if (this.props._location && this.props._location.pathname) {
       currentPath = this.props._location.pathname + this.props._location.search;
     }
 
-    var rewrittenPath = (0, _rewriteLinkPath.rewriteLinkPath)(this.props.to, currentPath);
-    var parsed = (0, _parsePath.parsePath)(rewrittenPath);
-    var newPathName = parsed.pathname + parsed.search; // Prefetch is used to speed up next navigations. When you use it on the current navigation,
+    const rewrittenPath = (0,_rewrite_link_path__WEBPACK_IMPORTED_MODULE_6__.rewriteLinkPath)(this.props.to, currentPath);
+    const parsed = (0,_parse_path__WEBPACK_IMPORTED_MODULE_4__.parsePath)(rewrittenPath);
+    const newPathName = parsed.pathname + parsed.search; // Prefetch is used to speed up next navigations. When you use it on the current navigation,
     // there could be a race-condition where Chrome uses the stale data instead of waiting for the network to complete
 
     if (currentPath !== newPathName) {
@@ -1231,16 +1088,17 @@ var GatsbyLink = /*#__PURE__*/function (_React$Component) {
     }
 
     return undefined;
-  };
+  }
 
-  _proto.componentWillUnmount = function componentWillUnmount() {
+  componentWillUnmount() {
     if (!this.io) {
       return;
     }
 
-    var _this$io = this.io,
-        instance = _this$io.instance,
-        el = _this$io.el;
+    const {
+      instance,
+      el
+    } = this.io;
 
     if (this.abortPrefetch) {
       this.abortPrefetch.abort();
@@ -1248,12 +1106,10 @@ var GatsbyLink = /*#__PURE__*/function (_React$Component) {
 
     instance.unobserve(el);
     instance.disconnect();
-  };
+  }
 
-  _proto.handleRef = function handleRef(ref) {
-    var _this2 = this;
-
-    if (this.props.innerRef && Object.prototype.hasOwnProperty.call(this.props.innerRef, "current")) {
+  handleRef(ref) {
+    if (this.props.innerRef && Object.prototype.hasOwnProperty.call(this.props.innerRef, `current`)) {
       this.props.innerRef.current = ref;
     } else if (this.props.innerRef) {
       this.props.innerRef(ref);
@@ -1261,85 +1117,80 @@ var GatsbyLink = /*#__PURE__*/function (_React$Component) {
 
     if (this.state.IOSupported && ref) {
       // If IO supported and element reference found, setup Observer functionality
-      this.io = createIntersectionObserver(ref, function (inViewPort) {
+      this.io = createIntersectionObserver(ref, inViewPort => {
         if (inViewPort) {
-          _this2.abortPrefetch = _this2._prefetch();
+          this.abortPrefetch = this._prefetch();
         } else {
-          if (_this2.abortPrefetch) {
-            _this2.abortPrefetch.abort();
+          if (this.abortPrefetch) {
+            this.abortPrefetch.abort();
           }
         }
       });
     }
-  };
+  }
 
-  _proto.render = function render() {
-    var _this3 = this;
+  render() {
+    const _this$props = this.props,
+          {
+      to,
+      getProps = this.defaultGetProps,
+      onClick,
+      onMouseEnter,
+      state,
+      replace,
+      _location
+    } = _this$props,
+          rest = _babel_runtime_helpers_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0___default()(_this$props, _excluded);
 
-    var _this$props = this.props,
-        to = _this$props.to,
-        _this$props$getProps = _this$props.getProps,
-        getProps = _this$props$getProps === void 0 ? this.defaultGetProps : _this$props$getProps,
-        _onClick = _this$props.onClick,
-        _onMouseEnter = _this$props.onMouseEnter,
-        $activeClassName = _this$props.activeClassName,
-        $activeStyle = _this$props.activeStyle,
-        $innerRef = _this$props.innerRef,
-        partiallyActive = _this$props.partiallyActive,
-        state = _this$props.state,
-        replace = _this$props.replace,
-        _location = _this$props._location,
-        rest = (0, _objectWithoutPropertiesLoose2.default)(_this$props, _excluded);
-
-    if ( true && !(0, _isLocalLink.isLocalLink)(to)) {
-      console.warn("External link " + to + " was detected in a Link component. Use the Link component only for internal links. See: https://gatsby.dev/internal-links");
+    if ( true && !(0,_is_local_link__WEBPACK_IMPORTED_MODULE_5__.isLocalLink)(to)) {
+      console.warn(`External link ${to} was detected in a Link component. Use the Link component only for internal links. See: https://gatsby.dev/internal-links`);
     }
 
-    var prefixedTo = (0, _rewriteLinkPath.rewriteLinkPath)(to, _location.pathname);
+    const prefixedTo = (0,_rewrite_link_path__WEBPACK_IMPORTED_MODULE_6__.rewriteLinkPath)(to, _location.pathname);
 
-    if (!(0, _isLocalLink.isLocalLink)(prefixedTo)) {
-      return /*#__PURE__*/_react.default.createElement("a", (0, _extends2.default)({
+    if (!(0,_is_local_link__WEBPACK_IMPORTED_MODULE_5__.isLocalLink)(prefixedTo)) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("a", _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()({
         href: prefixedTo
       }, rest));
     }
 
-    return /*#__PURE__*/_react.default.createElement(_reachRouter.Link, (0, _extends2.default)({
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(_gatsbyjs_reach_router__WEBPACK_IMPORTED_MODULE_3__.Link, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()({
       to: prefixedTo,
       state: state,
       getProps: getProps,
       innerRef: this.handleRef,
-      onMouseEnter: function onMouseEnter(e) {
-        if (_onMouseEnter) {
-          _onMouseEnter(e);
+      onMouseEnter: e => {
+        if (onMouseEnter) {
+          onMouseEnter(e);
         }
 
-        var parsed = (0, _parsePath.parsePath)(prefixedTo);
+        const parsed = (0,_parse_path__WEBPACK_IMPORTED_MODULE_4__.parsePath)(prefixedTo);
 
         ___loader.hovering(parsed.pathname + parsed.search);
       },
-      onClick: function onClick(e) {
-        if (_onClick) {
-          _onClick(e);
+      onClick: e => {
+        if (onClick) {
+          onClick(e);
         }
 
         if (e.button === 0 && // ignore right clicks
-        !_this3.props.target && // let browser handle "target=_blank"
+        !this.props.target && // let browser handle "target=_blank"
         !e.defaultPrevented && // onClick prevented default
         !e.metaKey && // ignore clicks with modifier keys...
         !e.altKey && !e.ctrlKey && !e.shiftKey) {
           e.preventDefault();
-          var shouldReplace = replace;
+          let shouldReplace = replace;
 
-          var isCurrent = encodeURI(prefixedTo) === _location.pathname;
+          const isCurrent = encodeURI(prefixedTo) === _location.pathname;
 
-          if (typeof replace !== "boolean" && isCurrent) {
+          if (typeof replace !== `boolean` && isCurrent) {
             shouldReplace = true;
           } // Make sure the necessary scripts and data are
           // loaded before continuing.
 
 
           window.___navigate(prefixedTo, {
-            state: state,
+            state,
             replace: shouldReplace
           });
         }
@@ -1347,31 +1198,22 @@ var GatsbyLink = /*#__PURE__*/function (_React$Component) {
         return true;
       }
     }, rest));
-  };
+  }
 
-  return GatsbyLink;
-}(_react.default.Component);
+}
 
-GatsbyLink.propTypes = (0, _extends2.default)({}, NavLinkPropTypes, {
-  onClick: _propTypes.default.func,
-  to: _propTypes.default.string.isRequired,
-  replace: _propTypes.default.bool,
-  state: _propTypes.default.object
+GatsbyLink.propTypes = _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()({}, NavLinkPropTypes, {
+  onClick: (prop_types__WEBPACK_IMPORTED_MODULE_7___default().func),
+  to: (prop_types__WEBPACK_IMPORTED_MODULE_7___default().string.isRequired),
+  replace: (prop_types__WEBPACK_IMPORTED_MODULE_7___default().bool),
+  state: (prop_types__WEBPACK_IMPORTED_MODULE_7___default().object)
 });
-
-var _default = /*#__PURE__*/_react.default.forwardRef(function (props, ref) {
-  return /*#__PURE__*/_react.default.createElement(GatsbyLinkLocationWrapper, (0, _extends2.default)({
-    innerRef: ref
-  }, props));
-});
-
-exports["default"] = _default;
-
-var navigate = function navigate(to, options) {
-  window.___navigate((0, _rewriteLinkPath.rewriteLinkPath)(to, window.location.pathname), options);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().forwardRef((props, ref) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(GatsbyLinkLocationWrapper, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()({
+  innerRef: ref
+}, props))));
+const navigate = (to, options) => {
+  window.___navigate((0,_rewrite_link_path__WEBPACK_IMPORTED_MODULE_6__.rewriteLinkPath)(to, window.location.pathname), options);
 };
-
-exports.navigate = navigate;
 
 /***/ }),
 
@@ -1379,22 +1221,20 @@ exports.navigate = navigate;
 /*!***************************************************!*\
   !*** ./node_modules/gatsby-link/is-local-link.js ***!
   \***************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-
-
-exports.__esModule = true;
-exports.isLocalLink = void 0;
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "isLocalLink": () => (/* binding */ isLocalLink)
+/* harmony export */ });
 // Copied from https://github.com/sindresorhus/is-absolute-url/blob/3ab19cc2e599a03ea691bcb8a4c09fa3ebb5da4f/index.js
-var ABSOLUTE_URL_REGEX = /^[a-zA-Z][a-zA-Z\d+\-.]*?:/;
+const ABSOLUTE_URL_REGEX = /^[a-zA-Z][a-zA-Z\d+\-.]*?:/;
 
-var isAbsolute = function isAbsolute(path) {
-  return ABSOLUTE_URL_REGEX.test(path);
-};
+const isAbsolute = path => ABSOLUTE_URL_REGEX.test(path);
 
-var isLocalLink = function isLocalLink(path) {
-  if (typeof path !== "string") {
+const isLocalLink = path => {
+  if (typeof path !== `string`) {
     return undefined; // TODO(v5): Re-Add TypeError
     // throw new TypeError(`Expected a \`string\`, got \`${typeof path}\``)
   }
@@ -1402,44 +1242,41 @@ var isLocalLink = function isLocalLink(path) {
   return !isAbsolute(path);
 };
 
-exports.isLocalLink = isLocalLink;
-
 /***/ }),
 
 /***/ "./node_modules/gatsby-link/parse-path.js":
 /*!************************************************!*\
   !*** ./node_modules/gatsby-link/parse-path.js ***!
   \************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-
-
-exports.__esModule = true;
-exports.parsePath = parsePath;
-
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "parsePath": () => (/* binding */ parsePath)
+/* harmony export */ });
 function parsePath(path) {
-  var pathname = path || "/";
-  var search = "";
-  var hash = "";
-  var hashIndex = pathname.indexOf("#");
+  let pathname = path || `/`;
+  let search = ``;
+  let hash = ``;
+  const hashIndex = pathname.indexOf(`#`);
 
   if (hashIndex !== -1) {
-    hash = pathname.substr(hashIndex);
-    pathname = pathname.substr(0, hashIndex);
+    hash = pathname.slice(hashIndex);
+    pathname = pathname.slice(0, hashIndex);
   }
 
-  var searchIndex = pathname.indexOf("?");
+  const searchIndex = pathname.indexOf(`?`);
 
   if (searchIndex !== -1) {
-    search = pathname.substr(searchIndex);
-    pathname = pathname.substr(0, searchIndex);
+    search = pathname.slice(searchIndex);
+    pathname = pathname.slice(0, searchIndex);
   }
 
   return {
     pathname: pathname,
-    search: search === "?" ? "" : search,
-    hash: hash === "#" ? "" : hash
+    search: search === `?` ? `` : search,
+    hash: hash === `#` ? `` : hash
   };
 }
 
@@ -1449,32 +1286,28 @@ function parsePath(path) {
 /*!*******************************************************!*\
   !*** ./node_modules/gatsby-link/rewrite-link-path.js ***!
   \*******************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "rewriteLinkPath": () => (/* binding */ rewriteLinkPath)
+/* harmony export */ });
+/* harmony import */ var _gatsbyjs_reach_router_lib_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @gatsbyjs/reach-router/lib/utils */ "./node_modules/@gatsbyjs/reach-router/lib/utils.js");
+/* harmony import */ var gatsby_page_utils_apply_trailing_slash_option__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby-page-utils/apply-trailing-slash-option */ "./node_modules/gatsby-page-utils/dist/apply-trailing-slash-option.js");
+/* harmony import */ var _parse_path__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./parse-path */ "./node_modules/gatsby-link/parse-path.js");
+/* harmony import */ var _is_local_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./is-local-link */ "./node_modules/gatsby-link/is-local-link.js");
+/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! . */ "./node_modules/gatsby-link/index.js");
+ // Specific import to treeshake Node.js stuff
 
 
-exports.__esModule = true;
-exports.rewriteLinkPath = void 0;
 
-var _utils = __webpack_require__(/*! @gatsbyjs/reach-router/lib/utils */ "./node_modules/@gatsbyjs/reach-router/lib/utils.js");
 
-var _applyTrailingSlashOption = __webpack_require__(/*! gatsby-page-utils/apply-trailing-slash-option */ "./node_modules/gatsby-page-utils/dist/apply-trailing-slash-option.js");
 
-var _parsePath2 = __webpack_require__(/*! ./parse-path */ "./node_modules/gatsby-link/parse-path.js");
 
-var _isLocalLink = __webpack_require__(/*! ./is-local-link */ "./node_modules/gatsby-link/is-local-link.js");
+const isAbsolutePath = path => path === null || path === void 0 ? void 0 : path.startsWith(`/`);
 
-var _ = __webpack_require__(/*! . */ "./node_modules/gatsby-link/index.js");
-
-// Specific import to treeshake Node.js stuff
-var isAbsolutePath = function isAbsolutePath(path) {
-  return path === null || path === void 0 ? void 0 : path.startsWith("/");
-};
-
-var getGlobalTrailingSlash = function getGlobalTrailingSlash() {
-  return  true ? "legacy" : 0;
-};
+const getGlobalTrailingSlash = () =>  true ? "legacy" : 0;
 
 function absolutify(path, current) {
   // If it's already absolute, return as-is
@@ -1482,35 +1315,40 @@ function absolutify(path, current) {
     return path;
   }
 
-  return (0, _utils.resolve)(path, current);
+  const option = getGlobalTrailingSlash();
+  const absolutePath = (0,_gatsbyjs_reach_router_lib_utils__WEBPACK_IMPORTED_MODULE_0__.resolve)(path, current);
+
+  if (option === `always` || option === `never`) {
+    return (0,gatsby_page_utils_apply_trailing_slash_option__WEBPACK_IMPORTED_MODULE_1__.applyTrailingSlashOption)(absolutePath, option);
+  }
+
+  return absolutePath;
 }
 
-var rewriteLinkPath = function rewriteLinkPath(path, relativeTo) {
-  if (typeof path === "number") {
+const rewriteLinkPath = (path, relativeTo) => {
+  if (typeof path === `number`) {
     return path;
   }
 
-  if (!(0, _isLocalLink.isLocalLink)(path)) {
+  if (!(0,_is_local_link__WEBPACK_IMPORTED_MODULE_3__.isLocalLink)(path)) {
     return path;
   }
 
-  var _parsePath = (0, _parsePath2.parsePath)(path),
-      pathname = _parsePath.pathname,
-      search = _parsePath.search,
-      hash = _parsePath.hash;
+  const {
+    pathname,
+    search,
+    hash
+  } = (0,_parse_path__WEBPACK_IMPORTED_MODULE_2__.parsePath)(path);
+  const option = getGlobalTrailingSlash();
+  let adjustedPath = path;
 
-  var option = getGlobalTrailingSlash();
-  var adjustedPath = path;
-
-  if (option === "always" || option === "never") {
-    var output = (0, _applyTrailingSlashOption.applyTrailingSlashOption)(pathname, option);
-    adjustedPath = "" + output + search + hash;
+  if (option === `always` || option === `never`) {
+    const output = (0,gatsby_page_utils_apply_trailing_slash_option__WEBPACK_IMPORTED_MODULE_1__.applyTrailingSlashOption)(pathname, option);
+    adjustedPath = `${output}${search}${hash}`;
   }
 
-  return isAbsolutePath(adjustedPath) ? (0, _.withPrefix)(adjustedPath) : absolutify(adjustedPath, relativeTo);
+  return isAbsolutePath(adjustedPath) ? (0,___WEBPACK_IMPORTED_MODULE_4__.withPrefix)(adjustedPath) : absolutify(adjustedPath, relativeTo);
 };
-
-exports.rewriteLinkPath = rewriteLinkPath;
 
 /***/ }),
 
@@ -1527,24 +1365,22 @@ exports.__esModule = true;
 exports.applyTrailingSlashOption = void 0;
 
 // TODO(v5): Remove legacy setting and default to "always"
-var applyTrailingSlashOption = function applyTrailingSlashOption(input, option) {
-  if (option === void 0) {
-    option = "legacy";
+const applyTrailingSlashOption = (input, option = `legacy`) => {
+  const hasHtmlSuffix = input.endsWith(`.html`);
+  const hasXmlSuffix = input.endsWith(`.xml`);
+  const hasPdfSuffix = input.endsWith(`.pdf`);
+  if (input === `/`) return input;
+
+  if (hasHtmlSuffix || hasXmlSuffix || hasPdfSuffix) {
+    option = `never`;
   }
 
-  var hasHtmlSuffix = input.endsWith(".html");
-  if (input === "/") return input;
-
-  if (hasHtmlSuffix) {
-    option = "never";
+  if (option === `always`) {
+    return input.endsWith(`/`) ? input : `${input}/`;
   }
 
-  if (option === "always") {
-    return input.endsWith("/") ? input : input + "/";
-  }
-
-  if (option === "never") {
-    return input.endsWith("/") ? input.slice(0, -1) : input;
+  if (option === `never`) {
+    return input.endsWith(`/`) ? input.slice(0, -1) : input;
   }
 
   return input;
@@ -2067,11 +1903,11 @@ const emitter = (0,mitt__WEBPACK_IMPORTED_MODULE_0__["default"])();
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "setMatchPaths": () => (/* binding */ setMatchPaths),
+/* harmony export */   "cleanPath": () => (/* binding */ cleanPath),
 /* harmony export */   "findMatchPath": () => (/* binding */ findMatchPath),
-/* harmony export */   "grabMatchParams": () => (/* binding */ grabMatchParams),
 /* harmony export */   "findPath": () => (/* binding */ findPath),
-/* harmony export */   "cleanPath": () => (/* binding */ cleanPath)
+/* harmony export */   "grabMatchParams": () => (/* binding */ grabMatchParams),
+/* harmony export */   "setMatchPaths": () => (/* binding */ setMatchPaths)
 /* harmony export */ });
 /* harmony import */ var _gatsbyjs_reach_router_lib_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @gatsbyjs/reach-router/lib/utils */ "./node_modules/@gatsbyjs/reach-router/lib/utils.js");
 /* harmony import */ var _strip_prefix__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./strip-prefix */ "./.cache/strip-prefix.js");
@@ -2085,7 +1921,15 @@ const pathCache = new Map();
 let matchPaths = [];
 
 const trimPathname = rawPathname => {
-  const pathname = decodeURIComponent(rawPathname); // Remove the pathPrefix from the pathname.
+  let newRawPathname = rawPathname;
+  const queryIndex = rawPathname.indexOf(`?`);
+
+  if (queryIndex !== -1) {
+    const [path, qs] = rawPathname.split(`?`);
+    newRawPathname = `${path}?${encodeURIComponent(qs)}`;
+  }
+
+  const pathname = decodeURIComponent(newRawPathname); // Remove the pathPrefix from the pathname.
 
   const trimmedPathname = (0,_strip_prefix__WEBPACK_IMPORTED_MODULE_1__["default"])(pathname, decodeURIComponent("")) // Remove any hashfragment
   .split(`#`)[0];
@@ -2231,17 +2075,22 @@ const cleanPath = rawPathname => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Link": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_1__["default"]),
-/* harmony export */   "withAssetPrefix": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_1__.withAssetPrefix),
-/* harmony export */   "withPrefix": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_1__.withPrefix),
-/* harmony export */   "graphql": () => (/* binding */ graphql),
-/* harmony export */   "parsePath": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_1__.parsePath),
-/* harmony export */   "navigate": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_1__.navigate),
-/* harmony export */   "useScrollRestoration": () => (/* reexport safe */ gatsby_react_router_scroll__WEBPACK_IMPORTED_MODULE_2__.useScrollRestoration),
-/* harmony export */   "StaticQueryContext": () => (/* binding */ StaticQueryContext),
-/* harmony export */   "StaticQuery": () => (/* binding */ StaticQuery),
 /* harmony export */   "PageRenderer": () => (/* reexport default from dynamic */ _public_page_renderer__WEBPACK_IMPORTED_MODULE_3___default.a),
+/* harmony export */   "PartytownContext": () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.PartytownContext),
+/* harmony export */   "Script": () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.Script),
+/* harmony export */   "ScriptStrategy": () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.ScriptStrategy),
+/* harmony export */   "StaticQuery": () => (/* binding */ StaticQuery),
+/* harmony export */   "StaticQueryContext": () => (/* binding */ StaticQueryContext),
+/* harmony export */   "graphql": () => (/* binding */ graphql),
+/* harmony export */   "navigate": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_1__.navigate),
+/* harmony export */   "parsePath": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_1__.parsePath),
+/* harmony export */   "prefetchPathname": () => (/* binding */ prefetchPathname),
+/* harmony export */   "scriptCache": () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.scriptCache),
+/* harmony export */   "scriptCallbackCache": () => (/* reexport safe */ gatsby_script__WEBPACK_IMPORTED_MODULE_6__.scriptCallbackCache),
+/* harmony export */   "useScrollRestoration": () => (/* reexport safe */ gatsby_react_router_scroll__WEBPACK_IMPORTED_MODULE_2__.useScrollRestoration),
 /* harmony export */   "useStaticQuery": () => (/* binding */ useStaticQuery),
-/* harmony export */   "prefetchPathname": () => (/* binding */ prefetchPathname)
+/* harmony export */   "withAssetPrefix": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_1__.withAssetPrefix),
+/* harmony export */   "withPrefix": () => (/* reexport safe */ gatsby_link__WEBPACK_IMPORTED_MODULE_1__.withPrefix)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -2252,6 +2101,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_page_renderer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./public-page-renderer */ "./.cache/public-page-renderer.js");
 /* harmony import */ var _public_page_renderer__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_public_page_renderer__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _loader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./loader */ "./.cache/loader.js");
+/* harmony import */ var gatsby_script__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-script */ "./node_modules/gatsby-script/dist/index.js");
 
 
 
@@ -2326,6 +2176,7 @@ function graphql() {
 
 
 
+
 /***/ }),
 
 /***/ "./.cache/loader.js":
@@ -2337,13 +2188,13 @@ function graphql() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "PageResourceStatus": () => (/* binding */ PageResourceStatus),
 /* harmony export */   "BaseLoader": () => (/* binding */ BaseLoader),
+/* harmony export */   "PageResourceStatus": () => (/* binding */ PageResourceStatus),
 /* harmony export */   "ProdLoader": () => (/* binding */ ProdLoader),
-/* harmony export */   "setLoader": () => (/* binding */ setLoader),
-/* harmony export */   "publicLoader": () => (/* binding */ publicLoader),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "getStaticQueryResults": () => (/* binding */ getStaticQueryResults)
+/* harmony export */   "getStaticQueryResults": () => (/* binding */ getStaticQueryResults),
+/* harmony export */   "publicLoader": () => (/* binding */ publicLoader),
+/* harmony export */   "setLoader": () => (/* binding */ setLoader)
 /* harmony export */ });
 /* harmony import */ var _prefetch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./prefetch */ "./.cache/prefetch.js");
 /* harmony import */ var _emitter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./emitter */ "./.cache/emitter.js");
@@ -2408,7 +2259,10 @@ const doesConnectionSupportPrefetch = () => {
   }
 
   return true;
-};
+}; // Regex that matches common search crawlers
+
+
+const BOT_REGEX = /bot|crawler|spider|crawling/i;
 
 const toPageResources = (pageData, component = null) => {
   const page = {
@@ -2733,6 +2587,11 @@ class BaseLoader {
   shouldPrefetch(pagePath) {
     // Skip prefetching if we know user is on slow or constrained connection
     if (!doesConnectionSupportPrefetch()) {
+      return false;
+    } // Don't prefetch if this is a crawler bot
+
+
+    if (navigator.userAgent && BOT_REGEX.test(navigator.userAgent)) {
       return false;
     } // Check if the page exists.
 
@@ -3213,6 +3072,7 @@ function stripPrefix(str, prefix = ``) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "BaseContext": () => (/* binding */ BaseContext),
 /* harmony export */   "Link": () => (/* binding */ Link),
 /* harmony export */   "Location": () => (/* binding */ Location),
 /* harmony export */   "LocationProvider": () => (/* binding */ LocationProvider),
@@ -3222,16 +3082,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ServerLocation": () => (/* binding */ ServerLocation),
 /* harmony export */   "createHistory": () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_4__.createHistory),
 /* harmony export */   "createMemorySource": () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_4__.createMemorySource),
+/* harmony export */   "globalHistory": () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_4__.globalHistory),
 /* harmony export */   "isRedirect": () => (/* binding */ isRedirect),
+/* harmony export */   "matchPath": () => (/* reexport safe */ _lib_utils__WEBPACK_IMPORTED_MODULE_3__.match),
 /* harmony export */   "navigate": () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_4__.navigate),
 /* harmony export */   "redirectTo": () => (/* binding */ redirectTo),
-/* harmony export */   "globalHistory": () => (/* reexport safe */ _lib_history__WEBPACK_IMPORTED_MODULE_4__.globalHistory),
-/* harmony export */   "matchPath": () => (/* reexport safe */ _lib_utils__WEBPACK_IMPORTED_MODULE_3__.match),
 /* harmony export */   "useLocation": () => (/* binding */ useLocation),
-/* harmony export */   "useNavigate": () => (/* binding */ useNavigate),
-/* harmony export */   "useParams": () => (/* binding */ useParams),
 /* harmony export */   "useMatch": () => (/* binding */ useMatch),
-/* harmony export */   "BaseContext": () => (/* binding */ BaseContext)
+/* harmony export */   "useNavigate": () => (/* binding */ useNavigate),
+/* harmony export */   "useParams": () => (/* binding */ useParams)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
@@ -4564,6 +4423,85 @@ module.exports = (string, separator) => {
 
 module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.charCodeAt(0).toString(16).toUpperCase()}`);
 
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+module.exports = _assertThisInitialized, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/inheritsLoose.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/inheritsLoose.js ***!
+  \**************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  setPrototypeOf(subClass, superClass);
+}
+
+module.exports = _inheritsLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js ***!
+  \*****************************************************************************/
+/***/ ((module) => {
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+module.exports = _objectWithoutPropertiesLoose, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
+  \***************************************************************/
+/***/ ((module) => {
+
+function _setPrototypeOf(o, p) {
+  module.exports = _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
+  return _setPrototypeOf(o, p);
+}
+
+module.exports = _setPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 

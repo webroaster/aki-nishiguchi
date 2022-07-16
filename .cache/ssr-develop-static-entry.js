@@ -11,6 +11,9 @@ import syncRequires from "$virtual/ssr-sync-requires"
 import { RouteAnnouncerProps } from "./route-announcer-props"
 import { ServerLocation, Router, isRedirect } from "@reach/router"
 
+// prefer default export if available
+const preferDefault = m => (m && m.default) || m
+
 // import testRequireError from "./test-require-error"
 // For some extremely mysterious reason, webpack adds the above module *after*
 // this module so that when this code runs, testRequireError is undefined.
@@ -48,13 +51,13 @@ try {
 
 Html = Html && Html.__esModule ? Html.default : Html
 
-export default async function staticPage(
+export default async function staticPage({
   pagePath,
   isClientOnlyPage,
   publicDir,
   error,
-  callback
-) {
+  serverData,
+}) {
   let bodyHtml = ``
   let headComponents = [
     <meta key="environment" name="note" content="environment=development" />,
@@ -225,26 +228,17 @@ export default async function staticPage(
         const props = {
           ...this.props,
           ...pageData.result,
+          serverData,
           params: {
             ...grabMatchParams(this.props.location.pathname),
             ...(pageData.result?.pageContext?.__params || {}),
           },
         }
 
-        let pageElement
-        if (
-          syncRequires.ssrComponents[componentChunkName] &&
-          !isClientOnlyPage
-        ) {
-          pageElement = React.createElement(
-            syncRequires.ssrComponents[componentChunkName],
-            props
-          )
-        } else {
-          // If this is a client-only page or the pageComponent didn't finish
-          // compiling yet, just render an empty component.
-          pageElement = () => null
-        }
+        const pageElement = React.createElement(
+          preferDefault(syncRequires.ssrComponents[componentChunkName]),
+          props
+        )
 
         const wrappedPage = apiRunner(
           `wrapPageElement`,
@@ -259,14 +253,15 @@ export default async function staticPage(
       }
     }
 
-    const routerElement = (
-      <ServerLocation url={`${__BASE_PATH__}${pagePath}`}>
-        <Router id="gatsby-focus-wrapper" baseuri={__BASE_PATH__}>
-          <RouteHandler path="/*" />
-        </Router>
-        <div {...RouteAnnouncerProps} />
-      </ServerLocation>
-    )
+    const routerElement =
+      syncRequires.ssrComponents[componentChunkName] && !isClientOnlyPage ? (
+        <ServerLocation url={`${__BASE_PATH__}${pagePath}`}>
+          <Router id="gatsby-focus-wrapper" baseuri={__BASE_PATH__}>
+            <RouteHandler path="/*" />
+          </Router>
+          <div {...RouteAnnouncerProps} />
+        </ServerLocation>
+      ) : null
 
     const bodyComponent = apiRunner(
       `wrapRootElement`,
@@ -348,5 +343,9 @@ export default async function staticPage(
   let htmlStr = renderToStaticMarkup(htmlElement)
   htmlStr = `<!DOCTYPE html>${htmlStr}`
 
-  callback(null, htmlStr)
+  return htmlStr
+}
+
+export function getPageChunk({ componentChunkName }) {
+  return syncRequires.ssrComponents[componentChunkName]
 }
